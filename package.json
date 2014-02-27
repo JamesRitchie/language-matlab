@@ -1,0 +1,13 @@
+{
+  "name": "language-matlab",
+  "version": "0.0.0",
+  "private": true,
+  "description": "MATLAB/Octave language support for Atom",
+  "repository": "https://github.com/JamesRitchie/language-matlab",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
