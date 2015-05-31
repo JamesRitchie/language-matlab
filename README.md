@@ -4,3 +4,8 @@
 from [matlab.tmbundle](https://github.com/textmate/matlab.tmbundle).
 
 Contributions welcome.
+
+## Contributors
+
+* [James Ritchie](https:github.com/JamesRitchie)
+* [Salvatore Gentile](https://github.com/SalGnt)
