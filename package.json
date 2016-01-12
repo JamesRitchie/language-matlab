@@ -1,6 +1,6 @@
 {
   "name": "language-matlab",
-  "version": "0.2.0",
+  "version": "0.1.1",
   "description": "MATLAB/Octave language support for Atom",
   "keywords": [
     "MATLAB",
