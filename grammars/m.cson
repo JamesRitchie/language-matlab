@@ -141,7 +141,7 @@ repository:
             ]
           }
           {
-            beginCaptures:
+            captures:
               "0":
                 name: "meta.elseif-condition.matlab"
               "2":
@@ -157,7 +157,7 @@ repository:
             name: "meta.elseif.matlab"
           }
           {
-            beginCaptures:
+            captures:
               "0":
                 name: "meta.else-condition.matlab"
               "2":
@@ -223,7 +223,7 @@ repository:
             ]
           }
           {
-            beginCaptures:
+            captures:
               "0":
                 name: "meta.case-expression.matlab"
               "2":
@@ -265,7 +265,7 @@ repository:
         name: "meta.try.matlab"
         patterns: [
           {
-            beginCaptures:
+            captures:
               "0":
                 name: "meta.catch-exception.matlab"
               "2":
@@ -582,23 +582,23 @@ repository:
       {
         begin: '''
           (?x)
-          						(^\\s*)								# Leading whitespace
-          						(classdef)
-          						\\s+
-          						(									# Optional attributes
-          							\\( [^)]* \\)
-          							\\s*
-          						)?
-          						(
-          							([a-zA-Z_]\\w*)					# Class name
-          							(?:								# Optional inheritance
-          								\\s*
-          								(<)
-          								\\s*
-          								([^%]*)
-          							)?
-          						)
-          						\\s*($|(?=%))
+                      (^\\s*)               # Leading whitespace
+                      (classdef)
+                      \\s+
+                      (                 # Optional attributes
+                        \\( [^)]* \\)
+                        \\s*
+                      )?
+                      (
+                        ([a-zA-Z_]\\w*)         # Class name
+                        (?:               # Optional inheritance
+                          \\s*
+                          (<)
+                          \\s*
+                          ([^%]*)
+                        )?
+                      )
+                      \\s*($|(?=%))
 
         '''
         beginCaptures:
@@ -650,13 +650,13 @@ repository:
           {
             begin: '''
               (?x)
-              								(^\\s*)								# Leading whitespace
-              								(properties)
-              								\\s+
-              								(									# Optional attributes
-              									\\( [^)]* \\)
-              								)?
-              								\\s*($|(?=%))
+                              (^\\s*)               # Leading whitespace
+                              (properties)
+                              \\s+
+                              (                 # Optional attributes
+                                \\( [^)]* \\)
+                              )?
+                              \\s*($|(?=%))
 
             '''
             beginCaptures:
@@ -697,13 +697,13 @@ repository:
           {
             begin: '''
               (?x)
-              								(^\\s*)								# Leading whitespace
-              								(methods)
-              								\\s+
-              								(									# Optional attributes
-              									\\( [^)]* \\)
-              								)?
-              								\\s*($|(?=%))
+                              (^\\s*)               # Leading whitespace
+                              (methods)
+                              \\s+
+                              (                 # Optional attributes
+                                \\( [^)]* \\)
+                              )?
+                              \\s*($|(?=%))
 
             '''
             beginCaptures:
@@ -744,13 +744,13 @@ repository:
           {
             begin: '''
               (?x)
-              								(^\\s*)								# Leading whitespace
-              								(events)
-              								\\s+
-              								(									# Optional attributes
-              									\\( [^)]* \\)
-              								)?
-              								\\s*($|(?=%))
+                              (^\\s*)               # Leading whitespace
+                              (events)
+                              \\s+
+                              (                 # Optional attributes
+                                \\( [^)]* \\)
+                              )?
+                              \\s*($|(?=%))
 
             '''
             beginCaptures:
@@ -786,9 +786,9 @@ repository:
           {
             begin: '''
               (?x)
-              								(^\\s*)								# Leading whitespace
-              								(enumeration)
-              								\\s*($|(?=%))
+                              (^\\s*)               # Leading whitespace
+                              (enumeration)
+                              \\s*($|(?=%))
 
             '''
             beginCaptures:
@@ -896,18 +896,18 @@ repository:
       {
         begin: '''
           (?x)
-          						(^\\s*)								# Leading whitespace
-          						(function)
-          						\\s+
-          						(?:									# Optional
-          							(?:
-          								(\\[) ([^\\]]*) (\\])
-          							  | ([a-zA-Z_]\\w*)
-          							)
-          							\\s* = \\s*
-          						)?
-          						([a-zA-Z_]\\w*)						# Function name
-          						\\s*									# Trailing space
+                      (^\\s*)               # Leading whitespace
+                      (function)
+                      \\s+
+                      (?:                 # Optional
+                        (?:
+                          (\\[) ([^\\]]*) (\\])
+                          | ([a-zA-Z_]\\w*)
+                        )
+                        \\s* = \\s*
+                      )?
+                      ([a-zA-Z_]\\w*)           # Function name
+                      \\s*                  # Trailing space
 
         '''
         beginCaptures:
