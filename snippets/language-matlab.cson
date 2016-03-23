@@ -1,4 +1,32 @@
+# MATLAB snippets. Note: Octave and combined MATLAB/Octave snippets below.
 ".source.matlab":
+	"if … else …end":
+		prefix: "ife"
+		body: '''
+				if ${1:condition}
+					$2
+				else
+					$3
+				end
+			  '''
+	"if … elseif … end":
+		prefix: "ifeif"
+		body: '''
+				if ${1:condition}
+					${2:body}
+				elseif ${3:condition}
+					${4:body}
+				else
+					${5:body}
+				end
+			'''
+	"if … end":
+		prefix: "if"
+		body: '''
+				if ${1:condition}
+					$0
+				end
+			'''
 	"switch … case … end":
 		prefix: "switch"
 		body: '''
@@ -26,8 +54,79 @@
 					$0
 				end
 		'''
+	"while":
+		prefix: "whi"
+		body: '''
+				while ${1:condition}
+					${2:body}
+				end
+			'''
 
-# Combined MATLAB and Octave snippets below
+# Octave snippets
+".source.octave":
+	"if … else …end":
+		prefix: "ife"
+		body: '''
+				if ${1:condition}
+					$2
+				else
+					$3
+				endif
+			  '''
+	"if … elseif … end":
+		prefix: "ifeif"
+		body: '''
+				if ${1:condition}
+					${2:body}
+				elseif ${3:condition}
+					${4:body}
+				else
+					${5:body}
+				endif
+			'''
+	"if … end":
+		prefix: "if"
+		body: '''
+				if ${1:condition}
+					$0
+				endif
+			'''
+	"switch … case … end":
+		prefix: "switch"
+		body: '''
+				switch ${1:var}
+					case ${2:'${3:string}'}
+						$0
+				endswitch
+		'''
+	"switch … case … otherwise … end":
+		prefix: "switcho"
+		body: '''
+				switch ${1:var}
+					case ${2:'${3:string}'}
+						$4
+					otherwise
+						$0
+				endswitch
+		'''
+	"try … catch … end":
+		prefix: "try"
+		body: '''
+				try
+					$1
+				catch
+					$0
+				endtry
+		'''
+	"while":
+		prefix: "whi"
+		body: '''
+				while ${1:condition}
+					${2:body}
+				endwhile
+			'''
+
+# Combined MATLAB and Octave snippets
 ".source.matlab, .source.octave":
 	"^":
 		prefix: "^"
@@ -105,33 +204,6 @@
 	"griddata":
 		prefix: "griddata"
 		body: "griddata(${1:xx}, ${2:yy}, ${3:zz}, ${4:xi}, ${5:yi}); "
-	"if … else …end":
-		prefix: "ife"
-		body: '''
-				if ${1:condition}
-					$2
-				else
-					$3
-				end
-			  '''
-	"if … elseif … end":
-		prefix: "ifeif"
-		body: '''
-				if ${1:condition}
-					${2:body}
-				elseif ${3:condition}
-					${4:body}
-				else
-					${5:body}
-				end
-			'''
-	"if … end":
-		prefix: "if"
-		body: '''
-				if ${1:condition}
-					$0
-				end
-			'''
 	"line":
 		prefix: "line"
 		body: '''
@@ -176,13 +248,6 @@
 	"warning":
 		prefix: "war"
 		body: "warning(['${1:Description}']);"
-	"while":
-		prefix: "whi"
-		body: '''
-				while ${1:condition}
-					${2:body}
-				end
-			'''
 	"xlabel":
 		prefix: "xla"
 		body: "set(get(gca,'XLabel'),'String',${1:'${2}'});"
