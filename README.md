@@ -9,3 +9,5 @@ Contributions welcome.
 
 * [James Ritchie](https:github.com/JamesRitchie)
 * [Salvatore Gentile](https://github.com/SalGnt)
+* [Tom Rijndorp](https://github.com/tomrijndorp)
+
