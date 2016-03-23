@@ -1,276 +1,200 @@
 ".source.matlab":
-  "Octave function":
-    prefix: "octfun"
-    body: '''
-      ## Copyright (C) ${TM_YEAR} $TM_FULLNAME
-      ##
-      ## This program is free software; you can redistribute it and/or modify
-      ## it under the terms of the GNU General Public License as published by
-      ## the Free Software Foundation; either version 2 of the License, or
-      ## (at your option) any later version.
-      ##
-      ## This program is distributed in the hope that it will be useful,
-      ## but WITHOUT ANY WARRANTY; without even the implied warranty of
-      ## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-      ## GNU General Public License for more details.
-      ##
-      ## You should have received a copy of the GNU General Public License
-      ## along with this program; If not, see <http://www.gnu.org/licenses/>.
+	"switch … case … end":
+		prefix: "switch"
+		body: '''
+				switch ${1:var}
+					case ${2:'${3:string}'}
+						$0
+				end
+		'''
+	"switch … case … otherwise … end":
+		prefix: "switcho"
+		body: '''
+				switch ${1:var}
+					case ${2:'${3:string}'}
+						$4
+					otherwise
+						$0
+				end
+		'''
+	"try … catch … end":
+		prefix: "try"
+		body: '''
+				try
+					$1
+				catch
+					$0
+				end
+		'''
 
-      ## -*- texinfo -*-
-      ## @deftypefn {Function File} {${1:Outputs} = } ${2:Function Name} (${3:Input Arguments)
-      ## ${4:Short Description}
-      ##
-      ## ${5:Long Description}
-      ##
-      ## @seealso{${6:functions}}
-      ## @end deftypefn
-
-      ## Author:  $TM_FULLNAME
-
-      $0
-
-      endfunction
-    '''
-  "switch … case … end":
-    prefix: "switch"
-    body: '''
-      switch ${1:var}
-      case ${2:'${3:string}'}
-      	$0
-      `if [[ $TM_USE_OCTAVE -ne '0' ]]
-      	then echo "endswitch"
-      else
-      	echo "end"
-      fi`
-    '''
-  "switch … case … otherwise … end":
-    prefix: "switcho"
-    body: '''
-      switch ${1:var}
-      	case ${2:'${3:string}'}
-      		$4
-      	otherwise
-      		$0
-      `if [[ $TM_USE_OCTAVE -ne '0' ]]
-      	then echo "endswitch"
-      else
-      	echo "end"
-      fi`
-    '''
-  "try … catch … end":
-    prefix: "try"
-    body: '''
-      try
-      	$1
-      catch
-      	$0
-      `if [[ $TM_USE_OCTAVE -ne '0' ]]
-      	then echo "end_try_catch"
-      else
-      	echo "end"
-      fi`
-    '''
-  "unwind_protect … cleanup … end":
-    prefix: "unwind"
-    body: '''
-      unwind_protect
-      	$1
-      unwnd_protect_cleanup
-      	$0
-      end_unwind_protect
-    '''
+# Combined MATLAB and Octave snippets below
 ".source.matlab, .source.octave":
-  "^":
-    prefix: "^"
-    body: "^($1) $2"
-  case:
-    prefix: "case"
-    body: '''
-      case ${2:'${3:string}'}
-      	$0
-    '''
-  "disp sprintf":
-    prefix: "dsp"
-    body: "disp(sprintf('${1:%s}\\\\n'${1/([^%]|%%)*(%.)?.*/(?2:, :\\))/}$2${1/([^%]|%%)*(%.)?.*/(?2:\\))/});"
-  disp:
-    prefix: "disp"
-    body: "disp('${1:Text}');"
-  dlmwrite:
-    prefix: "dlmwrite"
-    body: '''
-      dlmwrite('${1:filename}.dat', [${2:variables}], ${3:'${4:delimiter}', '${5:\\t}'});
-      $0
-    '''
-  else:
-    prefix: "else"
-    body: '''
-      else
-      	${1:body}
-    '''
-  elseif:
-    prefix: "elseif"
-    body: '''
-      elseif ${1:condition}
-      	$0
-    '''
-  error:
-    prefix: "error"
-    body: "error('${1:Description}');"
-  exp:
-    prefix: "e"
-    body: "exp($1) $2"
-  "for … end cell strings":
-    prefix: "fors"
-    body: '''
-      for ${1:s} = transpose(${2:strings}(:)); $1 = $1{1};
-      	$0
-      `if [[ $TM_USE_OCTAVE -ne '0' ]]
-      	then echo "endfor"
-      else
-      	echo "end"
-      fi`; clear $1;
-    '''
-  "for … end":
-    prefix: "for"
-    body: '''
-      for ${1:ii}=${2:1}${3::${4:n}}
-      	$0
-      `if [[ $TM_USE_OCTAVE -ne '0' ]]
-      	then echo "endfor"
-      else
-      	echo "end"
-      fi`
-    '''
-  fprintf:
-    prefix: "fpr"
-    body: "fprintf(${1:fid}, '${2:%s}\\\\n'${2/([^%]|%%)*(%.)?.*/(?2:, :\\);)/}$3${2/([^%]|%%)*(%.)?.*/(?2:\\);)/}"
-  function:
-    prefix: "function"
-    body: '''
-      function ${1:out} = ${2:?${TM_FILENAME/\\.m//:f}}(${3:in})
-      % ${2/.*/\\U$0/} ${4:Description}
-      %	${1/.*/\\U$0/} = ${2/.*/\\U$0/}(${6:${3/.*/\\U$0/}})
-      %
-      % ${5:Long description}
+	"^":
+		prefix: "^"
+		body: "^($1) $2"
+	"case":
+		prefix: "case"
+		body: '''
+				case ${2:'${3:string}'}
+					$0
+			'''
+	"disp sprintf":
+		prefix: "dsp"
+		body: '''
+				disp(sprintf('${1:%s}\\n', $2));
+		'''
+	"disp":
+		prefix: "disp"
+		body: "disp('${1:Text}');"
+	"dlmwrite":
+		prefix: "dlmwrite"
+		body: '''
+				dlmwrite('${1:filename}.dat', [${2:variables}], ${3:'${4:delimiter}', '${5:\\t}'});
+				$0
+			  '''
+	"else":
+		prefix: "else"
+		body: '''
+				else
+					${1:body}
+			  '''
+	"elseif":
+		prefix: "elseif"
+		body: '''
+				elseif ${1:condition}
+					$0
+			  '''
+	"error":
+		prefix: "error"
+		body: "error('${1:Description}');"
+	"exp":
+		prefix: "e"
+		body: "exp($1) $2"
+	"for … end cell strings":
+		prefix: "fors"
+		body: '''
+				for ${1:s} = transpose(${2:strings}(:)); $1 = $1{1};
+					$0
+				end
+			  '''
+	"for … end":
+		prefix: "for"
+		body: '''
+				for ${1:i}=${2:1}${3::${4:n}}
+					$0
+				end
+			  '''
+	"fprintf":
+		prefix: "fpr"
+		body: '''
+			fprintf(${1:fid}, ${2:%s}\\n, $3);
+		'''
+	"function":
+		prefix: "function"
+		body: '''
+			[ ${1:out} ] = ${2:function}( ${3:in} )
+			% ${2:function}: ${4:Short description}
+			%
+			% ${5:Extended description}
 
-      $0
+			end  % ${2:function}
+		'''
+	"get":
+		prefix: "get"
+		body: "get(${1:gca},'${2:PropertyName}');"
+	"griddata":
+		prefix: "griddata"
+		body: "griddata(${1:xx}, ${2:yy}, ${3:zz}, ${4:xi}, ${5:yi}); "
+	"if … else …end":
+		prefix: "ife"
+		body: '''
+				if ${1:condition}
+					$2
+				else
+					$3
+				end
+			  '''
+	"if … elseif … end":
+		prefix: "ifeif"
+		body: '''
+				if ${1:condition}
+					${2:body}
+				elseif ${3:condition}
+					${4:body}
+				else
+					${5:body}
+				end
+			'''
+	"if … end":
+		prefix: "if"
+		body: '''
+				if ${1:condition}
+					$0
+				end
+			'''
+	"line":
+		prefix: "line"
+		body: '''
+				line(${1:xvector},${2:yvector}${3:,'Color','${4:b}','LineWidth',${5:1},'LineStyle','${6:-}'})
+			'''
+	"nargchk":
+		prefix: "nargchk"
+		body: '''
+				error(nargchk(${1:min}, ${2:max}, ${3:nargin}, `if [[ $TM_USE_OCTAVE -eq '0' ]]; then
+					echo -n "'struct'"
+				fi` ));
 
-      `if [[ $TM_CLOSE_FUNCTIONS -ne '0' ]]
-      	then
-      	if [[ $TM_USE_OCTAVE -ne '0' ]]
-      		then echo "endfunction"
-      	else
-      		echo "end ${TM_COMMENT_START}function"
-      	fi
-      fi`
-
-    '''
-  get:
-    prefix: "get"
-    body: "get(${1:gca},'${2:PropertyName}');"
-  griddata:
-    prefix: "griddata"
-    body: "griddata(${1:xx}, ${2:yy}, ${3:zz}, ${4:xi}, ${5:yi}); "
-  "if … else …end":
-    prefix: "ife"
-    body: '''
-      if ${1:condition}
-      	$2
-      else
-      	$3
-      `if [[ $TM_USE_OCTAVE -ne '0' ]]
-      	then echo "endif"
-      else
-      	echo "end"
-      fi`
-    '''
-  "if … elseif … end":
-    prefix: "ifeif"
-    body: '''
-      if ${1:condition}
-      	${2:body}
-      elseif ${3:condition}
-      	${4:body}
-      else
-      	${5:body}
-      end
-
-    '''
-  "if … end":
-    prefix: "if"
-    body: '''
-      if ${1:condition}
-      	$0
-      `if [[ $TM_USE_OCTAVE -ne '0' ]]
-      	then echo "endif"
-      else
-      	echo "end"
-      fi`
-    '''
-  line:
-    prefix: "line"
-    body: '''
-      line(${1:xvector},${2:yvector}${3:,'Color','${4:b}','LineWidth',${5:1},'LineStyle','${6:-}'})
-
-    '''
-  nargchk:
-    prefix: "nargchk"
-    body: '''
-      error(nargchk(${1:min}, ${2:max}, ${3:nargin}, `if [[ $TM_USE_OCTAVE -eq '0' ]]; then
-      	echo -n "'struct'"
-      fi` ));
-
-    '''
-  set:
-    prefix: "set"
-    body: "set(${1:get(${2:gca},'${3:PropertyName}')},'${4:PropertyName}',${5:PropertyValue});"
-  "small function":
-    prefix: "f"
-    body: '''
-      function ${1:out} = ${2:f}(${3:in})
-      	$0
-      `if [[ $TM_CLOSE_FUNCTIONS -ne '0' ]]
-      	then
-      	if [[ $TM_USE_OCTAVE -ne '0' ]]
-      		then echo "endfunction"
-      	else
-      		echo "end"
-      	fi
-      fi`
-    '''
-  sprintf:
-    prefix: "spr"
-    body: "sprintf('${1:%s}\\\\n'${1/([^%]|%%)*(%.)?.*/(?2:, :\\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\\);)/}"
-  title:
-    prefix: "zla"
-    body: "set(get(gca,'Title'),'String',${1:'${2}'});"
-  unix:
-    prefix: "uni"
-    body: "[${1:s},${2:w}] = unix('${3:Unix commands}');"
-  warning:
-    prefix: "war"
-    body: "warning(['${1:Description}']);"
-  while:
-    prefix: "whi"
-    body: '''
-      while ${1:condition}
-      	${2:body}
-      end
-
-    '''
-  xlabel:
-    prefix: "xla"
-    body: "set(get(gca,'XLabel'),'String',${1:'${2}'});"
-  xtick:
-    prefix: "xti"
-    body: "set(gca,'XTick',${1:[${2}]});"
-  ylabel:
-    prefix: "yla"
-    body: "set(get(gca,'YLabel'),'String',${1:'${2}'});"
-  ytick:
-    prefix: "yti"
-    body: "set(gca,'YTick',${1:[${2}]});"
-  zlabel:
-    prefix: "zla"
-    body: "set(get(gca,'ZLabel'),'String',${1:'${2}'});"
+			  '''
+	"set":
+		prefix: "set"
+		body: "set(${1:get(${2:gca},'${3:PropertyName}')},'${4:PropertyName}',${5:PropertyValue});"
+	# "small function":
+	# 	prefix: "f"
+	# 	body: '''
+	# 			function ${1:out} = ${2:f}(${3:in})
+	# 				$0
+	# 			`if [[ $TM_CLOSE_FUNCTIONS -ne '0' ]]
+	# 				then
+	# 				if [[ $TM_USE_OCTAVE -ne '0' ]]
+	# 					then echo "endfunction"
+	# 				else
+	# 					echo "end"
+	# 				fi
+	# 			fi`
+	# 		  '''
+	"sprintf":
+		prefix: "spr"
+		body: '''
+			sprintf('${1:%s}\\n', $2);
+		'''
+	"title":
+		prefix: "zla"
+		body: "set(get(gca,'Title'),'String',${1:'${2}'});"
+	"unix":
+		prefix: "uni"
+		body: "[${1:s},${2:w}] = unix('${3:Unix commands}');"
+	"warning":
+		prefix: "war"
+		body: "warning(['${1:Description}']);"
+	"while":
+		prefix: "whi"
+		body: '''
+				while ${1:condition}
+					${2:body}
+				end
+			'''
+	"xlabel":
+		prefix: "xla"
+		body: "set(get(gca,'XLabel'),'String',${1:'${2}'});"
+	"xtick":
+		prefix: "xti"
+		body: "set(gca,'XTick',${1:[${2}]});"
+	"ylabel":
+		prefix: "yla"
+		body: "set(get(gca,'YLabel'),'String',${1:'${2}'});"
+	"ytick":
+		prefix: "yti"
+		body: "set(gca,'YTick',${1:[${2}]});"
+	"zlabel":
+		prefix: "zla"
+		body: "set(get(gca,'ZLabel'),'String',${1:'${2}'});"
