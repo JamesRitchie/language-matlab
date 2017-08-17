@@ -1,0 +1,363 @@
+# matlabcomp20 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'AbstractKineticLaw	SimBio method':
+    'prefix': 'AbstractKineticLaw	SimBio method'
+    'body': 'AbstractKineticLaw(${1:args})'
+
+  'Compartment	SimBio method':
+    'prefix': 'Compartment	SimBio method'
+    'body': 'Compartment(${1:args})'
+
+  'CompileOptions	SimBio method':
+    'prefix': 'CompileOptions	SimBio method'
+    'body': 'CompileOptions(${1:args})'
+
+  'Configset	SimBio method':
+    'prefix': 'Configset	SimBio method'
+    'body': 'Configset(${1:args})'
+
+  'CovariateModel	SimBio method':
+    'prefix': 'CovariateModel	SimBio method'
+    'body': 'CovariateModel(${1:args})'
+
+  'EstimatedInfo	SimBio method':
+    'prefix': 'EstimatedInfo	SimBio method'
+    'body': 'EstimatedInfo(${1:args})'
+
+  'Event	SimBio method':
+    'prefix': 'Event	SimBio method'
+    'body': 'Event(${1:args})'
+
+  'GroupedData	SimBio method':
+    'prefix': 'GroupedData	SimBio method'
+    'body': 'GroupedData(${1:args})'
+
+  'KineticLaw	SimBio method':
+    'prefix': 'KineticLaw	SimBio method'
+    'body': 'KineticLaw(${1:args})'
+
+  'LeastSquaresResults	SimBio method':
+    'prefix': 'LeastSquaresResults	SimBio method'
+    'body': 'LeastSquaresResults(${1:args})'
+
+  'Model	SimBio method':
+    'prefix': 'Model	SimBio method'
+    'body': 'Model(${1:args})'
+
+  'NLINResults	SimBio method':
+    'prefix': 'NLINResults	SimBio method'
+    'body': 'NLINResults(${1:args})'
+
+  'NLMEResults	SimBio method':
+    'prefix': 'NLMEResults	SimBio method'
+    'body': 'NLMEResults(${1:args})'
+
+  'OptimResults	SimBio method':
+    'prefix': 'OptimResults	SimBio method'
+    'body': 'OptimResults(${1:args})'
+
+  'PKCompartment	SimBio method':
+    'prefix': 'PKCompartment	SimBio method'
+    'body': 'PKCompartment(${1:args})'
+
+  'PKModelDesign	SimBio method':
+    'prefix': 'PKModelDesign	SimBio method'
+    'body': 'PKModelDesign(${1:args})'
+
+  'PKModelMap	SimBio method':
+    'prefix': 'PKModelMap	SimBio method'
+    'body': 'PKModelMap(${1:args})'
+
+  'Parameter	SimBio method':
+    'prefix': 'Parameter	SimBio method'
+    'body': 'Parameter(${1:args})'
+
+  'Reaction	SimBio method':
+    'prefix': 'Reaction	SimBio method'
+    'body': 'Reaction(${1:args})'
+
+  'RepeatDose	SimBio method':
+    'prefix': 'RepeatDose	SimBio method'
+    'body': 'RepeatDose(${1:args})'
+
+  'Root	SimBio method':
+    'prefix': 'Root	SimBio method'
+    'body': 'Root(${1:args})'
+
+  'Rule	SimBio method':
+    'prefix': 'Rule	SimBio method'
+    'body': 'Rule(${1:args})'
+
+  'RuntimeOptions	SimBio method':
+    'prefix': 'RuntimeOptions	SimBio method'
+    'body': 'RuntimeOptions(${1:args})'
+
+  'ScheduleDose	SimBio method':
+    'prefix': 'ScheduleDose	SimBio method'
+    'body': 'ScheduleDose(${1:args})'
+
+  'SensitivityAnalysisOptions	SimBio method':
+    'prefix': 'SensitivityAnalysisOptions	SimBio method'
+    'body': 'SensitivityAnalysisOptions(${1:args})'
+
+  'SimBiology.export.Model	SimBio method':
+    'prefix': 'SimBiology.export.Model	SimBio method'
+    'body': 'SimBiology.export.Model(${1:args})'
+
+  'SimBiology.export.Model.accelerate	SimBio method':
+    'prefix': 'SimBiology.export.Model.accelerate	SimBio method'
+    'body': 'SimBiology.export.Model.accelerate(${1:args})'
+
+  'SimBiology.export.Model.simulate	SimBio method':
+    'prefix': 'SimBiology.export.Model.simulate	SimBio method'
+    'body': 'SimBiology.export.Model.simulate(${1:args})'
+
+  'SimData	SimBio method':
+    'prefix': 'SimData	SimBio method'
+    'body': 'SimData(${1:args})'
+
+  'SimFunction	SimBio method':
+    'prefix': 'SimFunction	SimBio method'
+    'body': 'SimFunction(${1:args})'
+
+  'SimFunctionSensitivity	SimBio method':
+    'prefix': 'SimFunctionSensitivity	SimBio method'
+    'body': 'SimFunctionSensitivity(${1:args})'
+
+  'SolverOptions	SimBio method':
+    'prefix': 'SolverOptions	SimBio method'
+    'body': 'SolverOptions(${1:args})'
+
+  'Species	SimBio method':
+    'prefix': 'Species	SimBio method'
+    'body': 'Species(${1:args})'
+
+  'Unit	SimBio method':
+    'prefix': 'Unit	SimBio method'
+    'body': 'Unit(${1:args})'
+
+  'UnitPrefix	SimBio method':
+    'prefix': 'UnitPrefix	SimBio method'
+    'body': 'UnitPrefix(${1:args})'
+
+  'addCompartment	SimBio method':
+    'prefix': 'addCompartment	SimBio method'
+    'body': 'addCompartment(${1:args})'
+
+  'addcompartment	SimBio method':
+    'prefix': 'addcompartment	SimBio method'
+    'body': 'addcompartment(${1:args})'
+
+  'addconfigset	SimBio method':
+    'prefix': 'addconfigset	SimBio method'
+    'body': 'addconfigset(${1:args})'
+
+  'adddose	SimBio method':
+    'prefix': 'adddose	SimBio method'
+    'body': 'adddose(${1:args})'
+
+  'addparameter	SimBio method':
+    'prefix': 'addparameter	SimBio method'
+    'body': 'addparameter(${1:args})'
+
+  'addreaction	SimBio method':
+    'prefix': 'addreaction	SimBio method'
+    'body': 'addreaction(${1:args})'
+
+  'addspecies	SimBio method':
+    'prefix': 'addspecies	SimBio method'
+    'body': 'addspecies(${1:args})'
+
+  'addvariant	SimBio method':
+    'prefix': 'addvariant	SimBio method'
+    'body': 'addvariant(${1:args})'
+
+  'construct	SimBio method':
+    'prefix': 'construct	SimBio method'
+    'body': 'construct(${1:args})'
+
+  'createSimFunction	SimBio method':
+    'prefix': 'createSimFunction	SimBio method'
+    'body': 'createSimFunction(${1:args})'
+
+  'getconfigset	SimBio method':
+    'prefix': 'getconfigset	SimBio method'
+    'body': 'getconfigset(${1:args})'
+
+  'groupedData	SimBio method':
+    'prefix': 'groupedData	SimBio method'
+    'body': 'groupedData(${1:args})'
+
+  'sbioabstractkineticlaw	SimBio method':
+    'prefix': 'sbioabstractkineticlaw	SimBio method'
+    'body': 'sbioabstractkineticlaw(${1:args})'
+
+  'sbioaccelerate	SimBio method':
+    'prefix': 'sbioaccelerate	SimBio method'
+    'body': 'sbioaccelerate(${1:args})'
+
+  'sbioaddtolibrary	SimBio method':
+    'prefix': 'sbioaddtolibrary	SimBio method'
+    'body': 'sbioaddtolibrary(${1:args})'
+
+  'sbioconvertunits	SimBio method':
+    'prefix': 'sbioconvertunits	SimBio method'
+    'body': 'sbioconvertunits(${1:args})'
+
+  'sbiocopylibrary	SimBio method':
+    'prefix': 'sbiocopylibrary	SimBio method'
+    'body': 'sbiocopylibrary(${1:args})'
+
+  'sbiodose	SimBio method':
+    'prefix': 'sbiodose	SimBio method'
+    'body': 'sbiodose(${1:args})'
+
+  'sbioensembleplot	SimBio method':
+    'prefix': 'sbioensembleplot	SimBio method'
+    'body': 'sbioensembleplot(${1:args})'
+
+  'sbioensemblerun	SimBio method':
+    'prefix': 'sbioensemblerun	SimBio method'
+    'body': 'sbioensemblerun(${1:args})'
+
+  'sbioensemblestats	SimBio method':
+    'prefix': 'sbioensemblestats	SimBio method'
+    'body': 'sbioensemblestats(${1:args})'
+
+  'sbiofit	SimBio method':
+    'prefix': 'sbiofit	SimBio method'
+    'body': 'sbiofit(${1:args})'
+
+  'sbiofitmixed	SimBio method':
+    'prefix': 'sbiofitmixed	SimBio method'
+    'body': 'sbiofitmixed(${1:args})'
+
+  'sbiofitstatusplot	SimBio method':
+    'prefix': 'sbiofitstatusplot	SimBio method'
+    'body': 'sbiofitstatusplot(${1:args})'
+
+  'sbiolasterror	SimBio method':
+    'prefix': 'sbiolasterror	SimBio method'
+    'body': 'sbiolasterror(${1:args})'
+
+  'sbiolastwarning	SimBio method':
+    'prefix': 'sbiolastwarning	SimBio method'
+    'body': 'sbiolastwarning(${1:args})'
+
+  'sbioloadproject	SimBio method':
+    'prefix': 'sbioloadproject	SimBio method'
+    'body': 'sbioloadproject(${1:args})'
+
+  'sbiomodel	SimBio method':
+    'prefix': 'sbiomodel	SimBio method'
+    'body': 'sbiomodel(${1:args})'
+
+  'sbionlinfit	SimBio method':
+    'prefix': 'sbionlinfit	SimBio method'
+    'body': 'sbionlinfit(${1:args})'
+
+  'sbionlmefit	SimBio method':
+    'prefix': 'sbionlmefit	SimBio method'
+    'body': 'sbionlmefit(${1:args})'
+
+  'sbionlmefitsa	SimBio method':
+    'prefix': 'sbionlmefitsa	SimBio method'
+    'body': 'sbionlmefitsa(${1:args})'
+
+  'sbionmfiledef	SimBio method':
+    'prefix': 'sbionmfiledef	SimBio method'
+    'body': 'sbionmfiledef(${1:args})'
+
+  'sbionmimport	SimBio method':
+    'prefix': 'sbionmimport	SimBio method'
+    'body': 'sbionmimport(${1:args})'
+
+  'sbioparamestim	SimBio method':
+    'prefix': 'sbioparamestim	SimBio method'
+    'body': 'sbioparamestim(${1:args})'
+
+  'sbioplot	SimBio method':
+    'prefix': 'sbioplot	SimBio method'
+    'body': 'sbioplot(${1:args})'
+
+  'sbioremovefromlibrary	SimBio method':
+    'prefix': 'sbioremovefromlibrary	SimBio method'
+    'body': 'sbioremovefromlibrary(${1:args})'
+
+  'sbioreset	SimBio method':
+    'prefix': 'sbioreset	SimBio method'
+    'body': 'sbioreset(${1:args})'
+
+  'sbioroot	SimBio method':
+    'prefix': 'sbioroot	SimBio method'
+    'body': 'sbioroot(${1:args})'
+
+  'sbiosampleerror	SimBio method':
+    'prefix': 'sbiosampleerror	SimBio method'
+    'body': 'sbiosampleerror(${1:args})'
+
+  'sbiosampleparameters	SimBio method':
+    'prefix': 'sbiosampleparameters	SimBio method'
+    'body': 'sbiosampleparameters(${1:args})'
+
+  'sbiosaveproject	SimBio method':
+    'prefix': 'sbiosaveproject	SimBio method'
+    'body': 'sbiosaveproject(${1:args})'
+
+  'sbioselect	SimBio method':
+    'prefix': 'sbioselect	SimBio method'
+    'body': 'sbioselect(${1:args})'
+
+  'sbioshowunitprefixes	SimBio method':
+    'prefix': 'sbioshowunitprefixes	SimBio method'
+    'body': 'sbioshowunitprefixes(${1:args})'
+
+  'sbioshowunits	SimBio method':
+    'prefix': 'sbioshowunits	SimBio method'
+    'body': 'sbioshowunits(${1:args})'
+
+  'sbiosimulate	SimBio method':
+    'prefix': 'sbiosimulate	SimBio method'
+    'body': 'sbiosimulate(${1:args})'
+
+  'sbiosubplot	SimBio method':
+    'prefix': 'sbiosubplot	SimBio method'
+    'body': 'sbiosubplot(${1:args})'
+
+  'sbiotrellis	SimBio method':
+    'prefix': 'sbiotrellis	SimBio method'
+    'body': 'sbiotrellis(${1:args})'
+
+  'sbiounit	SimBio method':
+    'prefix': 'sbiounit	SimBio method'
+    'body': 'sbiounit(${1:args})'
+
+  'sbiounitcalculator	SimBio method':
+    'prefix': 'sbiounitcalculator	SimBio method'
+    'body': 'sbiounitcalculator(${1:args})'
+
+  'sbiounitprefix	SimBio method':
+    'prefix': 'sbiounitprefix	SimBio method'
+    'body': 'sbiounitprefix(${1:args})'
+
+  'sbiovariant	SimBio method':
+    'prefix': 'sbiovariant	SimBio method'
+    'body': 'sbiovariant(${1:args})'
+
+  'sbiowhos	SimBio method':
+    'prefix': 'sbiowhos	SimBio method'
+    'body': 'sbiowhos(${1:args})'
+
+  'sbmlexport	SimBio method':
+    'prefix': 'sbmlexport	SimBio method'
+    'body': 'sbmlexport(${1:args})'
+
+  'sbmlimport	SimBio method':
+    'prefix': 'sbmlimport	SimBio method'
+    'body': 'sbmlimport(${1:args})'
+
+  'verify	SimBio method':
+    'prefix': 'verify	SimBio method'
+    'body': 'verify(${1:args})'

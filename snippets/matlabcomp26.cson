@@ -1,0 +1,2155 @@
+# matlabcomp26 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'BetaDistribution	Stats method':
+    'prefix': 'BetaDistribution	Stats method'
+    'body': 'BetaDistribution(${1:args})'
+
+  'BinomialDistribution	Stats method':
+    'prefix': 'BinomialDistribution	Stats method'
+    'body': 'BinomialDistribution(${1:args})'
+
+  'BirnbaumSaundersDistribution	Stats method':
+    'prefix': 'BirnbaumSaundersDistribution	Stats method'
+    'body': 'BirnbaumSaundersDistribution(${1:args})'
+
+  'BurrDistribution	Stats method':
+    'prefix': 'BurrDistribution	Stats method'
+    'body': 'BurrDistribution(${1:args})'
+
+  'CalinskiHarabaszEvaluation	Stats method':
+    'prefix': 'CalinskiHarabaszEvaluation	Stats method'
+    'body': 'CalinskiHarabaszEvaluation(${1:args})'
+
+  'ClassificationBaggedEnsemble	Stats method':
+    'prefix': 'ClassificationBaggedEnsemble	Stats method'
+    'body': 'ClassificationBaggedEnsemble(${1:args})'
+
+  'ClassificationDiscriminant	Stats method':
+    'prefix': 'ClassificationDiscriminant	Stats method'
+    'body': 'ClassificationDiscriminant(${1:args})'
+
+  'ClassificationECOC	Stats method':
+    'prefix': 'ClassificationECOC	Stats method'
+    'body': 'ClassificationECOC(${1:args})'
+
+  'ClassificationEnsemble	Stats method':
+    'prefix': 'ClassificationEnsemble	Stats method'
+    'body': 'ClassificationEnsemble(${1:args})'
+
+  'ClassificationKNN	Stats method':
+    'prefix': 'ClassificationKNN	Stats method'
+    'body': 'ClassificationKNN(${1:args})'
+
+  'ClassificationNaiveBayes	Stats method':
+    'prefix': 'ClassificationNaiveBayes	Stats method'
+    'body': 'ClassificationNaiveBayes(${1:args})'
+
+  'ClassificationPartitionedECOC	Stats method':
+    'prefix': 'ClassificationPartitionedECOC	Stats method'
+    'body': 'ClassificationPartitionedECOC(${1:args})'
+
+  'ClassificationPartitionedEnsemble	Stats method':
+    'prefix': 'ClassificationPartitionedEnsemble	Stats method'
+    'body': 'ClassificationPartitionedEnsemble(${1:args})'
+
+  'ClassificationPartitionedModel	Stats method':
+    'prefix': 'ClassificationPartitionedModel	Stats method'
+    'body': 'ClassificationPartitionedModel(${1:args})'
+
+  'ClassificationSVM	Stats method':
+    'prefix': 'ClassificationSVM	Stats method'
+    'body': 'ClassificationSVM(${1:args})'
+
+  'ClassificationTree	Stats method':
+    'prefix': 'ClassificationTree	Stats method'
+    'body': 'ClassificationTree(${1:args})'
+
+  'CompactClassificationDiscriminant	Stats method':
+    'prefix': 'CompactClassificationDiscriminant	Stats method'
+    'body': 'CompactClassificationDiscriminant(${1:args})'
+
+  'CompactClassificationECOC	Stats method':
+    'prefix': 'CompactClassificationECOC	Stats method'
+    'body': 'CompactClassificationECOC(${1:args})'
+
+  'CompactClassificationEnsemble	Stats method':
+    'prefix': 'CompactClassificationEnsemble	Stats method'
+    'body': 'CompactClassificationEnsemble(${1:args})'
+
+  'CompactClassificationNaiveBayes	Stats method':
+    'prefix': 'CompactClassificationNaiveBayes	Stats method'
+    'body': 'CompactClassificationNaiveBayes(${1:args})'
+
+  'CompactClassificationSVM	Stats method':
+    'prefix': 'CompactClassificationSVM	Stats method'
+    'body': 'CompactClassificationSVM(${1:args})'
+
+  'CompactClassificationTree	Stats method':
+    'prefix': 'CompactClassificationTree	Stats method'
+    'body': 'CompactClassificationTree(${1:args})'
+
+  'CompactRegressionEnsemble	Stats method':
+    'prefix': 'CompactRegressionEnsemble	Stats method'
+    'body': 'CompactRegressionEnsemble(${1:args})'
+
+  'CompactRegressionGP	Stats method':
+    'prefix': 'CompactRegressionGP	Stats method'
+    'body': 'CompactRegressionGP(${1:args})'
+
+  'CompactRegressionSVM	Stats method':
+    'prefix': 'CompactRegressionSVM	Stats method'
+    'body': 'CompactRegressionSVM(${1:args})'
+
+  'CompactRegressionTree	Stats method':
+    'prefix': 'CompactRegressionTree	Stats method'
+    'body': 'CompactRegressionTree(${1:args})'
+
+  'CompactTreeBagger	Stats method':
+    'prefix': 'CompactTreeBagger	Stats method'
+    'body': 'CompactTreeBagger(${1:args})'
+
+  'DaviesBouldinEvaluation	Stats method':
+    'prefix': 'DaviesBouldinEvaluation	Stats method'
+    'body': 'DaviesBouldinEvaluation(${1:args})'
+
+  'ExhaustiveSearcher	Stats method':
+    'prefix': 'ExhaustiveSearcher	Stats method'
+    'body': 'ExhaustiveSearcher(${1:args})'
+
+  'ExponentialDistribution	Stats method':
+    'prefix': 'ExponentialDistribution	Stats method'
+    'body': 'ExponentialDistribution(${1:args})'
+
+  'ExtremeValueDistribution	Stats method':
+    'prefix': 'ExtremeValueDistribution	Stats method'
+    'body': 'ExtremeValueDistribution(${1:args})'
+
+  'GammaDistribution	Stats method':
+    'prefix': 'GammaDistribution	Stats method'
+    'body': 'GammaDistribution(${1:args})'
+
+  'GapEvaluation	Stats method':
+    'prefix': 'GapEvaluation	Stats method'
+    'body': 'GapEvaluation(${1:args})'
+
+  'GeneralizedExtremeValueDistribution	Stats method':
+    'prefix': 'GeneralizedExtremeValueDistribution	Stats method'
+    'body': 'GeneralizedExtremeValueDistribution(${1:args})'
+
+  'GeneralizedLinearMixedModel	Stats method':
+    'prefix': 'GeneralizedLinearMixedModel	Stats method'
+    'body': 'GeneralizedLinearMixedModel(${1:args})'
+
+  'GeneralizedLinearModel	Stats method':
+    'prefix': 'GeneralizedLinearModel	Stats method'
+    'body': 'GeneralizedLinearModel(${1:args})'
+
+  'GeneralizedLinearModel.fit	Stats method':
+    'prefix': 'GeneralizedLinearModel.fit	Stats method'
+    'body': 'GeneralizedLinearModel.fit(${1:args})'
+
+  'GeneralizedLinearModel.stepwise	Stats method':
+    'prefix': 'GeneralizedLinearModel.stepwise	Stats method'
+    'body': 'GeneralizedLinearModel.stepwise(${1:args})'
+
+  'GeneralizedParetoDistribution	Stats method':
+    'prefix': 'GeneralizedParetoDistribution	Stats method'
+    'body': 'GeneralizedParetoDistribution(${1:args})'
+
+  'InverseGaussianDistribution	Stats method':
+    'prefix': 'InverseGaussianDistribution	Stats method'
+    'body': 'InverseGaussianDistribution(${1:args})'
+
+  'KDTreeSearcher	Stats method':
+    'prefix': 'KDTreeSearcher	Stats method'
+    'body': 'KDTreeSearcher(${1:args})'
+
+  'KernelDistribution	Stats method':
+    'prefix': 'KernelDistribution	Stats method'
+    'body': 'KernelDistribution(${1:args})'
+
+  'LinearMixedModel	Stats method':
+    'prefix': 'LinearMixedModel	Stats method'
+    'body': 'LinearMixedModel(${1:args})'
+
+  'LinearMixedModel.fit	Stats method':
+    'prefix': 'LinearMixedModel.fit	Stats method'
+    'body': 'LinearMixedModel.fit(${1:args})'
+
+  'LinearMixedModel.fitmatrix	Stats method':
+    'prefix': 'LinearMixedModel.fitmatrix	Stats method'
+    'body': 'LinearMixedModel.fitmatrix(${1:args})'
+
+  'LinearModel	Stats method':
+    'prefix': 'LinearModel	Stats method'
+    'body': 'LinearModel(${1:args})'
+
+  'LinearModel.fit	Stats method':
+    'prefix': 'LinearModel.fit	Stats method'
+    'body': 'LinearModel.fit(${1:args})'
+
+  'LinearModel.stepwise	Stats method':
+    'prefix': 'LinearModel.stepwise	Stats method'
+    'body': 'LinearModel.stepwise(${1:args})'
+
+  'LogisticDistribution	Stats method':
+    'prefix': 'LogisticDistribution	Stats method'
+    'body': 'LogisticDistribution(${1:args})'
+
+  'LoglogisticDistribution	Stats method':
+    'prefix': 'LoglogisticDistribution	Stats method'
+    'body': 'LoglogisticDistribution(${1:args})'
+
+  'LognormalDistribution	Stats method':
+    'prefix': 'LognormalDistribution	Stats method'
+    'body': 'LognormalDistribution(${1:args})'
+
+  'MultinomialDistribution	Stats method':
+    'prefix': 'MultinomialDistribution	Stats method'
+    'body': 'MultinomialDistribution(${1:args})'
+
+  'NakagamiDistribution	Stats method':
+    'prefix': 'NakagamiDistribution	Stats method'
+    'body': 'NakagamiDistribution(${1:args})'
+
+  'NegativeBinomialDistribution	Stats method':
+    'prefix': 'NegativeBinomialDistribution	Stats method'
+    'body': 'NegativeBinomialDistribution(${1:args})'
+
+  'NonLinearModel	Stats method':
+    'prefix': 'NonLinearModel	Stats method'
+    'body': 'NonLinearModel(${1:args})'
+
+  'NonLinearModel.fit	Stats method':
+    'prefix': 'NonLinearModel.fit	Stats method'
+    'body': 'NonLinearModel.fit(${1:args})'
+
+  'NormalDistribution	Stats method':
+    'prefix': 'NormalDistribution	Stats method'
+    'body': 'NormalDistribution(${1:args})'
+
+  'PiecewiseLinearDistribution	Stats method':
+    'prefix': 'PiecewiseLinearDistribution	Stats method'
+    'body': 'PiecewiseLinearDistribution(${1:args})'
+
+  'PoissonDistribution	Stats method':
+    'prefix': 'PoissonDistribution	Stats method'
+    'body': 'PoissonDistribution(${1:args})'
+
+  'ProbDistUnivKernel	Stats method':
+    'prefix': 'ProbDistUnivKernel	Stats method'
+    'body': 'ProbDistUnivKernel(${1:args})'
+
+  'ProbDistUnivParam	Stats method':
+    'prefix': 'ProbDistUnivParam	Stats method'
+    'body': 'ProbDistUnivParam(${1:args})'
+
+  'RayleighDistribution	Stats method':
+    'prefix': 'RayleighDistribution	Stats method'
+    'body': 'RayleighDistribution(${1:args})'
+
+  'RegressionBaggedEnsemble	Stats method':
+    'prefix': 'RegressionBaggedEnsemble	Stats method'
+    'body': 'RegressionBaggedEnsemble(${1:args})'
+
+  'RegressionEnsemble	Stats method':
+    'prefix': 'RegressionEnsemble	Stats method'
+    'body': 'RegressionEnsemble(${1:args})'
+
+  'RegressionGP	Stats method':
+    'prefix': 'RegressionGP	Stats method'
+    'body': 'RegressionGP(${1:args})'
+
+  'RegressionPartitionedEnsemble	Stats method':
+    'prefix': 'RegressionPartitionedEnsemble	Stats method'
+    'body': 'RegressionPartitionedEnsemble(${1:args})'
+
+  'RegressionPartitionedModel	Stats method':
+    'prefix': 'RegressionPartitionedModel	Stats method'
+    'body': 'RegressionPartitionedModel(${1:args})'
+
+  'RegressionSVM	Stats method':
+    'prefix': 'RegressionSVM	Stats method'
+    'body': 'RegressionSVM(${1:args})'
+
+  'RegressionTree	Stats method':
+    'prefix': 'RegressionTree	Stats method'
+    'body': 'RegressionTree(${1:args})'
+
+  'RepeatedMeasuresModel	Stats method':
+    'prefix': 'RepeatedMeasuresModel	Stats method'
+    'body': 'RepeatedMeasuresModel(${1:args})'
+
+  'RicianDistribution	Stats method':
+    'prefix': 'RicianDistribution	Stats method'
+    'body': 'RicianDistribution(${1:args})'
+
+  'SilhouetteEvaluation	Stats method':
+    'prefix': 'SilhouetteEvaluation	Stats method'
+    'body': 'SilhouetteEvaluation(${1:args})'
+
+  'TreeBagger	Stats method':
+    'prefix': 'TreeBagger	Stats method'
+    'body': 'TreeBagger(${1:args})'
+
+  'TriangularDistribution	Stats method':
+    'prefix': 'TriangularDistribution	Stats method'
+    'body': 'TriangularDistribution(${1:args})'
+
+  'UniformDistribution	Stats method':
+    'prefix': 'UniformDistribution	Stats method'
+    'body': 'UniformDistribution(${1:args})'
+
+  'WeibullDistribution	Stats method':
+    'prefix': 'WeibullDistribution	Stats method'
+    'body': 'WeibullDistribution(${1:args})'
+
+  'addK	Stats method':
+    'prefix': 'addK	Stats method'
+    'body': 'addK(${1:args})'
+
+  'addTerms	Stats method':
+    'prefix': 'addTerms	Stats method'
+    'body': 'addTerms(${1:args})'
+
+  'addedvarplot	Stats method':
+    'prefix': 'addedvarplot	Stats method'
+    'body': 'addedvarplot(${1:args})'
+
+  'addlevels	Stats method':
+    'prefix': 'addlevels	Stats method'
+    'body': 'addlevels(${1:args})'
+
+  'adtest	Stats method':
+    'prefix': 'adtest	Stats method'
+    'body': 'adtest(${1:args})'
+
+  'andrewsplot	Stats method':
+    'prefix': 'andrewsplot	Stats method'
+    'body': 'andrewsplot(${1:args})'
+
+  'anova	Stats method':
+    'prefix': 'anova	Stats method'
+    'body': 'anova(${1:args})'
+
+  'anova1	Stats method':
+    'prefix': 'anova1	Stats method'
+    'body': 'anova1(${1:args})'
+
+  'anova2	Stats method':
+    'prefix': 'anova2	Stats method'
+    'body': 'anova2(${1:args})'
+
+  'anovan	Stats method':
+    'prefix': 'anovan	Stats method'
+    'body': 'anovan(${1:args})'
+
+  'ansaribradley	Stats method':
+    'prefix': 'ansaribradley	Stats method'
+    'body': 'ansaribradley(${1:args})'
+
+  'aoctool	Stats method':
+    'prefix': 'aoctool	Stats method'
+    'body': 'aoctool(${1:args})'
+
+  'barttest	Stats method':
+    'prefix': 'barttest	Stats method'
+    'body': 'barttest(${1:args})'
+
+  'bbdesign	Stats method':
+    'prefix': 'bbdesign	Stats method'
+    'body': 'bbdesign(${1:args})'
+
+  'betacdf	Stats method':
+    'prefix': 'betacdf	Stats method'
+    'body': 'betacdf(${1:args})'
+
+  'betafit	Stats method':
+    'prefix': 'betafit	Stats method'
+    'body': 'betafit(${1:args})'
+
+  'betainv	Stats method':
+    'prefix': 'betainv	Stats method'
+    'body': 'betainv(${1:args})'
+
+  'betalike	Stats method':
+    'prefix': 'betalike	Stats method'
+    'body': 'betalike(${1:args})'
+
+  'betapdf	Stats method':
+    'prefix': 'betapdf	Stats method'
+    'body': 'betapdf(${1:args})'
+
+  'betarnd	Stats method':
+    'prefix': 'betarnd	Stats method'
+    'body': 'betarnd(${1:args})'
+
+  'betastat	Stats method':
+    'prefix': 'betastat	Stats method'
+    'body': 'betastat(${1:args})'
+
+  'binocdf	Stats method':
+    'prefix': 'binocdf	Stats method'
+    'body': 'binocdf(${1:args})'
+
+  'binofit	Stats method':
+    'prefix': 'binofit	Stats method'
+    'body': 'binofit(${1:args})'
+
+  'binoinv	Stats method':
+    'prefix': 'binoinv	Stats method'
+    'body': 'binoinv(${1:args})'
+
+  'binopdf	Stats method':
+    'prefix': 'binopdf	Stats method'
+    'body': 'binopdf(${1:args})'
+
+  'binornd	Stats method':
+    'prefix': 'binornd	Stats method'
+    'body': 'binornd(${1:args})'
+
+  'binostat	Stats method':
+    'prefix': 'binostat	Stats method'
+    'body': 'binostat(${1:args})'
+
+  'biplot	Stats method':
+    'prefix': 'biplot	Stats method'
+    'body': 'biplot(${1:args})'
+
+  'bootci	Stats method':
+    'prefix': 'bootci	Stats method'
+    'body': 'bootci(${1:args})'
+
+  'bootstrp	Stats method':
+    'prefix': 'bootstrp	Stats method'
+    'body': 'bootstrp(${1:args})'
+
+  'boxplot	Stats method':
+    'prefix': 'boxplot	Stats method'
+    'body': 'boxplot(${1:args})'
+
+  'candexch	Stats method':
+    'prefix': 'candexch	Stats method'
+    'body': 'candexch(${1:args})'
+
+  'candgen	Stats method':
+    'prefix': 'candgen	Stats method'
+    'body': 'candgen(${1:args})'
+
+  'canoncorr	Stats method':
+    'prefix': 'canoncorr	Stats method'
+    'body': 'canoncorr(${1:args})'
+
+  'capability	Stats method':
+    'prefix': 'capability	Stats method'
+    'body': 'capability(${1:args})'
+
+  'capaplot	Stats method':
+    'prefix': 'capaplot	Stats method'
+    'body': 'capaplot(${1:args})'
+
+  'caseread	Stats method':
+    'prefix': 'caseread	Stats method'
+    'body': 'caseread(${1:args})'
+
+  'casewrite	Stats method':
+    'prefix': 'casewrite	Stats method'
+    'body': 'casewrite(${1:args})'
+
+  'ccdesign	Stats method':
+    'prefix': 'ccdesign	Stats method'
+    'body': 'ccdesign(${1:args})'
+
+  'cdf	Stats method':
+    'prefix': 'cdf	Stats method'
+    'body': 'cdf(${1:args})'
+
+  'cdfplot	Stats method':
+    'prefix': 'cdfplot	Stats method'
+    'body': 'cdfplot(${1:args})'
+
+  'cell2dataset	Stats method':
+    'prefix': 'cell2dataset	Stats method'
+    'body': 'cell2dataset(${1:args})'
+
+  'chi2cdf	Stats method':
+    'prefix': 'chi2cdf	Stats method'
+    'body': 'chi2cdf(${1:args})'
+
+  'chi2gof	Stats method':
+    'prefix': 'chi2gof	Stats method'
+    'body': 'chi2gof(${1:args})'
+
+  'chi2inv	Stats method':
+    'prefix': 'chi2inv	Stats method'
+    'body': 'chi2inv(${1:args})'
+
+  'chi2pdf	Stats method':
+    'prefix': 'chi2pdf	Stats method'
+    'body': 'chi2pdf(${1:args})'
+
+  'chi2rnd	Stats method':
+    'prefix': 'chi2rnd	Stats method'
+    'body': 'chi2rnd(${1:args})'
+
+  'chi2stat	Stats method':
+    'prefix': 'chi2stat	Stats method'
+    'body': 'chi2stat(${1:args})'
+
+  'cholcov	Stats method':
+    'prefix': 'cholcov	Stats method'
+    'body': 'cholcov(${1:args})'
+
+  'classregtree	Stats method':
+    'prefix': 'classregtree	Stats method'
+    'body': 'classregtree(${1:args})'
+
+  'cluster	Stats method':
+    'prefix': 'cluster	Stats method'
+    'body': 'cluster(${1:args})'
+
+  'clusterdata	Stats method':
+    'prefix': 'clusterdata	Stats method'
+    'body': 'clusterdata(${1:args})'
+
+  'cmdscale	Stats method':
+    'prefix': 'cmdscale	Stats method'
+    'body': 'cmdscale(${1:args})'
+
+  'coefCI	Stats method':
+    'prefix': 'coefCI	Stats method'
+    'body': 'coefCI(${1:args})'
+
+  'coefTest	Stats method':
+    'prefix': 'coefTest	Stats method'
+    'body': 'coefTest(${1:args})'
+
+  'coeftest	Stats method':
+    'prefix': 'coeftest	Stats method'
+    'body': 'coeftest(${1:args})'
+
+  'combnk	Stats method':
+    'prefix': 'combnk	Stats method'
+    'body': 'combnk(${1:args})'
+
+  'compact	Stats method':
+    'prefix': 'compact	Stats method'
+    'body': 'compact(${1:args})'
+
+  'confusionmat	Stats method':
+    'prefix': 'confusionmat	Stats method'
+    'body': 'confusionmat(${1:args})'
+
+  'controlchart	Stats method':
+    'prefix': 'controlchart	Stats method'
+    'body': 'controlchart(${1:args})'
+
+  'controlrules	Stats method':
+    'prefix': 'controlrules	Stats method'
+    'body': 'controlrules(${1:args})'
+
+  'cophenet	Stats method':
+    'prefix': 'cophenet	Stats method'
+    'body': 'cophenet(${1:args})'
+
+  'copulacdf	Stats method':
+    'prefix': 'copulacdf	Stats method'
+    'body': 'copulacdf(${1:args})'
+
+  'copulafit	Stats method':
+    'prefix': 'copulafit	Stats method'
+    'body': 'copulafit(${1:args})'
+
+  'copulaparam	Stats method':
+    'prefix': 'copulaparam	Stats method'
+    'body': 'copulaparam(${1:args})'
+
+  'copulapdf	Stats method':
+    'prefix': 'copulapdf	Stats method'
+    'body': 'copulapdf(${1:args})'
+
+  'copularnd	Stats method':
+    'prefix': 'copularnd	Stats method'
+    'body': 'copularnd(${1:args})'
+
+  'copulastat	Stats method':
+    'prefix': 'copulastat	Stats method'
+    'body': 'copulastat(${1:args})'
+
+  'cordexch	Stats method':
+    'prefix': 'cordexch	Stats method'
+    'body': 'cordexch(${1:args})'
+
+  'corr	Stats method':
+    'prefix': 'corr	Stats method'
+    'body': 'corr(${1:args})'
+
+  'corrcov	Stats method':
+    'prefix': 'corrcov	Stats method'
+    'body': 'corrcov(${1:args})'
+
+  'covarianceParameters	Stats method':
+    'prefix': 'covarianceParameters	Stats method'
+    'body': 'covarianceParameters(${1:args})'
+
+  'coxphfit	Stats method':
+    'prefix': 'coxphfit	Stats method'
+    'body': 'coxphfit(${1:args})'
+
+  'createns	Stats method':
+    'prefix': 'createns	Stats method'
+    'body': 'createns(${1:args})'
+
+  'crosstab	Stats method':
+    'prefix': 'crosstab	Stats method'
+    'body': 'crosstab(${1:args})'
+
+  'crossval	Stats method':
+    'prefix': 'crossval	Stats method'
+    'body': 'crossval(${1:args})'
+
+  'cvpartition	Stats method':
+    'prefix': 'cvpartition	Stats method'
+    'body': 'cvpartition(${1:args})'
+
+  'cvshrink	Stats method':
+    'prefix': 'cvshrink	Stats method'
+    'body': 'cvshrink(${1:args})'
+
+  'datasample	Stats method':
+    'prefix': 'datasample	Stats method'
+    'body': 'datasample(${1:args})'
+
+  'dataset	Stats method':
+    'prefix': 'dataset	Stats method'
+    'body': 'dataset(${1:args})'
+
+  'dataset2cell	Stats method':
+    'prefix': 'dataset2cell	Stats method'
+    'body': 'dataset2cell(${1:args})'
+
+  'dataset2struct	Stats method':
+    'prefix': 'dataset2struct	Stats method'
+    'body': 'dataset2struct(${1:args})'
+
+  'dataset2table	Stats method':
+    'prefix': 'dataset2table	Stats method'
+    'body': 'dataset2table(${1:args})'
+
+  'datasetfun	Stats method':
+    'prefix': 'datasetfun	Stats method'
+    'body': 'datasetfun(${1:args})'
+
+  'daugment	Stats method':
+    'prefix': 'daugment	Stats method'
+    'body': 'daugment(${1:args})'
+
+  'dcovary	Stats method':
+    'prefix': 'dcovary	Stats method'
+    'body': 'dcovary(${1:args})'
+
+  'dendrogram	Stats method':
+    'prefix': 'dendrogram	Stats method'
+    'body': 'dendrogram(${1:args})'
+
+  'designMatrix	Stats method':
+    'prefix': 'designMatrix	Stats method'
+    'body': 'designMatrix(${1:args})'
+
+  'designecoc	Stats method':
+    'prefix': 'designecoc	Stats method'
+    'body': 'designecoc(${1:args})'
+
+  'devianceTest	Stats method':
+    'prefix': 'devianceTest	Stats method'
+    'body': 'devianceTest(${1:args})'
+
+  'dfittool	Stats method':
+    'prefix': 'dfittool	Stats method'
+    'body': 'dfittool(${1:args})'
+
+  'discardSupportVectors	Stats method':
+    'prefix': 'discardSupportVectors	Stats method'
+    'body': 'discardSupportVectors(${1:args})'
+
+  'disttool	Stats method':
+    'prefix': 'disttool	Stats method'
+    'body': 'disttool(${1:args})'
+
+  'droplevels	Stats method':
+    'prefix': 'droplevels	Stats method'
+    'body': 'droplevels(${1:args})'
+
+  'dummyvar	Stats method':
+    'prefix': 'dummyvar	Stats method'
+    'body': 'dummyvar(${1:args})'
+
+  'dwtest	Stats method':
+    'prefix': 'dwtest	Stats method'
+    'body': 'dwtest(${1:args})'
+
+  'ecdf	Stats method':
+    'prefix': 'ecdf	Stats method'
+    'body': 'ecdf(${1:args})'
+
+  'ecdfhist	Stats method':
+    'prefix': 'ecdfhist	Stats method'
+    'body': 'ecdfhist(${1:args})'
+
+  'epsilon	Stats method':
+    'prefix': 'epsilon	Stats method'
+    'body': 'epsilon(${1:args})'
+
+  'evalclusters	Stats method':
+    'prefix': 'evalclusters	Stats method'
+    'body': 'evalclusters(${1:args})'
+
+  'evcdf	Stats method':
+    'prefix': 'evcdf	Stats method'
+    'body': 'evcdf(${1:args})'
+
+  'evfit	Stats method':
+    'prefix': 'evfit	Stats method'
+    'body': 'evfit(${1:args})'
+
+  'evinv	Stats method':
+    'prefix': 'evinv	Stats method'
+    'body': 'evinv(${1:args})'
+
+  'evlike	Stats method':
+    'prefix': 'evlike	Stats method'
+    'body': 'evlike(${1:args})'
+
+  'evpdf	Stats method':
+    'prefix': 'evpdf	Stats method'
+    'body': 'evpdf(${1:args})'
+
+  'evrnd	Stats method':
+    'prefix': 'evrnd	Stats method'
+    'body': 'evrnd(${1:args})'
+
+  'evstat	Stats method':
+    'prefix': 'evstat	Stats method'
+    'body': 'evstat(${1:args})'
+
+  'expcdf	Stats method':
+    'prefix': 'expcdf	Stats method'
+    'body': 'expcdf(${1:args})'
+
+  'expfit	Stats method':
+    'prefix': 'expfit	Stats method'
+    'body': 'expfit(${1:args})'
+
+  'expinv	Stats method':
+    'prefix': 'expinv	Stats method'
+    'body': 'expinv(${1:args})'
+
+  'explike	Stats method':
+    'prefix': 'explike	Stats method'
+    'body': 'explike(${1:args})'
+
+  'exppdf	Stats method':
+    'prefix': 'exppdf	Stats method'
+    'body': 'exppdf(${1:args})'
+
+  'exprnd	Stats method':
+    'prefix': 'exprnd	Stats method'
+    'body': 'exprnd(${1:args})'
+
+  'expstat	Stats method':
+    'prefix': 'expstat	Stats method'
+    'body': 'expstat(${1:args})'
+
+  'factoran	Stats method':
+    'prefix': 'factoran	Stats method'
+    'body': 'factoran(${1:args})'
+
+  'fcdf	Stats method':
+    'prefix': 'fcdf	Stats method'
+    'body': 'fcdf(${1:args})'
+
+  'ff2n	Stats method':
+    'prefix': 'ff2n	Stats method'
+    'body': 'ff2n(${1:args})'
+
+  'finv	Stats method':
+    'prefix': 'finv	Stats method'
+    'body': 'finv(${1:args})'
+
+  'fishertest	Stats method':
+    'prefix': 'fishertest	Stats method'
+    'body': 'fishertest(${1:args})'
+
+  'fitSVMPosterior	Stats method':
+    'prefix': 'fitSVMPosterior	Stats method'
+    'body': 'fitSVMPosterior(${1:args})'
+
+  'fitcdiscr	Stats method':
+    'prefix': 'fitcdiscr	Stats method'
+    'body': 'fitcdiscr(${1:args})'
+
+  'fitcecoc	Stats method':
+    'prefix': 'fitcecoc	Stats method'
+    'body': 'fitcecoc(${1:args})'
+
+  'fitcnb	Stats method':
+    'prefix': 'fitcnb	Stats method'
+    'body': 'fitcnb(${1:args})'
+
+  'fitcsvm	Stats method':
+    'prefix': 'fitcsvm	Stats method'
+    'body': 'fitcsvm(${1:args})'
+
+  'fitctree	Stats method':
+    'prefix': 'fitctree	Stats method'
+    'body': 'fitctree(${1:args})'
+
+  'fitdist	Stats method':
+    'prefix': 'fitdist	Stats method'
+    'body': 'fitdist(${1:args})'
+
+  'fitensemble	Stats method':
+    'prefix': 'fitensemble	Stats method'
+    'body': 'fitensemble(${1:args})'
+
+  'fitglm	Stats method':
+    'prefix': 'fitglm	Stats method'
+    'body': 'fitglm(${1:args})'
+
+  'fitglme	Stats method':
+    'prefix': 'fitglme	Stats method'
+    'body': 'fitglme(${1:args})'
+
+  'fitgmdist	Stats method':
+    'prefix': 'fitgmdist	Stats method'
+    'body': 'fitgmdist(${1:args})'
+
+  'fitlm	Stats method':
+    'prefix': 'fitlm	Stats method'
+    'body': 'fitlm(${1:args})'
+
+  'fitlme	Stats method':
+    'prefix': 'fitlme	Stats method'
+    'body': 'fitlme(${1:args})'
+
+  'fitlmematrix	Stats method':
+    'prefix': 'fitlmematrix	Stats method'
+    'body': 'fitlmematrix(${1:args})'
+
+  'fitnlm	Stats method':
+    'prefix': 'fitnlm	Stats method'
+    'body': 'fitnlm(${1:args})'
+
+  'fitrgp	Stats method':
+    'prefix': 'fitrgp	Stats method'
+    'body': 'fitrgp(${1:args})'
+
+  'fitrm	Stats method':
+    'prefix': 'fitrm	Stats method'
+    'body': 'fitrm(${1:args})'
+
+  'fitrsvm	Stats method':
+    'prefix': 'fitrsvm	Stats method'
+    'body': 'fitrsvm(${1:args})'
+
+  'fitrtree	Stats method':
+    'prefix': 'fitrtree	Stats method'
+    'body': 'fitrtree(${1:args})'
+
+  'fitted	Stats method':
+    'prefix': 'fitted	Stats method'
+    'body': 'fitted(${1:args})'
+
+  'fixedEffects	Stats method':
+    'prefix': 'fixedEffects	Stats method'
+    'body': 'fixedEffects(${1:args})'
+
+  'fpdf	Stats method':
+    'prefix': 'fpdf	Stats method'
+    'body': 'fpdf(${1:args})'
+
+  'fracfact	Stats method':
+    'prefix': 'fracfact	Stats method'
+    'body': 'fracfact(${1:args})'
+
+  'fracfactgen	Stats method':
+    'prefix': 'fracfactgen	Stats method'
+    'body': 'fracfactgen(${1:args})'
+
+  'friedman	Stats method':
+    'prefix': 'friedman	Stats method'
+    'body': 'friedman(${1:args})'
+
+  'frnd	Stats method':
+    'prefix': 'frnd	Stats method'
+    'body': 'frnd(${1:args})'
+
+  'fstat	Stats method':
+    'prefix': 'fstat	Stats method'
+    'body': 'fstat(${1:args})'
+
+  'fsurfht	Stats method':
+    'prefix': 'fsurfht	Stats method'
+    'body': 'fsurfht(${1:args})'
+
+  'fullfact	Stats method':
+    'prefix': 'fullfact	Stats method'
+    'body': 'fullfact(${1:args})'
+
+  'gagerr	Stats method':
+    'prefix': 'gagerr	Stats method'
+    'body': 'gagerr(${1:args})'
+
+  'gamcdf	Stats method':
+    'prefix': 'gamcdf	Stats method'
+    'body': 'gamcdf(${1:args})'
+
+  'gamfit	Stats method':
+    'prefix': 'gamfit	Stats method'
+    'body': 'gamfit(${1:args})'
+
+  'gaminv	Stats method':
+    'prefix': 'gaminv	Stats method'
+    'body': 'gaminv(${1:args})'
+
+  'gamlike	Stats method':
+    'prefix': 'gamlike	Stats method'
+    'body': 'gamlike(${1:args})'
+
+  'gampdf	Stats method':
+    'prefix': 'gampdf	Stats method'
+    'body': 'gampdf(${1:args})'
+
+  'gamrnd	Stats method':
+    'prefix': 'gamrnd	Stats method'
+    'body': 'gamrnd(${1:args})'
+
+  'gamstat	Stats method':
+    'prefix': 'gamstat	Stats method'
+    'body': 'gamstat(${1:args})'
+
+  'geocdf	Stats method':
+    'prefix': 'geocdf	Stats method'
+    'body': 'geocdf(${1:args})'
+
+  'geoinv	Stats method':
+    'prefix': 'geoinv	Stats method'
+    'body': 'geoinv(${1:args})'
+
+  'geomean	Stats method':
+    'prefix': 'geomean	Stats method'
+    'body': 'geomean(${1:args})'
+
+  'geopdf	Stats method':
+    'prefix': 'geopdf	Stats method'
+    'body': 'geopdf(${1:args})'
+
+  'geornd	Stats method':
+    'prefix': 'geornd	Stats method'
+    'body': 'geornd(${1:args})'
+
+  'geostat	Stats method':
+    'prefix': 'geostat	Stats method'
+    'body': 'geostat(${1:args})'
+
+  'getlabels	Stats method':
+    'prefix': 'getlabels	Stats method'
+    'body': 'getlabels(${1:args})'
+
+  'getlevels	Stats method':
+    'prefix': 'getlevels	Stats method'
+    'body': 'getlevels(${1:args})'
+
+  'gevcdf	Stats method':
+    'prefix': 'gevcdf	Stats method'
+    'body': 'gevcdf(${1:args})'
+
+  'gevfit	Stats method':
+    'prefix': 'gevfit	Stats method'
+    'body': 'gevfit(${1:args})'
+
+  'gevinv	Stats method':
+    'prefix': 'gevinv	Stats method'
+    'body': 'gevinv(${1:args})'
+
+  'gevlike	Stats method':
+    'prefix': 'gevlike	Stats method'
+    'body': 'gevlike(${1:args})'
+
+  'gevpdf	Stats method':
+    'prefix': 'gevpdf	Stats method'
+    'body': 'gevpdf(${1:args})'
+
+  'gevrnd	Stats method':
+    'prefix': 'gevrnd	Stats method'
+    'body': 'gevrnd(${1:args})'
+
+  'gevstat	Stats method':
+    'prefix': 'gevstat	Stats method'
+    'body': 'gevstat(${1:args})'
+
+  'gline	Stats method':
+    'prefix': 'gline	Stats method'
+    'body': 'gline(${1:args})'
+
+  'glmfit	Stats method':
+    'prefix': 'glmfit	Stats method'
+    'body': 'glmfit(${1:args})'
+
+  'glmval	Stats method':
+    'prefix': 'glmval	Stats method'
+    'body': 'glmval(${1:args})'
+
+  'glyphplot	Stats method':
+    'prefix': 'glyphplot	Stats method'
+    'body': 'glyphplot(${1:args})'
+
+  'gmdistribution	Stats method':
+    'prefix': 'gmdistribution	Stats method'
+    'body': 'gmdistribution(${1:args})'
+
+  'gmdistribution.fit	Stats method':
+    'prefix': 'gmdistribution.fit	Stats method'
+    'body': 'gmdistribution.fit(${1:args})'
+
+  'gname	Stats method':
+    'prefix': 'gname	Stats method'
+    'body': 'gname(${1:args})'
+
+  'gpcdf	Stats method':
+    'prefix': 'gpcdf	Stats method'
+    'body': 'gpcdf(${1:args})'
+
+  'gpfit	Stats method':
+    'prefix': 'gpfit	Stats method'
+    'body': 'gpfit(${1:args})'
+
+  'gpinv	Stats method':
+    'prefix': 'gpinv	Stats method'
+    'body': 'gpinv(${1:args})'
+
+  'gplike	Stats method':
+    'prefix': 'gplike	Stats method'
+    'body': 'gplike(${1:args})'
+
+  'gplotmatrix	Stats method':
+    'prefix': 'gplotmatrix	Stats method'
+    'body': 'gplotmatrix(${1:args})'
+
+  'gppdf	Stats method':
+    'prefix': 'gppdf	Stats method'
+    'body': 'gppdf(${1:args})'
+
+  'gprnd	Stats method':
+    'prefix': 'gprnd	Stats method'
+    'body': 'gprnd(${1:args})'
+
+  'gpstat	Stats method':
+    'prefix': 'gpstat	Stats method'
+    'body': 'gpstat(${1:args})'
+
+  'grp2idx	Stats method':
+    'prefix': 'grp2idx	Stats method'
+    'body': 'grp2idx(${1:args})'
+
+  'grpstats	Stats method':
+    'prefix': 'grpstats	Stats method'
+    'body': 'grpstats(${1:args})'
+
+  'gscatter	Stats method':
+    'prefix': 'gscatter	Stats method'
+    'body': 'gscatter(${1:args})'
+
+  'haltonset	Stats method':
+    'prefix': 'haltonset	Stats method'
+    'body': 'haltonset(${1:args})'
+
+  'harmmean	Stats method':
+    'prefix': 'harmmean	Stats method'
+    'body': 'harmmean(${1:args})'
+
+  'hist3	Stats method':
+    'prefix': 'hist3	Stats method'
+    'body': 'hist3(${1:args})'
+
+  'histfit	Stats method':
+    'prefix': 'histfit	Stats method'
+    'body': 'histfit(${1:args})'
+
+  'hmmdecode	Stats method':
+    'prefix': 'hmmdecode	Stats method'
+    'body': 'hmmdecode(${1:args})'
+
+  'hmmestimate	Stats method':
+    'prefix': 'hmmestimate	Stats method'
+    'body': 'hmmestimate(${1:args})'
+
+  'hmmgenerate	Stats method':
+    'prefix': 'hmmgenerate	Stats method'
+    'body': 'hmmgenerate(${1:args})'
+
+  'hmmtrain	Stats method':
+    'prefix': 'hmmtrain	Stats method'
+    'body': 'hmmtrain(${1:args})'
+
+  'hmmviterbi	Stats method':
+    'prefix': 'hmmviterbi	Stats method'
+    'body': 'hmmviterbi(${1:args})'
+
+  'hougen	Stats method':
+    'prefix': 'hougen	Stats method'
+    'body': 'hougen(${1:args})'
+
+  'hygecdf	Stats method':
+    'prefix': 'hygecdf	Stats method'
+    'body': 'hygecdf(${1:args})'
+
+  'hygeinv	Stats method':
+    'prefix': 'hygeinv	Stats method'
+    'body': 'hygeinv(${1:args})'
+
+  'hygepdf	Stats method':
+    'prefix': 'hygepdf	Stats method'
+    'body': 'hygepdf(${1:args})'
+
+  'hygernd	Stats method':
+    'prefix': 'hygernd	Stats method'
+    'body': 'hygernd(${1:args})'
+
+  'hygestat	Stats method':
+    'prefix': 'hygestat	Stats method'
+    'body': 'hygestat(${1:args})'
+
+  'icdf	Stats method':
+    'prefix': 'icdf	Stats method'
+    'body': 'icdf(${1:args})'
+
+  'inconsistent	Stats method':
+    'prefix': 'inconsistent	Stats method'
+    'body': 'inconsistent(${1:args})'
+
+  'increaseB	Stats method':
+    'prefix': 'increaseB	Stats method'
+    'body': 'increaseB(${1:args})'
+
+  'interactionplot	Stats method':
+    'prefix': 'interactionplot	Stats method'
+    'body': 'interactionplot(${1:args})'
+
+  'invpred	Stats method':
+    'prefix': 'invpred	Stats method'
+    'body': 'invpred(${1:args})'
+
+  'islevel	Stats method':
+    'prefix': 'islevel	Stats method'
+    'body': 'islevel(${1:args})'
+
+  'iwishrnd	Stats method':
+    'prefix': 'iwishrnd	Stats method'
+    'body': 'iwishrnd(${1:args})'
+
+  'jackknife	Stats method':
+    'prefix': 'jackknife	Stats method'
+    'body': 'jackknife(${1:args})'
+
+  'jbtest	Stats method':
+    'prefix': 'jbtest	Stats method'
+    'body': 'jbtest(${1:args})'
+
+  'johnsrnd	Stats method':
+    'prefix': 'johnsrnd	Stats method'
+    'body': 'johnsrnd(${1:args})'
+
+  'kmeans	Stats method':
+    'prefix': 'kmeans	Stats method'
+    'body': 'kmeans(${1:args})'
+
+  'kmedoids	Stats method':
+    'prefix': 'kmedoids	Stats method'
+    'body': 'kmedoids(${1:args})'
+
+  'knnsearch	Stats method':
+    'prefix': 'knnsearch	Stats method'
+    'body': 'knnsearch(${1:args})'
+
+  'kruskalwallis	Stats method':
+    'prefix': 'kruskalwallis	Stats method'
+    'body': 'kruskalwallis(${1:args})'
+
+  'ksdensity	Stats method':
+    'prefix': 'ksdensity	Stats method'
+    'body': 'ksdensity(${1:args})'
+
+  'kstest	Stats method':
+    'prefix': 'kstest	Stats method'
+    'body': 'kstest(${1:args})'
+
+  'kstest2	Stats method':
+    'prefix': 'kstest2	Stats method'
+    'body': 'kstest2(${1:args})'
+
+  'kurtosis	Stats method':
+    'prefix': 'kurtosis	Stats method'
+    'body': 'kurtosis(${1:args})'
+
+  'lasso	Stats method':
+    'prefix': 'lasso	Stats method'
+    'body': 'lasso(${1:args})'
+
+  'lassoPlot	Stats method':
+    'prefix': 'lassoPlot	Stats method'
+    'body': 'lassoPlot(${1:args})'
+
+  'lassoglm	Stats method':
+    'prefix': 'lassoglm	Stats method'
+    'body': 'lassoglm(${1:args})'
+
+  'levelcounts	Stats method':
+    'prefix': 'levelcounts	Stats method'
+    'body': 'levelcounts(${1:args})'
+
+  'leverage	Stats method':
+    'prefix': 'leverage	Stats method'
+    'body': 'leverage(${1:args})'
+
+  'lhsdesign	Stats method':
+    'prefix': 'lhsdesign	Stats method'
+    'body': 'lhsdesign(${1:args})'
+
+  'lhsnorm	Stats method':
+    'prefix': 'lhsnorm	Stats method'
+    'body': 'lhsnorm(${1:args})'
+
+  'lillietest	Stats method':
+    'prefix': 'lillietest	Stats method'
+    'body': 'lillietest(${1:args})'
+
+  'linhyptest	Stats method':
+    'prefix': 'linhyptest	Stats method'
+    'body': 'linhyptest(${1:args})'
+
+  'linkage	Stats method':
+    'prefix': 'linkage	Stats method'
+    'body': 'linkage(${1:args})'
+
+  'logP	Stats method':
+    'prefix': 'logP	Stats method'
+    'body': 'logP(${1:args})'
+
+  'logncdf	Stats method':
+    'prefix': 'logncdf	Stats method'
+    'body': 'logncdf(${1:args})'
+
+  'lognfit	Stats method':
+    'prefix': 'lognfit	Stats method'
+    'body': 'lognfit(${1:args})'
+
+  'logninv	Stats method':
+    'prefix': 'logninv	Stats method'
+    'body': 'logninv(${1:args})'
+
+  'lognlike	Stats method':
+    'prefix': 'lognlike	Stats method'
+    'body': 'lognlike(${1:args})'
+
+  'lognpdf	Stats method':
+    'prefix': 'lognpdf	Stats method'
+    'body': 'lognpdf(${1:args})'
+
+  'lognrnd	Stats method':
+    'prefix': 'lognrnd	Stats method'
+    'body': 'lognrnd(${1:args})'
+
+  'lognstat	Stats method':
+    'prefix': 'lognstat	Stats method'
+    'body': 'lognstat(${1:args})'
+
+  'loss	Stats method':
+    'prefix': 'loss	Stats method'
+    'body': 'loss(${1:args})'
+
+  'lsline	Stats method':
+    'prefix': 'lsline	Stats method'
+    'body': 'lsline(${1:args})'
+
+  'mad	Stats method':
+    'prefix': 'mad	Stats method'
+    'body': 'mad(${1:args})'
+
+  'mahal	Stats method':
+    'prefix': 'mahal	Stats method'
+    'body': 'mahal(${1:args})'
+
+  'maineffectsplot	Stats method':
+    'prefix': 'maineffectsplot	Stats method'
+    'body': 'maineffectsplot(${1:args})'
+
+  'makecdiscr	Stats method':
+    'prefix': 'makecdiscr	Stats method'
+    'body': 'makecdiscr(${1:args})'
+
+  'manova	Stats method':
+    'prefix': 'manova	Stats method'
+    'body': 'manova(${1:args})'
+
+  'manova1	Stats method':
+    'prefix': 'manova1	Stats method'
+    'body': 'manova1(${1:args})'
+
+  'manovacluster	Stats method':
+    'prefix': 'manovacluster	Stats method'
+    'body': 'manovacluster(${1:args})'
+
+  'margmean	Stats method':
+    'prefix': 'margmean	Stats method'
+    'body': 'margmean(${1:args})'
+
+  'mat2dataset	Stats method':
+    'prefix': 'mat2dataset	Stats method'
+    'body': 'mat2dataset(${1:args})'
+
+  'mauchly	Stats method':
+    'prefix': 'mauchly	Stats method'
+    'body': 'mauchly(${1:args})'
+
+  'mdscale	Stats method':
+    'prefix': 'mdscale	Stats method'
+    'body': 'mdscale(${1:args})'
+
+  'mergelevels	Stats method':
+    'prefix': 'mergelevels	Stats method'
+    'body': 'mergelevels(${1:args})'
+
+  'mhsample	Stats method':
+    'prefix': 'mhsample	Stats method'
+    'body': 'mhsample(${1:args})'
+
+  'mlecov	Stats method':
+    'prefix': 'mlecov	Stats method'
+    'body': 'mlecov(${1:args})'
+
+  'mnpdf	Stats method':
+    'prefix': 'mnpdf	Stats method'
+    'body': 'mnpdf(${1:args})'
+
+  'mnrfit	Stats method':
+    'prefix': 'mnrfit	Stats method'
+    'body': 'mnrfit(${1:args})'
+
+  'mnrnd	Stats method':
+    'prefix': 'mnrnd	Stats method'
+    'body': 'mnrnd(${1:args})'
+
+  'mnrval	Stats method':
+    'prefix': 'mnrval	Stats method'
+    'body': 'mnrval(${1:args})'
+
+  'moment	Stats method':
+    'prefix': 'moment	Stats method'
+    'body': 'moment(${1:args})'
+
+  'multcompare	Stats method':
+    'prefix': 'multcompare	Stats method'
+    'body': 'multcompare(${1:args})'
+
+  'multivarichart	Stats method':
+    'prefix': 'multivarichart	Stats method'
+    'body': 'multivarichart(${1:args})'
+
+  'mvncdf	Stats method':
+    'prefix': 'mvncdf	Stats method'
+    'body': 'mvncdf(${1:args})'
+
+  'mvnpdf	Stats method':
+    'prefix': 'mvnpdf	Stats method'
+    'body': 'mvnpdf(${1:args})'
+
+  'mvnrnd	Stats method':
+    'prefix': 'mvnrnd	Stats method'
+    'body': 'mvnrnd(${1:args})'
+
+  'mvregress	Stats method':
+    'prefix': 'mvregress	Stats method'
+    'body': 'mvregress(${1:args})'
+
+  'mvregresslike	Stats method':
+    'prefix': 'mvregresslike	Stats method'
+    'body': 'mvregresslike(${1:args})'
+
+  'mvtcdf	Stats method':
+    'prefix': 'mvtcdf	Stats method'
+    'body': 'mvtcdf(${1:args})'
+
+  'mvtpdf	Stats method':
+    'prefix': 'mvtpdf	Stats method'
+    'body': 'mvtpdf(${1:args})'
+
+  'mvtrnd	Stats method':
+    'prefix': 'mvtrnd	Stats method'
+    'body': 'mvtrnd(${1:args})'
+
+  'nbincdf	Stats method':
+    'prefix': 'nbincdf	Stats method'
+    'body': 'nbincdf(${1:args})'
+
+  'nbinfit	Stats method':
+    'prefix': 'nbinfit	Stats method'
+    'body': 'nbinfit(${1:args})'
+
+  'nbininv	Stats method':
+    'prefix': 'nbininv	Stats method'
+    'body': 'nbininv(${1:args})'
+
+  'nbinrnd	Stats method':
+    'prefix': 'nbinrnd	Stats method'
+    'body': 'nbinrnd(${1:args})'
+
+  'nbinstat	Stats method':
+    'prefix': 'nbinstat	Stats method'
+    'body': 'nbinstat(${1:args})'
+
+  'ncfcdf	Stats method':
+    'prefix': 'ncfcdf	Stats method'
+    'body': 'ncfcdf(${1:args})'
+
+  'ncfinv	Stats method':
+    'prefix': 'ncfinv	Stats method'
+    'body': 'ncfinv(${1:args})'
+
+  'ncfpdf	Stats method':
+    'prefix': 'ncfpdf	Stats method'
+    'body': 'ncfpdf(${1:args})'
+
+  'ncfrnd	Stats method':
+    'prefix': 'ncfrnd	Stats method'
+    'body': 'ncfrnd(${1:args})'
+
+  'ncfstat	Stats method':
+    'prefix': 'ncfstat	Stats method'
+    'body': 'ncfstat(${1:args})'
+
+  'nctcdf	Stats method':
+    'prefix': 'nctcdf	Stats method'
+    'body': 'nctcdf(${1:args})'
+
+  'nctinv	Stats method':
+    'prefix': 'nctinv	Stats method'
+    'body': 'nctinv(${1:args})'
+
+  'nctpdf	Stats method':
+    'prefix': 'nctpdf	Stats method'
+    'body': 'nctpdf(${1:args})'
+
+  'nctrnd	Stats method':
+    'prefix': 'nctrnd	Stats method'
+    'body': 'nctrnd(${1:args})'
+
+  'nctstat	Stats method':
+    'prefix': 'nctstat	Stats method'
+    'body': 'nctstat(${1:args})'
+
+  'ncx2cdf	Stats method':
+    'prefix': 'ncx2cdf	Stats method'
+    'body': 'ncx2cdf(${1:args})'
+
+  'ncx2inv	Stats method':
+    'prefix': 'ncx2inv	Stats method'
+    'body': 'ncx2inv(${1:args})'
+
+  'ncx2pdf	Stats method':
+    'prefix': 'ncx2pdf	Stats method'
+    'body': 'ncx2pdf(${1:args})'
+
+  'ncx2rnd	Stats method':
+    'prefix': 'ncx2rnd	Stats method'
+    'body': 'ncx2rnd(${1:args})'
+
+  'ncx2stat	Stats method':
+    'prefix': 'ncx2stat	Stats method'
+    'body': 'ncx2stat(${1:args})'
+
+  'negloglik	Stats method':
+    'prefix': 'negloglik	Stats method'
+    'body': 'negloglik(${1:args})'
+
+  'nlinfit	Stats method':
+    'prefix': 'nlinfit	Stats method'
+    'body': 'nlinfit(${1:args})'
+
+  'nlintool	Stats method':
+    'prefix': 'nlintool	Stats method'
+    'body': 'nlintool(${1:args})'
+
+  'nlmefit	Stats method':
+    'prefix': 'nlmefit	Stats method'
+    'body': 'nlmefit(${1:args})'
+
+  'nlmefitsa	Stats method':
+    'prefix': 'nlmefitsa	Stats method'
+    'body': 'nlmefitsa(${1:args})'
+
+  'nlparci	Stats method':
+    'prefix': 'nlparci	Stats method'
+    'body': 'nlparci(${1:args})'
+
+  'nlpredci	Stats method':
+    'prefix': 'nlpredci	Stats method'
+    'body': 'nlpredci(${1:args})'
+
+  'nnmf	Stats method':
+    'prefix': 'nnmf	Stats method'
+    'body': 'nnmf(${1:args})'
+
+  'nominal	Stats method':
+    'prefix': 'nominal	Stats method'
+    'body': 'nominal(${1:args})'
+
+  'normcdf	Stats method':
+    'prefix': 'normcdf	Stats method'
+    'body': 'normcdf(${1:args})'
+
+  'normfit	Stats method':
+    'prefix': 'normfit	Stats method'
+    'body': 'normfit(${1:args})'
+
+  'norminv	Stats method':
+    'prefix': 'norminv	Stats method'
+    'body': 'norminv(${1:args})'
+
+  'normlike	Stats method':
+    'prefix': 'normlike	Stats method'
+    'body': 'normlike(${1:args})'
+
+  'normpdf	Stats method':
+    'prefix': 'normpdf	Stats method'
+    'body': 'normpdf(${1:args})'
+
+  'normplot	Stats method':
+    'prefix': 'normplot	Stats method'
+    'body': 'normplot(${1:args})'
+
+  'normrnd	Stats method':
+    'prefix': 'normrnd	Stats method'
+    'body': 'normrnd(${1:args})'
+
+  'normspec	Stats method':
+    'prefix': 'normspec	Stats method'
+    'body': 'normspec(${1:args})'
+
+  'normstat	Stats method':
+    'prefix': 'normstat	Stats method'
+    'body': 'normstat(${1:args})'
+
+  'oobPredict	Stats method':
+    'prefix': 'oobPredict	Stats method'
+    'body': 'oobPredict(${1:args})'
+
+  'optimalleaforder	Stats method':
+    'prefix': 'optimalleaforder	Stats method'
+    'body': 'optimalleaforder(${1:args})'
+
+  'ordinal	Stats method':
+    'prefix': 'ordinal	Stats method'
+    'body': 'ordinal(${1:args})'
+
+  'parallelcoords	Stats method':
+    'prefix': 'parallelcoords	Stats method'
+    'body': 'parallelcoords(${1:args})'
+
+  'paramci	Stats method':
+    'prefix': 'paramci	Stats method'
+    'body': 'paramci(${1:args})'
+
+  'paretotails	Stats method':
+    'prefix': 'paretotails	Stats method'
+    'body': 'paretotails(${1:args})'
+
+  'partialcorr	Stats method':
+    'prefix': 'partialcorr	Stats method'
+    'body': 'partialcorr(${1:args})'
+
+  'partialcorri	Stats method':
+    'prefix': 'partialcorri	Stats method'
+    'body': 'partialcorri(${1:args})'
+
+  'pca	Stats method':
+    'prefix': 'pca	Stats method'
+    'body': 'pca(${1:args})'
+
+  'pcacov	Stats method':
+    'prefix': 'pcacov	Stats method'
+    'body': 'pcacov(${1:args})'
+
+  'pcares	Stats method':
+    'prefix': 'pcares	Stats method'
+    'body': 'pcares(${1:args})'
+
+  'pdf	Stats method':
+    'prefix': 'pdf	Stats method'
+    'body': 'pdf(${1:args})'
+
+  'pdist	Stats method':
+    'prefix': 'pdist	Stats method'
+    'body': 'pdist(${1:args})'
+
+  'pdist2	Stats method':
+    'prefix': 'pdist2	Stats method'
+    'body': 'pdist2(${1:args})'
+
+  'pearsrnd	Stats method':
+    'prefix': 'pearsrnd	Stats method'
+    'body': 'pearsrnd(${1:args})'
+
+  'perfcurve	Stats method':
+    'prefix': 'perfcurve	Stats method'
+    'body': 'perfcurve(${1:args})'
+
+  'plotAdded	Stats method':
+    'prefix': 'plotAdded	Stats method'
+    'body': 'plotAdded(${1:args})'
+
+  'plotAdjustedResponse	Stats method':
+    'prefix': 'plotAdjustedResponse	Stats method'
+    'body': 'plotAdjustedResponse(${1:args})'
+
+  'plotDiagnostics	Stats method':
+    'prefix': 'plotDiagnostics	Stats method'
+    'body': 'plotDiagnostics(${1:args})'
+
+  'plotEffects	Stats method':
+    'prefix': 'plotEffects	Stats method'
+    'body': 'plotEffects(${1:args})'
+
+  'plotInteraction	Stats method':
+    'prefix': 'plotInteraction	Stats method'
+    'body': 'plotInteraction(${1:args})'
+
+  'plotResiduals	Stats method':
+    'prefix': 'plotResiduals	Stats method'
+    'body': 'plotResiduals(${1:args})'
+
+  'plotSlice	Stats method':
+    'prefix': 'plotSlice	Stats method'
+    'body': 'plotSlice(${1:args})'
+
+  'plotprofile	Stats method':
+    'prefix': 'plotprofile	Stats method'
+    'body': 'plotprofile(${1:args})'
+
+  'plsregress	Stats method':
+    'prefix': 'plsregress	Stats method'
+    'body': 'plsregress(${1:args})'
+
+  'poisscdf	Stats method':
+    'prefix': 'poisscdf	Stats method'
+    'body': 'poisscdf(${1:args})'
+
+  'poissfit	Stats method':
+    'prefix': 'poissfit	Stats method'
+    'body': 'poissfit(${1:args})'
+
+  'poissinv	Stats method':
+    'prefix': 'poissinv	Stats method'
+    'body': 'poissinv(${1:args})'
+
+  'poisspdf	Stats method':
+    'prefix': 'poisspdf	Stats method'
+    'body': 'poisspdf(${1:args})'
+
+  'poissrnd	Stats method':
+    'prefix': 'poissrnd	Stats method'
+    'body': 'poissrnd(${1:args})'
+
+  'poisstat	Stats method':
+    'prefix': 'poisstat	Stats method'
+    'body': 'poisstat(${1:args})'
+
+  'polyconf	Stats method':
+    'prefix': 'polyconf	Stats method'
+    'body': 'polyconf(${1:args})'
+
+  'polytool	Stats method':
+    'prefix': 'polytool	Stats method'
+    'body': 'polytool(${1:args})'
+
+  'postFitStatistics	Stats method':
+    'prefix': 'postFitStatistics	Stats method'
+    'body': 'postFitStatistics(${1:args})'
+
+  'posterior	Stats method':
+    'prefix': 'posterior	Stats method'
+    'body': 'posterior(${1:args})'
+
+  'ppca	Stats method':
+    'prefix': 'ppca	Stats method'
+    'body': 'ppca(${1:args})'
+
+  'prctile	Stats method':
+    'prefix': 'prctile	Stats method'
+    'body': 'prctile(${1:args})'
+
+  'predictorImportance	Stats method':
+    'prefix': 'predictorImportance	Stats method'
+    'body': 'predictorImportance(${1:args})'
+
+  'princomp	Stats method':
+    'prefix': 'princomp	Stats method'
+    'body': 'princomp(${1:args})'
+
+  'probplot	Stats method':
+    'prefix': 'probplot	Stats method'
+    'body': 'probplot(${1:args})'
+
+  'procrustes	Stats method':
+    'prefix': 'procrustes	Stats method'
+    'body': 'procrustes(${1:args})'
+
+  'proflik	Stats method':
+    'prefix': 'proflik	Stats method'
+    'body': 'proflik(${1:args})'
+
+  'qqplot	Stats method':
+    'prefix': 'qqplot	Stats method'
+    'body': 'qqplot(${1:args})'
+
+  'qrandset	Stats method':
+    'prefix': 'qrandset	Stats method'
+    'body': 'qrandset(${1:args})'
+
+  'qrandstream	Stats method':
+    'prefix': 'qrandstream	Stats method'
+    'body': 'qrandstream(${1:args})'
+
+  'quantile	Stats method':
+    'prefix': 'quantile	Stats method'
+    'body': 'quantile(${1:args})'
+
+  'randg	Stats method':
+    'prefix': 'randg	Stats method'
+    'body': 'randg(${1:args})'
+
+  'random	Stats method':
+    'prefix': 'random	Stats method'
+    'body': 'random(${1:args})'
+
+  'randomEffects	Stats method':
+    'prefix': 'randomEffects	Stats method'
+    'body': 'randomEffects(${1:args})'
+
+  'randsample	Stats method':
+    'prefix': 'randsample	Stats method'
+    'body': 'randsample(${1:args})'
+
+  'randtool	Stats method':
+    'prefix': 'randtool	Stats method'
+    'body': 'randtool(${1:args})'
+
+  'rangesearch	Stats method':
+    'prefix': 'rangesearch	Stats method'
+    'body': 'rangesearch(${1:args})'
+
+  'ranksum	Stats method':
+    'prefix': 'ranksum	Stats method'
+    'body': 'ranksum(${1:args})'
+
+  'ranova	Stats method':
+    'prefix': 'ranova	Stats method'
+    'body': 'ranova(${1:args})'
+
+  'raylcdf	Stats method':
+    'prefix': 'raylcdf	Stats method'
+    'body': 'raylcdf(${1:args})'
+
+  'raylfit	Stats method':
+    'prefix': 'raylfit	Stats method'
+    'body': 'raylfit(${1:args})'
+
+  'raylinv	Stats method':
+    'prefix': 'raylinv	Stats method'
+    'body': 'raylinv(${1:args})'
+
+  'raylpdf	Stats method':
+    'prefix': 'raylpdf	Stats method'
+    'body': 'raylpdf(${1:args})'
+
+  'raylrnd	Stats method':
+    'prefix': 'raylrnd	Stats method'
+    'body': 'raylrnd(${1:args})'
+
+  'raylstat	Stats method':
+    'prefix': 'raylstat	Stats method'
+    'body': 'raylstat(${1:args})'
+
+  'rcoplot	Stats method':
+    'prefix': 'rcoplot	Stats method'
+    'body': 'rcoplot(${1:args})'
+
+  'refcurve	Stats method':
+    'prefix': 'refcurve	Stats method'
+    'body': 'refcurve(${1:args})'
+
+  'refit	Stats method':
+    'prefix': 'refit	Stats method'
+    'body': 'refit(${1:args})'
+
+  'refline	Stats method':
+    'prefix': 'refline	Stats method'
+    'body': 'refline(${1:args})'
+
+  'regress	Stats method':
+    'prefix': 'regress	Stats method'
+    'body': 'regress(${1:args})'
+
+  'regstats	Stats method':
+    'prefix': 'regstats	Stats method'
+    'body': 'regstats(${1:args})'
+
+  'relieff	Stats method':
+    'prefix': 'relieff	Stats method'
+    'body': 'relieff(${1:args})'
+
+  'removeTerms	Stats method':
+    'prefix': 'removeTerms	Stats method'
+    'body': 'removeTerms(${1:args})'
+
+  'residuals	Stats method':
+    'prefix': 'residuals	Stats method'
+    'body': 'residuals(${1:args})'
+
+  'response	Stats method':
+    'prefix': 'response	Stats method'
+    'body': 'response(${1:args})'
+
+  'resubLoss	Stats method':
+    'prefix': 'resubLoss	Stats method'
+    'body': 'resubLoss(${1:args})'
+
+  'resubPredict	Stats method':
+    'prefix': 'resubPredict	Stats method'
+    'body': 'resubPredict(${1:args})'
+
+  'ridge	Stats method':
+    'prefix': 'ridge	Stats method'
+    'body': 'ridge(${1:args})'
+
+  'robustdemo	Stats method':
+    'prefix': 'robustdemo	Stats method'
+    'body': 'robustdemo(${1:args})'
+
+  'robustfit	Stats method':
+    'prefix': 'robustfit	Stats method'
+    'body': 'robustfit(${1:args})'
+
+  'rotatefactors	Stats method':
+    'prefix': 'rotatefactors	Stats method'
+    'body': 'rotatefactors(${1:args})'
+
+  'rowexch	Stats method':
+    'prefix': 'rowexch	Stats method'
+    'body': 'rowexch(${1:args})'
+
+  'rsmdemo	Stats method':
+    'prefix': 'rsmdemo	Stats method'
+    'body': 'rsmdemo(${1:args})'
+
+  'rstool	Stats method':
+    'prefix': 'rstool	Stats method'
+    'body': 'rstool(${1:args})'
+
+  'runstest	Stats method':
+    'prefix': 'runstest	Stats method'
+    'body': 'runstest(${1:args})'
+
+  'sampsizepwr	Stats method':
+    'prefix': 'sampsizepwr	Stats method'
+    'body': 'sampsizepwr(${1:args})'
+
+  'scatterhist	Stats method':
+    'prefix': 'scatterhist	Stats method'
+    'body': 'scatterhist(${1:args})'
+
+  'sequentialfs	Stats method':
+    'prefix': 'sequentialfs	Stats method'
+    'body': 'sequentialfs(${1:args})'
+
+  'setlabels	Stats method':
+    'prefix': 'setlabels	Stats method'
+    'body': 'setlabels(${1:args})'
+
+  'signrank	Stats method':
+    'prefix': 'signrank	Stats method'
+    'body': 'signrank(${1:args})'
+
+  'signtest	Stats method':
+    'prefix': 'signtest	Stats method'
+    'body': 'signtest(${1:args})'
+
+  'silhouette	Stats method':
+    'prefix': 'silhouette	Stats method'
+    'body': 'silhouette(${1:args})'
+
+  'skewness	Stats method':
+    'prefix': 'skewness	Stats method'
+    'body': 'skewness(${1:args})'
+
+  'slicesample	Stats method':
+    'prefix': 'slicesample	Stats method'
+    'body': 'slicesample(${1:args})'
+
+  'sobolset	Stats method':
+    'prefix': 'sobolset	Stats method'
+    'body': 'sobolset(${1:args})'
+
+  'squareform	Stats method':
+    'prefix': 'squareform	Stats method'
+    'body': 'squareform(${1:args})'
+
+  'statget	Stats method':
+    'prefix': 'statget	Stats method'
+    'body': 'statget(${1:args})'
+
+  'statset	Stats method':
+    'prefix': 'statset	Stats method'
+    'body': 'statset(${1:args})'
+
+  'stepwise	Stats method':
+    'prefix': 'stepwise	Stats method'
+    'body': 'stepwise(${1:args})'
+
+  'stepwisefit	Stats method':
+    'prefix': 'stepwisefit	Stats method'
+    'body': 'stepwisefit(${1:args})'
+
+  'stepwiseglm	Stats method':
+    'prefix': 'stepwiseglm	Stats method'
+    'body': 'stepwiseglm(${1:args})'
+
+  'stepwiselm	Stats method':
+    'prefix': 'stepwiselm	Stats method'
+    'body': 'stepwiselm(${1:args})'
+
+  'struct2dataset	Stats method':
+    'prefix': 'struct2dataset	Stats method'
+    'body': 'struct2dataset(${1:args})'
+
+  'surfht	Stats method':
+    'prefix': 'surfht	Stats method'
+    'body': 'surfht(${1:args})'
+
+  'svmclassify	Stats method':
+    'prefix': 'svmclassify	Stats method'
+    'body': 'svmclassify(${1:args})'
+
+  'svmtrain	Stats method':
+    'prefix': 'svmtrain	Stats method'
+    'body': 'svmtrain(${1:args})'
+
+  'tLocationScaleDistribution	Stats method':
+    'prefix': 'tLocationScaleDistribution	Stats method'
+    'body': 'tLocationScaleDistribution(${1:args})'
+
+  'table2dataset	Stats method':
+    'prefix': 'table2dataset	Stats method'
+    'body': 'table2dataset(${1:args})'
+
+  'tabulate	Stats method':
+    'prefix': 'tabulate	Stats method'
+    'body': 'tabulate(${1:args})'
+
+  'tblread	Stats method':
+    'prefix': 'tblread	Stats method'
+    'body': 'tblread(${1:args})'
+
+  'tblwrite	Stats method':
+    'prefix': 'tblwrite	Stats method'
+    'body': 'tblwrite(${1:args})'
+
+  'tcdf	Stats method':
+    'prefix': 'tcdf	Stats method'
+    'body': 'tcdf(${1:args})'
+
+  'tdfread	Stats method':
+    'prefix': 'tdfread	Stats method'
+    'body': 'tdfread(${1:args})'
+
+  'templateDiscriminant	Stats method':
+    'prefix': 'templateDiscriminant	Stats method'
+    'body': 'templateDiscriminant(${1:args})'
+
+  'templateECOC	Stats method':
+    'prefix': 'templateECOC	Stats method'
+    'body': 'templateECOC(${1:args})'
+
+  'templateEnsemble	Stats method':
+    'prefix': 'templateEnsemble	Stats method'
+    'body': 'templateEnsemble(${1:args})'
+
+  'templateKNN	Stats method':
+    'prefix': 'templateKNN	Stats method'
+    'body': 'templateKNN(${1:args})'
+
+  'templateNaiveBayes	Stats method':
+    'prefix': 'templateNaiveBayes	Stats method'
+    'body': 'templateNaiveBayes(${1:args})'
+
+  'templateSVM	Stats method':
+    'prefix': 'templateSVM	Stats method'
+    'body': 'templateSVM(${1:args})'
+
+  'templateTree	Stats method':
+    'prefix': 'templateTree	Stats method'
+    'body': 'templateTree(${1:args})'
+
+  'testcholdout	Stats method':
+    'prefix': 'testcholdout	Stats method'
+    'body': 'testcholdout(${1:args})'
+
+  'testckfold	Stats method':
+    'prefix': 'testckfold	Stats method'
+    'body': 'testckfold(${1:args})'
+
+  'tiedrank	Stats method':
+    'prefix': 'tiedrank	Stats method'
+    'body': 'tiedrank(${1:args})'
+
+  'tinv	Stats method':
+    'prefix': 'tinv	Stats method'
+    'body': 'tinv(${1:args})'
+
+  'tpdf	Stats method':
+    'prefix': 'tpdf	Stats method'
+    'body': 'tpdf(${1:args})'
+
+  'trimmean	Stats method':
+    'prefix': 'trimmean	Stats method'
+    'body': 'trimmean(${1:args})'
+
+  'trnd	Stats method':
+    'prefix': 'trnd	Stats method'
+    'body': 'trnd(${1:args})'
+
+  'truncate	Stats method':
+    'prefix': 'truncate	Stats method'
+    'body': 'truncate(${1:args})'
+
+  'tstat	Stats method':
+    'prefix': 'tstat	Stats method'
+    'body': 'tstat(${1:args})'
+
+  'ttest	Stats method':
+    'prefix': 'ttest	Stats method'
+    'body': 'ttest(${1:args})'
+
+  'ttest2	Stats method':
+    'prefix': 'ttest2	Stats method'
+    'body': 'ttest2(${1:args})'
+
+  'unidcdf	Stats method':
+    'prefix': 'unidcdf	Stats method'
+    'body': 'unidcdf(${1:args})'
+
+  'unidinv	Stats method':
+    'prefix': 'unidinv	Stats method'
+    'body': 'unidinv(${1:args})'
+
+  'unidpdf	Stats method':
+    'prefix': 'unidpdf	Stats method'
+    'body': 'unidpdf(${1:args})'
+
+  'unidrnd	Stats method':
+    'prefix': 'unidrnd	Stats method'
+    'body': 'unidrnd(${1:args})'
+
+  'unidstat	Stats method':
+    'prefix': 'unidstat	Stats method'
+    'body': 'unidstat(${1:args})'
+
+  'unifcdf	Stats method':
+    'prefix': 'unifcdf	Stats method'
+    'body': 'unifcdf(${1:args})'
+
+  'unifinv	Stats method':
+    'prefix': 'unifinv	Stats method'
+    'body': 'unifinv(${1:args})'
+
+  'unifit	Stats method':
+    'prefix': 'unifit	Stats method'
+    'body': 'unifit(${1:args})'
+
+  'unifpdf	Stats method':
+    'prefix': 'unifpdf	Stats method'
+    'body': 'unifpdf(${1:args})'
+
+  'unifrnd	Stats method':
+    'prefix': 'unifrnd	Stats method'
+    'body': 'unifrnd(${1:args})'
+
+  'unifstat	Stats method':
+    'prefix': 'unifstat	Stats method'
+    'body': 'unifstat(${1:args})'
+
+  'vartest	Stats method':
+    'prefix': 'vartest	Stats method'
+    'body': 'vartest(${1:args})'
+
+  'vartest2	Stats method':
+    'prefix': 'vartest2	Stats method'
+    'body': 'vartest2(${1:args})'
+
+  'vartestn	Stats method':
+    'prefix': 'vartestn	Stats method'
+    'body': 'vartestn(${1:args})'
+
+  'wblcdf	Stats method':
+    'prefix': 'wblcdf	Stats method'
+    'body': 'wblcdf(${1:args})'
+
+  'wblfit	Stats method':
+    'prefix': 'wblfit	Stats method'
+    'body': 'wblfit(${1:args})'
+
+  'wblinv	Stats method':
+    'prefix': 'wblinv	Stats method'
+    'body': 'wblinv(${1:args})'
+
+  'wbllike	Stats method':
+    'prefix': 'wbllike	Stats method'
+    'body': 'wbllike(${1:args})'
+
+  'wblpdf	Stats method':
+    'prefix': 'wblpdf	Stats method'
+    'body': 'wblpdf(${1:args})'
+
+  'wblplot	Stats method':
+    'prefix': 'wblplot	Stats method'
+    'body': 'wblplot(${1:args})'
+
+  'wblrnd	Stats method':
+    'prefix': 'wblrnd	Stats method'
+    'body': 'wblrnd(${1:args})'
+
+  'wblstat	Stats method':
+    'prefix': 'wblstat	Stats method'
+    'body': 'wblstat(${1:args})'
+
+  'wishrnd	Stats method':
+    'prefix': 'wishrnd	Stats method'
+    'body': 'wishrnd(${1:args})'
+
+  'x2fx	Stats method':
+    'prefix': 'x2fx	Stats method'
+    'body': 'x2fx(${1:args})'
+
+  'xptread	Stats method':
+    'prefix': 'xptread	Stats method'
+    'body': 'xptread(${1:args})'
+
+  'zscore	Stats method':
+    'prefix': 'zscore	Stats method'
+    'body': 'zscore(${1:args})'
+
+  'ztest	Stats method':
+    'prefix': 'ztest	Stats method'
+    'body': 'ztest(${1:args})'

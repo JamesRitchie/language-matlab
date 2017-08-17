@@ -1,0 +1,287 @@
+# matlabcomp74 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'ADCTimingMode	DAQ prop':
+    'prefix': 'ADCTimingMode	DAQ prop'
+    'body': 'ADCTimingMode'
+
+  'ActiveEdge	DAQ prop':
+    'prefix': 'ActiveEdge	DAQ prop'
+    'body': 'ActiveEdge'
+
+  'ActivePulse	DAQ prop':
+    'prefix': 'ActivePulse	DAQ prop'
+    'body': 'ActivePulse'
+
+  'AutoSyncDSA	DAQ prop':
+    'prefix': 'AutoSyncDSA	DAQ prop'
+    'body': 'AutoSyncDSA'
+
+  'BitsPerSample	DAQ prop':
+    'prefix': 'BitsPerSample	DAQ prop'
+    'body': 'BitsPerSample'
+
+  'BridgeMode	DAQ prop':
+    'prefix': 'BridgeMode	DAQ prop'
+    'body': 'BridgeMode'
+
+  'Channels	DAQ prop':
+    'prefix': 'Channels	DAQ prop'
+    'body': 'Channels'
+
+  'Connections	DAQ prop':
+    'prefix': 'Connections	DAQ prop'
+    'body': 'Connections'
+
+  'CountDirection	DAQ prop':
+    'prefix': 'CountDirection	DAQ prop'
+    'body': 'CountDirection'
+
+  'Coupling	DAQ prop':
+    'prefix': 'Coupling	DAQ prop'
+    'body': 'Coupling'
+
+  'Destination	DAQ prop':
+    'prefix': 'Destination	DAQ prop'
+    'body': 'Destination'
+
+  'Device	DAQ prop':
+    'prefix': 'Device	DAQ prop'
+    'body': 'Device'
+
+  'Direction	DAQ prop':
+    'prefix': 'Direction	DAQ prop'
+    'body': 'Direction'
+
+  'DurationInSeconds	DAQ prop':
+    'prefix': 'DurationInSeconds	DAQ prop'
+    'body': 'DurationInSeconds'
+
+  'DutyCycle	DAQ prop':
+    'prefix': 'DutyCycle	DAQ prop'
+    'body': 'DutyCycle'
+
+  'EncoderType	DAQ prop':
+    'prefix': 'EncoderType	DAQ prop'
+    'body': 'EncoderType'
+
+  'EnhancedAliasRejectionEnable	DAQ prop':
+    'prefix': 'EnhancedAliasRejectionEnable	DAQ prop'
+    'body': 'EnhancedAliasRejectionEnable'
+
+  'ExcitationCurrent	DAQ prop':
+    'prefix': 'ExcitationCurrent	DAQ prop'
+    'body': 'ExcitationCurrent'
+
+  'ExcitationSource	DAQ prop':
+    'prefix': 'ExcitationSource	DAQ prop'
+    'body': 'ExcitationSource'
+
+  'ExcitationVoltage	DAQ prop':
+    'prefix': 'ExcitationVoltage	DAQ prop'
+    'body': 'ExcitationVoltage'
+
+  'ExternalTriggerTimeout	DAQ prop':
+    'prefix': 'ExternalTriggerTimeout	DAQ prop'
+    'body': 'ExternalTriggerTimeout'
+
+  'Frequency	DAQ prop':
+    'prefix': 'Frequency	DAQ prop'
+    'body': 'Frequency'
+
+  'FrequencyLimit	DAQ prop':
+    'prefix': 'FrequencyLimit	DAQ prop'
+    'body': 'FrequencyLimit'
+
+  'Gain	DAQ prop':
+    'prefix': 'Gain	DAQ prop'
+    'body': 'Gain'
+
+  'ID	DAQ prop':
+    'prefix': 'ID	DAQ prop'
+    'body': 'ID'
+
+  'InitialCount	DAQ prop':
+    'prefix': 'InitialCount	DAQ prop'
+    'body': 'InitialCount'
+
+  'IsContinuous	DAQ prop':
+    'prefix': 'IsContinuous	DAQ prop'
+    'body': 'IsContinuous'
+
+  'IsDone	DAQ prop':
+    'prefix': 'IsDone	DAQ prop'
+    'body': 'IsDone'
+
+  'IsLogging	DAQ prop':
+    'prefix': 'IsLogging	DAQ prop'
+    'body': 'IsLogging'
+
+  'IsNotifyWhenDataAvailableExceedsAuto	DAQ prop':
+    'prefix': 'IsNotifyWhenDataAvailableExceedsAuto	DAQ prop'
+    'body': 'IsNotifyWhenDataAvailableExceedsAuto'
+
+  'IsNotifyWhenScansQueuedBelowAuto	DAQ prop':
+    'prefix': 'IsNotifyWhenScansQueuedBelowAuto	DAQ prop'
+    'body': 'IsNotifyWhenScansQueuedBelowAuto'
+
+  'IsRunning	DAQ prop':
+    'prefix': 'IsRunning	DAQ prop'
+    'body': 'IsRunning'
+
+  'IsWaitingForExternalTrigger	DAQ prop':
+    'prefix': 'IsWaitingForExternalTrigger	DAQ prop'
+    'body': 'IsWaitingForExternalTrigger'
+
+  'MaxSoundPressureLevel	DAQ prop':
+    'prefix': 'MaxSoundPressureLevel	DAQ prop'
+    'body': 'MaxSoundPressureLevel'
+
+  'MeasurementType	DAQ prop':
+    'prefix': 'MeasurementType	DAQ prop'
+    'body': 'MeasurementType'
+
+  'Name	DAQ prop':
+    'prefix': 'Name	DAQ prop'
+    'body': 'Name'
+
+  'NominalBridgeResistance	DAQ prop':
+    'prefix': 'NominalBridgeResistance	DAQ prop'
+    'body': 'NominalBridgeResistance'
+
+  'NotifyWhenDataAvailableExceeds	DAQ prop':
+    'prefix': 'NotifyWhenDataAvailableExceeds	DAQ prop'
+    'body': 'NotifyWhenDataAvailableExceeds'
+
+  'NotifyWhenScansQueuedBelow	DAQ prop':
+    'prefix': 'NotifyWhenScansQueuedBelow	DAQ prop'
+    'body': 'NotifyWhenScansQueuedBelow'
+
+  'NumberOfScans	DAQ prop':
+    'prefix': 'NumberOfScans	DAQ prop'
+    'body': 'NumberOfScans'
+
+  'Offset	DAQ prop':
+    'prefix': 'Offset	DAQ prop'
+    'body': 'Offset'
+
+  'Phase	DAQ prop':
+    'prefix': 'Phase	DAQ prop'
+    'body': 'Phase'
+
+  'R0	DAQ prop':
+    'prefix': 'R0	DAQ prop'
+    'body': 'R0'
+
+  'RTDConfiguration	DAQ prop':
+    'prefix': 'RTDConfiguration	DAQ prop'
+    'body': 'RTDConfiguration'
+
+  'RTDType	DAQ prop':
+    'prefix': 'RTDType	DAQ prop'
+    'body': 'RTDType'
+
+  'Range	DAQ prop':
+    'prefix': 'Range	DAQ prop'
+    'body': 'Range'
+
+  'Rate	DAQ prop':
+    'prefix': 'Rate	DAQ prop'
+    'body': 'Rate'
+
+  'RateLimit	DAQ prop':
+    'prefix': 'RateLimit	DAQ prop'
+    'body': 'RateLimit'
+
+  'ScansAcquired	DAQ prop':
+    'prefix': 'ScansAcquired	DAQ prop'
+    'body': 'ScansAcquired'
+
+  'ScansOutputByHardware	DAQ prop':
+    'prefix': 'ScansOutputByHardware	DAQ prop'
+    'body': 'ScansOutputByHardware'
+
+  'ScansQueued	DAQ prop':
+    'prefix': 'ScansQueued	DAQ prop'
+    'body': 'ScansQueued'
+
+  'Sensitivity	DAQ prop':
+    'prefix': 'Sensitivity	DAQ prop'
+    'body': 'Sensitivity'
+
+  'ShuntLocation	DAQ prop':
+    'prefix': 'ShuntLocation	DAQ prop'
+    'body': 'ShuntLocation'
+
+  'ShuntResistance	DAQ prop':
+    'prefix': 'ShuntResistance	DAQ prop'
+    'body': 'ShuntResistance'
+
+  'Source	DAQ prop':
+    'prefix': 'Source	DAQ prop'
+    'body': 'Source'
+
+  'StandardSampleRates	DAQ prop':
+    'prefix': 'StandardSampleRates	DAQ prop'
+    'body': 'StandardSampleRates'
+
+  'Terminal	DAQ prop':
+    'prefix': 'Terminal	DAQ prop'
+    'body': 'Terminal'
+
+  'TerminalConfig	DAQ prop':
+    'prefix': 'TerminalConfig	DAQ prop'
+    'body': 'TerminalConfig'
+
+  'Terminals	DAQ prop':
+    'prefix': 'Terminals	DAQ prop'
+    'body': 'Terminals'
+
+  'ThermocoupleType	DAQ prop':
+    'prefix': 'ThermocoupleType	DAQ prop'
+    'body': 'ThermocoupleType'
+
+  'TriggerCondition	DAQ prop':
+    'prefix': 'TriggerCondition	DAQ prop'
+    'body': 'TriggerCondition'
+
+  'TriggerType	DAQ prop':
+    'prefix': 'TriggerType	DAQ prop'
+    'body': 'TriggerType'
+
+  'TriggersPerRun	DAQ prop':
+    'prefix': 'TriggersPerRun	DAQ prop'
+    'body': 'TriggersPerRun'
+
+  'TriggersRemaining	DAQ prop':
+    'prefix': 'TriggersRemaining	DAQ prop'
+    'body': 'TriggersRemaining'
+
+  'Units	DAQ prop':
+    'prefix': 'Units	DAQ prop'
+    'body': 'Units'
+
+  'UseStandardSampleRate	DAQ prop':
+    'prefix': 'UseStandardSampleRate	DAQ prop'
+    'body': 'UseStandardSampleRate'
+
+  'Vendor	DAQ prop':
+    'prefix': 'Vendor	DAQ prop'
+    'body': 'Vendor'
+
+  'WaveformType	DAQ prop':
+    'prefix': 'WaveformType	DAQ prop'
+    'body': 'WaveformType'
+
+  'ZResetCondition	DAQ prop':
+    'prefix': 'ZResetCondition	DAQ prop'
+    'body': 'ZResetCondition'
+
+  'ZResetEnable	DAQ prop':
+    'prefix': 'ZResetEnable	DAQ prop'
+    'body': 'ZResetEnable'
+
+  'ZResetValue	DAQ prop':
+    'prefix': 'ZResetValue	DAQ prop'
+    'body': 'ZResetValue'

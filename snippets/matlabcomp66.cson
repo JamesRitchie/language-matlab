@@ -1,0 +1,983 @@
+# matlabcomp66 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'BioIndexedFile	Bioinfo method':
+    'prefix': 'BioIndexedFile	Bioinfo method'
+    'body': 'BioIndexedFile(${1:args})'
+
+  'BioMap	Bioinfo method':
+    'prefix': 'BioMap	Bioinfo method'
+    'body': 'BioMap(${1:args})'
+
+  'BioRead	Bioinfo method':
+    'prefix': 'BioRead	Bioinfo method'
+    'body': 'BioRead(${1:args})'
+
+  'BioReadQualityStatistics	Bioinfo method':
+    'prefix': 'BioReadQualityStatistics	Bioinfo method'
+    'body': 'BioReadQualityStatistics(${1:args})'
+
+  'DataMatrix	Bioinfo method':
+    'prefix': 'DataMatrix	Bioinfo method'
+    'body': 'DataMatrix(${1:args})'
+
+  'GFFAnnotation	Bioinfo method':
+    'prefix': 'GFFAnnotation	Bioinfo method'
+    'body': 'GFFAnnotation(${1:args})'
+
+  'GTFAnnotation	Bioinfo method':
+    'prefix': 'GTFAnnotation	Bioinfo method'
+    'body': 'GTFAnnotation(${1:args})'
+
+  'HeatMap	Bioinfo method':
+    'prefix': 'HeatMap	Bioinfo method'
+    'body': 'HeatMap(${1:args})'
+
+  'aa2int	Bioinfo method':
+    'prefix': 'aa2int	Bioinfo method'
+    'body': 'aa2int(${1:args})'
+
+  'aa2nt	Bioinfo method':
+    'prefix': 'aa2nt	Bioinfo method'
+    'body': 'aa2nt(${1:args})'
+
+  'aacount	Bioinfo method':
+    'prefix': 'aacount	Bioinfo method'
+    'body': 'aacount(${1:args})'
+
+  'affygcrma	Bioinfo method':
+    'prefix': 'affygcrma	Bioinfo method'
+    'body': 'affygcrma(${1:args})'
+
+  'affyinvarsetnorm	Bioinfo method':
+    'prefix': 'affyinvarsetnorm	Bioinfo method'
+    'body': 'affyinvarsetnorm(${1:args})'
+
+  'affyprobeaffinities	Bioinfo method':
+    'prefix': 'affyprobeaffinities	Bioinfo method'
+    'body': 'affyprobeaffinities(${1:args})'
+
+  'affyprobeseqread	Bioinfo method':
+    'prefix': 'affyprobeseqread	Bioinfo method'
+    'body': 'affyprobeseqread(${1:args})'
+
+  'affyread	Bioinfo method':
+    'prefix': 'affyread	Bioinfo method'
+    'body': 'affyread(${1:args})'
+
+  'affyrma	Bioinfo method':
+    'prefix': 'affyrma	Bioinfo method'
+    'body': 'affyrma(${1:args})'
+
+  'affysnpannotread	Bioinfo method':
+    'prefix': 'affysnpannotread	Bioinfo method'
+    'body': 'affysnpannotread(${1:args})'
+
+  'affysnpintensitysplit	Bioinfo method':
+    'prefix': 'affysnpintensitysplit	Bioinfo method'
+    'body': 'affysnpintensitysplit(${1:args})'
+
+  'affysnpquartets	Bioinfo method':
+    'prefix': 'affysnpquartets	Bioinfo method'
+    'body': 'affysnpquartets(${1:args})'
+
+  'agferead	Bioinfo method':
+    'prefix': 'agferead	Bioinfo method'
+    'body': 'agferead(${1:args})'
+
+  'align2cigar	Bioinfo method':
+    'prefix': 'align2cigar	Bioinfo method'
+    'body': 'align2cigar(${1:args})'
+
+  'aminolookup	Bioinfo method':
+    'prefix': 'aminolookup	Bioinfo method'
+    'body': 'aminolookup(${1:args})'
+
+  'atomiccomp	Bioinfo method':
+    'prefix': 'atomiccomp	Bioinfo method'
+    'body': 'atomiccomp(${1:args})'
+
+  'bamindexread	Bioinfo method':
+    'prefix': 'bamindexread	Bioinfo method'
+    'body': 'bamindexread(${1:args})'
+
+  'baminfo	Bioinfo method':
+    'prefix': 'baminfo	Bioinfo method'
+    'body': 'baminfo(${1:args})'
+
+  'bamread	Bioinfo method':
+    'prefix': 'bamread	Bioinfo method'
+    'body': 'bamread(${1:args})'
+
+  'basecount	Bioinfo method':
+    'prefix': 'basecount	Bioinfo method'
+    'body': 'basecount(${1:args})'
+
+  'baselookup	Bioinfo method':
+    'prefix': 'baselookup	Bioinfo method'
+    'body': 'baselookup(${1:args})'
+
+  'biograph	Bioinfo method':
+    'prefix': 'biograph	Bioinfo method'
+    'body': 'biograph(${1:args})'
+
+  'bioma.ExpressionSet	Bioinfo method':
+    'prefix': 'bioma.ExpressionSet	Bioinfo method'
+    'body': 'bioma.ExpressionSet(${1:args})'
+
+  'bioma.data.ExptData	Bioinfo method':
+    'prefix': 'bioma.data.ExptData	Bioinfo method'
+    'body': 'bioma.data.ExptData(${1:args})'
+
+  'bioma.data.MIAME	Bioinfo method':
+    'prefix': 'bioma.data.MIAME	Bioinfo method'
+    'body': 'bioma.data.MIAME(${1:args})'
+
+  'bioma.data.MetaData	Bioinfo method':
+    'prefix': 'bioma.data.MetaData	Bioinfo method'
+    'body': 'bioma.data.MetaData(${1:args})'
+
+  'blastformat	Bioinfo method':
+    'prefix': 'blastformat	Bioinfo method'
+    'body': 'blastformat(${1:args})'
+
+  'blastlocal	Bioinfo method':
+    'prefix': 'blastlocal	Bioinfo method'
+    'body': 'blastlocal(${1:args})'
+
+  'blastncbi	Bioinfo method':
+    'prefix': 'blastncbi	Bioinfo method'
+    'body': 'blastncbi(${1:args})'
+
+  'blastread	Bioinfo method':
+    'prefix': 'blastread	Bioinfo method'
+    'body': 'blastread(${1:args})'
+
+  'blastreadlocal	Bioinfo method':
+    'prefix': 'blastreadlocal	Bioinfo method'
+    'body': 'blastreadlocal(${1:args})'
+
+  'blosum	Bioinfo method':
+    'prefix': 'blosum	Bioinfo method'
+    'body': 'blosum(${1:args})'
+
+  'bowtie	Bioinfo method':
+    'prefix': 'bowtie	Bioinfo method'
+    'body': 'bowtie(${1:args})'
+
+  'bowtiebuild	Bioinfo method':
+    'prefix': 'bowtiebuild	Bioinfo method'
+    'body': 'bowtiebuild(${1:args})'
+
+  'celintensityread	Bioinfo method':
+    'prefix': 'celintensityread	Bioinfo method'
+    'body': 'celintensityread(${1:args})'
+
+  'cghcbs	Bioinfo method':
+    'prefix': 'cghcbs	Bioinfo method'
+    'body': 'cghcbs(${1:args})'
+
+  'cghfreqplot	Bioinfo method':
+    'prefix': 'cghfreqplot	Bioinfo method'
+    'body': 'cghfreqplot(${1:args})'
+
+  'chromosomeplot	Bioinfo method':
+    'prefix': 'chromosomeplot	Bioinfo method'
+    'body': 'chromosomeplot(${1:args})'
+
+  'cigar2align	Bioinfo method':
+    'prefix': 'cigar2align	Bioinfo method'
+    'body': 'cigar2align(${1:args})'
+
+  'classperf	Bioinfo method':
+    'prefix': 'classperf	Bioinfo method'
+    'body': 'classperf(${1:args})'
+
+  'cleave	Bioinfo method':
+    'prefix': 'cleave	Bioinfo method'
+    'body': 'cleave(${1:args})'
+
+  'cleavelookup	Bioinfo method':
+    'prefix': 'cleavelookup	Bioinfo method'
+    'body': 'cleavelookup(${1:args})'
+
+  'clustergram	Bioinfo method':
+    'prefix': 'clustergram	Bioinfo method'
+    'body': 'clustergram(${1:args})'
+
+  'codonbias	Bioinfo method':
+    'prefix': 'codonbias	Bioinfo method'
+    'body': 'codonbias(${1:args})'
+
+  'codoncount	Bioinfo method':
+    'prefix': 'codoncount	Bioinfo method'
+    'body': 'codoncount(${1:args})'
+
+  'cpgisland	Bioinfo method':
+    'prefix': 'cpgisland	Bioinfo method'
+    'body': 'cpgisland(${1:args})'
+
+  'crossvalind	Bioinfo method':
+    'prefix': 'crossvalind	Bioinfo method'
+    'body': 'crossvalind(${1:args})'
+
+  'cytobandread	Bioinfo method':
+    'prefix': 'cytobandread	Bioinfo method'
+    'body': 'cytobandread(${1:args})'
+
+  'dayhoff	Bioinfo method':
+    'prefix': 'dayhoff	Bioinfo method'
+    'body': 'dayhoff(${1:args})'
+
+  'dimercount	Bioinfo method':
+    'prefix': 'dimercount	Bioinfo method'
+    'body': 'dimercount(${1:args})'
+
+  'dna2rna	Bioinfo method':
+    'prefix': 'dna2rna	Bioinfo method'
+    'body': 'dna2rna(${1:args})'
+
+  'dnds	Bioinfo method':
+    'prefix': 'dnds	Bioinfo method'
+    'body': 'dnds(${1:args})'
+
+  'dndsml	Bioinfo method':
+    'prefix': 'dndsml	Bioinfo method'
+    'body': 'dndsml(${1:args})'
+
+  'emblread	Bioinfo method':
+    'prefix': 'emblread	Bioinfo method'
+    'body': 'emblread(${1:args})'
+
+  'evalrasmolscript	Bioinfo method':
+    'prefix': 'evalrasmolscript	Bioinfo method'
+    'body': 'evalrasmolscript(${1:args})'
+
+  'exprprofrange	Bioinfo method':
+    'prefix': 'exprprofrange	Bioinfo method'
+    'body': 'exprprofrange(${1:args})'
+
+  'exprprofvar	Bioinfo method':
+    'prefix': 'exprprofvar	Bioinfo method'
+    'body': 'exprprofvar(${1:args})'
+
+  'fastainfo	Bioinfo method':
+    'prefix': 'fastainfo	Bioinfo method'
+    'body': 'fastainfo(${1:args})'
+
+  'fastaread	Bioinfo method':
+    'prefix': 'fastaread	Bioinfo method'
+    'body': 'fastaread(${1:args})'
+
+  'fastawrite	Bioinfo method':
+    'prefix': 'fastawrite	Bioinfo method'
+    'body': 'fastawrite(${1:args})'
+
+  'fastqinfo	Bioinfo method':
+    'prefix': 'fastqinfo	Bioinfo method'
+    'body': 'fastqinfo(${1:args})'
+
+  'fastqread	Bioinfo method':
+    'prefix': 'fastqread	Bioinfo method'
+    'body': 'fastqread(${1:args})'
+
+  'fastqwrite	Bioinfo method':
+    'prefix': 'fastqwrite	Bioinfo method'
+    'body': 'fastqwrite(${1:args})'
+
+  'featuresmap	Bioinfo method':
+    'prefix': 'featuresmap	Bioinfo method'
+    'body': 'featuresmap(${1:args})'
+
+  'featuresparse	Bioinfo method':
+    'prefix': 'featuresparse	Bioinfo method'
+    'body': 'featuresparse(${1:args})'
+
+  'fitcknn	Bioinfo method':
+    'prefix': 'fitcknn	Bioinfo method'
+    'body': 'fitcknn(${1:args})'
+
+  'galread	Bioinfo method':
+    'prefix': 'galread	Bioinfo method'
+    'body': 'galread(${1:args})'
+
+  'gcrma	Bioinfo method':
+    'prefix': 'gcrma	Bioinfo method'
+    'body': 'gcrma(${1:args})'
+
+  'gcrmabackadj	Bioinfo method':
+    'prefix': 'gcrmabackadj	Bioinfo method'
+    'body': 'gcrmabackadj(${1:args})'
+
+  'genbankread	Bioinfo method':
+    'prefix': 'genbankread	Bioinfo method'
+    'body': 'genbankread(${1:args})'
+
+  'geneentropyfilter	Bioinfo method':
+    'prefix': 'geneentropyfilter	Bioinfo method'
+    'body': 'geneentropyfilter(${1:args})'
+
+  'genelowvalfilter	Bioinfo method':
+    'prefix': 'genelowvalfilter	Bioinfo method'
+    'body': 'genelowvalfilter(${1:args})'
+
+  'geneont	Bioinfo method':
+    'prefix': 'geneont	Bioinfo method'
+    'body': 'geneont(${1:args})'
+
+  'generangefilter	Bioinfo method':
+    'prefix': 'generangefilter	Bioinfo method'
+    'body': 'generangefilter(${1:args})'
+
+  'geneticcode	Bioinfo method':
+    'prefix': 'geneticcode	Bioinfo method'
+    'body': 'geneticcode(${1:args})'
+
+  'genevarfilter	Bioinfo method':
+    'prefix': 'genevarfilter	Bioinfo method'
+    'body': 'genevarfilter(${1:args})'
+
+  'genpeptread	Bioinfo method':
+    'prefix': 'genpeptread	Bioinfo method'
+    'body': 'genpeptread(${1:args})'
+
+  'geoseriesread	Bioinfo method':
+    'prefix': 'geoseriesread	Bioinfo method'
+    'body': 'geoseriesread(${1:args})'
+
+  'geosoftread	Bioinfo method':
+    'prefix': 'geosoftread	Bioinfo method'
+    'body': 'geosoftread(${1:args})'
+
+  'getblast	Bioinfo method':
+    'prefix': 'getblast	Bioinfo method'
+    'body': 'getblast(${1:args})'
+
+  'getembl	Bioinfo method':
+    'prefix': 'getembl	Bioinfo method'
+    'body': 'getembl(${1:args})'
+
+  'getgenbank	Bioinfo method':
+    'prefix': 'getgenbank	Bioinfo method'
+    'body': 'getgenbank(${1:args})'
+
+  'getgenpept	Bioinfo method':
+    'prefix': 'getgenpept	Bioinfo method'
+    'body': 'getgenpept(${1:args})'
+
+  'getgeodata	Bioinfo method':
+    'prefix': 'getgeodata	Bioinfo method'
+    'body': 'getgeodata(${1:args})'
+
+  'gethmmalignment	Bioinfo method':
+    'prefix': 'gethmmalignment	Bioinfo method'
+    'body': 'gethmmalignment(${1:args})'
+
+  'gethmmprof	Bioinfo method':
+    'prefix': 'gethmmprof	Bioinfo method'
+    'body': 'gethmmprof(${1:args})'
+
+  'gethmmtree	Bioinfo method':
+    'prefix': 'gethmmtree	Bioinfo method'
+    'body': 'gethmmtree(${1:args})'
+
+  'getpdb	Bioinfo method':
+    'prefix': 'getpdb	Bioinfo method'
+    'body': 'getpdb(${1:args})'
+
+  'goannotread	Bioinfo method':
+    'prefix': 'goannotread	Bioinfo method'
+    'body': 'goannotread(${1:args})'
+
+  'gonnet	Bioinfo method':
+    'prefix': 'gonnet	Bioinfo method'
+    'body': 'gonnet(${1:args})'
+
+  'gprread	Bioinfo method':
+    'prefix': 'gprread	Bioinfo method'
+    'body': 'gprread(${1:args})'
+
+  'graphallshortestpaths	Bioinfo method':
+    'prefix': 'graphallshortestpaths	Bioinfo method'
+    'body': 'graphallshortestpaths(${1:args})'
+
+  'graphconncomp	Bioinfo method':
+    'prefix': 'graphconncomp	Bioinfo method'
+    'body': 'graphconncomp(${1:args})'
+
+  'graphisdag	Bioinfo method':
+    'prefix': 'graphisdag	Bioinfo method'
+    'body': 'graphisdag(${1:args})'
+
+  'graphisomorphism	Bioinfo method':
+    'prefix': 'graphisomorphism	Bioinfo method'
+    'body': 'graphisomorphism(${1:args})'
+
+  'graphisspantree	Bioinfo method':
+    'prefix': 'graphisspantree	Bioinfo method'
+    'body': 'graphisspantree(${1:args})'
+
+  'graphmaxflow	Bioinfo method':
+    'prefix': 'graphmaxflow	Bioinfo method'
+    'body': 'graphmaxflow(${1:args})'
+
+  'graphminspantree	Bioinfo method':
+    'prefix': 'graphminspantree	Bioinfo method'
+    'body': 'graphminspantree(${1:args})'
+
+  'graphpred2path	Bioinfo method':
+    'prefix': 'graphpred2path	Bioinfo method'
+    'body': 'graphpred2path(${1:args})'
+
+  'graphshortestpath	Bioinfo method':
+    'prefix': 'graphshortestpath	Bioinfo method'
+    'body': 'graphshortestpath(${1:args})'
+
+  'graphtopoorder	Bioinfo method':
+    'prefix': 'graphtopoorder	Bioinfo method'
+    'body': 'graphtopoorder(${1:args})'
+
+  'graphtraverse	Bioinfo method':
+    'prefix': 'graphtraverse	Bioinfo method'
+    'body': 'graphtraverse(${1:args})'
+
+  'hmmprofalign	Bioinfo method':
+    'prefix': 'hmmprofalign	Bioinfo method'
+    'body': 'hmmprofalign(${1:args})'
+
+  'hmmprofestimate	Bioinfo method':
+    'prefix': 'hmmprofestimate	Bioinfo method'
+    'body': 'hmmprofestimate(${1:args})'
+
+  'hmmprofgenerate	Bioinfo method':
+    'prefix': 'hmmprofgenerate	Bioinfo method'
+    'body': 'hmmprofgenerate(${1:args})'
+
+  'hmmprofmerge	Bioinfo method':
+    'prefix': 'hmmprofmerge	Bioinfo method'
+    'body': 'hmmprofmerge(${1:args})'
+
+  'hmmprofstruct	Bioinfo method':
+    'prefix': 'hmmprofstruct	Bioinfo method'
+    'body': 'hmmprofstruct(${1:args})'
+
+  'ilmnbslookup	Bioinfo method':
+    'prefix': 'ilmnbslookup	Bioinfo method'
+    'body': 'ilmnbslookup(${1:args})'
+
+  'ilmnbsread	Bioinfo method':
+    'prefix': 'ilmnbsread	Bioinfo method'
+    'body': 'ilmnbsread(${1:args})'
+
+  'imageneread	Bioinfo method':
+    'prefix': 'imageneread	Bioinfo method'
+    'body': 'imageneread(${1:args})'
+
+  'int2aa	Bioinfo method':
+    'prefix': 'int2aa	Bioinfo method'
+    'body': 'int2aa(${1:args})'
+
+  'int2nt	Bioinfo method':
+    'prefix': 'int2nt	Bioinfo method'
+    'body': 'int2nt(${1:args})'
+
+  'isoelectric	Bioinfo method':
+    'prefix': 'isoelectric	Bioinfo method'
+    'body': 'isoelectric(${1:args})'
+
+  'isotopicdist	Bioinfo method':
+    'prefix': 'isotopicdist	Bioinfo method'
+    'body': 'isotopicdist(${1:args})'
+
+  'jcampread	Bioinfo method':
+    'prefix': 'jcampread	Bioinfo method'
+    'body': 'jcampread(${1:args})'
+
+  'joinseq	Bioinfo method':
+    'prefix': 'joinseq	Bioinfo method'
+    'body': 'joinseq(${1:args})'
+
+  'knnimpute	Bioinfo method':
+    'prefix': 'knnimpute	Bioinfo method'
+    'body': 'knnimpute(${1:args})'
+
+  'localalign	Bioinfo method':
+    'prefix': 'localalign	Bioinfo method'
+    'body': 'localalign(${1:args})'
+
+  'maboxplot	Bioinfo method':
+    'prefix': 'maboxplot	Bioinfo method'
+    'body': 'maboxplot(${1:args})'
+
+  'mafdr	Bioinfo method':
+    'prefix': 'mafdr	Bioinfo method'
+    'body': 'mafdr(${1:args})'
+
+  'magetfield	Bioinfo method':
+    'prefix': 'magetfield	Bioinfo method'
+    'body': 'magetfield(${1:args})'
+
+  'maimage	Bioinfo method':
+    'prefix': 'maimage	Bioinfo method'
+    'body': 'maimage(${1:args})'
+
+  'mainvarsetnorm	Bioinfo method':
+    'prefix': 'mainvarsetnorm	Bioinfo method'
+    'body': 'mainvarsetnorm(${1:args})'
+
+  'mairplot	Bioinfo method':
+    'prefix': 'mairplot	Bioinfo method'
+    'body': 'mairplot(${1:args})'
+
+  'maloglog	Bioinfo method':
+    'prefix': 'maloglog	Bioinfo method'
+    'body': 'maloglog(${1:args})'
+
+  'malowess	Bioinfo method':
+    'prefix': 'malowess	Bioinfo method'
+    'body': 'malowess(${1:args})'
+
+  'manorm	Bioinfo method':
+    'prefix': 'manorm	Bioinfo method'
+    'body': 'manorm(${1:args})'
+
+  'mapcaplot	Bioinfo method':
+    'prefix': 'mapcaplot	Bioinfo method'
+    'body': 'mapcaplot(${1:args})'
+
+  'mattest	Bioinfo method':
+    'prefix': 'mattest	Bioinfo method'
+    'body': 'mattest(${1:args})'
+
+  'mavolcanoplot	Bioinfo method':
+    'prefix': 'mavolcanoplot	Bioinfo method'
+    'body': 'mavolcanoplot(${1:args})'
+
+  'metafeatures	Bioinfo method':
+    'prefix': 'metafeatures	Bioinfo method'
+    'body': 'metafeatures(${1:args})'
+
+  'microplateplot	Bioinfo method':
+    'prefix': 'microplateplot	Bioinfo method'
+    'body': 'microplateplot(${1:args})'
+
+  'mle	Bioinfo method':
+    'prefix': 'mle	Bioinfo method'
+    'body': 'mle(${1:args})'
+
+  'molviewer	Bioinfo method':
+    'prefix': 'molviewer	Bioinfo method'
+    'body': 'molviewer(${1:args})'
+
+  'molweight	Bioinfo method':
+    'prefix': 'molweight	Bioinfo method'
+    'body': 'molweight(${1:args})'
+
+  'msalign	Bioinfo method':
+    'prefix': 'msalign	Bioinfo method'
+    'body': 'msalign(${1:args})'
+
+  'msbackadj	Bioinfo method':
+    'prefix': 'msbackadj	Bioinfo method'
+    'body': 'msbackadj(${1:args})'
+
+  'msdotplot	Bioinfo method':
+    'prefix': 'msdotplot	Bioinfo method'
+    'body': 'msdotplot(${1:args})'
+
+  'msheatmap	Bioinfo method':
+    'prefix': 'msheatmap	Bioinfo method'
+    'body': 'msheatmap(${1:args})'
+
+  'mslowess	Bioinfo method':
+    'prefix': 'mslowess	Bioinfo method'
+    'body': 'mslowess(${1:args})'
+
+  'msnorm	Bioinfo method':
+    'prefix': 'msnorm	Bioinfo method'
+    'body': 'msnorm(${1:args})'
+
+  'mspalign	Bioinfo method':
+    'prefix': 'mspalign	Bioinfo method'
+    'body': 'mspalign(${1:args})'
+
+  'mspeaks	Bioinfo method':
+    'prefix': 'mspeaks	Bioinfo method'
+    'body': 'mspeaks(${1:args})'
+
+  'msppresample	Bioinfo method':
+    'prefix': 'msppresample	Bioinfo method'
+    'body': 'msppresample(${1:args})'
+
+  'msresample	Bioinfo method':
+    'prefix': 'msresample	Bioinfo method'
+    'body': 'msresample(${1:args})'
+
+  'mssgolay	Bioinfo method':
+    'prefix': 'mssgolay	Bioinfo method'
+    'body': 'mssgolay(${1:args})'
+
+  'msviewer	Bioinfo method':
+    'prefix': 'msviewer	Bioinfo method'
+    'body': 'msviewer(${1:args})'
+
+  'multialign	Bioinfo method':
+    'prefix': 'multialign	Bioinfo method'
+    'body': 'multialign(${1:args})'
+
+  'multialignread	Bioinfo method':
+    'prefix': 'multialignread	Bioinfo method'
+    'body': 'multialignread(${1:args})'
+
+  'multialignwrite	Bioinfo method':
+    'prefix': 'multialignwrite	Bioinfo method'
+    'body': 'multialignwrite(${1:args})'
+
+  'mzcdf2peaks	Bioinfo method':
+    'prefix': 'mzcdf2peaks	Bioinfo method'
+    'body': 'mzcdf2peaks(${1:args})'
+
+  'mzcdfinfo	Bioinfo method':
+    'prefix': 'mzcdfinfo	Bioinfo method'
+    'body': 'mzcdfinfo(${1:args})'
+
+  'mzcdfread	Bioinfo method':
+    'prefix': 'mzcdfread	Bioinfo method'
+    'body': 'mzcdfread(${1:args})'
+
+  'mzxml2peaks	Bioinfo method':
+    'prefix': 'mzxml2peaks	Bioinfo method'
+    'body': 'mzxml2peaks(${1:args})'
+
+  'mzxmlinfo	Bioinfo method':
+    'prefix': 'mzxmlinfo	Bioinfo method'
+    'body': 'mzxmlinfo(${1:args})'
+
+  'mzxmlread	Bioinfo method':
+    'prefix': 'mzxmlread	Bioinfo method'
+    'body': 'mzxmlread(${1:args})'
+
+  'nbinpdf	Bioinfo method':
+    'prefix': 'nbinpdf	Bioinfo method'
+    'body': 'nbinpdf(${1:args})'
+
+  'nbintest	Bioinfo method':
+    'prefix': 'nbintest	Bioinfo method'
+    'body': 'nbintest(${1:args})'
+
+  'ngsbrowser	Bioinfo method':
+    'prefix': 'ngsbrowser	Bioinfo method'
+    'body': 'ngsbrowser(${1:args})'
+
+  'nmercount	Bioinfo method':
+    'prefix': 'nmercount	Bioinfo method'
+    'body': 'nmercount(${1:args})'
+
+  'nt2aa	Bioinfo method':
+    'prefix': 'nt2aa	Bioinfo method'
+    'body': 'nt2aa(${1:args})'
+
+  'nt2int	Bioinfo method':
+    'prefix': 'nt2int	Bioinfo method'
+    'body': 'nt2int(${1:args})'
+
+  'ntdensity	Bioinfo method':
+    'prefix': 'ntdensity	Bioinfo method'
+    'body': 'ntdensity(${1:args})'
+
+  'nuc44	Bioinfo method':
+    'prefix': 'nuc44	Bioinfo method'
+    'body': 'nuc44(${1:args})'
+
+  'num2goid	Bioinfo method':
+    'prefix': 'num2goid	Bioinfo method'
+    'body': 'num2goid(${1:args})'
+
+  'nwalign	Bioinfo method':
+    'prefix': 'nwalign	Bioinfo method'
+    'body': 'nwalign(${1:args})'
+
+  'oligoprop	Bioinfo method':
+    'prefix': 'oligoprop	Bioinfo method'
+    'body': 'oligoprop(${1:args})'
+
+  'palindromes	Bioinfo method':
+    'prefix': 'palindromes	Bioinfo method'
+    'body': 'palindromes(${1:args})'
+
+  'pam	Bioinfo method':
+    'prefix': 'pam	Bioinfo method'
+    'body': 'pam(${1:args})'
+
+  'pdbdistplot	Bioinfo method':
+    'prefix': 'pdbdistplot	Bioinfo method'
+    'body': 'pdbdistplot(${1:args})'
+
+  'pdbread	Bioinfo method':
+    'prefix': 'pdbread	Bioinfo method'
+    'body': 'pdbread(${1:args})'
+
+  'pdbsuperpose	Bioinfo method':
+    'prefix': 'pdbsuperpose	Bioinfo method'
+    'body': 'pdbsuperpose(${1:args})'
+
+  'pdbtransform	Bioinfo method':
+    'prefix': 'pdbtransform	Bioinfo method'
+    'body': 'pdbtransform(${1:args})'
+
+  'pdbwrite	Bioinfo method':
+    'prefix': 'pdbwrite	Bioinfo method'
+    'body': 'pdbwrite(${1:args})'
+
+  'pfamhmmread	Bioinfo method':
+    'prefix': 'pfamhmmread	Bioinfo method'
+    'body': 'pfamhmmread(${1:args})'
+
+  'phytree	Bioinfo method':
+    'prefix': 'phytree	Bioinfo method'
+    'body': 'phytree(${1:args})'
+
+  'phytreeread	Bioinfo method':
+    'prefix': 'phytreeread	Bioinfo method'
+    'body': 'phytreeread(${1:args})'
+
+  'phytreeviewer	Bioinfo method':
+    'prefix': 'phytreeviewer	Bioinfo method'
+    'body': 'phytreeviewer(${1:args})'
+
+  'phytreewrite	Bioinfo method':
+    'prefix': 'phytreewrite	Bioinfo method'
+    'body': 'phytreewrite(${1:args})'
+
+  'probelibraryinfo	Bioinfo method':
+    'prefix': 'probelibraryinfo	Bioinfo method'
+    'body': 'probelibraryinfo(${1:args})'
+
+  'probesetlink	Bioinfo method':
+    'prefix': 'probesetlink	Bioinfo method'
+    'body': 'probesetlink(${1:args})'
+
+  'probesetlookup	Bioinfo method':
+    'prefix': 'probesetlookup	Bioinfo method'
+    'body': 'probesetlookup(${1:args})'
+
+  'probesetplot	Bioinfo method':
+    'prefix': 'probesetplot	Bioinfo method'
+    'body': 'probesetplot(${1:args})'
+
+  'probesetvalues	Bioinfo method':
+    'prefix': 'probesetvalues	Bioinfo method'
+    'body': 'probesetvalues(${1:args})'
+
+  'profalign	Bioinfo method':
+    'prefix': 'profalign	Bioinfo method'
+    'body': 'profalign(${1:args})'
+
+  'proteinplot	Bioinfo method':
+    'prefix': 'proteinplot	Bioinfo method'
+    'body': 'proteinplot(${1:args})'
+
+  'proteinpropplot	Bioinfo method':
+    'prefix': 'proteinpropplot	Bioinfo method'
+    'body': 'proteinpropplot(${1:args})'
+
+  'quantilenorm	Bioinfo method':
+    'prefix': 'quantilenorm	Bioinfo method'
+    'body': 'quantilenorm(${1:args})'
+
+  'ramachandran	Bioinfo method':
+    'prefix': 'ramachandran	Bioinfo method'
+    'body': 'ramachandran(${1:args})'
+
+  'randfeatures	Bioinfo method':
+    'prefix': 'randfeatures	Bioinfo method'
+    'body': 'randfeatures(${1:args})'
+
+  'randseq	Bioinfo method':
+    'prefix': 'randseq	Bioinfo method'
+    'body': 'randseq(${1:args})'
+
+  'rankfeatures	Bioinfo method':
+    'prefix': 'rankfeatures	Bioinfo method'
+    'body': 'rankfeatures(${1:args})'
+
+  'rebasecuts	Bioinfo method':
+    'prefix': 'rebasecuts	Bioinfo method'
+    'body': 'rebasecuts(${1:args})'
+
+  'redbluecmap	Bioinfo method':
+    'prefix': 'redbluecmap	Bioinfo method'
+    'body': 'redbluecmap(${1:args})'
+
+  'redgreencmap	Bioinfo method':
+    'prefix': 'redgreencmap	Bioinfo method'
+    'body': 'redgreencmap(${1:args})'
+
+  'restrict	Bioinfo method':
+    'prefix': 'restrict	Bioinfo method'
+    'body': 'restrict(${1:args})'
+
+  'revgeneticcode	Bioinfo method':
+    'prefix': 'revgeneticcode	Bioinfo method'
+    'body': 'revgeneticcode(${1:args})'
+
+  'rmabackadj	Bioinfo method':
+    'prefix': 'rmabackadj	Bioinfo method'
+    'body': 'rmabackadj(${1:args})'
+
+  'rmasummary	Bioinfo method':
+    'prefix': 'rmasummary	Bioinfo method'
+    'body': 'rmasummary(${1:args})'
+
+  'rna2dna	Bioinfo method':
+    'prefix': 'rna2dna	Bioinfo method'
+    'body': 'rna2dna(${1:args})'
+
+  'rnaconvert	Bioinfo method':
+    'prefix': 'rnaconvert	Bioinfo method'
+    'body': 'rnaconvert(${1:args})'
+
+  'rnafold	Bioinfo method':
+    'prefix': 'rnafold	Bioinfo method'
+    'body': 'rnafold(${1:args})'
+
+  'rnaplot	Bioinfo method':
+    'prefix': 'rnaplot	Bioinfo method'
+    'body': 'rnaplot(${1:args})'
+
+  'saminfo	Bioinfo method':
+    'prefix': 'saminfo	Bioinfo method'
+    'body': 'saminfo(${1:args})'
+
+  'samplealign	Bioinfo method':
+    'prefix': 'samplealign	Bioinfo method'
+    'body': 'samplealign(${1:args})'
+
+  'samread	Bioinfo method':
+    'prefix': 'samread	Bioinfo method'
+    'body': 'samread(${1:args})'
+
+  'scfread	Bioinfo method':
+    'prefix': 'scfread	Bioinfo method'
+    'body': 'scfread(${1:args})'
+
+  'seq2regexp	Bioinfo method':
+    'prefix': 'seq2regexp	Bioinfo method'
+    'body': 'seq2regexp(${1:args})'
+
+  'seqalignviewer	Bioinfo method':
+    'prefix': 'seqalignviewer	Bioinfo method'
+    'body': 'seqalignviewer(${1:args})'
+
+  'seqcomplement	Bioinfo method':
+    'prefix': 'seqcomplement	Bioinfo method'
+    'body': 'seqcomplement(${1:args})'
+
+  'seqconsensus	Bioinfo method':
+    'prefix': 'seqconsensus	Bioinfo method'
+    'body': 'seqconsensus(${1:args})'
+
+  'seqdisp	Bioinfo method':
+    'prefix': 'seqdisp	Bioinfo method'
+    'body': 'seqdisp(${1:args})'
+
+  'seqdotplot	Bioinfo method':
+    'prefix': 'seqdotplot	Bioinfo method'
+    'body': 'seqdotplot(${1:args})'
+
+  'seqinsertgaps	Bioinfo method':
+    'prefix': 'seqinsertgaps	Bioinfo method'
+    'body': 'seqinsertgaps(${1:args})'
+
+  'seqlinkage	Bioinfo method':
+    'prefix': 'seqlinkage	Bioinfo method'
+    'body': 'seqlinkage(${1:args})'
+
+  'seqlogo	Bioinfo method':
+    'prefix': 'seqlogo	Bioinfo method'
+    'body': 'seqlogo(${1:args})'
+
+  'seqmatch	Bioinfo method':
+    'prefix': 'seqmatch	Bioinfo method'
+    'body': 'seqmatch(${1:args})'
+
+  'seqneighjoin	Bioinfo method':
+    'prefix': 'seqneighjoin	Bioinfo method'
+    'body': 'seqneighjoin(${1:args})'
+
+  'seqpdist	Bioinfo method':
+    'prefix': 'seqpdist	Bioinfo method'
+    'body': 'seqpdist(${1:args})'
+
+  'seqprofile	Bioinfo method':
+    'prefix': 'seqprofile	Bioinfo method'
+    'body': 'seqprofile(${1:args})'
+
+  'seqrcomplement	Bioinfo method':
+    'prefix': 'seqrcomplement	Bioinfo method'
+    'body': 'seqrcomplement(${1:args})'
+
+  'seqreverse	Bioinfo method':
+    'prefix': 'seqreverse	Bioinfo method'
+    'body': 'seqreverse(${1:args})'
+
+  'seqshoworfs	Bioinfo method':
+    'prefix': 'seqshoworfs	Bioinfo method'
+    'body': 'seqshoworfs(${1:args})'
+
+  'seqshowwords	Bioinfo method':
+    'prefix': 'seqshowwords	Bioinfo method'
+    'body': 'seqshowwords(${1:args})'
+
+  'seqviewer	Bioinfo method':
+    'prefix': 'seqviewer	Bioinfo method'
+    'body': 'seqviewer(${1:args})'
+
+  'seqwordcount	Bioinfo method':
+    'prefix': 'seqwordcount	Bioinfo method'
+    'body': 'seqwordcount(${1:args})'
+
+  'sffinfo	Bioinfo method':
+    'prefix': 'sffinfo	Bioinfo method'
+    'body': 'sffinfo(${1:args})'
+
+  'sffread	Bioinfo method':
+    'prefix': 'sffread	Bioinfo method'
+    'body': 'sffread(${1:args})'
+
+  'showalignment	Bioinfo method':
+    'prefix': 'showalignment	Bioinfo method'
+    'body': 'showalignment(${1:args})'
+
+  'showhmmprof	Bioinfo method':
+    'prefix': 'showhmmprof	Bioinfo method'
+    'body': 'showhmmprof(${1:args})'
+
+  'soapread	Bioinfo method':
+    'prefix': 'soapread	Bioinfo method'
+    'body': 'soapread(${1:args})'
+
+  'sptread	Bioinfo method':
+    'prefix': 'sptread	Bioinfo method'
+    'body': 'sptread(${1:args})'
+
+  'swalign	Bioinfo method':
+    'prefix': 'swalign	Bioinfo method'
+    'body': 'swalign(${1:args})'
+
+  'tgspcinfo	Bioinfo method':
+    'prefix': 'tgspcinfo	Bioinfo method'
+    'body': 'tgspcinfo(${1:args})'
+
+  'tgspcread	Bioinfo method':
+    'prefix': 'tgspcread	Bioinfo method'
+    'body': 'tgspcread(${1:args})'
+
+  'traceplot	Bioinfo method':
+    'prefix': 'traceplot	Bioinfo method'
+    'body': 'traceplot(${1:args})'
+
+  'zonebackadj	Bioinfo method':
+    'prefix': 'zonebackadj	Bioinfo method'
+    'body': 'zonebackadj(${1:args})'

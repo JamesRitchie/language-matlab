@@ -1,0 +1,87 @@
+# matlabcomp4 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'Advisor.Application	Slvnv class':
+    'prefix': 'Advisor.Application	Slvnv class'
+    'body': 'Advisor.Application'
+
+  'Advisor.Manager	Slvnv class':
+    'prefix': 'Advisor.Manager	Slvnv class'
+    'body': 'Advisor.Manager'
+
+  'Advisor.authoring.CustomCheck	Slvnv class':
+    'prefix': 'Advisor.authoring.CustomCheck	Slvnv class'
+    'body': 'Advisor.authoring.CustomCheck'
+
+  'Advisor.authoring.DataFile	Slvnv class':
+    'prefix': 'Advisor.authoring.DataFile	Slvnv class'
+    'body': 'Advisor.authoring.DataFile'
+
+  'ModelAdvisor.Action	Slvnv class':
+    'prefix': 'ModelAdvisor.Action	Slvnv class'
+    'body': 'ModelAdvisor.Action'
+
+  'ModelAdvisor.Check	Slvnv class':
+    'prefix': 'ModelAdvisor.Check	Slvnv class'
+    'body': 'ModelAdvisor.Check'
+
+  'ModelAdvisor.FactoryGroup	Slvnv class':
+    'prefix': 'ModelAdvisor.FactoryGroup	Slvnv class'
+    'body': 'ModelAdvisor.FactoryGroup'
+
+  'ModelAdvisor.FormatTemplate	Slvnv class':
+    'prefix': 'ModelAdvisor.FormatTemplate	Slvnv class'
+    'body': 'ModelAdvisor.FormatTemplate'
+
+  'ModelAdvisor.Group	Slvnv class':
+    'prefix': 'ModelAdvisor.Group	Slvnv class'
+    'body': 'ModelAdvisor.Group'
+
+  'ModelAdvisor.Image	Slvnv class':
+    'prefix': 'ModelAdvisor.Image	Slvnv class'
+    'body': 'ModelAdvisor.Image'
+
+  'ModelAdvisor.InputParameter	Slvnv class':
+    'prefix': 'ModelAdvisor.InputParameter	Slvnv class'
+    'body': 'ModelAdvisor.InputParameter'
+
+  'ModelAdvisor.LineBreak	Slvnv class':
+    'prefix': 'ModelAdvisor.LineBreak	Slvnv class'
+    'body': 'ModelAdvisor.LineBreak'
+
+  'ModelAdvisor.List	Slvnv class':
+    'prefix': 'ModelAdvisor.List	Slvnv class'
+    'body': 'ModelAdvisor.List'
+
+  'ModelAdvisor.ListViewParameter	Slvnv class':
+    'prefix': 'ModelAdvisor.ListViewParameter	Slvnv class'
+    'body': 'ModelAdvisor.ListViewParameter'
+
+  'ModelAdvisor.Paragraph	Slvnv class':
+    'prefix': 'ModelAdvisor.Paragraph	Slvnv class'
+    'body': 'ModelAdvisor.Paragraph'
+
+  'ModelAdvisor.Procedure	Slvnv class':
+    'prefix': 'ModelAdvisor.Procedure	Slvnv class'
+    'body': 'ModelAdvisor.Procedure'
+
+  'ModelAdvisor.Root	Slvnv class':
+    'prefix': 'ModelAdvisor.Root	Slvnv class'
+    'body': 'ModelAdvisor.Root'
+
+  'ModelAdvisor.Table	Slvnv class':
+    'prefix': 'ModelAdvisor.Table	Slvnv class'
+    'body': 'ModelAdvisor.Table'
+
+  'ModelAdvisor.Task	Slvnv class':
+    'prefix': 'ModelAdvisor.Task	Slvnv class'
+    'body': 'ModelAdvisor.Task'
+
+  'ModelAdvisor.Text	Slvnv class':
+    'prefix': 'ModelAdvisor.Text	Slvnv class'
+    'body': 'ModelAdvisor.Text'
+
+  'cv.cvdatagroup	Slvnv class':
+    'prefix': 'cv.cvdatagroup	Slvnv class'
+    'body': 'cv.cvdatagroup'

@@ -1,0 +1,319 @@
+# matlabcomp14 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'compwiz	RptGen method':
+    'prefix': 'compwiz	RptGen method'
+    'body': 'compwiz(${1:args})'
+
+  'mlreportgen.dom.Container.append	RptGen method':
+    'prefix': 'mlreportgen.dom.Container.append	RptGen method'
+    'body': 'mlreportgen.dom.Container.append(${1:args})'
+
+  'mlreportgen.dom.Container.clone	RptGen method':
+    'prefix': 'mlreportgen.dom.Container.clone	RptGen method'
+    'body': 'mlreportgen.dom.Container.clone(${1:args})'
+
+  'mlreportgen.dom.CustomElement.append	RptGen method':
+    'prefix': 'mlreportgen.dom.CustomElement.append	RptGen method'
+    'body': 'mlreportgen.dom.CustomElement.append(${1:args})'
+
+  'mlreportgen.dom.Document.addHTML	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.addHTML	RptGen method'
+    'body': 'mlreportgen.dom.Document.addHTML(${1:args})'
+
+  'mlreportgen.dom.Document.addHTMLFile	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.addHTMLFile	RptGen method'
+    'body': 'mlreportgen.dom.Document.addHTMLFile(${1:args})'
+
+  'mlreportgen.dom.Document.append	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.append	RptGen method'
+    'body': 'mlreportgen.dom.Document.append(${1:args})'
+
+  'mlreportgen.dom.Document.close	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.close	RptGen method'
+    'body': 'mlreportgen.dom.Document.close(${1:args})'
+
+  'mlreportgen.dom.Document.createAutoNumberStream	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.createAutoNumberStream	RptGen method'
+    'body': 'mlreportgen.dom.Document.createAutoNumberStream(${1:args})'
+
+  'mlreportgen.dom.Document.createTemplate	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.createTemplate	RptGen method'
+    'body': 'mlreportgen.dom.Document.createTemplate(${1:args})'
+
+  'mlreportgen.dom.Document.fill	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.fill	RptGen method'
+    'body': 'mlreportgen.dom.Document.fill(${1:args})'
+
+  'mlreportgen.dom.Document.getAutoNumberStream	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.getAutoNumberStream	RptGen method'
+    'body': 'mlreportgen.dom.Document.getAutoNumberStream(${1:args})'
+
+  'mlreportgen.dom.Document.getCoreProperties	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.getCoreProperties	RptGen method'
+    'body': 'mlreportgen.dom.Document.getCoreProperties(${1:args})'
+
+  'mlreportgen.dom.Document.getImageDirectory	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.getImageDirectory	RptGen method'
+    'body': 'mlreportgen.dom.Document.getImageDirectory(${1:args})'
+
+  'mlreportgen.dom.Document.getImagePrefix	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.getImagePrefix	RptGen method'
+    'body': 'mlreportgen.dom.Document.getImagePrefix(${1:args})'
+
+  'mlreportgen.dom.Document.getMainPartPath	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.getMainPartPath	RptGen method'
+    'body': 'mlreportgen.dom.Document.getMainPartPath(${1:args})'
+
+  'mlreportgen.dom.Document.getOPCMainPart	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.getOPCMainPart	RptGen method'
+    'body': 'mlreportgen.dom.Document.getOPCMainPart(${1:args})'
+
+  'mlreportgen.dom.Document.moveToNextHole	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.moveToNextHole	RptGen method'
+    'body': 'mlreportgen.dom.Document.moveToNextHole(${1:args})'
+
+  'mlreportgen.dom.Document.open	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.open	RptGen method'
+    'body': 'mlreportgen.dom.Document.open(${1:args})'
+
+  'mlreportgen.dom.Document.package	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.package	RptGen method'
+    'body': 'mlreportgen.dom.Document.package(${1:args})'
+
+  'mlreportgen.dom.Document.setCoreProperties	RptGen method':
+    'prefix': 'mlreportgen.dom.Document.setCoreProperties	RptGen method'
+    'body': 'mlreportgen.dom.Document.setCoreProperties(${1:args})'
+
+  'mlreportgen.dom.ExternalLink.append	RptGen method':
+    'prefix': 'mlreportgen.dom.ExternalLink.append	RptGen method'
+    'body': 'mlreportgen.dom.ExternalLink.append(${1:args})'
+
+  'mlreportgen.dom.FormalTable.appendFooterRow	RptGen method':
+    'prefix': 'mlreportgen.dom.FormalTable.appendFooterRow	RptGen method'
+    'body': 'mlreportgen.dom.FormalTable.appendFooterRow(${1:args})'
+
+  'mlreportgen.dom.FormalTable.appendHeaderRow	RptGen method':
+    'prefix': 'mlreportgen.dom.FormalTable.appendHeaderRow	RptGen method'
+    'body': 'mlreportgen.dom.FormalTable.appendHeaderRow(${1:args})'
+
+  'mlreportgen.dom.Group.append	RptGen method':
+    'prefix': 'mlreportgen.dom.Group.append	RptGen method'
+    'body': 'mlreportgen.dom.Group.append(${1:args})'
+
+  'mlreportgen.dom.HTML.append	RptGen method':
+    'prefix': 'mlreportgen.dom.HTML.append	RptGen method'
+    'body': 'mlreportgen.dom.HTML.append(${1:args})'
+
+  'mlreportgen.dom.HTML.clone	RptGen method':
+    'prefix': 'mlreportgen.dom.HTML.clone	RptGen method'
+    'body': 'mlreportgen.dom.HTML.clone(${1:args})'
+
+  'mlreportgen.dom.HTMLFile.append	RptGen method':
+    'prefix': 'mlreportgen.dom.HTMLFile.append	RptGen method'
+    'body': 'mlreportgen.dom.HTMLFile.append(${1:args})'
+
+  'mlreportgen.dom.LinkTarget.append	RptGen method':
+    'prefix': 'mlreportgen.dom.LinkTarget.append	RptGen method'
+    'body': 'mlreportgen.dom.LinkTarget.append(${1:args})'
+
+  'mlreportgen.dom.MessageDispatcher.dispatch	RptGen method':
+    'prefix': 'mlreportgen.dom.MessageDispatcher.dispatch	RptGen method'
+    'body': 'mlreportgen.dom.MessageDispatcher.dispatch(${1:args})'
+
+  'mlreportgen.dom.MessageDispatcher.getTheDispatcher	RptGen method':
+    'prefix': 'mlreportgen.dom.MessageDispatcher.getTheDispatcher	RptGen method'
+    'body': 'mlreportgen.dom.MessageDispatcher.getTheDispatcher(${1:args})'
+
+  'mlreportgen.dom.OrderedList.append	RptGen method':
+    'prefix': 'mlreportgen.dom.OrderedList.append	RptGen method'
+    'body': 'mlreportgen.dom.OrderedList.append(${1:args})'
+
+  'mlreportgen.dom.Paragraph.append	RptGen method':
+    'prefix': 'mlreportgen.dom.Paragraph.append	RptGen method'
+    'body': 'mlreportgen.dom.Paragraph.append(${1:args})'
+
+  'mlreportgen.dom.Paragraph.clone	RptGen method':
+    'prefix': 'mlreportgen.dom.Paragraph.clone	RptGen method'
+    'body': 'mlreportgen.dom.Paragraph.clone(${1:args})'
+
+  'mlreportgen.dom.ProgressMessage.formatAsHTML	RptGen method':
+    'prefix': 'mlreportgen.dom.ProgressMessage.formatAsHTML	RptGen method'
+    'body': 'mlreportgen.dom.ProgressMessage.formatAsHTML(${1:args})'
+
+  'mlreportgen.dom.ProgressMessage.formatAsText	RptGen method':
+    'prefix': 'mlreportgen.dom.ProgressMessage.formatAsText	RptGen method'
+    'body': 'mlreportgen.dom.ProgressMessage.formatAsText(${1:args})'
+
+  'mlreportgen.dom.ProgressMessage.passesFilter	RptGen method':
+    'prefix': 'mlreportgen.dom.ProgressMessage.passesFilter	RptGen method'
+    'body': 'mlreportgen.dom.ProgressMessage.passesFilter(${1:args})'
+
+  'mlreportgen.dom.Table.entry	RptGen method':
+    'prefix': 'mlreportgen.dom.Table.entry	RptGen method'
+    'body': 'mlreportgen.dom.Table.entry(${1:args})'
+
+  'mlreportgen.dom.Table.row	RptGen method':
+    'prefix': 'mlreportgen.dom.Table.row	RptGen method'
+    'body': 'mlreportgen.dom.Table.row(${1:args})'
+
+  'mlreportgen.dom.TableRow.append	RptGen method':
+    'prefix': 'mlreportgen.dom.TableRow.append	RptGen method'
+    'body': 'mlreportgen.dom.TableRow.append(${1:args})'
+
+  'mlreportgen.ppt.ContentPlaceholder.add	RptGen method':
+    'prefix': 'mlreportgen.ppt.ContentPlaceholder.add	RptGen method'
+    'body': 'mlreportgen.ppt.ContentPlaceholder.add(${1:args})'
+
+  'mlreportgen.ppt.ContentPlaceholder.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.ContentPlaceholder.replace	RptGen method'
+    'body': 'mlreportgen.ppt.ContentPlaceholder.replace(${1:args})'
+
+  'mlreportgen.ppt.MessageDispatcher.dispatch	RptGen method':
+    'prefix': 'mlreportgen.ppt.MessageDispatcher.dispatch	RptGen method'
+    'body': 'mlreportgen.ppt.MessageDispatcher.dispatch(${1:args})'
+
+  'mlreportgen.ppt.MessageDispatcher.getTheDispatcher	RptGen method':
+    'prefix': 'mlreportgen.ppt.MessageDispatcher.getTheDispatcher	RptGen method'
+    'body': 'mlreportgen.ppt.MessageDispatcher.getTheDispatcher(${1:args})'
+
+  'mlreportgen.ppt.Paragraph.append	RptGen method':
+    'prefix': 'mlreportgen.ppt.Paragraph.append	RptGen method'
+    'body': 'mlreportgen.ppt.Paragraph.append(${1:args})'
+
+  'mlreportgen.ppt.Picture.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.Picture.replace	RptGen method'
+    'body': 'mlreportgen.ppt.Picture.replace(${1:args})'
+
+  'mlreportgen.ppt.PicturePlaceholder.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.PicturePlaceholder.replace	RptGen method'
+    'body': 'mlreportgen.ppt.PicturePlaceholder.replace(${1:args})'
+
+  'mlreportgen.ppt.Presentation.add	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.add	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.add(${1:args})'
+
+  'mlreportgen.ppt.Presentation.close	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.close	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.close(${1:args})'
+
+  'mlreportgen.ppt.Presentation.find	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.find	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.find(${1:args})'
+
+  'mlreportgen.ppt.Presentation.getLayoutNames	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.getLayoutNames	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.getLayoutNames(${1:args})'
+
+  'mlreportgen.ppt.Presentation.getMasterNames	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.getMasterNames	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.getMasterNames(${1:args})'
+
+  'mlreportgen.ppt.Presentation.getTableStyleNames	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.getTableStyleNames	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.getTableStyleNames(${1:args})'
+
+  'mlreportgen.ppt.Presentation.open	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.open	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.open(${1:args})'
+
+  'mlreportgen.ppt.Presentation.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.Presentation.replace	RptGen method'
+    'body': 'mlreportgen.ppt.Presentation.replace(${1:args})'
+
+  'mlreportgen.ppt.ProgressMessage.formatAsHTML	RptGen method':
+    'prefix': 'mlreportgen.ppt.ProgressMessage.formatAsHTML	RptGen method'
+    'body': 'mlreportgen.ppt.ProgressMessage.formatAsHTML(${1:args})'
+
+  'mlreportgen.ppt.ProgressMessage.formatAsText	RptGen method':
+    'prefix': 'mlreportgen.ppt.ProgressMessage.formatAsText	RptGen method'
+    'body': 'mlreportgen.ppt.ProgressMessage.formatAsText(${1:args})'
+
+  'mlreportgen.ppt.ProgressMessage.passesFilter	RptGen method':
+    'prefix': 'mlreportgen.ppt.ProgressMessage.passesFilter	RptGen method'
+    'body': 'mlreportgen.ppt.ProgressMessage.passesFilter(${1:args})'
+
+  'mlreportgen.ppt.Slide.add	RptGen method':
+    'prefix': 'mlreportgen.ppt.Slide.add	RptGen method'
+    'body': 'mlreportgen.ppt.Slide.add(${1:args})'
+
+  'mlreportgen.ppt.Slide.find	RptGen method':
+    'prefix': 'mlreportgen.ppt.Slide.find	RptGen method'
+    'body': 'mlreportgen.ppt.Slide.find(${1:args})'
+
+  'mlreportgen.ppt.Slide.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.Slide.replace	RptGen method'
+    'body': 'mlreportgen.ppt.Slide.replace(${1:args})'
+
+  'mlreportgen.ppt.Table.append	RptGen method':
+    'prefix': 'mlreportgen.ppt.Table.append	RptGen method'
+    'body': 'mlreportgen.ppt.Table.append(${1:args})'
+
+  'mlreportgen.ppt.Table.entry	RptGen method':
+    'prefix': 'mlreportgen.ppt.Table.entry	RptGen method'
+    'body': 'mlreportgen.ppt.Table.entry(${1:args})'
+
+  'mlreportgen.ppt.Table.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.Table.replace	RptGen method'
+    'body': 'mlreportgen.ppt.Table.replace(${1:args})'
+
+  'mlreportgen.ppt.Table.row	RptGen method':
+    'prefix': 'mlreportgen.ppt.Table.row	RptGen method'
+    'body': 'mlreportgen.ppt.Table.row(${1:args})'
+
+  'mlreportgen.ppt.TableEntry.append	RptGen method':
+    'prefix': 'mlreportgen.ppt.TableEntry.append	RptGen method'
+    'body': 'mlreportgen.ppt.TableEntry.append(${1:args})'
+
+  'mlreportgen.ppt.TablePlaceholder.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.TablePlaceholder.replace	RptGen method'
+    'body': 'mlreportgen.ppt.TablePlaceholder.replace(${1:args})'
+
+  'mlreportgen.ppt.TableRow.append	RptGen method':
+    'prefix': 'mlreportgen.ppt.TableRow.append	RptGen method'
+    'body': 'mlreportgen.ppt.TableRow.append(${1:args})'
+
+  'mlreportgen.ppt.TextBox.add	RptGen method':
+    'prefix': 'mlreportgen.ppt.TextBox.add	RptGen method'
+    'body': 'mlreportgen.ppt.TextBox.add(${1:args})'
+
+  'mlreportgen.ppt.TextBox.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.TextBox.replace	RptGen method'
+    'body': 'mlreportgen.ppt.TextBox.replace(${1:args})'
+
+  'mlreportgen.ppt.TextBoxPlaceholder.add	RptGen method':
+    'prefix': 'mlreportgen.ppt.TextBoxPlaceholder.add	RptGen method'
+    'body': 'mlreportgen.ppt.TextBoxPlaceholder.add(${1:args})'
+
+  'mlreportgen.ppt.TextBoxPlaceholder.replace	RptGen method':
+    'prefix': 'mlreportgen.ppt.TextBoxPlaceholder.replace	RptGen method'
+    'body': 'mlreportgen.ppt.TextBoxPlaceholder.replace(${1:args})'
+
+  'report	RptGen method':
+    'prefix': 'report	RptGen method'
+    'body': 'report(${1:args})'
+
+  'rptconvert	RptGen method':
+    'prefix': 'rptconvert	RptGen method'
+    'body': 'rptconvert(${1:args})'
+
+  'rptlist	RptGen method':
+    'prefix': 'rptlist	RptGen method'
+    'body': 'rptlist(${1:args})'
+
+  'rptview	RptGen method':
+    'prefix': 'rptview	RptGen method'
+    'body': 'rptview(${1:args})'
+
+  'setedit	RptGen method':
+    'prefix': 'setedit	RptGen method'
+    'body': 'setedit(${1:args})'
+
+  'unzipTemplate	RptGen method':
+    'prefix': 'unzipTemplate	RptGen method'
+    'body': 'unzipTemplate(${1:args})'
+
+  'zipTemplate	RptGen method':
+    'prefix': 'zipTemplate	RptGen method'
+    'body': 'zipTemplate(${1:args})'

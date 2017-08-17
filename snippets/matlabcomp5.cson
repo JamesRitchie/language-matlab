@@ -1,0 +1,19 @@
+# matlabcomp5 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'opc.ua.AggregateFnId	OPC class':
+    'prefix': 'opc.ua.AggregateFnId	OPC class'
+    'body': 'opc.ua.AggregateFnId'
+
+  'opc.ua.Client	OPC class':
+    'prefix': 'opc.ua.Client	OPC class'
+    'body': 'opc.ua.Client'
+
+  'opc.ua.Node	OPC class':
+    'prefix': 'opc.ua.Node	OPC class'
+    'body': 'opc.ua.Node'
+
+  'opc.ua.ServerInfo	OPC class':
+    'prefix': 'opc.ua.ServerInfo	OPC class'
+    'body': 'opc.ua.ServerInfo'

@@ -1,0 +1,515 @@
+# matlabcomp34 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'OpenIF	RF method':
+    'prefix': 'OpenIF	RF method'
+    'body': 'OpenIF(${1:args})'
+
+  'abcd2h	RF method':
+    'prefix': 'abcd2h	RF method'
+    'body': 'abcd2h(${1:args})'
+
+  'abcd2s	RF method':
+    'prefix': 'abcd2s	RF method'
+    'body': 'abcd2s(${1:args})'
+
+  'abcd2y	RF method':
+    'prefix': 'abcd2y	RF method'
+    'body': 'abcd2y(${1:args})'
+
+  'abcd2z	RF method':
+    'prefix': 'abcd2z	RF method'
+    'body': 'abcd2z(${1:args})'
+
+  'abcdparameters	RF method':
+    'prefix': 'abcdparameters	RF method'
+    'body': 'abcdparameters(${1:args})'
+
+  'addMixer	RF method':
+    'prefix': 'addMixer	RF method'
+    'body': 'addMixer(${1:args})'
+
+  'analyze	RF method':
+    'prefix': 'analyze	RF method'
+    'body': 'analyze(${1:args})'
+
+  'calculate	RF method':
+    'prefix': 'calculate	RF method'
+    'body': 'calculate(${1:args})'
+
+  'capacitor	RF method':
+    'prefix': 'capacitor	RF method'
+    'body': 'capacitor(${1:args})'
+
+  'cascadesparams	RF method':
+    'prefix': 'cascadesparams	RF method'
+    'body': 'cascadesparams(${1:args})'
+
+  'circle	RF method':
+    'prefix': 'circle	RF method'
+    'body': 'circle(${1:args})'
+
+  'circuit	RF method':
+    'prefix': 'circuit	RF method'
+    'body': 'circuit(${1:args})'
+
+  'clone	RF method':
+    'prefix': 'clone	RF method'
+    'body': 'clone(${1:args})'
+
+  'copy	RF method':
+    'prefix': 'copy	RF method'
+    'body': 'copy(${1:args})'
+
+  'deembedsparams	RF method':
+    'prefix': 'deembedsparams	RF method'
+    'body': 'deembedsparams(${1:args})'
+
+  'extract	RF method':
+    'prefix': 'extract	RF method'
+    'body': 'extract(${1:args})'
+
+  'g2h	RF method':
+    'prefix': 'g2h	RF method'
+    'body': 'g2h(${1:args})'
+
+  'gamma2z	RF method':
+    'prefix': 'gamma2z	RF method'
+    'body': 'gamma2z(${1:args})'
+
+  'gammain	RF method':
+    'prefix': 'gammain	RF method'
+    'body': 'gammain(${1:args})'
+
+  'gammaml	RF method':
+    'prefix': 'gammaml	RF method'
+    'body': 'gammaml(${1:args})'
+
+  'gammams	RF method':
+    'prefix': 'gammams	RF method'
+    'body': 'gammams(${1:args})'
+
+  'gammaout	RF method':
+    'prefix': 'gammaout	RF method'
+    'body': 'gammaout(${1:args})'
+
+  'getSpurData	RF method':
+    'prefix': 'getSpurData	RF method'
+    'body': 'getSpurData(${1:args})'
+
+  'getSpurFreeZoneData	RF method':
+    'prefix': 'getSpurFreeZoneData	RF method'
+    'body': 'getSpurFreeZoneData(${1:args})'
+
+  'getop	RF method':
+    'prefix': 'getop	RF method'
+    'body': 'getop(${1:args})'
+
+  'getz0	RF method':
+    'prefix': 'getz0	RF method'
+    'body': 'getz0(${1:args})'
+
+  'gparameters	RF method':
+    'prefix': 'gparameters	RF method'
+    'body': 'gparameters(${1:args})'
+
+  'groupdelay	RF method':
+    'prefix': 'groupdelay	RF method'
+    'body': 'groupdelay(${1:args})'
+
+  'h2abcd	RF method':
+    'prefix': 'h2abcd	RF method'
+    'body': 'h2abcd(${1:args})'
+
+  'h2g	RF method':
+    'prefix': 'h2g	RF method'
+    'body': 'h2g(${1:args})'
+
+  'h2s	RF method':
+    'prefix': 'h2s	RF method'
+    'body': 'h2s(${1:args})'
+
+  'h2y	RF method':
+    'prefix': 'h2y	RF method'
+    'body': 'h2y(${1:args})'
+
+  'h2z	RF method':
+    'prefix': 'h2z	RF method'
+    'body': 'h2z(${1:args})'
+
+  'hparameters	RF method':
+    'prefix': 'hparameters	RF method'
+    'body': 'hparameters(${1:args})'
+
+  'inductor	RF method':
+    'prefix': 'inductor	RF method'
+    'body': 'inductor(${1:args})'
+
+  'ispassive	RF method':
+    'prefix': 'ispassive	RF method'
+    'body': 'ispassive(${1:args})'
+
+  'lcladder	RF method':
+    'prefix': 'lcladder	RF method'
+    'body': 'lcladder(${1:args})'
+
+  'listformat	RF method':
+    'prefix': 'listformat	RF method'
+    'body': 'listformat(${1:args})'
+
+  'listparam	RF method':
+    'prefix': 'listparam	RF method'
+    'body': 'listparam(${1:args})'
+
+  'makepassive	RF method':
+    'prefix': 'makepassive	RF method'
+    'body': 'makepassive(${1:args})'
+
+  'newref	RF method':
+    'prefix': 'newref	RF method'
+    'body': 'newref(${1:args})'
+
+  'nport	RF method':
+    'prefix': 'nport	RF method'
+    'body': 'nport(${1:args})'
+
+  'powergain	RF method':
+    'prefix': 'powergain	RF method'
+    'body': 'powergain(${1:args})'
+
+  'rationalfit	RF method':
+    'prefix': 'rationalfit	RF method'
+    'body': 'rationalfit(${1:args})'
+
+  'resistor	RF method':
+    'prefix': 'resistor	RF method'
+    'body': 'resistor(${1:args})'
+
+  'restore	RF method':
+    'prefix': 'restore	RF method'
+    'body': 'restore(${1:args})'
+
+  'rfchain	RF method':
+    'prefix': 'rfchain	RF method'
+    'body': 'rfchain(${1:args})'
+
+  'rfckt.amplifier	RF method':
+    'prefix': 'rfckt.amplifier	RF method'
+    'body': 'rfckt.amplifier(${1:args})'
+
+  'rfckt.cascade	RF method':
+    'prefix': 'rfckt.cascade	RF method'
+    'body': 'rfckt.cascade(${1:args})'
+
+  'rfckt.coaxial	RF method':
+    'prefix': 'rfckt.coaxial	RF method'
+    'body': 'rfckt.coaxial(${1:args})'
+
+  'rfckt.cpw	RF method':
+    'prefix': 'rfckt.cpw	RF method'
+    'body': 'rfckt.cpw(${1:args})'
+
+  'rfckt.datafile	RF method':
+    'prefix': 'rfckt.datafile	RF method'
+    'body': 'rfckt.datafile(${1:args})'
+
+  'rfckt.delay	RF method':
+    'prefix': 'rfckt.delay	RF method'
+    'body': 'rfckt.delay(${1:args})'
+
+  'rfckt.hybrid	RF method':
+    'prefix': 'rfckt.hybrid	RF method'
+    'body': 'rfckt.hybrid(${1:args})'
+
+  'rfckt.hybridg	RF method':
+    'prefix': 'rfckt.hybridg	RF method'
+    'body': 'rfckt.hybridg(${1:args})'
+
+  'rfckt.lcbandpasspi	RF method':
+    'prefix': 'rfckt.lcbandpasspi	RF method'
+    'body': 'rfckt.lcbandpasspi(${1:args})'
+
+  'rfckt.lcbandpasstee	RF method':
+    'prefix': 'rfckt.lcbandpasstee	RF method'
+    'body': 'rfckt.lcbandpasstee(${1:args})'
+
+  'rfckt.lcbandstoppi	RF method':
+    'prefix': 'rfckt.lcbandstoppi	RF method'
+    'body': 'rfckt.lcbandstoppi(${1:args})'
+
+  'rfckt.lcbandstoptee	RF method':
+    'prefix': 'rfckt.lcbandstoptee	RF method'
+    'body': 'rfckt.lcbandstoptee(${1:args})'
+
+  'rfckt.lchighpasspi	RF method':
+    'prefix': 'rfckt.lchighpasspi	RF method'
+    'body': 'rfckt.lchighpasspi(${1:args})'
+
+  'rfckt.lchighpasstee	RF method':
+    'prefix': 'rfckt.lchighpasstee	RF method'
+    'body': 'rfckt.lchighpasstee(${1:args})'
+
+  'rfckt.lclowpasspi	RF method':
+    'prefix': 'rfckt.lclowpasspi	RF method'
+    'body': 'rfckt.lclowpasspi(${1:args})'
+
+  'rfckt.lclowpasstee	RF method':
+    'prefix': 'rfckt.lclowpasstee	RF method'
+    'body': 'rfckt.lclowpasstee(${1:args})'
+
+  'rfckt.microstrip	RF method':
+    'prefix': 'rfckt.microstrip	RF method'
+    'body': 'rfckt.microstrip(${1:args})'
+
+  'rfckt.mixer	RF method':
+    'prefix': 'rfckt.mixer	RF method'
+    'body': 'rfckt.mixer(${1:args})'
+
+  'rfckt.parallel	RF method':
+    'prefix': 'rfckt.parallel	RF method'
+    'body': 'rfckt.parallel(${1:args})'
+
+  'rfckt.parallelplate	RF method':
+    'prefix': 'rfckt.parallelplate	RF method'
+    'body': 'rfckt.parallelplate(${1:args})'
+
+  'rfckt.passive	RF method':
+    'prefix': 'rfckt.passive	RF method'
+    'body': 'rfckt.passive(${1:args})'
+
+  'rfckt.rlcgline	RF method':
+    'prefix': 'rfckt.rlcgline	RF method'
+    'body': 'rfckt.rlcgline(${1:args})'
+
+  'rfckt.series	RF method':
+    'prefix': 'rfckt.series	RF method'
+    'body': 'rfckt.series(${1:args})'
+
+  'rfckt.seriesrlc	RF method':
+    'prefix': 'rfckt.seriesrlc	RF method'
+    'body': 'rfckt.seriesrlc(${1:args})'
+
+  'rfckt.shuntrlc	RF method':
+    'prefix': 'rfckt.shuntrlc	RF method'
+    'body': 'rfckt.shuntrlc(${1:args})'
+
+  'rfckt.twowire	RF method':
+    'prefix': 'rfckt.twowire	RF method'
+    'body': 'rfckt.twowire(${1:args})'
+
+  'rfckt.txline	RF method':
+    'prefix': 'rfckt.txline	RF method'
+    'body': 'rfckt.txline(${1:args})'
+
+  'rfdata.data	RF method':
+    'prefix': 'rfdata.data	RF method'
+    'body': 'rfdata.data(${1:args})'
+
+  'rfdata.ip3	RF method':
+    'prefix': 'rfdata.ip3	RF method'
+    'body': 'rfdata.ip3(${1:args})'
+
+  'rfdata.mixerspur	RF method':
+    'prefix': 'rfdata.mixerspur	RF method'
+    'body': 'rfdata.mixerspur(${1:args})'
+
+  'rfdata.network	RF method':
+    'prefix': 'rfdata.network	RF method'
+    'body': 'rfdata.network(${1:args})'
+
+  'rfdata.nf	RF method':
+    'prefix': 'rfdata.nf	RF method'
+    'body': 'rfdata.nf(${1:args})'
+
+  'rfdata.noise	RF method':
+    'prefix': 'rfdata.noise	RF method'
+    'body': 'rfdata.noise(${1:args})'
+
+  'rfdata.power	RF method':
+    'prefix': 'rfdata.power	RF method'
+    'body': 'rfdata.power(${1:args})'
+
+  'rfinterp1	RF method':
+    'prefix': 'rfinterp1	RF method'
+    'body': 'rfinterp1(${1:args})'
+
+  'rfmodel.rational	RF method':
+    'prefix': 'rfmodel.rational	RF method'
+    'body': 'rfmodel.rational(${1:args})'
+
+  'rfmodel.rational.ispassive	RF method':
+    'prefix': 'rfmodel.rational.ispassive	RF method'
+    'body': 'rfmodel.rational.ispassive(${1:args})'
+
+  'rfparam	RF method':
+    'prefix': 'rfparam	RF method'
+    'body': 'rfparam(${1:args})'
+
+  'rfplot	RF method':
+    'prefix': 'rfplot	RF method'
+    'body': 'rfplot(${1:args})'
+
+  'rftool	RF method':
+    'prefix': 'rftool	RF method'
+    'body': 'rftool(${1:args})'
+
+  'rfwrite	RF method':
+    'prefix': 'rfwrite	RF method'
+    'body': 'rfwrite(${1:args})'
+
+  'rlgc2s	RF method':
+    'prefix': 'rlgc2s	RF method'
+    'body': 'rlgc2s(${1:args})'
+
+  's2abcd	RF method':
+    'prefix': 's2abcd	RF method'
+    'body': 's2abcd(${1:args})'
+
+  's2h	RF method':
+    'prefix': 's2h	RF method'
+    'body': 's2h(${1:args})'
+
+  's2rlgc	RF method':
+    'prefix': 's2rlgc	RF method'
+    'body': 's2rlgc(${1:args})'
+
+  's2s	RF method':
+    'prefix': 's2s	RF method'
+    'body': 's2s(${1:args})'
+
+  's2scc	RF method':
+    'prefix': 's2scc	RF method'
+    'body': 's2scc(${1:args})'
+
+  's2scd	RF method':
+    'prefix': 's2scd	RF method'
+    'body': 's2scd(${1:args})'
+
+  's2sdc	RF method':
+    'prefix': 's2sdc	RF method'
+    'body': 's2sdc(${1:args})'
+
+  's2sdd	RF method':
+    'prefix': 's2sdd	RF method'
+    'body': 's2sdd(${1:args})'
+
+  's2smm	RF method':
+    'prefix': 's2smm	RF method'
+    'body': 's2smm(${1:args})'
+
+  's2t	RF method':
+    'prefix': 's2t	RF method'
+    'body': 's2t(${1:args})'
+
+  's2tf	RF method':
+    'prefix': 's2tf	RF method'
+    'body': 's2tf(${1:args})'
+
+  's2y	RF method':
+    'prefix': 's2y	RF method'
+    'body': 's2y(${1:args})'
+
+  's2z	RF method':
+    'prefix': 's2z	RF method'
+    'body': 's2z(${1:args})'
+
+  'setop	RF method':
+    'prefix': 'setop	RF method'
+    'body': 'setop(${1:args})'
+
+  'setports	RF method':
+    'prefix': 'setports	RF method'
+    'body': 'setports(${1:args})'
+
+  'setterminals	RF method':
+    'prefix': 'setterminals	RF method'
+    'body': 'setterminals(${1:args})'
+
+  'smith	RF method':
+    'prefix': 'smith	RF method'
+    'body': 'smith(${1:args})'
+
+  'smithchart	RF method':
+    'prefix': 'smithchart	RF method'
+    'body': 'smithchart(${1:args})'
+
+  'smm2s	RF method':
+    'prefix': 'smm2s	RF method'
+    'body': 'smm2s(${1:args})'
+
+  'snp2smp	RF method':
+    'prefix': 'snp2smp	RF method'
+    'body': 'snp2smp(${1:args})'
+
+  'stabilityk	RF method':
+    'prefix': 'stabilityk	RF method'
+    'body': 'stabilityk(${1:args})'
+
+  'stabilitymu	RF method':
+    'prefix': 'stabilitymu	RF method'
+    'body': 'stabilitymu(${1:args})'
+
+  'stepresp	RF method':
+    'prefix': 'stepresp	RF method'
+    'body': 'stepresp(${1:args})'
+
+  't2s	RF method':
+    'prefix': 't2s	RF method'
+    'body': 't2s(${1:args})'
+
+  'timeresp	RF method':
+    'prefix': 'timeresp	RF method'
+    'body': 'timeresp(${1:args})'
+
+  'tparameters	RF method':
+    'prefix': 'tparameters	RF method'
+    'body': 'tparameters(${1:args})'
+
+  'writeva	RF method':
+    'prefix': 'writeva	RF method'
+    'body': 'writeva(${1:args})'
+
+  'y2abcd	RF method':
+    'prefix': 'y2abcd	RF method'
+    'body': 'y2abcd(${1:args})'
+
+  'y2h	RF method':
+    'prefix': 'y2h	RF method'
+    'body': 'y2h(${1:args})'
+
+  'y2s	RF method':
+    'prefix': 'y2s	RF method'
+    'body': 'y2s(${1:args})'
+
+  'y2z	RF method':
+    'prefix': 'y2z	RF method'
+    'body': 'y2z(${1:args})'
+
+  'yparameters	RF method':
+    'prefix': 'yparameters	RF method'
+    'body': 'yparameters(${1:args})'
+
+  'z2abcd	RF method':
+    'prefix': 'z2abcd	RF method'
+    'body': 'z2abcd(${1:args})'
+
+  'z2gamma	RF method':
+    'prefix': 'z2gamma	RF method'
+    'body': 'z2gamma(${1:args})'
+
+  'z2h	RF method':
+    'prefix': 'z2h	RF method'
+    'body': 'z2h(${1:args})'
+
+  'z2s	RF method':
+    'prefix': 'z2s	RF method'
+    'body': 'z2s(${1:args})'
+
+  'z2y	RF method':
+    'prefix': 'z2y	RF method'
+    'body': 'z2y(${1:args})'
+
+  'zparameters	RF method':
+    'prefix': 'zparameters	RF method'
+    'body': 'zparameters(${1:args})'

@@ -1,0 +1,911 @@
+# matlabcomp53 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'Autoencoder	NNET method':
+    'prefix': 'Autoencoder	NNET method'
+    'body': 'Autoencoder(${1:args})'
+
+  'adapt	NNET method':
+    'prefix': 'adapt	NNET method'
+    'body': 'adapt(${1:args})'
+
+  'adaptwb	NNET method':
+    'prefix': 'adaptwb	NNET method'
+    'body': 'adaptwb(${1:args})'
+
+  'adddelay	NNET method':
+    'prefix': 'adddelay	NNET method'
+    'body': 'adddelay(${1:args})'
+
+  'boxdist	NNET method':
+    'prefix': 'boxdist	NNET method'
+    'body': 'boxdist(${1:args})'
+
+  'cascadeforwardnet	NNET method':
+    'prefix': 'cascadeforwardnet	NNET method'
+    'body': 'cascadeforwardnet(${1:args})'
+
+  'catelements	NNET method':
+    'prefix': 'catelements	NNET method'
+    'body': 'catelements(${1:args})'
+
+  'catsamples	NNET method':
+    'prefix': 'catsamples	NNET method'
+    'body': 'catsamples(${1:args})'
+
+  'catsignals	NNET method':
+    'prefix': 'catsignals	NNET method'
+    'body': 'catsignals(${1:args})'
+
+  'cattimesteps	NNET method':
+    'prefix': 'cattimesteps	NNET method'
+    'body': 'cattimesteps(${1:args})'
+
+  'closeloop	NNET method':
+    'prefix': 'closeloop	NNET method'
+    'body': 'closeloop(${1:args})'
+
+  'combvec	NNET method':
+    'prefix': 'combvec	NNET method'
+    'body': 'combvec(${1:args})'
+
+  'compet	NNET method':
+    'prefix': 'compet	NNET method'
+    'body': 'compet(${1:args})'
+
+  'competlayer	NNET method':
+    'prefix': 'competlayer	NNET method'
+    'body': 'competlayer(${1:args})'
+
+  'con2seq	NNET method':
+    'prefix': 'con2seq	NNET method'
+    'body': 'con2seq(${1:args})'
+
+  'configure	NNET method':
+    'prefix': 'configure	NNET method'
+    'body': 'configure(${1:args})'
+
+  'confusion	NNET method':
+    'prefix': 'confusion	NNET method'
+    'body': 'confusion(${1:args})'
+
+  'convwf	NNET method':
+    'prefix': 'convwf	NNET method'
+    'body': 'convwf(${1:args})'
+
+  'crossentropy	NNET method':
+    'prefix': 'crossentropy	NNET method'
+    'body': 'crossentropy(${1:args})'
+
+  'dist	NNET method':
+    'prefix': 'dist	NNET method'
+    'body': 'dist(${1:args})'
+
+  'distdelaynet	NNET method':
+    'prefix': 'distdelaynet	NNET method'
+    'body': 'distdelaynet(${1:args})'
+
+  'divideblock	NNET method':
+    'prefix': 'divideblock	NNET method'
+    'body': 'divideblock(${1:args})'
+
+  'divideind	NNET method':
+    'prefix': 'divideind	NNET method'
+    'body': 'divideind(${1:args})'
+
+  'divideint	NNET method':
+    'prefix': 'divideint	NNET method'
+    'body': 'divideint(${1:args})'
+
+  'dividerand	NNET method':
+    'prefix': 'dividerand	NNET method'
+    'body': 'dividerand(${1:args})'
+
+  'dividetrain	NNET method':
+    'prefix': 'dividetrain	NNET method'
+    'body': 'dividetrain(${1:args})'
+
+  'dotprod	NNET method':
+    'prefix': 'dotprod	NNET method'
+    'body': 'dotprod(${1:args})'
+
+  'elliot2sig	NNET method':
+    'prefix': 'elliot2sig	NNET method'
+    'body': 'elliot2sig(${1:args})'
+
+  'elliotsig	NNET method':
+    'prefix': 'elliotsig	NNET method'
+    'body': 'elliotsig(${1:args})'
+
+  'elmannet	NNET method':
+    'prefix': 'elmannet	NNET method'
+    'body': 'elmannet(${1:args})'
+
+  'errsurf	NNET method':
+    'prefix': 'errsurf	NNET method'
+    'body': 'errsurf(${1:args})'
+
+  'extendts	NNET method':
+    'prefix': 'extendts	NNET method'
+    'body': 'extendts(${1:args})'
+
+  'feedforwardnet	NNET method':
+    'prefix': 'feedforwardnet	NNET method'
+    'body': 'feedforwardnet(${1:args})'
+
+  'fitnet	NNET method':
+    'prefix': 'fitnet	NNET method'
+    'body': 'fitnet(${1:args})'
+
+  'fixunknowns	NNET method':
+    'prefix': 'fixunknowns	NNET method'
+    'body': 'fixunknowns(${1:args})'
+
+  'formwb	NNET method':
+    'prefix': 'formwb	NNET method'
+    'body': 'formwb(${1:args})'
+
+  'fromnndata	NNET method':
+    'prefix': 'fromnndata	NNET method'
+    'body': 'fromnndata(${1:args})'
+
+  'gadd	NNET method':
+    'prefix': 'gadd	NNET method'
+    'body': 'gadd(${1:args})'
+
+  'gdivide	NNET method':
+    'prefix': 'gdivide	NNET method'
+    'body': 'gdivide(${1:args})'
+
+  'genFunction	NNET method':
+    'prefix': 'genFunction	NNET method'
+    'body': 'genFunction(${1:args})'
+
+  'gensim	NNET method':
+    'prefix': 'gensim	NNET method'
+    'body': 'gensim(${1:args})'
+
+  'getelements	NNET method':
+    'prefix': 'getelements	NNET method'
+    'body': 'getelements(${1:args})'
+
+  'getsignals	NNET method':
+    'prefix': 'getsignals	NNET method'
+    'body': 'getsignals(${1:args})'
+
+  'getsiminit	NNET method':
+    'prefix': 'getsiminit	NNET method'
+    'body': 'getsiminit(${1:args})'
+
+  'gettimesteps	NNET method':
+    'prefix': 'gettimesteps	NNET method'
+    'body': 'gettimesteps(${1:args})'
+
+  'getwb	NNET method':
+    'prefix': 'getwb	NNET method'
+    'body': 'getwb(${1:args})'
+
+  'gmultiply	NNET method':
+    'prefix': 'gmultiply	NNET method'
+    'body': 'gmultiply(${1:args})'
+
+  'gnegate	NNET method':
+    'prefix': 'gnegate	NNET method'
+    'body': 'gnegate(${1:args})'
+
+  'gridtop	NNET method':
+    'prefix': 'gridtop	NNET method'
+    'body': 'gridtop(${1:args})'
+
+  'gsqrt	NNET method':
+    'prefix': 'gsqrt	NNET method'
+    'body': 'gsqrt(${1:args})'
+
+  'gsubtract	NNET method':
+    'prefix': 'gsubtract	NNET method'
+    'body': 'gsubtract(${1:args})'
+
+  'hardlim	NNET method':
+    'prefix': 'hardlim	NNET method'
+    'body': 'hardlim(${1:args})'
+
+  'hardlims	NNET method':
+    'prefix': 'hardlims	NNET method'
+    'body': 'hardlims(${1:args})'
+
+  'hextop	NNET method':
+    'prefix': 'hextop	NNET method'
+    'body': 'hextop(${1:args})'
+
+  'ind2vec	NNET method':
+    'prefix': 'ind2vec	NNET method'
+    'body': 'ind2vec(${1:args})'
+
+  'init	NNET method':
+    'prefix': 'init	NNET method'
+    'body': 'init(${1:args})'
+
+  'initcon	NNET method':
+    'prefix': 'initcon	NNET method'
+    'body': 'initcon(${1:args})'
+
+  'initlay	NNET method':
+    'prefix': 'initlay	NNET method'
+    'body': 'initlay(${1:args})'
+
+  'initlvq	NNET method':
+    'prefix': 'initlvq	NNET method'
+    'body': 'initlvq(${1:args})'
+
+  'initnw	NNET method':
+    'prefix': 'initnw	NNET method'
+    'body': 'initnw(${1:args})'
+
+  'initwb	NNET method':
+    'prefix': 'initwb	NNET method'
+    'body': 'initwb(${1:args})'
+
+  'initzero	NNET method':
+    'prefix': 'initzero	NNET method'
+    'body': 'initzero(${1:args})'
+
+  'isconfigured	NNET method':
+    'prefix': 'isconfigured	NNET method'
+    'body': 'isconfigured(${1:args})'
+
+  'layrecnet	NNET method':
+    'prefix': 'layrecnet	NNET method'
+    'body': 'layrecnet(${1:args})'
+
+  'learncon	NNET method':
+    'prefix': 'learncon	NNET method'
+    'body': 'learncon(${1:args})'
+
+  'learngd	NNET method':
+    'prefix': 'learngd	NNET method'
+    'body': 'learngd(${1:args})'
+
+  'learngdm	NNET method':
+    'prefix': 'learngdm	NNET method'
+    'body': 'learngdm(${1:args})'
+
+  'learnh	NNET method':
+    'prefix': 'learnh	NNET method'
+    'body': 'learnh(${1:args})'
+
+  'learnhd	NNET method':
+    'prefix': 'learnhd	NNET method'
+    'body': 'learnhd(${1:args})'
+
+  'learnis	NNET method':
+    'prefix': 'learnis	NNET method'
+    'body': 'learnis(${1:args})'
+
+  'learnk	NNET method':
+    'prefix': 'learnk	NNET method'
+    'body': 'learnk(${1:args})'
+
+  'learnlv1	NNET method':
+    'prefix': 'learnlv1	NNET method'
+    'body': 'learnlv1(${1:args})'
+
+  'learnlv2	NNET method':
+    'prefix': 'learnlv2	NNET method'
+    'body': 'learnlv2(${1:args})'
+
+  'learnos	NNET method':
+    'prefix': 'learnos	NNET method'
+    'body': 'learnos(${1:args})'
+
+  'learnp	NNET method':
+    'prefix': 'learnp	NNET method'
+    'body': 'learnp(${1:args})'
+
+  'learnpn	NNET method':
+    'prefix': 'learnpn	NNET method'
+    'body': 'learnpn(${1:args})'
+
+  'learnsom	NNET method':
+    'prefix': 'learnsom	NNET method'
+    'body': 'learnsom(${1:args})'
+
+  'learnsomb	NNET method':
+    'prefix': 'learnsomb	NNET method'
+    'body': 'learnsomb(${1:args})'
+
+  'learnwh	NNET method':
+    'prefix': 'learnwh	NNET method'
+    'body': 'learnwh(${1:args})'
+
+  'linearlayer	NNET method':
+    'prefix': 'linearlayer	NNET method'
+    'body': 'linearlayer(${1:args})'
+
+  'linkdist	NNET method':
+    'prefix': 'linkdist	NNET method'
+    'body': 'linkdist(${1:args})'
+
+  'logsig	NNET method':
+    'prefix': 'logsig	NNET method'
+    'body': 'logsig(${1:args})'
+
+  'lvqnet	NNET method':
+    'prefix': 'lvqnet	NNET method'
+    'body': 'lvqnet(${1:args})'
+
+  'lvqoutputs	NNET method':
+    'prefix': 'lvqoutputs	NNET method'
+    'body': 'lvqoutputs(${1:args})'
+
+  'mae	NNET method':
+    'prefix': 'mae	NNET method'
+    'body': 'mae(${1:args})'
+
+  'mandist	NNET method':
+    'prefix': 'mandist	NNET method'
+    'body': 'mandist(${1:args})'
+
+  'mapminmax	NNET method':
+    'prefix': 'mapminmax	NNET method'
+    'body': 'mapminmax(${1:args})'
+
+  'mapstd	NNET method':
+    'prefix': 'mapstd	NNET method'
+    'body': 'mapstd(${1:args})'
+
+  'maxlinlr	NNET method':
+    'prefix': 'maxlinlr	NNET method'
+    'body': 'maxlinlr(${1:args})'
+
+  'meanabs	NNET method':
+    'prefix': 'meanabs	NNET method'
+    'body': 'meanabs(${1:args})'
+
+  'meansqr	NNET method':
+    'prefix': 'meansqr	NNET method'
+    'body': 'meansqr(${1:args})'
+
+  'midpoint	NNET method':
+    'prefix': 'midpoint	NNET method'
+    'body': 'midpoint(${1:args})'
+
+  'minmax	NNET method':
+    'prefix': 'minmax	NNET method'
+    'body': 'minmax(${1:args})'
+
+  'mse	NNET method':
+    'prefix': 'mse	NNET method'
+    'body': 'mse(${1:args})'
+
+  'narnet	NNET method':
+    'prefix': 'narnet	NNET method'
+    'body': 'narnet(${1:args})'
+
+  'narxnet	NNET method':
+    'prefix': 'narxnet	NNET method'
+    'body': 'narxnet(${1:args})'
+
+  'nctool	NNET method':
+    'prefix': 'nctool	NNET method'
+    'body': 'nctool(${1:args})'
+
+  'negdist	NNET method':
+    'prefix': 'negdist	NNET method'
+    'body': 'negdist(${1:args})'
+
+  'netinv	NNET method':
+    'prefix': 'netinv	NNET method'
+    'body': 'netinv(${1:args})'
+
+  'netprod	NNET method':
+    'prefix': 'netprod	NNET method'
+    'body': 'netprod(${1:args})'
+
+  'netsum	NNET method':
+    'prefix': 'netsum	NNET method'
+    'body': 'netsum(${1:args})'
+
+  'network	NNET method':
+    'prefix': 'network	NNET method'
+    'body': 'network(${1:args})'
+
+  'newgrnn	NNET method':
+    'prefix': 'newgrnn	NNET method'
+    'body': 'newgrnn(${1:args})'
+
+  'newlind	NNET method':
+    'prefix': 'newlind	NNET method'
+    'body': 'newlind(${1:args})'
+
+  'newpnn	NNET method':
+    'prefix': 'newpnn	NNET method'
+    'body': 'newpnn(${1:args})'
+
+  'newrb	NNET method':
+    'prefix': 'newrb	NNET method'
+    'body': 'newrb(${1:args})'
+
+  'newrbe	NNET method':
+    'prefix': 'newrbe	NNET method'
+    'body': 'newrbe(${1:args})'
+
+  'nftool	NNET method':
+    'prefix': 'nftool	NNET method'
+    'body': 'nftool(${1:args})'
+
+  'nncell2mat	NNET method':
+    'prefix': 'nncell2mat	NNET method'
+    'body': 'nncell2mat(${1:args})'
+
+  'nncorr	NNET method':
+    'prefix': 'nncorr	NNET method'
+    'body': 'nncorr(${1:args})'
+
+  'nndata	NNET method':
+    'prefix': 'nndata	NNET method'
+    'body': 'nndata(${1:args})'
+
+  'nndata2sim	NNET method':
+    'prefix': 'nndata2sim	NNET method'
+    'body': 'nndata2sim(${1:args})'
+
+  'nnsize	NNET method':
+    'prefix': 'nnsize	NNET method'
+    'body': 'nnsize(${1:args})'
+
+  'nnstart	NNET method':
+    'prefix': 'nnstart	NNET method'
+    'body': 'nnstart(${1:args})'
+
+  'nntraintool	NNET method':
+    'prefix': 'nntraintool	NNET method'
+    'body': 'nntraintool(${1:args})'
+
+  'normc	NNET method':
+    'prefix': 'normc	NNET method'
+    'body': 'normc(${1:args})'
+
+  'normprod	NNET method':
+    'prefix': 'normprod	NNET method'
+    'body': 'normprod(${1:args})'
+
+  'normr	NNET method':
+    'prefix': 'normr	NNET method'
+    'body': 'normr(${1:args})'
+
+  'nprtool	NNET method':
+    'prefix': 'nprtool	NNET method'
+    'body': 'nprtool(${1:args})'
+
+  'ntstool	NNET method':
+    'prefix': 'ntstool	NNET method'
+    'body': 'ntstool(${1:args})'
+
+  'numelements	NNET method':
+    'prefix': 'numelements	NNET method'
+    'body': 'numelements(${1:args})'
+
+  'numfinite	NNET method':
+    'prefix': 'numfinite	NNET method'
+    'body': 'numfinite(${1:args})'
+
+  'numnan	NNET method':
+    'prefix': 'numnan	NNET method'
+    'body': 'numnan(${1:args})'
+
+  'numsamples	NNET method':
+    'prefix': 'numsamples	NNET method'
+    'body': 'numsamples(${1:args})'
+
+  'numsignals	NNET method':
+    'prefix': 'numsignals	NNET method'
+    'body': 'numsignals(${1:args})'
+
+  'numtimesteps	NNET method':
+    'prefix': 'numtimesteps	NNET method'
+    'body': 'numtimesteps(${1:args})'
+
+  'openloop	NNET method':
+    'prefix': 'openloop	NNET method'
+    'body': 'openloop(${1:args})'
+
+  'patternnet	NNET method':
+    'prefix': 'patternnet	NNET method'
+    'body': 'patternnet(${1:args})'
+
+  'perceptron	NNET method':
+    'prefix': 'perceptron	NNET method'
+    'body': 'perceptron(${1:args})'
+
+  'perform	NNET method':
+    'prefix': 'perform	NNET method'
+    'body': 'perform(${1:args})'
+
+  'plotconfusion	NNET method':
+    'prefix': 'plotconfusion	NNET method'
+    'body': 'plotconfusion(${1:args})'
+
+  'plotep	NNET method':
+    'prefix': 'plotep	NNET method'
+    'body': 'plotep(${1:args})'
+
+  'ploterrcorr	NNET method':
+    'prefix': 'ploterrcorr	NNET method'
+    'body': 'ploterrcorr(${1:args})'
+
+  'ploterrhist	NNET method':
+    'prefix': 'ploterrhist	NNET method'
+    'body': 'ploterrhist(${1:args})'
+
+  'plotes	NNET method':
+    'prefix': 'plotes	NNET method'
+    'body': 'plotes(${1:args})'
+
+  'plotfit	NNET method':
+    'prefix': 'plotfit	NNET method'
+    'body': 'plotfit(${1:args})'
+
+  'plotinerrcorr	NNET method':
+    'prefix': 'plotinerrcorr	NNET method'
+    'body': 'plotinerrcorr(${1:args})'
+
+  'plotpc	NNET method':
+    'prefix': 'plotpc	NNET method'
+    'body': 'plotpc(${1:args})'
+
+  'plotperform	NNET method':
+    'prefix': 'plotperform	NNET method'
+    'body': 'plotperform(${1:args})'
+
+  'plotpv	NNET method':
+    'prefix': 'plotpv	NNET method'
+    'body': 'plotpv(${1:args})'
+
+  'plotregression	NNET method':
+    'prefix': 'plotregression	NNET method'
+    'body': 'plotregression(${1:args})'
+
+  'plotresponse	NNET method':
+    'prefix': 'plotresponse	NNET method'
+    'body': 'plotresponse(${1:args})'
+
+  'plotroc	NNET method':
+    'prefix': 'plotroc	NNET method'
+    'body': 'plotroc(${1:args})'
+
+  'plotsomhits	NNET method':
+    'prefix': 'plotsomhits	NNET method'
+    'body': 'plotsomhits(${1:args})'
+
+  'plotsomnc	NNET method':
+    'prefix': 'plotsomnc	NNET method'
+    'body': 'plotsomnc(${1:args})'
+
+  'plotsomnd	NNET method':
+    'prefix': 'plotsomnd	NNET method'
+    'body': 'plotsomnd(${1:args})'
+
+  'plotsomplanes	NNET method':
+    'prefix': 'plotsomplanes	NNET method'
+    'body': 'plotsomplanes(${1:args})'
+
+  'plotsompos	NNET method':
+    'prefix': 'plotsompos	NNET method'
+    'body': 'plotsompos(${1:args})'
+
+  'plotsomtop	NNET method':
+    'prefix': 'plotsomtop	NNET method'
+    'body': 'plotsomtop(${1:args})'
+
+  'plottrainstate	NNET method':
+    'prefix': 'plottrainstate	NNET method'
+    'body': 'plottrainstate(${1:args})'
+
+  'plotv	NNET method':
+    'prefix': 'plotv	NNET method'
+    'body': 'plotv(${1:args})'
+
+  'plotvec	NNET method':
+    'prefix': 'plotvec	NNET method'
+    'body': 'plotvec(${1:args})'
+
+  'plotwb	NNET method':
+    'prefix': 'plotwb	NNET method'
+    'body': 'plotwb(${1:args})'
+
+  'pnormc	NNET method':
+    'prefix': 'pnormc	NNET method'
+    'body': 'pnormc(${1:args})'
+
+  'poslin	NNET method':
+    'prefix': 'poslin	NNET method'
+    'body': 'poslin(${1:args})'
+
+  'predict	NNET method':
+    'prefix': 'predict	NNET method'
+    'body': 'predict(${1:args})'
+
+  'preparets	NNET method':
+    'prefix': 'preparets	NNET method'
+    'body': 'preparets(${1:args})'
+
+  'processpca	NNET method':
+    'prefix': 'processpca	NNET method'
+    'body': 'processpca(${1:args})'
+
+  'prune	NNET method':
+    'prefix': 'prune	NNET method'
+    'body': 'prune(${1:args})'
+
+  'prunedata	NNET method':
+    'prefix': 'prunedata	NNET method'
+    'body': 'prunedata(${1:args})'
+
+  'purelin	NNET method':
+    'prefix': 'purelin	NNET method'
+    'body': 'purelin(${1:args})'
+
+  'quant	NNET method':
+    'prefix': 'quant	NNET method'
+    'body': 'quant(${1:args})'
+
+  'radbas	NNET method':
+    'prefix': 'radbas	NNET method'
+    'body': 'radbas(${1:args})'
+
+  'radbasn	NNET method':
+    'prefix': 'radbasn	NNET method'
+    'body': 'radbasn(${1:args})'
+
+  'randnc	NNET method':
+    'prefix': 'randnc	NNET method'
+    'body': 'randnc(${1:args})'
+
+  'randnr	NNET method':
+    'prefix': 'randnr	NNET method'
+    'body': 'randnr(${1:args})'
+
+  'rands	NNET method':
+    'prefix': 'rands	NNET method'
+    'body': 'rands(${1:args})'
+
+  'randsmall	NNET method':
+    'prefix': 'randsmall	NNET method'
+    'body': 'randsmall(${1:args})'
+
+  'randtop	NNET method':
+    'prefix': 'randtop	NNET method'
+    'body': 'randtop(${1:args})'
+
+  'regression	NNET method':
+    'prefix': 'regression	NNET method'
+    'body': 'regression(${1:args})'
+
+  'removeconstantrows	NNET method':
+    'prefix': 'removeconstantrows	NNET method'
+    'body': 'removeconstantrows(${1:args})'
+
+  'removedelay	NNET method':
+    'prefix': 'removedelay	NNET method'
+    'body': 'removedelay(${1:args})'
+
+  'removerows	NNET method':
+    'prefix': 'removerows	NNET method'
+    'body': 'removerows(${1:args})'
+
+  'roc	NNET method':
+    'prefix': 'roc	NNET method'
+    'body': 'roc(${1:args})'
+
+  'sae	NNET method':
+    'prefix': 'sae	NNET method'
+    'body': 'sae(${1:args})'
+
+  'satlin	NNET method':
+    'prefix': 'satlin	NNET method'
+    'body': 'satlin(${1:args})'
+
+  'satlins	NNET method':
+    'prefix': 'satlins	NNET method'
+    'body': 'satlins(${1:args})'
+
+  'scalprod	NNET method':
+    'prefix': 'scalprod	NNET method'
+    'body': 'scalprod(${1:args})'
+
+  'selforgmap	NNET method':
+    'prefix': 'selforgmap	NNET method'
+    'body': 'selforgmap(${1:args})'
+
+  'separatewb	NNET method':
+    'prefix': 'separatewb	NNET method'
+    'body': 'separatewb(${1:args})'
+
+  'seq2con	NNET method':
+    'prefix': 'seq2con	NNET method'
+    'body': 'seq2con(${1:args})'
+
+  'setelements	NNET method':
+    'prefix': 'setelements	NNET method'
+    'body': 'setelements(${1:args})'
+
+  'setsamples	NNET method':
+    'prefix': 'setsamples	NNET method'
+    'body': 'setsamples(${1:args})'
+
+  'setsignals	NNET method':
+    'prefix': 'setsignals	NNET method'
+    'body': 'setsignals(${1:args})'
+
+  'setsiminit	NNET method':
+    'prefix': 'setsiminit	NNET method'
+    'body': 'setsiminit(${1:args})'
+
+  'settimesteps	NNET method':
+    'prefix': 'settimesteps	NNET method'
+    'body': 'settimesteps(${1:args})'
+
+  'setwb	NNET method':
+    'prefix': 'setwb	NNET method'
+    'body': 'setwb(${1:args})'
+
+  'sim2nndata	NNET method':
+    'prefix': 'sim2nndata	NNET method'
+    'body': 'sim2nndata(${1:args})'
+
+  'softmax	NNET method':
+    'prefix': 'softmax	NNET method'
+    'body': 'softmax(${1:args})'
+
+  'srchbac	NNET method':
+    'prefix': 'srchbac	NNET method'
+    'body': 'srchbac(${1:args})'
+
+  'srchbre	NNET method':
+    'prefix': 'srchbre	NNET method'
+    'body': 'srchbre(${1:args})'
+
+  'srchcha	NNET method':
+    'prefix': 'srchcha	NNET method'
+    'body': 'srchcha(${1:args})'
+
+  'srchgol	NNET method':
+    'prefix': 'srchgol	NNET method'
+    'body': 'srchgol(${1:args})'
+
+  'srchhyb	NNET method':
+    'prefix': 'srchhyb	NNET method'
+    'body': 'srchhyb(${1:args})'
+
+  'sse	NNET method':
+    'prefix': 'sse	NNET method'
+    'body': 'sse(${1:args})'
+
+  'sumabs	NNET method':
+    'prefix': 'sumabs	NNET method'
+    'body': 'sumabs(${1:args})'
+
+  'sumsqr	NNET method':
+    'prefix': 'sumsqr	NNET method'
+    'body': 'sumsqr(${1:args})'
+
+  'tansig	NNET method':
+    'prefix': 'tansig	NNET method'
+    'body': 'tansig(${1:args})'
+
+  'tapdelay	NNET method':
+    'prefix': 'tapdelay	NNET method'
+    'body': 'tapdelay(${1:args})'
+
+  'timedelaynet	NNET method':
+    'prefix': 'timedelaynet	NNET method'
+    'body': 'timedelaynet(${1:args})'
+
+  'tonndata	NNET method':
+    'prefix': 'tonndata	NNET method'
+    'body': 'tonndata(${1:args})'
+
+  'train	NNET method':
+    'prefix': 'train	NNET method'
+    'body': 'train(${1:args})'
+
+  'trainAutoencoder	NNET method':
+    'prefix': 'trainAutoencoder	NNET method'
+    'body': 'trainAutoencoder(${1:args})'
+
+  'trainSoftmaxLayer	NNET method':
+    'prefix': 'trainSoftmaxLayer	NNET method'
+    'body': 'trainSoftmaxLayer(${1:args})'
+
+  'trainb	NNET method':
+    'prefix': 'trainb	NNET method'
+    'body': 'trainb(${1:args})'
+
+  'trainbfg	NNET method':
+    'prefix': 'trainbfg	NNET method'
+    'body': 'trainbfg(${1:args})'
+
+  'trainbr	NNET method':
+    'prefix': 'trainbr	NNET method'
+    'body': 'trainbr(${1:args})'
+
+  'trainbu	NNET method':
+    'prefix': 'trainbu	NNET method'
+    'body': 'trainbu(${1:args})'
+
+  'trainc	NNET method':
+    'prefix': 'trainc	NNET method'
+    'body': 'trainc(${1:args})'
+
+  'traincgb	NNET method':
+    'prefix': 'traincgb	NNET method'
+    'body': 'traincgb(${1:args})'
+
+  'traincgf	NNET method':
+    'prefix': 'traincgf	NNET method'
+    'body': 'traincgf(${1:args})'
+
+  'traincgp	NNET method':
+    'prefix': 'traincgp	NNET method'
+    'body': 'traincgp(${1:args})'
+
+  'traingd	NNET method':
+    'prefix': 'traingd	NNET method'
+    'body': 'traingd(${1:args})'
+
+  'traingda	NNET method':
+    'prefix': 'traingda	NNET method'
+    'body': 'traingda(${1:args})'
+
+  'traingdm	NNET method':
+    'prefix': 'traingdm	NNET method'
+    'body': 'traingdm(${1:args})'
+
+  'traingdx	NNET method':
+    'prefix': 'traingdx	NNET method'
+    'body': 'traingdx(${1:args})'
+
+  'trainlm	NNET method':
+    'prefix': 'trainlm	NNET method'
+    'body': 'trainlm(${1:args})'
+
+  'trainoss	NNET method':
+    'prefix': 'trainoss	NNET method'
+    'body': 'trainoss(${1:args})'
+
+  'trainr	NNET method':
+    'prefix': 'trainr	NNET method'
+    'body': 'trainr(${1:args})'
+
+  'trainrp	NNET method':
+    'prefix': 'trainrp	NNET method'
+    'body': 'trainrp(${1:args})'
+
+  'trainru	NNET method':
+    'prefix': 'trainru	NNET method'
+    'body': 'trainru(${1:args})'
+
+  'trains	NNET method':
+    'prefix': 'trains	NNET method'
+    'body': 'trains(${1:args})'
+
+  'trainscg	NNET method':
+    'prefix': 'trainscg	NNET method'
+    'body': 'trainscg(${1:args})'
+
+  'tribas	NNET method':
+    'prefix': 'tribas	NNET method'
+    'body': 'tribas(${1:args})'
+
+  'tritop	NNET method':
+    'prefix': 'tritop	NNET method'
+    'body': 'tritop(${1:args})'
+
+  'unconfigure	NNET method':
+    'prefix': 'unconfigure	NNET method'
+    'body': 'unconfigure(${1:args})'
+
+  'vec2ind	NNET method':
+    'prefix': 'vec2ind	NNET method'
+    'body': 'vec2ind(${1:args})'

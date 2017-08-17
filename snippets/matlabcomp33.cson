@@ -1,0 +1,7 @@
+# matlabcomp33 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'simrfSupportPackages	SimRF method':
+    'prefix': 'simrfSupportPackages	SimRF method'
+    'body': 'simrfSupportPackages(${1:args})'

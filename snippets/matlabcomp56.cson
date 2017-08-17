@@ -1,0 +1,163 @@
+# matlabcomp56 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'CAN.ChannelInfo	VNT method':
+    'prefix': 'CAN.ChannelInfo	VNT method'
+    'body': 'CAN.ChannelInfo(${1:args})'
+
+  'CAN.VendorInfo	VNT method':
+    'prefix': 'CAN.VendorInfo	VNT method'
+    'body': 'CAN.VendorInfo(${1:args})'
+
+  'attachDatabase	VNT method':
+    'prefix': 'attachDatabase	VNT method'
+    'body': 'attachDatabase(${1:args})'
+
+  'canChannel	VNT method':
+    'prefix': 'canChannel	VNT method'
+    'body': 'canChannel(${1:args})'
+
+  'canDatabase	VNT method':
+    'prefix': 'canDatabase	VNT method'
+    'body': 'canDatabase(${1:args})'
+
+  'canHWInfo	VNT method':
+    'prefix': 'canHWInfo	VNT method'
+    'body': 'canHWInfo(${1:args})'
+
+  'canMessage	VNT method':
+    'prefix': 'canMessage	VNT method'
+    'body': 'canMessage(${1:args})'
+
+  'canMessageImport	VNT method':
+    'prefix': 'canMessageImport	VNT method'
+    'body': 'canMessageImport(${1:args})'
+
+  'canTool	VNT method':
+    'prefix': 'canTool	VNT method'
+    'body': 'canTool(${1:args})'
+
+  'configBusSpeed	VNT method':
+    'prefix': 'configBusSpeed	VNT method'
+    'body': 'configBusSpeed(${1:args})'
+
+  'createMeasurementList	VNT method':
+    'prefix': 'createMeasurementList	VNT method'
+    'body': 'createMeasurementList(${1:args})'
+
+  'discard	VNT method':
+    'prefix': 'discard	VNT method'
+    'body': 'discard(${1:args})'
+
+  'extractAll	VNT method':
+    'prefix': 'extractAll	VNT method'
+    'body': 'extractAll(${1:args})'
+
+  'extractRecent	VNT method':
+    'prefix': 'extractRecent	VNT method'
+    'body': 'extractRecent(${1:args})'
+
+  'extractTime	VNT method':
+    'prefix': 'extractTime	VNT method'
+    'body': 'extractTime(${1:args})'
+
+  'filterAllowAll	VNT method':
+    'prefix': 'filterAllowAll	VNT method'
+    'body': 'filterAllowAll(${1:args})'
+
+  'filterAllowOnly	VNT method':
+    'prefix': 'filterAllowOnly	VNT method'
+    'body': 'filterAllowOnly(${1:args})'
+
+  'filterBlockAll	VNT method':
+    'prefix': 'filterBlockAll	VNT method'
+    'body': 'filterBlockAll(${1:args})'
+
+  'freeMeasurementLists	VNT method':
+    'prefix': 'freeMeasurementLists	VNT method'
+    'body': 'freeMeasurementLists(${1:args})'
+
+  'getEventInfo	VNT method':
+    'prefix': 'getEventInfo	VNT method'
+    'body': 'getEventInfo(${1:args})'
+
+  'getMeasurementInfo	VNT method':
+    'prefix': 'getMeasurementInfo	VNT method'
+    'body': 'getMeasurementInfo(${1:args})'
+
+  'isMeasurementRunning	VNT method':
+    'prefix': 'isMeasurementRunning	VNT method'
+    'body': 'isMeasurementRunning(${1:args})'
+
+  'j1939Channel	VNT method':
+    'prefix': 'j1939Channel	VNT method'
+    'body': 'j1939Channel(${1:args})'
+
+  'j1939ParameterGroup	VNT method':
+    'prefix': 'j1939ParameterGroup	VNT method'
+    'body': 'j1939ParameterGroup(${1:args})'
+
+  'messageInfo	VNT method':
+    'prefix': 'messageInfo	VNT method'
+    'body': 'messageInfo(${1:args})'
+
+  'readDAQListData	VNT method':
+    'prefix': 'readDAQListData	VNT method'
+    'body': 'readDAQListData(${1:args})'
+
+  'readSingleValue	VNT method':
+    'prefix': 'readSingleValue	VNT method'
+    'body': 'readSingleValue(${1:args})'
+
+  'replay	VNT method':
+    'prefix': 'replay	VNT method'
+    'body': 'replay(${1:args})'
+
+  'signalInfo	VNT method':
+    'prefix': 'signalInfo	VNT method'
+    'body': 'signalInfo(${1:args})'
+
+  'startMeasurement	VNT method':
+    'prefix': 'startMeasurement	VNT method'
+    'body': 'startMeasurement(${1:args})'
+
+  'stopMeasurement	VNT method':
+    'prefix': 'stopMeasurement	VNT method'
+    'body': 'stopMeasurement(${1:args})'
+
+  'transmit	VNT method':
+    'prefix': 'transmit	VNT method'
+    'body': 'transmit(${1:args})'
+
+  'transmitConfiguration	VNT method':
+    'prefix': 'transmitConfiguration	VNT method'
+    'body': 'transmitConfiguration(${1:args})'
+
+  'transmitEvent	VNT method':
+    'prefix': 'transmitEvent	VNT method'
+    'body': 'transmitEvent(${1:args})'
+
+  'transmitPeriodic	VNT method':
+    'prefix': 'transmitPeriodic	VNT method'
+    'body': 'transmitPeriodic(${1:args})'
+
+  'viewMeasurementLists	VNT method':
+    'prefix': 'viewMeasurementLists	VNT method'
+    'body': 'viewMeasurementLists(${1:args})'
+
+  'writeSTIMListData	VNT method':
+    'prefix': 'writeSTIMListData	VNT method'
+    'body': 'writeSTIMListData(${1:args})'
+
+  'writeSingleValue	VNT method':
+    'prefix': 'writeSingleValue	VNT method'
+    'body': 'writeSingleValue(${1:args})'
+
+  'xcpA2L	VNT method':
+    'prefix': 'xcpA2L	VNT method'
+    'body': 'xcpA2L(${1:args})'
+
+  'xcpChannel	VNT method':
+    'prefix': 'xcpChannel	VNT method'
+    'body': 'xcpChannel(${1:args})'

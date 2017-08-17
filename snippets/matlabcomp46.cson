@@ -1,0 +1,7 @@
+# matlabcomp46 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'slwebview	RptGenext method':
+    'prefix': 'slwebview	RptGenext method'
+    'body': 'slwebview(${1:args})'

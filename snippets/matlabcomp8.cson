@@ -1,0 +1,23 @@
+# matlabcomp8 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'CustomStartPointSet	GADS class':
+    'prefix': 'CustomStartPointSet	GADS class'
+    'body': 'CustomStartPointSet'
+
+  'GlobalOptimSolution	GADS class':
+    'prefix': 'GlobalOptimSolution	GADS class'
+    'body': 'GlobalOptimSolution'
+
+  'GlobalSearch	GADS class':
+    'prefix': 'GlobalSearch	GADS class'
+    'body': 'GlobalSearch'
+
+  'MultiStart	GADS class':
+    'prefix': 'MultiStart	GADS class'
+    'body': 'MultiStart'
+
+  'RandomStartPointSet	GADS class':
+    'prefix': 'RandomStartPointSet	GADS class'
+    'body': 'RandomStartPointSet'

@@ -1,0 +1,71 @@
+# matlabcomp61 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'EHfields	Antenna method':
+    'prefix': 'EHfields	Antenna method'
+    'body': 'EHfields(${1:args})'
+
+  'axialRatio	Antenna method':
+    'prefix': 'axialRatio	Antenna method'
+    'body': 'axialRatio(${1:args})'
+
+  'beamwidth	Antenna method':
+    'prefix': 'beamwidth	Antenna method'
+    'body': 'beamwidth(${1:args})'
+
+  'charge	Antenna method':
+    'prefix': 'charge	Antenna method'
+    'body': 'charge(${1:args})'
+
+  'correlation	Antenna method':
+    'prefix': 'correlation	Antenna method'
+    'body': 'correlation(${1:args})'
+
+  'current	Antenna method':
+    'prefix': 'current	Antenna method'
+    'body': 'current(${1:args})'
+
+  'cylinder2strip	Antenna method':
+    'prefix': 'cylinder2strip	Antenna method'
+    'body': 'cylinder2strip(${1:args})'
+
+  'helixpitch2spacing	Antenna method':
+    'prefix': 'helixpitch2spacing	Antenna method'
+    'body': 'helixpitch2spacing(${1:args})'
+
+  'impedance	Antenna method':
+    'prefix': 'impedance	Antenna method'
+    'body': 'impedance(${1:args})'
+
+  'meshconfig	Antenna method':
+    'prefix': 'meshconfig	Antenna method'
+    'body': 'meshconfig(${1:args})'
+
+  'pattern	Antenna method':
+    'prefix': 'pattern	Antenna method'
+    'body': 'pattern(${1:args})'
+
+  'patternAzimuth	Antenna method':
+    'prefix': 'patternAzimuth	Antenna method'
+    'body': 'patternAzimuth(${1:args})'
+
+  'patternElevation	Antenna method':
+    'prefix': 'patternElevation	Antenna method'
+    'body': 'patternElevation(${1:args})'
+
+  'returnLoss	Antenna method':
+    'prefix': 'returnLoss	Antenna method'
+    'body': 'returnLoss(${1:args})'
+
+  'show	Antenna method':
+    'prefix': 'show	Antenna method'
+    'body': 'show(${1:args})'
+
+  'sparameters	Antenna method':
+    'prefix': 'sparameters	Antenna method'
+    'body': 'sparameters(${1:args})'
+
+  'vswr	Antenna method':
+    'prefix': 'vswr	Antenna method'
+    'body': 'vswr(${1:args})'

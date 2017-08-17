@@ -1,0 +1,1195 @@
+# matlabcomp41 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'ModelAdvisor.Preferences	Simulink method':
+    'prefix': 'ModelAdvisor.Preferences	Simulink method'
+    'body': 'ModelAdvisor.Preferences(${1:args})'
+
+  'Simulink.AliasType	Simulink method':
+    'prefix': 'Simulink.AliasType	Simulink method'
+    'body': 'Simulink.AliasType(${1:args})'
+
+  'Simulink.Annotation	Simulink method':
+    'prefix': 'Simulink.Annotation	Simulink method'
+    'body': 'Simulink.Annotation(${1:args})'
+
+  'Simulink.Block.getSampleTimes	Simulink method':
+    'prefix': 'Simulink.Block.getSampleTimes	Simulink method'
+    'body': 'Simulink.Block.getSampleTimes(${1:args})'
+
+  'Simulink.BlockCompDworkData	Simulink method':
+    'prefix': 'Simulink.BlockCompDworkData	Simulink method'
+    'body': 'Simulink.BlockCompDworkData(${1:args})'
+
+  'Simulink.BlockCompInputPortData	Simulink method':
+    'prefix': 'Simulink.BlockCompInputPortData	Simulink method'
+    'body': 'Simulink.BlockCompInputPortData(${1:args})'
+
+  'Simulink.BlockCompOutputPortData	Simulink method':
+    'prefix': 'Simulink.BlockCompOutputPortData	Simulink method'
+    'body': 'Simulink.BlockCompOutputPortData(${1:args})'
+
+  'Simulink.BlockData	Simulink method':
+    'prefix': 'Simulink.BlockData	Simulink method'
+    'body': 'Simulink.BlockData(${1:args})'
+
+  'Simulink.BlockDiagram.addBusToVector	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.addBusToVector	Simulink method'
+    'body': 'Simulink.BlockDiagram.addBusToVector(${1:args})'
+
+  'Simulink.BlockDiagram.buildRapidAcceleratorTarget	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.buildRapidAcceleratorTarget	Simulink method'
+    'body': 'Simulink.BlockDiagram.buildRapidAcceleratorTarget(${1:args})'
+
+  'Simulink.BlockDiagram.copyContentsToSubSystem	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.copyContentsToSubSystem	Simulink method'
+    'body': 'Simulink.BlockDiagram.copyContentsToSubSystem(${1:args})'
+
+  'Simulink.BlockDiagram.createSubSystem	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.createSubSystem	Simulink method'
+    'body': 'Simulink.BlockDiagram.createSubSystem(${1:args})'
+
+  'Simulink.BlockDiagram.deleteContents	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.deleteContents	Simulink method'
+    'body': 'Simulink.BlockDiagram.deleteContents(${1:args})'
+
+  'Simulink.BlockDiagram.expandSubsystem	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.expandSubsystem	Simulink method'
+    'body': 'Simulink.BlockDiagram.expandSubsystem(${1:args})'
+
+  'Simulink.BlockDiagram.getChecksum	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.getChecksum	Simulink method'
+    'body': 'Simulink.BlockDiagram.getChecksum(${1:args})'
+
+  'Simulink.BlockDiagram.getInitialState	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.getInitialState	Simulink method'
+    'body': 'Simulink.BlockDiagram.getInitialState(${1:args})'
+
+  'Simulink.BlockDiagram.getSampleTimes	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.getSampleTimes	Simulink method'
+    'body': 'Simulink.BlockDiagram.getSampleTimes(${1:args})'
+
+  'Simulink.BlockDiagram.loadActiveConfigSet	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.loadActiveConfigSet	Simulink method'
+    'body': 'Simulink.BlockDiagram.loadActiveConfigSet(${1:args})'
+
+  'Simulink.BlockDiagram.saveActiveConfigSet	Simulink method':
+    'prefix': 'Simulink.BlockDiagram.saveActiveConfigSet	Simulink method'
+    'body': 'Simulink.BlockDiagram.saveActiveConfigSet(${1:args})'
+
+  'Simulink.BlockPath	Simulink method':
+    'prefix': 'Simulink.BlockPath	Simulink method'
+    'body': 'Simulink.BlockPath(${1:args})'
+
+  'Simulink.BlockPortData	Simulink method':
+    'prefix': 'Simulink.BlockPortData	Simulink method'
+    'body': 'Simulink.BlockPortData(${1:args})'
+
+  'Simulink.BlockPreCompInputPortData	Simulink method':
+    'prefix': 'Simulink.BlockPreCompInputPortData	Simulink method'
+    'body': 'Simulink.BlockPreCompInputPortData(${1:args})'
+
+  'Simulink.BlockPreCompOutputPortData	Simulink method':
+    'prefix': 'Simulink.BlockPreCompOutputPortData	Simulink method'
+    'body': 'Simulink.BlockPreCompOutputPortData(${1:args})'
+
+  'Simulink.Bus	Simulink method':
+    'prefix': 'Simulink.Bus	Simulink method'
+    'body': 'Simulink.Bus(${1:args})'
+
+  'Simulink.Bus.cellToObject	Simulink method':
+    'prefix': 'Simulink.Bus.cellToObject	Simulink method'
+    'body': 'Simulink.Bus.cellToObject(${1:args})'
+
+  'Simulink.Bus.createMATLABStruct	Simulink method':
+    'prefix': 'Simulink.Bus.createMATLABStruct	Simulink method'
+    'body': 'Simulink.Bus.createMATLABStruct(${1:args})'
+
+  'Simulink.Bus.createObject	Simulink method':
+    'prefix': 'Simulink.Bus.createObject	Simulink method'
+    'body': 'Simulink.Bus.createObject(${1:args})'
+
+  'Simulink.Bus.objectToCell	Simulink method':
+    'prefix': 'Simulink.Bus.objectToCell	Simulink method'
+    'body': 'Simulink.Bus.objectToCell(${1:args})'
+
+  'Simulink.Bus.save	Simulink method':
+    'prefix': 'Simulink.Bus.save	Simulink method'
+    'body': 'Simulink.Bus.save(${1:args})'
+
+  'Simulink.BusElement	Simulink method':
+    'prefix': 'Simulink.BusElement	Simulink method'
+    'body': 'Simulink.BusElement(${1:args})'
+
+  'Simulink.CoderInfo	Simulink method':
+    'prefix': 'Simulink.CoderInfo	Simulink method'
+    'body': 'Simulink.CoderInfo(${1:args})'
+
+  'Simulink.ConfigSet	Simulink method':
+    'prefix': 'Simulink.ConfigSet	Simulink method'
+    'body': 'Simulink.ConfigSet(${1:args})'
+
+  'Simulink.ConfigSetRef	Simulink method':
+    'prefix': 'Simulink.ConfigSetRef	Simulink method'
+    'body': 'Simulink.ConfigSetRef(${1:args})'
+
+  'Simulink.DualScaledParameter	Simulink method':
+    'prefix': 'Simulink.DualScaledParameter	Simulink method'
+    'body': 'Simulink.DualScaledParameter(${1:args})'
+
+  'Simulink.GlobalDataTransfer	Simulink method':
+    'prefix': 'Simulink.GlobalDataTransfer	Simulink method'
+    'body': 'Simulink.GlobalDataTransfer(${1:args})'
+
+  'Simulink.MDLInfo	Simulink method':
+    'prefix': 'Simulink.MDLInfo	Simulink method'
+    'body': 'Simulink.MDLInfo(${1:args})'
+
+  'Simulink.MDLInfo.getDescription	Simulink method':
+    'prefix': 'Simulink.MDLInfo.getDescription	Simulink method'
+    'body': 'Simulink.MDLInfo.getDescription(${1:args})'
+
+  'Simulink.MDLInfo.getMetadata	Simulink method':
+    'prefix': 'Simulink.MDLInfo.getMetadata	Simulink method'
+    'body': 'Simulink.MDLInfo.getMetadata(${1:args})'
+
+  'Simulink.MSFcnRunTimeBlock	Simulink method':
+    'prefix': 'Simulink.MSFcnRunTimeBlock	Simulink method'
+    'body': 'Simulink.MSFcnRunTimeBlock(${1:args})'
+
+  'Simulink.Mask	Simulink method':
+    'prefix': 'Simulink.Mask	Simulink method'
+    'body': 'Simulink.Mask(${1:args})'
+
+  'Simulink.MaskParameter	Simulink method':
+    'prefix': 'Simulink.MaskParameter	Simulink method'
+    'body': 'Simulink.MaskParameter(${1:args})'
+
+  'Simulink.ModelAdvisor	Simulink method':
+    'prefix': 'Simulink.ModelAdvisor	Simulink method'
+    'body': 'Simulink.ModelAdvisor(${1:args})'
+
+  'Simulink.ModelDataLogs	Simulink method':
+    'prefix': 'Simulink.ModelDataLogs	Simulink method'
+    'body': 'Simulink.ModelDataLogs(${1:args})'
+
+  'Simulink.ModelDataLogs.convertToDataset	Simulink method':
+    'prefix': 'Simulink.ModelDataLogs.convertToDataset	Simulink method'
+    'body': 'Simulink.ModelDataLogs.convertToDataset(${1:args})'
+
+  'Simulink.ModelWorkspace	Simulink method':
+    'prefix': 'Simulink.ModelWorkspace	Simulink method'
+    'body': 'Simulink.ModelWorkspace(${1:args})'
+
+  'Simulink.NumericType	Simulink method':
+    'prefix': 'Simulink.NumericType	Simulink method'
+    'body': 'Simulink.NumericType(${1:args})'
+
+  'Simulink.Parameter	Simulink method':
+    'prefix': 'Simulink.Parameter	Simulink method'
+    'body': 'Simulink.Parameter(${1:args})'
+
+  'Simulink.RunTimeBlock	Simulink method':
+    'prefix': 'Simulink.RunTimeBlock	Simulink method'
+    'body': 'Simulink.RunTimeBlock(${1:args})'
+
+  'Simulink.SampleTime	Simulink method':
+    'prefix': 'Simulink.SampleTime	Simulink method'
+    'body': 'Simulink.SampleTime(${1:args})'
+
+  'Simulink.Signal	Simulink method':
+    'prefix': 'Simulink.Signal	Simulink method'
+    'body': 'Simulink.Signal(${1:args})'
+
+  'Simulink.SimState.ModelSimState	Simulink method':
+    'prefix': 'Simulink.SimState.ModelSimState	Simulink method'
+    'body': 'Simulink.SimState.ModelSimState(${1:args})'
+
+  'Simulink.SimulationData.BlockPath	Simulink method':
+    'prefix': 'Simulink.SimulationData.BlockPath	Simulink method'
+    'body': 'Simulink.SimulationData.BlockPath(${1:args})'
+
+  'Simulink.SimulationData.DataStoreMemory	Simulink method':
+    'prefix': 'Simulink.SimulationData.DataStoreMemory	Simulink method'
+    'body': 'Simulink.SimulationData.DataStoreMemory(${1:args})'
+
+  'Simulink.SimulationData.Dataset	Simulink method':
+    'prefix': 'Simulink.SimulationData.Dataset	Simulink method'
+    'body': 'Simulink.SimulationData.Dataset(${1:args})'
+
+  'Simulink.SimulationData.LoggingInfo	Simulink method':
+    'prefix': 'Simulink.SimulationData.LoggingInfo	Simulink method'
+    'body': 'Simulink.SimulationData.LoggingInfo(${1:args})'
+
+  'Simulink.SimulationData.ModelLoggingInfo	Simulink method':
+    'prefix': 'Simulink.SimulationData.ModelLoggingInfo	Simulink method'
+    'body': 'Simulink.SimulationData.ModelLoggingInfo(${1:args})'
+
+  'Simulink.SimulationData.Signal	Simulink method':
+    'prefix': 'Simulink.SimulationData.Signal	Simulink method'
+    'body': 'Simulink.SimulationData.Signal(${1:args})'
+
+  'Simulink.SimulationData.SignalLoggingInfo	Simulink method':
+    'prefix': 'Simulink.SimulationData.SignalLoggingInfo	Simulink method'
+    'body': 'Simulink.SimulationData.SignalLoggingInfo(${1:args})'
+
+  'Simulink.SimulationData.State	Simulink method':
+    'prefix': 'Simulink.SimulationData.State	Simulink method'
+    'body': 'Simulink.SimulationData.State(${1:args})'
+
+  'Simulink.SimulationData.createStructOfTimeseries	Simulink method':
+    'prefix': 'Simulink.SimulationData.createStructOfTimeseries	Simulink method'
+    'body': 'Simulink.SimulationData.createStructOfTimeseries(${1:args})'
+
+  'Simulink.SimulationData.signalLoggingSelector	Simulink method':
+    'prefix': 'Simulink.SimulationData.signalLoggingSelector	Simulink method'
+    'body': 'Simulink.SimulationData.signalLoggingSelector(${1:args})'
+
+  'Simulink.SimulationData.updateDatasetFormatLogging	Simulink method':
+    'prefix': 'Simulink.SimulationData.updateDatasetFormatLogging	Simulink method'
+    'body': 'Simulink.SimulationData.updateDatasetFormatLogging(${1:args})'
+
+  'Simulink.SimulationMetadata	Simulink method':
+    'prefix': 'Simulink.SimulationMetadata	Simulink method'
+    'body': 'Simulink.SimulationMetadata(${1:args})'
+
+  'Simulink.SimulationOutput	Simulink method':
+    'prefix': 'Simulink.SimulationOutput	Simulink method'
+    'body': 'Simulink.SimulationOutput(${1:args})'
+
+  'Simulink.SubSystem.convertToModelReference	Simulink method':
+    'prefix': 'Simulink.SubSystem.convertToModelReference	Simulink method'
+    'body': 'Simulink.SubSystem.convertToModelReference(${1:args})'
+
+  'Simulink.SubSystem.copyContentsToBlockDiagram	Simulink method':
+    'prefix': 'Simulink.SubSystem.copyContentsToBlockDiagram	Simulink method'
+    'body': 'Simulink.SubSystem.copyContentsToBlockDiagram(${1:args})'
+
+  'Simulink.SubSystem.deleteContents	Simulink method':
+    'prefix': 'Simulink.SubSystem.deleteContents	Simulink method'
+    'body': 'Simulink.SubSystem.deleteContents(${1:args})'
+
+  'Simulink.SubSystem.getChecksum	Simulink method':
+    'prefix': 'Simulink.SubSystem.getChecksum	Simulink method'
+    'body': 'Simulink.SubSystem.getChecksum(${1:args})'
+
+  'Simulink.SubsysDataLogs	Simulink method':
+    'prefix': 'Simulink.SubsysDataLogs	Simulink method'
+    'body': 'Simulink.SubsysDataLogs(${1:args})'
+
+  'Simulink.TimeInfo	Simulink method':
+    'prefix': 'Simulink.TimeInfo	Simulink method'
+    'body': 'Simulink.TimeInfo(${1:args})'
+
+  'Simulink.Timeseries	Simulink method':
+    'prefix': 'Simulink.Timeseries	Simulink method'
+    'body': 'Simulink.Timeseries(${1:args})'
+
+  'Simulink.TsArray	Simulink method':
+    'prefix': 'Simulink.TsArray	Simulink method'
+    'body': 'Simulink.TsArray(${1:args})'
+
+  'Simulink.VariableUsage	Simulink method':
+    'prefix': 'Simulink.VariableUsage	Simulink method'
+    'body': 'Simulink.VariableUsage(${1:args})'
+
+  'Simulink.Variant	Simulink method':
+    'prefix': 'Simulink.Variant	Simulink method'
+    'body': 'Simulink.Variant(${1:args})'
+
+  'Simulink.VariantConfigurationData	Simulink method':
+    'prefix': 'Simulink.VariantConfigurationData	Simulink method'
+    'body': 'Simulink.VariantConfigurationData(${1:args})'
+
+  'Simulink.WorkspaceVar	Simulink method':
+    'prefix': 'Simulink.WorkspaceVar	Simulink method'
+    'body': 'Simulink.WorkspaceVar(${1:args})'
+
+  'Simulink.architecture.add	Simulink method':
+    'prefix': 'Simulink.architecture.add	Simulink method'
+    'body': 'Simulink.architecture.add(${1:args})'
+
+  'Simulink.architecture.config	Simulink method':
+    'prefix': 'Simulink.architecture.config	Simulink method'
+    'body': 'Simulink.architecture.config(${1:args})'
+
+  'Simulink.architecture.delete	Simulink method':
+    'prefix': 'Simulink.architecture.delete	Simulink method'
+    'body': 'Simulink.architecture.delete(${1:args})'
+
+  'Simulink.architecture.find_system	Simulink method':
+    'prefix': 'Simulink.architecture.find_system	Simulink method'
+    'body': 'Simulink.architecture.find_system(${1:args})'
+
+  'Simulink.architecture.get_param	Simulink method':
+    'prefix': 'Simulink.architecture.get_param	Simulink method'
+    'body': 'Simulink.architecture.get_param(${1:args})'
+
+  'Simulink.architecture.importAndSelect	Simulink method':
+    'prefix': 'Simulink.architecture.importAndSelect	Simulink method'
+    'body': 'Simulink.architecture.importAndSelect(${1:args})'
+
+  'Simulink.architecture.profile	Simulink method':
+    'prefix': 'Simulink.architecture.profile	Simulink method'
+    'body': 'Simulink.architecture.profile(${1:args})'
+
+  'Simulink.architecture.register	Simulink method':
+    'prefix': 'Simulink.architecture.register	Simulink method'
+    'body': 'Simulink.architecture.register(${1:args})'
+
+  'Simulink.architecture.set_param	Simulink method':
+    'prefix': 'Simulink.architecture.set_param	Simulink method'
+    'body': 'Simulink.architecture.set_param(${1:args})'
+
+  'Simulink.data.Dictionary	Simulink method':
+    'prefix': 'Simulink.data.Dictionary	Simulink method'
+    'body': 'Simulink.data.Dictionary(${1:args})'
+
+  'Simulink.data.assigninGlobal	Simulink method':
+    'prefix': 'Simulink.data.assigninGlobal	Simulink method'
+    'body': 'Simulink.data.assigninGlobal(${1:args})'
+
+  'Simulink.data.dictionary.Entry	Simulink method':
+    'prefix': 'Simulink.data.dictionary.Entry	Simulink method'
+    'body': 'Simulink.data.dictionary.Entry(${1:args})'
+
+  'Simulink.data.dictionary.EnumTypeDefinition	Simulink method':
+    'prefix': 'Simulink.data.dictionary.EnumTypeDefinition	Simulink method'
+    'body': 'Simulink.data.dictionary.EnumTypeDefinition(${1:args})'
+
+  'Simulink.data.dictionary.Section	Simulink method':
+    'prefix': 'Simulink.data.dictionary.Section	Simulink method'
+    'body': 'Simulink.data.dictionary.Section(${1:args})'
+
+  'Simulink.data.dictionary.cleanupWorkerCache	Simulink method':
+    'prefix': 'Simulink.data.dictionary.cleanupWorkerCache	Simulink method'
+    'body': 'Simulink.data.dictionary.cleanupWorkerCache(${1:args})'
+
+  'Simulink.data.dictionary.create	Simulink method':
+    'prefix': 'Simulink.data.dictionary.create	Simulink method'
+    'body': 'Simulink.data.dictionary.create(${1:args})'
+
+  'Simulink.data.dictionary.open	Simulink method':
+    'prefix': 'Simulink.data.dictionary.open	Simulink method'
+    'body': 'Simulink.data.dictionary.open(${1:args})'
+
+  'Simulink.data.dictionary.setupWorkerCache	Simulink method':
+    'prefix': 'Simulink.data.dictionary.setupWorkerCache	Simulink method'
+    'body': 'Simulink.data.dictionary.setupWorkerCache(${1:args})'
+
+  'Simulink.data.evalinGlobal	Simulink method':
+    'prefix': 'Simulink.data.evalinGlobal	Simulink method'
+    'body': 'Simulink.data.evalinGlobal(${1:args})'
+
+  'Simulink.data.existsInGlobal	Simulink method':
+    'prefix': 'Simulink.data.existsInGlobal	Simulink method'
+    'body': 'Simulink.data.existsInGlobal(${1:args})'
+
+  'Simulink.data.getEnumTypeInfo	Simulink method':
+    'prefix': 'Simulink.data.getEnumTypeInfo	Simulink method'
+    'body': 'Simulink.data.getEnumTypeInfo(${1:args})'
+
+  'Simulink.defineIntEnumType	Simulink method':
+    'prefix': 'Simulink.defineIntEnumType	Simulink method'
+    'body': 'Simulink.defineIntEnumType(${1:args})'
+
+  'Simulink.dialog.Control	Simulink method':
+    'prefix': 'Simulink.dialog.Control	Simulink method'
+    'body': 'Simulink.dialog.Control(${1:args})'
+
+  'Simulink.findVars	Simulink method':
+    'prefix': 'Simulink.findVars	Simulink method'
+    'body': 'Simulink.findVars(${1:args})'
+
+  'Simulink.getFileChecksum	Simulink method':
+    'prefix': 'Simulink.getFileChecksum	Simulink method'
+    'body': 'Simulink.getFileChecksum(${1:args})'
+
+  'Simulink.sdi.DiffRunResult	Simulink method':
+    'prefix': 'Simulink.sdi.DiffRunResult	Simulink method'
+    'body': 'Simulink.sdi.DiffRunResult(${1:args})'
+
+  'Simulink.sdi.DiffSignalResult	Simulink method':
+    'prefix': 'Simulink.sdi.DiffSignalResult	Simulink method'
+    'body': 'Simulink.sdi.DiffSignalResult(${1:args})'
+
+  'Simulink.sdi.Run	Simulink method':
+    'prefix': 'Simulink.sdi.Run	Simulink method'
+    'body': 'Simulink.sdi.Run(${1:args})'
+
+  'Simulink.sdi.addToRun	Simulink method':
+    'prefix': 'Simulink.sdi.addToRun	Simulink method'
+    'body': 'Simulink.sdi.addToRun(${1:args})'
+
+  'Simulink.sdi.changeLoggedToStreamed	Simulink method':
+    'prefix': 'Simulink.sdi.changeLoggedToStreamed	Simulink method'
+    'body': 'Simulink.sdi.changeLoggedToStreamed(${1:args})'
+
+  'Simulink.sdi.changeStreamedToLogged	Simulink method':
+    'prefix': 'Simulink.sdi.changeStreamedToLogged	Simulink method'
+    'body': 'Simulink.sdi.changeStreamedToLogged(${1:args})'
+
+  'Simulink.sdi.clear	Simulink method':
+    'prefix': 'Simulink.sdi.clear	Simulink method'
+    'body': 'Simulink.sdi.clear(${1:args})'
+
+  'Simulink.sdi.close	Simulink method':
+    'prefix': 'Simulink.sdi.close	Simulink method'
+    'body': 'Simulink.sdi.close(${1:args})'
+
+  'Simulink.sdi.compareRuns	Simulink method':
+    'prefix': 'Simulink.sdi.compareRuns	Simulink method'
+    'body': 'Simulink.sdi.compareRuns(${1:args})'
+
+  'Simulink.sdi.compareSignals	Simulink method':
+    'prefix': 'Simulink.sdi.compareSignals	Simulink method'
+    'body': 'Simulink.sdi.compareSignals(${1:args})'
+
+  'Simulink.sdi.copyRun	Simulink method':
+    'prefix': 'Simulink.sdi.copyRun	Simulink method'
+    'body': 'Simulink.sdi.copyRun(${1:args})'
+
+  'Simulink.sdi.createRun	Simulink method':
+    'prefix': 'Simulink.sdi.createRun	Simulink method'
+    'body': 'Simulink.sdi.createRun(${1:args})'
+
+  'Simulink.sdi.deleteRun	Simulink method':
+    'prefix': 'Simulink.sdi.deleteRun	Simulink method'
+    'body': 'Simulink.sdi.deleteRun(${1:args})'
+
+  'Simulink.sdi.discardDataFromPriorSessions	Simulink method':
+    'prefix': 'Simulink.sdi.discardDataFromPriorSessions	Simulink method'
+    'body': 'Simulink.sdi.discardDataFromPriorSessions(${1:args})'
+
+  'Simulink.sdi.getRun	Simulink method':
+    'prefix': 'Simulink.sdi.getRun	Simulink method'
+    'body': 'Simulink.sdi.getRun(${1:args})'
+
+  'Simulink.sdi.getRunCount	Simulink method':
+    'prefix': 'Simulink.sdi.getRunCount	Simulink method'
+    'body': 'Simulink.sdi.getRunCount(${1:args})'
+
+  'Simulink.sdi.getRunIDByIndex	Simulink method':
+    'prefix': 'Simulink.sdi.getRunIDByIndex	Simulink method'
+    'body': 'Simulink.sdi.getRunIDByIndex(${1:args})'
+
+  'Simulink.sdi.getRunNamingRule	Simulink method':
+    'prefix': 'Simulink.sdi.getRunNamingRule	Simulink method'
+    'body': 'Simulink.sdi.getRunNamingRule(${1:args})'
+
+  'Simulink.sdi.getSignal	Simulink method':
+    'prefix': 'Simulink.sdi.getSignal	Simulink method'
+    'body': 'Simulink.sdi.getSignal(${1:args})'
+
+  'Simulink.sdi.getSource	Simulink method':
+    'prefix': 'Simulink.sdi.getSource	Simulink method'
+    'body': 'Simulink.sdi.getSource(${1:args})'
+
+  'Simulink.sdi.hasDataFromPriorSessions	Simulink method':
+    'prefix': 'Simulink.sdi.hasDataFromPriorSessions	Simulink method'
+    'body': 'Simulink.sdi.hasDataFromPriorSessions(${1:args})'
+
+  'Simulink.sdi.importDataFromPriorSessions	Simulink method':
+    'prefix': 'Simulink.sdi.importDataFromPriorSessions	Simulink method'
+    'body': 'Simulink.sdi.importDataFromPriorSessions(${1:args})'
+
+  'Simulink.sdi.isValidRunID	Simulink method':
+    'prefix': 'Simulink.sdi.isValidRunID	Simulink method'
+    'body': 'Simulink.sdi.isValidRunID(${1:args})'
+
+  'Simulink.sdi.load	Simulink method':
+    'prefix': 'Simulink.sdi.load	Simulink method'
+    'body': 'Simulink.sdi.load(${1:args})'
+
+  'Simulink.sdi.markSignalForStreaming	Simulink method':
+    'prefix': 'Simulink.sdi.markSignalForStreaming	Simulink method'
+    'body': 'Simulink.sdi.markSignalForStreaming(${1:args})'
+
+  'Simulink.sdi.refresh	Simulink method':
+    'prefix': 'Simulink.sdi.refresh	Simulink method'
+    'body': 'Simulink.sdi.refresh(${1:args})'
+
+  'Simulink.sdi.report	Simulink method':
+    'prefix': 'Simulink.sdi.report	Simulink method'
+    'body': 'Simulink.sdi.report(${1:args})'
+
+  'Simulink.sdi.resetRunNamingRule	Simulink method':
+    'prefix': 'Simulink.sdi.resetRunNamingRule	Simulink method'
+    'body': 'Simulink.sdi.resetRunNamingRule(${1:args})'
+
+  'Simulink.sdi.save	Simulink method':
+    'prefix': 'Simulink.sdi.save	Simulink method'
+    'body': 'Simulink.sdi.save(${1:args})'
+
+  'Simulink.sdi.setRunNamingRule	Simulink method':
+    'prefix': 'Simulink.sdi.setRunNamingRule	Simulink method'
+    'body': 'Simulink.sdi.setRunNamingRule(${1:args})'
+
+  'Simulink.sdi.setRunOverwrite	Simulink method':
+    'prefix': 'Simulink.sdi.setRunOverwrite	Simulink method'
+    'body': 'Simulink.sdi.setRunOverwrite(${1:args})'
+
+  'Simulink.sdi.view	Simulink method':
+    'prefix': 'Simulink.sdi.view	Simulink method'
+    'body': 'Simulink.sdi.view(${1:args})'
+
+  'addFile	Simulink method':
+    'prefix': 'addFile	Simulink method'
+    'body': 'addFile(${1:args})'
+
+  'addFolderIncludingChildFiles	Simulink method':
+    'prefix': 'addFolderIncludingChildFiles	Simulink method'
+    'body': 'addFolderIncludingChildFiles(${1:args})'
+
+  'addLabel	Simulink method':
+    'prefix': 'addLabel	Simulink method'
+    'body': 'addLabel(${1:args})'
+
+  'add_block	Simulink method':
+    'prefix': 'add_block	Simulink method'
+    'body': 'add_block(${1:args})'
+
+  'add_exec_event_listener	Simulink method':
+    'prefix': 'add_exec_event_listener	Simulink method'
+    'body': 'add_exec_event_listener(${1:args})'
+
+  'add_line	Simulink method':
+    'prefix': 'add_line	Simulink method'
+    'body': 'add_line(${1:args})'
+
+  'add_param	Simulink method':
+    'prefix': 'add_param	Simulink method'
+    'body': 'add_param(${1:args})'
+
+  'addterms	Simulink method':
+    'prefix': 'addterms	Simulink method'
+    'body': 'addterms(${1:args})'
+
+  'attachConfigSet	Simulink method':
+    'prefix': 'attachConfigSet	Simulink method'
+    'body': 'attachConfigSet(${1:args})'
+
+  'attachConfigSetCopy	Simulink method':
+    'prefix': 'attachConfigSetCopy	Simulink method'
+    'body': 'attachConfigSetCopy(${1:args})'
+
+  'bdIsLibrary	Simulink method':
+    'prefix': 'bdIsLibrary	Simulink method'
+    'body': 'bdIsLibrary(${1:args})'
+
+  'bdIsLoaded	Simulink method':
+    'prefix': 'bdIsLoaded	Simulink method'
+    'body': 'bdIsLoaded(${1:args})'
+
+  'bdclose	Simulink method':
+    'prefix': 'bdclose	Simulink method'
+    'body': 'bdclose(${1:args})'
+
+  'bdroot	Simulink method':
+    'prefix': 'bdroot	Simulink method'
+    'body': 'bdroot(${1:args})'
+
+  'close	Simulink method':
+    'prefix': 'close	Simulink method'
+    'body': 'close(${1:args})'
+
+  'closeDialog	Simulink method':
+    'prefix': 'closeDialog	Simulink method'
+    'body': 'closeDialog(${1:args})'
+
+  'close_system	Simulink method':
+    'prefix': 'close_system	Simulink method'
+    'body': 'close_system(${1:args})'
+
+  'coder.BuildConfig	Simulink method':
+    'prefix': 'coder.BuildConfig	Simulink method'
+    'body': 'coder.BuildConfig(${1:args})'
+
+  'coder.BuildConfig.getHardwareImplementation	Simulink method':
+    'prefix': 'coder.BuildConfig.getHardwareImplementation	Simulink method'
+    'body': 'coder.BuildConfig.getHardwareImplementation(${1:args})'
+
+  'coder.BuildConfig.getStdLibInfo	Simulink method':
+    'prefix': 'coder.BuildConfig.getStdLibInfo	Simulink method'
+    'body': 'coder.BuildConfig.getStdLibInfo(${1:args})'
+
+  'coder.BuildConfig.getTargetLang	Simulink method':
+    'prefix': 'coder.BuildConfig.getTargetLang	Simulink method'
+    'body': 'coder.BuildConfig.getTargetLang(${1:args})'
+
+  'coder.BuildConfig.getToolchainInfo	Simulink method':
+    'prefix': 'coder.BuildConfig.getToolchainInfo	Simulink method'
+    'body': 'coder.BuildConfig.getToolchainInfo(${1:args})'
+
+  'coder.BuildConfig.isCodeGenTarget	Simulink method':
+    'prefix': 'coder.BuildConfig.isCodeGenTarget	Simulink method'
+    'body': 'coder.BuildConfig.isCodeGenTarget(${1:args})'
+
+  'coder.BuildConfig.isMatlabHostTarget	Simulink method':
+    'prefix': 'coder.BuildConfig.isMatlabHostTarget	Simulink method'
+    'body': 'coder.BuildConfig.isMatlabHostTarget(${1:args})'
+
+  'coder.ExternalDependency	Simulink method':
+    'prefix': 'coder.ExternalDependency	Simulink method'
+    'body': 'coder.ExternalDependency(${1:args})'
+
+  'coder.ExternalDependency.getDescriptiveName	Simulink method':
+    'prefix': 'coder.ExternalDependency.getDescriptiveName	Simulink method'
+    'body': 'coder.ExternalDependency.getDescriptiveName(${1:args})'
+
+  'coder.ExternalDependency.isSupportedContext	Simulink method':
+    'prefix': 'coder.ExternalDependency.isSupportedContext	Simulink method'
+    'body': 'coder.ExternalDependency.isSupportedContext(${1:args})'
+
+  'coder.ExternalDependency.updateBuildInfo	Simulink method':
+    'prefix': 'coder.ExternalDependency.updateBuildInfo	Simulink method'
+    'body': 'coder.ExternalDependency.updateBuildInfo(${1:args})'
+
+  'coder.allowpcode	Simulink method':
+    'prefix': 'coder.allowpcode	Simulink method'
+    'body': 'coder.allowpcode(${1:args})'
+
+  'coder.ceval	Simulink method':
+    'prefix': 'coder.ceval	Simulink method'
+    'body': 'coder.ceval(${1:args})'
+
+  'coder.cinclude	Simulink method':
+    'prefix': 'coder.cinclude	Simulink method'
+    'body': 'coder.cinclude(${1:args})'
+
+  'coder.const	Simulink method':
+    'prefix': 'coder.const	Simulink method'
+    'body': 'coder.const(${1:args})'
+
+  'coder.cstructname	Simulink method':
+    'prefix': 'coder.cstructname	Simulink method'
+    'body': 'coder.cstructname(${1:args})'
+
+  'coder.extrinsic	Simulink method':
+    'prefix': 'coder.extrinsic	Simulink method'
+    'body': 'coder.extrinsic(${1:args})'
+
+  'coder.inline	Simulink method':
+    'prefix': 'coder.inline	Simulink method'
+    'body': 'coder.inline(${1:args})'
+
+  'coder.load	Simulink method':
+    'prefix': 'coder.load	Simulink method'
+    'body': 'coder.load(${1:args})'
+
+  'coder.nullcopy	Simulink method':
+    'prefix': 'coder.nullcopy	Simulink method'
+    'body': 'coder.nullcopy(${1:args})'
+
+  'coder.opaque	Simulink method':
+    'prefix': 'coder.opaque	Simulink method'
+    'body': 'coder.opaque(${1:args})'
+
+  'coder.ref	Simulink method':
+    'prefix': 'coder.ref	Simulink method'
+    'body': 'coder.ref(${1:args})'
+
+  'coder.rref	Simulink method':
+    'prefix': 'coder.rref	Simulink method'
+    'body': 'coder.rref(${1:args})'
+
+  'coder.screener	Simulink method':
+    'prefix': 'coder.screener	Simulink method'
+    'body': 'coder.screener(${1:args})'
+
+  'coder.target	Simulink method':
+    'prefix': 'coder.target	Simulink method'
+    'body': 'coder.target(${1:args})'
+
+  'coder.typeof	Simulink method':
+    'prefix': 'coder.typeof	Simulink method'
+    'body': 'coder.typeof(${1:args})'
+
+  'coder.unroll	Simulink method':
+    'prefix': 'coder.unroll	Simulink method'
+    'body': 'coder.unroll(${1:args})'
+
+  'coder.updateBuildInfo	Simulink method':
+    'prefix': 'coder.updateBuildInfo	Simulink method'
+    'body': 'coder.updateBuildInfo(${1:args})'
+
+  'coder.varsize	Simulink method':
+    'prefix': 'coder.varsize	Simulink method'
+    'body': 'coder.varsize(${1:args})'
+
+  'coder.wref	Simulink method':
+    'prefix': 'coder.wref	Simulink method'
+    'body': 'coder.wref(${1:args})'
+
+  'createCategory	Simulink method':
+    'prefix': 'createCategory	Simulink method'
+    'body': 'createCategory(${1:args})'
+
+  'createLabel	Simulink method':
+    'prefix': 'createLabel	Simulink method'
+    'body': 'createLabel(${1:args})'
+
+  'delete_block	Simulink method':
+    'prefix': 'delete_block	Simulink method'
+    'body': 'delete_block(${1:args})'
+
+  'delete_line	Simulink method':
+    'prefix': 'delete_line	Simulink method'
+    'body': 'delete_line(${1:args})'
+
+  'delete_param	Simulink method':
+    'prefix': 'delete_param	Simulink method'
+    'body': 'delete_param(${1:args})'
+
+  'dependencies.fileDependencyAnalysis	Simulink method':
+    'prefix': 'dependencies.fileDependencyAnalysis	Simulink method'
+    'body': 'dependencies.fileDependencyAnalysis(${1:args})'
+
+  'dependencies.toolboxDependencyAnalysis	Simulink method':
+    'prefix': 'dependencies.toolboxDependencyAnalysis	Simulink method'
+    'body': 'dependencies.toolboxDependencyAnalysis(${1:args})'
+
+  'detachConfigSet	Simulink method':
+    'prefix': 'detachConfigSet	Simulink method'
+    'body': 'detachConfigSet(${1:args})'
+
+  'disableimplicitsignalresolution	Simulink method':
+    'prefix': 'disableimplicitsignalresolution	Simulink method'
+    'body': 'disableimplicitsignalresolution(${1:args})'
+
+  'dlinmod	Simulink method':
+    'prefix': 'dlinmod	Simulink method'
+    'body': 'dlinmod(${1:args})'
+
+  'docblock	Simulink method':
+    'prefix': 'docblock	Simulink method'
+    'body': 'docblock(${1:args})'
+
+  'enumeration	Simulink method':
+    'prefix': 'enumeration	Simulink method'
+    'body': 'enumeration(${1:args})'
+
+  'eventData	Simulink method':
+    'prefix': 'eventData	Simulink method'
+    'body': 'eventData(${1:args})'
+
+  'export	Simulink method':
+    'prefix': 'export	Simulink method'
+    'body': 'export(${1:args})'
+
+  'find	Simulink method':
+    'prefix': 'find	Simulink method'
+    'body': 'find(${1:args})'
+
+  'findCategory	Simulink method':
+    'prefix': 'findCategory	Simulink method'
+    'body': 'findCategory(${1:args})'
+
+  'findFile	Simulink method':
+    'prefix': 'findFile	Simulink method'
+    'body': 'findFile(${1:args})'
+
+  'findLabel	Simulink method':
+    'prefix': 'findLabel	Simulink method'
+    'body': 'findLabel(${1:args})'
+
+  'find_mdlrefs	Simulink method':
+    'prefix': 'find_mdlrefs	Simulink method'
+    'body': 'find_mdlrefs(${1:args})'
+
+  'find_system	Simulink method':
+    'prefix': 'find_system	Simulink method'
+    'body': 'find_system(${1:args})'
+
+  'fixdt	Simulink method':
+    'prefix': 'fixdt	Simulink method'
+    'body': 'fixdt(${1:args})'
+
+  'fixpt_evenspace_cleanup	Simulink method':
+    'prefix': 'fixpt_evenspace_cleanup	Simulink method'
+    'body': 'fixpt_evenspace_cleanup(${1:args})'
+
+  'fixpt_interp1	Simulink method':
+    'prefix': 'fixpt_interp1	Simulink method'
+    'body': 'fixpt_interp1(${1:args})'
+
+  'fixpt_look1_func_approx	Simulink method':
+    'prefix': 'fixpt_look1_func_approx	Simulink method'
+    'body': 'fixpt_look1_func_approx(${1:args})'
+
+  'fixpt_look1_func_plot	Simulink method':
+    'prefix': 'fixpt_look1_func_plot	Simulink method'
+    'body': 'fixpt_look1_func_plot(${1:args})'
+
+  'fixpt_set_all	Simulink method':
+    'prefix': 'fixpt_set_all	Simulink method'
+    'body': 'fixpt_set_all(${1:args})'
+
+  'fixptbestexp	Simulink method':
+    'prefix': 'fixptbestexp	Simulink method'
+    'body': 'fixptbestexp(${1:args})'
+
+  'fixptbestprec	Simulink method':
+    'prefix': 'fixptbestprec	Simulink method'
+    'body': 'fixptbestprec(${1:args})'
+
+  'float	Simulink method':
+    'prefix': 'float	Simulink method'
+    'body': 'float(${1:args})'
+
+  'frameedit	Simulink method':
+    'prefix': 'frameedit	Simulink method'
+    'body': 'frameedit(${1:args})'
+
+  'fxptdlg	Simulink method':
+    'prefix': 'fxptdlg	Simulink method'
+    'body': 'fxptdlg(${1:args})'
+
+  'gcb	Simulink method':
+    'prefix': 'gcb	Simulink method'
+    'body': 'gcb(${1:args})'
+
+  'gcbh	Simulink method':
+    'prefix': 'gcbh	Simulink method'
+    'body': 'gcbh(${1:args})'
+
+  'gcs	Simulink method':
+    'prefix': 'gcs	Simulink method'
+    'body': 'gcs(${1:args})'
+
+  'get	Simulink method':
+    'prefix': 'get	Simulink method'
+    'body': 'get(${1:args})'
+
+  'getActiveConfigSet	Simulink method':
+    'prefix': 'getActiveConfigSet	Simulink method'
+    'body': 'getActiveConfigSet(${1:args})'
+
+  'getBlockSimState	Simulink method':
+    'prefix': 'getBlockSimState	Simulink method'
+    'body': 'getBlockSimState(${1:args})'
+
+  'getCallbackAnnotation	Simulink method':
+    'prefix': 'getCallbackAnnotation	Simulink method'
+    'body': 'getCallbackAnnotation(${1:args})'
+
+  'getConfigSet	Simulink method':
+    'prefix': 'getConfigSet	Simulink method'
+    'body': 'getConfigSet(${1:args})'
+
+  'getConfigSets	Simulink method':
+    'prefix': 'getConfigSets	Simulink method'
+    'body': 'getConfigSets(${1:args})'
+
+  'getInitialState	Simulink method':
+    'prefix': 'getInitialState	Simulink method'
+    'body': 'getInitialState(${1:args})'
+
+  'getInputString	Simulink method':
+    'prefix': 'getInputString	Simulink method'
+    'body': 'getInputString(${1:args})'
+
+  'getRootInportMap	Simulink method':
+    'prefix': 'getRootInportMap	Simulink method'
+    'body': 'getRootInportMap(${1:args})'
+
+  'getSimulinkBlockHandle	Simulink method':
+    'prefix': 'getSimulinkBlockHandle	Simulink method'
+    'body': 'getSimulinkBlockHandle(${1:args})'
+
+  'getSlRootInportMap	Simulink method':
+    'prefix': 'getSlRootInportMap	Simulink method'
+    'body': 'getSlRootInportMap(${1:args})'
+
+  'getVariable	Simulink method':
+    'prefix': 'getVariable	Simulink method'
+    'body': 'getVariable(${1:args})'
+
+  'get_param	Simulink method':
+    'prefix': 'get_param	Simulink method'
+    'body': 'get_param(${1:args})'
+
+  'getfullname	Simulink method':
+    'prefix': 'getfullname	Simulink method'
+    'body': 'getfullname(${1:args})'
+
+  'hasVariable	Simulink method':
+    'prefix': 'hasVariable	Simulink method'
+    'body': 'hasVariable(${1:args})'
+
+  'hdllib	Simulink method':
+    'prefix': 'hdllib	Simulink method'
+    'body': 'hdllib(${1:args})'
+
+  'hilite_system	Simulink method':
+    'prefix': 'hilite_system	Simulink method'
+    'body': 'hilite_system(${1:args})'
+
+  'isLoaded	Simulink method':
+    'prefix': 'isLoaded	Simulink method'
+    'body': 'isLoaded(${1:args})'
+
+  'legacy_code	Simulink method':
+    'prefix': 'legacy_code	Simulink method'
+    'body': 'legacy_code(${1:args})'
+
+  'libinfo	Simulink method':
+    'prefix': 'libinfo	Simulink method'
+    'body': 'libinfo(${1:args})'
+
+  'linmod	Simulink method':
+    'prefix': 'linmod	Simulink method'
+    'body': 'linmod(${1:args})'
+
+  'linmod2	Simulink method':
+    'prefix': 'linmod2	Simulink method'
+    'body': 'linmod2(${1:args})'
+
+  'linmodv5	Simulink method':
+    'prefix': 'linmodv5	Simulink method'
+    'body': 'linmodv5(${1:args})'
+
+  'load_system	Simulink method':
+    'prefix': 'load_system	Simulink method'
+    'body': 'load_system(${1:args})'
+
+  'matlab.System	Simulink method':
+    'prefix': 'matlab.System	Simulink method'
+    'body': 'matlab.System(${1:args})'
+
+  'matlab.io.saveVariablesToScript	Simulink method':
+    'prefix': 'matlab.io.saveVariablesToScript	Simulink method'
+    'body': 'matlab.io.saveVariablesToScript(${1:args})'
+
+  'matlab.system.StringSet	Simulink method':
+    'prefix': 'matlab.system.StringSet	Simulink method'
+    'body': 'matlab.system.StringSet(${1:args})'
+
+  'matlab.system.display.Action	Simulink method':
+    'prefix': 'matlab.system.display.Action	Simulink method'
+    'body': 'matlab.system.display.Action(${1:args})'
+
+  'matlab.system.display.Header	Simulink method':
+    'prefix': 'matlab.system.display.Header	Simulink method'
+    'body': 'matlab.system.display.Header(${1:args})'
+
+  'matlab.system.display.Section	Simulink method':
+    'prefix': 'matlab.system.display.Section	Simulink method'
+    'body': 'matlab.system.display.Section(${1:args})'
+
+  'matlab.system.display.SectionGroup	Simulink method':
+    'prefix': 'matlab.system.display.SectionGroup	Simulink method'
+    'body': 'matlab.system.display.SectionGroup(${1:args})'
+
+  'matlab.system.mixin.CustomIcon	Simulink method':
+    'prefix': 'matlab.system.mixin.CustomIcon	Simulink method'
+    'body': 'matlab.system.mixin.CustomIcon(${1:args})'
+
+  'matlab.system.mixin.FiniteSource	Simulink method':
+    'prefix': 'matlab.system.mixin.FiniteSource	Simulink method'
+    'body': 'matlab.system.mixin.FiniteSource(${1:args})'
+
+  'matlab.system.mixin.Nondirect	Simulink method':
+    'prefix': 'matlab.system.mixin.Nondirect	Simulink method'
+    'body': 'matlab.system.mixin.Nondirect(${1:args})'
+
+  'matlab.system.mixin.Propagates	Simulink method':
+    'prefix': 'matlab.system.mixin.Propagates	Simulink method'
+    'body': 'matlab.system.mixin.Propagates(${1:args})'
+
+  'model	Simulink method':
+    'prefix': 'model	Simulink method'
+    'body': 'model(${1:args})'
+
+  'modeladvisor	Simulink method':
+    'prefix': 'modeladvisor	Simulink method'
+    'body': 'modeladvisor(${1:args})'
+
+  'new_system	Simulink method':
+    'prefix': 'new_system	Simulink method'
+    'body': 'new_system(${1:args})'
+
+  'num2fixpt	Simulink method':
+    'prefix': 'num2fixpt	Simulink method'
+    'body': 'num2fixpt(${1:args})'
+
+  'openDialog	Simulink method':
+    'prefix': 'openDialog	Simulink method'
+    'body': 'openDialog(${1:args})'
+
+  'open_system	Simulink method':
+    'prefix': 'open_system	Simulink method'
+    'body': 'open_system(${1:args})'
+
+  'orient	Simulink method':
+    'prefix': 'orient	Simulink method'
+    'body': 'orient(${1:args})'
+
+  'performanceadvisor	Simulink method':
+    'prefix': 'performanceadvisor	Simulink method'
+    'body': 'performanceadvisor(${1:args})'
+
+  'print	Simulink method':
+    'prefix': 'print	Simulink method'
+    'body': 'print(${1:args})'
+
+  'reload	Simulink method':
+    'prefix': 'reload	Simulink method'
+    'body': 'reload(${1:args})'
+
+  'removeCategory	Simulink method':
+    'prefix': 'removeCategory	Simulink method'
+    'body': 'removeCategory(${1:args})'
+
+  'removeFile	Simulink method':
+    'prefix': 'removeFile	Simulink method'
+    'body': 'removeFile(${1:args})'
+
+  'removeLabel	Simulink method':
+    'prefix': 'removeLabel	Simulink method'
+    'body': 'removeLabel(${1:args})'
+
+  'replace_block	Simulink method':
+    'prefix': 'replace_block	Simulink method'
+    'body': 'replace_block(${1:args})'
+
+  'save_system	Simulink method':
+    'prefix': 'save_system	Simulink method'
+    'body': 'save_system(${1:args})'
+
+  'setActiveConfigSet	Simulink method':
+    'prefix': 'setActiveConfigSet	Simulink method'
+    'body': 'setActiveConfigSet(${1:args})'
+
+  'setBlockSimState	Simulink method':
+    'prefix': 'setBlockSimState	Simulink method'
+    'body': 'setBlockSimState(${1:args})'
+
+  'set_param	Simulink method':
+    'prefix': 'set_param	Simulink method'
+    'body': 'set_param(${1:args})'
+
+  'sfix	Simulink method':
+    'prefix': 'sfix	Simulink method'
+    'body': 'sfix(${1:args})'
+
+  'sfrac	Simulink method':
+    'prefix': 'sfrac	Simulink method'
+    'body': 'sfrac(${1:args})'
+
+  'signalbuilder	Simulink method':
+    'prefix': 'signalbuilder	Simulink method'
+    'body': 'signalbuilder(${1:args})'
+
+  'sim	Simulink method':
+    'prefix': 'sim	Simulink method'
+    'body': 'sim(${1:args})'
+
+  'simplot	Simulink method':
+    'prefix': 'simplot	Simulink method'
+    'body': 'simplot(${1:args})'
+
+  'simulink	Simulink method':
+    'prefix': 'simulink	Simulink method'
+    'body': 'simulink(${1:args})'
+
+  'simulinkproject	Simulink method':
+    'prefix': 'simulinkproject	Simulink method'
+    'body': 'simulinkproject(${1:args})'
+
+  'sint	Simulink method':
+    'prefix': 'sint	Simulink method'
+    'body': 'sint(${1:args})'
+
+  'slCharacterEncoding	Simulink method':
+    'prefix': 'slCharacterEncoding	Simulink method'
+    'body': 'slCharacterEncoding(${1:args})'
+
+  'slIsFileChangedOnDisk	Simulink method':
+    'prefix': 'slIsFileChangedOnDisk	Simulink method'
+    'body': 'slIsFileChangedOnDisk(${1:args})'
+
+  'slbuild	Simulink method':
+    'prefix': 'slbuild	Simulink method'
+    'body': 'slbuild(${1:args})'
+
+  'sldebug	Simulink method':
+    'prefix': 'sldebug	Simulink method'
+    'body': 'sldebug(${1:args})'
+
+  'sldiagnostics	Simulink method':
+    'prefix': 'sldiagnostics	Simulink method'
+    'body': 'sldiagnostics(${1:args})'
+
+  'sldiscmdl	Simulink method':
+    'prefix': 'sldiscmdl	Simulink method'
+    'body': 'sldiscmdl(${1:args})'
+
+  'slmdldiscui	Simulink method':
+    'prefix': 'slmdldiscui	Simulink method'
+    'body': 'slmdldiscui(${1:args})'
+
+  'slprofreport	Simulink method':
+    'prefix': 'slprofreport	Simulink method'
+    'body': 'slprofreport(${1:args})'
+
+  'slproject.getCurrentProject	Simulink method':
+    'prefix': 'slproject.getCurrentProject	Simulink method'
+    'body': 'slproject.getCurrentProject(${1:args})'
+
+  'slproject.loadProject	Simulink method':
+    'prefix': 'slproject.loadProject	Simulink method'
+    'body': 'slproject.loadProject(${1:args})'
+
+  'slreplace_mux	Simulink method':
+    'prefix': 'slreplace_mux	Simulink method'
+    'body': 'slreplace_mux(${1:args})'
+
+  'slupdate	Simulink method':
+    'prefix': 'slupdate	Simulink method'
+    'body': 'slupdate(${1:args})'
+
+  'start_simulink	Simulink method':
+    'prefix': 'start_simulink	Simulink method'
+    'body': 'start_simulink(${1:args})'
+
+  'trim	Simulink method':
+    'prefix': 'trim	Simulink method'
+    'body': 'trim(${1:args})'
+
+  'tunablevars2parameterobjects	Simulink method':
+    'prefix': 'tunablevars2parameterobjects	Simulink method'
+    'body': 'tunablevars2parameterobjects(${1:args})'
+
+  'ufix	Simulink method':
+    'prefix': 'ufix	Simulink method'
+    'body': 'ufix(${1:args})'
+
+  'ufrac	Simulink method':
+    'prefix': 'ufrac	Simulink method'
+    'body': 'ufrac(${1:args})'
+
+  'uint	Simulink method':
+    'prefix': 'uint	Simulink method'
+    'body': 'uint(${1:args})'
+
+  'unpack	Simulink method':
+    'prefix': 'unpack	Simulink method'
+    'body': 'unpack(${1:args})'
+
+  'upgradeadvisor	Simulink method':
+    'prefix': 'upgradeadvisor	Simulink method'
+    'body': 'upgradeadvisor(${1:args})'
+
+  'view_mdlrefs	Simulink method':
+    'prefix': 'view_mdlrefs	Simulink method'
+    'body': 'view_mdlrefs(${1:args})'
+
+  'who	Simulink method':
+    'prefix': 'who	Simulink method'
+    'body': 'who(${1:args})'
+
+  'whos	Simulink method':
+    'prefix': 'whos	Simulink method'
+    'body': 'whos(${1:args})'

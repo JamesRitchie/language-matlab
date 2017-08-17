@@ -1,0 +1,35 @@
+# matlabcomp10 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'HullWhite1F	FinInst class':
+    'prefix': 'HullWhite1F	FinInst class'
+    'body': 'HullWhite1F'
+
+  'IRBootstrapOptions	FinInst class':
+    'prefix': 'IRBootstrapOptions	FinInst class'
+    'body': 'IRBootstrapOptions'
+
+  'IRDataCurve	FinInst class':
+    'prefix': 'IRDataCurve	FinInst class'
+    'body': 'IRDataCurve'
+
+  'IRFitOptions	FinInst class':
+    'prefix': 'IRFitOptions	FinInst class'
+    'body': 'IRFitOptions'
+
+  'IRFunctionCurve	FinInst class':
+    'prefix': 'IRFunctionCurve	FinInst class'
+    'body': 'IRFunctionCurve'
+
+  'LiborMarketModel	FinInst class':
+    'prefix': 'LiborMarketModel	FinInst class'
+    'body': 'LiborMarketModel'
+
+  'LinearGaussian2F	FinInst class':
+    'prefix': 'LinearGaussian2F	FinInst class'
+    'body': 'LinearGaussian2F'
+
+  'numerix	FinInst class':
+    'prefix': 'numerix	FinInst class'
+    'body': 'numerix'

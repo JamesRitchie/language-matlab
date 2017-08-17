@@ -1,0 +1,23 @@
+# matlabcomp11 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'Using	Robotics class':
+    'prefix': 'Using	Robotics class'
+    'body': 'Using'
+
+  'robotics.BinaryOccupancyGrid	Robotics class':
+    'prefix': 'robotics.BinaryOccupancyGrid	Robotics class'
+    'body': 'robotics.BinaryOccupancyGrid'
+
+  'robotics.PRM	Robotics class':
+    'prefix': 'robotics.PRM	Robotics class'
+    'body': 'robotics.PRM'
+
+  'robotics.PurePursuit	Robotics class':
+    'prefix': 'robotics.PurePursuit	Robotics class'
+    'body': 'robotics.PurePursuit'
+
+  'robotics.VectorFieldHistogram	Robotics class':
+    'prefix': 'robotics.VectorFieldHistogram	Robotics class'
+    'body': 'robotics.VectorFieldHistogram'

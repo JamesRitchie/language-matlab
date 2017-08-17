@@ -1,0 +1,807 @@
+# matlabcomp31 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'AnalysisPoint	Control method':
+    'prefix': 'AnalysisPoint	Control method'
+    'body': 'AnalysisPoint(${1:args})'
+
+  'absorbDelay	Control method':
+    'prefix': 'absorbDelay	Control method'
+    'body': 'absorbDelay(${1:args})'
+
+  'allmargin	Control method':
+    'prefix': 'allmargin	Control method'
+    'body': 'allmargin(${1:args})'
+
+  'augstate	Control method':
+    'prefix': 'augstate	Control method'
+    'body': 'augstate(${1:args})'
+
+  'balreal	Control method':
+    'prefix': 'balreal	Control method'
+    'body': 'balreal(${1:args})'
+
+  'balred	Control method':
+    'prefix': 'balred	Control method'
+    'body': 'balred(${1:args})'
+
+  'balredOptions	Control method':
+    'prefix': 'balredOptions	Control method'
+    'body': 'balredOptions(${1:args})'
+
+  'bdschur	Control method':
+    'prefix': 'bdschur	Control method'
+    'body': 'bdschur(${1:args})'
+
+  'bode	Control method':
+    'prefix': 'bode	Control method'
+    'body': 'bode(${1:args})'
+
+  'bodemag	Control method':
+    'prefix': 'bodemag	Control method'
+    'body': 'bodemag(${1:args})'
+
+  'bodeoptions	Control method':
+    'prefix': 'bodeoptions	Control method'
+    'body': 'bodeoptions(${1:args})'
+
+  'bodeplot	Control method':
+    'prefix': 'bodeplot	Control method'
+    'body': 'bodeplot(${1:args})'
+
+  'c2d	Control method':
+    'prefix': 'c2d	Control method'
+    'body': 'c2d(${1:args})'
+
+  'c2dOptions	Control method':
+    'prefix': 'c2dOptions	Control method'
+    'body': 'c2dOptions(${1:args})'
+
+  'canon	Control method':
+    'prefix': 'canon	Control method'
+    'body': 'canon(${1:args})'
+
+  'care	Control method':
+    'prefix': 'care	Control method'
+    'body': 'care(${1:args})'
+
+  'chgFreqUnit	Control method':
+    'prefix': 'chgFreqUnit	Control method'
+    'body': 'chgFreqUnit(${1:args})'
+
+  'chgTimeUnit	Control method':
+    'prefix': 'chgTimeUnit	Control method'
+    'body': 'chgTimeUnit(${1:args})'
+
+  'connect	Control method':
+    'prefix': 'connect	Control method'
+    'body': 'connect(${1:args})'
+
+  'connectOptions	Control method':
+    'prefix': 'connectOptions	Control method'
+    'body': 'connectOptions(${1:args})'
+
+  'controlSystemDesigner	Control method':
+    'prefix': 'controlSystemDesigner	Control method'
+    'body': 'controlSystemDesigner(${1:args})'
+
+  'covar	Control method':
+    'prefix': 'covar	Control method'
+    'body': 'covar(${1:args})'
+
+  'ctrb	Control method':
+    'prefix': 'ctrb	Control method'
+    'body': 'ctrb(${1:args})'
+
+  'ctrbf	Control method':
+    'prefix': 'ctrbf	Control method'
+    'body': 'ctrbf(${1:args})'
+
+  'ctrlpref	Control method':
+    'prefix': 'ctrlpref	Control method'
+    'body': 'ctrlpref(${1:args})'
+
+  'd2c	Control method':
+    'prefix': 'd2c	Control method'
+    'body': 'd2c(${1:args})'
+
+  'd2cOptions	Control method':
+    'prefix': 'd2cOptions	Control method'
+    'body': 'd2cOptions(${1:args})'
+
+  'd2d	Control method':
+    'prefix': 'd2d	Control method'
+    'body': 'd2d(${1:args})'
+
+  'd2dOptions	Control method':
+    'prefix': 'd2dOptions	Control method'
+    'body': 'd2dOptions(${1:args})'
+
+  'damp	Control method':
+    'prefix': 'damp	Control method'
+    'body': 'damp(${1:args})'
+
+  'dare	Control method':
+    'prefix': 'dare	Control method'
+    'body': 'dare(${1:args})'
+
+  'db2mag	Control method':
+    'prefix': 'db2mag	Control method'
+    'body': 'db2mag(${1:args})'
+
+  'dcgain	Control method':
+    'prefix': 'dcgain	Control method'
+    'body': 'dcgain(${1:args})'
+
+  'delay2z	Control method':
+    'prefix': 'delay2z	Control method'
+    'body': 'delay2z(${1:args})'
+
+  'delayss	Control method':
+    'prefix': 'delayss	Control method'
+    'body': 'delayss(${1:args})'
+
+  'dlqr	Control method':
+    'prefix': 'dlqr	Control method'
+    'body': 'dlqr(${1:args})'
+
+  'dlyap	Control method':
+    'prefix': 'dlyap	Control method'
+    'body': 'dlyap(${1:args})'
+
+  'dlyapchol	Control method':
+    'prefix': 'dlyapchol	Control method'
+    'body': 'dlyapchol(${1:args})'
+
+  'drss	Control method':
+    'prefix': 'drss	Control method'
+    'body': 'drss(${1:args})'
+
+  'dsort	Control method':
+    'prefix': 'dsort	Control method'
+    'body': 'dsort(${1:args})'
+
+  'dss	Control method':
+    'prefix': 'dss	Control method'
+    'body': 'dss(${1:args})'
+
+  'dssdata	Control method':
+    'prefix': 'dssdata	Control method'
+    'body': 'dssdata(${1:args})'
+
+  'esort	Control method':
+    'prefix': 'esort	Control method'
+    'body': 'esort(${1:args})'
+
+  'estim	Control method':
+    'prefix': 'estim	Control method'
+    'body': 'estim(${1:args})'
+
+  'evalfr	Control method':
+    'prefix': 'evalfr	Control method'
+    'body': 'evalfr(${1:args})'
+
+  'fcat	Control method':
+    'prefix': 'fcat	Control method'
+    'body': 'fcat(${1:args})'
+
+  'fdel	Control method':
+    'prefix': 'fdel	Control method'
+    'body': 'fdel(${1:args})'
+
+  'feedback	Control method':
+    'prefix': 'feedback	Control method'
+    'body': 'feedback(${1:args})'
+
+  'filt	Control method':
+    'prefix': 'filt	Control method'
+    'body': 'filt(${1:args})'
+
+  'fnorm	Control method':
+    'prefix': 'fnorm	Control method'
+    'body': 'fnorm(${1:args})'
+
+  'frd	Control method':
+    'prefix': 'frd	Control method'
+    'body': 'frd(${1:args})'
+
+  'frdata	Control method':
+    'prefix': 'frdata	Control method'
+    'body': 'frdata(${1:args})'
+
+  'freqresp	Control method':
+    'prefix': 'freqresp	Control method'
+    'body': 'freqresp(${1:args})'
+
+  'freqsep	Control method':
+    'prefix': 'freqsep	Control method'
+    'body': 'freqsep(${1:args})'
+
+  'freqsepOptions	Control method':
+    'prefix': 'freqsepOptions	Control method'
+    'body': 'freqsepOptions(${1:args})'
+
+  'fselect	Control method':
+    'prefix': 'fselect	Control method'
+    'body': 'fselect(${1:args})'
+
+  'gcare	Control method':
+    'prefix': 'gcare	Control method'
+    'body': 'gcare(${1:args})'
+
+  'gdare	Control method':
+    'prefix': 'gdare	Control method'
+    'body': 'gdare(${1:args})'
+
+  'genfrd	Control method':
+    'prefix': 'genfrd	Control method'
+    'body': 'genfrd(${1:args})'
+
+  'genmat	Control method':
+    'prefix': 'genmat	Control method'
+    'body': 'genmat(${1:args})'
+
+  'gensig	Control method':
+    'prefix': 'gensig	Control method'
+    'body': 'gensig(${1:args})'
+
+  'genss	Control method':
+    'prefix': 'genss	Control method'
+    'body': 'genss(${1:args})'
+
+  'getBlockValue	Control method':
+    'prefix': 'getBlockValue	Control method'
+    'body': 'getBlockValue(${1:args})'
+
+  'getCompSensitivity	Control method':
+    'prefix': 'getCompSensitivity	Control method'
+    'body': 'getCompSensitivity(${1:args})'
+
+  'getComponents	Control method':
+    'prefix': 'getComponents	Control method'
+    'body': 'getComponents(${1:args})'
+
+  'getDelayModel	Control method':
+    'prefix': 'getDelayModel	Control method'
+    'body': 'getDelayModel(${1:args})'
+
+  'getGainCrossover	Control method':
+    'prefix': 'getGainCrossover	Control method'
+    'body': 'getGainCrossover(${1:args})'
+
+  'getIOTransfer	Control method':
+    'prefix': 'getIOTransfer	Control method'
+    'body': 'getIOTransfer(${1:args})'
+
+  'getLFTModel	Control method':
+    'prefix': 'getLFTModel	Control method'
+    'body': 'getLFTModel(${1:args})'
+
+  'getLoopTransfer	Control method':
+    'prefix': 'getLoopTransfer	Control method'
+    'body': 'getLoopTransfer(${1:args})'
+
+  'getPeakGain	Control method':
+    'prefix': 'getPeakGain	Control method'
+    'body': 'getPeakGain(${1:args})'
+
+  'getPoints	Control method':
+    'prefix': 'getPoints	Control method'
+    'body': 'getPoints(${1:args})'
+
+  'getSensitivity	Control method':
+    'prefix': 'getSensitivity	Control method'
+    'body': 'getSensitivity(${1:args})'
+
+  'getValue	Control method':
+    'prefix': 'getValue	Control method'
+    'body': 'getValue(${1:args})'
+
+  'getoptions	Control method':
+    'prefix': 'getoptions	Control method'
+    'body': 'getoptions(${1:args})'
+
+  'gram	Control method':
+    'prefix': 'gram	Control method'
+    'body': 'gram(${1:args})'
+
+  'hasInternalDelay	Control method':
+    'prefix': 'hasInternalDelay	Control method'
+    'body': 'hasInternalDelay(${1:args})'
+
+  'hasdelay	Control method':
+    'prefix': 'hasdelay	Control method'
+    'body': 'hasdelay(${1:args})'
+
+  'hsvd	Control method':
+    'prefix': 'hsvd	Control method'
+    'body': 'hsvd(${1:args})'
+
+  'hsvdOptions	Control method':
+    'prefix': 'hsvdOptions	Control method'
+    'body': 'hsvdOptions(${1:args})'
+
+  'hsvoptions	Control method':
+    'prefix': 'hsvoptions	Control method'
+    'body': 'hsvoptions(${1:args})'
+
+  'hsvplot	Control method':
+    'prefix': 'hsvplot	Control method'
+    'body': 'hsvplot(${1:args})'
+
+  'imp2exp	Control method':
+    'prefix': 'imp2exp	Control method'
+    'body': 'imp2exp(${1:args})'
+
+  'impulse	Control method':
+    'prefix': 'impulse	Control method'
+    'body': 'impulse(${1:args})'
+
+  'impulseplot	Control method':
+    'prefix': 'impulseplot	Control method'
+    'body': 'impulseplot(${1:args})'
+
+  'initial	Control method':
+    'prefix': 'initial	Control method'
+    'body': 'initial(${1:args})'
+
+  'initialplot	Control method':
+    'prefix': 'initialplot	Control method'
+    'body': 'initialplot(${1:args})'
+
+  'interp	Control method':
+    'prefix': 'interp	Control method'
+    'body': 'interp(${1:args})'
+
+  'iopzmap	Control method':
+    'prefix': 'iopzmap	Control method'
+    'body': 'iopzmap(${1:args})'
+
+  'iopzplot	Control method':
+    'prefix': 'iopzplot	Control method'
+    'body': 'iopzplot(${1:args})'
+
+  'isParametric	Control method':
+    'prefix': 'isParametric	Control method'
+    'body': 'isParametric(${1:args})'
+
+  'isct	Control method':
+    'prefix': 'isct	Control method'
+    'body': 'isct(${1:args})'
+
+  'isdt	Control method':
+    'prefix': 'isdt	Control method'
+    'body': 'isdt(${1:args})'
+
+  'isproper	Control method':
+    'prefix': 'isproper	Control method'
+    'body': 'isproper(${1:args})'
+
+  'issiso	Control method':
+    'prefix': 'issiso	Control method'
+    'body': 'issiso(${1:args})'
+
+  'isstable	Control method':
+    'prefix': 'isstable	Control method'
+    'body': 'isstable(${1:args})'
+
+  'isstatic	Control method':
+    'prefix': 'isstatic	Control method'
+    'body': 'isstatic(${1:args})'
+
+  'kalman	Control method':
+    'prefix': 'kalman	Control method'
+    'body': 'kalman(${1:args})'
+
+  'kalmd	Control method':
+    'prefix': 'kalmd	Control method'
+    'body': 'kalmd(${1:args})'
+
+  'lft	Control method':
+    'prefix': 'lft	Control method'
+    'body': 'lft(${1:args})'
+
+  'linearSystemAnalyzer	Control method':
+    'prefix': 'linearSystemAnalyzer	Control method'
+    'body': 'linearSystemAnalyzer(${1:args})'
+
+  'lqg	Control method':
+    'prefix': 'lqg	Control method'
+    'body': 'lqg(${1:args})'
+
+  'lqgreg	Control method':
+    'prefix': 'lqgreg	Control method'
+    'body': 'lqgreg(${1:args})'
+
+  'lqgtrack	Control method':
+    'prefix': 'lqgtrack	Control method'
+    'body': 'lqgtrack(${1:args})'
+
+  'lqi	Control method':
+    'prefix': 'lqi	Control method'
+    'body': 'lqi(${1:args})'
+
+  'lqr	Control method':
+    'prefix': 'lqr	Control method'
+    'body': 'lqr(${1:args})'
+
+  'lqrd	Control method':
+    'prefix': 'lqrd	Control method'
+    'body': 'lqrd(${1:args})'
+
+  'lqry	Control method':
+    'prefix': 'lqry	Control method'
+    'body': 'lqry(${1:args})'
+
+  'lsim	Control method':
+    'prefix': 'lsim	Control method'
+    'body': 'lsim(${1:args})'
+
+  'lsiminfo	Control method':
+    'prefix': 'lsiminfo	Control method'
+    'body': 'lsiminfo(${1:args})'
+
+  'lsimplot	Control method':
+    'prefix': 'lsimplot	Control method'
+    'body': 'lsimplot(${1:args})'
+
+  'ltiblock.gain	Control method':
+    'prefix': 'ltiblock.gain	Control method'
+    'body': 'ltiblock.gain(${1:args})'
+
+  'ltiblock.pid	Control method':
+    'prefix': 'ltiblock.pid	Control method'
+    'body': 'ltiblock.pid(${1:args})'
+
+  'ltiblock.pid2	Control method':
+    'prefix': 'ltiblock.pid2	Control method'
+    'body': 'ltiblock.pid2(${1:args})'
+
+  'ltiblock.ss	Control method':
+    'prefix': 'ltiblock.ss	Control method'
+    'body': 'ltiblock.ss(${1:args})'
+
+  'ltiblock.tf	Control method':
+    'prefix': 'ltiblock.tf	Control method'
+    'body': 'ltiblock.tf(${1:args})'
+
+  'lyap	Control method':
+    'prefix': 'lyap	Control method'
+    'body': 'lyap(${1:args})'
+
+  'lyapchol	Control method':
+    'prefix': 'lyapchol	Control method'
+    'body': 'lyapchol(${1:args})'
+
+  'mag2db	Control method':
+    'prefix': 'mag2db	Control method'
+    'body': 'mag2db(${1:args})'
+
+  'make1DOF	Control method':
+    'prefix': 'make1DOF	Control method'
+    'body': 'make1DOF(${1:args})'
+
+  'make2DOF	Control method':
+    'prefix': 'make2DOF	Control method'
+    'body': 'make2DOF(${1:args})'
+
+  'margin	Control method':
+    'prefix': 'margin	Control method'
+    'body': 'margin(${1:args})'
+
+  'minreal	Control method':
+    'prefix': 'minreal	Control method'
+    'body': 'minreal(${1:args})'
+
+  'modred	Control method':
+    'prefix': 'modred	Control method'
+    'body': 'modred(${1:args})'
+
+  'modsep	Control method':
+    'prefix': 'modsep	Control method'
+    'body': 'modsep(${1:args})'
+
+  'nblocks	Control method':
+    'prefix': 'nblocks	Control method'
+    'body': 'nblocks(${1:args})'
+
+  'ngrid	Control method':
+    'prefix': 'ngrid	Control method'
+    'body': 'ngrid(${1:args})'
+
+  'nichols	Control method':
+    'prefix': 'nichols	Control method'
+    'body': 'nichols(${1:args})'
+
+  'nicholsoptions	Control method':
+    'prefix': 'nicholsoptions	Control method'
+    'body': 'nicholsoptions(${1:args})'
+
+  'nicholsplot	Control method':
+    'prefix': 'nicholsplot	Control method'
+    'body': 'nicholsplot(${1:args})'
+
+  'nmodels	Control method':
+    'prefix': 'nmodels	Control method'
+    'body': 'nmodels(${1:args})'
+
+  'nyquist	Control method':
+    'prefix': 'nyquist	Control method'
+    'body': 'nyquist(${1:args})'
+
+  'nyquistoptions	Control method':
+    'prefix': 'nyquistoptions	Control method'
+    'body': 'nyquistoptions(${1:args})'
+
+  'nyquistplot	Control method':
+    'prefix': 'nyquistplot	Control method'
+    'body': 'nyquistplot(${1:args})'
+
+  'obsv	Control method':
+    'prefix': 'obsv	Control method'
+    'body': 'obsv(${1:args})'
+
+  'obsvf	Control method':
+    'prefix': 'obsvf	Control method'
+    'body': 'obsvf(${1:args})'
+
+  'order	Control method':
+    'prefix': 'order	Control method'
+    'body': 'order(${1:args})'
+
+  'pade	Control method':
+    'prefix': 'pade	Control method'
+    'body': 'pade(${1:args})'
+
+  'parallel	Control method':
+    'prefix': 'parallel	Control method'
+    'body': 'parallel(${1:args})'
+
+  'pid	Control method':
+    'prefix': 'pid	Control method'
+    'body': 'pid(${1:args})'
+
+  'pid2	Control method':
+    'prefix': 'pid2	Control method'
+    'body': 'pid2(${1:args})'
+
+  'pidTuner	Control method':
+    'prefix': 'pidTuner	Control method'
+    'body': 'pidTuner(${1:args})'
+
+  'piddata	Control method':
+    'prefix': 'piddata	Control method'
+    'body': 'piddata(${1:args})'
+
+  'piddata2	Control method':
+    'prefix': 'piddata2	Control method'
+    'body': 'piddata2(${1:args})'
+
+  'pidstd	Control method':
+    'prefix': 'pidstd	Control method'
+    'body': 'pidstd(${1:args})'
+
+  'pidstd2	Control method':
+    'prefix': 'pidstd2	Control method'
+    'body': 'pidstd2(${1:args})'
+
+  'pidstddata	Control method':
+    'prefix': 'pidstddata	Control method'
+    'body': 'pidstddata(${1:args})'
+
+  'pidstddata2	Control method':
+    'prefix': 'pidstddata2	Control method'
+    'body': 'pidstddata2(${1:args})'
+
+  'pidtool	Control method':
+    'prefix': 'pidtool	Control method'
+    'body': 'pidtool(${1:args})'
+
+  'pidtune	Control method':
+    'prefix': 'pidtune	Control method'
+    'body': 'pidtune(${1:args})'
+
+  'pidtuneOptions	Control method':
+    'prefix': 'pidtuneOptions	Control method'
+    'body': 'pidtuneOptions(${1:args})'
+
+  'place	Control method':
+    'prefix': 'place	Control method'
+    'body': 'place(${1:args})'
+
+  'pole	Control method':
+    'prefix': 'pole	Control method'
+    'body': 'pole(${1:args})'
+
+  'prescale	Control method':
+    'prefix': 'prescale	Control method'
+    'body': 'prescale(${1:args})'
+
+  'pzmap	Control method':
+    'prefix': 'pzmap	Control method'
+    'body': 'pzmap(${1:args})'
+
+  'pzoptions	Control method':
+    'prefix': 'pzoptions	Control method'
+    'body': 'pzoptions(${1:args})'
+
+  'pzplot	Control method':
+    'prefix': 'pzplot	Control method'
+    'body': 'pzplot(${1:args})'
+
+  'realp	Control method':
+    'prefix': 'realp	Control method'
+    'body': 'realp(${1:args})'
+
+  'reg	Control method':
+    'prefix': 'reg	Control method'
+    'body': 'reg(${1:args})'
+
+  'replaceBlock	Control method':
+    'prefix': 'replaceBlock	Control method'
+    'body': 'replaceBlock(${1:args})'
+
+  'repsys	Control method':
+    'prefix': 'repsys	Control method'
+    'body': 'repsys(${1:args})'
+
+  'rlocus	Control method':
+    'prefix': 'rlocus	Control method'
+    'body': 'rlocus(${1:args})'
+
+  'rlocusplot	Control method':
+    'prefix': 'rlocusplot	Control method'
+    'body': 'rlocusplot(${1:args})'
+
+  'rss	Control method':
+    'prefix': 'rss	Control method'
+    'body': 'rss(${1:args})'
+
+  'series	Control method':
+    'prefix': 'series	Control method'
+    'body': 'series(${1:args})'
+
+  'setBlockValue	Control method':
+    'prefix': 'setBlockValue	Control method'
+    'body': 'setBlockValue(${1:args})'
+
+  'setDelayModel	Control method':
+    'prefix': 'setDelayModel	Control method'
+    'body': 'setDelayModel(${1:args})'
+
+  'setValue	Control method':
+    'prefix': 'setValue	Control method'
+    'body': 'setValue(${1:args})'
+
+  'setoptions	Control method':
+    'prefix': 'setoptions	Control method'
+    'body': 'setoptions(${1:args})'
+
+  'sgrid	Control method':
+    'prefix': 'sgrid	Control method'
+    'body': 'sgrid(${1:args})'
+
+  'showBlockValue	Control method':
+    'prefix': 'showBlockValue	Control method'
+    'body': 'showBlockValue(${1:args})'
+
+  'showTunable	Control method':
+    'prefix': 'showTunable	Control method'
+    'body': 'showTunable(${1:args})'
+
+  'sigma	Control method':
+    'prefix': 'sigma	Control method'
+    'body': 'sigma(${1:args})'
+
+  'sigmaoptions	Control method':
+    'prefix': 'sigmaoptions	Control method'
+    'body': 'sigmaoptions(${1:args})'
+
+  'sigmaplot	Control method':
+    'prefix': 'sigmaplot	Control method'
+    'body': 'sigmaplot(${1:args})'
+
+  'sisoinit	Control method':
+    'prefix': 'sisoinit	Control method'
+    'body': 'sisoinit(${1:args})'
+
+  'sminreal	Control method':
+    'prefix': 'sminreal	Control method'
+    'body': 'sminreal(${1:args})'
+
+  'ss	Control method':
+    'prefix': 'ss	Control method'
+    'body': 'ss(${1:args})'
+
+  'ss2ss	Control method':
+    'prefix': 'ss2ss	Control method'
+    'body': 'ss2ss(${1:args})'
+
+  'ssdata	Control method':
+    'prefix': 'ssdata	Control method'
+    'body': 'ssdata(${1:args})'
+
+  'stabsep	Control method':
+    'prefix': 'stabsep	Control method'
+    'body': 'stabsep(${1:args})'
+
+  'stabsepOptions	Control method':
+    'prefix': 'stabsepOptions	Control method'
+    'body': 'stabsepOptions(${1:args})'
+
+  'step	Control method':
+    'prefix': 'step	Control method'
+    'body': 'step(${1:args})'
+
+  'stepDataOptions	Control method':
+    'prefix': 'stepDataOptions	Control method'
+    'body': 'stepDataOptions(${1:args})'
+
+  'stepinfo	Control method':
+    'prefix': 'stepinfo	Control method'
+    'body': 'stepinfo(${1:args})'
+
+  'stepplot	Control method':
+    'prefix': 'stepplot	Control method'
+    'body': 'stepplot(${1:args})'
+
+  'strseq	Control method':
+    'prefix': 'strseq	Control method'
+    'body': 'strseq(${1:args})'
+
+  'sumblk	Control method':
+    'prefix': 'sumblk	Control method'
+    'body': 'sumblk(${1:args})'
+
+  'tf	Control method':
+    'prefix': 'tf	Control method'
+    'body': 'tf(${1:args})'
+
+  'tfdata	Control method':
+    'prefix': 'tfdata	Control method'
+    'body': 'tfdata(${1:args})'
+
+  'thiran	Control method':
+    'prefix': 'thiran	Control method'
+    'body': 'thiran(${1:args})'
+
+  'timeoptions	Control method':
+    'prefix': 'timeoptions	Control method'
+    'body': 'timeoptions(${1:args})'
+
+  'totaldelay	Control method':
+    'prefix': 'totaldelay	Control method'
+    'body': 'totaldelay(${1:args})'
+
+  'tzero	Control method':
+    'prefix': 'tzero	Control method'
+    'body': 'tzero(${1:args})'
+
+  'updateSystem	Control method':
+    'prefix': 'updateSystem	Control method'
+    'body': 'updateSystem(${1:args})'
+
+  'upsample	Control method':
+    'prefix': 'upsample	Control method'
+    'body': 'upsample(${1:args})'
+
+  'xperm	Control method':
+    'prefix': 'xperm	Control method'
+    'body': 'xperm(${1:args})'
+
+  'zero	Control method':
+    'prefix': 'zero	Control method'
+    'body': 'zero(${1:args})'
+
+  'zgrid	Control method':
+    'prefix': 'zgrid	Control method'
+    'body': 'zgrid(${1:args})'
+
+  'zpk	Control method':
+    'prefix': 'zpk	Control method'
+    'body': 'zpk(${1:args})'
+
+  'zpkdata	Control method':
+    'prefix': 'zpkdata	Control method'
+    'body': 'zpkdata(${1:args})'

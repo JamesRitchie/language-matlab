@@ -1,0 +1,131 @@
+# matlabcomp44 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'wlanCoarseCFOEstimate	WLAN method':
+    'prefix': 'wlanCoarseCFOEstimate	WLAN method'
+    'body': 'wlanCoarseCFOEstimate(${1:args})'
+
+  'wlanFieldIndices	WLAN method':
+    'prefix': 'wlanFieldIndices	WLAN method'
+    'body': 'wlanFieldIndices(${1:args})'
+
+  'wlanFineCFOEstimate	WLAN method':
+    'prefix': 'wlanFineCFOEstimate	WLAN method'
+    'body': 'wlanFineCFOEstimate(${1:args})'
+
+  'wlanHTData	WLAN method':
+    'prefix': 'wlanHTData	WLAN method'
+    'body': 'wlanHTData(${1:args})'
+
+  'wlanHTDataRecover	WLAN method':
+    'prefix': 'wlanHTDataRecover	WLAN method'
+    'body': 'wlanHTDataRecover(${1:args})'
+
+  'wlanHTLTF	WLAN method':
+    'prefix': 'wlanHTLTF	WLAN method'
+    'body': 'wlanHTLTF(${1:args})'
+
+  'wlanHTLTFChannelEstimate	WLAN method':
+    'prefix': 'wlanHTLTFChannelEstimate	WLAN method'
+    'body': 'wlanHTLTFChannelEstimate(${1:args})'
+
+  'wlanHTLTFDemodulate	WLAN method':
+    'prefix': 'wlanHTLTFDemodulate	WLAN method'
+    'body': 'wlanHTLTFDemodulate(${1:args})'
+
+  'wlanHTSIG	WLAN method':
+    'prefix': 'wlanHTSIG	WLAN method'
+    'body': 'wlanHTSIG(${1:args})'
+
+  'wlanHTSIGRecover	WLAN method':
+    'prefix': 'wlanHTSIGRecover	WLAN method'
+    'body': 'wlanHTSIGRecover(${1:args})'
+
+  'wlanHTSTF	WLAN method':
+    'prefix': 'wlanHTSTF	WLAN method'
+    'body': 'wlanHTSTF(${1:args})'
+
+  'wlanLLTF	WLAN method':
+    'prefix': 'wlanLLTF	WLAN method'
+    'body': 'wlanLLTF(${1:args})'
+
+  'wlanLLTFChannelEstimate	WLAN method':
+    'prefix': 'wlanLLTFChannelEstimate	WLAN method'
+    'body': 'wlanLLTFChannelEstimate(${1:args})'
+
+  'wlanLLTFDemodulate	WLAN method':
+    'prefix': 'wlanLLTFDemodulate	WLAN method'
+    'body': 'wlanLLTFDemodulate(${1:args})'
+
+  'wlanLSIG	WLAN method':
+    'prefix': 'wlanLSIG	WLAN method'
+    'body': 'wlanLSIG(${1:args})'
+
+  'wlanLSIGRecover	WLAN method':
+    'prefix': 'wlanLSIGRecover	WLAN method'
+    'body': 'wlanLSIGRecover(${1:args})'
+
+  'wlanLSTF	WLAN method':
+    'prefix': 'wlanLSTF	WLAN method'
+    'body': 'wlanLSTF(${1:args})'
+
+  'wlanNonHTData	WLAN method':
+    'prefix': 'wlanNonHTData	WLAN method'
+    'body': 'wlanNonHTData(${1:args})'
+
+  'wlanNonHTDataRecover	WLAN method':
+    'prefix': 'wlanNonHTDataRecover	WLAN method'
+    'body': 'wlanNonHTDataRecover(${1:args})'
+
+  'wlanTGacChannel	WLAN method':
+    'prefix': 'wlanTGacChannel	WLAN method'
+    'body': 'wlanTGacChannel(${1:args})'
+
+  'wlanTGnChannel	WLAN method':
+    'prefix': 'wlanTGnChannel	WLAN method'
+    'body': 'wlanTGnChannel(${1:args})'
+
+  'wlanVHTData	WLAN method':
+    'prefix': 'wlanVHTData	WLAN method'
+    'body': 'wlanVHTData(${1:args})'
+
+  'wlanVHTDataRecover	WLAN method':
+    'prefix': 'wlanVHTDataRecover	WLAN method'
+    'body': 'wlanVHTDataRecover(${1:args})'
+
+  'wlanVHTLTF	WLAN method':
+    'prefix': 'wlanVHTLTF	WLAN method'
+    'body': 'wlanVHTLTF(${1:args})'
+
+  'wlanVHTLTFChannelEstimate	WLAN method':
+    'prefix': 'wlanVHTLTFChannelEstimate	WLAN method'
+    'body': 'wlanVHTLTFChannelEstimate(${1:args})'
+
+  'wlanVHTLTFDemodulate	WLAN method':
+    'prefix': 'wlanVHTLTFDemodulate	WLAN method'
+    'body': 'wlanVHTLTFDemodulate(${1:args})'
+
+  'wlanVHTSIGA	WLAN method':
+    'prefix': 'wlanVHTSIGA	WLAN method'
+    'body': 'wlanVHTSIGA(${1:args})'
+
+  'wlanVHTSIGARecover	WLAN method':
+    'prefix': 'wlanVHTSIGARecover	WLAN method'
+    'body': 'wlanVHTSIGARecover(${1:args})'
+
+  'wlanVHTSIGB	WLAN method':
+    'prefix': 'wlanVHTSIGB	WLAN method'
+    'body': 'wlanVHTSIGB(${1:args})'
+
+  'wlanVHTSIGBRecover	WLAN method':
+    'prefix': 'wlanVHTSIGBRecover	WLAN method'
+    'body': 'wlanVHTSIGBRecover(${1:args})'
+
+  'wlanVHTSTF	WLAN method':
+    'prefix': 'wlanVHTSTF	WLAN method'
+    'body': 'wlanVHTSTF(${1:args})'
+
+  'wlanWaveformGenerator	WLAN method':
+    'prefix': 'wlanWaveformGenerator	WLAN method'
+    'body': 'wlanWaveformGenerator(${1:args})'

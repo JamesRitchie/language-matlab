@@ -1,0 +1,279 @@
+# matlabcomp47 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'aptknt	CurveFit method':
+    'prefix': 'aptknt	CurveFit method'
+    'body': 'aptknt(${1:args})'
+
+  'argnames	CurveFit method':
+    'prefix': 'argnames	CurveFit method'
+    'body': 'argnames(${1:args})'
+
+  'augknt	CurveFit method':
+    'prefix': 'augknt	CurveFit method'
+    'body': 'augknt(${1:args})'
+
+  'aveknt	CurveFit method':
+    'prefix': 'aveknt	CurveFit method'
+    'body': 'aveknt(${1:args})'
+
+  'brk2knt	CurveFit method':
+    'prefix': 'brk2knt	CurveFit method'
+    'body': 'brk2knt(${1:args})'
+
+  'bspline	CurveFit method':
+    'prefix': 'bspline	CurveFit method'
+    'body': 'bspline(${1:args})'
+
+  'category	CurveFit method':
+    'prefix': 'category	CurveFit method'
+    'body': 'category(${1:args})'
+
+  'cfit	CurveFit method':
+    'prefix': 'cfit	CurveFit method'
+    'body': 'cfit(${1:args})'
+
+  'chbpnt	CurveFit method':
+    'prefix': 'chbpnt	CurveFit method'
+    'body': 'chbpnt(${1:args})'
+
+  'coeffnames	CurveFit method':
+    'prefix': 'coeffnames	CurveFit method'
+    'body': 'coeffnames(${1:args})'
+
+  'coeffvalues	CurveFit method':
+    'prefix': 'coeffvalues	CurveFit method'
+    'body': 'coeffvalues(${1:args})'
+
+  'confint	CurveFit method':
+    'prefix': 'confint	CurveFit method'
+    'body': 'confint(${1:args})'
+
+  'csape	CurveFit method':
+    'prefix': 'csape	CurveFit method'
+    'body': 'csape(${1:args})'
+
+  'csapi	CurveFit method':
+    'prefix': 'csapi	CurveFit method'
+    'body': 'csapi(${1:args})'
+
+  'csaps	CurveFit method':
+    'prefix': 'csaps	CurveFit method'
+    'body': 'csaps(${1:args})'
+
+  'cscvn	CurveFit method':
+    'prefix': 'cscvn	CurveFit method'
+    'body': 'cscvn(${1:args})'
+
+  'dependnames	CurveFit method':
+    'prefix': 'dependnames	CurveFit method'
+    'body': 'dependnames(${1:args})'
+
+  'differentiate	CurveFit method':
+    'prefix': 'differentiate	CurveFit method'
+    'body': 'differentiate(${1:args})'
+
+  'excludedata	CurveFit method':
+    'prefix': 'excludedata	CurveFit method'
+    'body': 'excludedata(${1:args})'
+
+  'fit	CurveFit method':
+    'prefix': 'fit	CurveFit method'
+    'body': 'fit(${1:args})'
+
+  'fitoptions	CurveFit method':
+    'prefix': 'fitoptions	CurveFit method'
+    'body': 'fitoptions(${1:args})'
+
+  'fittype	CurveFit method':
+    'prefix': 'fittype	CurveFit method'
+    'body': 'fittype(${1:args})'
+
+  'fn2fm	CurveFit method':
+    'prefix': 'fn2fm	CurveFit method'
+    'body': 'fn2fm(${1:args})'
+
+  'fnbrk	CurveFit method':
+    'prefix': 'fnbrk	CurveFit method'
+    'body': 'fnbrk(${1:args})'
+
+  'fnchg	CurveFit method':
+    'prefix': 'fnchg	CurveFit method'
+    'body': 'fnchg(${1:args})'
+
+  'fncmb	CurveFit method':
+    'prefix': 'fncmb	CurveFit method'
+    'body': 'fncmb(${1:args})'
+
+  'fnder	CurveFit method':
+    'prefix': 'fnder	CurveFit method'
+    'body': 'fnder(${1:args})'
+
+  'fndir	CurveFit method':
+    'prefix': 'fndir	CurveFit method'
+    'body': 'fndir(${1:args})'
+
+  'fnint	CurveFit method':
+    'prefix': 'fnint	CurveFit method'
+    'body': 'fnint(${1:args})'
+
+  'fnjmp	CurveFit method':
+    'prefix': 'fnjmp	CurveFit method'
+    'body': 'fnjmp(${1:args})'
+
+  'fnmin	CurveFit method':
+    'prefix': 'fnmin	CurveFit method'
+    'body': 'fnmin(${1:args})'
+
+  'fnplt	CurveFit method':
+    'prefix': 'fnplt	CurveFit method'
+    'body': 'fnplt(${1:args})'
+
+  'fnrfn	CurveFit method':
+    'prefix': 'fnrfn	CurveFit method'
+    'body': 'fnrfn(${1:args})'
+
+  'fntlr	CurveFit method':
+    'prefix': 'fntlr	CurveFit method'
+    'body': 'fntlr(${1:args})'
+
+  'fnval	CurveFit method':
+    'prefix': 'fnval	CurveFit method'
+    'body': 'fnval(${1:args})'
+
+  'fnxtr	CurveFit method':
+    'prefix': 'fnxtr	CurveFit method'
+    'body': 'fnxtr(${1:args})'
+
+  'fnzeros	CurveFit method':
+    'prefix': 'fnzeros	CurveFit method'
+    'body': 'fnzeros(${1:args})'
+
+  'formula	CurveFit method':
+    'prefix': 'formula	CurveFit method'
+    'body': 'formula(${1:args})'
+
+  'franke	CurveFit method':
+    'prefix': 'franke	CurveFit method'
+    'body': 'franke(${1:args})'
+
+  'getcurve	CurveFit method':
+    'prefix': 'getcurve	CurveFit method'
+    'body': 'getcurve(${1:args})'
+
+  'indepnames	CurveFit method':
+    'prefix': 'indepnames	CurveFit method'
+    'body': 'indepnames(${1:args})'
+
+  'integrate	CurveFit method':
+    'prefix': 'integrate	CurveFit method'
+    'body': 'integrate(${1:args})'
+
+  'islinear	CurveFit method':
+    'prefix': 'islinear	CurveFit method'
+    'body': 'islinear(${1:args})'
+
+  'newknt	CurveFit method':
+    'prefix': 'newknt	CurveFit method'
+    'body': 'newknt(${1:args})'
+
+  'numargs	CurveFit method':
+    'prefix': 'numargs	CurveFit method'
+    'body': 'numargs(${1:args})'
+
+  'numcoeffs	CurveFit method':
+    'prefix': 'numcoeffs	CurveFit method'
+    'body': 'numcoeffs(${1:args})'
+
+  'optknt	CurveFit method':
+    'prefix': 'optknt	CurveFit method'
+    'body': 'optknt(${1:args})'
+
+  'ppmak	CurveFit method':
+    'prefix': 'ppmak	CurveFit method'
+    'body': 'ppmak(${1:args})'
+
+  'predint	CurveFit method':
+    'prefix': 'predint	CurveFit method'
+    'body': 'predint(${1:args})'
+
+  'prepareCurveData	CurveFit method':
+    'prefix': 'prepareCurveData	CurveFit method'
+    'body': 'prepareCurveData(${1:args})'
+
+  'prepareSurfaceData	CurveFit method':
+    'prefix': 'prepareSurfaceData	CurveFit method'
+    'body': 'prepareSurfaceData(${1:args})'
+
+  'probnames	CurveFit method':
+    'prefix': 'probnames	CurveFit method'
+    'body': 'probnames(${1:args})'
+
+  'probvalues	CurveFit method':
+    'prefix': 'probvalues	CurveFit method'
+    'body': 'probvalues(${1:args})'
+
+  'rpmak	CurveFit method':
+    'prefix': 'rpmak	CurveFit method'
+    'body': 'rpmak(${1:args})'
+
+  'rscvn	CurveFit method':
+    'prefix': 'rscvn	CurveFit method'
+    'body': 'rscvn(${1:args})'
+
+  'rsmak	CurveFit method':
+    'prefix': 'rsmak	CurveFit method'
+    'body': 'rsmak(${1:args})'
+
+  'sfit	CurveFit method':
+    'prefix': 'sfit	CurveFit method'
+    'body': 'sfit(${1:args})'
+
+  'smooth	CurveFit method':
+    'prefix': 'smooth	CurveFit method'
+    'body': 'smooth(${1:args})'
+
+  'sorted	CurveFit method':
+    'prefix': 'sorted	CurveFit method'
+    'body': 'sorted(${1:args})'
+
+  'spap2	CurveFit method':
+    'prefix': 'spap2	CurveFit method'
+    'body': 'spap2(${1:args})'
+
+  'spapi	CurveFit method':
+    'prefix': 'spapi	CurveFit method'
+    'body': 'spapi(${1:args})'
+
+  'spaps	CurveFit method':
+    'prefix': 'spaps	CurveFit method'
+    'body': 'spaps(${1:args})'
+
+  'spcrv	CurveFit method':
+    'prefix': 'spcrv	CurveFit method'
+    'body': 'spcrv(${1:args})'
+
+  'splinetool	CurveFit method':
+    'prefix': 'splinetool	CurveFit method'
+    'body': 'splinetool(${1:args})'
+
+  'spmak	CurveFit method':
+    'prefix': 'spmak	CurveFit method'
+    'body': 'spmak(${1:args})'
+
+  'spterms	CurveFit method':
+    'prefix': 'spterms	CurveFit method'
+    'body': 'spterms(${1:args})'
+
+  'stmak	CurveFit method':
+    'prefix': 'stmak	CurveFit method'
+    'body': 'stmak(${1:args})'
+
+  'titanium	CurveFit method':
+    'prefix': 'titanium	CurveFit method'
+    'body': 'titanium(${1:args})'
+
+  'tpaps	CurveFit method':
+    'prefix': 'tpaps	CurveFit method'
+    'body': 'tpaps(${1:args})'

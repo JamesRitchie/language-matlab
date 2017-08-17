@@ -1,0 +1,271 @@
+# matlabcomp48 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'Using	Robotics method':
+    'prefix': 'Using	Robotics method'
+    'body': 'Using(${1:args})'
+
+  'angdiff	Robotics method':
+    'prefix': 'angdiff	Robotics method'
+    'body': 'angdiff(${1:args})'
+
+  'apply	Robotics method':
+    'prefix': 'apply	Robotics method'
+    'body': 'apply(${1:args})'
+
+  'axang2quat	Robotics method':
+    'prefix': 'axang2quat	Robotics method'
+    'body': 'axang2quat(${1:args})'
+
+  'axang2rotm	Robotics method':
+    'prefix': 'axang2rotm	Robotics method'
+    'body': 'axang2rotm(${1:args})'
+
+  'axang2tform	Robotics method':
+    'prefix': 'axang2tform	Robotics method'
+    'body': 'axang2tform(${1:args})'
+
+  'call	Robotics method':
+    'prefix': 'call	Robotics method'
+    'body': 'call(${1:args})'
+
+  'cart2hom	Robotics method':
+    'prefix': 'cart2hom	Robotics method'
+    'body': 'cart2hom(${1:args})'
+
+  'definition	Robotics method':
+    'prefix': 'definition	Robotics method'
+    'body': 'definition(${1:args})'
+
+  'del	Robotics method':
+    'prefix': 'del	Robotics method'
+    'body': 'del(${1:args})'
+
+  'eul2quat	Robotics method':
+    'prefix': 'eul2quat	Robotics method'
+    'body': 'eul2quat(${1:args})'
+
+  'eul2rotm	Robotics method':
+    'prefix': 'eul2rotm	Robotics method'
+    'body': 'eul2rotm(${1:args})'
+
+  'eul2tform	Robotics method':
+    'prefix': 'eul2tform	Robotics method'
+    'body': 'eul2tform(${1:args})'
+
+  'getTransform	Robotics method':
+    'prefix': 'getTransform	Robotics method'
+    'body': 'getTransform(${1:args})'
+
+  'has	Robotics method':
+    'prefix': 'has	Robotics method'
+    'body': 'has(${1:args})'
+
+  'hom2cart	Robotics method':
+    'prefix': 'hom2cart	Robotics method'
+    'body': 'hom2cart(${1:args})'
+
+  'quat2axang	Robotics method':
+    'prefix': 'quat2axang	Robotics method'
+    'body': 'quat2axang(${1:args})'
+
+  'quat2eul	Robotics method':
+    'prefix': 'quat2eul	Robotics method'
+    'body': 'quat2eul(${1:args})'
+
+  'quat2rotm	Robotics method':
+    'prefix': 'quat2rotm	Robotics method'
+    'body': 'quat2rotm(${1:args})'
+
+  'quat2tform	Robotics method':
+    'prefix': 'quat2tform	Robotics method'
+    'body': 'quat2tform(${1:args})'
+
+  'readAllFieldNames	Robotics method':
+    'prefix': 'readAllFieldNames	Robotics method'
+    'body': 'readAllFieldNames(${1:args})'
+
+  'readBinaryOccupancyGrid	Robotics method':
+    'prefix': 'readBinaryOccupancyGrid	Robotics method'
+    'body': 'readBinaryOccupancyGrid(${1:args})'
+
+  'readCartesian	Robotics method':
+    'prefix': 'readCartesian	Robotics method'
+    'body': 'readCartesian(${1:args})'
+
+  'readField	Robotics method':
+    'prefix': 'readField	Robotics method'
+    'body': 'readField(${1:args})'
+
+  'readImage	Robotics method':
+    'prefix': 'readImage	Robotics method'
+    'body': 'readImage(${1:args})'
+
+  'readMessages	Robotics method':
+    'prefix': 'readMessages	Robotics method'
+    'body': 'readMessages(${1:args})'
+
+  'readRGB	Robotics method':
+    'prefix': 'readRGB	Robotics method'
+    'body': 'readRGB(${1:args})'
+
+  'readScanAngles	Robotics method':
+    'prefix': 'readScanAngles	Robotics method'
+    'body': 'readScanAngles(${1:args})'
+
+  'readXYZ	Robotics method':
+    'prefix': 'readXYZ	Robotics method'
+    'body': 'readXYZ(${1:args})'
+
+  'receive	Robotics method':
+    'prefix': 'receive	Robotics method'
+    'body': 'receive(${1:args})'
+
+  'roboticsSupportPackages	Robotics method':
+    'prefix': 'roboticsSupportPackages	Robotics method'
+    'body': 'roboticsSupportPackages(${1:args})'
+
+  'rosbag	Robotics method':
+    'prefix': 'rosbag	Robotics method'
+    'body': 'rosbag(${1:args})'
+
+  'rosgenmsg	Robotics method':
+    'prefix': 'rosgenmsg	Robotics method'
+    'body': 'rosgenmsg(${1:args})'
+
+  'rosinit	Robotics method':
+    'prefix': 'rosinit	Robotics method'
+    'body': 'rosinit(${1:args})'
+
+  'rosmessage	Robotics method':
+    'prefix': 'rosmessage	Robotics method'
+    'body': 'rosmessage(${1:args})'
+
+  'rosmsg	Robotics method':
+    'prefix': 'rosmsg	Robotics method'
+    'body': 'rosmsg(${1:args})'
+
+  'rosnode	Robotics method':
+    'prefix': 'rosnode	Robotics method'
+    'body': 'rosnode(${1:args})'
+
+  'rosparam	Robotics method':
+    'prefix': 'rosparam	Robotics method'
+    'body': 'rosparam(${1:args})'
+
+  'rospublisher	Robotics method':
+    'prefix': 'rospublisher	Robotics method'
+    'body': 'rospublisher(${1:args})'
+
+  'rosservice	Robotics method':
+    'prefix': 'rosservice	Robotics method'
+    'body': 'rosservice(${1:args})'
+
+  'rosshutdown	Robotics method':
+    'prefix': 'rosshutdown	Robotics method'
+    'body': 'rosshutdown(${1:args})'
+
+  'rossubscriber	Robotics method':
+    'prefix': 'rossubscriber	Robotics method'
+    'body': 'rossubscriber(${1:args})'
+
+  'rossvcclient	Robotics method':
+    'prefix': 'rossvcclient	Robotics method'
+    'body': 'rossvcclient(${1:args})'
+
+  'rossvcserver	Robotics method':
+    'prefix': 'rossvcserver	Robotics method'
+    'body': 'rossvcserver(${1:args})'
+
+  'rostf	Robotics method':
+    'prefix': 'rostf	Robotics method'
+    'body': 'rostf(${1:args})'
+
+  'rostime	Robotics method':
+    'prefix': 'rostime	Robotics method'
+    'body': 'rostime(${1:args})'
+
+  'rostopic	Robotics method':
+    'prefix': 'rostopic	Robotics method'
+    'body': 'rostopic(${1:args})'
+
+  'rostype	Robotics method':
+    'prefix': 'rostype	Robotics method'
+    'body': 'rostype(${1:args})'
+
+  'rotm2axang	Robotics method':
+    'prefix': 'rotm2axang	Robotics method'
+    'body': 'rotm2axang(${1:args})'
+
+  'rotm2eul	Robotics method':
+    'prefix': 'rotm2eul	Robotics method'
+    'body': 'rotm2eul(${1:args})'
+
+  'rotm2quat	Robotics method':
+    'prefix': 'rotm2quat	Robotics method'
+    'body': 'rotm2quat(${1:args})'
+
+  'rotm2tform	Robotics method':
+    'prefix': 'rotm2tform	Robotics method'
+    'body': 'rotm2tform(${1:args})'
+
+  'search	Robotics method':
+    'prefix': 'search	Robotics method'
+    'body': 'search(${1:args})'
+
+  'select	Robotics method':
+    'prefix': 'select	Robotics method'
+    'body': 'select(${1:args})'
+
+  'send	Robotics method':
+    'prefix': 'send	Robotics method'
+    'body': 'send(${1:args})'
+
+  'sendTransform	Robotics method':
+    'prefix': 'sendTransform	Robotics method'
+    'body': 'sendTransform(${1:args})'
+
+  'showdetails	Robotics method':
+    'prefix': 'showdetails	Robotics method'
+    'body': 'showdetails(${1:args})'
+
+  'tform2axang	Robotics method':
+    'prefix': 'tform2axang	Robotics method'
+    'body': 'tform2axang(${1:args})'
+
+  'tform2eul	Robotics method':
+    'prefix': 'tform2eul	Robotics method'
+    'body': 'tform2eul(${1:args})'
+
+  'tform2quat	Robotics method':
+    'prefix': 'tform2quat	Robotics method'
+    'body': 'tform2quat(${1:args})'
+
+  'tform2rotm	Robotics method':
+    'prefix': 'tform2rotm	Robotics method'
+    'body': 'tform2rotm(${1:args})'
+
+  'tform2trvec	Robotics method':
+    'prefix': 'tform2trvec	Robotics method'
+    'body': 'tform2trvec(${1:args})'
+
+  'transform	Robotics method':
+    'prefix': 'transform	Robotics method'
+    'body': 'transform(${1:args})'
+
+  'trvec2tform	Robotics method':
+    'prefix': 'trvec2tform	Robotics method'
+    'body': 'trvec2tform(${1:args})'
+
+  'waitForTransform	Robotics method':
+    'prefix': 'waitForTransform	Robotics method'
+    'body': 'waitForTransform(${1:args})'
+
+  'writeBinaryOccupancyGrid	Robotics method':
+    'prefix': 'writeBinaryOccupancyGrid	Robotics method'
+    'body': 'writeBinaryOccupancyGrid(${1:args})'
+
+  'writeImage	Robotics method':
+    'prefix': 'writeImage	Robotics method'
+    'body': 'writeImage(${1:args})'

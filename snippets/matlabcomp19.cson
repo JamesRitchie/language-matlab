@@ -1,0 +1,99 @@
+# matlabcomp19 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'closepreview	Imaq method':
+    'prefix': 'closepreview	Imaq method'
+    'body': 'closepreview(${1:args})'
+
+  'commands	Imaq method':
+    'prefix': 'commands	Imaq method'
+    'body': 'commands(${1:args})'
+
+  'executeCommand	Imaq method':
+    'prefix': 'executeCommand	Imaq method'
+    'body': 'executeCommand(${1:args})'
+
+  'getselectedsource	Imaq method':
+    'prefix': 'getselectedsource	Imaq method'
+    'body': 'getselectedsource(${1:args})'
+
+  'getsnapshot	Imaq method':
+    'prefix': 'getsnapshot	Imaq method'
+    'body': 'getsnapshot(${1:args})'
+
+  'gigecam	Imaq method':
+    'prefix': 'gigecam	Imaq method'
+    'body': 'gigecam(${1:args})'
+
+  'gigecamlist	Imaq method':
+    'prefix': 'gigecamlist	Imaq method'
+    'body': 'gigecamlist(${1:args})'
+
+  'imaq.VideoDevice	Imaq method':
+    'prefix': 'imaq.VideoDevice	Imaq method'
+    'body': 'imaq.VideoDevice(${1:args})'
+
+  'imaqfind	Imaq method':
+    'prefix': 'imaqfind	Imaq method'
+    'body': 'imaqfind(${1:args})'
+
+  'imaqhelp	Imaq method':
+    'prefix': 'imaqhelp	Imaq method'
+    'body': 'imaqhelp(${1:args})'
+
+  'imaqhwinfo	Imaq method':
+    'prefix': 'imaqhwinfo	Imaq method'
+    'body': 'imaqhwinfo(${1:args})'
+
+  'imaqmontage	Imaq method':
+    'prefix': 'imaqmontage	Imaq method'
+    'body': 'imaqmontage(${1:args})'
+
+  'imaqreset	Imaq method':
+    'prefix': 'imaqreset	Imaq method'
+    'body': 'imaqreset(${1:args})'
+
+  'imaqtool	Imaq method':
+    'prefix': 'imaqtool	Imaq method'
+    'body': 'imaqtool(${1:args})'
+
+  'isrunning	Imaq method':
+    'prefix': 'isrunning	Imaq method'
+    'body': 'isrunning(${1:args})'
+
+  'matroxcam	Imaq method':
+    'prefix': 'matroxcam	Imaq method'
+    'body': 'matroxcam(${1:args})'
+
+  'matroxlist	Imaq method':
+    'prefix': 'matroxlist	Imaq method'
+    'body': 'matroxlist(${1:args})'
+
+  'obj2mfile	Imaq method':
+    'prefix': 'obj2mfile	Imaq method'
+    'body': 'obj2mfile(${1:args})'
+
+  'propinfo	Imaq method':
+    'prefix': 'propinfo	Imaq method'
+    'body': 'propinfo(${1:args})'
+
+  'snapshot	Imaq method':
+    'prefix': 'snapshot	Imaq method'
+    'body': 'snapshot(${1:args})'
+
+  'stoppreview	Imaq method':
+    'prefix': 'stoppreview	Imaq method'
+    'body': 'stoppreview(${1:args})'
+
+  'triggerconfig	Imaq method':
+    'prefix': 'triggerconfig	Imaq method'
+    'body': 'triggerconfig(${1:args})'
+
+  'triggerinfo	Imaq method':
+    'prefix': 'triggerinfo	Imaq method'
+    'body': 'triggerinfo(${1:args})'
+
+  'videoinput	Imaq method':
+    'prefix': 'videoinput	Imaq method'
+    'body': 'videoinput(${1:args})'

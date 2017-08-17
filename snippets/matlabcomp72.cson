@@ -1,0 +1,187 @@
+# matlabcomp72 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'AccessRights	OPC prop':
+    'prefix': 'AccessRights	OPC prop'
+    'body': 'AccessRights'
+
+  'Active	OPC prop':
+    'prefix': 'Active	OPC prop'
+    'body': 'Active'
+
+  'CancelAsyncFcn	OPC prop':
+    'prefix': 'CancelAsyncFcn	OPC prop'
+    'body': 'CancelAsyncFcn'
+
+  'CanonicalDataType	OPC prop':
+    'prefix': 'CanonicalDataType	OPC prop'
+    'body': 'CanonicalDataType'
+
+  'DataChangeFcn	OPC prop':
+    'prefix': 'DataChangeFcn	OPC prop'
+    'body': 'DataChangeFcn'
+
+  'DataType	OPC prop':
+    'prefix': 'DataType	OPC prop'
+    'body': 'DataType'
+
+  'DeadbandPercent	OPC prop':
+    'prefix': 'DeadbandPercent	OPC prop'
+    'body': 'DeadbandPercent'
+
+  'ErrorFcn	OPC prop':
+    'prefix': 'ErrorFcn	OPC prop'
+    'body': 'ErrorFcn'
+
+  'EventLog	OPC prop':
+    'prefix': 'EventLog	OPC prop'
+    'body': 'EventLog'
+
+  'EventLogMax	OPC prop':
+    'prefix': 'EventLogMax	OPC prop'
+    'body': 'EventLogMax'
+
+  'Group	OPC prop':
+    'prefix': 'Group	OPC prop'
+    'body': 'Group'
+
+  'GroupType	OPC prop':
+    'prefix': 'GroupType	OPC prop'
+    'body': 'GroupType'
+
+  'Host	OPC prop':
+    'prefix': 'Host	OPC prop'
+    'body': 'Host'
+
+  'Item	OPC prop':
+    'prefix': 'Item	OPC prop'
+    'body': 'Item'
+
+  'ItemID	OPC prop':
+    'prefix': 'ItemID	OPC prop'
+    'body': 'ItemID'
+
+  'LogFileName	OPC prop':
+    'prefix': 'LogFileName	OPC prop'
+    'body': 'LogFileName'
+
+  'LogToDiskMode	OPC prop':
+    'prefix': 'LogToDiskMode	OPC prop'
+    'body': 'LogToDiskMode'
+
+  'Logging	OPC prop':
+    'prefix': 'Logging	OPC prop'
+    'body': 'Logging'
+
+  'LoggingMode	OPC prop':
+    'prefix': 'LoggingMode	OPC prop'
+    'body': 'LoggingMode'
+
+  'Parent	OPC prop':
+    'prefix': 'Parent	OPC prop'
+    'body': 'Parent'
+
+  'Quality	OPC prop':
+    'prefix': 'Quality	OPC prop'
+    'body': 'Quality'
+
+  'QualityID	OPC prop':
+    'prefix': 'QualityID	OPC prop'
+    'body': 'QualityID'
+
+  'ReadAsyncFcn	OPC prop':
+    'prefix': 'ReadAsyncFcn	OPC prop'
+    'body': 'ReadAsyncFcn'
+
+  'RecordsAcquired	OPC prop':
+    'prefix': 'RecordsAcquired	OPC prop'
+    'body': 'RecordsAcquired'
+
+  'RecordsAcquiredFcn	OPC prop':
+    'prefix': 'RecordsAcquiredFcn	OPC prop'
+    'body': 'RecordsAcquiredFcn'
+
+  'RecordsAcquiredFcnCount	OPC prop':
+    'prefix': 'RecordsAcquiredFcnCount	OPC prop'
+    'body': 'RecordsAcquiredFcnCount'
+
+  'RecordsAvailable	OPC prop':
+    'prefix': 'RecordsAvailable	OPC prop'
+    'body': 'RecordsAvailable'
+
+  'RecordsToAcquire	OPC prop':
+    'prefix': 'RecordsToAcquire	OPC prop'
+    'body': 'RecordsToAcquire'
+
+  'ScanRate	OPC prop':
+    'prefix': 'ScanRate	OPC prop'
+    'body': 'ScanRate'
+
+  'ServerID	OPC prop':
+    'prefix': 'ServerID	OPC prop'
+    'body': 'ServerID'
+
+  'ShutDownFcn	OPC prop':
+    'prefix': 'ShutDownFcn	OPC prop'
+    'body': 'ShutDownFcn'
+
+  'StartFcn	OPC prop':
+    'prefix': 'StartFcn	OPC prop'
+    'body': 'StartFcn'
+
+  'Status	OPC prop':
+    'prefix': 'Status	OPC prop'
+    'body': 'Status'
+
+  'StopFcn	OPC prop':
+    'prefix': 'StopFcn	OPC prop'
+    'body': 'StopFcn'
+
+  'Subscription	OPC prop':
+    'prefix': 'Subscription	OPC prop'
+    'body': 'Subscription'
+
+  'Tag	OPC prop':
+    'prefix': 'Tag	OPC prop'
+    'body': 'Tag'
+
+  'TimeBias	OPC prop':
+    'prefix': 'TimeBias	OPC prop'
+    'body': 'TimeBias'
+
+  'TimeStamp	OPC prop':
+    'prefix': 'TimeStamp	OPC prop'
+    'body': 'TimeStamp'
+
+  'Timeout	OPC prop':
+    'prefix': 'Timeout	OPC prop'
+    'body': 'Timeout'
+
+  'TimerFcn	OPC prop':
+    'prefix': 'TimerFcn	OPC prop'
+    'body': 'TimerFcn'
+
+  'TimerPeriod	OPC prop':
+    'prefix': 'TimerPeriod	OPC prop'
+    'body': 'TimerPeriod'
+
+  'Type	OPC prop':
+    'prefix': 'Type	OPC prop'
+    'body': 'Type'
+
+  'UpdateRate	OPC prop':
+    'prefix': 'UpdateRate	OPC prop'
+    'body': 'UpdateRate'
+
+  'UserData	OPC prop':
+    'prefix': 'UserData	OPC prop'
+    'body': 'UserData'
+
+  'Value	OPC prop':
+    'prefix': 'Value	OPC prop'
+    'body': 'Value'
+
+  'WriteAsyncFcn	OPC prop':
+    'prefix': 'WriteAsyncFcn	OPC prop'
+    'body': 'WriteAsyncFcn'

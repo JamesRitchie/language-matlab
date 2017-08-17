@@ -1,0 +1,1423 @@
+# matlabcomp23 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'Portfolio	Finance method':
+    'prefix': 'Portfolio	Finance method'
+    'body': 'Portfolio(${1:args})'
+
+  'PortfolioCVaR	Finance method':
+    'prefix': 'PortfolioCVaR	Finance method'
+    'body': 'PortfolioCVaR(${1:args})'
+
+  'PortfolioMAD	Finance method':
+    'prefix': 'PortfolioMAD	Finance method'
+    'body': 'PortfolioMAD(${1:args})'
+
+  'abs2active	Finance method':
+    'prefix': 'abs2active	Finance method'
+    'body': 'abs2active(${1:args})'
+
+  'accrfrac	Finance method':
+    'prefix': 'accrfrac	Finance method'
+    'body': 'accrfrac(${1:args})'
+
+  'acrubond	Finance method':
+    'prefix': 'acrubond	Finance method'
+    'body': 'acrubond(${1:args})'
+
+  'acrudisc	Finance method':
+    'prefix': 'acrudisc	Finance method'
+    'body': 'acrudisc(${1:args})'
+
+  'active2abs	Finance method':
+    'prefix': 'active2abs	Finance method'
+    'body': 'active2abs(${1:args})'
+
+  'addEquality	Finance method':
+    'prefix': 'addEquality	Finance method'
+    'body': 'addEquality(${1:args})'
+
+  'addGroupRatio	Finance method':
+    'prefix': 'addGroupRatio	Finance method'
+    'body': 'addGroupRatio(${1:args})'
+
+  'addGroups	Finance method':
+    'prefix': 'addGroups	Finance method'
+    'body': 'addGroups(${1:args})'
+
+  'addInequality	Finance method':
+    'prefix': 'addInequality	Finance method'
+    'body': 'addInequality(${1:args})'
+
+  'adline	Finance method':
+    'prefix': 'adline	Finance method'
+    'body': 'adline(${1:args})'
+
+  'adosc	Finance method':
+    'prefix': 'adosc	Finance method'
+    'body': 'adosc(${1:args})'
+
+  'amortize	Finance method':
+    'prefix': 'amortize	Finance method'
+    'body': 'amortize(${1:args})'
+
+  'annurate	Finance method':
+    'prefix': 'annurate	Finance method'
+    'body': 'annurate(${1:args})'
+
+  'annuterm	Finance method':
+    'prefix': 'annuterm	Finance method'
+    'body': 'annuterm(${1:args})'
+
+  'arith2geom	Finance method':
+    'prefix': 'arith2geom	Finance method'
+    'body': 'arith2geom(${1:args})'
+
+  'ascii2fts	Finance method':
+    'prefix': 'ascii2fts	Finance method'
+    'body': 'ascii2fts(${1:args})'
+
+  'autobinning	Finance method':
+    'prefix': 'autobinning	Finance method'
+    'body': 'autobinning(${1:args})'
+
+  'beytbill	Finance method':
+    'prefix': 'beytbill	Finance method'
+    'body': 'beytbill(${1:args})'
+
+  'bindata	Finance method':
+    'prefix': 'bindata	Finance method'
+    'body': 'bindata(${1:args})'
+
+  'bininfo	Finance method':
+    'prefix': 'bininfo	Finance method'
+    'body': 'bininfo(${1:args})'
+
+  'binprice	Finance method':
+    'prefix': 'binprice	Finance method'
+    'body': 'binprice(${1:args})'
+
+  'blkimpv	Finance method':
+    'prefix': 'blkimpv	Finance method'
+    'body': 'blkimpv(${1:args})'
+
+  'blkprice	Finance method':
+    'prefix': 'blkprice	Finance method'
+    'body': 'blkprice(${1:args})'
+
+  'blsdelta	Finance method':
+    'prefix': 'blsdelta	Finance method'
+    'body': 'blsdelta(${1:args})'
+
+  'blsgamma	Finance method':
+    'prefix': 'blsgamma	Finance method'
+    'body': 'blsgamma(${1:args})'
+
+  'blsimpv	Finance method':
+    'prefix': 'blsimpv	Finance method'
+    'body': 'blsimpv(${1:args})'
+
+  'blslambda	Finance method':
+    'prefix': 'blslambda	Finance method'
+    'body': 'blslambda(${1:args})'
+
+  'blsprice	Finance method':
+    'prefix': 'blsprice	Finance method'
+    'body': 'blsprice(${1:args})'
+
+  'blsrho	Finance method':
+    'prefix': 'blsrho	Finance method'
+    'body': 'blsrho(${1:args})'
+
+  'blstheta	Finance method':
+    'prefix': 'blstheta	Finance method'
+    'body': 'blstheta(${1:args})'
+
+  'blsvega	Finance method':
+    'prefix': 'blsvega	Finance method'
+    'body': 'blsvega(${1:args})'
+
+  'bm	Finance method':
+    'prefix': 'bm	Finance method'
+    'body': 'bm(${1:args})'
+
+  'bndconvp	Finance method':
+    'prefix': 'bndconvp	Finance method'
+    'body': 'bndconvp(${1:args})'
+
+  'bndconvy	Finance method':
+    'prefix': 'bndconvy	Finance method'
+    'body': 'bndconvy(${1:args})'
+
+  'bnddurp	Finance method':
+    'prefix': 'bnddurp	Finance method'
+    'body': 'bnddurp(${1:args})'
+
+  'bnddury	Finance method':
+    'prefix': 'bnddury	Finance method'
+    'body': 'bnddury(${1:args})'
+
+  'bndkrdur	Finance method':
+    'prefix': 'bndkrdur	Finance method'
+    'body': 'bndkrdur(${1:args})'
+
+  'bndprice	Finance method':
+    'prefix': 'bndprice	Finance method'
+    'body': 'bndprice(${1:args})'
+
+  'bndspread	Finance method':
+    'prefix': 'bndspread	Finance method'
+    'body': 'bndspread(${1:args})'
+
+  'bndtotalreturn	Finance method':
+    'prefix': 'bndtotalreturn	Finance method'
+    'body': 'bndtotalreturn(${1:args})'
+
+  'bndyield	Finance method':
+    'prefix': 'bndyield	Finance method'
+    'body': 'bndyield(${1:args})'
+
+  'bolling	Finance method':
+    'prefix': 'bolling	Finance method'
+    'body': 'bolling(${1:args})'
+
+  'bollinger	Finance method':
+    'prefix': 'bollinger	Finance method'
+    'body': 'bollinger(${1:args})'
+
+  'boxcox	Finance method':
+    'prefix': 'boxcox	Finance method'
+    'body': 'boxcox(${1:args})'
+
+  'busdate	Finance method':
+    'prefix': 'busdate	Finance method'
+    'body': 'busdate(${1:args})'
+
+  'busdays	Finance method':
+    'prefix': 'busdays	Finance method'
+    'body': 'busdays(${1:args})'
+
+  'candle	Finance method':
+    'prefix': 'candle	Finance method'
+    'body': 'candle(${1:args})'
+
+  'cdai	Finance method':
+    'prefix': 'cdai	Finance method'
+    'body': 'cdai(${1:args})'
+
+  'cdprice	Finance method':
+    'prefix': 'cdprice	Finance method'
+    'body': 'cdprice(${1:args})'
+
+  'cdyield	Finance method':
+    'prefix': 'cdyield	Finance method'
+    'body': 'cdyield(${1:args})'
+
+  'cev	Finance method':
+    'prefix': 'cev	Finance method'
+    'body': 'cev(${1:args})'
+
+  'cfamounts	Finance method':
+    'prefix': 'cfamounts	Finance method'
+    'body': 'cfamounts(${1:args})'
+
+  'cfconv	Finance method':
+    'prefix': 'cfconv	Finance method'
+    'body': 'cfconv(${1:args})'
+
+  'cfdates	Finance method':
+    'prefix': 'cfdates	Finance method'
+    'body': 'cfdates(${1:args})'
+
+  'cfdur	Finance method':
+    'prefix': 'cfdur	Finance method'
+    'body': 'cfdur(${1:args})'
+
+  'cfplot	Finance method':
+    'prefix': 'cfplot	Finance method'
+    'body': 'cfplot(${1:args})'
+
+  'cfport	Finance method':
+    'prefix': 'cfport	Finance method'
+    'body': 'cfport(${1:args})'
+
+  'cftimes	Finance method':
+    'prefix': 'cftimes	Finance method'
+    'body': 'cftimes(${1:args})'
+
+  'chaikosc	Finance method':
+    'prefix': 'chaikosc	Finance method'
+    'body': 'chaikosc(${1:args})'
+
+  'chaikvolat	Finance method':
+    'prefix': 'chaikvolat	Finance method'
+    'body': 'chaikvolat(${1:args})'
+
+  'chartfts	Finance method':
+    'prefix': 'chartfts	Finance method'
+    'body': 'chartfts(${1:args})'
+
+  'checkFeasibility	Finance method':
+    'prefix': 'checkFeasibility	Finance method'
+    'body': 'checkFeasibility(${1:args})'
+
+  'chfield	Finance method':
+    'prefix': 'chfield	Finance method'
+    'body': 'chfield(${1:args})'
+
+  'cir	Finance method':
+    'prefix': 'cir	Finance method'
+    'body': 'cir(${1:args})'
+
+  'convert2sur	Finance method':
+    'prefix': 'convert2sur	Finance method'
+    'body': 'convert2sur(${1:args})'
+
+  'convertto	Finance method':
+    'prefix': 'convertto	Finance method'
+    'body': 'convertto(${1:args})'
+
+  'corr2cov	Finance method':
+    'prefix': 'corr2cov	Finance method'
+    'body': 'corr2cov(${1:args})'
+
+  'cov2corr	Finance method':
+    'prefix': 'cov2corr	Finance method'
+    'body': 'cov2corr(${1:args})'
+
+  'cpncount	Finance method':
+    'prefix': 'cpncount	Finance method'
+    'body': 'cpncount(${1:args})'
+
+  'cpndaten	Finance method':
+    'prefix': 'cpndaten	Finance method'
+    'body': 'cpndaten(${1:args})'
+
+  'cpndatenq	Finance method':
+    'prefix': 'cpndatenq	Finance method'
+    'body': 'cpndatenq(${1:args})'
+
+  'cpndatep	Finance method':
+    'prefix': 'cpndatep	Finance method'
+    'body': 'cpndatep(${1:args})'
+
+  'cpndaysp	Finance method':
+    'prefix': 'cpndaysp	Finance method'
+    'body': 'cpndaysp(${1:args})'
+
+  'cpnpersz	Finance method':
+    'prefix': 'cpnpersz	Finance method'
+    'body': 'cpnpersz(${1:args})'
+
+  'createholidays	Finance method':
+    'prefix': 'createholidays	Finance method'
+    'body': 'createholidays(${1:args})'
+
+  'creditscorecard	Finance method':
+    'prefix': 'creditscorecard	Finance method'
+    'body': 'creditscorecard(${1:args})'
+
+  'cur2frac	Finance method':
+    'prefix': 'cur2frac	Finance method'
+    'body': 'cur2frac(${1:args})'
+
+  'cur2str	Finance method':
+    'prefix': 'cur2str	Finance method'
+    'body': 'cur2str(${1:args})'
+
+  'dateaxis	Finance method':
+    'prefix': 'dateaxis	Finance method'
+    'body': 'dateaxis(${1:args})'
+
+  'datefind	Finance method':
+    'prefix': 'datefind	Finance method'
+    'body': 'datefind(${1:args})'
+
+  'datemnth	Finance method':
+    'prefix': 'datemnth	Finance method'
+    'body': 'datemnth(${1:args})'
+
+  'datewrkdy	Finance method':
+    'prefix': 'datewrkdy	Finance method'
+    'body': 'datewrkdy(${1:args})'
+
+  'days360	Finance method':
+    'prefix': 'days360	Finance method'
+    'body': 'days360(${1:args})'
+
+  'days360e	Finance method':
+    'prefix': 'days360e	Finance method'
+    'body': 'days360e(${1:args})'
+
+  'days360isda	Finance method':
+    'prefix': 'days360isda	Finance method'
+    'body': 'days360isda(${1:args})'
+
+  'days360psa	Finance method':
+    'prefix': 'days360psa	Finance method'
+    'body': 'days360psa(${1:args})'
+
+  'days365	Finance method':
+    'prefix': 'days365	Finance method'
+    'body': 'days365(${1:args})'
+
+  'daysact	Finance method':
+    'prefix': 'daysact	Finance method'
+    'body': 'daysact(${1:args})'
+
+  'daysadd	Finance method':
+    'prefix': 'daysadd	Finance method'
+    'body': 'daysadd(${1:args})'
+
+  'daysdif	Finance method':
+    'prefix': 'daysdif	Finance method'
+    'body': 'daysdif(${1:args})'
+
+  'dec2thirtytwo	Finance method':
+    'prefix': 'dec2thirtytwo	Finance method'
+    'body': 'dec2thirtytwo(${1:args})'
+
+  'depfixdb	Finance method':
+    'prefix': 'depfixdb	Finance method'
+    'body': 'depfixdb(${1:args})'
+
+  'depgendb	Finance method':
+    'prefix': 'depgendb	Finance method'
+    'body': 'depgendb(${1:args})'
+
+  'deprdv	Finance method':
+    'prefix': 'deprdv	Finance method'
+    'body': 'deprdv(${1:args})'
+
+  'depsoyd	Finance method':
+    'prefix': 'depsoyd	Finance method'
+    'body': 'depsoyd(${1:args})'
+
+  'depstln	Finance method':
+    'prefix': 'depstln	Finance method'
+    'body': 'depstln(${1:args})'
+
+  'diffusion	Finance method':
+    'prefix': 'diffusion	Finance method'
+    'body': 'diffusion(${1:args})'
+
+  'disc2zero	Finance method':
+    'prefix': 'disc2zero	Finance method'
+    'body': 'disc2zero(${1:args})'
+
+  'discrate	Finance method':
+    'prefix': 'discrate	Finance method'
+    'body': 'discrate(${1:args})'
+
+  'displaypoints	Finance method':
+    'prefix': 'displaypoints	Finance method'
+    'body': 'displaypoints(${1:args})'
+
+  'drift	Finance method':
+    'prefix': 'drift	Finance method'
+    'body': 'drift(${1:args})'
+
+  'ecmlsrmle	Finance method':
+    'prefix': 'ecmlsrmle	Finance method'
+    'body': 'ecmlsrmle(${1:args})'
+
+  'ecmmvnrfish	Finance method':
+    'prefix': 'ecmmvnrfish	Finance method'
+    'body': 'ecmmvnrfish(${1:args})'
+
+  'ecmmvnrmle	Finance method':
+    'prefix': 'ecmmvnrmle	Finance method'
+    'body': 'ecmmvnrmle(${1:args})'
+
+  'ecmmvnrobj	Finance method':
+    'prefix': 'ecmmvnrobj	Finance method'
+    'body': 'ecmmvnrobj(${1:args})'
+
+  'ecmmvnrstd	Finance method':
+    'prefix': 'ecmmvnrstd	Finance method'
+    'body': 'ecmmvnrstd(${1:args})'
+
+  'ecmnfish	Finance method':
+    'prefix': 'ecmnfish	Finance method'
+    'body': 'ecmnfish(${1:args})'
+
+  'ecmnhess	Finance method':
+    'prefix': 'ecmnhess	Finance method'
+    'body': 'ecmnhess(${1:args})'
+
+  'ecmninit	Finance method':
+    'prefix': 'ecmninit	Finance method'
+    'body': 'ecmninit(${1:args})'
+
+  'ecmnmle	Finance method':
+    'prefix': 'ecmnmle	Finance method'
+    'body': 'ecmnmle(${1:args})'
+
+  'ecmnobj	Finance method':
+    'prefix': 'ecmnobj	Finance method'
+    'body': 'ecmnobj(${1:args})'
+
+  'ecmnstd	Finance method':
+    'prefix': 'ecmnstd	Finance method'
+    'body': 'ecmnstd(${1:args})'
+
+  'effrr	Finance method':
+    'prefix': 'effrr	Finance method'
+    'body': 'effrr(${1:args})'
+
+  'elpm	Finance method':
+    'prefix': 'elpm	Finance method'
+    'body': 'elpm(${1:args})'
+
+  'emaxdrawdown	Finance method':
+    'prefix': 'emaxdrawdown	Finance method'
+    'body': 'emaxdrawdown(${1:args})'
+
+  'eomdate	Finance method':
+    'prefix': 'eomdate	Finance method'
+    'body': 'eomdate(${1:args})'
+
+  'eq	Finance method':
+    'prefix': 'eq	Finance method'
+    'body': 'eq(${1:args})'
+
+  'estimateAssetMoments	Finance method':
+    'prefix': 'estimateAssetMoments	Finance method'
+    'body': 'estimateAssetMoments(${1:args})'
+
+  'estimateBounds	Finance method':
+    'prefix': 'estimateBounds	Finance method'
+    'body': 'estimateBounds(${1:args})'
+
+  'estimateFrontier	Finance method':
+    'prefix': 'estimateFrontier	Finance method'
+    'body': 'estimateFrontier(${1:args})'
+
+  'estimateFrontierByReturn	Finance method':
+    'prefix': 'estimateFrontierByReturn	Finance method'
+    'body': 'estimateFrontierByReturn(${1:args})'
+
+  'estimateFrontierByRisk	Finance method':
+    'prefix': 'estimateFrontierByRisk	Finance method'
+    'body': 'estimateFrontierByRisk(${1:args})'
+
+  'estimateFrontierLimits	Finance method':
+    'prefix': 'estimateFrontierLimits	Finance method'
+    'body': 'estimateFrontierLimits(${1:args})'
+
+  'estimateMaxSharpeRatio	Finance method':
+    'prefix': 'estimateMaxSharpeRatio	Finance method'
+    'body': 'estimateMaxSharpeRatio(${1:args})'
+
+  'estimatePortMoments	Finance method':
+    'prefix': 'estimatePortMoments	Finance method'
+    'body': 'estimatePortMoments(${1:args})'
+
+  'estimatePortReturn	Finance method':
+    'prefix': 'estimatePortReturn	Finance method'
+    'body': 'estimatePortReturn(${1:args})'
+
+  'estimatePortRisk	Finance method':
+    'prefix': 'estimatePortRisk	Finance method'
+    'body': 'estimatePortRisk(${1:args})'
+
+  'estimatePortStd	Finance method':
+    'prefix': 'estimatePortStd	Finance method'
+    'body': 'estimatePortStd(${1:args})'
+
+  'estimatePortVaR	Finance method':
+    'prefix': 'estimatePortVaR	Finance method'
+    'body': 'estimatePortVaR(${1:args})'
+
+  'estimateScenarioMoments	Finance method':
+    'prefix': 'estimateScenarioMoments	Finance method'
+    'body': 'estimateScenarioMoments(${1:args})'
+
+  'ewstats	Finance method':
+    'prefix': 'ewstats	Finance method'
+    'body': 'ewstats(${1:args})'
+
+  'extfield	Finance method':
+    'prefix': 'extfield	Finance method'
+    'body': 'extfield(${1:args})'
+
+  'fanplot	Finance method':
+    'prefix': 'fanplot	Finance method'
+    'body': 'fanplot(${1:args})'
+
+  'fbusdate	Finance method':
+    'prefix': 'fbusdate	Finance method'
+    'body': 'fbusdate(${1:args})'
+
+  'fillts	Finance method':
+    'prefix': 'fillts	Finance method'
+    'body': 'fillts(${1:args})'
+
+  'fints	Finance method':
+    'prefix': 'fints	Finance method'
+    'body': 'fints(${1:args})'
+
+  'fitmodel	Finance method':
+    'prefix': 'fitmodel	Finance method'
+    'body': 'fitmodel(${1:args})'
+
+  'formatpoints	Finance method':
+    'prefix': 'formatpoints	Finance method'
+    'body': 'formatpoints(${1:args})'
+
+  'fpctkd	Finance method':
+    'prefix': 'fpctkd	Finance method'
+    'body': 'fpctkd(${1:args})'
+
+  'frac2cur	Finance method':
+    'prefix': 'frac2cur	Finance method'
+    'body': 'frac2cur(${1:args})'
+
+  'freqnum	Finance method':
+    'prefix': 'freqnum	Finance method'
+    'body': 'freqnum(${1:args})'
+
+  'freqstr	Finance method':
+    'prefix': 'freqstr	Finance method'
+    'body': 'freqstr(${1:args})'
+
+  'frontcon	Finance method':
+    'prefix': 'frontcon	Finance method'
+    'body': 'frontcon(${1:args})'
+
+  'frontier	Finance method':
+    'prefix': 'frontier	Finance method'
+    'body': 'frontier(${1:args})'
+
+  'fts2ascii	Finance method':
+    'prefix': 'fts2ascii	Finance method'
+    'body': 'fts2ascii(${1:args})'
+
+  'fts2mat	Finance method':
+    'prefix': 'fts2mat	Finance method'
+    'body': 'fts2mat(${1:args})'
+
+  'ftsbound	Finance method':
+    'prefix': 'ftsbound	Finance method'
+    'body': 'ftsbound(${1:args})'
+
+  'ftsgui	Finance method':
+    'prefix': 'ftsgui	Finance method'
+    'body': 'ftsgui(${1:args})'
+
+  'ftsinfo	Finance method':
+    'prefix': 'ftsinfo	Finance method'
+    'body': 'ftsinfo(${1:args})'
+
+  'ftstool	Finance method':
+    'prefix': 'ftstool	Finance method'
+    'body': 'ftstool(${1:args})'
+
+  'ftsuniq	Finance method':
+    'prefix': 'ftsuniq	Finance method'
+    'body': 'ftsuniq(${1:args})'
+
+  'fvdisc	Finance method':
+    'prefix': 'fvdisc	Finance method'
+    'body': 'fvdisc(${1:args})'
+
+  'fvfix	Finance method':
+    'prefix': 'fvfix	Finance method'
+    'body': 'fvfix(${1:args})'
+
+  'fvvar	Finance method':
+    'prefix': 'fvvar	Finance method'
+    'body': 'fvvar(${1:args})'
+
+  'fwd2zero	Finance method':
+    'prefix': 'fwd2zero	Finance method'
+    'body': 'fwd2zero(${1:args})'
+
+  'gbm	Finance method':
+    'prefix': 'gbm	Finance method'
+    'body': 'gbm(${1:args})'
+
+  'geom2arith	Finance method':
+    'prefix': 'geom2arith	Finance method'
+    'body': 'geom2arith(${1:args})'
+
+  'getAssetMoments	Finance method':
+    'prefix': 'getAssetMoments	Finance method'
+    'body': 'getAssetMoments(${1:args})'
+
+  'getBounds	Finance method':
+    'prefix': 'getBounds	Finance method'
+    'body': 'getBounds(${1:args})'
+
+  'getBudget	Finance method':
+    'prefix': 'getBudget	Finance method'
+    'body': 'getBudget(${1:args})'
+
+  'getCosts	Finance method':
+    'prefix': 'getCosts	Finance method'
+    'body': 'getCosts(${1:args})'
+
+  'getEquality	Finance method':
+    'prefix': 'getEquality	Finance method'
+    'body': 'getEquality(${1:args})'
+
+  'getGroupRatio	Finance method':
+    'prefix': 'getGroupRatio	Finance method'
+    'body': 'getGroupRatio(${1:args})'
+
+  'getGroups	Finance method':
+    'prefix': 'getGroups	Finance method'
+    'body': 'getGroups(${1:args})'
+
+  'getInequality	Finance method':
+    'prefix': 'getInequality	Finance method'
+    'body': 'getInequality(${1:args})'
+
+  'getOneWayTurnover	Finance method':
+    'prefix': 'getOneWayTurnover	Finance method'
+    'body': 'getOneWayTurnover(${1:args})'
+
+  'getScenarios	Finance method':
+    'prefix': 'getScenarios	Finance method'
+    'body': 'getScenarios(${1:args})'
+
+  'getnameidx	Finance method':
+    'prefix': 'getnameidx	Finance method'
+    'body': 'getnameidx(${1:args})'
+
+  'heston	Finance method':
+    'prefix': 'heston	Finance method'
+    'body': 'heston(${1:args})'
+
+  'hhigh	Finance method':
+    'prefix': 'hhigh	Finance method'
+    'body': 'hhigh(${1:args})'
+
+  'highlow	Finance method':
+    'prefix': 'highlow	Finance method'
+    'body': 'highlow(${1:args})'
+
+  'holdings2weights	Finance method':
+    'prefix': 'holdings2weights	Finance method'
+    'body': 'holdings2weights(${1:args})'
+
+  'holidays	Finance method':
+    'prefix': 'holidays	Finance method'
+    'body': 'holidays(${1:args})'
+
+  'hwv	Finance method':
+    'prefix': 'hwv	Finance method'
+    'body': 'hwv(${1:args})'
+
+  'inforatio	Finance method':
+    'prefix': 'inforatio	Finance method'
+    'body': 'inforatio(${1:args})'
+
+  'interpolate	Finance method':
+    'prefix': 'interpolate	Finance method'
+    'body': 'interpolate(${1:args})'
+
+  'irr	Finance method':
+    'prefix': 'irr	Finance method'
+    'body': 'irr(${1:args})'
+
+  'isbusday	Finance method':
+    'prefix': 'isbusday	Finance method'
+    'body': 'isbusday(${1:args})'
+
+  'iscompatible	Finance method':
+    'prefix': 'iscompatible	Finance method'
+    'body': 'iscompatible(${1:args})'
+
+  'kagi	Finance method':
+    'prefix': 'kagi	Finance method'
+    'body': 'kagi(${1:args})'
+
+  'lagts	Finance method':
+    'prefix': 'lagts	Finance method'
+    'body': 'lagts(${1:args})'
+
+  'lbusdate	Finance method':
+    'prefix': 'lbusdate	Finance method'
+    'body': 'lbusdate(${1:args})'
+
+  'leadts	Finance method':
+    'prefix': 'leadts	Finance method'
+    'body': 'leadts(${1:args})'
+
+  'lifetableconv	Finance method':
+    'prefix': 'lifetableconv	Finance method'
+    'body': 'lifetableconv(${1:args})'
+
+  'lifetablefit	Finance method':
+    'prefix': 'lifetablefit	Finance method'
+    'body': 'lifetablefit(${1:args})'
+
+  'lifetablegen	Finance method':
+    'prefix': 'lifetablegen	Finance method'
+    'body': 'lifetablegen(${1:args})'
+
+  'linebreak	Finance method':
+    'prefix': 'linebreak	Finance method'
+    'body': 'linebreak(${1:args})'
+
+  'llow	Finance method':
+    'prefix': 'llow	Finance method'
+    'body': 'llow(${1:args})'
+
+  'lpm	Finance method':
+    'prefix': 'lpm	Finance method'
+    'body': 'lpm(${1:args})'
+
+  'lweekdate	Finance method':
+    'prefix': 'lweekdate	Finance method'
+    'body': 'lweekdate(${1:args})'
+
+  'm2xdate	Finance method':
+    'prefix': 'm2xdate	Finance method'
+    'body': 'm2xdate(${1:args})'
+
+  'macd	Finance method':
+    'prefix': 'macd	Finance method'
+    'body': 'macd(${1:args})'
+
+  'maxdrawdown	Finance method':
+    'prefix': 'maxdrawdown	Finance method'
+    'body': 'maxdrawdown(${1:args})'
+
+  'medprice	Finance method':
+    'prefix': 'medprice	Finance method'
+    'body': 'medprice(${1:args})'
+
+  'merge	Finance method':
+    'prefix': 'merge	Finance method'
+    'body': 'merge(${1:args})'
+
+  'mirr	Finance method':
+    'prefix': 'mirr	Finance method'
+    'body': 'mirr(${1:args})'
+
+  'modifybins	Finance method':
+    'prefix': 'modifybins	Finance method'
+    'body': 'modifybins(${1:args})'
+
+  'modifypredictor	Finance method':
+    'prefix': 'modifypredictor	Finance method'
+    'body': 'modifypredictor(${1:args})'
+
+  'months	Finance method':
+    'prefix': 'months	Finance method'
+    'body': 'months(${1:args})'
+
+  'movavg	Finance method':
+    'prefix': 'movavg	Finance method'
+    'body': 'movavg(${1:args})'
+
+  'mvnrfish	Finance method':
+    'prefix': 'mvnrfish	Finance method'
+    'body': 'mvnrfish(${1:args})'
+
+  'mvnrmle	Finance method':
+    'prefix': 'mvnrmle	Finance method'
+    'body': 'mvnrmle(${1:args})'
+
+  'mvnrobj	Finance method':
+    'prefix': 'mvnrobj	Finance method'
+    'body': 'mvnrobj(${1:args})'
+
+  'mvnrstd	Finance method':
+    'prefix': 'mvnrstd	Finance method'
+    'body': 'mvnrstd(${1:args})'
+
+  'nancov	Finance method':
+    'prefix': 'nancov	Finance method'
+    'body': 'nancov(${1:args})'
+
+  'nanmax	Finance method':
+    'prefix': 'nanmax	Finance method'
+    'body': 'nanmax(${1:args})'
+
+  'nanmean	Finance method':
+    'prefix': 'nanmean	Finance method'
+    'body': 'nanmean(${1:args})'
+
+  'nanmedian	Finance method':
+    'prefix': 'nanmedian	Finance method'
+    'body': 'nanmedian(${1:args})'
+
+  'nanmin	Finance method':
+    'prefix': 'nanmin	Finance method'
+    'body': 'nanmin(${1:args})'
+
+  'nanstd	Finance method':
+    'prefix': 'nanstd	Finance method'
+    'body': 'nanstd(${1:args})'
+
+  'nansum	Finance method':
+    'prefix': 'nansum	Finance method'
+    'body': 'nansum(${1:args})'
+
+  'nanvar	Finance method':
+    'prefix': 'nanvar	Finance method'
+    'body': 'nanvar(${1:args})'
+
+  'negvolidx	Finance method':
+    'prefix': 'negvolidx	Finance method'
+    'body': 'negvolidx(${1:args})'
+
+  'nomrr	Finance method':
+    'prefix': 'nomrr	Finance method'
+    'body': 'nomrr(${1:args})'
+
+  'nweekdate	Finance method':
+    'prefix': 'nweekdate	Finance method'
+    'body': 'nweekdate(${1:args})'
+
+  'nyseclosures	Finance method':
+    'prefix': 'nyseclosures	Finance method'
+    'body': 'nyseclosures(${1:args})'
+
+  'onbalvol	Finance method':
+    'prefix': 'onbalvol	Finance method'
+    'body': 'onbalvol(${1:args})'
+
+  'opprofit	Finance method':
+    'prefix': 'opprofit	Finance method'
+    'body': 'opprofit(${1:args})'
+
+  'payadv	Finance method':
+    'prefix': 'payadv	Finance method'
+    'body': 'payadv(${1:args})'
+
+  'payodd	Finance method':
+    'prefix': 'payodd	Finance method'
+    'body': 'payodd(${1:args})'
+
+  'payper	Finance method':
+    'prefix': 'payper	Finance method'
+    'body': 'payper(${1:args})'
+
+  'payuni	Finance method':
+    'prefix': 'payuni	Finance method'
+    'body': 'payuni(${1:args})'
+
+  'pcalims	Finance method':
+    'prefix': 'pcalims	Finance method'
+    'body': 'pcalims(${1:args})'
+
+  'pcgcomp	Finance method':
+    'prefix': 'pcgcomp	Finance method'
+    'body': 'pcgcomp(${1:args})'
+
+  'pcglims	Finance method':
+    'prefix': 'pcglims	Finance method'
+    'body': 'pcglims(${1:args})'
+
+  'pcpval	Finance method':
+    'prefix': 'pcpval	Finance method'
+    'body': 'pcpval(${1:args})'
+
+  'peravg	Finance method':
+    'prefix': 'peravg	Finance method'
+    'body': 'peravg(${1:args})'
+
+  'periodicreturns	Finance method':
+    'prefix': 'periodicreturns	Finance method'
+    'body': 'periodicreturns(${1:args})'
+
+  'plotFrontier	Finance method':
+    'prefix': 'plotFrontier	Finance method'
+    'body': 'plotFrontier(${1:args})'
+
+  'plotbins	Finance method':
+    'prefix': 'plotbins	Finance method'
+    'body': 'plotbins(${1:args})'
+
+  'pointfig	Finance method':
+    'prefix': 'pointfig	Finance method'
+    'body': 'pointfig(${1:args})'
+
+  'portalloc	Finance method':
+    'prefix': 'portalloc	Finance method'
+    'body': 'portalloc(${1:args})'
+
+  'portalpha	Finance method':
+    'prefix': 'portalpha	Finance method'
+    'body': 'portalpha(${1:args})'
+
+  'portcons	Finance method':
+    'prefix': 'portcons	Finance method'
+    'body': 'portcons(${1:args})'
+
+  'portopt	Finance method':
+    'prefix': 'portopt	Finance method'
+    'body': 'portopt(${1:args})'
+
+  'portrand	Finance method':
+    'prefix': 'portrand	Finance method'
+    'body': 'portrand(${1:args})'
+
+  'portror	Finance method':
+    'prefix': 'portror	Finance method'
+    'body': 'portror(${1:args})'
+
+  'portsim	Finance method':
+    'prefix': 'portsim	Finance method'
+    'body': 'portsim(${1:args})'
+
+  'portstats	Finance method':
+    'prefix': 'portstats	Finance method'
+    'body': 'portstats(${1:args})'
+
+  'portvar	Finance method':
+    'prefix': 'portvar	Finance method'
+    'body': 'portvar(${1:args})'
+
+  'portvrisk	Finance method':
+    'prefix': 'portvrisk	Finance method'
+    'body': 'portvrisk(${1:args})'
+
+  'posvolidx	Finance method':
+    'prefix': 'posvolidx	Finance method'
+    'body': 'posvolidx(${1:args})'
+
+  'prbyzero	Finance method':
+    'prefix': 'prbyzero	Finance method'
+    'body': 'prbyzero(${1:args})'
+
+  'prcroc	Finance method':
+    'prefix': 'prcroc	Finance method'
+    'body': 'prcroc(${1:args})'
+
+  'prdisc	Finance method':
+    'prefix': 'prdisc	Finance method'
+    'body': 'prdisc(${1:args})'
+
+  'predictorinfo	Finance method':
+    'prefix': 'predictorinfo	Finance method'
+    'body': 'predictorinfo(${1:args})'
+
+  'priceandvol	Finance method':
+    'prefix': 'priceandvol	Finance method'
+    'body': 'priceandvol(${1:args})'
+
+  'prmat	Finance method':
+    'prefix': 'prmat	Finance method'
+    'body': 'prmat(${1:args})'
+
+  'probdefault	Finance method':
+    'prefix': 'probdefault	Finance method'
+    'body': 'probdefault(${1:args})'
+
+  'prtbill	Finance method':
+    'prefix': 'prtbill	Finance method'
+    'body': 'prtbill(${1:args})'
+
+  'pvfix	Finance method':
+    'prefix': 'pvfix	Finance method'
+    'body': 'pvfix(${1:args})'
+
+  'pvtrend	Finance method':
+    'prefix': 'pvtrend	Finance method'
+    'body': 'pvtrend(${1:args})'
+
+  'pvvar	Finance method':
+    'prefix': 'pvvar	Finance method'
+    'body': 'pvvar(${1:args})'
+
+  'pyld2zero	Finance method':
+    'prefix': 'pyld2zero	Finance method'
+    'body': 'pyld2zero(${1:args})'
+
+  'renko	Finance method':
+    'prefix': 'renko	Finance method'
+    'body': 'renko(${1:args})'
+
+  'resamplets	Finance method':
+    'prefix': 'resamplets	Finance method'
+    'body': 'resamplets(${1:args})'
+
+  'ret2tick	Finance method':
+    'prefix': 'ret2tick	Finance method'
+    'body': 'ret2tick(${1:args})'
+
+  'rsindex	Finance method':
+    'prefix': 'rsindex	Finance method'
+    'body': 'rsindex(${1:args})'
+
+  'score	Finance method':
+    'prefix': 'score	Finance method'
+    'body': 'score(${1:args})'
+
+  'sde	Finance method':
+    'prefix': 'sde	Finance method'
+    'body': 'sde(${1:args})'
+
+  'sdeddo	Finance method':
+    'prefix': 'sdeddo	Finance method'
+    'body': 'sdeddo(${1:args})'
+
+  'sdeld	Finance method':
+    'prefix': 'sdeld	Finance method'
+    'body': 'sdeld(${1:args})'
+
+  'sdemrd	Finance method':
+    'prefix': 'sdemrd	Finance method'
+    'body': 'sdemrd(${1:args})'
+
+  'selectreturn	Finance method':
+    'prefix': 'selectreturn	Finance method'
+    'body': 'selectreturn(${1:args})'
+
+  'setAssetList	Finance method':
+    'prefix': 'setAssetList	Finance method'
+    'body': 'setAssetList(${1:args})'
+
+  'setAssetMoments	Finance method':
+    'prefix': 'setAssetMoments	Finance method'
+    'body': 'setAssetMoments(${1:args})'
+
+  'setBounds	Finance method':
+    'prefix': 'setBounds	Finance method'
+    'body': 'setBounds(${1:args})'
+
+  'setBudget	Finance method':
+    'prefix': 'setBudget	Finance method'
+    'body': 'setBudget(${1:args})'
+
+  'setCosts	Finance method':
+    'prefix': 'setCosts	Finance method'
+    'body': 'setCosts(${1:args})'
+
+  'setDefaultConstraints	Finance method':
+    'prefix': 'setDefaultConstraints	Finance method'
+    'body': 'setDefaultConstraints(${1:args})'
+
+  'setEquality	Finance method':
+    'prefix': 'setEquality	Finance method'
+    'body': 'setEquality(${1:args})'
+
+  'setGroupRatio	Finance method':
+    'prefix': 'setGroupRatio	Finance method'
+    'body': 'setGroupRatio(${1:args})'
+
+  'setGroups	Finance method':
+    'prefix': 'setGroups	Finance method'
+    'body': 'setGroups(${1:args})'
+
+  'setInequality	Finance method':
+    'prefix': 'setInequality	Finance method'
+    'body': 'setInequality(${1:args})'
+
+  'setInitPort	Finance method':
+    'prefix': 'setInitPort	Finance method'
+    'body': 'setInitPort(${1:args})'
+
+  'setOneWayTurnover	Finance method':
+    'prefix': 'setOneWayTurnover	Finance method'
+    'body': 'setOneWayTurnover(${1:args})'
+
+  'setProbabilityLevel	Finance method':
+    'prefix': 'setProbabilityLevel	Finance method'
+    'body': 'setProbabilityLevel(${1:args})'
+
+  'setScenarios	Finance method':
+    'prefix': 'setScenarios	Finance method'
+    'body': 'setScenarios(${1:args})'
+
+  'setSolver	Finance method':
+    'prefix': 'setSolver	Finance method'
+    'body': 'setSolver(${1:args})'
+
+  'setTrackingError	Finance method':
+    'prefix': 'setTrackingError	Finance method'
+    'body': 'setTrackingError(${1:args})'
+
+  'setTrackingPort	Finance method':
+    'prefix': 'setTrackingPort	Finance method'
+    'body': 'setTrackingPort(${1:args})'
+
+  'setTurnover	Finance method':
+    'prefix': 'setTurnover	Finance method'
+    'body': 'setTurnover(${1:args})'
+
+  'setmodel	Finance method':
+    'prefix': 'setmodel	Finance method'
+    'body': 'setmodel(${1:args})'
+
+  'sharpe	Finance method':
+    'prefix': 'sharpe	Finance method'
+    'body': 'sharpe(${1:args})'
+
+  'simByEuler	Finance method':
+    'prefix': 'simByEuler	Finance method'
+    'body': 'simByEuler(${1:args})'
+
+  'simBySolution	Finance method':
+    'prefix': 'simBySolution	Finance method'
+    'body': 'simBySolution(${1:args})'
+
+  'simulateNormalScenariosByData	Finance method':
+    'prefix': 'simulateNormalScenariosByData	Finance method'
+    'body': 'simulateNormalScenariosByData(${1:args})'
+
+  'simulateNormalScenariosByMoments	Finance method':
+    'prefix': 'simulateNormalScenariosByMoments	Finance method'
+    'body': 'simulateNormalScenariosByMoments(${1:args})'
+
+  'smoothts	Finance method':
+    'prefix': 'smoothts	Finance method'
+    'body': 'smoothts(${1:args})'
+
+  'sortfts	Finance method':
+    'prefix': 'sortfts	Finance method'
+    'body': 'sortfts(${1:args})'
+
+  'spctkd	Finance method':
+    'prefix': 'spctkd	Finance method'
+    'body': 'spctkd(${1:args})'
+
+  'stochosc	Finance method':
+    'prefix': 'stochosc	Finance method'
+    'body': 'stochosc(${1:args})'
+
+  'targetreturn	Finance method':
+    'prefix': 'targetreturn	Finance method'
+    'body': 'targetreturn(${1:args})'
+
+  'taxedrr	Finance method':
+    'prefix': 'taxedrr	Finance method'
+    'body': 'taxedrr(${1:args})'
+
+  'tbilldisc2yield	Finance method':
+    'prefix': 'tbilldisc2yield	Finance method'
+    'body': 'tbilldisc2yield(${1:args})'
+
+  'tbillprice	Finance method':
+    'prefix': 'tbillprice	Finance method'
+    'body': 'tbillprice(${1:args})'
+
+  'tbillrepo	Finance method':
+    'prefix': 'tbillrepo	Finance method'
+    'body': 'tbillrepo(${1:args})'
+
+  'tbillval01	Finance method':
+    'prefix': 'tbillval01	Finance method'
+    'body': 'tbillval01(${1:args})'
+
+  'tbillyield	Finance method':
+    'prefix': 'tbillyield	Finance method'
+    'body': 'tbillyield(${1:args})'
+
+  'tbillyield2disc	Finance method':
+    'prefix': 'tbillyield2disc	Finance method'
+    'body': 'tbillyield2disc(${1:args})'
+
+  'tbl2bond	Finance method':
+    'prefix': 'tbl2bond	Finance method'
+    'body': 'tbl2bond(${1:args})'
+
+  'thirdwednesday	Finance method':
+    'prefix': 'thirdwednesday	Finance method'
+    'body': 'thirdwednesday(${1:args})'
+
+  'thirtytwo2dec	Finance method':
+    'prefix': 'thirtytwo2dec	Finance method'
+    'body': 'thirtytwo2dec(${1:args})'
+
+  'tick2ret	Finance method':
+    'prefix': 'tick2ret	Finance method'
+    'body': 'tick2ret(${1:args})'
+
+  'toannual	Finance method':
+    'prefix': 'toannual	Finance method'
+    'body': 'toannual(${1:args})'
+
+  'todaily	Finance method':
+    'prefix': 'todaily	Finance method'
+    'body': 'todaily(${1:args})'
+
+  'today	Finance method':
+    'prefix': 'today	Finance method'
+    'body': 'today(${1:args})'
+
+  'todecimal	Finance method':
+    'prefix': 'todecimal	Finance method'
+    'body': 'todecimal(${1:args})'
+
+  'tomonthly	Finance method':
+    'prefix': 'tomonthly	Finance method'
+    'body': 'tomonthly(${1:args})'
+
+  'toquarterly	Finance method':
+    'prefix': 'toquarterly	Finance method'
+    'body': 'toquarterly(${1:args})'
+
+  'toquoted	Finance method':
+    'prefix': 'toquoted	Finance method'
+    'body': 'toquoted(${1:args})'
+
+  'tosemi	Finance method':
+    'prefix': 'tosemi	Finance method'
+    'body': 'tosemi(${1:args})'
+
+  'totalreturnprice	Finance method':
+    'prefix': 'totalreturnprice	Finance method'
+    'body': 'totalreturnprice(${1:args})'
+
+  'toweekly	Finance method':
+    'prefix': 'toweekly	Finance method'
+    'body': 'toweekly(${1:args})'
+
+  'tr2bonds	Finance method':
+    'prefix': 'tr2bonds	Finance method'
+    'body': 'tr2bonds(${1:args})'
+
+  'transprob	Finance method':
+    'prefix': 'transprob	Finance method'
+    'body': 'transprob(${1:args})'
+
+  'transprobbytotals	Finance method':
+    'prefix': 'transprobbytotals	Finance method'
+    'body': 'transprobbytotals(${1:args})'
+
+  'transprobfromthresholds	Finance method':
+    'prefix': 'transprobfromthresholds	Finance method'
+    'body': 'transprobfromthresholds(${1:args})'
+
+  'transprobgrouptotals	Finance method':
+    'prefix': 'transprobgrouptotals	Finance method'
+    'body': 'transprobgrouptotals(${1:args})'
+
+  'transprobprep	Finance method':
+    'prefix': 'transprobprep	Finance method'
+    'body': 'transprobprep(${1:args})'
+
+  'transprobtothresholds	Finance method':
+    'prefix': 'transprobtothresholds	Finance method'
+    'body': 'transprobtothresholds(${1:args})'
+
+  'ts2func	Finance method':
+    'prefix': 'ts2func	Finance method'
+    'body': 'ts2func(${1:args})'
+
+  'tsaccel	Finance method':
+    'prefix': 'tsaccel	Finance method'
+    'body': 'tsaccel(${1:args})'
+
+  'tsmom	Finance method':
+    'prefix': 'tsmom	Finance method'
+    'body': 'tsmom(${1:args})'
+
+  'tsmovavg	Finance method':
+    'prefix': 'tsmovavg	Finance method'
+    'body': 'tsmovavg(${1:args})'
+
+  'typprice	Finance method':
+    'prefix': 'typprice	Finance method'
+    'body': 'typprice(${1:args})'
+
+  'ugarch	Finance method':
+    'prefix': 'ugarch	Finance method'
+    'body': 'ugarch(${1:args})'
+
+  'ugarchllf	Finance method':
+    'prefix': 'ugarchllf	Finance method'
+    'body': 'ugarchllf(${1:args})'
+
+  'ugarchpred	Finance method':
+    'prefix': 'ugarchpred	Finance method'
+    'body': 'ugarchpred(${1:args})'
+
+  'ugarchsim	Finance method':
+    'prefix': 'ugarchsim	Finance method'
+    'body': 'ugarchsim(${1:args})'
+
+  'uicalendar	Finance method':
+    'prefix': 'uicalendar	Finance method'
+    'body': 'uicalendar(${1:args})'
+
+  'validatemodel	Finance method':
+    'prefix': 'validatemodel	Finance method'
+    'body': 'validatemodel(${1:args})'
+
+  'volarea	Finance method':
+    'prefix': 'volarea	Finance method'
+    'body': 'volarea(${1:args})'
+
+  'volroc	Finance method':
+    'prefix': 'volroc	Finance method'
+    'body': 'volroc(${1:args})'
+
+  'wclose	Finance method':
+    'prefix': 'wclose	Finance method'
+    'body': 'wclose(${1:args})'
+
+  'weeknum	Finance method':
+    'prefix': 'weeknum	Finance method'
+    'body': 'weeknum(${1:args})'
+
+  'weights2holdings	Finance method':
+    'prefix': 'weights2holdings	Finance method'
+    'body': 'weights2holdings(${1:args})'
+
+  'willad	Finance method':
+    'prefix': 'willad	Finance method'
+    'body': 'willad(${1:args})'
+
+  'willpctr	Finance method':
+    'prefix': 'willpctr	Finance method'
+    'body': 'willpctr(${1:args})'
+
+  'wrkdydif	Finance method':
+    'prefix': 'wrkdydif	Finance method'
+    'body': 'wrkdydif(${1:args})'
+
+  'x2mdate	Finance method':
+    'prefix': 'x2mdate	Finance method'
+    'body': 'x2mdate(${1:args})'
+
+  'xirr	Finance method':
+    'prefix': 'xirr	Finance method'
+    'body': 'xirr(${1:args})'
+
+  'yeardays	Finance method':
+    'prefix': 'yeardays	Finance method'
+    'body': 'yeardays(${1:args})'
+
+  'yearfrac	Finance method':
+    'prefix': 'yearfrac	Finance method'
+    'body': 'yearfrac(${1:args})'
+
+  'ylddisc	Finance method':
+    'prefix': 'ylddisc	Finance method'
+    'body': 'ylddisc(${1:args})'
+
+  'yldmat	Finance method':
+    'prefix': 'yldmat	Finance method'
+    'body': 'yldmat(${1:args})'
+
+  'yldtbill	Finance method':
+    'prefix': 'yldtbill	Finance method'
+    'body': 'yldtbill(${1:args})'
+
+  'zbtprice	Finance method':
+    'prefix': 'zbtprice	Finance method'
+    'body': 'zbtprice(${1:args})'
+
+  'zbtyield	Finance method':
+    'prefix': 'zbtyield	Finance method'
+    'body': 'zbtyield(${1:args})'
+
+  'zero2disc	Finance method':
+    'prefix': 'zero2disc	Finance method'
+    'body': 'zero2disc(${1:args})'
+
+  'zero2fwd	Finance method':
+    'prefix': 'zero2fwd	Finance method'
+    'body': 'zero2fwd(${1:args})'
+
+  'zero2pyld	Finance method':
+    'prefix': 'zero2pyld	Finance method'
+    'body': 'zero2pyld(${1:args})'

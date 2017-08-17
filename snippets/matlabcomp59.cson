@@ -1,0 +1,71 @@
+# matlabcomp59 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'color	Optim method':
+    'prefix': 'color	Optim method'
+    'body': 'color(${1:args})'
+
+  'fgoalattain	Optim method':
+    'prefix': 'fgoalattain	Optim method'
+    'body': 'fgoalattain(${1:args})'
+
+  'fmincon	Optim method':
+    'prefix': 'fmincon	Optim method'
+    'body': 'fmincon(${1:args})'
+
+  'fminimax	Optim method':
+    'prefix': 'fminimax	Optim method'
+    'body': 'fminimax(${1:args})'
+
+  'fminunc	Optim method':
+    'prefix': 'fminunc	Optim method'
+    'body': 'fminunc(${1:args})'
+
+  'fseminf	Optim method':
+    'prefix': 'fseminf	Optim method'
+    'body': 'fseminf(${1:args})'
+
+  'fsolve	Optim method':
+    'prefix': 'fsolve	Optim method'
+    'body': 'fsolve(${1:args})'
+
+  'fzmult	Optim method':
+    'prefix': 'fzmult	Optim method'
+    'body': 'fzmult(${1:args})'
+
+  'gangstr	Optim method':
+    'prefix': 'gangstr	Optim method'
+    'body': 'gangstr(${1:args})'
+
+  'intlinprog	Optim method':
+    'prefix': 'intlinprog	Optim method'
+    'body': 'intlinprog(${1:args})'
+
+  'linprog	Optim method':
+    'prefix': 'linprog	Optim method'
+    'body': 'linprog(${1:args})'
+
+  'lsqcurvefit	Optim method':
+    'prefix': 'lsqcurvefit	Optim method'
+    'body': 'lsqcurvefit(${1:args})'
+
+  'lsqlin	Optim method':
+    'prefix': 'lsqlin	Optim method'
+    'body': 'lsqlin(${1:args})'
+
+  'lsqnonlin	Optim method':
+    'prefix': 'lsqnonlin	Optim method'
+    'body': 'lsqnonlin(${1:args})'
+
+  'mpsread	Optim method':
+    'prefix': 'mpsread	Optim method'
+    'body': 'mpsread(${1:args})'
+
+  'optimtool	Optim method':
+    'prefix': 'optimtool	Optim method'
+    'body': 'optimtool(${1:args})'
+
+  'quadprog	Optim method':
+    'prefix': 'quadprog	Optim method'
+    'body': 'quadprog(${1:args})'

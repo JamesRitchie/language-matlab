@@ -1,0 +1,203 @@
+# matlabcomp55 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'addAnalogInputChannel	DAQ method':
+    'prefix': 'addAnalogInputChannel	DAQ method'
+    'body': 'addAnalogInputChannel(${1:args})'
+
+  'addAnalogOutputChannel	DAQ method':
+    'prefix': 'addAnalogOutputChannel	DAQ method'
+    'body': 'addAnalogOutputChannel(${1:args})'
+
+  'addAudioInputChannel	DAQ method':
+    'prefix': 'addAudioInputChannel	DAQ method'
+    'body': 'addAudioInputChannel(${1:args})'
+
+  'addAudioOutputChannel	DAQ method':
+    'prefix': 'addAudioOutputChannel	DAQ method'
+    'body': 'addAudioOutputChannel(${1:args})'
+
+  'addClockConnection	DAQ method':
+    'prefix': 'addClockConnection	DAQ method'
+    'body': 'addClockConnection(${1:args})'
+
+  'addCounterInputChannel	DAQ method':
+    'prefix': 'addCounterInputChannel	DAQ method'
+    'body': 'addCounterInputChannel(${1:args})'
+
+  'addCounterOutputChannel	DAQ method':
+    'prefix': 'addCounterOutputChannel	DAQ method'
+    'body': 'addCounterOutputChannel(${1:args})'
+
+  'addDigitalChannel	DAQ method':
+    'prefix': 'addDigitalChannel	DAQ method'
+    'body': 'addDigitalChannel(${1:args})'
+
+  'addFunctionGeneratorChannel	DAQ method':
+    'prefix': 'addFunctionGeneratorChannel	DAQ method'
+    'body': 'addFunctionGeneratorChannel(${1:args})'
+
+  'addTriggerConnection	DAQ method':
+    'prefix': 'addTriggerConnection	DAQ method'
+    'body': 'addTriggerConnection(${1:args})'
+
+  'addchannel	DAQ method':
+    'prefix': 'addchannel	DAQ method'
+    'body': 'addchannel(${1:args})'
+
+  'addline	DAQ method':
+    'prefix': 'addline	DAQ method'
+    'body': 'addline(${1:args})'
+
+  'addlistener	DAQ method':
+    'prefix': 'addlistener	DAQ method'
+    'body': 'addlistener(${1:args})'
+
+  'addmuxchannel	DAQ method':
+    'prefix': 'addmuxchannel	DAQ method'
+    'body': 'addmuxchannel(${1:args})'
+
+  'analoginput	DAQ method':
+    'prefix': 'analoginput	DAQ method'
+    'body': 'analoginput(${1:args})'
+
+  'analogoutput	DAQ method':
+    'prefix': 'analogoutput	DAQ method'
+    'body': 'analogoutput(${1:args})'
+
+  'binaryVectorToDecimal	DAQ method':
+    'prefix': 'binaryVectorToDecimal	DAQ method'
+    'body': 'binaryVectorToDecimal(${1:args})'
+
+  'binaryVectorToHex	DAQ method':
+    'prefix': 'binaryVectorToHex	DAQ method'
+    'body': 'binaryVectorToHex(${1:args})'
+
+  'binvec2dec	DAQ method':
+    'prefix': 'binvec2dec	DAQ method'
+    'body': 'binvec2dec(${1:args})'
+
+  'daq.createSession	DAQ method':
+    'prefix': 'daq.createSession	DAQ method'
+    'body': 'daq.createSession(${1:args})'
+
+  'daq.getDevices	DAQ method':
+    'prefix': 'daq.getDevices	DAQ method'
+    'body': 'daq.getDevices(${1:args})'
+
+  'daq.getVendors	DAQ method':
+    'prefix': 'daq.getVendors	DAQ method'
+    'body': 'daq.getVendors(${1:args})'
+
+  'daqhwinfo	DAQ method':
+    'prefix': 'daqhwinfo	DAQ method'
+    'body': 'daqhwinfo(${1:args})'
+
+  'dec2binvec	DAQ method':
+    'prefix': 'dec2binvec	DAQ method'
+    'body': 'dec2binvec(${1:args})'
+
+  'decimalToBinaryVector	DAQ method':
+    'prefix': 'decimalToBinaryVector	DAQ method'
+    'body': 'decimalToBinaryVector(${1:args})'
+
+  'digitalio	DAQ method':
+    'prefix': 'digitalio	DAQ method'
+    'body': 'digitalio(${1:args})'
+
+  'flushdata	DAQ method':
+    'prefix': 'flushdata	DAQ method'
+    'body': 'flushdata(${1:args})'
+
+  'getdata	DAQ method':
+    'prefix': 'getdata	DAQ method'
+    'body': 'getdata(${1:args})'
+
+  'getsample	DAQ method':
+    'prefix': 'getsample	DAQ method'
+    'body': 'getsample(${1:args})'
+
+  'hexToBinaryVector	DAQ method':
+    'prefix': 'hexToBinaryVector	DAQ method'
+    'body': 'hexToBinaryVector(${1:args})'
+
+  'inputSingleScan	DAQ method':
+    'prefix': 'inputSingleScan	DAQ method'
+    'body': 'inputSingleScan(${1:args})'
+
+  'isdioline	DAQ method':
+    'prefix': 'isdioline	DAQ method'
+    'body': 'isdioline(${1:args})'
+
+  'islogging	DAQ method':
+    'prefix': 'islogging	DAQ method'
+    'body': 'islogging(${1:args})'
+
+  'issending	DAQ method':
+    'prefix': 'issending	DAQ method'
+    'body': 'issending(${1:args})'
+
+  'outputSingleScan	DAQ method':
+    'prefix': 'outputSingleScan	DAQ method'
+    'body': 'outputSingleScan(${1:args})'
+
+  'peekdata	DAQ method':
+    'prefix': 'peekdata	DAQ method'
+    'body': 'peekdata(${1:args})'
+
+  'putdata	DAQ method':
+    'prefix': 'putdata	DAQ method'
+    'body': 'putdata(${1:args})'
+
+  'putsample	DAQ method':
+    'prefix': 'putsample	DAQ method'
+    'body': 'putsample(${1:args})'
+
+  'putvalue	DAQ method':
+    'prefix': 'putvalue	DAQ method'
+    'body': 'putvalue(${1:args})'
+
+  'queueOutputData	DAQ method':
+    'prefix': 'queueOutputData	DAQ method'
+    'body': 'queueOutputData(${1:args})'
+
+  'removeChannel	DAQ method':
+    'prefix': 'removeChannel	DAQ method'
+    'body': 'removeChannel(${1:args})'
+
+  'removeConnection	DAQ method':
+    'prefix': 'removeConnection	DAQ method'
+    'body': 'removeConnection(${1:args})'
+
+  'resetCounters	DAQ method':
+    'prefix': 'resetCounters	DAQ method'
+    'body': 'resetCounters(${1:args})'
+
+  'softscope	DAQ method':
+    'prefix': 'softscope	DAQ method'
+    'body': 'softscope(${1:args})'
+
+  'start	DAQ method':
+    'prefix': 'start	DAQ method'
+    'body': 'start(${1:args})'
+
+  'startBackground	DAQ method':
+    'prefix': 'startBackground	DAQ method'
+    'body': 'startBackground(${1:args})'
+
+  'startForeground	DAQ method':
+    'prefix': 'startForeground	DAQ method'
+    'body': 'startForeground(${1:args})'
+
+  'stop	DAQ method':
+    'prefix': 'stop	DAQ method'
+    'body': 'stop(${1:args})'
+
+  'trigger	DAQ method':
+    'prefix': 'trigger	DAQ method'
+    'body': 'trigger(${1:args})'
+
+  'wait	DAQ method':
+    'prefix': 'wait	DAQ method'
+    'body': 'wait(${1:args})'

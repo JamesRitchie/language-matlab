@@ -1,0 +1,23 @@
+# matlabcomp73 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'wlanGeneratorConfig	WLAN prop':
+    'prefix': 'wlanGeneratorConfig	WLAN prop'
+    'body': 'wlanGeneratorConfig'
+
+  'wlanHTConfig	WLAN prop':
+    'prefix': 'wlanHTConfig	WLAN prop'
+    'body': 'wlanHTConfig'
+
+  'wlanNonHTConfig	WLAN prop':
+    'prefix': 'wlanNonHTConfig	WLAN prop'
+    'body': 'wlanNonHTConfig'
+
+  'wlanRecoveryConfig	WLAN prop':
+    'prefix': 'wlanRecoveryConfig	WLAN prop'
+    'body': 'wlanRecoveryConfig'
+
+  'wlanVHTConfig	WLAN prop':
+    'prefix': 'wlanVHTConfig	WLAN prop'
+    'body': 'wlanVHTConfig'

@@ -1,0 +1,475 @@
+# matlabcomp65 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'CUDAKernel	DistComp method':
+    'prefix': 'CUDAKernel	DistComp method'
+    'body': 'CUDAKernel(${1:args})'
+
+  'Composite	DistComp method':
+    'prefix': 'Composite	DistComp method'
+    'body': 'Composite(${1:args})'
+
+  'GPUDevice	DistComp method':
+    'prefix': 'GPUDevice	DistComp method'
+    'body': 'GPUDevice(${1:args})'
+
+  'addAttachedFiles	DistComp method':
+    'prefix': 'addAttachedFiles	DistComp method'
+    'body': 'addAttachedFiles(${1:args})'
+
+  'batch	DistComp method':
+    'prefix': 'batch	DistComp method'
+    'body': 'batch(${1:args})'
+
+  'cancel	DistComp method':
+    'prefix': 'cancel	DistComp method'
+    'body': 'cancel(${1:args})'
+
+  'changePassword	DistComp method':
+    'prefix': 'changePassword	DistComp method'
+    'body': 'changePassword(${1:args})'
+
+  'classUnderlying	DistComp method':
+    'prefix': 'classUnderlying	DistComp method'
+    'body': 'classUnderlying(${1:args})'
+
+  'codistributed	DistComp method':
+    'prefix': 'codistributed	DistComp method'
+    'body': 'codistributed(${1:args})'
+
+  'codistributed.build	DistComp method':
+    'prefix': 'codistributed.build	DistComp method'
+    'body': 'codistributed.build(${1:args})'
+
+  'codistributed.cell	DistComp method':
+    'prefix': 'codistributed.cell	DistComp method'
+    'body': 'codistributed.cell(${1:args})'
+
+  'codistributed.colon	DistComp method':
+    'prefix': 'codistributed.colon	DistComp method'
+    'body': 'codistributed.colon(${1:args})'
+
+  'codistributed.spalloc	DistComp method':
+    'prefix': 'codistributed.spalloc	DistComp method'
+    'body': 'codistributed.spalloc(${1:args})'
+
+  'codistributed.speye	DistComp method':
+    'prefix': 'codistributed.speye	DistComp method'
+    'body': 'codistributed.speye(${1:args})'
+
+  'codistributed.sprand	DistComp method':
+    'prefix': 'codistributed.sprand	DistComp method'
+    'body': 'codistributed.sprand(${1:args})'
+
+  'codistributed.sprandn	DistComp method':
+    'prefix': 'codistributed.sprandn	DistComp method'
+    'body': 'codistributed.sprandn(${1:args})'
+
+  'codistributor	DistComp method':
+    'prefix': 'codistributor	DistComp method'
+    'body': 'codistributor(${1:args})'
+
+  'codistributor1d	DistComp method':
+    'prefix': 'codistributor1d	DistComp method'
+    'body': 'codistributor1d(${1:args})'
+
+  'codistributor2dbc	DistComp method':
+    'prefix': 'codistributor2dbc	DistComp method'
+    'body': 'codistributor2dbc(${1:args})'
+
+  'codistributor2dbc.defaultLabGrid	DistComp method':
+    'prefix': 'codistributor2dbc.defaultLabGrid	DistComp method'
+    'body': 'codistributor2dbc.defaultLabGrid(${1:args})'
+
+  'createCommunicatingJob	DistComp method':
+    'prefix': 'createCommunicatingJob	DistComp method'
+    'body': 'createCommunicatingJob(${1:args})'
+
+  'createJob	DistComp method':
+    'prefix': 'createJob	DistComp method'
+    'body': 'createJob(${1:args})'
+
+  'createTask	DistComp method':
+    'prefix': 'createTask	DistComp method'
+    'body': 'createTask(${1:args})'
+
+  'delete	DistComp method':
+    'prefix': 'delete	DistComp method'
+    'body': 'delete(${1:args})'
+
+  'demote	DistComp method':
+    'prefix': 'demote	DistComp method'
+    'body': 'demote(${1:args})'
+
+  'distributed	DistComp method':
+    'prefix': 'distributed	DistComp method'
+    'body': 'distributed(${1:args})'
+
+  'distributed.cell	DistComp method':
+    'prefix': 'distributed.cell	DistComp method'
+    'body': 'distributed.cell(${1:args})'
+
+  'distributed.spalloc	DistComp method':
+    'prefix': 'distributed.spalloc	DistComp method'
+    'body': 'distributed.spalloc(${1:args})'
+
+  'distributed.speye	DistComp method':
+    'prefix': 'distributed.speye	DistComp method'
+    'body': 'distributed.speye(${1:args})'
+
+  'distributed.sprand	DistComp method':
+    'prefix': 'distributed.sprand	DistComp method'
+    'body': 'distributed.sprand(${1:args})'
+
+  'distributed.sprandn	DistComp method':
+    'prefix': 'distributed.sprandn	DistComp method'
+    'body': 'distributed.sprandn(${1:args})'
+
+  'dload	DistComp method':
+    'prefix': 'dload	DistComp method'
+    'body': 'dload(${1:args})'
+
+  'dsave	DistComp method':
+    'prefix': 'dsave	DistComp method'
+    'body': 'dsave(${1:args})'
+
+  'existsOnGPU	DistComp method':
+    'prefix': 'existsOnGPU	DistComp method'
+    'body': 'existsOnGPU(${1:args})'
+
+  'fetchNext	DistComp method':
+    'prefix': 'fetchNext	DistComp method'
+    'body': 'fetchNext(${1:args})'
+
+  'fetchOutputs	DistComp method':
+    'prefix': 'fetchOutputs	DistComp method'
+    'body': 'fetchOutputs(${1:args})'
+
+  'findJob	DistComp method':
+    'prefix': 'findJob	DistComp method'
+    'body': 'findJob(${1:args})'
+
+  'findTask	DistComp method':
+    'prefix': 'findTask	DistComp method'
+    'body': 'findTask(${1:args})'
+
+  'gather	DistComp method':
+    'prefix': 'gather	DistComp method'
+    'body': 'gather(${1:args})'
+
+  'gcat	DistComp method':
+    'prefix': 'gcat	DistComp method'
+    'body': 'gcat(${1:args})'
+
+  'gcp	DistComp method':
+    'prefix': 'gcp	DistComp method'
+    'body': 'gcp(${1:args})'
+
+  'getAttachedFilesFolder	DistComp method':
+    'prefix': 'getAttachedFilesFolder	DistComp method'
+    'body': 'getAttachedFilesFolder(${1:args})'
+
+  'getCodistributor	DistComp method':
+    'prefix': 'getCodistributor	DistComp method'
+    'body': 'getCodistributor(${1:args})'
+
+  'getCurrentCluster	DistComp method':
+    'prefix': 'getCurrentCluster	DistComp method'
+    'body': 'getCurrentCluster(${1:args})'
+
+  'getCurrentJob	DistComp method':
+    'prefix': 'getCurrentJob	DistComp method'
+    'body': 'getCurrentJob(${1:args})'
+
+  'getCurrentTask	DistComp method':
+    'prefix': 'getCurrentTask	DistComp method'
+    'body': 'getCurrentTask(${1:args})'
+
+  'getCurrentWorker	DistComp method':
+    'prefix': 'getCurrentWorker	DistComp method'
+    'body': 'getCurrentWorker(${1:args})'
+
+  'getDebugLog	DistComp method':
+    'prefix': 'getDebugLog	DistComp method'
+    'body': 'getDebugLog(${1:args})'
+
+  'getJobClusterData	DistComp method':
+    'prefix': 'getJobClusterData	DistComp method'
+    'body': 'getJobClusterData(${1:args})'
+
+  'getJobFolder	DistComp method':
+    'prefix': 'getJobFolder	DistComp method'
+    'body': 'getJobFolder(${1:args})'
+
+  'getJobFolderOnCluster	DistComp method':
+    'prefix': 'getJobFolderOnCluster	DistComp method'
+    'body': 'getJobFolderOnCluster(${1:args})'
+
+  'getLocalPart	DistComp method':
+    'prefix': 'getLocalPart	DistComp method'
+    'body': 'getLocalPart(${1:args})'
+
+  'getLogLocation	DistComp method':
+    'prefix': 'getLogLocation	DistComp method'
+    'body': 'getLogLocation(${1:args})'
+
+  'globalIndices	DistComp method':
+    'prefix': 'globalIndices	DistComp method'
+    'body': 'globalIndices(${1:args})'
+
+  'gop	DistComp method':
+    'prefix': 'gop	DistComp method'
+    'body': 'gop(${1:args})'
+
+  'gplus	DistComp method':
+    'prefix': 'gplus	DistComp method'
+    'body': 'gplus(${1:args})'
+
+  'gpuArray	DistComp method':
+    'prefix': 'gpuArray	DistComp method'
+    'body': 'gpuArray(${1:args})'
+
+  'gpuDevice	DistComp method':
+    'prefix': 'gpuDevice	DistComp method'
+    'body': 'gpuDevice(${1:args})'
+
+  'gpuDeviceCount	DistComp method':
+    'prefix': 'gpuDeviceCount	DistComp method'
+    'body': 'gpuDeviceCount(${1:args})'
+
+  'gputimeit	DistComp method':
+    'prefix': 'gputimeit	DistComp method'
+    'body': 'gputimeit(${1:args})'
+
+  'isComplete	DistComp method':
+    'prefix': 'isComplete	DistComp method'
+    'body': 'isComplete(${1:args})'
+
+  'isaUnderlying	DistComp method':
+    'prefix': 'isaUnderlying	DistComp method'
+    'body': 'isaUnderlying(${1:args})'
+
+  'iscodistributed	DistComp method':
+    'prefix': 'iscodistributed	DistComp method'
+    'body': 'iscodistributed(${1:args})'
+
+  'isdistributed	DistComp method':
+    'prefix': 'isdistributed	DistComp method'
+    'body': 'isdistributed(${1:args})'
+
+  'isequal	DistComp method':
+    'prefix': 'isequal	DistComp method'
+    'body': 'isequal(${1:args})'
+
+  'isreplicated	DistComp method':
+    'prefix': 'isreplicated	DistComp method'
+    'body': 'isreplicated(${1:args})'
+
+  'jobStartup	DistComp method':
+    'prefix': 'jobStartup	DistComp method'
+    'body': 'jobStartup(${1:args})'
+
+  'labBarrier	DistComp method':
+    'prefix': 'labBarrier	DistComp method'
+    'body': 'labBarrier(${1:args})'
+
+  'labBroadcast	DistComp method':
+    'prefix': 'labBroadcast	DistComp method'
+    'body': 'labBroadcast(${1:args})'
+
+  'labProbe	DistComp method':
+    'prefix': 'labProbe	DistComp method'
+    'body': 'labProbe(${1:args})'
+
+  'labReceive	DistComp method':
+    'prefix': 'labReceive	DistComp method'
+    'body': 'labReceive(${1:args})'
+
+  'labSend	DistComp method':
+    'prefix': 'labSend	DistComp method'
+    'body': 'labSend(${1:args})'
+
+  'labSendReceive	DistComp method':
+    'prefix': 'labSendReceive	DistComp method'
+    'body': 'labSendReceive(${1:args})'
+
+  'labindex	DistComp method':
+    'prefix': 'labindex	DistComp method'
+    'body': 'labindex(${1:args})'
+
+  'listAutoAttachedFiles	DistComp method':
+    'prefix': 'listAutoAttachedFiles	DistComp method'
+    'body': 'listAutoAttachedFiles(${1:args})'
+
+  'logOut	DistComp method':
+    'prefix': 'logOut	DistComp method'
+    'body': 'logOut(${1:args})'
+
+  'mexcuda	DistComp method':
+    'prefix': 'mexcuda	DistComp method'
+    'body': 'mexcuda(${1:args})'
+
+  'mpiLibConf	DistComp method':
+    'prefix': 'mpiLibConf	DistComp method'
+    'body': 'mpiLibConf(${1:args})'
+
+  'mpiSettings	DistComp method':
+    'prefix': 'mpiSettings	DistComp method'
+    'body': 'mpiSettings(${1:args})'
+
+  'mpiprofile	DistComp method':
+    'prefix': 'mpiprofile	DistComp method'
+    'body': 'mpiprofile(${1:args})'
+
+  'numlabs	DistComp method':
+    'prefix': 'numlabs	DistComp method'
+    'body': 'numlabs(${1:args})'
+
+  'pagefun	DistComp method':
+    'prefix': 'pagefun	DistComp method'
+    'body': 'pagefun(${1:args})'
+
+  'parallel.Cluster	DistComp method':
+    'prefix': 'parallel.Cluster	DistComp method'
+    'body': 'parallel.Cluster(${1:args})'
+
+  'parallel.Job	DistComp method':
+    'prefix': 'parallel.Job	DistComp method'
+    'body': 'parallel.Job(${1:args})'
+
+  'parallel.Pool	DistComp method':
+    'prefix': 'parallel.Pool	DistComp method'
+    'body': 'parallel.Pool(${1:args})'
+
+  'parallel.Task	DistComp method':
+    'prefix': 'parallel.Task	DistComp method'
+    'body': 'parallel.Task(${1:args})'
+
+  'parallel.Worker	DistComp method':
+    'prefix': 'parallel.Worker	DistComp method'
+    'body': 'parallel.Worker(${1:args})'
+
+  'parallel.cluster.Hadoop	DistComp method':
+    'prefix': 'parallel.cluster.Hadoop	DistComp method'
+    'body': 'parallel.cluster.Hadoop(${1:args})'
+
+  'parallel.defaultClusterProfile	DistComp method':
+    'prefix': 'parallel.defaultClusterProfile	DistComp method'
+    'body': 'parallel.defaultClusterProfile(${1:args})'
+
+  'parallel.exportProfile	DistComp method':
+    'prefix': 'parallel.exportProfile	DistComp method'
+    'body': 'parallel.exportProfile(${1:args})'
+
+  'parallel.gpu.CUDAKernel	DistComp method':
+    'prefix': 'parallel.gpu.CUDAKernel	DistComp method'
+    'body': 'parallel.gpu.CUDAKernel(${1:args})'
+
+  'parallel.importProfile	DistComp method':
+    'prefix': 'parallel.importProfile	DistComp method'
+    'body': 'parallel.importProfile(${1:args})'
+
+  'parallel.pool.Constant	DistComp method':
+    'prefix': 'parallel.pool.Constant	DistComp method'
+    'body': 'parallel.pool.Constant(${1:args})'
+
+  'parcluster	DistComp method':
+    'prefix': 'parcluster	DistComp method'
+    'body': 'parcluster(${1:args})'
+
+  'parfeval	DistComp method':
+    'prefix': 'parfeval	DistComp method'
+    'body': 'parfeval(${1:args})'
+
+  'parfevalOnAll	DistComp method':
+    'prefix': 'parfevalOnAll	DistComp method'
+    'body': 'parfevalOnAll(${1:args})'
+
+  'parpool	DistComp method':
+    'prefix': 'parpool	DistComp method'
+    'body': 'parpool(${1:args})'
+
+  'pctRunDeployedCleanup	DistComp method':
+    'prefix': 'pctRunDeployedCleanup	DistComp method'
+    'body': 'pctRunDeployedCleanup(${1:args})'
+
+  'pctRunOnAll	DistComp method':
+    'prefix': 'pctRunOnAll	DistComp method'
+    'body': 'pctRunOnAll(${1:args})'
+
+  'pctconfig	DistComp method':
+    'prefix': 'pctconfig	DistComp method'
+    'body': 'pctconfig(${1:args})'
+
+  'pload	DistComp method':
+    'prefix': 'pload	DistComp method'
+    'body': 'pload(${1:args})'
+
+  'pmode	DistComp method':
+    'prefix': 'pmode	DistComp method'
+    'body': 'pmode(${1:args})'
+
+  'poolStartup	DistComp method':
+    'prefix': 'poolStartup	DistComp method'
+    'body': 'poolStartup(${1:args})'
+
+  'promote	DistComp method':
+    'prefix': 'promote	DistComp method'
+    'body': 'promote(${1:args})'
+
+  'psave	DistComp method':
+    'prefix': 'psave	DistComp method'
+    'body': 'psave(${1:args})'
+
+  'recreate	DistComp method':
+    'prefix': 'recreate	DistComp method'
+    'body': 'recreate(${1:args})'
+
+  'redistribute	DistComp method':
+    'prefix': 'redistribute	DistComp method'
+    'body': 'redistribute(${1:args})'
+
+  'resume	DistComp method':
+    'prefix': 'resume	DistComp method'
+    'body': 'resume(${1:args})'
+
+  'saveAsProfile	DistComp method':
+    'prefix': 'saveAsProfile	DistComp method'
+    'body': 'saveAsProfile(${1:args})'
+
+  'saveProfile	DistComp method':
+    'prefix': 'saveProfile	DistComp method'
+    'body': 'saveProfile(${1:args})'
+
+  'setConstantMemory	DistComp method':
+    'prefix': 'setConstantMemory	DistComp method'
+    'body': 'setConstantMemory(${1:args})'
+
+  'setJobClusterData	DistComp method':
+    'prefix': 'setJobClusterData	DistComp method'
+    'body': 'setJobClusterData(${1:args})'
+
+  'spmd	DistComp method':
+    'prefix': 'spmd	DistComp method'
+    'body': 'spmd(${1:args})'
+
+  'submit	DistComp method':
+    'prefix': 'submit	DistComp method'
+    'body': 'submit(${1:args})'
+
+  'taskFinish	DistComp method':
+    'prefix': 'taskFinish	DistComp method'
+    'body': 'taskFinish(${1:args})'
+
+  'taskStartup	DistComp method':
+    'prefix': 'taskStartup	DistComp method'
+    'body': 'taskStartup(${1:args})'
+
+  'updateAttachedFiles	DistComp method':
+    'prefix': 'updateAttachedFiles	DistComp method'
+    'body': 'updateAttachedFiles(${1:args})'
+
+  'wait	DistComp method':
+    'prefix': 'wait	DistComp method'
+    'body': 'wait(${1:args})'

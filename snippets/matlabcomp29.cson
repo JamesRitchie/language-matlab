@@ -1,0 +1,347 @@
+# matlabcomp29 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'adjoint	Symbolic method':
+    'prefix': 'adjoint	Symbolic method'
+    'body': 'adjoint(${1:args})'
+
+  'allMuPADNotebooks	Symbolic method':
+    'prefix': 'allMuPADNotebooks	Symbolic method'
+    'body': 'allMuPADNotebooks(${1:args})'
+
+  'assumptions	Symbolic method':
+    'prefix': 'assumptions	Symbolic method'
+    'body': 'assumptions(${1:args})'
+
+  'catalan	Symbolic method':
+    'prefix': 'catalan	Symbolic method'
+    'body': 'catalan(${1:args})'
+
+  'ccode	Symbolic method':
+    'prefix': 'ccode	Symbolic method'
+    'body': 'ccode(${1:args})'
+
+  'charpoly	Symbolic method':
+    'prefix': 'charpoly	Symbolic method'
+    'body': 'charpoly(${1:args})'
+
+  'chebyshevT	Symbolic method':
+    'prefix': 'chebyshevT	Symbolic method'
+    'body': 'chebyshevT(${1:args})'
+
+  'chebyshevU	Symbolic method':
+    'prefix': 'chebyshevU	Symbolic method'
+    'body': 'chebyshevU(${1:args})'
+
+  'children	Symbolic method':
+    'prefix': 'children	Symbolic method'
+    'body': 'children(${1:args})'
+
+  'clear	Symbolic method':
+    'prefix': 'clear	Symbolic method'
+    'body': 'clear(${1:args})'
+
+  'colspace	Symbolic method':
+    'prefix': 'colspace	Symbolic method'
+    'body': 'colspace(${1:args})'
+
+  'compose	Symbolic method':
+    'prefix': 'compose	Symbolic method'
+    'body': 'compose(${1:args})'
+
+  'coshint	Symbolic method':
+    'prefix': 'coshint	Symbolic method'
+    'body': 'coshint(${1:args})'
+
+  'cosint	Symbolic method':
+    'prefix': 'cosint	Symbolic method'
+    'body': 'cosint(${1:args})'
+
+  'daeFunction	Symbolic method':
+    'prefix': 'daeFunction	Symbolic method'
+    'body': 'daeFunction(${1:args})'
+
+  'digits	Symbolic method':
+    'prefix': 'digits	Symbolic method'
+    'body': 'digits(${1:args})'
+
+  'divisors	Symbolic method':
+    'prefix': 'divisors	Symbolic method'
+    'body': 'divisors(${1:args})'
+
+  'dsolve	Symbolic method':
+    'prefix': 'dsolve	Symbolic method'
+    'body': 'dsolve(${1:args})'
+
+  'ei	Symbolic method':
+    'prefix': 'ei	Symbolic method'
+    'body': 'ei(${1:args})'
+
+  'equationsToMatrix	Symbolic method':
+    'prefix': 'equationsToMatrix	Symbolic method'
+    'body': 'equationsToMatrix(${1:args})'
+
+  'eulergamma	Symbolic method':
+    'prefix': 'eulergamma	Symbolic method'
+    'body': 'eulergamma(${1:args})'
+
+  'evaluateMuPADNotebook	Symbolic method':
+    'prefix': 'evaluateMuPADNotebook	Symbolic method'
+    'body': 'evaluateMuPADNotebook(${1:args})'
+
+  'findDecoupledBlocks	Symbolic method':
+    'prefix': 'findDecoupledBlocks	Symbolic method'
+    'body': 'findDecoupledBlocks(${1:args})'
+
+  'finverse	Symbolic method':
+    'prefix': 'finverse	Symbolic method'
+    'body': 'finverse(${1:args})'
+
+  'fortran	Symbolic method':
+    'prefix': 'fortran	Symbolic method'
+    'body': 'fortran(${1:args})'
+
+  'fresnelc	Symbolic method':
+    'prefix': 'fresnelc	Symbolic method'
+    'body': 'fresnelc(${1:args})'
+
+  'fresnels	Symbolic method':
+    'prefix': 'fresnels	Symbolic method'
+    'body': 'fresnels(${1:args})'
+
+  'functionalDerivative	Symbolic method':
+    'prefix': 'functionalDerivative	Symbolic method'
+    'body': 'functionalDerivative(${1:args})'
+
+  'funtool	Symbolic method':
+    'prefix': 'funtool	Symbolic method'
+    'body': 'funtool(${1:args})'
+
+  'gegenbauerC	Symbolic method':
+    'prefix': 'gegenbauerC	Symbolic method'
+    'body': 'gegenbauerC(${1:args})'
+
+  'getVar	Symbolic method':
+    'prefix': 'getVar	Symbolic method'
+    'body': 'getVar(${1:args})'
+
+  'hermiteForm	Symbolic method':
+    'prefix': 'hermiteForm	Symbolic method'
+    'body': 'hermiteForm(${1:args})'
+
+  'hermiteH	Symbolic method':
+    'prefix': 'hermiteH	Symbolic method'
+    'body': 'hermiteH(${1:args})'
+
+  'horner	Symbolic method':
+    'prefix': 'horner	Symbolic method'
+    'body': 'horner(${1:args})'
+
+  'incidenceMatrix	Symbolic method':
+    'prefix': 'incidenceMatrix	Symbolic method'
+    'body': 'incidenceMatrix(${1:args})'
+
+  'isAlways	Symbolic method':
+    'prefix': 'isAlways	Symbolic method'
+    'body': 'isAlways(${1:args})'
+
+  'isLowIndexDAE	Symbolic method':
+    'prefix': 'isLowIndexDAE	Symbolic method'
+    'body': 'isLowIndexDAE(${1:args})'
+
+  'jacobiP	Symbolic method':
+    'prefix': 'jacobiP	Symbolic method'
+    'body': 'jacobiP(${1:args})'
+
+  'jordan	Symbolic method':
+    'prefix': 'jordan	Symbolic method'
+    'body': 'jordan(${1:args})'
+
+  'lambertw	Symbolic method':
+    'prefix': 'lambertw	Symbolic method'
+    'body': 'lambertw(${1:args})'
+
+  'latex	Symbolic method':
+    'prefix': 'latex	Symbolic method'
+    'body': 'latex(${1:args})'
+
+  'legendreP	Symbolic method':
+    'prefix': 'legendreP	Symbolic method'
+    'body': 'legendreP(${1:args})'
+
+  'logint	Symbolic method':
+    'prefix': 'logint	Symbolic method'
+    'body': 'logint(${1:args})'
+
+  'massMatrixForm	Symbolic method':
+    'prefix': 'massMatrixForm	Symbolic method'
+    'body': 'massMatrixForm(${1:args})'
+
+  'matlabFunction	Symbolic method':
+    'prefix': 'matlabFunction	Symbolic method'
+    'body': 'matlabFunction(${1:args})'
+
+  'matlabFunctionBlock	Symbolic method':
+    'prefix': 'matlabFunctionBlock	Symbolic method'
+    'body': 'matlabFunctionBlock(${1:args})'
+
+  'mfun	Symbolic method':
+    'prefix': 'mfun	Symbolic method'
+    'body': 'mfun(${1:args})'
+
+  'mfunlist	Symbolic method':
+    'prefix': 'mfunlist	Symbolic method'
+    'body': 'mfunlist(${1:args})'
+
+  'minpoly	Symbolic method':
+    'prefix': 'minpoly	Symbolic method'
+    'body': 'minpoly(${1:args})'
+
+  'mupad	Symbolic method':
+    'prefix': 'mupad	Symbolic method'
+    'body': 'mupad(${1:args})'
+
+  'mupadNotebookTitle	Symbolic method':
+    'prefix': 'mupadNotebookTitle	Symbolic method'
+    'body': 'mupadNotebookTitle(${1:args})'
+
+  'mupadwelcome	Symbolic method':
+    'prefix': 'mupadwelcome	Symbolic method'
+    'body': 'mupadwelcome(${1:args})'
+
+  'numden	Symbolic method':
+    'prefix': 'numden	Symbolic method'
+    'body': 'numden(${1:args})'
+
+  'odeFunction	Symbolic method':
+    'prefix': 'odeFunction	Symbolic method'
+    'body': 'odeFunction(${1:args})'
+
+  'odeToVectorField	Symbolic method':
+    'prefix': 'odeToVectorField	Symbolic method'
+    'body': 'odeToVectorField(${1:args})'
+
+  'openmn	Symbolic method':
+    'prefix': 'openmn	Symbolic method'
+    'body': 'openmn(${1:args})'
+
+  'openmu	Symbolic method':
+    'prefix': 'openmu	Symbolic method'
+    'body': 'openmu(${1:args})'
+
+  'openxvc	Symbolic method':
+    'prefix': 'openxvc	Symbolic method'
+    'body': 'openxvc(${1:args})'
+
+  'openxvz	Symbolic method':
+    'prefix': 'openxvz	Symbolic method'
+    'body': 'openxvz(${1:args})'
+
+  'poly2sym	Symbolic method':
+    'prefix': 'poly2sym	Symbolic method'
+    'body': 'poly2sym(${1:args})'
+
+  'pretty	Symbolic method':
+    'prefix': 'pretty	Symbolic method'
+    'body': 'pretty(${1:args})'
+
+  'quorem	Symbolic method':
+    'prefix': 'quorem	Symbolic method'
+    'body': 'quorem(${1:args})'
+
+  'reduceDAEIndex	Symbolic method':
+    'prefix': 'reduceDAEIndex	Symbolic method'
+    'body': 'reduceDAEIndex(${1:args})'
+
+  'reduceDAEToODE	Symbolic method':
+    'prefix': 'reduceDAEToODE	Symbolic method'
+    'body': 'reduceDAEToODE(${1:args})'
+
+  'reduceDifferentialOrder	Symbolic method':
+    'prefix': 'reduceDifferentialOrder	Symbolic method'
+    'body': 'reduceDifferentialOrder(${1:args})'
+
+  'reduceRedundancies	Symbolic method':
+    'prefix': 'reduceRedundancies	Symbolic method'
+    'body': 'reduceRedundancies(${1:args})'
+
+  'root	Symbolic method':
+    'prefix': 'root	Symbolic method'
+    'body': 'root(${1:args})'
+
+  'rsums	Symbolic method':
+    'prefix': 'rsums	Symbolic method'
+    'body': 'rsums(${1:args})'
+
+  'setVar	Symbolic method':
+    'prefix': 'setVar	Symbolic method'
+    'body': 'setVar(${1:args})'
+
+  'simscapeEquation	Symbolic method':
+    'prefix': 'simscapeEquation	Symbolic method'
+    'body': 'simscapeEquation(${1:args})'
+
+  'sinhint	Symbolic method':
+    'prefix': 'sinhint	Symbolic method'
+    'body': 'sinhint(${1:args})'
+
+  'sinint	Symbolic method':
+    'prefix': 'sinint	Symbolic method'
+    'body': 'sinint(${1:args})'
+
+  'smithForm	Symbolic method':
+    'prefix': 'smithForm	Symbolic method'
+    'body': 'smithForm(${1:args})'
+
+  'ssinint	Symbolic method':
+    'prefix': 'ssinint	Symbolic method'
+    'body': 'ssinint(${1:args})'
+
+  'subexpr	Symbolic method':
+    'prefix': 'subexpr	Symbolic method'
+    'body': 'subexpr(${1:args})'
+
+  'sym	Symbolic method':
+    'prefix': 'sym	Symbolic method'
+    'body': 'sym(${1:args})'
+
+  'sym2poly	Symbolic method':
+    'prefix': 'sym2poly	Symbolic method'
+    'body': 'sym2poly(${1:args})'
+
+  'symengine	Symbolic method':
+    'prefix': 'symengine	Symbolic method'
+    'body': 'symengine(${1:args})'
+
+  'symfun	Symbolic method':
+    'prefix': 'symfun	Symbolic method'
+    'body': 'symfun(${1:args})'
+
+  'sympref	Symbolic method':
+    'prefix': 'sympref	Symbolic method'
+    'body': 'sympref(${1:args})'
+
+  'symprod	Symbolic method':
+    'prefix': 'symprod	Symbolic method'
+    'body': 'symprod(${1:args})'
+
+  'syms	Symbolic method':
+    'prefix': 'syms	Symbolic method'
+    'body': 'syms(${1:args})'
+
+  'symsum	Symbolic method':
+    'prefix': 'symsum	Symbolic method'
+    'body': 'symsum(${1:args})'
+
+  'taylortool	Symbolic method':
+    'prefix': 'taylortool	Symbolic method'
+    'body': 'taylortool(${1:args})'
+
+  'vpa	Symbolic method':
+    'prefix': 'vpa	Symbolic method'
+    'body': 'vpa(${1:args})'
+
+  'vpasolve	Symbolic method':
+    'prefix': 'vpasolve	Symbolic method'
+    'body': 'vpasolve(${1:args})'

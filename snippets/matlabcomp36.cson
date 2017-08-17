@@ -1,0 +1,283 @@
+# matlabcomp36 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'addgroup	OPC method':
+    'prefix': 'addgroup	OPC method'
+    'body': 'addgroup(${1:args})'
+
+  'additem	OPC method':
+    'prefix': 'additem	OPC method'
+    'body': 'additem(${1:args})'
+
+  'arrayHasSameTimeStamp	OPC method':
+    'prefix': 'arrayHasSameTimeStamp	OPC method'
+    'body': 'arrayHasSameTimeStamp(${1:args})'
+
+  'browsenamespace	OPC method':
+    'prefix': 'browsenamespace	OPC method'
+    'body': 'browsenamespace(${1:args})'
+
+  'cancelasync	OPC method':
+    'prefix': 'cancelasync	OPC method'
+    'body': 'cancelasync(${1:args})'
+
+  'cleareventlog	OPC method':
+    'prefix': 'cleareventlog	OPC method'
+    'body': 'cleareventlog(${1:args})'
+
+  'clonegroup	OPC method':
+    'prefix': 'clonegroup	OPC method'
+    'body': 'clonegroup(${1:args})'
+
+  'connect	OPC method':
+    'prefix': 'connect	OPC method'
+    'body': 'connect(${1:args})'
+
+  'disconnect	OPC method':
+    'prefix': 'disconnect	OPC method'
+    'body': 'disconnect(${1:args})'
+
+  'findNodeById	OPC method':
+    'prefix': 'findNodeById	OPC method'
+    'body': 'findNodeById(${1:args})'
+
+  'flatnamespace	OPC method':
+    'prefix': 'flatnamespace	OPC method'
+    'body': 'flatnamespace(${1:args})'
+
+  'genslread	OPC method':
+    'prefix': 'genslread	OPC method'
+    'body': 'genslread(${1:args})'
+
+  'genslwrite	OPC method':
+    'prefix': 'genslwrite	OPC method'
+    'body': 'genslwrite(${1:args})'
+
+  'getDescription	OPC method':
+    'prefix': 'getDescription	OPC method'
+    'body': 'getDescription(${1:args})'
+
+  'getIDFromname	OPC method':
+    'prefix': 'getIDFromname	OPC method'
+    'body': 'getIDFromname(${1:args})'
+
+  'getIDList	OPC method':
+    'prefix': 'getIDList	OPC method'
+    'body': 'getIDList(${1:args})'
+
+  'getIndexFromID	OPC method':
+    'prefix': 'getIndexFromID	OPC method'
+    'body': 'getIndexFromID(${1:args})'
+
+  'getNameList	OPC method':
+    'prefix': 'getNameList	OPC method'
+    'body': 'getNameList(${1:args})'
+
+  'getNameSpace	OPC method':
+    'prefix': 'getNameSpace	OPC method'
+    'body': 'getNameSpace(${1:args})'
+
+  'getNamespace	OPC method':
+    'prefix': 'getNamespace	OPC method'
+    'body': 'getNamespace(${1:args})'
+
+  'getnamespace	OPC method':
+    'prefix': 'getnamespace	OPC method'
+    'body': 'getnamespace(${1:args})'
+
+  'isConnected	OPC method':
+    'prefix': 'isConnected	OPC method'
+    'body': 'isConnected(${1:args})'
+
+  'isObjectType	OPC method':
+    'prefix': 'isObjectType	OPC method'
+    'body': 'isObjectType(${1:args})'
+
+  'makepublic	OPC method':
+    'prefix': 'makepublic	OPC method'
+    'body': 'makepublic(${1:args})'
+
+  'opc.daQualityString	OPC method':
+    'prefix': 'opc.daQualityString	OPC method'
+    'body': 'opc.daQualityString(${1:args})'
+
+  'opc.daSupport	OPC method':
+    'prefix': 'opc.daSupport	OPC method'
+    'body': 'opc.daSupport(${1:args})'
+
+  'opc.getDateDisplayFormat	OPC method':
+    'prefix': 'opc.getDateDisplayFormat	OPC method'
+    'body': 'opc.getDateDisplayFormat(${1:args})'
+
+  'opc.hda.Client	OPC method':
+    'prefix': 'opc.hda.Client	OPC method'
+    'body': 'opc.hda.Client(${1:args})'
+
+  'opc.hda.getServerInfo	OPC method':
+    'prefix': 'opc.hda.getServerInfo	OPC method'
+    'body': 'opc.hda.getServerInfo(${1:args})'
+
+  'opc.hda.reset	OPC method':
+    'prefix': 'opc.hda.reset	OPC method'
+    'body': 'opc.hda.reset(${1:args})'
+
+  'opc.hdaQualityString	OPC method':
+    'prefix': 'opc.hdaQualityString	OPC method'
+    'body': 'opc.hdaQualityString(${1:args})'
+
+  'opc.hdaSupport	OPC method':
+    'prefix': 'opc.hdaSupport	OPC method'
+    'body': 'opc.hdaSupport(${1:args})'
+
+  'opc.setDateDisplayFormat	OPC method':
+    'prefix': 'opc.setDateDisplayFormat	OPC method'
+    'body': 'opc.setDateDisplayFormat(${1:args})'
+
+  'opcDataAccessExplorer	OPC method':
+    'prefix': 'opcDataAccessExplorer	OPC method'
+    'body': 'opcDataAccessExplorer(${1:args})'
+
+  'opccallback	OPC method':
+    'prefix': 'opccallback	OPC method'
+    'body': 'opccallback(${1:args})'
+
+  'opcda	OPC method':
+    'prefix': 'opcda	OPC method'
+    'body': 'opcda(${1:args})'
+
+  'opcfind	OPC method':
+    'prefix': 'opcfind	OPC method'
+    'body': 'opcfind(${1:args})'
+
+  'opchda	OPC method':
+    'prefix': 'opchda	OPC method'
+    'body': 'opchda(${1:args})'
+
+  'opchdaserverinfo	OPC method':
+    'prefix': 'opchdaserverinfo	OPC method'
+    'body': 'opchdaserverinfo(${1:args})'
+
+  'opchelp	OPC method':
+    'prefix': 'opchelp	OPC method'
+    'body': 'opchelp(${1:args})'
+
+  'opcqid	OPC method':
+    'prefix': 'opcqid	OPC method'
+    'body': 'opcqid(${1:args})'
+
+  'opcqparts	OPC method':
+    'prefix': 'opcqparts	OPC method'
+    'body': 'opcqparts(${1:args})'
+
+  'opcqstr	OPC method':
+    'prefix': 'opcqstr	OPC method'
+    'body': 'opcqstr(${1:args})'
+
+  'opcread	OPC method':
+    'prefix': 'opcread	OPC method'
+    'body': 'opcread(${1:args})'
+
+  'opcregister	OPC method':
+    'prefix': 'opcregister	OPC method'
+    'body': 'opcregister(${1:args})'
+
+  'opcreset	OPC method':
+    'prefix': 'opcreset	OPC method'
+    'body': 'opcreset(${1:args})'
+
+  'opcserverinfo	OPC method':
+    'prefix': 'opcserverinfo	OPC method'
+    'body': 'opcserverinfo(${1:args})'
+
+  'opcstruct2array	OPC method':
+    'prefix': 'opcstruct2array	OPC method'
+    'body': 'opcstruct2array(${1:args})'
+
+  'opcstruct2timeseries	OPC method':
+    'prefix': 'opcstruct2timeseries	OPC method'
+    'body': 'opcstruct2timeseries(${1:args})'
+
+  'opcsupport	OPC method':
+    'prefix': 'opcsupport	OPC method'
+    'body': 'opcsupport(${1:args})'
+
+  'opcua	OPC method':
+    'prefix': 'opcua	OPC method'
+    'body': 'opcua(${1:args})'
+
+  'opcuanode	OPC method':
+    'prefix': 'opcuanode	OPC method'
+    'body': 'opcuanode(${1:args})'
+
+  'openosf	OPC method':
+    'prefix': 'openosf	OPC method'
+    'body': 'openosf(${1:args})'
+
+  'readAtTime	OPC method':
+    'prefix': 'readAtTime	OPC method'
+    'body': 'readAtTime(${1:args})'
+
+  'readHistory	OPC method':
+    'prefix': 'readHistory	OPC method'
+    'body': 'readHistory(${1:args})'
+
+  'readItemAttributes	OPC method':
+    'prefix': 'readItemAttributes	OPC method'
+    'body': 'readItemAttributes(${1:args})'
+
+  'readModified	OPC method':
+    'prefix': 'readModified	OPC method'
+    'body': 'readModified(${1:args})'
+
+  'readProcessed	OPC method':
+    'prefix': 'readProcessed	OPC method'
+    'body': 'readProcessed(${1:args})'
+
+  'readRaw	OPC method':
+    'prefix': 'readRaw	OPC method'
+    'body': 'readRaw(${1:args})'
+
+  'readValue	OPC method':
+    'prefix': 'readValue	OPC method'
+    'body': 'readValue(${1:args})'
+
+  'removepublicgroup	OPC method':
+    'prefix': 'removepublicgroup	OPC method'
+    'body': 'removepublicgroup(${1:args})'
+
+  'serveritemprops	OPC method':
+    'prefix': 'serveritemprops	OPC method'
+    'body': 'serveritemprops(${1:args})'
+
+  'serveritems	OPC method':
+    'prefix': 'serveritems	OPC method'
+    'body': 'serveritems(${1:args})'
+
+  'showValues	OPC method':
+    'prefix': 'showValues	OPC method'
+    'body': 'showValues(${1:args})'
+
+  'showopcevents	OPC method':
+    'prefix': 'showopcevents	OPC method'
+    'body': 'showopcevents(${1:args})'
+
+  'trend	OPC method':
+    'prefix': 'trend	OPC method'
+    'body': 'trend(${1:args})'
+
+  'tsintersect	OPC method':
+    'prefix': 'tsintersect	OPC method'
+    'body': 'tsintersect(${1:args})'
+
+  'tsunion	OPC method':
+    'prefix': 'tsunion	OPC method'
+    'body': 'tsunion(${1:args})'
+
+  'writeValue	OPC method':
+    'prefix': 'writeValue	OPC method'
+    'body': 'writeValue(${1:args})'
+
+  'writeasync	OPC method':
+    'prefix': 'writeasync	OPC method'
+    'body': 'writeasync(${1:args})'

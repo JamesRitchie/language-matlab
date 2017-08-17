@@ -1,0 +1,499 @@
+# matlabcomp2 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'mlreportgen.dom.AllowBreakAcrossPages	RptGen class':
+    'prefix': 'mlreportgen.dom.AllowBreakAcrossPages	RptGen class'
+    'body': 'mlreportgen.dom.AllowBreakAcrossPages'
+
+  'mlreportgen.dom.AutoNumber	RptGen class':
+    'prefix': 'mlreportgen.dom.AutoNumber	RptGen class'
+    'body': 'mlreportgen.dom.AutoNumber'
+
+  'mlreportgen.dom.AutoNumberStream	RptGen class':
+    'prefix': 'mlreportgen.dom.AutoNumberStream	RptGen class'
+    'body': 'mlreportgen.dom.AutoNumberStream'
+
+  'mlreportgen.dom.BackgroundColor	RptGen class':
+    'prefix': 'mlreportgen.dom.BackgroundColor	RptGen class'
+    'body': 'mlreportgen.dom.BackgroundColor'
+
+  'mlreportgen.dom.Bold	RptGen class':
+    'prefix': 'mlreportgen.dom.Bold	RptGen class'
+    'body': 'mlreportgen.dom.Bold'
+
+  'mlreportgen.dom.Border	RptGen class':
+    'prefix': 'mlreportgen.dom.Border	RptGen class'
+    'body': 'mlreportgen.dom.Border'
+
+  'mlreportgen.dom.BorderCollapse	RptGen class':
+    'prefix': 'mlreportgen.dom.BorderCollapse	RptGen class'
+    'body': 'mlreportgen.dom.BorderCollapse'
+
+  'mlreportgen.dom.CharEntity	RptGen class':
+    'prefix': 'mlreportgen.dom.CharEntity	RptGen class'
+    'body': 'mlreportgen.dom.CharEntity'
+
+  'mlreportgen.dom.ColSep	RptGen class':
+    'prefix': 'mlreportgen.dom.ColSep	RptGen class'
+    'body': 'mlreportgen.dom.ColSep'
+
+  'mlreportgen.dom.Color	RptGen class':
+    'prefix': 'mlreportgen.dom.Color	RptGen class'
+    'body': 'mlreportgen.dom.Color'
+
+  'mlreportgen.dom.Container	RptGen class':
+    'prefix': 'mlreportgen.dom.Container	RptGen class'
+    'body': 'mlreportgen.dom.Container'
+
+  'mlreportgen.dom.CoreProperties	RptGen class':
+    'prefix': 'mlreportgen.dom.CoreProperties	RptGen class'
+    'body': 'mlreportgen.dom.CoreProperties'
+
+  'mlreportgen.dom.CounterInc	RptGen class':
+    'prefix': 'mlreportgen.dom.CounterInc	RptGen class'
+    'body': 'mlreportgen.dom.CounterInc'
+
+  'mlreportgen.dom.CounterReset	RptGen class':
+    'prefix': 'mlreportgen.dom.CounterReset	RptGen class'
+    'body': 'mlreportgen.dom.CounterReset'
+
+  'mlreportgen.dom.CustomAttribute	RptGen class':
+    'prefix': 'mlreportgen.dom.CustomAttribute	RptGen class'
+    'body': 'mlreportgen.dom.CustomAttribute'
+
+  'mlreportgen.dom.CustomElement	RptGen class':
+    'prefix': 'mlreportgen.dom.CustomElement	RptGen class'
+    'body': 'mlreportgen.dom.CustomElement'
+
+  'mlreportgen.dom.CustomText	RptGen class':
+    'prefix': 'mlreportgen.dom.CustomText	RptGen class'
+    'body': 'mlreportgen.dom.CustomText'
+
+  'mlreportgen.dom.DOCXPageFooter	RptGen class':
+    'prefix': 'mlreportgen.dom.DOCXPageFooter	RptGen class'
+    'body': 'mlreportgen.dom.DOCXPageFooter'
+
+  'mlreportgen.dom.DOCXPageHeader	RptGen class':
+    'prefix': 'mlreportgen.dom.DOCXPageHeader	RptGen class'
+    'body': 'mlreportgen.dom.DOCXPageHeader'
+
+  'mlreportgen.dom.DOCXPageMargins	RptGen class':
+    'prefix': 'mlreportgen.dom.DOCXPageMargins	RptGen class'
+    'body': 'mlreportgen.dom.DOCXPageMargins'
+
+  'mlreportgen.dom.DOCXPageSize	RptGen class':
+    'prefix': 'mlreportgen.dom.DOCXPageSize	RptGen class'
+    'body': 'mlreportgen.dom.DOCXPageSize'
+
+  'mlreportgen.dom.DOCXRawFormat	RptGen class':
+    'prefix': 'mlreportgen.dom.DOCXRawFormat	RptGen class'
+    'body': 'mlreportgen.dom.DOCXRawFormat'
+
+  'mlreportgen.dom.DOCXSection	RptGen class':
+    'prefix': 'mlreportgen.dom.DOCXSection	RptGen class'
+    'body': 'mlreportgen.dom.DOCXSection'
+
+  'mlreportgen.dom.DOCXSubDoc	RptGen class':
+    'prefix': 'mlreportgen.dom.DOCXSubDoc	RptGen class'
+    'body': 'mlreportgen.dom.DOCXSubDoc'
+
+  'mlreportgen.dom.DebugMessage	RptGen class':
+    'prefix': 'mlreportgen.dom.DebugMessage	RptGen class'
+    'body': 'mlreportgen.dom.DebugMessage'
+
+  'mlreportgen.dom.Display	RptGen class':
+    'prefix': 'mlreportgen.dom.Display	RptGen class'
+    'body': 'mlreportgen.dom.Display'
+
+  'mlreportgen.dom.Document	RptGen class':
+    'prefix': 'mlreportgen.dom.Document	RptGen class'
+    'body': 'mlreportgen.dom.Document'
+
+  'mlreportgen.dom.DocumentPart	RptGen class':
+    'prefix': 'mlreportgen.dom.DocumentPart	RptGen class'
+    'body': 'mlreportgen.dom.DocumentPart'
+
+  'mlreportgen.dom.ErrorMessage	RptGen class':
+    'prefix': 'mlreportgen.dom.ErrorMessage	RptGen class'
+    'body': 'mlreportgen.dom.ErrorMessage'
+
+  'mlreportgen.dom.ExternalLink	RptGen class':
+    'prefix': 'mlreportgen.dom.ExternalLink	RptGen class'
+    'body': 'mlreportgen.dom.ExternalLink'
+
+  'mlreportgen.dom.FirstLineIndent	RptGen class':
+    'prefix': 'mlreportgen.dom.FirstLineIndent	RptGen class'
+    'body': 'mlreportgen.dom.FirstLineIndent'
+
+  'mlreportgen.dom.FlowDirection	RptGen class':
+    'prefix': 'mlreportgen.dom.FlowDirection	RptGen class'
+    'body': 'mlreportgen.dom.FlowDirection'
+
+  'mlreportgen.dom.FontFamily	RptGen class':
+    'prefix': 'mlreportgen.dom.FontFamily	RptGen class'
+    'body': 'mlreportgen.dom.FontFamily'
+
+  'mlreportgen.dom.FontSize	RptGen class':
+    'prefix': 'mlreportgen.dom.FontSize	RptGen class'
+    'body': 'mlreportgen.dom.FontSize'
+
+  'mlreportgen.dom.FormalTable	RptGen class':
+    'prefix': 'mlreportgen.dom.FormalTable	RptGen class'
+    'body': 'mlreportgen.dom.FormalTable'
+
+  'mlreportgen.dom.Group	RptGen class':
+    'prefix': 'mlreportgen.dom.Group	RptGen class'
+    'body': 'mlreportgen.dom.Group'
+
+  'mlreportgen.dom.HAlign	RptGen class':
+    'prefix': 'mlreportgen.dom.HAlign	RptGen class'
+    'body': 'mlreportgen.dom.HAlign'
+
+  'mlreportgen.dom.HTML	RptGen class':
+    'prefix': 'mlreportgen.dom.HTML	RptGen class'
+    'body': 'mlreportgen.dom.HTML'
+
+  'mlreportgen.dom.HTMLFile	RptGen class':
+    'prefix': 'mlreportgen.dom.HTMLFile	RptGen class'
+    'body': 'mlreportgen.dom.HTMLFile'
+
+  'mlreportgen.dom.Heading	RptGen class':
+    'prefix': 'mlreportgen.dom.Heading	RptGen class'
+    'body': 'mlreportgen.dom.Heading'
+
+  'mlreportgen.dom.Height	RptGen class':
+    'prefix': 'mlreportgen.dom.Height	RptGen class'
+    'body': 'mlreportgen.dom.Height'
+
+  'mlreportgen.dom.HorizontalRule	RptGen class':
+    'prefix': 'mlreportgen.dom.HorizontalRule	RptGen class'
+    'body': 'mlreportgen.dom.HorizontalRule'
+
+  'mlreportgen.dom.Image	RptGen class':
+    'prefix': 'mlreportgen.dom.Image	RptGen class'
+    'body': 'mlreportgen.dom.Image'
+
+  'mlreportgen.dom.ImageArea	RptGen class':
+    'prefix': 'mlreportgen.dom.ImageArea	RptGen class'
+    'body': 'mlreportgen.dom.ImageArea'
+
+  'mlreportgen.dom.ImageMap	RptGen class':
+    'prefix': 'mlreportgen.dom.ImageMap	RptGen class'
+    'body': 'mlreportgen.dom.ImageMap'
+
+  'mlreportgen.dom.InnerMargin	RptGen class':
+    'prefix': 'mlreportgen.dom.InnerMargin	RptGen class'
+    'body': 'mlreportgen.dom.InnerMargin'
+
+  'mlreportgen.dom.InternalLink	RptGen class':
+    'prefix': 'mlreportgen.dom.InternalLink	RptGen class'
+    'body': 'mlreportgen.dom.InternalLink'
+
+  'mlreportgen.dom.Italic	RptGen class':
+    'prefix': 'mlreportgen.dom.Italic	RptGen class'
+    'body': 'mlreportgen.dom.Italic'
+
+  'mlreportgen.dom.KeepLinesTogether	RptGen class':
+    'prefix': 'mlreportgen.dom.KeepLinesTogether	RptGen class'
+    'body': 'mlreportgen.dom.KeepLinesTogether'
+
+  'mlreportgen.dom.KeepWithNext	RptGen class':
+    'prefix': 'mlreportgen.dom.KeepWithNext	RptGen class'
+    'body': 'mlreportgen.dom.KeepWithNext'
+
+  'mlreportgen.dom.LineSpacing	RptGen class':
+    'prefix': 'mlreportgen.dom.LineSpacing	RptGen class'
+    'body': 'mlreportgen.dom.LineSpacing'
+
+  'mlreportgen.dom.LinkTarget	RptGen class':
+    'prefix': 'mlreportgen.dom.LinkTarget	RptGen class'
+    'body': 'mlreportgen.dom.LinkTarget'
+
+  'mlreportgen.dom.ListItem	RptGen class':
+    'prefix': 'mlreportgen.dom.ListItem	RptGen class'
+    'body': 'mlreportgen.dom.ListItem'
+
+  'mlreportgen.dom.MessageDispatcher	RptGen class':
+    'prefix': 'mlreportgen.dom.MessageDispatcher	RptGen class'
+    'body': 'mlreportgen.dom.MessageDispatcher'
+
+  'mlreportgen.dom.MessageEventData	RptGen class':
+    'prefix': 'mlreportgen.dom.MessageEventData	RptGen class'
+    'body': 'mlreportgen.dom.MessageEventData'
+
+  'mlreportgen.dom.MessageFilter	RptGen class':
+    'prefix': 'mlreportgen.dom.MessageFilter	RptGen class'
+    'body': 'mlreportgen.dom.MessageFilter'
+
+  'mlreportgen.dom.OPCPart	RptGen class':
+    'prefix': 'mlreportgen.dom.OPCPart	RptGen class'
+    'body': 'mlreportgen.dom.OPCPart'
+
+  'mlreportgen.dom.OrderedList	RptGen class':
+    'prefix': 'mlreportgen.dom.OrderedList	RptGen class'
+    'body': 'mlreportgen.dom.OrderedList'
+
+  'mlreportgen.dom.OuterMargin	RptGen class':
+    'prefix': 'mlreportgen.dom.OuterMargin	RptGen class'
+    'body': 'mlreportgen.dom.OuterMargin'
+
+  'mlreportgen.dom.OutlineLevel	RptGen class':
+    'prefix': 'mlreportgen.dom.OutlineLevel	RptGen class'
+    'body': 'mlreportgen.dom.OutlineLevel'
+
+  'mlreportgen.dom.PageBreakBefore	RptGen class':
+    'prefix': 'mlreportgen.dom.PageBreakBefore	RptGen class'
+    'body': 'mlreportgen.dom.PageBreakBefore'
+
+  'mlreportgen.dom.Paragraph	RptGen class':
+    'prefix': 'mlreportgen.dom.Paragraph	RptGen class'
+    'body': 'mlreportgen.dom.Paragraph'
+
+  'mlreportgen.dom.ProgressMessage	RptGen class':
+    'prefix': 'mlreportgen.dom.ProgressMessage	RptGen class'
+    'body': 'mlreportgen.dom.ProgressMessage'
+
+  'mlreportgen.dom.RawText	RptGen class':
+    'prefix': 'mlreportgen.dom.RawText	RptGen class'
+    'body': 'mlreportgen.dom.RawText'
+
+  'mlreportgen.dom.RepeatAsHeaderRow	RptGen class':
+    'prefix': 'mlreportgen.dom.RepeatAsHeaderRow	RptGen class'
+    'body': 'mlreportgen.dom.RepeatAsHeaderRow'
+
+  'mlreportgen.dom.ResizeToFitContents	RptGen class':
+    'prefix': 'mlreportgen.dom.ResizeToFitContents	RptGen class'
+    'body': 'mlreportgen.dom.ResizeToFitContents'
+
+  'mlreportgen.dom.RowHeight	RptGen class':
+    'prefix': 'mlreportgen.dom.RowHeight	RptGen class'
+    'body': 'mlreportgen.dom.RowHeight'
+
+  'mlreportgen.dom.RowSep	RptGen class':
+    'prefix': 'mlreportgen.dom.RowSep	RptGen class'
+    'body': 'mlreportgen.dom.RowSep'
+
+  'mlreportgen.dom.ScaleToFit	RptGen class':
+    'prefix': 'mlreportgen.dom.ScaleToFit	RptGen class'
+    'body': 'mlreportgen.dom.ScaleToFit'
+
+  'mlreportgen.dom.Strike	RptGen class':
+    'prefix': 'mlreportgen.dom.Strike	RptGen class'
+    'body': 'mlreportgen.dom.Strike'
+
+  'mlreportgen.dom.Table	RptGen class':
+    'prefix': 'mlreportgen.dom.Table	RptGen class'
+    'body': 'mlreportgen.dom.Table'
+
+  'mlreportgen.dom.TableBody	RptGen class':
+    'prefix': 'mlreportgen.dom.TableBody	RptGen class'
+    'body': 'mlreportgen.dom.TableBody'
+
+  'mlreportgen.dom.TableColSpec	RptGen class':
+    'prefix': 'mlreportgen.dom.TableColSpec	RptGen class'
+    'body': 'mlreportgen.dom.TableColSpec'
+
+  'mlreportgen.dom.TableColSpecGroup	RptGen class':
+    'prefix': 'mlreportgen.dom.TableColSpecGroup	RptGen class'
+    'body': 'mlreportgen.dom.TableColSpecGroup'
+
+  'mlreportgen.dom.TableEntry	RptGen class':
+    'prefix': 'mlreportgen.dom.TableEntry	RptGen class'
+    'body': 'mlreportgen.dom.TableEntry'
+
+  'mlreportgen.dom.TableFooter	RptGen class':
+    'prefix': 'mlreportgen.dom.TableFooter	RptGen class'
+    'body': 'mlreportgen.dom.TableFooter'
+
+  'mlreportgen.dom.TableHeader	RptGen class':
+    'prefix': 'mlreportgen.dom.TableHeader	RptGen class'
+    'body': 'mlreportgen.dom.TableHeader'
+
+  'mlreportgen.dom.TableHeaderEntry	RptGen class':
+    'prefix': 'mlreportgen.dom.TableHeaderEntry	RptGen class'
+    'body': 'mlreportgen.dom.TableHeaderEntry'
+
+  'mlreportgen.dom.TableRow	RptGen class':
+    'prefix': 'mlreportgen.dom.TableRow	RptGen class'
+    'body': 'mlreportgen.dom.TableRow'
+
+  'mlreportgen.dom.Template	RptGen class':
+    'prefix': 'mlreportgen.dom.Template	RptGen class'
+    'body': 'mlreportgen.dom.Template'
+
+  'mlreportgen.dom.TemplateHole	RptGen class':
+    'prefix': 'mlreportgen.dom.TemplateHole	RptGen class'
+    'body': 'mlreportgen.dom.TemplateHole'
+
+  'mlreportgen.dom.Text	RptGen class':
+    'prefix': 'mlreportgen.dom.Text	RptGen class'
+    'body': 'mlreportgen.dom.Text'
+
+  'mlreportgen.dom.Underline	RptGen class':
+    'prefix': 'mlreportgen.dom.Underline	RptGen class'
+    'body': 'mlreportgen.dom.Underline'
+
+  'mlreportgen.dom.UnorderedList	RptGen class':
+    'prefix': 'mlreportgen.dom.UnorderedList	RptGen class'
+    'body': 'mlreportgen.dom.UnorderedList'
+
+  'mlreportgen.dom.VAlign	RptGen class':
+    'prefix': 'mlreportgen.dom.VAlign	RptGen class'
+    'body': 'mlreportgen.dom.VAlign'
+
+  'mlreportgen.dom.VerticalAlign	RptGen class':
+    'prefix': 'mlreportgen.dom.VerticalAlign	RptGen class'
+    'body': 'mlreportgen.dom.VerticalAlign'
+
+  'mlreportgen.dom.WarningMessage	RptGen class':
+    'prefix': 'mlreportgen.dom.WarningMessage	RptGen class'
+    'body': 'mlreportgen.dom.WarningMessage'
+
+  'mlreportgen.dom.WhiteSpace	RptGen class':
+    'prefix': 'mlreportgen.dom.WhiteSpace	RptGen class'
+    'body': 'mlreportgen.dom.WhiteSpace'
+
+  'mlreportgen.dom.WidowOrphanControl	RptGen class':
+    'prefix': 'mlreportgen.dom.WidowOrphanControl	RptGen class'
+    'body': 'mlreportgen.dom.WidowOrphanControl'
+
+  'mlreportgen.dom.Width	RptGen class':
+    'prefix': 'mlreportgen.dom.Width	RptGen class'
+    'body': 'mlreportgen.dom.Width'
+
+  'mlreportgen.ppt.Bold	RptGen class':
+    'prefix': 'mlreportgen.ppt.Bold	RptGen class'
+    'body': 'mlreportgen.ppt.Bold'
+
+  'mlreportgen.ppt.ColSpec	RptGen class':
+    'prefix': 'mlreportgen.ppt.ColSpec	RptGen class'
+    'body': 'mlreportgen.ppt.ColSpec'
+
+  'mlreportgen.ppt.ColWidth	RptGen class':
+    'prefix': 'mlreportgen.ppt.ColWidth	RptGen class'
+    'body': 'mlreportgen.ppt.ColWidth'
+
+  'mlreportgen.ppt.ContentPlaceholder	RptGen class':
+    'prefix': 'mlreportgen.ppt.ContentPlaceholder	RptGen class'
+    'body': 'mlreportgen.ppt.ContentPlaceholder'
+
+  'mlreportgen.ppt.DebugMessage	RptGen class':
+    'prefix': 'mlreportgen.ppt.DebugMessage	RptGen class'
+    'body': 'mlreportgen.ppt.DebugMessage'
+
+  'mlreportgen.ppt.ErrorMessage	RptGen class':
+    'prefix': 'mlreportgen.ppt.ErrorMessage	RptGen class'
+    'body': 'mlreportgen.ppt.ErrorMessage'
+
+  'mlreportgen.ppt.ExternalLink	RptGen class':
+    'prefix': 'mlreportgen.ppt.ExternalLink	RptGen class'
+    'body': 'mlreportgen.ppt.ExternalLink'
+
+  'mlreportgen.ppt.FontColor	RptGen class':
+    'prefix': 'mlreportgen.ppt.FontColor	RptGen class'
+    'body': 'mlreportgen.ppt.FontColor'
+
+  'mlreportgen.ppt.FontFamily	RptGen class':
+    'prefix': 'mlreportgen.ppt.FontFamily	RptGen class'
+    'body': 'mlreportgen.ppt.FontFamily'
+
+  'mlreportgen.ppt.FontSize	RptGen class':
+    'prefix': 'mlreportgen.ppt.FontSize	RptGen class'
+    'body': 'mlreportgen.ppt.FontSize'
+
+  'mlreportgen.ppt.HAlign	RptGen class':
+    'prefix': 'mlreportgen.ppt.HAlign	RptGen class'
+    'body': 'mlreportgen.ppt.HAlign'
+
+  'mlreportgen.ppt.Italic	RptGen class':
+    'prefix': 'mlreportgen.ppt.Italic	RptGen class'
+    'body': 'mlreportgen.ppt.Italic'
+
+  'mlreportgen.ppt.MessageDispatcher	RptGen class':
+    'prefix': 'mlreportgen.ppt.MessageDispatcher	RptGen class'
+    'body': 'mlreportgen.ppt.MessageDispatcher'
+
+  'mlreportgen.ppt.MessageEventData	RptGen class':
+    'prefix': 'mlreportgen.ppt.MessageEventData	RptGen class'
+    'body': 'mlreportgen.ppt.MessageEventData'
+
+  'mlreportgen.ppt.MessageFilter	RptGen class':
+    'prefix': 'mlreportgen.ppt.MessageFilter	RptGen class'
+    'body': 'mlreportgen.ppt.MessageFilter'
+
+  'mlreportgen.ppt.Paragraph	RptGen class':
+    'prefix': 'mlreportgen.ppt.Paragraph	RptGen class'
+    'body': 'mlreportgen.ppt.Paragraph'
+
+  'mlreportgen.ppt.Picture	RptGen class':
+    'prefix': 'mlreportgen.ppt.Picture	RptGen class'
+    'body': 'mlreportgen.ppt.Picture'
+
+  'mlreportgen.ppt.PicturePlaceholder	RptGen class':
+    'prefix': 'mlreportgen.ppt.PicturePlaceholder	RptGen class'
+    'body': 'mlreportgen.ppt.PicturePlaceholder'
+
+  'mlreportgen.ppt.Presentation	RptGen class':
+    'prefix': 'mlreportgen.ppt.Presentation	RptGen class'
+    'body': 'mlreportgen.ppt.Presentation'
+
+  'mlreportgen.ppt.ProgressMessage	RptGen class':
+    'prefix': 'mlreportgen.ppt.ProgressMessage	RptGen class'
+    'body': 'mlreportgen.ppt.ProgressMessage'
+
+  'mlreportgen.ppt.Slide	RptGen class':
+    'prefix': 'mlreportgen.ppt.Slide	RptGen class'
+    'body': 'mlreportgen.ppt.Slide'
+
+  'mlreportgen.ppt.Strike	RptGen class':
+    'prefix': 'mlreportgen.ppt.Strike	RptGen class'
+    'body': 'mlreportgen.ppt.Strike'
+
+  'mlreportgen.ppt.Subscript	RptGen class':
+    'prefix': 'mlreportgen.ppt.Subscript	RptGen class'
+    'body': 'mlreportgen.ppt.Subscript'
+
+  'mlreportgen.ppt.Superscript	RptGen class':
+    'prefix': 'mlreportgen.ppt.Superscript	RptGen class'
+    'body': 'mlreportgen.ppt.Superscript'
+
+  'mlreportgen.ppt.Table	RptGen class':
+    'prefix': 'mlreportgen.ppt.Table	RptGen class'
+    'body': 'mlreportgen.ppt.Table'
+
+  'mlreportgen.ppt.TableEntry	RptGen class':
+    'prefix': 'mlreportgen.ppt.TableEntry	RptGen class'
+    'body': 'mlreportgen.ppt.TableEntry'
+
+  'mlreportgen.ppt.TablePlaceholder	RptGen class':
+    'prefix': 'mlreportgen.ppt.TablePlaceholder	RptGen class'
+    'body': 'mlreportgen.ppt.TablePlaceholder'
+
+  'mlreportgen.ppt.TableRow	RptGen class':
+    'prefix': 'mlreportgen.ppt.TableRow	RptGen class'
+    'body': 'mlreportgen.ppt.TableRow'
+
+  'mlreportgen.ppt.Text	RptGen class':
+    'prefix': 'mlreportgen.ppt.Text	RptGen class'
+    'body': 'mlreportgen.ppt.Text'
+
+  'mlreportgen.ppt.TextBox	RptGen class':
+    'prefix': 'mlreportgen.ppt.TextBox	RptGen class'
+    'body': 'mlreportgen.ppt.TextBox'
+
+  'mlreportgen.ppt.TextBoxPlaceholder	RptGen class':
+    'prefix': 'mlreportgen.ppt.TextBoxPlaceholder	RptGen class'
+    'body': 'mlreportgen.ppt.TextBoxPlaceholder'
+
+  'mlreportgen.ppt.Underline	RptGen class':
+    'prefix': 'mlreportgen.ppt.Underline	RptGen class'
+    'body': 'mlreportgen.ppt.Underline'
+
+  'mlreportgen.ppt.VAlign	RptGen class':
+    'prefix': 'mlreportgen.ppt.VAlign	RptGen class'
+    'body': 'mlreportgen.ppt.VAlign'
+
+  'mlreportgen.ppt.WarningMessage	RptGen class':
+    'prefix': 'mlreportgen.ppt.WarningMessage	RptGen class'
+    'body': 'mlreportgen.ppt.WarningMessage'

@@ -1,0 +1,611 @@
+# matlabcomp16 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'aictest	Phased method':
+    'prefix': 'aictest	Phased method'
+    'body': 'aictest(${1:args})'
+
+  'albersheim	Phased method':
+    'prefix': 'albersheim	Phased method'
+    'body': 'albersheim(${1:args})'
+
+  'ambgfun	Phased method':
+    'prefix': 'ambgfun	Phased method'
+    'body': 'ambgfun(${1:args})'
+
+  'aperture2gain	Phased method':
+    'prefix': 'aperture2gain	Phased method'
+    'body': 'aperture2gain(${1:args})'
+
+  'az2broadside	Phased method':
+    'prefix': 'az2broadside	Phased method'
+    'body': 'az2broadside(${1:args})'
+
+  'azel2phitheta	Phased method':
+    'prefix': 'azel2phitheta	Phased method'
+    'body': 'azel2phitheta(${1:args})'
+
+  'azel2phithetapat	Phased method':
+    'prefix': 'azel2phithetapat	Phased method'
+    'body': 'azel2phithetapat(${1:args})'
+
+  'azel2uv	Phased method':
+    'prefix': 'azel2uv	Phased method'
+    'body': 'azel2uv(${1:args})'
+
+  'azel2uvpat	Phased method':
+    'prefix': 'azel2uvpat	Phased method'
+    'body': 'azel2uvpat(${1:args})'
+
+  'azelaxes	Phased method':
+    'prefix': 'azelaxes	Phased method'
+    'body': 'azelaxes(${1:args})'
+
+  'beat2range	Phased method':
+    'prefix': 'beat2range	Phased method'
+    'body': 'beat2range(${1:args})'
+
+  'billingsleyicm	Phased method':
+    'prefix': 'billingsleyicm	Phased method'
+    'body': 'billingsleyicm(${1:args})'
+
+  'blakechart	Phased method':
+    'prefix': 'blakechart	Phased method'
+    'body': 'blakechart(${1:args})'
+
+  'broadside2az	Phased method':
+    'prefix': 'broadside2az	Phased method'
+    'body': 'broadside2az(${1:args})'
+
+  'cart2sphvec	Phased method':
+    'prefix': 'cart2sphvec	Phased method'
+    'body': 'cart2sphvec(${1:args})'
+
+  'cbfweights	Phased method':
+    'prefix': 'cbfweights	Phased method'
+    'body': 'cbfweights(${1:args})'
+
+  'circpol2pol	Phased method':
+    'prefix': 'circpol2pol	Phased method'
+    'body': 'circpol2pol(${1:args})'
+
+  'dechirp	Phased method':
+    'prefix': 'dechirp	Phased method'
+    'body': 'dechirp(${1:args})'
+
+  'delayseq	Phased method':
+    'prefix': 'delayseq	Phased method'
+    'body': 'delayseq(${1:args})'
+
+  'depressionang	Phased method':
+    'prefix': 'depressionang	Phased method'
+    'body': 'depressionang(${1:args})'
+
+  'dop2speed	Phased method':
+    'prefix': 'dop2speed	Phased method'
+    'body': 'dop2speed(${1:args})'
+
+  'dopsteeringvec	Phased method':
+    'prefix': 'dopsteeringvec	Phased method'
+    'body': 'dopsteeringvec(${1:args})'
+
+  'effearthradius	Phased method':
+    'prefix': 'effearthradius	Phased method'
+    'body': 'effearthradius(${1:args})'
+
+  'espritdoa	Phased method':
+    'prefix': 'espritdoa	Phased method'
+    'body': 'espritdoa(${1:args})'
+
+  'fspl	Phased method':
+    'prefix': 'fspl	Phased method'
+    'body': 'fspl(${1:args})'
+
+  'gain2aperture	Phased method':
+    'prefix': 'gain2aperture	Phased method'
+    'body': 'gain2aperture(${1:args})'
+
+  'gccphat	Phased method':
+    'prefix': 'gccphat	Phased method'
+    'body': 'gccphat(${1:args})'
+
+  'global2localcoord	Phased method':
+    'prefix': 'global2localcoord	Phased method'
+    'body': 'global2localcoord(${1:args})'
+
+  'grazingang	Phased method':
+    'prefix': 'grazingang	Phased method'
+    'body': 'grazingang(${1:args})'
+
+  'horizonrange	Phased method':
+    'prefix': 'horizonrange	Phased method'
+    'body': 'horizonrange(${1:args})'
+
+  'lcmvweights	Phased method':
+    'prefix': 'lcmvweights	Phased method'
+    'body': 'lcmvweights(${1:args})'
+
+  'local2globalcoord	Phased method':
+    'prefix': 'local2globalcoord	Phased method'
+    'body': 'local2globalcoord(${1:args})'
+
+  'mdltest	Phased method':
+    'prefix': 'mdltest	Phased method'
+    'body': 'mdltest(${1:args})'
+
+  'mvdrweights	Phased method':
+    'prefix': 'mvdrweights	Phased method'
+    'body': 'mvdrweights(${1:args})'
+
+  'noisepow	Phased method':
+    'prefix': 'noisepow	Phased method'
+    'body': 'noisepow(${1:args})'
+
+  'npwgnthresh	Phased method':
+    'prefix': 'npwgnthresh	Phased method'
+    'body': 'npwgnthresh(${1:args})'
+
+  'phased.ADPCACanceller	Phased method':
+    'prefix': 'phased.ADPCACanceller	Phased method'
+    'body': 'phased.ADPCACanceller(${1:args})'
+
+  'phased.AngleDopplerResponse	Phased method':
+    'prefix': 'phased.AngleDopplerResponse	Phased method'
+    'body': 'phased.AngleDopplerResponse(${1:args})'
+
+  'phased.ArrayGain	Phased method':
+    'prefix': 'phased.ArrayGain	Phased method'
+    'body': 'phased.ArrayGain(${1:args})'
+
+  'phased.ArrayResponse	Phased method':
+    'prefix': 'phased.ArrayResponse	Phased method'
+    'body': 'phased.ArrayResponse(${1:args})'
+
+  'phased.BarrageJammer	Phased method':
+    'prefix': 'phased.BarrageJammer	Phased method'
+    'body': 'phased.BarrageJammer(${1:args})'
+
+  'phased.BeamscanEstimator	Phased method':
+    'prefix': 'phased.BeamscanEstimator	Phased method'
+    'body': 'phased.BeamscanEstimator(${1:args})'
+
+  'phased.BeamscanEstimator2D	Phased method':
+    'prefix': 'phased.BeamscanEstimator2D	Phased method'
+    'body': 'phased.BeamscanEstimator2D(${1:args})'
+
+  'phased.BeamspaceESPRITEstimator	Phased method':
+    'prefix': 'phased.BeamspaceESPRITEstimator	Phased method'
+    'body': 'phased.BeamspaceESPRITEstimator(${1:args})'
+
+  'phased.CFARDetector	Phased method':
+    'prefix': 'phased.CFARDetector	Phased method'
+    'body': 'phased.CFARDetector(${1:args})'
+
+  'phased.Collector	Phased method':
+    'prefix': 'phased.Collector	Phased method'
+    'body': 'phased.Collector(${1:args})'
+
+  'phased.ConformalArray	Phased method':
+    'prefix': 'phased.ConformalArray	Phased method'
+    'body': 'phased.ConformalArray(${1:args})'
+
+  'phased.ConstantGammaClutter	Phased method':
+    'prefix': 'phased.ConstantGammaClutter	Phased method'
+    'body': 'phased.ConstantGammaClutter(${1:args})'
+
+  'phased.CosineAntennaElement	Phased method':
+    'prefix': 'phased.CosineAntennaElement	Phased method'
+    'body': 'phased.CosineAntennaElement(${1:args})'
+
+  'phased.CrossedDipoleAntennaElement	Phased method':
+    'prefix': 'phased.CrossedDipoleAntennaElement	Phased method'
+    'body': 'phased.CrossedDipoleAntennaElement(${1:args})'
+
+  'phased.CustomAntennaElement	Phased method':
+    'prefix': 'phased.CustomAntennaElement	Phased method'
+    'body': 'phased.CustomAntennaElement(${1:args})'
+
+  'phased.CustomMicrophoneElement	Phased method':
+    'prefix': 'phased.CustomMicrophoneElement	Phased method'
+    'body': 'phased.CustomMicrophoneElement(${1:args})'
+
+  'phased.DPCACanceller	Phased method':
+    'prefix': 'phased.DPCACanceller	Phased method'
+    'body': 'phased.DPCACanceller(${1:args})'
+
+  'phased.ESPRITEstimator	Phased method':
+    'prefix': 'phased.ESPRITEstimator	Phased method'
+    'body': 'phased.ESPRITEstimator(${1:args})'
+
+  'phased.ElementDelay	Phased method':
+    'prefix': 'phased.ElementDelay	Phased method'
+    'body': 'phased.ElementDelay(${1:args})'
+
+  'phased.FMCWWaveform	Phased method':
+    'prefix': 'phased.FMCWWaveform	Phased method'
+    'body': 'phased.FMCWWaveform(${1:args})'
+
+  'phased.FreeSpace	Phased method':
+    'prefix': 'phased.FreeSpace	Phased method'
+    'body': 'phased.FreeSpace(${1:args})'
+
+  'phased.FrostBeamformer	Phased method':
+    'prefix': 'phased.FrostBeamformer	Phased method'
+    'body': 'phased.FrostBeamformer(${1:args})'
+
+  'phased.GCCEstimator	Phased method':
+    'prefix': 'phased.GCCEstimator	Phased method'
+    'body': 'phased.GCCEstimator(${1:args})'
+
+  'phased.HeterogeneousConformalArray	Phased method':
+    'prefix': 'phased.HeterogeneousConformalArray	Phased method'
+    'body': 'phased.HeterogeneousConformalArray(${1:args})'
+
+  'phased.HeterogeneousULA	Phased method':
+    'prefix': 'phased.HeterogeneousULA	Phased method'
+    'body': 'phased.HeterogeneousULA(${1:args})'
+
+  'phased.HeterogeneousURA	Phased method':
+    'prefix': 'phased.HeterogeneousURA	Phased method'
+    'body': 'phased.HeterogeneousURA(${1:args})'
+
+  'phased.IsotropicAntennaElement	Phased method':
+    'prefix': 'phased.IsotropicAntennaElement	Phased method'
+    'body': 'phased.IsotropicAntennaElement(${1:args})'
+
+  'phased.LCMVBeamformer	Phased method':
+    'prefix': 'phased.LCMVBeamformer	Phased method'
+    'body': 'phased.LCMVBeamformer(${1:args})'
+
+  'phased.LinearFMWaveform	Phased method':
+    'prefix': 'phased.LinearFMWaveform	Phased method'
+    'body': 'phased.LinearFMWaveform(${1:args})'
+
+  'phased.MFSKWaveform	Phased method':
+    'prefix': 'phased.MFSKWaveform	Phased method'
+    'body': 'phased.MFSKWaveform(${1:args})'
+
+  'phased.MVDRBeamformer	Phased method':
+    'prefix': 'phased.MVDRBeamformer	Phased method'
+    'body': 'phased.MVDRBeamformer(${1:args})'
+
+  'phased.MVDREstimator	Phased method':
+    'prefix': 'phased.MVDREstimator	Phased method'
+    'body': 'phased.MVDREstimator(${1:args})'
+
+  'phased.MVDREstimator2D	Phased method':
+    'prefix': 'phased.MVDREstimator2D	Phased method'
+    'body': 'phased.MVDREstimator2D(${1:args})'
+
+  'phased.MatchedFilter	Phased method':
+    'prefix': 'phased.MatchedFilter	Phased method'
+    'body': 'phased.MatchedFilter(${1:args})'
+
+  'phased.OmnidirectionalMicrophoneElement	Phased method':
+    'prefix': 'phased.OmnidirectionalMicrophoneElement	Phased method'
+    'body': 'phased.OmnidirectionalMicrophoneElement(${1:args})'
+
+  'phased.PartitionedArray	Phased method':
+    'prefix': 'phased.PartitionedArray	Phased method'
+    'body': 'phased.PartitionedArray(${1:args})'
+
+  'phased.PhaseCodedWaveform	Phased method':
+    'prefix': 'phased.PhaseCodedWaveform	Phased method'
+    'body': 'phased.PhaseCodedWaveform(${1:args})'
+
+  'phased.PhaseShiftBeamformer	Phased method':
+    'prefix': 'phased.PhaseShiftBeamformer	Phased method'
+    'body': 'phased.PhaseShiftBeamformer(${1:args})'
+
+  'phased.Platform	Phased method':
+    'prefix': 'phased.Platform	Phased method'
+    'body': 'phased.Platform(${1:args})'
+
+  'phased.RadarTarget	Phased method':
+    'prefix': 'phased.RadarTarget	Phased method'
+    'body': 'phased.RadarTarget(${1:args})'
+
+  'phased.Radiator	Phased method':
+    'prefix': 'phased.Radiator	Phased method'
+    'body': 'phased.Radiator(${1:args})'
+
+  'phased.RangeDopplerResponse	Phased method':
+    'prefix': 'phased.RangeDopplerResponse	Phased method'
+    'body': 'phased.RangeDopplerResponse(${1:args})'
+
+  'phased.ReceiverPreamp	Phased method':
+    'prefix': 'phased.ReceiverPreamp	Phased method'
+    'body': 'phased.ReceiverPreamp(${1:args})'
+
+  'phased.RectangularWaveform	Phased method':
+    'prefix': 'phased.RectangularWaveform	Phased method'
+    'body': 'phased.RectangularWaveform(${1:args})'
+
+  'phased.ReplicatedSubarray	Phased method':
+    'prefix': 'phased.ReplicatedSubarray	Phased method'
+    'body': 'phased.ReplicatedSubarray(${1:args})'
+
+  'phased.RootMUSICEstimator	Phased method':
+    'prefix': 'phased.RootMUSICEstimator	Phased method'
+    'body': 'phased.RootMUSICEstimator(${1:args})'
+
+  'phased.RootWSFEstimator	Phased method':
+    'prefix': 'phased.RootWSFEstimator	Phased method'
+    'body': 'phased.RootWSFEstimator(${1:args})'
+
+  'phased.STAPSMIBeamformer	Phased method':
+    'prefix': 'phased.STAPSMIBeamformer	Phased method'
+    'body': 'phased.STAPSMIBeamformer(${1:args})'
+
+  'phased.ShortDipoleAntennaElement	Phased method':
+    'prefix': 'phased.ShortDipoleAntennaElement	Phased method'
+    'body': 'phased.ShortDipoleAntennaElement(${1:args})'
+
+  'phased.SteeringVector	Phased method':
+    'prefix': 'phased.SteeringVector	Phased method'
+    'body': 'phased.SteeringVector(${1:args})'
+
+  'phased.SteppedFMWaveform	Phased method':
+    'prefix': 'phased.SteppedFMWaveform	Phased method'
+    'body': 'phased.SteppedFMWaveform(${1:args})'
+
+  'phased.StretchProcessor	Phased method':
+    'prefix': 'phased.StretchProcessor	Phased method'
+    'body': 'phased.StretchProcessor(${1:args})'
+
+  'phased.SubbandMVDRBeamformer	Phased method':
+    'prefix': 'phased.SubbandMVDRBeamformer	Phased method'
+    'body': 'phased.SubbandMVDRBeamformer(${1:args})'
+
+  'phased.SubbandPhaseShiftBeamformer	Phased method':
+    'prefix': 'phased.SubbandPhaseShiftBeamformer	Phased method'
+    'body': 'phased.SubbandPhaseShiftBeamformer(${1:args})'
+
+  'phased.SumDifferenceMonopulseTracker	Phased method':
+    'prefix': 'phased.SumDifferenceMonopulseTracker	Phased method'
+    'body': 'phased.SumDifferenceMonopulseTracker(${1:args})'
+
+  'phased.SumDifferenceMonopulseTracker2D	Phased method':
+    'prefix': 'phased.SumDifferenceMonopulseTracker2D	Phased method'
+    'body': 'phased.SumDifferenceMonopulseTracker2D(${1:args})'
+
+  'phased.TimeDelayBeamformer	Phased method':
+    'prefix': 'phased.TimeDelayBeamformer	Phased method'
+    'body': 'phased.TimeDelayBeamformer(${1:args})'
+
+  'phased.TimeDelayLCMVBeamformer	Phased method':
+    'prefix': 'phased.TimeDelayLCMVBeamformer	Phased method'
+    'body': 'phased.TimeDelayLCMVBeamformer(${1:args})'
+
+  'phased.TimeVaryingGain	Phased method':
+    'prefix': 'phased.TimeVaryingGain	Phased method'
+    'body': 'phased.TimeVaryingGain(${1:args})'
+
+  'phased.Transmitter	Phased method':
+    'prefix': 'phased.Transmitter	Phased method'
+    'body': 'phased.Transmitter(${1:args})'
+
+  'phased.TwoRayChannel	Phased method':
+    'prefix': 'phased.TwoRayChannel	Phased method'
+    'body': 'phased.TwoRayChannel(${1:args})'
+
+  'phased.UCA	Phased method':
+    'prefix': 'phased.UCA	Phased method'
+    'body': 'phased.UCA(${1:args})'
+
+  'phased.ULA	Phased method':
+    'prefix': 'phased.ULA	Phased method'
+    'body': 'phased.ULA(${1:args})'
+
+  'phased.URA	Phased method':
+    'prefix': 'phased.URA	Phased method'
+    'body': 'phased.URA(${1:args})'
+
+  'phased.WidebandCollector	Phased method':
+    'prefix': 'phased.WidebandCollector	Phased method'
+    'body': 'phased.WidebandCollector(${1:args})'
+
+  'phased.WidebandFreeSpace	Phased method':
+    'prefix': 'phased.WidebandFreeSpace	Phased method'
+    'body': 'phased.WidebandFreeSpace(${1:args})'
+
+  'phased.WidebandRadiator	Phased method':
+    'prefix': 'phased.WidebandRadiator	Phased method'
+    'body': 'phased.WidebandRadiator(${1:args})'
+
+  'phased.gpu.ConstantGammaClutter	Phased method':
+    'prefix': 'phased.gpu.ConstantGammaClutter	Phased method'
+    'body': 'phased.gpu.ConstantGammaClutter(${1:args})'
+
+  'phitheta2azel	Phased method':
+    'prefix': 'phitheta2azel	Phased method'
+    'body': 'phitheta2azel(${1:args})'
+
+  'phitheta2azelpat	Phased method':
+    'prefix': 'phitheta2azelpat	Phased method'
+    'body': 'phitheta2azelpat(${1:args})'
+
+  'phitheta2uv	Phased method':
+    'prefix': 'phitheta2uv	Phased method'
+    'body': 'phitheta2uv(${1:args})'
+
+  'phitheta2uvpat	Phased method':
+    'prefix': 'phitheta2uvpat	Phased method'
+    'body': 'phitheta2uvpat(${1:args})'
+
+  'physconst	Phased method':
+    'prefix': 'physconst	Phased method'
+    'body': 'physconst(${1:args})'
+
+  'pilotcalib	Phased method':
+    'prefix': 'pilotcalib	Phased method'
+    'body': 'pilotcalib(${1:args})'
+
+  'pol2circpol	Phased method':
+    'prefix': 'pol2circpol	Phased method'
+    'body': 'pol2circpol(${1:args})'
+
+  'polellip	Phased method':
+    'prefix': 'polellip	Phased method'
+    'body': 'polellip(${1:args})'
+
+  'polloss	Phased method':
+    'prefix': 'polloss	Phased method'
+    'body': 'polloss(${1:args})'
+
+  'polratio	Phased method':
+    'prefix': 'polratio	Phased method'
+    'body': 'polratio(${1:args})'
+
+  'polsignature	Phased method':
+    'prefix': 'polsignature	Phased method'
+    'body': 'polsignature(${1:args})'
+
+  'pulsint	Phased method':
+    'prefix': 'pulsint	Phased method'
+    'body': 'pulsint(${1:args})'
+
+  'radareqpow	Phased method':
+    'prefix': 'radareqpow	Phased method'
+    'body': 'radareqpow(${1:args})'
+
+  'radareqrng	Phased method':
+    'prefix': 'radareqrng	Phased method'
+    'body': 'radareqrng(${1:args})'
+
+  'radareqsnr	Phased method':
+    'prefix': 'radareqsnr	Phased method'
+    'body': 'radareqsnr(${1:args})'
+
+  'radarvcd	Phased method':
+    'prefix': 'radarvcd	Phased method'
+    'body': 'radarvcd(${1:args})'
+
+  'radialspeed	Phased method':
+    'prefix': 'radialspeed	Phased method'
+    'body': 'radialspeed(${1:args})'
+
+  'range2beat	Phased method':
+    'prefix': 'range2beat	Phased method'
+    'body': 'range2beat(${1:args})'
+
+  'range2bw	Phased method':
+    'prefix': 'range2bw	Phased method'
+    'body': 'range2bw(${1:args})'
+
+  'range2time	Phased method':
+    'prefix': 'range2time	Phased method'
+    'body': 'range2time(${1:args})'
+
+  'rangeangle	Phased method':
+    'prefix': 'rangeangle	Phased method'
+    'body': 'rangeangle(${1:args})'
+
+  'rdcoupling	Phased method':
+    'prefix': 'rdcoupling	Phased method'
+    'body': 'rdcoupling(${1:args})'
+
+  'rocpfa	Phased method':
+    'prefix': 'rocpfa	Phased method'
+    'body': 'rocpfa(${1:args})'
+
+  'rocsnr	Phased method':
+    'prefix': 'rocsnr	Phased method'
+    'body': 'rocsnr(${1:args})'
+
+  'rootmusicdoa	Phased method':
+    'prefix': 'rootmusicdoa	Phased method'
+    'body': 'rootmusicdoa(${1:args})'
+
+  'rotx	Phased method':
+    'prefix': 'rotx	Phased method'
+    'body': 'rotx(${1:args})'
+
+  'roty	Phased method':
+    'prefix': 'roty	Phased method'
+    'body': 'roty(${1:args})'
+
+  'rotz	Phased method':
+    'prefix': 'rotz	Phased method'
+    'body': 'rotz(${1:args})'
+
+  'sensorcov	Phased method':
+    'prefix': 'sensorcov	Phased method'
+    'body': 'sensorcov(${1:args})'
+
+  'sensorsig	Phased method':
+    'prefix': 'sensorsig	Phased method'
+    'body': 'sensorsig(${1:args})'
+
+  'shnidman	Phased method':
+    'prefix': 'shnidman	Phased method'
+    'body': 'shnidman(${1:args})'
+
+  'spectrogram	Phased method':
+    'prefix': 'spectrogram	Phased method'
+    'body': 'spectrogram(${1:args})'
+
+  'speed2dop	Phased method':
+    'prefix': 'speed2dop	Phased method'
+    'body': 'speed2dop(${1:args})'
+
+  'sph2cartvec	Phased method':
+    'prefix': 'sph2cartvec	Phased method'
+    'body': 'sph2cartvec(${1:args})'
+
+  'spsmooth	Phased method':
+    'prefix': 'spsmooth	Phased method'
+    'body': 'spsmooth(${1:args})'
+
+  'steervec	Phased method':
+    'prefix': 'steervec	Phased method'
+    'body': 'steervec(${1:args})'
+
+  'stokes	Phased method':
+    'prefix': 'stokes	Phased method'
+    'body': 'stokes(${1:args})'
+
+  'stretchfreq2rng	Phased method':
+    'prefix': 'stretchfreq2rng	Phased method'
+    'body': 'stretchfreq2rng(${1:args})'
+
+  'surfacegamma	Phased method':
+    'prefix': 'surfacegamma	Phased method'
+    'body': 'surfacegamma(${1:args})'
+
+  'surfclutterrcs	Phased method':
+    'prefix': 'surfclutterrcs	Phased method'
+    'body': 'surfclutterrcs(${1:args})'
+
+  'systemp	Phased method':
+    'prefix': 'systemp	Phased method'
+    'body': 'systemp(${1:args})'
+
+  'time2range	Phased method':
+    'prefix': 'time2range	Phased method'
+    'body': 'time2range(${1:args})'
+
+  'unigrid	Phased method':
+    'prefix': 'unigrid	Phased method'
+    'body': 'unigrid(${1:args})'
+
+  'uv2azel	Phased method':
+    'prefix': 'uv2azel	Phased method'
+    'body': 'uv2azel(${1:args})'
+
+  'uv2azelpat	Phased method':
+    'prefix': 'uv2azelpat	Phased method'
+    'body': 'uv2azelpat(${1:args})'
+
+  'uv2phitheta	Phased method':
+    'prefix': 'uv2phitheta	Phased method'
+    'body': 'uv2phitheta(${1:args})'
+
+  'uv2phithetapat	Phased method':
+    'prefix': 'uv2phithetapat	Phased method'
+    'body': 'uv2phithetapat(${1:args})'
+
+  'val2ind	Phased method':
+    'prefix': 'val2ind	Phased method'
+    'body': 'val2ind(${1:args})'

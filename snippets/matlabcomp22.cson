@@ -1,0 +1,767 @@
+# matlabcomp22 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'addlift	Wavelet method':
+    'prefix': 'addlift	Wavelet method'
+    'body': 'addlift(${1:args})'
+
+  'allnodes	Wavelet method':
+    'prefix': 'allnodes	Wavelet method'
+    'body': 'allnodes(${1:args})'
+
+  'appcoef	Wavelet method':
+    'prefix': 'appcoef	Wavelet method'
+    'body': 'appcoef(${1:args})'
+
+  'appcoef2	Wavelet method':
+    'prefix': 'appcoef2	Wavelet method'
+    'body': 'appcoef2(${1:args})'
+
+  'bestlevt	Wavelet method':
+    'prefix': 'bestlevt	Wavelet method'
+    'body': 'bestlevt(${1:args})'
+
+  'besttree	Wavelet method':
+    'prefix': 'besttree	Wavelet method'
+    'body': 'besttree(${1:args})'
+
+  'biorfilt	Wavelet method':
+    'prefix': 'biorfilt	Wavelet method'
+    'body': 'biorfilt(${1:args})'
+
+  'biorwavf	Wavelet method':
+    'prefix': 'biorwavf	Wavelet method'
+    'body': 'biorwavf(${1:args})'
+
+  'bswfun	Wavelet method':
+    'prefix': 'bswfun	Wavelet method'
+    'body': 'bswfun(${1:args})'
+
+  'centfrq	Wavelet method':
+    'prefix': 'centfrq	Wavelet method'
+    'body': 'centfrq(${1:args})'
+
+  'cfs2wpt	Wavelet method':
+    'prefix': 'cfs2wpt	Wavelet method'
+    'body': 'cfs2wpt(${1:args})'
+
+  'cgauwavf	Wavelet method':
+    'prefix': 'cgauwavf	Wavelet method'
+    'body': 'cgauwavf(${1:args})'
+
+  'chgwdeccfs	Wavelet method':
+    'prefix': 'chgwdeccfs	Wavelet method'
+    'body': 'chgwdeccfs(${1:args})'
+
+  'cmddenoise	Wavelet method':
+    'prefix': 'cmddenoise	Wavelet method'
+    'body': 'cmddenoise(${1:args})'
+
+  'cmorwavf	Wavelet method':
+    'prefix': 'cmorwavf	Wavelet method'
+    'body': 'cmorwavf(${1:args})'
+
+  'coifwavf	Wavelet method':
+    'prefix': 'coifwavf	Wavelet method'
+    'body': 'coifwavf(${1:args})'
+
+  'conofinf	Wavelet method':
+    'prefix': 'conofinf	Wavelet method'
+    'body': 'conofinf(${1:args})'
+
+  'cwt	Wavelet method':
+    'prefix': 'cwt	Wavelet method'
+    'body': 'cwt(${1:args})'
+
+  'cwtext	Wavelet method':
+    'prefix': 'cwtext	Wavelet method'
+    'body': 'cwtext(${1:args})'
+
+  'cwtft	Wavelet method':
+    'prefix': 'cwtft	Wavelet method'
+    'body': 'cwtft(${1:args})'
+
+  'cwtft2	Wavelet method':
+    'prefix': 'cwtft2	Wavelet method'
+    'body': 'cwtft2(${1:args})'
+
+  'cwtftinfo	Wavelet method':
+    'prefix': 'cwtftinfo	Wavelet method'
+    'body': 'cwtftinfo(${1:args})'
+
+  'cwtftinfo2	Wavelet method':
+    'prefix': 'cwtftinfo2	Wavelet method'
+    'body': 'cwtftinfo2(${1:args})'
+
+  'dbaux	Wavelet method':
+    'prefix': 'dbaux	Wavelet method'
+    'body': 'dbaux(${1:args})'
+
+  'dbwavf	Wavelet method':
+    'prefix': 'dbwavf	Wavelet method'
+    'body': 'dbwavf(${1:args})'
+
+  'dddtree	Wavelet method':
+    'prefix': 'dddtree	Wavelet method'
+    'body': 'dddtree(${1:args})'
+
+  'dddtree2	Wavelet method':
+    'prefix': 'dddtree2	Wavelet method'
+    'body': 'dddtree2(${1:args})'
+
+  'dddtreecfs	Wavelet method':
+    'prefix': 'dddtreecfs	Wavelet method'
+    'body': 'dddtreecfs(${1:args})'
+
+  'ddencmp	Wavelet method':
+    'prefix': 'ddencmp	Wavelet method'
+    'body': 'ddencmp(${1:args})'
+
+  'depo2ind	Wavelet method':
+    'prefix': 'depo2ind	Wavelet method'
+    'body': 'depo2ind(${1:args})'
+
+  'detcoef	Wavelet method':
+    'prefix': 'detcoef	Wavelet method'
+    'body': 'detcoef(${1:args})'
+
+  'detcoef2	Wavelet method':
+    'prefix': 'detcoef2	Wavelet method'
+    'body': 'detcoef2(${1:args})'
+
+  'displs	Wavelet method':
+    'prefix': 'displs	Wavelet method'
+    'body': 'displs(${1:args})'
+
+  'drawtree	Wavelet method':
+    'prefix': 'drawtree	Wavelet method'
+    'body': 'drawtree(${1:args})'
+
+  'dtfilters	Wavelet method':
+    'prefix': 'dtfilters	Wavelet method'
+    'body': 'dtfilters(${1:args})'
+
+  'dtree	Wavelet method':
+    'prefix': 'dtree	Wavelet method'
+    'body': 'dtree(${1:args})'
+
+  'dwt	Wavelet method':
+    'prefix': 'dwt	Wavelet method'
+    'body': 'dwt(${1:args})'
+
+  'dwt2	Wavelet method':
+    'prefix': 'dwt2	Wavelet method'
+    'body': 'dwt2(${1:args})'
+
+  'dwt3	Wavelet method':
+    'prefix': 'dwt3	Wavelet method'
+    'body': 'dwt3(${1:args})'
+
+  'dwtmode	Wavelet method':
+    'prefix': 'dwtmode	Wavelet method'
+    'body': 'dwtmode(${1:args})'
+
+  'dyaddown	Wavelet method':
+    'prefix': 'dyaddown	Wavelet method'
+    'body': 'dyaddown(${1:args})'
+
+  'dyadup	Wavelet method':
+    'prefix': 'dyadup	Wavelet method'
+    'body': 'dyadup(${1:args})'
+
+  'entrupd	Wavelet method':
+    'prefix': 'entrupd	Wavelet method'
+    'body': 'entrupd(${1:args})'
+
+  'fbspwavf	Wavelet method':
+    'prefix': 'fbspwavf	Wavelet method'
+    'body': 'fbspwavf(${1:args})'
+
+  'fejerkorovkin	Wavelet method':
+    'prefix': 'fejerkorovkin	Wavelet method'
+    'body': 'fejerkorovkin(${1:args})'
+
+  'filt2ls	Wavelet method':
+    'prefix': 'filt2ls	Wavelet method'
+    'body': 'filt2ls(${1:args})'
+
+  'gauswavf	Wavelet method':
+    'prefix': 'gauswavf	Wavelet method'
+    'body': 'gauswavf(${1:args})'
+
+  'icwtft	Wavelet method':
+    'prefix': 'icwtft	Wavelet method'
+    'body': 'icwtft(${1:args})'
+
+  'icwtlin	Wavelet method':
+    'prefix': 'icwtlin	Wavelet method'
+    'body': 'icwtlin(${1:args})'
+
+  'idddtree	Wavelet method':
+    'prefix': 'idddtree	Wavelet method'
+    'body': 'idddtree(${1:args})'
+
+  'idddtree2	Wavelet method':
+    'prefix': 'idddtree2	Wavelet method'
+    'body': 'idddtree2(${1:args})'
+
+  'idwt	Wavelet method':
+    'prefix': 'idwt	Wavelet method'
+    'body': 'idwt(${1:args})'
+
+  'idwt2	Wavelet method':
+    'prefix': 'idwt2	Wavelet method'
+    'body': 'idwt2(${1:args})'
+
+  'idwt3	Wavelet method':
+    'prefix': 'idwt3	Wavelet method'
+    'body': 'idwt3(${1:args})'
+
+  'ilwt	Wavelet method':
+    'prefix': 'ilwt	Wavelet method'
+    'body': 'ilwt(${1:args})'
+
+  'ilwt2	Wavelet method':
+    'prefix': 'ilwt2	Wavelet method'
+    'body': 'ilwt2(${1:args})'
+
+  'imodwt	Wavelet method':
+    'prefix': 'imodwt	Wavelet method'
+    'body': 'imodwt(${1:args})'
+
+  'ind2depo	Wavelet method':
+    'prefix': 'ind2depo	Wavelet method'
+    'body': 'ind2depo(${1:args})'
+
+  'intwave	Wavelet method':
+    'prefix': 'intwave	Wavelet method'
+    'body': 'intwave(${1:args})'
+
+  'isnode	Wavelet method':
+    'prefix': 'isnode	Wavelet method'
+    'body': 'isnode(${1:args})'
+
+  'istnode	Wavelet method':
+    'prefix': 'istnode	Wavelet method'
+    'body': 'istnode(${1:args})'
+
+  'iswt	Wavelet method':
+    'prefix': 'iswt	Wavelet method'
+    'body': 'iswt(${1:args})'
+
+  'iswt2	Wavelet method':
+    'prefix': 'iswt2	Wavelet method'
+    'body': 'iswt2(${1:args})'
+
+  'laurmat	Wavelet method':
+    'prefix': 'laurmat	Wavelet method'
+    'body': 'laurmat(${1:args})'
+
+  'laurpoly	Wavelet method':
+    'prefix': 'laurpoly	Wavelet method'
+    'body': 'laurpoly(${1:args})'
+
+  'leaves	Wavelet method':
+    'prefix': 'leaves	Wavelet method'
+    'body': 'leaves(${1:args})'
+
+  'liftfilt	Wavelet method':
+    'prefix': 'liftfilt	Wavelet method'
+    'body': 'liftfilt(${1:args})'
+
+  'liftwave	Wavelet method':
+    'prefix': 'liftwave	Wavelet method'
+    'body': 'liftwave(${1:args})'
+
+  'localmax	Wavelet method':
+    'prefix': 'localmax	Wavelet method'
+    'body': 'localmax(${1:args})'
+
+  'ls2filt	Wavelet method':
+    'prefix': 'ls2filt	Wavelet method'
+    'body': 'ls2filt(${1:args})'
+
+  'lsinfo	Wavelet method':
+    'prefix': 'lsinfo	Wavelet method'
+    'body': 'lsinfo(${1:args})'
+
+  'lwt	Wavelet method':
+    'prefix': 'lwt	Wavelet method'
+    'body': 'lwt(${1:args})'
+
+  'lwt2	Wavelet method':
+    'prefix': 'lwt2	Wavelet method'
+    'body': 'lwt2(${1:args})'
+
+  'lwtcoef	Wavelet method':
+    'prefix': 'lwtcoef	Wavelet method'
+    'body': 'lwtcoef(${1:args})'
+
+  'lwtcoef2	Wavelet method':
+    'prefix': 'lwtcoef2	Wavelet method'
+    'body': 'lwtcoef2(${1:args})'
+
+  'mdwtcluster	Wavelet method':
+    'prefix': 'mdwtcluster	Wavelet method'
+    'body': 'mdwtcluster(${1:args})'
+
+  'mdwtdec	Wavelet method':
+    'prefix': 'mdwtdec	Wavelet method'
+    'body': 'mdwtdec(${1:args})'
+
+  'mdwtrec	Wavelet method':
+    'prefix': 'mdwtrec	Wavelet method'
+    'body': 'mdwtrec(${1:args})'
+
+  'measerr	Wavelet method':
+    'prefix': 'measerr	Wavelet method'
+    'body': 'measerr(${1:args})'
+
+  'mexihat	Wavelet method':
+    'prefix': 'mexihat	Wavelet method'
+    'body': 'mexihat(${1:args})'
+
+  'meyer	Wavelet method':
+    'prefix': 'meyer	Wavelet method'
+    'body': 'meyer(${1:args})'
+
+  'meyeraux	Wavelet method':
+    'prefix': 'meyeraux	Wavelet method'
+    'body': 'meyeraux(${1:args})'
+
+  'modwt	Wavelet method':
+    'prefix': 'modwt	Wavelet method'
+    'body': 'modwt(${1:args})'
+
+  'modwtcorr	Wavelet method':
+    'prefix': 'modwtcorr	Wavelet method'
+    'body': 'modwtcorr(${1:args})'
+
+  'modwtmra	Wavelet method':
+    'prefix': 'modwtmra	Wavelet method'
+    'body': 'modwtmra(${1:args})'
+
+  'modwtvar	Wavelet method':
+    'prefix': 'modwtvar	Wavelet method'
+    'body': 'modwtvar(${1:args})'
+
+  'modwtxcorr	Wavelet method':
+    'prefix': 'modwtxcorr	Wavelet method'
+    'body': 'modwtxcorr(${1:args})'
+
+  'morlet	Wavelet method':
+    'prefix': 'morlet	Wavelet method'
+    'body': 'morlet(${1:args})'
+
+  'mswcmp	Wavelet method':
+    'prefix': 'mswcmp	Wavelet method'
+    'body': 'mswcmp(${1:args})'
+
+  'mswcmpscr	Wavelet method':
+    'prefix': 'mswcmpscr	Wavelet method'
+    'body': 'mswcmpscr(${1:args})'
+
+  'mswcmptp	Wavelet method':
+    'prefix': 'mswcmptp	Wavelet method'
+    'body': 'mswcmptp(${1:args})'
+
+  'mswden	Wavelet method':
+    'prefix': 'mswden	Wavelet method'
+    'body': 'mswden(${1:args})'
+
+  'mswthresh	Wavelet method':
+    'prefix': 'mswthresh	Wavelet method'
+    'body': 'mswthresh(${1:args})'
+
+  'nodeasc	Wavelet method':
+    'prefix': 'nodeasc	Wavelet method'
+    'body': 'nodeasc(${1:args})'
+
+  'nodedesc	Wavelet method':
+    'prefix': 'nodedesc	Wavelet method'
+    'body': 'nodedesc(${1:args})'
+
+  'nodejoin	Wavelet method':
+    'prefix': 'nodejoin	Wavelet method'
+    'body': 'nodejoin(${1:args})'
+
+  'nodepar	Wavelet method':
+    'prefix': 'nodepar	Wavelet method'
+    'body': 'nodepar(${1:args})'
+
+  'nodesplt	Wavelet method':
+    'prefix': 'nodesplt	Wavelet method'
+    'body': 'nodesplt(${1:args})'
+
+  'noleaves	Wavelet method':
+    'prefix': 'noleaves	Wavelet method'
+    'body': 'noleaves(${1:args})'
+
+  'ntnode	Wavelet method':
+    'prefix': 'ntnode	Wavelet method'
+    'body': 'ntnode(${1:args})'
+
+  'ntree	Wavelet method':
+    'prefix': 'ntree	Wavelet method'
+    'body': 'ntree(${1:args})'
+
+  'orthfilt	Wavelet method':
+    'prefix': 'orthfilt	Wavelet method'
+    'body': 'orthfilt(${1:args})'
+
+  'otnodes	Wavelet method':
+    'prefix': 'otnodes	Wavelet method'
+    'body': 'otnodes(${1:args})'
+
+  'pat2cwav	Wavelet method':
+    'prefix': 'pat2cwav	Wavelet method'
+    'body': 'pat2cwav(${1:args})'
+
+  'plotdt	Wavelet method':
+    'prefix': 'plotdt	Wavelet method'
+    'body': 'plotdt(${1:args})'
+
+  'qmf	Wavelet method':
+    'prefix': 'qmf	Wavelet method'
+    'body': 'qmf(${1:args})'
+
+  'rbiowavf	Wavelet method':
+    'prefix': 'rbiowavf	Wavelet method'
+    'body': 'rbiowavf(${1:args})'
+
+  'readtree	Wavelet method':
+    'prefix': 'readtree	Wavelet method'
+    'body': 'readtree(${1:args})'
+
+  'scal2frq	Wavelet method':
+    'prefix': 'scal2frq	Wavelet method'
+    'body': 'scal2frq(${1:args})'
+
+  'shanwavf	Wavelet method':
+    'prefix': 'shanwavf	Wavelet method'
+    'body': 'shanwavf(${1:args})'
+
+  'swt	Wavelet method':
+    'prefix': 'swt	Wavelet method'
+    'body': 'swt(${1:args})'
+
+  'swt2	Wavelet method':
+    'prefix': 'swt2	Wavelet method'
+    'body': 'swt2(${1:args})'
+
+  'symaux	Wavelet method':
+    'prefix': 'symaux	Wavelet method'
+    'body': 'symaux(${1:args})'
+
+  'symwavf	Wavelet method':
+    'prefix': 'symwavf	Wavelet method'
+    'body': 'symwavf(${1:args})'
+
+  'thselect	Wavelet method':
+    'prefix': 'thselect	Wavelet method'
+    'body': 'thselect(${1:args})'
+
+  'tnodes	Wavelet method':
+    'prefix': 'tnodes	Wavelet method'
+    'body': 'tnodes(${1:args})'
+
+  'treedpth	Wavelet method':
+    'prefix': 'treedpth	Wavelet method'
+    'body': 'treedpth(${1:args})'
+
+  'treeord	Wavelet method':
+    'prefix': 'treeord	Wavelet method'
+    'body': 'treeord(${1:args})'
+
+  'upcoef	Wavelet method':
+    'prefix': 'upcoef	Wavelet method'
+    'body': 'upcoef(${1:args})'
+
+  'upcoef2	Wavelet method':
+    'prefix': 'upcoef2	Wavelet method'
+    'body': 'upcoef2(${1:args})'
+
+  'upwlev	Wavelet method':
+    'prefix': 'upwlev	Wavelet method'
+    'body': 'upwlev(${1:args})'
+
+  'upwlev2	Wavelet method':
+    'prefix': 'upwlev2	Wavelet method'
+    'body': 'upwlev2(${1:args})'
+
+  'wave2lp	Wavelet method':
+    'prefix': 'wave2lp	Wavelet method'
+    'body': 'wave2lp(${1:args})'
+
+  'wavedec	Wavelet method':
+    'prefix': 'wavedec	Wavelet method'
+    'body': 'wavedec(${1:args})'
+
+  'wavedec2	Wavelet method':
+    'prefix': 'wavedec2	Wavelet method'
+    'body': 'wavedec2(${1:args})'
+
+  'wavedec3	Wavelet method':
+    'prefix': 'wavedec3	Wavelet method'
+    'body': 'wavedec3(${1:args})'
+
+  'wavefun	Wavelet method':
+    'prefix': 'wavefun	Wavelet method'
+    'body': 'wavefun(${1:args})'
+
+  'wavefun2	Wavelet method':
+    'prefix': 'wavefun2	Wavelet method'
+    'body': 'wavefun2(${1:args})'
+
+  'waveinfo	Wavelet method':
+    'prefix': 'waveinfo	Wavelet method'
+    'body': 'waveinfo(${1:args})'
+
+  'waveletfamilies	Wavelet method':
+    'prefix': 'waveletfamilies	Wavelet method'
+    'body': 'waveletfamilies(${1:args})'
+
+  'wavemenu	Wavelet method':
+    'prefix': 'wavemenu	Wavelet method'
+    'body': 'wavemenu(${1:args})'
+
+  'wavemngr	Wavelet method':
+    'prefix': 'wavemngr	Wavelet method'
+    'body': 'wavemngr(${1:args})'
+
+  'wavenames	Wavelet method':
+    'prefix': 'wavenames	Wavelet method'
+    'body': 'wavenames(${1:args})'
+
+  'waverec	Wavelet method':
+    'prefix': 'waverec	Wavelet method'
+    'body': 'waverec(${1:args})'
+
+  'waverec2	Wavelet method':
+    'prefix': 'waverec2	Wavelet method'
+    'body': 'waverec2(${1:args})'
+
+  'waverec3	Wavelet method':
+    'prefix': 'waverec3	Wavelet method'
+    'body': 'waverec3(${1:args})'
+
+  'wavsupport	Wavelet method':
+    'prefix': 'wavsupport	Wavelet method'
+    'body': 'wavsupport(${1:args})'
+
+  'wbmpen	Wavelet method':
+    'prefix': 'wbmpen	Wavelet method'
+    'body': 'wbmpen(${1:args})'
+
+  'wcodemat	Wavelet method':
+    'prefix': 'wcodemat	Wavelet method'
+    'body': 'wcodemat(${1:args})'
+
+  'wcoher	Wavelet method':
+    'prefix': 'wcoher	Wavelet method'
+    'body': 'wcoher(${1:args})'
+
+  'wcompress	Wavelet method':
+    'prefix': 'wcompress	Wavelet method'
+    'body': 'wcompress(${1:args})'
+
+  'wdcbm	Wavelet method':
+    'prefix': 'wdcbm	Wavelet method'
+    'body': 'wdcbm(${1:args})'
+
+  'wdcbm2	Wavelet method':
+    'prefix': 'wdcbm2	Wavelet method'
+    'body': 'wdcbm2(${1:args})'
+
+  'wdecenergy	Wavelet method':
+    'prefix': 'wdecenergy	Wavelet method'
+    'body': 'wdecenergy(${1:args})'
+
+  'wden	Wavelet method':
+    'prefix': 'wden	Wavelet method'
+    'body': 'wden(${1:args})'
+
+  'wdencmp	Wavelet method':
+    'prefix': 'wdencmp	Wavelet method'
+    'body': 'wdencmp(${1:args})'
+
+  'wenergy	Wavelet method':
+    'prefix': 'wenergy	Wavelet method'
+    'body': 'wenergy(${1:args})'
+
+  'wenergy2	Wavelet method':
+    'prefix': 'wenergy2	Wavelet method'
+    'body': 'wenergy2(${1:args})'
+
+  'wentropy	Wavelet method':
+    'prefix': 'wentropy	Wavelet method'
+    'body': 'wentropy(${1:args})'
+
+  'wextend	Wavelet method':
+    'prefix': 'wextend	Wavelet method'
+    'body': 'wextend(${1:args})'
+
+  'wfbm	Wavelet method':
+    'prefix': 'wfbm	Wavelet method'
+    'body': 'wfbm(${1:args})'
+
+  'wfbmesti	Wavelet method':
+    'prefix': 'wfbmesti	Wavelet method'
+    'body': 'wfbmesti(${1:args})'
+
+  'wfilters	Wavelet method':
+    'prefix': 'wfilters	Wavelet method'
+    'body': 'wfilters(${1:args})'
+
+  'wfusimg	Wavelet method':
+    'prefix': 'wfusimg	Wavelet method'
+    'body': 'wfusimg(${1:args})'
+
+  'wfusmat	Wavelet method':
+    'prefix': 'wfusmat	Wavelet method'
+    'body': 'wfusmat(${1:args})'
+
+  'wkeep	Wavelet method':
+    'prefix': 'wkeep	Wavelet method'
+    'body': 'wkeep(${1:args})'
+
+  'wmaxlev	Wavelet method':
+    'prefix': 'wmaxlev	Wavelet method'
+    'body': 'wmaxlev(${1:args})'
+
+  'wmpalg	Wavelet method':
+    'prefix': 'wmpalg	Wavelet method'
+    'body': 'wmpalg(${1:args})'
+
+  'wmpdictionary	Wavelet method':
+    'prefix': 'wmpdictionary	Wavelet method'
+    'body': 'wmpdictionary(${1:args})'
+
+  'wmspca	Wavelet method':
+    'prefix': 'wmspca	Wavelet method'
+    'body': 'wmspca(${1:args})'
+
+  'wmulden	Wavelet method':
+    'prefix': 'wmulden	Wavelet method'
+    'body': 'wmulden(${1:args})'
+
+  'wnoise	Wavelet method':
+    'prefix': 'wnoise	Wavelet method'
+    'body': 'wnoise(${1:args})'
+
+  'wnoisest	Wavelet method':
+    'prefix': 'wnoisest	Wavelet method'
+    'body': 'wnoisest(${1:args})'
+
+  'wp2wtree	Wavelet method':
+    'prefix': 'wp2wtree	Wavelet method'
+    'body': 'wp2wtree(${1:args})'
+
+  'wpbmpen	Wavelet method':
+    'prefix': 'wpbmpen	Wavelet method'
+    'body': 'wpbmpen(${1:args})'
+
+  'wpcoef	Wavelet method':
+    'prefix': 'wpcoef	Wavelet method'
+    'body': 'wpcoef(${1:args})'
+
+  'wpcutree	Wavelet method':
+    'prefix': 'wpcutree	Wavelet method'
+    'body': 'wpcutree(${1:args})'
+
+  'wpdec	Wavelet method':
+    'prefix': 'wpdec	Wavelet method'
+    'body': 'wpdec(${1:args})'
+
+  'wpdec2	Wavelet method':
+    'prefix': 'wpdec2	Wavelet method'
+    'body': 'wpdec2(${1:args})'
+
+  'wpdencmp	Wavelet method':
+    'prefix': 'wpdencmp	Wavelet method'
+    'body': 'wpdencmp(${1:args})'
+
+  'wpfun	Wavelet method':
+    'prefix': 'wpfun	Wavelet method'
+    'body': 'wpfun(${1:args})'
+
+  'wpjoin	Wavelet method':
+    'prefix': 'wpjoin	Wavelet method'
+    'body': 'wpjoin(${1:args})'
+
+  'wprcoef	Wavelet method':
+    'prefix': 'wprcoef	Wavelet method'
+    'body': 'wprcoef(${1:args})'
+
+  'wprec	Wavelet method':
+    'prefix': 'wprec	Wavelet method'
+    'body': 'wprec(${1:args})'
+
+  'wprec2	Wavelet method':
+    'prefix': 'wprec2	Wavelet method'
+    'body': 'wprec2(${1:args})'
+
+  'wpspectrum	Wavelet method':
+    'prefix': 'wpspectrum	Wavelet method'
+    'body': 'wpspectrum(${1:args})'
+
+  'wpsplt	Wavelet method':
+    'prefix': 'wpsplt	Wavelet method'
+    'body': 'wpsplt(${1:args})'
+
+  'wpthcoef	Wavelet method':
+    'prefix': 'wpthcoef	Wavelet method'
+    'body': 'wpthcoef(${1:args})'
+
+  'wptree	Wavelet method':
+    'prefix': 'wptree	Wavelet method'
+    'body': 'wptree(${1:args})'
+
+  'wpviewcf	Wavelet method':
+    'prefix': 'wpviewcf	Wavelet method'
+    'body': 'wpviewcf(${1:args})'
+
+  'wrcoef	Wavelet method':
+    'prefix': 'wrcoef	Wavelet method'
+    'body': 'wrcoef(${1:args})'
+
+  'wrcoef2	Wavelet method':
+    'prefix': 'wrcoef2	Wavelet method'
+    'body': 'wrcoef2(${1:args})'
+
+  'wrev	Wavelet method':
+    'prefix': 'wrev	Wavelet method'
+    'body': 'wrev(${1:args})'
+
+  'wscalogram	Wavelet method':
+    'prefix': 'wscalogram	Wavelet method'
+    'body': 'wscalogram(${1:args})'
+
+  'wtbo	Wavelet method':
+    'prefix': 'wtbo	Wavelet method'
+    'body': 'wtbo(${1:args})'
+
+  'wthcoef	Wavelet method':
+    'prefix': 'wthcoef	Wavelet method'
+    'body': 'wthcoef(${1:args})'
+
+  'wthcoef2	Wavelet method':
+    'prefix': 'wthcoef2	Wavelet method'
+    'body': 'wthcoef2(${1:args})'
+
+  'wthresh	Wavelet method':
+    'prefix': 'wthresh	Wavelet method'
+    'body': 'wthresh(${1:args})'
+
+  'wthrmngr	Wavelet method':
+    'prefix': 'wthrmngr	Wavelet method'
+    'body': 'wthrmngr(${1:args})'
+
+  'wtreemgr	Wavelet method':
+    'prefix': 'wtreemgr	Wavelet method'
+    'body': 'wtreemgr(${1:args})'
+
+  'wvarchg	Wavelet method':
+    'prefix': 'wvarchg	Wavelet method'
+    'body': 'wvarchg(${1:args})'

@@ -1,0 +1,303 @@
+# matlabcomp49 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'LagOp	Econ method':
+    'prefix': 'LagOp	Econ method'
+    'body': 'LagOp(${1:args})'
+
+  'LagOp.isEqLagOp	Econ method':
+    'prefix': 'LagOp.isEqLagOp	Econ method'
+    'body': 'LagOp.isEqLagOp(${1:args})'
+
+  'LagOp.isNonZero	Econ method':
+    'prefix': 'LagOp.isNonZero	Econ method'
+    'body': 'LagOp.isNonZero(${1:args})'
+
+  'LagOp.minus	Econ method':
+    'prefix': 'LagOp.minus	Econ method'
+    'body': 'LagOp.minus(${1:args})'
+
+  'LagOp.mldivide	Econ method':
+    'prefix': 'LagOp.mldivide	Econ method'
+    'body': 'LagOp.mldivide(${1:args})'
+
+  'LagOp.mrdivide	Econ method':
+    'prefix': 'LagOp.mrdivide	Econ method'
+    'body': 'LagOp.mrdivide(${1:args})'
+
+  'LagOp.mtimes	Econ method':
+    'prefix': 'LagOp.mtimes	Econ method'
+    'body': 'LagOp.mtimes(${1:args})'
+
+  'LagOp.plus	Econ method':
+    'prefix': 'LagOp.plus	Econ method'
+    'body': 'LagOp.plus(${1:args})'
+
+  'LagOp.toCellArray	Econ method':
+    'prefix': 'LagOp.toCellArray	Econ method'
+    'body': 'LagOp.toCellArray(${1:args})'
+
+  'adftest	Econ method':
+    'prefix': 'adftest	Econ method'
+    'body': 'adftest(${1:args})'
+
+  'aicbic	Econ method':
+    'prefix': 'aicbic	Econ method'
+    'body': 'aicbic(${1:args})'
+
+  'archtest	Econ method':
+    'prefix': 'archtest	Econ method'
+    'body': 'archtest(${1:args})'
+
+  'arima	Econ method':
+    'prefix': 'arima	Econ method'
+    'body': 'arima(${1:args})'
+
+  'arma2ar	Econ method':
+    'prefix': 'arma2ar	Econ method'
+    'body': 'arma2ar(${1:args})'
+
+  'arma2ma	Econ method':
+    'prefix': 'arma2ma	Econ method'
+    'body': 'arma2ma(${1:args})'
+
+  'armairf	Econ method':
+    'prefix': 'armairf	Econ method'
+    'body': 'armairf(${1:args})'
+
+  'autocorr	Econ method':
+    'prefix': 'autocorr	Econ method'
+    'body': 'autocorr(${1:args})'
+
+  'chowtest	Econ method':
+    'prefix': 'chowtest	Econ method'
+    'body': 'chowtest(${1:args})'
+
+  'collintest	Econ method':
+    'prefix': 'collintest	Econ method'
+    'body': 'collintest(${1:args})'
+
+  'corrplot	Econ method':
+    'prefix': 'corrplot	Econ method'
+    'body': 'corrplot(${1:args})'
+
+  'crosscorr	Econ method':
+    'prefix': 'crosscorr	Econ method'
+    'body': 'crosscorr(${1:args})'
+
+  'dssm	Econ method':
+    'prefix': 'dssm	Econ method'
+    'body': 'dssm(${1:args})'
+
+  'egarch	Econ method':
+    'prefix': 'egarch	Econ method'
+    'body': 'egarch(${1:args})'
+
+  'egcitest	Econ method':
+    'prefix': 'egcitest	Econ method'
+    'body': 'egcitest(${1:args})'
+
+  'estimate	Econ method':
+    'prefix': 'estimate	Econ method'
+    'body': 'estimate(${1:args})'
+
+  'fgls	Econ method':
+    'prefix': 'fgls	Econ method'
+    'body': 'fgls(${1:args})'
+
+  'forecast	Econ method':
+    'prefix': 'forecast	Econ method'
+    'body': 'forecast(${1:args})'
+
+  'garch	Econ method':
+    'prefix': 'garch	Econ method'
+    'body': 'garch(${1:args})'
+
+  'garchar	Econ method':
+    'prefix': 'garchar	Econ method'
+    'body': 'garchar(${1:args})'
+
+  'garchma	Econ method':
+    'prefix': 'garchma	Econ method'
+    'body': 'garchma(${1:args})'
+
+  'gjr	Econ method':
+    'prefix': 'gjr	Econ method'
+    'body': 'gjr(${1:args})'
+
+  'hac	Econ method':
+    'prefix': 'hac	Econ method'
+    'body': 'hac(${1:args})'
+
+  'hpfilter	Econ method':
+    'prefix': 'hpfilter	Econ method'
+    'body': 'hpfilter(${1:args})'
+
+  'i10test	Econ method':
+    'prefix': 'i10test	Econ method'
+    'body': 'i10test(${1:args})'
+
+  'infer	Econ method':
+    'prefix': 'infer	Econ method'
+    'body': 'infer(${1:args})'
+
+  'isStable	Econ method':
+    'prefix': 'isStable	Econ method'
+    'body': 'isStable(${1:args})'
+
+  'jcitest	Econ method':
+    'prefix': 'jcitest	Econ method'
+    'body': 'jcitest(${1:args})'
+
+  'jcontest	Econ method':
+    'prefix': 'jcontest	Econ method'
+    'body': 'jcontest(${1:args})'
+
+  'kpsstest	Econ method':
+    'prefix': 'kpsstest	Econ method'
+    'body': 'kpsstest(${1:args})'
+
+  'lagmatrix	Econ method':
+    'prefix': 'lagmatrix	Econ method'
+    'body': 'lagmatrix(${1:args})'
+
+  'lbqtest	Econ method':
+    'prefix': 'lbqtest	Econ method'
+    'body': 'lbqtest(${1:args})'
+
+  'lmctest	Econ method':
+    'prefix': 'lmctest	Econ method'
+    'body': 'lmctest(${1:args})'
+
+  'lmtest	Econ method':
+    'prefix': 'lmtest	Econ method'
+    'body': 'lmtest(${1:args})'
+
+  'lratiotest	Econ method':
+    'prefix': 'lratiotest	Econ method'
+    'body': 'lratiotest(${1:args})'
+
+  'parcorr	Econ method':
+    'prefix': 'parcorr	Econ method'
+    'body': 'parcorr(${1:args})'
+
+  'pptest	Econ method':
+    'prefix': 'pptest	Econ method'
+    'body': 'pptest(${1:args})'
+
+  'price2ret	Econ method':
+    'prefix': 'price2ret	Econ method'
+    'body': 'price2ret(${1:args})'
+
+  'recessionplot	Econ method':
+    'prefix': 'recessionplot	Econ method'
+    'body': 'recessionplot(${1:args})'
+
+  'refine	Econ method':
+    'prefix': 'refine	Econ method'
+    'body': 'refine(${1:args})'
+
+  'reflect	Econ method':
+    'prefix': 'reflect	Econ method'
+    'body': 'reflect(${1:args})'
+
+  'regARIMA	Econ method':
+    'prefix': 'regARIMA	Econ method'
+    'body': 'regARIMA(${1:args})'
+
+  'ret2price	Econ method':
+    'prefix': 'ret2price	Econ method'
+    'body': 'ret2price(${1:args})'
+
+  'simsmooth	Econ method':
+    'prefix': 'simsmooth	Econ method'
+    'body': 'simsmooth(${1:args})'
+
+  'simulate	Econ method':
+    'prefix': 'simulate	Econ method'
+    'body': 'simulate(${1:args})'
+
+  'ssm	Econ method':
+    'prefix': 'ssm	Econ method'
+    'body': 'ssm(${1:args})'
+
+  'var2vec	Econ method':
+    'prefix': 'var2vec	Econ method'
+    'body': 'var2vec(${1:args})'
+
+  'vartovec	Econ method':
+    'prefix': 'vartovec	Econ method'
+    'body': 'vartovec(${1:args})'
+
+  'vec2var	Econ method':
+    'prefix': 'vec2var	Econ method'
+    'body': 'vec2var(${1:args})'
+
+  'vectovar	Econ method':
+    'prefix': 'vectovar	Econ method'
+    'body': 'vectovar(${1:args})'
+
+  'vgxar	Econ method':
+    'prefix': 'vgxar	Econ method'
+    'body': 'vgxar(${1:args})'
+
+  'vgxcount	Econ method':
+    'prefix': 'vgxcount	Econ method'
+    'body': 'vgxcount(${1:args})'
+
+  'vgxdisp	Econ method':
+    'prefix': 'vgxdisp	Econ method'
+    'body': 'vgxdisp(${1:args})'
+
+  'vgxget	Econ method':
+    'prefix': 'vgxget	Econ method'
+    'body': 'vgxget(${1:args})'
+
+  'vgxinfer	Econ method':
+    'prefix': 'vgxinfer	Econ method'
+    'body': 'vgxinfer(${1:args})'
+
+  'vgxloglik	Econ method':
+    'prefix': 'vgxloglik	Econ method'
+    'body': 'vgxloglik(${1:args})'
+
+  'vgxma	Econ method':
+    'prefix': 'vgxma	Econ method'
+    'body': 'vgxma(${1:args})'
+
+  'vgxplot	Econ method':
+    'prefix': 'vgxplot	Econ method'
+    'body': 'vgxplot(${1:args})'
+
+  'vgxpred	Econ method':
+    'prefix': 'vgxpred	Econ method'
+    'body': 'vgxpred(${1:args})'
+
+  'vgxproc	Econ method':
+    'prefix': 'vgxproc	Econ method'
+    'body': 'vgxproc(${1:args})'
+
+  'vgxqual	Econ method':
+    'prefix': 'vgxqual	Econ method'
+    'body': 'vgxqual(${1:args})'
+
+  'vgxset	Econ method':
+    'prefix': 'vgxset	Econ method'
+    'body': 'vgxset(${1:args})'
+
+  'vgxsim	Econ method':
+    'prefix': 'vgxsim	Econ method'
+    'body': 'vgxsim(${1:args})'
+
+  'vgxvarx	Econ method':
+    'prefix': 'vgxvarx	Econ method'
+    'body': 'vgxvarx(${1:args})'
+
+  'vratiotest	Econ method':
+    'prefix': 'vratiotest	Econ method'
+    'body': 'vratiotest(${1:args})'
+
+  'waldtest	Econ method':
+    'prefix': 'waldtest	Econ method'
+    'body': 'waldtest(${1:args})'

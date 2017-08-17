@@ -1,0 +1,35 @@
+# matlabcomp3 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'AnalyticGeometry	PDE class':
+    'prefix': 'AnalyticGeometry	PDE class'
+    'body': 'AnalyticGeometry'
+
+  'BoundaryCondition	PDE class':
+    'prefix': 'BoundaryCondition	PDE class'
+    'body': 'BoundaryCondition'
+
+  'DiscreteGeometry	PDE class':
+    'prefix': 'DiscreteGeometry	PDE class'
+    'body': 'DiscreteGeometry'
+
+  'FEMesh	PDE class':
+    'prefix': 'FEMesh	PDE class'
+    'body': 'FEMesh'
+
+  'PDEModel	PDE class':
+    'prefix': 'PDEModel	PDE class'
+    'body': 'PDEModel'
+
+  'PDEResults	PDE class':
+    'prefix': 'PDEResults	PDE class'
+    'body': 'PDEResults'
+
+  'pdeBoundaryConditions	PDE class':
+    'prefix': 'pdeBoundaryConditions	PDE class'
+    'body': 'pdeBoundaryConditions'
+
+  'pdeInterpolant	PDE class':
+    'prefix': 'pdeInterpolant	PDE class'
+    'body': 'pdeInterpolant'

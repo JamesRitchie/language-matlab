@@ -1,0 +1,155 @@
+# matlabcomp15 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'accounts	Trading method':
+    'prefix': 'accounts	Trading method'
+    'body': 'accounts(${1:args})'
+
+  'addListener	Trading method':
+    'prefix': 'addListener	Trading method'
+    'body': 'addListener(${1:args})'
+
+  'contractdetails	Trading method':
+    'prefix': 'contractdetails	Trading method'
+    'body': 'contractdetails(${1:args})'
+
+  'cqg	Trading method':
+    'prefix': 'cqg	Trading method'
+    'body': 'cqg(${1:args})'
+
+  'createInstrument	Trading method':
+    'prefix': 'createInstrument	Trading method'
+    'body': 'createInstrument(${1:args})'
+
+  'createNotifier	Trading method':
+    'prefix': 'createNotifier	Trading method'
+    'body': 'createNotifier(${1:args})'
+
+  'createOrder	Trading method':
+    'prefix': 'createOrder	Trading method'
+    'body': 'createOrder(${1:args})'
+
+  'createOrderAndRoute	Trading method':
+    'prefix': 'createOrderAndRoute	Trading method'
+    'body': 'createOrderAndRoute(${1:args})'
+
+  'createOrderAndRouteWithStrat	Trading method':
+    'prefix': 'createOrderAndRouteWithStrat	Trading method'
+    'body': 'createOrderAndRouteWithStrat(${1:args})'
+
+  'createOrderProfile	Trading method':
+    'prefix': 'createOrderProfile	Trading method'
+    'body': 'createOrderProfile(${1:args})'
+
+  'createOrderSet	Trading method':
+    'prefix': 'createOrderSet	Trading method'
+    'body': 'createOrderSet(${1:args})'
+
+  'deleteOrder	Trading method':
+    'prefix': 'deleteOrder	Trading method'
+    'body': 'deleteOrder(${1:args})'
+
+  'deleteRoute	Trading method':
+    'prefix': 'deleteRoute	Trading method'
+    'body': 'deleteRoute(${1:args})'
+
+  'emsx	Trading method':
+    'prefix': 'emsx	Trading method'
+    'body': 'emsx(${1:args})'
+
+  'emsxOrderBlotter	Trading method':
+    'prefix': 'emsxOrderBlotter	Trading method'
+    'body': 'emsxOrderBlotter(${1:args})'
+
+  'executions	Trading method':
+    'prefix': 'executions	Trading method'
+    'body': 'executions(${1:args})'
+
+  'fix2struct	Trading method':
+    'prefix': 'fix2struct	Trading method'
+    'body': 'fix2struct(${1:args})'
+
+  'fix2table	Trading method':
+    'prefix': 'fix2table	Trading method'
+    'body': 'fix2table(${1:args})'
+
+  'fixflyer	Trading method':
+    'prefix': 'fixflyer	Trading method'
+    'body': 'fixflyer(${1:args})'
+
+  'getAllFieldMetaData	Trading method':
+    'prefix': 'getAllFieldMetaData	Trading method'
+    'body': 'getAllFieldMetaData(${1:args})'
+
+  'getBrokerInfo	Trading method':
+    'prefix': 'getBrokerInfo	Trading method'
+    'body': 'getBrokerInfo(${1:args})'
+
+  'groupRouteOrderWithStrat	Trading method':
+    'prefix': 'groupRouteOrderWithStrat	Trading method'
+    'body': 'groupRouteOrderWithStrat(${1:args})'
+
+  'ibtws	Trading method':
+    'prefix': 'ibtws	Trading method'
+    'body': 'ibtws(${1:args})'
+
+  'modifyOrder	Trading method':
+    'prefix': 'modifyOrder	Trading method'
+    'body': 'modifyOrder(${1:args})'
+
+  'modifyRoute	Trading method':
+    'prefix': 'modifyRoute	Trading method'
+    'body': 'modifyRoute(${1:args})'
+
+  'modifyRouteWithStrat	Trading method':
+    'prefix': 'modifyRouteWithStrat	Trading method'
+    'body': 'modifyRouteWithStrat(${1:args})'
+
+  'orderid	Trading method':
+    'prefix': 'orderid	Trading method'
+    'body': 'orderid(${1:args})'
+
+  'orders	Trading method':
+    'prefix': 'orders	Trading method'
+    'body': 'orders(${1:args})'
+
+  'processEvent	Trading method':
+    'prefix': 'processEvent	Trading method'
+    'body': 'processEvent(${1:args})'
+
+  'routeOrder	Trading method':
+    'prefix': 'routeOrder	Trading method'
+    'body': 'routeOrder(${1:args})'
+
+  'routeOrderWithStrat	Trading method':
+    'prefix': 'routeOrderWithStrat	Trading method'
+    'body': 'routeOrderWithStrat(${1:args})'
+
+  'routes	Trading method':
+    'prefix': 'routes	Trading method'
+    'body': 'routes(${1:args})'
+
+  'sendMessage	Trading method':
+    'prefix': 'sendMessage	Trading method'
+    'body': 'sendMessage(${1:args})'
+
+  'shutDown	Trading method':
+    'prefix': 'shutDown	Trading method'
+    'body': 'shutDown(${1:args})'
+
+  'startUp	Trading method':
+    'prefix': 'startUp	Trading method'
+    'body': 'startUp(${1:args})'
+
+  'struct2fix	Trading method':
+    'prefix': 'struct2fix	Trading method'
+    'body': 'struct2fix(${1:args})'
+
+  'table2fix	Trading method':
+    'prefix': 'table2fix	Trading method'
+    'body': 'table2fix(${1:args})'
+
+  'xtrdr	Trading method':
+    'prefix': 'xtrdr	Trading method'
+    'body': 'xtrdr(${1:args})'

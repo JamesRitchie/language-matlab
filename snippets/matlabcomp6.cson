@@ -1,0 +1,27 @@
+# matlabcomp6 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'DataMatrix	Bioinfo class':
+    'prefix': 'DataMatrix	Bioinfo class'
+    'body': 'DataMatrix'
+
+  'HeatMap	Bioinfo class':
+    'prefix': 'HeatMap	Bioinfo class'
+    'body': 'HeatMap'
+
+  'NegativeBinomialTest	Bioinfo class':
+    'prefix': 'NegativeBinomialTest	Bioinfo class'
+    'body': 'NegativeBinomialTest'
+
+  'biograph	Bioinfo class':
+    'prefix': 'biograph	Bioinfo class'
+    'body': 'biograph'
+
+  'clustergram	Bioinfo class':
+    'prefix': 'clustergram	Bioinfo class'
+    'body': 'clustergram'
+
+  'phytree	Bioinfo class':
+    'prefix': 'phytree	Bioinfo class'
+    'body': 'phytree'
