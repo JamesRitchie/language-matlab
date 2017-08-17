@@ -1,0 +1,195 @@
+# matlabcomp58 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'addmf	Fuzzy method':
+    'prefix': 'addmf	Fuzzy method'
+    'body': 'addmf(${1:args})'
+
+  'addrule	Fuzzy method':
+    'prefix': 'addrule	Fuzzy method'
+    'body': 'addrule(${1:args})'
+
+  'addvar	Fuzzy method':
+    'prefix': 'addvar	Fuzzy method'
+    'body': 'addvar(${1:args})'
+
+  'anfis	Fuzzy method':
+    'prefix': 'anfis	Fuzzy method'
+    'body': 'anfis(${1:args})'
+
+  'convertfis	Fuzzy method':
+    'prefix': 'convertfis	Fuzzy method'
+    'body': 'convertfis(${1:args})'
+
+  'defuzz	Fuzzy method':
+    'prefix': 'defuzz	Fuzzy method'
+    'body': 'defuzz(${1:args})'
+
+  'dsigmf	Fuzzy method':
+    'prefix': 'dsigmf	Fuzzy method'
+    'body': 'dsigmf(${1:args})'
+
+  'evalfis	Fuzzy method':
+    'prefix': 'evalfis	Fuzzy method'
+    'body': 'evalfis(${1:args})'
+
+  'evalmf	Fuzzy method':
+    'prefix': 'evalmf	Fuzzy method'
+    'body': 'evalmf(${1:args})'
+
+  'fcm	Fuzzy method':
+    'prefix': 'fcm	Fuzzy method'
+    'body': 'fcm(${1:args})'
+
+  'findcluster	Fuzzy method':
+    'prefix': 'findcluster	Fuzzy method'
+    'body': 'findcluster(${1:args})'
+
+  'fuzarith	Fuzzy method':
+    'prefix': 'fuzarith	Fuzzy method'
+    'body': 'fuzarith(${1:args})'
+
+  'fuzzyLogicDesigner	Fuzzy method':
+    'prefix': 'fuzzyLogicDesigner	Fuzzy method'
+    'body': 'fuzzyLogicDesigner(${1:args})'
+
+  'gauss2mf	Fuzzy method':
+    'prefix': 'gauss2mf	Fuzzy method'
+    'body': 'gauss2mf(${1:args})'
+
+  'gaussmf	Fuzzy method':
+    'prefix': 'gaussmf	Fuzzy method'
+    'body': 'gaussmf(${1:args})'
+
+  'gbellmf	Fuzzy method':
+    'prefix': 'gbellmf	Fuzzy method'
+    'body': 'gbellmf(${1:args})'
+
+  'genfis1	Fuzzy method':
+    'prefix': 'genfis1	Fuzzy method'
+    'body': 'genfis1(${1:args})'
+
+  'genfis2	Fuzzy method':
+    'prefix': 'genfis2	Fuzzy method'
+    'body': 'genfis2(${1:args})'
+
+  'genfis3	Fuzzy method':
+    'prefix': 'genfis3	Fuzzy method'
+    'body': 'genfis3(${1:args})'
+
+  'gensurf	Fuzzy method':
+    'prefix': 'gensurf	Fuzzy method'
+    'body': 'gensurf(${1:args})'
+
+  'getfis	Fuzzy method':
+    'prefix': 'getfis	Fuzzy method'
+    'body': 'getfis(${1:args})'
+
+  'mam2sug	Fuzzy method':
+    'prefix': 'mam2sug	Fuzzy method'
+    'body': 'mam2sug(${1:args})'
+
+  'mf2mf	Fuzzy method':
+    'prefix': 'mf2mf	Fuzzy method'
+    'body': 'mf2mf(${1:args})'
+
+  'mfedit	Fuzzy method':
+    'prefix': 'mfedit	Fuzzy method'
+    'body': 'mfedit(${1:args})'
+
+  'neuroFuzzyDesigner	Fuzzy method':
+    'prefix': 'neuroFuzzyDesigner	Fuzzy method'
+    'body': 'neuroFuzzyDesigner(${1:args})'
+
+  'newfis	Fuzzy method':
+    'prefix': 'newfis	Fuzzy method'
+    'body': 'newfis(${1:args})'
+
+  'parsrule	Fuzzy method':
+    'prefix': 'parsrule	Fuzzy method'
+    'body': 'parsrule(${1:args})'
+
+  'pimf	Fuzzy method':
+    'prefix': 'pimf	Fuzzy method'
+    'body': 'pimf(${1:args})'
+
+  'plotfis	Fuzzy method':
+    'prefix': 'plotfis	Fuzzy method'
+    'body': 'plotfis(${1:args})'
+
+  'plotmf	Fuzzy method':
+    'prefix': 'plotmf	Fuzzy method'
+    'body': 'plotmf(${1:args})'
+
+  'probor	Fuzzy method':
+    'prefix': 'probor	Fuzzy method'
+    'body': 'probor(${1:args})'
+
+  'psigmf	Fuzzy method':
+    'prefix': 'psigmf	Fuzzy method'
+    'body': 'psigmf(${1:args})'
+
+  'readfis	Fuzzy method':
+    'prefix': 'readfis	Fuzzy method'
+    'body': 'readfis(${1:args})'
+
+  'rmmf	Fuzzy method':
+    'prefix': 'rmmf	Fuzzy method'
+    'body': 'rmmf(${1:args})'
+
+  'rmvar	Fuzzy method':
+    'prefix': 'rmvar	Fuzzy method'
+    'body': 'rmvar(${1:args})'
+
+  'ruleedit	Fuzzy method':
+    'prefix': 'ruleedit	Fuzzy method'
+    'body': 'ruleedit(${1:args})'
+
+  'ruleview	Fuzzy method':
+    'prefix': 'ruleview	Fuzzy method'
+    'body': 'ruleview(${1:args})'
+
+  'setfis	Fuzzy method':
+    'prefix': 'setfis	Fuzzy method'
+    'body': 'setfis(${1:args})'
+
+  'showfis	Fuzzy method':
+    'prefix': 'showfis	Fuzzy method'
+    'body': 'showfis(${1:args})'
+
+  'showrule	Fuzzy method':
+    'prefix': 'showrule	Fuzzy method'
+    'body': 'showrule(${1:args})'
+
+  'sigmf	Fuzzy method':
+    'prefix': 'sigmf	Fuzzy method'
+    'body': 'sigmf(${1:args})'
+
+  'smf	Fuzzy method':
+    'prefix': 'smf	Fuzzy method'
+    'body': 'smf(${1:args})'
+
+  'subclust	Fuzzy method':
+    'prefix': 'subclust	Fuzzy method'
+    'body': 'subclust(${1:args})'
+
+  'surfview	Fuzzy method':
+    'prefix': 'surfview	Fuzzy method'
+    'body': 'surfview(${1:args})'
+
+  'trapmf	Fuzzy method':
+    'prefix': 'trapmf	Fuzzy method'
+    'body': 'trapmf(${1:args})'
+
+  'trimf	Fuzzy method':
+    'prefix': 'trimf	Fuzzy method'
+    'body': 'trimf(${1:args})'
+
+  'writefis	Fuzzy method':
+    'prefix': 'writefis	Fuzzy method'
+    'body': 'writefis(${1:args})'
+
+  'zmf	Fuzzy method':
+    'prefix': 'zmf	Fuzzy method'
+    'body': 'zmf(${1:args})'

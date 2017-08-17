@@ -1,0 +1,1279 @@
+# matlabcomp43 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'WMSCapabilities	Map method':
+    'prefix': 'WMSCapabilities	Map method'
+    'body': 'WMSCapabilities(${1:args})'
+
+  'WMSLayer	Map method':
+    'prefix': 'WMSLayer	Map method'
+    'body': 'WMSLayer(${1:args})'
+
+  'WMSMapRequest	Map method':
+    'prefix': 'WMSMapRequest	Map method'
+    'body': 'WMSMapRequest(${1:args})'
+
+  'WebMapServer	Map method':
+    'prefix': 'WebMapServer	Map method'
+    'body': 'WebMapServer(${1:args})'
+
+  'aer2ecef	Map method':
+    'prefix': 'aer2ecef	Map method'
+    'body': 'aer2ecef(${1:args})'
+
+  'aer2enu	Map method':
+    'prefix': 'aer2enu	Map method'
+    'body': 'aer2enu(${1:args})'
+
+  'aer2geodetic	Map method':
+    'prefix': 'aer2geodetic	Map method'
+    'body': 'aer2geodetic(${1:args})'
+
+  'aer2ned	Map method':
+    'prefix': 'aer2ned	Map method'
+    'body': 'aer2ned(${1:args})'
+
+  'angl2str	Map method':
+    'prefix': 'angl2str	Map method'
+    'body': 'angl2str(${1:args})'
+
+  'antipode	Map method':
+    'prefix': 'antipode	Map method'
+    'body': 'antipode(${1:args})'
+
+  'arcgridread	Map method':
+    'prefix': 'arcgridread	Map method'
+    'body': 'arcgridread(${1:args})'
+
+  'areaint	Map method':
+    'prefix': 'areaint	Map method'
+    'body': 'areaint(${1:args})'
+
+  'areamat	Map method':
+    'prefix': 'areamat	Map method'
+    'body': 'areamat(${1:args})'
+
+  'areaquad	Map method':
+    'prefix': 'areaquad	Map method'
+    'body': 'areaquad(${1:args})'
+
+  'avhrrgoode	Map method':
+    'prefix': 'avhrrgoode	Map method'
+    'body': 'avhrrgoode(${1:args})'
+
+  'avhrrlambert	Map method':
+    'prefix': 'avhrrlambert	Map method'
+    'body': 'avhrrlambert(${1:args})'
+
+  'axes2ecc	Map method':
+    'prefix': 'axes2ecc	Map method'
+    'body': 'axes2ecc(${1:args})'
+
+  'axesm	Map method':
+    'prefix': 'axesm	Map method'
+    'body': 'axesm(${1:args})'
+
+  'axesmui	Map method':
+    'prefix': 'axesmui	Map method'
+    'body': 'axesmui(${1:args})'
+
+  'azimuth	Map method':
+    'prefix': 'azimuth	Map method'
+    'body': 'azimuth(${1:args})'
+
+  'bufferm	Map method':
+    'prefix': 'bufferm	Map method'
+    'body': 'bufferm(${1:args})'
+
+  'bufgeoquad	Map method':
+    'prefix': 'bufgeoquad	Map method'
+    'body': 'bufgeoquad(${1:args})'
+
+  'camposm	Map method':
+    'prefix': 'camposm	Map method'
+    'body': 'camposm(${1:args})'
+
+  'camtargm	Map method':
+    'prefix': 'camtargm	Map method'
+    'body': 'camtargm(${1:args})'
+
+  'camupm	Map method':
+    'prefix': 'camupm	Map method'
+    'body': 'camupm(${1:args})'
+
+  'clabelm	Map method':
+    'prefix': 'clabelm	Map method'
+    'body': 'clabelm(${1:args})'
+
+  'clegendm	Map method':
+    'prefix': 'clegendm	Map method'
+    'body': 'clegendm(${1:args})'
+
+  'clipdata	Map method':
+    'prefix': 'clipdata	Map method'
+    'body': 'clipdata(${1:args})'
+
+  'clma	Map method':
+    'prefix': 'clma	Map method'
+    'body': 'clma(${1:args})'
+
+  'closePolygonParts	Map method':
+    'prefix': 'closePolygonParts	Map method'
+    'body': 'closePolygonParts(${1:args})'
+
+  'clrmenu	Map method':
+    'prefix': 'clrmenu	Map method'
+    'body': 'clrmenu(${1:args})'
+
+  'contour3m	Map method':
+    'prefix': 'contour3m	Map method'
+    'body': 'contour3m(${1:args})'
+
+  'contourcbar	Map method':
+    'prefix': 'contourcbar	Map method'
+    'body': 'contourcbar(${1:args})'
+
+  'contourcmap	Map method':
+    'prefix': 'contourcmap	Map method'
+    'body': 'contourcmap(${1:args})'
+
+  'contourfm	Map method':
+    'prefix': 'contourfm	Map method'
+    'body': 'contourfm(${1:args})'
+
+  'contourm	Map method':
+    'prefix': 'contourm	Map method'
+    'body': 'contourm(${1:args})'
+
+  'daspectm	Map method':
+    'prefix': 'daspectm	Map method'
+    'body': 'daspectm(${1:args})'
+
+  'defaultm	Map method':
+    'prefix': 'defaultm	Map method'
+    'body': 'defaultm(${1:args})'
+
+  'deg2km	Map method':
+    'prefix': 'deg2km	Map method'
+    'body': 'deg2km(${1:args})'
+
+  'deg2nm	Map method':
+    'prefix': 'deg2nm	Map method'
+    'body': 'deg2nm(${1:args})'
+
+  'deg2sm	Map method':
+    'prefix': 'deg2sm	Map method'
+    'body': 'deg2sm(${1:args})'
+
+  'degrees2dm	Map method':
+    'prefix': 'degrees2dm	Map method'
+    'body': 'degrees2dm(${1:args})'
+
+  'degrees2dms	Map method':
+    'prefix': 'degrees2dms	Map method'
+    'body': 'degrees2dms(${1:args})'
+
+  'demcmap	Map method':
+    'prefix': 'demcmap	Map method'
+    'body': 'demcmap(${1:args})'
+
+  'demdataui	Map method':
+    'prefix': 'demdataui	Map method'
+    'body': 'demdataui(${1:args})'
+
+  'departure	Map method':
+    'prefix': 'departure	Map method'
+    'body': 'departure(${1:args})'
+
+  'distance	Map method':
+    'prefix': 'distance	Map method'
+    'body': 'distance(${1:args})'
+
+  'distortcalc	Map method':
+    'prefix': 'distortcalc	Map method'
+    'body': 'distortcalc(${1:args})'
+
+  'dm2degrees	Map method':
+    'prefix': 'dm2degrees	Map method'
+    'body': 'dm2degrees(${1:args})'
+
+  'dms2degrees	Map method':
+    'prefix': 'dms2degrees	Map method'
+    'body': 'dms2degrees(${1:args})'
+
+  'dted	Map method':
+    'prefix': 'dted	Map method'
+    'body': 'dted(${1:args})'
+
+  'dteds	Map method':
+    'prefix': 'dteds	Map method'
+    'body': 'dteds(${1:args})'
+
+  'earthRadius	Map method':
+    'prefix': 'earthRadius	Map method'
+    'body': 'earthRadius(${1:args})'
+
+  'ecc2flat	Map method':
+    'prefix': 'ecc2flat	Map method'
+    'body': 'ecc2flat(${1:args})'
+
+  'ecc2n	Map method':
+    'prefix': 'ecc2n	Map method'
+    'body': 'ecc2n(${1:args})'
+
+  'ecef2aer	Map method':
+    'prefix': 'ecef2aer	Map method'
+    'body': 'ecef2aer(${1:args})'
+
+  'ecef2enu	Map method':
+    'prefix': 'ecef2enu	Map method'
+    'body': 'ecef2enu(${1:args})'
+
+  'ecef2enuv	Map method':
+    'prefix': 'ecef2enuv	Map method'
+    'body': 'ecef2enuv(${1:args})'
+
+  'ecef2geodetic	Map method':
+    'prefix': 'ecef2geodetic	Map method'
+    'body': 'ecef2geodetic(${1:args})'
+
+  'ecef2lv	Map method':
+    'prefix': 'ecef2lv	Map method'
+    'body': 'ecef2lv(${1:args})'
+
+  'ecef2ned	Map method':
+    'prefix': 'ecef2ned	Map method'
+    'body': 'ecef2ned(${1:args})'
+
+  'ecef2nedv	Map method':
+    'prefix': 'ecef2nedv	Map method'
+    'body': 'ecef2nedv(${1:args})'
+
+  'ecefOffset	Map method':
+    'prefix': 'ecefOffset	Map method'
+    'body': 'ecefOffset(${1:args})'
+
+  'egm96geoid	Map method':
+    'prefix': 'egm96geoid	Map method'
+    'body': 'egm96geoid(${1:args})'
+
+  'ellipse1	Map method':
+    'prefix': 'ellipse1	Map method'
+    'body': 'ellipse1(${1:args})'
+
+  'enu2aer	Map method':
+    'prefix': 'enu2aer	Map method'
+    'body': 'enu2aer(${1:args})'
+
+  'enu2ecef	Map method':
+    'prefix': 'enu2ecef	Map method'
+    'body': 'enu2ecef(${1:args})'
+
+  'enu2ecefv	Map method':
+    'prefix': 'enu2ecefv	Map method'
+    'body': 'enu2ecefv(${1:args})'
+
+  'enu2geodetic	Map method':
+    'prefix': 'enu2geodetic	Map method'
+    'body': 'enu2geodetic(${1:args})'
+
+  'etopo	Map method':
+    'prefix': 'etopo	Map method'
+    'body': 'etopo(${1:args})'
+
+  'etopo5	Map method':
+    'prefix': 'etopo5	Map method'
+    'body': 'etopo5(${1:args})'
+
+  'extractfield	Map method':
+    'prefix': 'extractfield	Map method'
+    'body': 'extractfield(${1:args})'
+
+  'flat2ecc	Map method':
+    'prefix': 'flat2ecc	Map method'
+    'body': 'flat2ecc(${1:args})'
+
+  'flatearthpoly	Map method':
+    'prefix': 'flatearthpoly	Map method'
+    'body': 'flatearthpoly(${1:args})'
+
+  'framem	Map method':
+    'prefix': 'framem	Map method'
+    'body': 'framem(${1:args})'
+
+  'fromDegrees	Map method':
+    'prefix': 'fromDegrees	Map method'
+    'body': 'fromDegrees(${1:args})'
+
+  'fromRadians	Map method':
+    'prefix': 'fromRadians	Map method'
+    'body': 'fromRadians(${1:args})'
+
+  'gc2sc	Map method':
+    'prefix': 'gc2sc	Map method'
+    'body': 'gc2sc(${1:args})'
+
+  'gcm	Map method':
+    'prefix': 'gcm	Map method'
+    'body': 'gcm(${1:args})'
+
+  'gcpmap	Map method':
+    'prefix': 'gcpmap	Map method'
+    'body': 'gcpmap(${1:args})'
+
+  'gcxgc	Map method':
+    'prefix': 'gcxgc	Map method'
+    'body': 'gcxgc(${1:args})'
+
+  'gcxsc	Map method':
+    'prefix': 'gcxsc	Map method'
+    'body': 'gcxsc(${1:args})'
+
+  'geocentricLatitude	Map method':
+    'prefix': 'geocentricLatitude	Map method'
+    'body': 'geocentricLatitude(${1:args})'
+
+  'geodetic2aer	Map method':
+    'prefix': 'geodetic2aer	Map method'
+    'body': 'geodetic2aer(${1:args})'
+
+  'geodetic2ecef	Map method':
+    'prefix': 'geodetic2ecef	Map method'
+    'body': 'geodetic2ecef(${1:args})'
+
+  'geodetic2enu	Map method':
+    'prefix': 'geodetic2enu	Map method'
+    'body': 'geodetic2enu(${1:args})'
+
+  'geodetic2ned	Map method':
+    'prefix': 'geodetic2ned	Map method'
+    'body': 'geodetic2ned(${1:args})'
+
+  'geodeticLatitudeFromGeocentric	Map method':
+    'prefix': 'geodeticLatitudeFromGeocentric	Map method'
+    'body': 'geodeticLatitudeFromGeocentric(${1:args})'
+
+  'geodeticLatitudeFromParametric	Map method':
+    'prefix': 'geodeticLatitudeFromParametric	Map method'
+    'body': 'geodeticLatitudeFromParametric(${1:args})'
+
+  'geoloc2grid	Map method':
+    'prefix': 'geoloc2grid	Map method'
+    'body': 'geoloc2grid(${1:args})'
+
+  'geopeaks	Map method':
+    'prefix': 'geopeaks	Map method'
+    'body': 'geopeaks(${1:args})'
+
+  'geopoint	Map method':
+    'prefix': 'geopoint	Map method'
+    'body': 'geopoint(${1:args})'
+
+  'geoquadline	Map method':
+    'prefix': 'geoquadline	Map method'
+    'body': 'geoquadline(${1:args})'
+
+  'geoquadpt	Map method':
+    'prefix': 'geoquadpt	Map method'
+    'body': 'geoquadpt(${1:args})'
+
+  'georasterref	Map method':
+    'prefix': 'georasterref	Map method'
+    'body': 'georasterref(${1:args})'
+
+  'georefcells	Map method':
+    'prefix': 'georefcells	Map method'
+    'body': 'georefcells(${1:args})'
+
+  'georefpostings	Map method':
+    'prefix': 'georefpostings	Map method'
+    'body': 'georefpostings(${1:args})'
+
+  'geoshape	Map method':
+    'prefix': 'geoshape	Map method'
+    'body': 'geoshape(${1:args})'
+
+  'geoshow	Map method':
+    'prefix': 'geoshow	Map method'
+    'body': 'geoshow(${1:args})'
+
+  'geotiff2mstruct	Map method':
+    'prefix': 'geotiff2mstruct	Map method'
+    'body': 'geotiff2mstruct(${1:args})'
+
+  'geotiffinfo	Map method':
+    'prefix': 'geotiffinfo	Map method'
+    'body': 'geotiffinfo(${1:args})'
+
+  'geotiffread	Map method':
+    'prefix': 'geotiffread	Map method'
+    'body': 'geotiffread(${1:args})'
+
+  'geotiffwrite	Map method':
+    'prefix': 'geotiffwrite	Map method'
+    'body': 'geotiffwrite(${1:args})'
+
+  'getm	Map method':
+    'prefix': 'getm	Map method'
+    'body': 'getm(${1:args})'
+
+  'getworldfilename	Map method':
+    'prefix': 'getworldfilename	Map method'
+    'body': 'getworldfilename(${1:args})'
+
+  'globedem	Map method':
+    'prefix': 'globedem	Map method'
+    'body': 'globedem(${1:args})'
+
+  'globedems	Map method':
+    'prefix': 'globedems	Map method'
+    'body': 'globedems(${1:args})'
+
+  'gpxread	Map method':
+    'prefix': 'gpxread	Map method'
+    'body': 'gpxread(${1:args})'
+
+  'gradientm	Map method':
+    'prefix': 'gradientm	Map method'
+    'body': 'gradientm(${1:args})'
+
+  'grid2image	Map method':
+    'prefix': 'grid2image	Map method'
+    'body': 'grid2image(${1:args})'
+
+  'gridm	Map method':
+    'prefix': 'gridm	Map method'
+    'body': 'gridm(${1:args})'
+
+  'gshhs	Map method':
+    'prefix': 'gshhs	Map method'
+    'body': 'gshhs(${1:args})'
+
+  'gtextm	Map method':
+    'prefix': 'gtextm	Map method'
+    'body': 'gtextm(${1:args})'
+
+  'gtopo30	Map method':
+    'prefix': 'gtopo30	Map method'
+    'body': 'gtopo30(${1:args})'
+
+  'gtopo30s	Map method':
+    'prefix': 'gtopo30s	Map method'
+    'body': 'gtopo30s(${1:args})'
+
+  'handlem	Map method':
+    'prefix': 'handlem	Map method'
+    'body': 'handlem(${1:args})'
+
+  'hista	Map method':
+    'prefix': 'hista	Map method'
+    'body': 'hista(${1:args})'
+
+  'histr	Map method':
+    'prefix': 'histr	Map method'
+    'body': 'histr(${1:args})'
+
+  'imbedm	Map method':
+    'prefix': 'imbedm	Map method'
+    'body': 'imbedm(${1:args})'
+
+  'ingeoquad	Map method':
+    'prefix': 'ingeoquad	Map method'
+    'body': 'ingeoquad(${1:args})'
+
+  'inputm	Map method':
+    'prefix': 'inputm	Map method'
+    'body': 'inputm(${1:args})'
+
+  'interpm	Map method':
+    'prefix': 'interpm	Map method'
+    'body': 'interpm(${1:args})'
+
+  'intersectgeoquad	Map method':
+    'prefix': 'intersectgeoquad	Map method'
+    'body': 'intersectgeoquad(${1:args})'
+
+  'intrplat	Map method':
+    'prefix': 'intrplat	Map method'
+    'body': 'intrplat(${1:args})'
+
+  'intrplon	Map method':
+    'prefix': 'intrplon	Map method'
+    'body': 'intrplon(${1:args})'
+
+  'isShapeMultipart	Map method':
+    'prefix': 'isShapeMultipart	Map method'
+    'body': 'isShapeMultipart(${1:args})'
+
+  'ismap	Map method':
+    'prefix': 'ismap	Map method'
+    'body': 'ismap(${1:args})'
+
+  'ispolycw	Map method':
+    'prefix': 'ispolycw	Map method'
+    'body': 'ispolycw(${1:args})'
+
+  'km2deg	Map method':
+    'prefix': 'km2deg	Map method'
+    'body': 'km2deg(${1:args})'
+
+  'km2nm	Map method':
+    'prefix': 'km2nm	Map method'
+    'body': 'km2nm(${1:args})'
+
+  'km2rad	Map method':
+    'prefix': 'km2rad	Map method'
+    'body': 'km2rad(${1:args})'
+
+  'km2sm	Map method':
+    'prefix': 'km2sm	Map method'
+    'body': 'km2sm(${1:args})'
+
+  'kmlwrite	Map method':
+    'prefix': 'kmlwrite	Map method'
+    'body': 'kmlwrite(${1:args})'
+
+  'kmlwriteline	Map method':
+    'prefix': 'kmlwriteline	Map method'
+    'body': 'kmlwriteline(${1:args})'
+
+  'kmlwritepoint	Map method':
+    'prefix': 'kmlwritepoint	Map method'
+    'body': 'kmlwritepoint(${1:args})'
+
+  'lightm	Map method':
+    'prefix': 'lightm	Map method'
+    'body': 'lightm(${1:args})'
+
+  'limitm	Map method':
+    'prefix': 'limitm	Map method'
+    'body': 'limitm(${1:args})'
+
+  'linecirc	Map method':
+    'prefix': 'linecirc	Map method'
+    'body': 'linecirc(${1:args})'
+
+  'linem	Map method':
+    'prefix': 'linem	Map method'
+    'body': 'linem(${1:args})'
+
+  'los2	Map method':
+    'prefix': 'los2	Map method'
+    'body': 'los2(${1:args})'
+
+  'ltln2val	Map method':
+    'prefix': 'ltln2val	Map method'
+    'body': 'ltln2val(${1:args})'
+
+  'lv2ecef	Map method':
+    'prefix': 'lv2ecef	Map method'
+    'body': 'lv2ecef(${1:args})'
+
+  'majaxis	Map method':
+    'prefix': 'majaxis	Map method'
+    'body': 'majaxis(${1:args})'
+
+  'makeattribspec	Map method':
+    'prefix': 'makeattribspec	Map method'
+    'body': 'makeattribspec(${1:args})'
+
+  'makedbfspec	Map method':
+    'prefix': 'makedbfspec	Map method'
+    'body': 'makedbfspec(${1:args})'
+
+  'makerefmat	Map method':
+    'prefix': 'makerefmat	Map method'
+    'body': 'makerefmat(${1:args})'
+
+  'makesymbolspec	Map method':
+    'prefix': 'makesymbolspec	Map method'
+    'body': 'makesymbolspec(${1:args})'
+
+  'map.geodesy.AuthalicLatitudeConverter	Map method':
+    'prefix': 'map.geodesy.AuthalicLatitudeConverter	Map method'
+    'body': 'map.geodesy.AuthalicLatitudeConverter(${1:args})'
+
+  'map.geodesy.ConformalLatitudeConverter	Map method':
+    'prefix': 'map.geodesy.ConformalLatitudeConverter	Map method'
+    'body': 'map.geodesy.ConformalLatitudeConverter(${1:args})'
+
+  'map.geodesy.IsometricLatitudeConverter	Map method':
+    'prefix': 'map.geodesy.IsometricLatitudeConverter	Map method'
+    'body': 'map.geodesy.IsometricLatitudeConverter(${1:args})'
+
+  'map.geodesy.RectifyingLatitudeConverter	Map method':
+    'prefix': 'map.geodesy.RectifyingLatitudeConverter	Map method'
+    'body': 'map.geodesy.RectifyingLatitudeConverter(${1:args})'
+
+  'map.geodesy.isdegree	Map method':
+    'prefix': 'map.geodesy.isdegree	Map method'
+    'body': 'map.geodesy.isdegree(${1:args})'
+
+  'map.geotiff.RPCCoefficientTag	Map method':
+    'prefix': 'map.geotiff.RPCCoefficientTag	Map method'
+    'body': 'map.geotiff.RPCCoefficientTag(${1:args})'
+
+  'map.rasterref.GeographicCellsReference	Map method':
+    'prefix': 'map.rasterref.GeographicCellsReference	Map method'
+    'body': 'map.rasterref.GeographicCellsReference(${1:args})'
+
+  'map.rasterref.GeographicPostingsReference	Map method':
+    'prefix': 'map.rasterref.GeographicPostingsReference	Map method'
+    'body': 'map.rasterref.GeographicPostingsReference(${1:args})'
+
+  'map.rasterref.MapCellsReference	Map method':
+    'prefix': 'map.rasterref.MapCellsReference	Map method'
+    'body': 'map.rasterref.MapCellsReference(${1:args})'
+
+  'map.rasterref.MapPostingsReference	Map method':
+    'prefix': 'map.rasterref.MapPostingsReference	Map method'
+    'body': 'map.rasterref.MapPostingsReference(${1:args})'
+
+  'maplist	Map method':
+    'prefix': 'maplist	Map method'
+    'body': 'maplist(${1:args})'
+
+  'mapoutline	Map method':
+    'prefix': 'mapoutline	Map method'
+    'body': 'mapoutline(${1:args})'
+
+  'mappoint	Map method':
+    'prefix': 'mappoint	Map method'
+    'body': 'mappoint(${1:args})'
+
+  'mapprofile	Map method':
+    'prefix': 'mapprofile	Map method'
+    'body': 'mapprofile(${1:args})'
+
+  'maprasterref	Map method':
+    'prefix': 'maprasterref	Map method'
+    'body': 'maprasterref(${1:args})'
+
+  'maprefcells	Map method':
+    'prefix': 'maprefcells	Map method'
+    'body': 'maprefcells(${1:args})'
+
+  'maprefpostings	Map method':
+    'prefix': 'maprefpostings	Map method'
+    'body': 'maprefpostings(${1:args})'
+
+  'maps	Map method':
+    'prefix': 'maps	Map method'
+    'body': 'maps(${1:args})'
+
+  'mapshape	Map method':
+    'prefix': 'mapshape	Map method'
+    'body': 'mapshape(${1:args})'
+
+  'mapshow	Map method':
+    'prefix': 'mapshow	Map method'
+    'body': 'mapshow(${1:args})'
+
+  'maptool	Map method':
+    'prefix': 'maptool	Map method'
+    'body': 'maptool(${1:args})'
+
+  'maptrim	Map method':
+    'prefix': 'maptrim	Map method'
+    'body': 'maptrim(${1:args})'
+
+  'maptriml	Map method':
+    'prefix': 'maptriml	Map method'
+    'body': 'maptriml(${1:args})'
+
+  'maptrimp	Map method':
+    'prefix': 'maptrimp	Map method'
+    'body': 'maptrimp(${1:args})'
+
+  'maptrims	Map method':
+    'prefix': 'maptrims	Map method'
+    'body': 'maptrims(${1:args})'
+
+  'mapview	Map method':
+    'prefix': 'mapview	Map method'
+    'body': 'mapview(${1:args})'
+
+  'mdistort	Map method':
+    'prefix': 'mdistort	Map method'
+    'body': 'mdistort(${1:args})'
+
+  'meridianarc	Map method':
+    'prefix': 'meridianarc	Map method'
+    'body': 'meridianarc(${1:args})'
+
+  'meridianfwd	Map method':
+    'prefix': 'meridianfwd	Map method'
+    'body': 'meridianfwd(${1:args})'
+
+  'meshlsrm	Map method':
+    'prefix': 'meshlsrm	Map method'
+    'body': 'meshlsrm(${1:args})'
+
+  'meshm	Map method':
+    'prefix': 'meshm	Map method'
+    'body': 'meshm(${1:args})'
+
+  'mfwdtran	Map method':
+    'prefix': 'mfwdtran	Map method'
+    'body': 'mfwdtran(${1:args})'
+
+  'minaxis	Map method':
+    'prefix': 'minaxis	Map method'
+    'body': 'minaxis(${1:args})'
+
+  'minvtran	Map method':
+    'prefix': 'minvtran	Map method'
+    'body': 'minvtran(${1:args})'
+
+  'mlabel	Map method':
+    'prefix': 'mlabel	Map method'
+    'body': 'mlabel(${1:args})'
+
+  'mlabelzero22pi	Map method':
+    'prefix': 'mlabelzero22pi	Map method'
+    'body': 'mlabelzero22pi(${1:args})'
+
+  'n2ecc	Map method':
+    'prefix': 'n2ecc	Map method'
+    'body': 'n2ecc(${1:args})'
+
+  'namem	Map method':
+    'prefix': 'namem	Map method'
+    'body': 'namem(${1:args})'
+
+  'ned2aer	Map method':
+    'prefix': 'ned2aer	Map method'
+    'body': 'ned2aer(${1:args})'
+
+  'ned2ecef	Map method':
+    'prefix': 'ned2ecef	Map method'
+    'body': 'ned2ecef(${1:args})'
+
+  'ned2ecefv	Map method':
+    'prefix': 'ned2ecefv	Map method'
+    'body': 'ned2ecefv(${1:args})'
+
+  'ned2geodetic	Map method':
+    'prefix': 'ned2geodetic	Map method'
+    'body': 'ned2geodetic(${1:args})'
+
+  'newpole	Map method':
+    'prefix': 'newpole	Map method'
+    'body': 'newpole(${1:args})'
+
+  'nm2deg	Map method':
+    'prefix': 'nm2deg	Map method'
+    'body': 'nm2deg(${1:args})'
+
+  'nm2km	Map method':
+    'prefix': 'nm2km	Map method'
+    'body': 'nm2km(${1:args})'
+
+  'nm2rad	Map method':
+    'prefix': 'nm2rad	Map method'
+    'body': 'nm2rad(${1:args})'
+
+  'nm2sm	Map method':
+    'prefix': 'nm2sm	Map method'
+    'body': 'nm2sm(${1:args})'
+
+  'northarrow	Map method':
+    'prefix': 'northarrow	Map method'
+    'body': 'northarrow(${1:args})'
+
+  'oblateSpheroid	Map method':
+    'prefix': 'oblateSpheroid	Map method'
+    'body': 'oblateSpheroid(${1:args})'
+
+  'org2pol	Map method':
+    'prefix': 'org2pol	Map method'
+    'body': 'org2pol(${1:args})'
+
+  'originui	Map method':
+    'prefix': 'originui	Map method'
+    'body': 'originui(${1:args})'
+
+  'outlinegeoquad	Map method':
+    'prefix': 'outlinegeoquad	Map method'
+    'body': 'outlinegeoquad(${1:args})'
+
+  'parallelui	Map method':
+    'prefix': 'parallelui	Map method'
+    'body': 'parallelui(${1:args})'
+
+  'parametricLatitude	Map method':
+    'prefix': 'parametricLatitude	Map method'
+    'body': 'parametricLatitude(${1:args})'
+
+  'pcolorm	Map method':
+    'prefix': 'pcolorm	Map method'
+    'body': 'pcolorm(${1:args})'
+
+  'plabel	Map method':
+    'prefix': 'plabel	Map method'
+    'body': 'plabel(${1:args})'
+
+  'plot3m	Map method':
+    'prefix': 'plot3m	Map method'
+    'body': 'plot3m(${1:args})'
+
+  'plotm	Map method':
+    'prefix': 'plotm	Map method'
+    'body': 'plotm(${1:args})'
+
+  'polcmap	Map method':
+    'prefix': 'polcmap	Map method'
+    'body': 'polcmap(${1:args})'
+
+  'poly2ccw	Map method':
+    'prefix': 'poly2ccw	Map method'
+    'body': 'poly2ccw(${1:args})'
+
+  'poly2cw	Map method':
+    'prefix': 'poly2cw	Map method'
+    'body': 'poly2cw(${1:args})'
+
+  'poly2fv	Map method':
+    'prefix': 'poly2fv	Map method'
+    'body': 'poly2fv(${1:args})'
+
+  'polybool	Map method':
+    'prefix': 'polybool	Map method'
+    'body': 'polybool(${1:args})'
+
+  'polyjoin	Map method':
+    'prefix': 'polyjoin	Map method'
+    'body': 'polyjoin(${1:args})'
+
+  'polymerge	Map method':
+    'prefix': 'polymerge	Map method'
+    'body': 'polymerge(${1:args})'
+
+  'polysplit	Map method':
+    'prefix': 'polysplit	Map method'
+    'body': 'polysplit(${1:args})'
+
+  'polyxpoly	Map method':
+    'prefix': 'polyxpoly	Map method'
+    'body': 'polyxpoly(${1:args})'
+
+  'projfwd	Map method':
+    'prefix': 'projfwd	Map method'
+    'body': 'projfwd(${1:args})'
+
+  'projinv	Map method':
+    'prefix': 'projinv	Map method'
+    'body': 'projinv(${1:args})'
+
+  'projlist	Map method':
+    'prefix': 'projlist	Map method'
+    'body': 'projlist(${1:args})'
+
+  'putpole	Map method':
+    'prefix': 'putpole	Map method'
+    'body': 'putpole(${1:args})'
+
+  'quiver3m	Map method':
+    'prefix': 'quiver3m	Map method'
+    'body': 'quiver3m(${1:args})'
+
+  'quiverm	Map method':
+    'prefix': 'quiverm	Map method'
+    'body': 'quiverm(${1:args})'
+
+  'rad2km	Map method':
+    'prefix': 'rad2km	Map method'
+    'body': 'rad2km(${1:args})'
+
+  'rad2nm	Map method':
+    'prefix': 'rad2nm	Map method'
+    'body': 'rad2nm(${1:args})'
+
+  'rad2sm	Map method':
+    'prefix': 'rad2sm	Map method'
+    'body': 'rad2sm(${1:args})'
+
+  'rcurve	Map method':
+    'prefix': 'rcurve	Map method'
+    'body': 'rcurve(${1:args})'
+
+  'reckon	Map method':
+    'prefix': 'reckon	Map method'
+    'body': 'reckon(${1:args})'
+
+  'reducem	Map method':
+    'prefix': 'reducem	Map method'
+    'body': 'reducem(${1:args})'
+
+  'referenceEllipsoid	Map method':
+    'prefix': 'referenceEllipsoid	Map method'
+    'body': 'referenceEllipsoid(${1:args})'
+
+  'referenceSphere	Map method':
+    'prefix': 'referenceSphere	Map method'
+    'body': 'referenceSphere(${1:args})'
+
+  'refmatToGeoRasterReference	Map method':
+    'prefix': 'refmatToGeoRasterReference	Map method'
+    'body': 'refmatToGeoRasterReference(${1:args})'
+
+  'refmatToMapRasterReference	Map method':
+    'prefix': 'refmatToMapRasterReference	Map method'
+    'body': 'refmatToMapRasterReference(${1:args})'
+
+  'refmatToWorldFileMatrix	Map method':
+    'prefix': 'refmatToWorldFileMatrix	Map method'
+    'body': 'refmatToWorldFileMatrix(${1:args})'
+
+  'refvecToGeoRasterReference	Map method':
+    'prefix': 'refvecToGeoRasterReference	Map method'
+    'body': 'refvecToGeoRasterReference(${1:args})'
+
+  'removeExtraNanSeparators	Map method':
+    'prefix': 'removeExtraNanSeparators	Map method'
+    'body': 'removeExtraNanSeparators(${1:args})'
+
+  'resizem	Map method':
+    'prefix': 'resizem	Map method'
+    'body': 'resizem(${1:args})'
+
+  'restack	Map method':
+    'prefix': 'restack	Map method'
+    'body': 'restack(${1:args})'
+
+  'rhxrh	Map method':
+    'prefix': 'rhxrh	Map method'
+    'body': 'rhxrh(${1:args})'
+
+  'rotatem	Map method':
+    'prefix': 'rotatem	Map method'
+    'body': 'rotatem(${1:args})'
+
+  'rotatetext	Map method':
+    'prefix': 'rotatetext	Map method'
+    'body': 'rotatetext(${1:args})'
+
+  'roundn	Map method':
+    'prefix': 'roundn	Map method'
+    'body': 'roundn(${1:args})'
+
+  'rsphere	Map method':
+    'prefix': 'rsphere	Map method'
+    'body': 'rsphere(${1:args})'
+
+  'satbath	Map method':
+    'prefix': 'satbath	Map method'
+    'body': 'satbath(${1:args})'
+
+  'scaleruler	Map method':
+    'prefix': 'scaleruler	Map method'
+    'body': 'scaleruler(${1:args})'
+
+  'scatterm	Map method':
+    'prefix': 'scatterm	Map method'
+    'body': 'scatterm(${1:args})'
+
+  'scircle1	Map method':
+    'prefix': 'scircle1	Map method'
+    'body': 'scircle1(${1:args})'
+
+  'scircle2	Map method':
+    'prefix': 'scircle2	Map method'
+    'body': 'scircle2(${1:args})'
+
+  'scircleg	Map method':
+    'prefix': 'scircleg	Map method'
+    'body': 'scircleg(${1:args})'
+
+  'scirclui	Map method':
+    'prefix': 'scirclui	Map method'
+    'body': 'scirclui(${1:args})'
+
+  'scxsc	Map method':
+    'prefix': 'scxsc	Map method'
+    'body': 'scxsc(${1:args})'
+
+  'sdtsdemread	Map method':
+    'prefix': 'sdtsdemread	Map method'
+    'body': 'sdtsdemread(${1:args})'
+
+  'sdtsinfo	Map method':
+    'prefix': 'sdtsinfo	Map method'
+    'body': 'sdtsinfo(${1:args})'
+
+  'sectorg	Map method':
+    'prefix': 'sectorg	Map method'
+    'body': 'sectorg(${1:args})'
+
+  'setm	Map method':
+    'prefix': 'setm	Map method'
+    'body': 'setm(${1:args})'
+
+  'shaderel	Map method':
+    'prefix': 'shaderel	Map method'
+    'body': 'shaderel(${1:args})'
+
+  'shapeinfo	Map method':
+    'prefix': 'shapeinfo	Map method'
+    'body': 'shapeinfo(${1:args})'
+
+  'shaperead	Map method':
+    'prefix': 'shaperead	Map method'
+    'body': 'shaperead(${1:args})'
+
+  'shapewrite	Map method':
+    'prefix': 'shapewrite	Map method'
+    'body': 'shapewrite(${1:args})'
+
+  'showaxes	Map method':
+    'prefix': 'showaxes	Map method'
+    'body': 'showaxes(${1:args})'
+
+  'sm2deg	Map method':
+    'prefix': 'sm2deg	Map method'
+    'body': 'sm2deg(${1:args})'
+
+  'sm2km	Map method':
+    'prefix': 'sm2km	Map method'
+    'body': 'sm2km(${1:args})'
+
+  'sm2nm	Map method':
+    'prefix': 'sm2nm	Map method'
+    'body': 'sm2nm(${1:args})'
+
+  'sm2rad	Map method':
+    'prefix': 'sm2rad	Map method'
+    'body': 'sm2rad(${1:args})'
+
+  'stem3m	Map method':
+    'prefix': 'stem3m	Map method'
+    'body': 'stem3m(${1:args})'
+
+  'str2angle	Map method':
+    'prefix': 'str2angle	Map method'
+    'body': 'str2angle(${1:args})'
+
+  'surfacem	Map method':
+    'prefix': 'surfacem	Map method'
+    'body': 'surfacem(${1:args})'
+
+  'surflm	Map method':
+    'prefix': 'surflm	Map method'
+    'body': 'surflm(${1:args})'
+
+  'surflsrm	Map method':
+    'prefix': 'surflsrm	Map method'
+    'body': 'surflsrm(${1:args})'
+
+  'surfm	Map method':
+    'prefix': 'surfm	Map method'
+    'body': 'surfm(${1:args})'
+
+  'symbolm	Map method':
+    'prefix': 'symbolm	Map method'
+    'body': 'symbolm(${1:args})'
+
+  'tagm	Map method':
+    'prefix': 'tagm	Map method'
+    'body': 'tagm(${1:args})'
+
+  'tbase	Map method':
+    'prefix': 'tbase	Map method'
+    'body': 'tbase(${1:args})'
+
+  'tightmap	Map method':
+    'prefix': 'tightmap	Map method'
+    'body': 'tightmap(${1:args})'
+
+  'tissot	Map method':
+    'prefix': 'tissot	Map method'
+    'body': 'tissot(${1:args})'
+
+  'toDegrees	Map method':
+    'prefix': 'toDegrees	Map method'
+    'body': 'toDegrees(${1:args})'
+
+  'toRadians	Map method':
+    'prefix': 'toRadians	Map method'
+    'body': 'toRadians(${1:args})'
+
+  'track1	Map method':
+    'prefix': 'track1	Map method'
+    'body': 'track1(${1:args})'
+
+  'track2	Map method':
+    'prefix': 'track2	Map method'
+    'body': 'track2(${1:args})'
+
+  'trackg	Map method':
+    'prefix': 'trackg	Map method'
+    'body': 'trackg(${1:args})'
+
+  'trackui	Map method':
+    'prefix': 'trackui	Map method'
+    'body': 'trackui(${1:args})'
+
+  'unitsratio	Map method':
+    'prefix': 'unitsratio	Map method'
+    'body': 'unitsratio(${1:args})'
+
+  'unwrapMultipart	Map method':
+    'prefix': 'unwrapMultipart	Map method'
+    'body': 'unwrapMultipart(${1:args})'
+
+  'usamap	Map method':
+    'prefix': 'usamap	Map method'
+    'body': 'usamap(${1:args})'
+
+  'usgs24kdem	Map method':
+    'prefix': 'usgs24kdem	Map method'
+    'body': 'usgs24kdem(${1:args})'
+
+  'usgsdem	Map method':
+    'prefix': 'usgsdem	Map method'
+    'body': 'usgsdem(${1:args})'
+
+  'usgsdems	Map method':
+    'prefix': 'usgsdems	Map method'
+    'body': 'usgsdems(${1:args})'
+
+  'utmgeoid	Map method':
+    'prefix': 'utmgeoid	Map method'
+    'body': 'utmgeoid(${1:args})'
+
+  'utmzone	Map method':
+    'prefix': 'utmzone	Map method'
+    'body': 'utmzone(${1:args})'
+
+  'utmzoneui	Map method':
+    'prefix': 'utmzoneui	Map method'
+    'body': 'utmzoneui(${1:args})'
+
+  'validateLengthUnit	Map method':
+    'prefix': 'validateLengthUnit	Map method'
+    'body': 'validateLengthUnit(${1:args})'
+
+  'vec2mtx	Map method':
+    'prefix': 'vec2mtx	Map method'
+    'body': 'vec2mtx(${1:args})'
+
+  'vfwdtran	Map method':
+    'prefix': 'vfwdtran	Map method'
+    'body': 'vfwdtran(${1:args})'
+
+  'viewshed	Map method':
+    'prefix': 'viewshed	Map method'
+    'body': 'viewshed(${1:args})'
+
+  'vinvtran	Map method':
+    'prefix': 'vinvtran	Map method'
+    'body': 'vinvtran(${1:args})'
+
+  'vmap0data	Map method':
+    'prefix': 'vmap0data	Map method'
+    'body': 'vmap0data(${1:args})'
+
+  'vmap0read	Map method':
+    'prefix': 'vmap0read	Map method'
+    'body': 'vmap0read(${1:args})'
+
+  'vmap0rhead	Map method':
+    'prefix': 'vmap0rhead	Map method'
+    'body': 'vmap0rhead(${1:args})'
+
+  'vmap0ui	Map method':
+    'prefix': 'vmap0ui	Map method'
+    'body': 'vmap0ui(${1:args})'
+
+  'webmap	Map method':
+    'prefix': 'webmap	Map method'
+    'body': 'webmap(${1:args})'
+
+  'wgs84Ellipsoid	Map method':
+    'prefix': 'wgs84Ellipsoid	Map method'
+    'body': 'wgs84Ellipsoid(${1:args})'
+
+  'wmcenter	Map method':
+    'prefix': 'wmcenter	Map method'
+    'body': 'wmcenter(${1:args})'
+
+  'wmclose	Map method':
+    'prefix': 'wmclose	Map method'
+    'body': 'wmclose(${1:args})'
+
+  'wmlimits	Map method':
+    'prefix': 'wmlimits	Map method'
+    'body': 'wmlimits(${1:args})'
+
+  'wmline	Map method':
+    'prefix': 'wmline	Map method'
+    'body': 'wmline(${1:args})'
+
+  'wmmarker	Map method':
+    'prefix': 'wmmarker	Map method'
+    'body': 'wmmarker(${1:args})'
+
+  'wmprint	Map method':
+    'prefix': 'wmprint	Map method'
+    'body': 'wmprint(${1:args})'
+
+  'wmremove	Map method':
+    'prefix': 'wmremove	Map method'
+    'body': 'wmremove(${1:args})'
+
+  'wmsfind	Map method':
+    'prefix': 'wmsfind	Map method'
+    'body': 'wmsfind(${1:args})'
+
+  'wmsinfo	Map method':
+    'prefix': 'wmsinfo	Map method'
+    'body': 'wmsinfo(${1:args})'
+
+  'wmsread	Map method':
+    'prefix': 'wmsread	Map method'
+    'body': 'wmsread(${1:args})'
+
+  'wmsupdate	Map method':
+    'prefix': 'wmsupdate	Map method'
+    'body': 'wmsupdate(${1:args})'
+
+  'wmzoom	Map method':
+    'prefix': 'wmzoom	Map method'
+    'body': 'wmzoom(${1:args})'
+
+  'worldFileMatrixToRefmat	Map method':
+    'prefix': 'worldFileMatrixToRefmat	Map method'
+    'body': 'worldFileMatrixToRefmat(${1:args})'
+
+  'worldfileread	Map method':
+    'prefix': 'worldfileread	Map method'
+    'body': 'worldfileread(${1:args})'
+
+  'worldfilewrite	Map method':
+    'prefix': 'worldfilewrite	Map method'
+    'body': 'worldfilewrite(${1:args})'
+
+  'worldmap	Map method':
+    'prefix': 'worldmap	Map method'
+    'body': 'worldmap(${1:args})'
+
+  'wrapTo180	Map method':
+    'prefix': 'wrapTo180	Map method'
+    'body': 'wrapTo180(${1:args})'
+
+  'wrapTo2Pi	Map method':
+    'prefix': 'wrapTo2Pi	Map method'
+    'body': 'wrapTo2Pi(${1:args})'
+
+  'wrapTo360	Map method':
+    'prefix': 'wrapTo360	Map method'
+    'body': 'wrapTo360(${1:args})'
+
+  'wrapToPi	Map method':
+    'prefix': 'wrapToPi	Map method'
+    'body': 'wrapToPi(${1:args})'
+
+  'zdatam	Map method':
+    'prefix': 'zdatam	Map method'
+    'body': 'zdatam(${1:args})'

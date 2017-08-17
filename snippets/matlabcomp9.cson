@@ -1,0 +1,103 @@
+# matlabcomp9 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'DataTypeWorkflow.Converter	FixedPoint class':
+    'prefix': 'DataTypeWorkflow.Converter	FixedPoint class'
+    'body': 'DataTypeWorkflow.Converter'
+
+  'DataTypeWorkflow.DiffRunResult	FixedPoint class':
+    'prefix': 'DataTypeWorkflow.DiffRunResult	FixedPoint class'
+    'body': 'DataTypeWorkflow.DiffRunResult'
+
+  'DataTypeWorkflow.DiffSignalResult	FixedPoint class':
+    'prefix': 'DataTypeWorkflow.DiffSignalResult	FixedPoint class'
+    'body': 'DataTypeWorkflow.DiffSignalResult'
+
+  'DataTypeWorkflow.ProposalSettings	FixedPoint class':
+    'prefix': 'DataTypeWorkflow.ProposalSettings	FixedPoint class'
+    'body': 'DataTypeWorkflow.ProposalSettings'
+
+  'DataTypeWorkflow.Result	FixedPoint class':
+    'prefix': 'DataTypeWorkflow.Result	FixedPoint class'
+    'body': 'DataTypeWorkflow.Result'
+
+  'assignmentquantizer	FixedPoint class':
+    'prefix': 'assignmentquantizer	FixedPoint class'
+    'body': 'assignmentquantizer'
+
+  'coder.ArrayType	FixedPoint class':
+    'prefix': 'coder.ArrayType	FixedPoint class'
+    'body': 'coder.ArrayType'
+
+  'coder.CellType	FixedPoint class':
+    'prefix': 'coder.CellType	FixedPoint class'
+    'body': 'coder.CellType'
+
+  'coder.Constant	FixedPoint class':
+    'prefix': 'coder.Constant	FixedPoint class'
+    'body': 'coder.Constant'
+
+  'coder.EnumType	FixedPoint class':
+    'prefix': 'coder.EnumType	FixedPoint class'
+    'body': 'coder.EnumType'
+
+  'coder.FiType	FixedPoint class':
+    'prefix': 'coder.FiType	FixedPoint class'
+    'body': 'coder.FiType'
+
+  'coder.FixptConfig	FixedPoint class':
+    'prefix': 'coder.FixptConfig	FixedPoint class'
+    'body': 'coder.FixptConfig'
+
+  'coder.MexConfig	FixedPoint class':
+    'prefix': 'coder.MexConfig	FixedPoint class'
+    'body': 'coder.MexConfig'
+
+  'coder.PrimitiveType	FixedPoint class':
+    'prefix': 'coder.PrimitiveType	FixedPoint class'
+    'body': 'coder.PrimitiveType'
+
+  'coder.SingleConfig	FixedPoint class':
+    'prefix': 'coder.SingleConfig	FixedPoint class'
+    'body': 'coder.SingleConfig'
+
+  'coder.StructType	FixedPoint class':
+    'prefix': 'coder.StructType	FixedPoint class'
+    'body': 'coder.StructType'
+
+  'coder.Type	FixedPoint class':
+    'prefix': 'coder.Type	FixedPoint class'
+    'body': 'coder.Type'
+
+  'embedded.fi	FixedPoint class':
+    'prefix': 'embedded.fi	FixedPoint class'
+    'body': 'embedded.fi'
+
+  'embedded.fimath	FixedPoint class':
+    'prefix': 'embedded.fimath	FixedPoint class'
+    'body': 'embedded.fimath'
+
+  'embedded.numerictype	FixedPoint class':
+    'prefix': 'embedded.numerictype	FixedPoint class'
+    'body': 'embedded.numerictype'
+
+  'fixed.aggregateType	FixedPoint class':
+    'prefix': 'fixed.aggregateType	FixedPoint class'
+    'body': 'fixed.aggregateType'
+
+  'quantizer	FixedPoint class':
+    'prefix': 'quantizer	FixedPoint class'
+    'body': 'quantizer'
+
+  'savefipref	FixedPoint class':
+    'prefix': 'savefipref	FixedPoint class'
+    'body': 'savefipref'
+
+  'tostring	FixedPoint class':
+    'prefix': 'tostring	FixedPoint class'
+    'body': 'tostring'
+
+  'unitquantizer	FixedPoint class':
+    'prefix': 'unitquantizer	FixedPoint class'
+    'body': 'unitquantizer'

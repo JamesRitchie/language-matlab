@@ -1,0 +1,691 @@
+# matlabcomp42 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'TuningGoal.ControllerPoles	Robust method':
+    'prefix': 'TuningGoal.ControllerPoles	Robust method'
+    'body': 'TuningGoal.ControllerPoles(${1:args})'
+
+  'TuningGoal.Gain	Robust method':
+    'prefix': 'TuningGoal.Gain	Robust method'
+    'body': 'TuningGoal.Gain(${1:args})'
+
+  'TuningGoal.LQG	Robust method':
+    'prefix': 'TuningGoal.LQG	Robust method'
+    'body': 'TuningGoal.LQG(${1:args})'
+
+  'TuningGoal.LoopShape	Robust method':
+    'prefix': 'TuningGoal.LoopShape	Robust method'
+    'body': 'TuningGoal.LoopShape(${1:args})'
+
+  'TuningGoal.Margins	Robust method':
+    'prefix': 'TuningGoal.Margins	Robust method'
+    'body': 'TuningGoal.Margins(${1:args})'
+
+  'TuningGoal.MaxLoopGain	Robust method':
+    'prefix': 'TuningGoal.MaxLoopGain	Robust method'
+    'body': 'TuningGoal.MaxLoopGain(${1:args})'
+
+  'TuningGoal.MinLoopGain	Robust method':
+    'prefix': 'TuningGoal.MinLoopGain	Robust method'
+    'body': 'TuningGoal.MinLoopGain(${1:args})'
+
+  'TuningGoal.Overshoot	Robust method':
+    'prefix': 'TuningGoal.Overshoot	Robust method'
+    'body': 'TuningGoal.Overshoot(${1:args})'
+
+  'TuningGoal.Poles	Robust method':
+    'prefix': 'TuningGoal.Poles	Robust method'
+    'body': 'TuningGoal.Poles(${1:args})'
+
+  'TuningGoal.Rejection	Robust method':
+    'prefix': 'TuningGoal.Rejection	Robust method'
+    'body': 'TuningGoal.Rejection(${1:args})'
+
+  'TuningGoal.Sensitivity	Robust method':
+    'prefix': 'TuningGoal.Sensitivity	Robust method'
+    'body': 'TuningGoal.Sensitivity(${1:args})'
+
+  'TuningGoal.StepRejection	Robust method':
+    'prefix': 'TuningGoal.StepRejection	Robust method'
+    'body': 'TuningGoal.StepRejection(${1:args})'
+
+  'TuningGoal.StepTracking	Robust method':
+    'prefix': 'TuningGoal.StepTracking	Robust method'
+    'body': 'TuningGoal.StepTracking(${1:args})'
+
+  'TuningGoal.Tracking	Robust method':
+    'prefix': 'TuningGoal.Tracking	Robust method'
+    'body': 'TuningGoal.Tracking(${1:args})'
+
+  'TuningGoal.Transient	Robust method':
+    'prefix': 'TuningGoal.Transient	Robust method'
+    'body': 'TuningGoal.Transient(${1:args})'
+
+  'TuningGoal.Variance	Robust method':
+    'prefix': 'TuningGoal.Variance	Robust method'
+    'body': 'TuningGoal.Variance(${1:args})'
+
+  'TuningGoal.WeightedGain	Robust method':
+    'prefix': 'TuningGoal.WeightedGain	Robust method'
+    'body': 'TuningGoal.WeightedGain(${1:args})'
+
+  'TuningGoal.WeightedVariance	Robust method':
+    'prefix': 'TuningGoal.WeightedVariance	Robust method'
+    'body': 'TuningGoal.WeightedVariance(${1:args})'
+
+  'actual2normalized	Robust method':
+    'prefix': 'actual2normalized	Robust method'
+    'body': 'actual2normalized(${1:args})'
+
+  'addBlock	Robust method':
+    'prefix': 'addBlock	Robust method'
+    'body': 'addBlock(${1:args})'
+
+  'addOpening	Robust method':
+    'prefix': 'addOpening	Robust method'
+    'body': 'addOpening(${1:args})'
+
+  'addPoint	Robust method':
+    'prefix': 'addPoint	Robust method'
+    'body': 'addPoint(${1:args})'
+
+  'aff2pol	Robust method':
+    'prefix': 'aff2pol	Robust method'
+    'body': 'aff2pol(${1:args})'
+
+  'augw	Robust method':
+    'prefix': 'augw	Robust method'
+    'body': 'augw(${1:args})'
+
+  'balancmr	Robust method':
+    'prefix': 'balancmr	Robust method'
+    'body': 'balancmr(${1:args})'
+
+  'bstmr	Robust method':
+    'prefix': 'bstmr	Robust method'
+    'body': 'bstmr(${1:args})'
+
+  'cmsclsyn	Robust method':
+    'prefix': 'cmsclsyn	Robust method'
+    'body': 'cmsclsyn(${1:args})'
+
+  'complexify	Robust method':
+    'prefix': 'complexify	Robust method'
+    'body': 'complexify(${1:args})'
+
+  'controlSystemTuner	Robust method':
+    'prefix': 'controlSystemTuner	Robust method'
+    'body': 'controlSystemTuner(${1:args})'
+
+  'cpmargin	Robust method':
+    'prefix': 'cpmargin	Robust method'
+    'body': 'cpmargin(${1:args})'
+
+  'dcgainmr	Robust method':
+    'prefix': 'dcgainmr	Robust method'
+    'body': 'dcgainmr(${1:args})'
+
+  'dec2mat	Robust method':
+    'prefix': 'dec2mat	Robust method'
+    'body': 'dec2mat(${1:args})'
+
+  'decay	Robust method':
+    'prefix': 'decay	Robust method'
+    'body': 'decay(${1:args})'
+
+  'decinfo	Robust method':
+    'prefix': 'decinfo	Robust method'
+    'body': 'decinfo(${1:args})'
+
+  'decnbr	Robust method':
+    'prefix': 'decnbr	Robust method'
+    'body': 'decnbr(${1:args})'
+
+  'defcx	Robust method':
+    'prefix': 'defcx	Robust method'
+    'body': 'defcx(${1:args})'
+
+  'dellmi	Robust method':
+    'prefix': 'dellmi	Robust method'
+    'body': 'dellmi(${1:args})'
+
+  'delmvar	Robust method':
+    'prefix': 'delmvar	Robust method'
+    'body': 'delmvar(${1:args})'
+
+  'dksyn	Robust method':
+    'prefix': 'dksyn	Robust method'
+    'body': 'dksyn(${1:args})'
+
+  'dksynOptions	Robust method':
+    'prefix': 'dksynOptions	Robust method'
+    'body': 'dksynOptions(${1:args})'
+
+  'dmplot	Robust method':
+    'prefix': 'dmplot	Robust method'
+    'body': 'dmplot(${1:args})'
+
+  'drawmag	Robust method':
+    'prefix': 'drawmag	Robust method'
+    'body': 'drawmag(${1:args})'
+
+  'evalSpec	Robust method':
+    'prefix': 'evalSpec	Robust method'
+    'body': 'evalSpec(${1:args})'
+
+  'evalSurf	Robust method':
+    'prefix': 'evalSurf	Robust method'
+    'body': 'evalSurf(${1:args})'
+
+  'evallmi	Robust method':
+    'prefix': 'evallmi	Robust method'
+    'body': 'evallmi(${1:args})'
+
+  'feasp	Robust method':
+    'prefix': 'feasp	Robust method'
+    'body': 'feasp(${1:args})'
+
+  'fitfrd	Robust method':
+    'prefix': 'fitfrd	Robust method'
+    'body': 'fitfrd(${1:args})'
+
+  'fitmagfrd	Robust method':
+    'prefix': 'fitmagfrd	Robust method'
+    'body': 'fitmagfrd(${1:args})'
+
+  'fourierBasis	Robust method':
+    'prefix': 'fourierBasis	Robust method'
+    'body': 'fourierBasis(${1:args})'
+
+  'gapmetric	Robust method':
+    'prefix': 'gapmetric	Robust method'
+    'body': 'gapmetric(${1:args})'
+
+  'genphase	Robust method':
+    'prefix': 'genphase	Robust method'
+    'body': 'genphase(${1:args})'
+
+  'getBlockParam	Robust method':
+    'prefix': 'getBlockParam	Robust method'
+    'body': 'getBlockParam(${1:args})'
+
+  'getBlockRateConversion	Robust method':
+    'prefix': 'getBlockRateConversion	Robust method'
+    'body': 'getBlockRateConversion(${1:args})'
+
+  'getData	Robust method':
+    'prefix': 'getData	Robust method'
+    'body': 'getData(${1:args})'
+
+  'getNominal	Robust method':
+    'prefix': 'getNominal	Robust method'
+    'body': 'getNominal(${1:args})'
+
+  'getOpenings	Robust method':
+    'prefix': 'getOpenings	Robust method'
+    'body': 'getOpenings(${1:args})'
+
+  'getlmis	Robust method':
+    'prefix': 'getlmis	Robust method'
+    'body': 'getlmis(${1:args})'
+
+  'gevp	Robust method':
+    'prefix': 'gevp	Robust method'
+    'body': 'gevp(${1:args})'
+
+  'gridureal	Robust method':
+    'prefix': 'gridureal	Robust method'
+    'body': 'gridureal(${1:args})'
+
+  'h2hinfsyn	Robust method':
+    'prefix': 'h2hinfsyn	Robust method'
+    'body': 'h2hinfsyn(${1:args})'
+
+  'h2syn	Robust method':
+    'prefix': 'h2syn	Robust method'
+    'body': 'h2syn(${1:args})'
+
+  'hankelmr	Robust method':
+    'prefix': 'hankelmr	Robust method'
+    'body': 'hankelmr(${1:args})'
+
+  'hankelsv	Robust method':
+    'prefix': 'hankelsv	Robust method'
+    'body': 'hankelsv(${1:args})'
+
+  'hinfgs	Robust method':
+    'prefix': 'hinfgs	Robust method'
+    'body': 'hinfgs(${1:args})'
+
+  'hinfnorm	Robust method':
+    'prefix': 'hinfnorm	Robust method'
+    'body': 'hinfnorm(${1:args})'
+
+  'hinfstruct	Robust method':
+    'prefix': 'hinfstruct	Robust method'
+    'body': 'hinfstruct(${1:args})'
+
+  'hinfstructOptions	Robust method':
+    'prefix': 'hinfstructOptions	Robust method'
+    'body': 'hinfstructOptions(${1:args})'
+
+  'hinfsyn	Robust method':
+    'prefix': 'hinfsyn	Robust method'
+    'body': 'hinfsyn(${1:args})'
+
+  'icomplexify	Robust method':
+    'prefix': 'icomplexify	Robust method'
+    'body': 'icomplexify(${1:args})'
+
+  'imp2ss	Robust method':
+    'prefix': 'imp2ss	Robust method'
+    'body': 'imp2ss(${1:args})'
+
+  'ispsys	Robust method':
+    'prefix': 'ispsys	Robust method'
+    'body': 'ispsys(${1:args})'
+
+  'isuncertain	Robust method':
+    'prefix': 'isuncertain	Robust method'
+    'body': 'isuncertain(${1:args})'
+
+  'lftdata	Robust method':
+    'prefix': 'lftdata	Robust method'
+    'body': 'lftdata(${1:args})'
+
+  'lmiedit	Robust method':
+    'prefix': 'lmiedit	Robust method'
+    'body': 'lmiedit(${1:args})'
+
+  'lmiinfo	Robust method':
+    'prefix': 'lmiinfo	Robust method'
+    'body': 'lmiinfo(${1:args})'
+
+  'lminbr	Robust method':
+    'prefix': 'lminbr	Robust method'
+    'body': 'lminbr(${1:args})'
+
+  'lmireg	Robust method':
+    'prefix': 'lmireg	Robust method'
+    'body': 'lmireg(${1:args})'
+
+  'lmiterm	Robust method':
+    'prefix': 'lmiterm	Robust method'
+    'body': 'lmiterm(${1:args})'
+
+  'lmivar	Robust method':
+    'prefix': 'lmivar	Robust method'
+    'body': 'lmivar(${1:args})'
+
+  'loopmargin	Robust method':
+    'prefix': 'loopmargin	Robust method'
+    'body': 'loopmargin(${1:args})'
+
+  'loopsens	Robust method':
+    'prefix': 'loopsens	Robust method'
+    'body': 'loopsens(${1:args})'
+
+  'loopsyn	Robust method':
+    'prefix': 'loopsyn	Robust method'
+    'body': 'loopsyn(${1:args})'
+
+  'looptune	Robust method':
+    'prefix': 'looptune	Robust method'
+    'body': 'looptune(${1:args})'
+
+  'looptuneOptions	Robust method':
+    'prefix': 'looptuneOptions	Robust method'
+    'body': 'looptuneOptions(${1:args})'
+
+  'looptuneSetup	Robust method':
+    'prefix': 'looptuneSetup	Robust method'
+    'body': 'looptuneSetup(${1:args})'
+
+  'loopview	Robust method':
+    'prefix': 'loopview	Robust method'
+    'body': 'loopview(${1:args})'
+
+  'ltiarray2uss	Robust method':
+    'prefix': 'ltiarray2uss	Robust method'
+    'body': 'ltiarray2uss(${1:args})'
+
+  'ltrsyn	Robust method':
+    'prefix': 'ltrsyn	Robust method'
+    'body': 'ltrsyn(${1:args})'
+
+  'makeweight	Robust method':
+    'prefix': 'makeweight	Robust method'
+    'body': 'makeweight(${1:args})'
+
+  'mat2dec	Robust method':
+    'prefix': 'mat2dec	Robust method'
+    'body': 'mat2dec(${1:args})'
+
+  'matnbr	Robust method':
+    'prefix': 'matnbr	Robust method'
+    'body': 'matnbr(${1:args})'
+
+  'mincx	Robust method':
+    'prefix': 'mincx	Robust method'
+    'body': 'mincx(${1:args})'
+
+  'mixsyn	Robust method':
+    'prefix': 'mixsyn	Robust method'
+    'body': 'mixsyn(${1:args})'
+
+  'mkfilter	Robust method':
+    'prefix': 'mkfilter	Robust method'
+    'body': 'mkfilter(${1:args})'
+
+  'modreal	Robust method':
+    'prefix': 'modreal	Robust method'
+    'body': 'modreal(${1:args})'
+
+  'msfsyn	Robust method':
+    'prefix': 'msfsyn	Robust method'
+    'body': 'msfsyn(${1:args})'
+
+  'mussv	Robust method':
+    'prefix': 'mussv	Robust method'
+    'body': 'mussv(${1:args})'
+
+  'mussvextract	Robust method':
+    'prefix': 'mussvextract	Robust method'
+    'body': 'mussvextract(${1:args})'
+
+  'ncfmargin	Robust method':
+    'prefix': 'ncfmargin	Robust method'
+    'body': 'ncfmargin(${1:args})'
+
+  'ncfmr	Robust method':
+    'prefix': 'ncfmr	Robust method'
+    'body': 'ncfmr(${1:args})'
+
+  'ncfsyn	Robust method':
+    'prefix': 'ncfsyn	Robust method'
+    'body': 'ncfsyn(${1:args})'
+
+  'ndBasis	Robust method':
+    'prefix': 'ndBasis	Robust method'
+    'body': 'ndBasis(${1:args})'
+
+  'newlmi	Robust method':
+    'prefix': 'newlmi	Robust method'
+    'body': 'newlmi(${1:args})'
+
+  'normalized2actual	Robust method':
+    'prefix': 'normalized2actual	Robust method'
+    'body': 'normalized2actual(${1:args})'
+
+  'pdlstab	Robust method':
+    'prefix': 'pdlstab	Robust method'
+    'body': 'pdlstab(${1:args})'
+
+  'pdsimul	Robust method':
+    'prefix': 'pdsimul	Robust method'
+    'body': 'pdsimul(${1:args})'
+
+  'polyBasis	Robust method':
+    'prefix': 'polyBasis	Robust method'
+    'body': 'polyBasis(${1:args})'
+
+  'polydec	Robust method':
+    'prefix': 'polydec	Robust method'
+    'body': 'polydec(${1:args})'
+
+  'popov	Robust method':
+    'prefix': 'popov	Robust method'
+    'body': 'popov(${1:args})'
+
+  'psinfo	Robust method':
+    'prefix': 'psinfo	Robust method'
+    'body': 'psinfo(${1:args})'
+
+  'psys	Robust method':
+    'prefix': 'psys	Robust method'
+    'body': 'psys(${1:args})'
+
+  'pvec	Robust method':
+    'prefix': 'pvec	Robust method'
+    'body': 'pvec(${1:args})'
+
+  'pvinfo	Robust method':
+    'prefix': 'pvinfo	Robust method'
+    'body': 'pvinfo(${1:args})'
+
+  'quadperf	Robust method':
+    'prefix': 'quadperf	Robust method'
+    'body': 'quadperf(${1:args})'
+
+  'quadstab	Robust method':
+    'prefix': 'quadstab	Robust method'
+    'body': 'quadstab(${1:args})'
+
+  'randatom	Robust method':
+    'prefix': 'randatom	Robust method'
+    'body': 'randatom(${1:args})'
+
+  'randumat	Robust method':
+    'prefix': 'randumat	Robust method'
+    'body': 'randumat(${1:args})'
+
+  'randuss	Robust method':
+    'prefix': 'randuss	Robust method'
+    'body': 'randuss(${1:args})'
+
+  'reduce	Robust method':
+    'prefix': 'reduce	Robust method'
+    'body': 'reduce(${1:args})'
+
+  'removeAllOpenings	Robust method':
+    'prefix': 'removeAllOpenings	Robust method'
+    'body': 'removeAllOpenings(${1:args})'
+
+  'removeAllPoints	Robust method':
+    'prefix': 'removeAllPoints	Robust method'
+    'body': 'removeAllPoints(${1:args})'
+
+  'removeBlock	Robust method':
+    'prefix': 'removeBlock	Robust method'
+    'body': 'removeBlock(${1:args})'
+
+  'removeOpening	Robust method':
+    'prefix': 'removeOpening	Robust method'
+    'body': 'removeOpening(${1:args})'
+
+  'removePoint	Robust method':
+    'prefix': 'removePoint	Robust method'
+    'body': 'removePoint(${1:args})'
+
+  'robopt	Robust method':
+    'prefix': 'robopt	Robust method'
+    'body': 'robopt(${1:args})'
+
+  'robustperf	Robust method':
+    'prefix': 'robustperf	Robust method'
+    'body': 'robustperf(${1:args})'
+
+  'robustperfOptions	Robust method':
+    'prefix': 'robustperfOptions	Robust method'
+    'body': 'robustperfOptions(${1:args})'
+
+  'robuststab	Robust method':
+    'prefix': 'robuststab	Robust method'
+    'body': 'robuststab(${1:args})'
+
+  'robuststabOptions	Robust method':
+    'prefix': 'robuststabOptions	Robust method'
+    'body': 'robuststabOptions(${1:args})'
+
+  'schurmr	Robust method':
+    'prefix': 'schurmr	Robust method'
+    'body': 'schurmr(${1:args})'
+
+  'sdhinfnorm	Robust method':
+    'prefix': 'sdhinfnorm	Robust method'
+    'body': 'sdhinfnorm(${1:args})'
+
+  'sdhinfsyn	Robust method':
+    'prefix': 'sdhinfsyn	Robust method'
+    'body': 'sdhinfsyn(${1:args})'
+
+  'sdlsim	Robust method':
+    'prefix': 'sdlsim	Robust method'
+    'body': 'sdlsim(${1:args})'
+
+  'setBlockParam	Robust method':
+    'prefix': 'setBlockParam	Robust method'
+    'body': 'setBlockParam(${1:args})'
+
+  'setBlockRateConversion	Robust method':
+    'prefix': 'setBlockRateConversion	Robust method'
+    'body': 'setBlockRateConversion(${1:args})'
+
+  'setData	Robust method':
+    'prefix': 'setData	Robust method'
+    'body': 'setData(${1:args})'
+
+  'setlmis	Robust method':
+    'prefix': 'setlmis	Robust method'
+    'body': 'setlmis(${1:args})'
+
+  'setmvar	Robust method':
+    'prefix': 'setmvar	Robust method'
+    'body': 'setmvar(${1:args})'
+
+  'showlmi	Robust method':
+    'prefix': 'showlmi	Robust method'
+    'body': 'showlmi(${1:args})'
+
+  'slTuner	Robust method':
+    'prefix': 'slTuner	Robust method'
+    'body': 'slTuner(${1:args})'
+
+  'slowfast	Robust method':
+    'prefix': 'slowfast	Robust method'
+    'body': 'slowfast(${1:args})'
+
+  'systune	Robust method':
+    'prefix': 'systune	Robust method'
+    'body': 'systune(${1:args})'
+
+  'systuneOptions	Robust method':
+    'prefix': 'systuneOptions	Robust method'
+    'body': 'systuneOptions(${1:args})'
+
+  'tunableSurface	Robust method':
+    'prefix': 'tunableSurface	Robust method'
+    'body': 'tunableSurface(${1:args})'
+
+  'ucomplex	Robust method':
+    'prefix': 'ucomplex	Robust method'
+    'body': 'ucomplex(${1:args})'
+
+  'ucomplexm	Robust method':
+    'prefix': 'ucomplexm	Robust method'
+    'body': 'ucomplexm(${1:args})'
+
+  'ucover	Robust method':
+    'prefix': 'ucover	Robust method'
+    'body': 'ucover(${1:args})'
+
+  'udyn	Robust method':
+    'prefix': 'udyn	Robust method'
+    'body': 'udyn(${1:args})'
+
+  'ufind	Robust method':
+    'prefix': 'ufind	Robust method'
+    'body': 'ufind(${1:args})'
+
+  'ufrd	Robust method':
+    'prefix': 'ufrd	Robust method'
+    'body': 'ufrd(${1:args})'
+
+  'ulinearize	Robust method':
+    'prefix': 'ulinearize	Robust method'
+    'body': 'ulinearize(${1:args})'
+
+  'ultidyn	Robust method':
+    'prefix': 'ultidyn	Robust method'
+    'body': 'ultidyn(${1:args})'
+
+  'umat	Robust method':
+    'prefix': 'umat	Robust method'
+    'body': 'umat(${1:args})'
+
+  'uplot	Robust method':
+    'prefix': 'uplot	Robust method'
+    'body': 'uplot(${1:args})'
+
+  'ureal	Robust method':
+    'prefix': 'ureal	Robust method'
+    'body': 'ureal(${1:args})'
+
+  'usample	Robust method':
+    'prefix': 'usample	Robust method'
+    'body': 'usample(${1:args})'
+
+  'usimfill	Robust method':
+    'prefix': 'usimfill	Robust method'
+    'body': 'usimfill(${1:args})'
+
+  'usiminfo	Robust method':
+    'prefix': 'usiminfo	Robust method'
+    'body': 'usiminfo(${1:args})'
+
+  'usimsamp	Robust method':
+    'prefix': 'usimsamp	Robust method'
+    'body': 'usimsamp(${1:args})'
+
+  'uss	Robust method':
+    'prefix': 'uss	Robust method'
+    'body': 'uss(${1:args})'
+
+  'usubs	Robust method':
+    'prefix': 'usubs	Robust method'
+    'body': 'usubs(${1:args})'
+
+  'viewSpec	Robust method':
+    'prefix': 'viewSpec	Robust method'
+    'body': 'viewSpec(${1:args})'
+
+  'viewSurf	Robust method':
+    'prefix': 'viewSurf	Robust method'
+    'body': 'viewSurf(${1:args})'
+
+  'wcgain	Robust method':
+    'prefix': 'wcgain	Robust method'
+    'body': 'wcgain(${1:args})'
+
+  'wcgainOptions	Robust method':
+    'prefix': 'wcgainOptions	Robust method'
+    'body': 'wcgainOptions(${1:args})'
+
+  'wcgainplot	Robust method':
+    'prefix': 'wcgainplot	Robust method'
+    'body': 'wcgainplot(${1:args})'
+
+  'wcgopt	Robust method':
+    'prefix': 'wcgopt	Robust method'
+    'body': 'wcgopt(${1:args})'
+
+  'wcmargin	Robust method':
+    'prefix': 'wcmargin	Robust method'
+    'body': 'wcmargin(${1:args})'
+
+  'wcmarginOptions	Robust method':
+    'prefix': 'wcmarginOptions	Robust method'
+    'body': 'wcmarginOptions(${1:args})'
+
+  'wcnorm	Robust method':
+    'prefix': 'wcnorm	Robust method'
+    'body': 'wcnorm(${1:args})'
+
+  'wcsens	Robust method':
+    'prefix': 'wcsens	Robust method'
+    'body': 'wcsens(${1:args})'
+
+  'writeBlockValue	Robust method':
+    'prefix': 'writeBlockValue	Robust method'
+    'body': 'writeBlockValue(${1:args})'

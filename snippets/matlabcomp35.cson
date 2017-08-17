@@ -1,0 +1,1263 @@
+# matlabcomp35 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'agencyoas	FinInst method':
+    'prefix': 'agencyoas	FinInst method'
+    'body': 'agencyoas(${1:args})'
+
+  'agencyprice	FinInst method':
+    'prefix': 'agencyprice	FinInst method'
+    'body': 'agencyprice(${1:args})'
+
+  'asianbycrr	FinInst method':
+    'prefix': 'asianbycrr	FinInst method'
+    'body': 'asianbycrr(${1:args})'
+
+  'asianbyeqp	FinInst method':
+    'prefix': 'asianbyeqp	FinInst method'
+    'body': 'asianbyeqp(${1:args})'
+
+  'asianbyitt	FinInst method':
+    'prefix': 'asianbyitt	FinInst method'
+    'body': 'asianbyitt(${1:args})'
+
+  'asianbykv	FinInst method':
+    'prefix': 'asianbykv	FinInst method'
+    'body': 'asianbykv(${1:args})'
+
+  'asianbylevy	FinInst method':
+    'prefix': 'asianbylevy	FinInst method'
+    'body': 'asianbylevy(${1:args})'
+
+  'asianbyls	FinInst method':
+    'prefix': 'asianbyls	FinInst method'
+    'body': 'asianbyls(${1:args})'
+
+  'asianbystt	FinInst method':
+    'prefix': 'asianbystt	FinInst method'
+    'body': 'asianbystt(${1:args})'
+
+  'asiansensbykv	FinInst method':
+    'prefix': 'asiansensbykv	FinInst method'
+    'body': 'asiansensbykv(${1:args})'
+
+  'asiansensbylevy	FinInst method':
+    'prefix': 'asiansensbylevy	FinInst method'
+    'body': 'asiansensbylevy(${1:args})'
+
+  'asiansensbyls	FinInst method':
+    'prefix': 'asiansensbyls	FinInst method'
+    'body': 'asiansensbyls(${1:args})'
+
+  'assetbybls	FinInst method':
+    'prefix': 'assetbybls	FinInst method'
+    'body': 'assetbybls(${1:args})'
+
+  'assetsensbybls	FinInst method':
+    'prefix': 'assetsensbybls	FinInst method'
+    'body': 'assetsensbybls(${1:args})'
+
+  'barrierbycrr	FinInst method':
+    'prefix': 'barrierbycrr	FinInst method'
+    'body': 'barrierbycrr(${1:args})'
+
+  'barrierbyeqp	FinInst method':
+    'prefix': 'barrierbyeqp	FinInst method'
+    'body': 'barrierbyeqp(${1:args})'
+
+  'barrierbyitt	FinInst method':
+    'prefix': 'barrierbyitt	FinInst method'
+    'body': 'barrierbyitt(${1:args})'
+
+  'barrierbystt	FinInst method':
+    'prefix': 'barrierbystt	FinInst method'
+    'body': 'barrierbystt(${1:args})'
+
+  'basketbyju	FinInst method':
+    'prefix': 'basketbyju	FinInst method'
+    'body': 'basketbyju(${1:args})'
+
+  'basketbyls	FinInst method':
+    'prefix': 'basketbyls	FinInst method'
+    'body': 'basketbyls(${1:args})'
+
+  'basketsensbyju	FinInst method':
+    'prefix': 'basketsensbyju	FinInst method'
+    'body': 'basketsensbyju(${1:args})'
+
+  'basketsensbyls	FinInst method':
+    'prefix': 'basketsensbyls	FinInst method'
+    'body': 'basketsensbyls(${1:args})'
+
+  'basketstockspec	FinInst method':
+    'prefix': 'basketstockspec	FinInst method'
+    'body': 'basketstockspec(${1:args})'
+
+  'bdtprice	FinInst method':
+    'prefix': 'bdtprice	FinInst method'
+    'body': 'bdtprice(${1:args})'
+
+  'bdtsens	FinInst method':
+    'prefix': 'bdtsens	FinInst method'
+    'body': 'bdtsens(${1:args})'
+
+  'bdttimespec	FinInst method':
+    'prefix': 'bdttimespec	FinInst method'
+    'body': 'bdttimespec(${1:args})'
+
+  'bdttree	FinInst method':
+    'prefix': 'bdttree	FinInst method'
+    'body': 'bdttree(${1:args})'
+
+  'bdtvolspec	FinInst method':
+    'prefix': 'bdtvolspec	FinInst method'
+    'body': 'bdtvolspec(${1:args})'
+
+  'bkcall	FinInst method':
+    'prefix': 'bkcall	FinInst method'
+    'body': 'bkcall(${1:args})'
+
+  'bkcaplet	FinInst method':
+    'prefix': 'bkcaplet	FinInst method'
+    'body': 'bkcaplet(${1:args})'
+
+  'bkfloorlet	FinInst method':
+    'prefix': 'bkfloorlet	FinInst method'
+    'body': 'bkfloorlet(${1:args})'
+
+  'bkprice	FinInst method':
+    'prefix': 'bkprice	FinInst method'
+    'body': 'bkprice(${1:args})'
+
+  'bkput	FinInst method':
+    'prefix': 'bkput	FinInst method'
+    'body': 'bkput(${1:args})'
+
+  'bksens	FinInst method':
+    'prefix': 'bksens	FinInst method'
+    'body': 'bksens(${1:args})'
+
+  'bktimespec	FinInst method':
+    'prefix': 'bktimespec	FinInst method'
+    'body': 'bktimespec(${1:args})'
+
+  'bktree	FinInst method':
+    'prefix': 'bktree	FinInst method'
+    'body': 'bktree(${1:args})'
+
+  'bkvolspec	FinInst method':
+    'prefix': 'bkvolspec	FinInst method'
+    'body': 'bkvolspec(${1:args})'
+
+  'blackvolbyrebonato	FinInst method':
+    'prefix': 'blackvolbyrebonato	FinInst method'
+    'body': 'blackvolbyrebonato(${1:args})'
+
+  'blackvolbysabr	FinInst method':
+    'prefix': 'blackvolbysabr	FinInst method'
+    'body': 'blackvolbysabr(${1:args})'
+
+  'bndfutimprepo	FinInst method':
+    'prefix': 'bndfutimprepo	FinInst method'
+    'body': 'bndfutimprepo(${1:args})'
+
+  'bndfutprice	FinInst method':
+    'prefix': 'bndfutprice	FinInst method'
+    'body': 'bndfutprice(${1:args})'
+
+  'bondbybdt	FinInst method':
+    'prefix': 'bondbybdt	FinInst method'
+    'body': 'bondbybdt(${1:args})'
+
+  'bondbybk	FinInst method':
+    'prefix': 'bondbybk	FinInst method'
+    'body': 'bondbybk(${1:args})'
+
+  'bondbyhjm	FinInst method':
+    'prefix': 'bondbyhjm	FinInst method'
+    'body': 'bondbyhjm(${1:args})'
+
+  'bondbyhw	FinInst method':
+    'prefix': 'bondbyhw	FinInst method'
+    'body': 'bondbyhw(${1:args})'
+
+  'bondbyzero	FinInst method':
+    'prefix': 'bondbyzero	FinInst method'
+    'body': 'bondbyzero(${1:args})'
+
+  'bootstrap	FinInst method':
+    'prefix': 'bootstrap	FinInst method'
+    'body': 'bootstrap(${1:args})'
+
+  'bushpath	FinInst method':
+    'prefix': 'bushpath	FinInst method'
+    'body': 'bushpath(${1:args})'
+
+  'bushshape	FinInst method':
+    'prefix': 'bushshape	FinInst method'
+    'body': 'bushshape(${1:args})'
+
+  'capbybdt	FinInst method':
+    'prefix': 'capbybdt	FinInst method'
+    'body': 'capbybdt(${1:args})'
+
+  'capbybk	FinInst method':
+    'prefix': 'capbybk	FinInst method'
+    'body': 'capbybk(${1:args})'
+
+  'capbyblk	FinInst method':
+    'prefix': 'capbyblk	FinInst method'
+    'body': 'capbyblk(${1:args})'
+
+  'capbyhjm	FinInst method':
+    'prefix': 'capbyhjm	FinInst method'
+    'body': 'capbyhjm(${1:args})'
+
+  'capbyhw	FinInst method':
+    'prefix': 'capbyhw	FinInst method'
+    'body': 'capbyhw(${1:args})'
+
+  'capbylg2f	FinInst method':
+    'prefix': 'capbylg2f	FinInst method'
+    'body': 'capbylg2f(${1:args})'
+
+  'cashbybls	FinInst method':
+    'prefix': 'cashbybls	FinInst method'
+    'body': 'cashbybls(${1:args})'
+
+  'cashsensbybls	FinInst method':
+    'prefix': 'cashsensbybls	FinInst method'
+    'body': 'cashsensbybls(${1:args})'
+
+  'cbondbycrr	FinInst method':
+    'prefix': 'cbondbycrr	FinInst method'
+    'body': 'cbondbycrr(${1:args})'
+
+  'cbondbyeqp	FinInst method':
+    'prefix': 'cbondbyeqp	FinInst method'
+    'body': 'cbondbyeqp(${1:args})'
+
+  'cbondbyitt	FinInst method':
+    'prefix': 'cbondbyitt	FinInst method'
+    'body': 'cbondbyitt(${1:args})'
+
+  'cbondbystt	FinInst method':
+    'prefix': 'cbondbystt	FinInst method'
+    'body': 'cbondbystt(${1:args})'
+
+  'cbprice	FinInst method':
+    'prefix': 'cbprice	FinInst method'
+    'body': 'cbprice(${1:args})'
+
+  'cdsbootstrap	FinInst method':
+    'prefix': 'cdsbootstrap	FinInst method'
+    'body': 'cdsbootstrap(${1:args})'
+
+  'cdsoptprice	FinInst method':
+    'prefix': 'cdsoptprice	FinInst method'
+    'body': 'cdsoptprice(${1:args})'
+
+  'cdsprice	FinInst method':
+    'prefix': 'cdsprice	FinInst method'
+    'body': 'cdsprice(${1:args})'
+
+  'cdsrpv01	FinInst method':
+    'prefix': 'cdsrpv01	FinInst method'
+    'body': 'cdsrpv01(${1:args})'
+
+  'cdsspread	FinInst method':
+    'prefix': 'cdsspread	FinInst method'
+    'body': 'cdsspread(${1:args})'
+
+  'cfbybdt	FinInst method':
+    'prefix': 'cfbybdt	FinInst method'
+    'body': 'cfbybdt(${1:args})'
+
+  'cfbybk	FinInst method':
+    'prefix': 'cfbybk	FinInst method'
+    'body': 'cfbybk(${1:args})'
+
+  'cfbyhjm	FinInst method':
+    'prefix': 'cfbyhjm	FinInst method'
+    'body': 'cfbyhjm(${1:args})'
+
+  'cfbyhw	FinInst method':
+    'prefix': 'cfbyhw	FinInst method'
+    'body': 'cfbyhw(${1:args})'
+
+  'cfbyzero	FinInst method':
+    'prefix': 'cfbyzero	FinInst method'
+    'body': 'cfbyzero(${1:args})'
+
+  'cfprice	FinInst method':
+    'prefix': 'cfprice	FinInst method'
+    'body': 'cfprice(${1:args})'
+
+  'cfspread	FinInst method':
+    'prefix': 'cfspread	FinInst method'
+    'body': 'cfspread(${1:args})'
+
+  'cfyield	FinInst method':
+    'prefix': 'cfyield	FinInst method'
+    'body': 'cfyield(${1:args})'
+
+  'chooserbybls	FinInst method':
+    'prefix': 'chooserbybls	FinInst method'
+    'body': 'chooserbybls(${1:args})'
+
+  'classfin	FinInst method':
+    'prefix': 'classfin	FinInst method'
+    'body': 'classfin(${1:args})'
+
+  'cmosched	FinInst method':
+    'prefix': 'cmosched	FinInst method'
+    'body': 'cmosched(${1:args})'
+
+  'cmoschedcf	FinInst method':
+    'prefix': 'cmoschedcf	FinInst method'
+    'body': 'cmoschedcf(${1:args})'
+
+  'cmoseqcf	FinInst method':
+    'prefix': 'cmoseqcf	FinInst method'
+    'body': 'cmoseqcf(${1:args})'
+
+  'compoundbycrr	FinInst method':
+    'prefix': 'compoundbycrr	FinInst method'
+    'body': 'compoundbycrr(${1:args})'
+
+  'compoundbyeqp	FinInst method':
+    'prefix': 'compoundbyeqp	FinInst method'
+    'body': 'compoundbyeqp(${1:args})'
+
+  'compoundbyitt	FinInst method':
+    'prefix': 'compoundbyitt	FinInst method'
+    'body': 'compoundbyitt(${1:args})'
+
+  'compoundbystt	FinInst method':
+    'prefix': 'compoundbystt	FinInst method'
+    'body': 'compoundbystt(${1:args})'
+
+  'convfactor	FinInst method':
+    'prefix': 'convfactor	FinInst method'
+    'body': 'convfactor(${1:args})'
+
+  'creditexposures	FinInst method':
+    'prefix': 'creditexposures	FinInst method'
+    'body': 'creditexposures(${1:args})'
+
+  'crrprice	FinInst method':
+    'prefix': 'crrprice	FinInst method'
+    'body': 'crrprice(${1:args})'
+
+  'crrsens	FinInst method':
+    'prefix': 'crrsens	FinInst method'
+    'body': 'crrsens(${1:args})'
+
+  'crrtimespec	FinInst method':
+    'prefix': 'crrtimespec	FinInst method'
+    'body': 'crrtimespec(${1:args})'
+
+  'crrtree	FinInst method':
+    'prefix': 'crrtree	FinInst method'
+    'body': 'crrtree(${1:args})'
+
+  'cvtree	FinInst method':
+    'prefix': 'cvtree	FinInst method'
+    'body': 'cvtree(${1:args})'
+
+  'date2time	FinInst method':
+    'prefix': 'date2time	FinInst method'
+    'body': 'date2time(${1:args})'
+
+  'datedisp	FinInst method':
+    'prefix': 'datedisp	FinInst method'
+    'body': 'datedisp(${1:args})'
+
+  'derivget	FinInst method':
+    'prefix': 'derivget	FinInst method'
+    'body': 'derivget(${1:args})'
+
+  'derivset	FinInst method':
+    'prefix': 'derivset	FinInst method'
+    'body': 'derivset(${1:args})'
+
+  'disc2rate	FinInst method':
+    'prefix': 'disc2rate	FinInst method'
+    'body': 'disc2rate(${1:args})'
+
+  'eqpprice	FinInst method':
+    'prefix': 'eqpprice	FinInst method'
+    'body': 'eqpprice(${1:args})'
+
+  'eqpsens	FinInst method':
+    'prefix': 'eqpsens	FinInst method'
+    'body': 'eqpsens(${1:args})'
+
+  'eqptimespec	FinInst method':
+    'prefix': 'eqptimespec	FinInst method'
+    'body': 'eqptimespec(${1:args})'
+
+  'eqptree	FinInst method':
+    'prefix': 'eqptree	FinInst method'
+    'body': 'eqptree(${1:args})'
+
+  'exposureprofiles	FinInst method':
+    'prefix': 'exposureprofiles	FinInst method'
+    'body': 'exposureprofiles(${1:args})'
+
+  'fitFunction	FinInst method':
+    'prefix': 'fitFunction	FinInst method'
+    'body': 'fitFunction(${1:args})'
+
+  'fitNelsonSiegel	FinInst method':
+    'prefix': 'fitNelsonSiegel	FinInst method'
+    'body': 'fitNelsonSiegel(${1:args})'
+
+  'fitSmoothingSpline	FinInst method':
+    'prefix': 'fitSmoothingSpline	FinInst method'
+    'body': 'fitSmoothingSpline(${1:args})'
+
+  'fitSvensson	FinInst method':
+    'prefix': 'fitSvensson	FinInst method'
+    'body': 'fitSvensson(${1:args})'
+
+  'fixedbybdt	FinInst method':
+    'prefix': 'fixedbybdt	FinInst method'
+    'body': 'fixedbybdt(${1:args})'
+
+  'fixedbybk	FinInst method':
+    'prefix': 'fixedbybk	FinInst method'
+    'body': 'fixedbybk(${1:args})'
+
+  'fixedbyhjm	FinInst method':
+    'prefix': 'fixedbyhjm	FinInst method'
+    'body': 'fixedbyhjm(${1:args})'
+
+  'fixedbyhw	FinInst method':
+    'prefix': 'fixedbyhw	FinInst method'
+    'body': 'fixedbyhw(${1:args})'
+
+  'fixedbyzero	FinInst method':
+    'prefix': 'fixedbyzero	FinInst method'
+    'body': 'fixedbyzero(${1:args})'
+
+  'floatbybdt	FinInst method':
+    'prefix': 'floatbybdt	FinInst method'
+    'body': 'floatbybdt(${1:args})'
+
+  'floatbybk	FinInst method':
+    'prefix': 'floatbybk	FinInst method'
+    'body': 'floatbybk(${1:args})'
+
+  'floatbyhjm	FinInst method':
+    'prefix': 'floatbyhjm	FinInst method'
+    'body': 'floatbyhjm(${1:args})'
+
+  'floatbyhw	FinInst method':
+    'prefix': 'floatbyhw	FinInst method'
+    'body': 'floatbyhw(${1:args})'
+
+  'floatbyzero	FinInst method':
+    'prefix': 'floatbyzero	FinInst method'
+    'body': 'floatbyzero(${1:args})'
+
+  'floatdiscmargin	FinInst method':
+    'prefix': 'floatdiscmargin	FinInst method'
+    'body': 'floatdiscmargin(${1:args})'
+
+  'floatmargin	FinInst method':
+    'prefix': 'floatmargin	FinInst method'
+    'body': 'floatmargin(${1:args})'
+
+  'floorbybdt	FinInst method':
+    'prefix': 'floorbybdt	FinInst method'
+    'body': 'floorbybdt(${1:args})'
+
+  'floorbybk	FinInst method':
+    'prefix': 'floorbybk	FinInst method'
+    'body': 'floorbybk(${1:args})'
+
+  'floorbyblk	FinInst method':
+    'prefix': 'floorbyblk	FinInst method'
+    'body': 'floorbyblk(${1:args})'
+
+  'floorbyhjm	FinInst method':
+    'prefix': 'floorbyhjm	FinInst method'
+    'body': 'floorbyhjm(${1:args})'
+
+  'floorbyhw	FinInst method':
+    'prefix': 'floorbyhw	FinInst method'
+    'body': 'floorbyhw(${1:args})'
+
+  'floorbylg2f	FinInst method':
+    'prefix': 'floorbylg2f	FinInst method'
+    'body': 'floorbylg2f(${1:args})'
+
+  'gapbybls	FinInst method':
+    'prefix': 'gapbybls	FinInst method'
+    'body': 'gapbybls(${1:args})'
+
+  'gapsensbybls	FinInst method':
+    'prefix': 'gapsensbybls	FinInst method'
+    'body': 'gapsensbybls(${1:args})'
+
+  'getDiscountFactors	FinInst method':
+    'prefix': 'getDiscountFactors	FinInst method'
+    'body': 'getDiscountFactors(${1:args})'
+
+  'getForwardRates	FinInst method':
+    'prefix': 'getForwardRates	FinInst method'
+    'body': 'getForwardRates(${1:args})'
+
+  'getParYields	FinInst method':
+    'prefix': 'getParYields	FinInst method'
+    'body': 'getParYields(${1:args})'
+
+  'getZeroRates	FinInst method':
+    'prefix': 'getZeroRates	FinInst method'
+    'body': 'getZeroRates(${1:args})'
+
+  'hedgeopt	FinInst method':
+    'prefix': 'hedgeopt	FinInst method'
+    'body': 'hedgeopt(${1:args})'
+
+  'hedgeslf	FinInst method':
+    'prefix': 'hedgeslf	FinInst method'
+    'body': 'hedgeslf(${1:args})'
+
+  'hjmprice	FinInst method':
+    'prefix': 'hjmprice	FinInst method'
+    'body': 'hjmprice(${1:args})'
+
+  'hjmsens	FinInst method':
+    'prefix': 'hjmsens	FinInst method'
+    'body': 'hjmsens(${1:args})'
+
+  'hjmtimespec	FinInst method':
+    'prefix': 'hjmtimespec	FinInst method'
+    'body': 'hjmtimespec(${1:args})'
+
+  'hjmtree	FinInst method':
+    'prefix': 'hjmtree	FinInst method'
+    'body': 'hjmtree(${1:args})'
+
+  'hjmvolspec	FinInst method':
+    'prefix': 'hjmvolspec	FinInst method'
+    'body': 'hjmvolspec(${1:args})'
+
+  'hwcalbycap	FinInst method':
+    'prefix': 'hwcalbycap	FinInst method'
+    'body': 'hwcalbycap(${1:args})'
+
+  'hwcalbyfloor	FinInst method':
+    'prefix': 'hwcalbyfloor	FinInst method'
+    'body': 'hwcalbyfloor(${1:args})'
+
+  'hwprice	FinInst method':
+    'prefix': 'hwprice	FinInst method'
+    'body': 'hwprice(${1:args})'
+
+  'hwsens	FinInst method':
+    'prefix': 'hwsens	FinInst method'
+    'body': 'hwsens(${1:args})'
+
+  'hwtimespec	FinInst method':
+    'prefix': 'hwtimespec	FinInst method'
+    'body': 'hwtimespec(${1:args})'
+
+  'hwtree	FinInst method':
+    'prefix': 'hwtree	FinInst method'
+    'body': 'hwtree(${1:args})'
+
+  'hwvolspec	FinInst method':
+    'prefix': 'hwvolspec	FinInst method'
+    'body': 'hwvolspec(${1:args})'
+
+  'impvbybjs	FinInst method':
+    'prefix': 'impvbybjs	FinInst method'
+    'body': 'impvbybjs(${1:args})'
+
+  'impvbyblk	FinInst method':
+    'prefix': 'impvbyblk	FinInst method'
+    'body': 'impvbyblk(${1:args})'
+
+  'impvbybls	FinInst method':
+    'prefix': 'impvbybls	FinInst method'
+    'body': 'impvbybls(${1:args})'
+
+  'impvbyrgw	FinInst method':
+    'prefix': 'impvbyrgw	FinInst method'
+    'body': 'impvbyrgw(${1:args})'
+
+  'instadd	FinInst method':
+    'prefix': 'instadd	FinInst method'
+    'body': 'instadd(${1:args})'
+
+  'instaddfield	FinInst method':
+    'prefix': 'instaddfield	FinInst method'
+    'body': 'instaddfield(${1:args})'
+
+  'instasian	FinInst method':
+    'prefix': 'instasian	FinInst method'
+    'body': 'instasian(${1:args})'
+
+  'instbarrier	FinInst method':
+    'prefix': 'instbarrier	FinInst method'
+    'body': 'instbarrier(${1:args})'
+
+  'instbond	FinInst method':
+    'prefix': 'instbond	FinInst method'
+    'body': 'instbond(${1:args})'
+
+  'instcap	FinInst method':
+    'prefix': 'instcap	FinInst method'
+    'body': 'instcap(${1:args})'
+
+  'instcbond	FinInst method':
+    'prefix': 'instcbond	FinInst method'
+    'body': 'instcbond(${1:args})'
+
+  'instcf	FinInst method':
+    'prefix': 'instcf	FinInst method'
+    'body': 'instcf(${1:args})'
+
+  'instcompound	FinInst method':
+    'prefix': 'instcompound	FinInst method'
+    'body': 'instcompound(${1:args})'
+
+  'instdelete	FinInst method':
+    'prefix': 'instdelete	FinInst method'
+    'body': 'instdelete(${1:args})'
+
+  'instdisp	FinInst method':
+    'prefix': 'instdisp	FinInst method'
+    'body': 'instdisp(${1:args})'
+
+  'instfields	FinInst method':
+    'prefix': 'instfields	FinInst method'
+    'body': 'instfields(${1:args})'
+
+  'instfind	FinInst method':
+    'prefix': 'instfind	FinInst method'
+    'body': 'instfind(${1:args})'
+
+  'instfixed	FinInst method':
+    'prefix': 'instfixed	FinInst method'
+    'body': 'instfixed(${1:args})'
+
+  'instfloat	FinInst method':
+    'prefix': 'instfloat	FinInst method'
+    'body': 'instfloat(${1:args})'
+
+  'instfloor	FinInst method':
+    'prefix': 'instfloor	FinInst method'
+    'body': 'instfloor(${1:args})'
+
+  'instget	FinInst method':
+    'prefix': 'instget	FinInst method'
+    'body': 'instget(${1:args})'
+
+  'instgetcell	FinInst method':
+    'prefix': 'instgetcell	FinInst method'
+    'body': 'instgetcell(${1:args})'
+
+  'instlength	FinInst method':
+    'prefix': 'instlength	FinInst method'
+    'body': 'instlength(${1:args})'
+
+  'instlookback	FinInst method':
+    'prefix': 'instlookback	FinInst method'
+    'body': 'instlookback(${1:args})'
+
+  'instoptbnd	FinInst method':
+    'prefix': 'instoptbnd	FinInst method'
+    'body': 'instoptbnd(${1:args})'
+
+  'instoptembnd	FinInst method':
+    'prefix': 'instoptembnd	FinInst method'
+    'body': 'instoptembnd(${1:args})'
+
+  'instoptemfloat	FinInst method':
+    'prefix': 'instoptemfloat	FinInst method'
+    'body': 'instoptemfloat(${1:args})'
+
+  'instoptfloat	FinInst method':
+    'prefix': 'instoptfloat	FinInst method'
+    'body': 'instoptfloat(${1:args})'
+
+  'instoptstock	FinInst method':
+    'prefix': 'instoptstock	FinInst method'
+    'body': 'instoptstock(${1:args})'
+
+  'instrangefloat	FinInst method':
+    'prefix': 'instrangefloat	FinInst method'
+    'body': 'instrangefloat(${1:args})'
+
+  'instselect	FinInst method':
+    'prefix': 'instselect	FinInst method'
+    'body': 'instselect(${1:args})'
+
+  'instsetfield	FinInst method':
+    'prefix': 'instsetfield	FinInst method'
+    'body': 'instsetfield(${1:args})'
+
+  'instswap	FinInst method':
+    'prefix': 'instswap	FinInst method'
+    'body': 'instswap(${1:args})'
+
+  'instswaption	FinInst method':
+    'prefix': 'instswaption	FinInst method'
+    'body': 'instswaption(${1:args})'
+
+  'insttypes	FinInst method':
+    'prefix': 'insttypes	FinInst method'
+    'body': 'insttypes(${1:args})'
+
+  'intenvget	FinInst method':
+    'prefix': 'intenvget	FinInst method'
+    'body': 'intenvget(${1:args})'
+
+  'intenvprice	FinInst method':
+    'prefix': 'intenvprice	FinInst method'
+    'body': 'intenvprice(${1:args})'
+
+  'intenvsens	FinInst method':
+    'prefix': 'intenvsens	FinInst method'
+    'body': 'intenvsens(${1:args})'
+
+  'intenvset	FinInst method':
+    'prefix': 'intenvset	FinInst method'
+    'body': 'intenvset(${1:args})'
+
+  'isafin	FinInst method':
+    'prefix': 'isafin	FinInst method'
+    'body': 'isafin(${1:args})'
+
+  'ittprice	FinInst method':
+    'prefix': 'ittprice	FinInst method'
+    'body': 'ittprice(${1:args})'
+
+  'ittsens	FinInst method':
+    'prefix': 'ittsens	FinInst method'
+    'body': 'ittsens(${1:args})'
+
+  'itttimespec	FinInst method':
+    'prefix': 'itttimespec	FinInst method'
+    'body': 'itttimespec(${1:args})'
+
+  'itttree	FinInst method':
+    'prefix': 'itttree	FinInst method'
+    'body': 'itttree(${1:args})'
+
+  'liborduration	FinInst method':
+    'prefix': 'liborduration	FinInst method'
+    'body': 'liborduration(${1:args})'
+
+  'liborfloat2fixed	FinInst method':
+    'prefix': 'liborfloat2fixed	FinInst method'
+    'body': 'liborfloat2fixed(${1:args})'
+
+  'liborprice	FinInst method':
+    'prefix': 'liborprice	FinInst method'
+    'body': 'liborprice(${1:args})'
+
+  'lookbackbycrr	FinInst method':
+    'prefix': 'lookbackbycrr	FinInst method'
+    'body': 'lookbackbycrr(${1:args})'
+
+  'lookbackbycvgsg	FinInst method':
+    'prefix': 'lookbackbycvgsg	FinInst method'
+    'body': 'lookbackbycvgsg(${1:args})'
+
+  'lookbackbyeqp	FinInst method':
+    'prefix': 'lookbackbyeqp	FinInst method'
+    'body': 'lookbackbyeqp(${1:args})'
+
+  'lookbackbyitt	FinInst method':
+    'prefix': 'lookbackbyitt	FinInst method'
+    'body': 'lookbackbyitt(${1:args})'
+
+  'lookbackbyls	FinInst method':
+    'prefix': 'lookbackbyls	FinInst method'
+    'body': 'lookbackbyls(${1:args})'
+
+  'lookbackbystt	FinInst method':
+    'prefix': 'lookbackbystt	FinInst method'
+    'body': 'lookbackbystt(${1:args})'
+
+  'lookbacksensbycvgsg	FinInst method':
+    'prefix': 'lookbacksensbycvgsg	FinInst method'
+    'body': 'lookbacksensbycvgsg(${1:args})'
+
+  'lookbacksensbyls	FinInst method':
+    'prefix': 'lookbacksensbyls	FinInst method'
+    'body': 'lookbacksensbyls(${1:args})'
+
+  'lrtimespec	FinInst method':
+    'prefix': 'lrtimespec	FinInst method'
+    'body': 'lrtimespec(${1:args})'
+
+  'lrtree	FinInst method':
+    'prefix': 'lrtree	FinInst method'
+    'body': 'lrtree(${1:args})'
+
+  'maxassetbystulz	FinInst method':
+    'prefix': 'maxassetbystulz	FinInst method'
+    'body': 'maxassetbystulz(${1:args})'
+
+  'maxassetsensbystulz	FinInst method':
+    'prefix': 'maxassetsensbystulz	FinInst method'
+    'body': 'maxassetsensbystulz(${1:args})'
+
+  'mbscfamounts	FinInst method':
+    'prefix': 'mbscfamounts	FinInst method'
+    'body': 'mbscfamounts(${1:args})'
+
+  'mbsconvp	FinInst method':
+    'prefix': 'mbsconvp	FinInst method'
+    'body': 'mbsconvp(${1:args})'
+
+  'mbsconvy	FinInst method':
+    'prefix': 'mbsconvy	FinInst method'
+    'body': 'mbsconvy(${1:args})'
+
+  'mbsdurp	FinInst method':
+    'prefix': 'mbsdurp	FinInst method'
+    'body': 'mbsdurp(${1:args})'
+
+  'mbsdury	FinInst method':
+    'prefix': 'mbsdury	FinInst method'
+    'body': 'mbsdury(${1:args})'
+
+  'mbsnoprepay	FinInst method':
+    'prefix': 'mbsnoprepay	FinInst method'
+    'body': 'mbsnoprepay(${1:args})'
+
+  'mbsoas2price	FinInst method':
+    'prefix': 'mbsoas2price	FinInst method'
+    'body': 'mbsoas2price(${1:args})'
+
+  'mbsoas2yield	FinInst method':
+    'prefix': 'mbsoas2yield	FinInst method'
+    'body': 'mbsoas2yield(${1:args})'
+
+  'mbspassthrough	FinInst method':
+    'prefix': 'mbspassthrough	FinInst method'
+    'body': 'mbspassthrough(${1:args})'
+
+  'mbsprice	FinInst method':
+    'prefix': 'mbsprice	FinInst method'
+    'body': 'mbsprice(${1:args})'
+
+  'mbsprice2oas	FinInst method':
+    'prefix': 'mbsprice2oas	FinInst method'
+    'body': 'mbsprice2oas(${1:args})'
+
+  'mbsprice2speed	FinInst method':
+    'prefix': 'mbsprice2speed	FinInst method'
+    'body': 'mbsprice2speed(${1:args})'
+
+  'mbswal	FinInst method':
+    'prefix': 'mbswal	FinInst method'
+    'body': 'mbswal(${1:args})'
+
+  'mbsyield	FinInst method':
+    'prefix': 'mbsyield	FinInst method'
+    'body': 'mbsyield(${1:args})'
+
+  'mbsyield2oas	FinInst method':
+    'prefix': 'mbsyield2oas	FinInst method'
+    'body': 'mbsyield2oas(${1:args})'
+
+  'mbsyield2speed	FinInst method':
+    'prefix': 'mbsyield2speed	FinInst method'
+    'body': 'mbsyield2speed(${1:args})'
+
+  'minassetbystulz	FinInst method':
+    'prefix': 'minassetbystulz	FinInst method'
+    'body': 'minassetbystulz(${1:args})'
+
+  'minassetsensbystulz	FinInst method':
+    'prefix': 'minassetsensbystulz	FinInst method'
+    'body': 'minassetsensbystulz(${1:args})'
+
+  'mkbush	FinInst method':
+    'prefix': 'mkbush	FinInst method'
+    'body': 'mkbush(${1:args})'
+
+  'mktree	FinInst method':
+    'prefix': 'mktree	FinInst method'
+    'body': 'mktree(${1:args})'
+
+  'mktrintree	FinInst method':
+    'prefix': 'mktrintree	FinInst method'
+    'body': 'mktrintree(${1:args})'
+
+  'mmktbybdt	FinInst method':
+    'prefix': 'mmktbybdt	FinInst method'
+    'body': 'mmktbybdt(${1:args})'
+
+  'mmktbyhjm	FinInst method':
+    'prefix': 'mmktbyhjm	FinInst method'
+    'body': 'mmktbyhjm(${1:args})'
+
+  'oasbybdt	FinInst method':
+    'prefix': 'oasbybdt	FinInst method'
+    'body': 'oasbybdt(${1:args})'
+
+  'oasbybk	FinInst method':
+    'prefix': 'oasbybk	FinInst method'
+    'body': 'oasbybk(${1:args})'
+
+  'oasbyhjm	FinInst method':
+    'prefix': 'oasbyhjm	FinInst method'
+    'body': 'oasbyhjm(${1:args})'
+
+  'oasbyhw	FinInst method':
+    'prefix': 'oasbyhw	FinInst method'
+    'body': 'oasbyhw(${1:args})'
+
+  'optbndbybdt	FinInst method':
+    'prefix': 'optbndbybdt	FinInst method'
+    'body': 'optbndbybdt(${1:args})'
+
+  'optbndbybk	FinInst method':
+    'prefix': 'optbndbybk	FinInst method'
+    'body': 'optbndbybk(${1:args})'
+
+  'optbndbyhjm	FinInst method':
+    'prefix': 'optbndbyhjm	FinInst method'
+    'body': 'optbndbyhjm(${1:args})'
+
+  'optbndbyhw	FinInst method':
+    'prefix': 'optbndbyhw	FinInst method'
+    'body': 'optbndbyhw(${1:args})'
+
+  'optembndbybdt	FinInst method':
+    'prefix': 'optembndbybdt	FinInst method'
+    'body': 'optembndbybdt(${1:args})'
+
+  'optembndbybk	FinInst method':
+    'prefix': 'optembndbybk	FinInst method'
+    'body': 'optembndbybk(${1:args})'
+
+  'optembndbyhjm	FinInst method':
+    'prefix': 'optembndbyhjm	FinInst method'
+    'body': 'optembndbyhjm(${1:args})'
+
+  'optembndbyhw	FinInst method':
+    'prefix': 'optembndbyhw	FinInst method'
+    'body': 'optembndbyhw(${1:args})'
+
+  'optemfloatbybdt	FinInst method':
+    'prefix': 'optemfloatbybdt	FinInst method'
+    'body': 'optemfloatbybdt(${1:args})'
+
+  'optemfloatbybk	FinInst method':
+    'prefix': 'optemfloatbybk	FinInst method'
+    'body': 'optemfloatbybk(${1:args})'
+
+  'optemfloatbyhjm	FinInst method':
+    'prefix': 'optemfloatbyhjm	FinInst method'
+    'body': 'optemfloatbyhjm(${1:args})'
+
+  'optemfloatbyhw	FinInst method':
+    'prefix': 'optemfloatbyhw	FinInst method'
+    'body': 'optemfloatbyhw(${1:args})'
+
+  'optfloatbybdt	FinInst method':
+    'prefix': 'optfloatbybdt	FinInst method'
+    'body': 'optfloatbybdt(${1:args})'
+
+  'optfloatbybk	FinInst method':
+    'prefix': 'optfloatbybk	FinInst method'
+    'body': 'optfloatbybk(${1:args})'
+
+  'optfloatbyhjm	FinInst method':
+    'prefix': 'optfloatbyhjm	FinInst method'
+    'body': 'optfloatbyhjm(${1:args})'
+
+  'optfloatbyhw	FinInst method':
+    'prefix': 'optfloatbyhw	FinInst method'
+    'body': 'optfloatbyhw(${1:args})'
+
+  'optpricebysim	FinInst method':
+    'prefix': 'optpricebysim	FinInst method'
+    'body': 'optpricebysim(${1:args})'
+
+  'optsensbysabr	FinInst method':
+    'prefix': 'optsensbysabr	FinInst method'
+    'body': 'optsensbysabr(${1:args})'
+
+  'optstockbybjs	FinInst method':
+    'prefix': 'optstockbybjs	FinInst method'
+    'body': 'optstockbybjs(${1:args})'
+
+  'optstockbyblk	FinInst method':
+    'prefix': 'optstockbyblk	FinInst method'
+    'body': 'optstockbyblk(${1:args})'
+
+  'optstockbybls	FinInst method':
+    'prefix': 'optstockbybls	FinInst method'
+    'body': 'optstockbybls(${1:args})'
+
+  'optstockbycrr	FinInst method':
+    'prefix': 'optstockbycrr	FinInst method'
+    'body': 'optstockbycrr(${1:args})'
+
+  'optstockbyeqp	FinInst method':
+    'prefix': 'optstockbyeqp	FinInst method'
+    'body': 'optstockbyeqp(${1:args})'
+
+  'optstockbyitt	FinInst method':
+    'prefix': 'optstockbyitt	FinInst method'
+    'body': 'optstockbyitt(${1:args})'
+
+  'optstockbylr	FinInst method':
+    'prefix': 'optstockbylr	FinInst method'
+    'body': 'optstockbylr(${1:args})'
+
+  'optstockbyls	FinInst method':
+    'prefix': 'optstockbyls	FinInst method'
+    'body': 'optstockbyls(${1:args})'
+
+  'optstockbyrgw	FinInst method':
+    'prefix': 'optstockbyrgw	FinInst method'
+    'body': 'optstockbyrgw(${1:args})'
+
+  'optstockbystt	FinInst method':
+    'prefix': 'optstockbystt	FinInst method'
+    'body': 'optstockbystt(${1:args})'
+
+  'optstocksensbybjs	FinInst method':
+    'prefix': 'optstocksensbybjs	FinInst method'
+    'body': 'optstocksensbybjs(${1:args})'
+
+  'optstocksensbyblk	FinInst method':
+    'prefix': 'optstocksensbyblk	FinInst method'
+    'body': 'optstocksensbyblk(${1:args})'
+
+  'optstocksensbybls	FinInst method':
+    'prefix': 'optstocksensbybls	FinInst method'
+    'body': 'optstocksensbybls(${1:args})'
+
+  'optstocksensbylr	FinInst method':
+    'prefix': 'optstocksensbylr	FinInst method'
+    'body': 'optstocksensbylr(${1:args})'
+
+  'optstocksensbyls	FinInst method':
+    'prefix': 'optstocksensbyls	FinInst method'
+    'body': 'optstocksensbyls(${1:args})'
+
+  'optstocksensbyrgw	FinInst method':
+    'prefix': 'optstocksensbyrgw	FinInst method'
+    'body': 'optstocksensbyrgw(${1:args})'
+
+  'psaspeed2default	FinInst method':
+    'prefix': 'psaspeed2default	FinInst method'
+    'body': 'psaspeed2default(${1:args})'
+
+  'psaspeed2rate	FinInst method':
+    'prefix': 'psaspeed2rate	FinInst method'
+    'body': 'psaspeed2rate(${1:args})'
+
+  'rangefloatbybdt	FinInst method':
+    'prefix': 'rangefloatbybdt	FinInst method'
+    'body': 'rangefloatbybdt(${1:args})'
+
+  'rangefloatbybk	FinInst method':
+    'prefix': 'rangefloatbybk	FinInst method'
+    'body': 'rangefloatbybk(${1:args})'
+
+  'rangefloatbyhjm	FinInst method':
+    'prefix': 'rangefloatbyhjm	FinInst method'
+    'body': 'rangefloatbyhjm(${1:args})'
+
+  'rangefloatbyhw	FinInst method':
+    'prefix': 'rangefloatbyhw	FinInst method'
+    'body': 'rangefloatbyhw(${1:args})'
+
+  'rate2disc	FinInst method':
+    'prefix': 'rate2disc	FinInst method'
+    'body': 'rate2disc(${1:args})'
+
+  'ratetimes	FinInst method':
+    'prefix': 'ratetimes	FinInst method'
+    'body': 'ratetimes(${1:args})'
+
+  'spreadbybjs	FinInst method':
+    'prefix': 'spreadbybjs	FinInst method'
+    'body': 'spreadbybjs(${1:args})'
+
+  'spreadbyfd	FinInst method':
+    'prefix': 'spreadbyfd	FinInst method'
+    'body': 'spreadbyfd(${1:args})'
+
+  'spreadbykirk	FinInst method':
+    'prefix': 'spreadbykirk	FinInst method'
+    'body': 'spreadbykirk(${1:args})'
+
+  'spreadbyls	FinInst method':
+    'prefix': 'spreadbyls	FinInst method'
+    'body': 'spreadbyls(${1:args})'
+
+  'spreadsensbybjs	FinInst method':
+    'prefix': 'spreadsensbybjs	FinInst method'
+    'body': 'spreadsensbybjs(${1:args})'
+
+  'spreadsensbyfd	FinInst method':
+    'prefix': 'spreadsensbyfd	FinInst method'
+    'body': 'spreadsensbyfd(${1:args})'
+
+  'spreadsensbykirk	FinInst method':
+    'prefix': 'spreadsensbykirk	FinInst method'
+    'body': 'spreadsensbykirk(${1:args})'
+
+  'spreadsensbyls	FinInst method':
+    'prefix': 'spreadsensbyls	FinInst method'
+    'body': 'spreadsensbyls(${1:args})'
+
+  'stepcpncfamounts	FinInst method':
+    'prefix': 'stepcpncfamounts	FinInst method'
+    'body': 'stepcpncfamounts(${1:args})'
+
+  'stepcpnprice	FinInst method':
+    'prefix': 'stepcpnprice	FinInst method'
+    'body': 'stepcpnprice(${1:args})'
+
+  'stepcpnyield	FinInst method':
+    'prefix': 'stepcpnyield	FinInst method'
+    'body': 'stepcpnyield(${1:args})'
+
+  'stockoptspec	FinInst method':
+    'prefix': 'stockoptspec	FinInst method'
+    'body': 'stockoptspec(${1:args})'
+
+  'stockspec	FinInst method':
+    'prefix': 'stockspec	FinInst method'
+    'body': 'stockspec(${1:args})'
+
+  'sttprice	FinInst method':
+    'prefix': 'sttprice	FinInst method'
+    'body': 'sttprice(${1:args})'
+
+  'sttsens	FinInst method':
+    'prefix': 'sttsens	FinInst method'
+    'body': 'sttsens(${1:args})'
+
+  'stttimespec	FinInst method':
+    'prefix': 'stttimespec	FinInst method'
+    'body': 'stttimespec(${1:args})'
+
+  'stttree	FinInst method':
+    'prefix': 'stttree	FinInst method'
+    'body': 'stttree(${1:args})'
+
+  'supersharebybls	FinInst method':
+    'prefix': 'supersharebybls	FinInst method'
+    'body': 'supersharebybls(${1:args})'
+
+  'supersharesensbybls	FinInst method':
+    'prefix': 'supersharesensbybls	FinInst method'
+    'body': 'supersharesensbybls(${1:args})'
+
+  'swapbybdt	FinInst method':
+    'prefix': 'swapbybdt	FinInst method'
+    'body': 'swapbybdt(${1:args})'
+
+  'swapbybk	FinInst method':
+    'prefix': 'swapbybk	FinInst method'
+    'body': 'swapbybk(${1:args})'
+
+  'swapbyhjm	FinInst method':
+    'prefix': 'swapbyhjm	FinInst method'
+    'body': 'swapbyhjm(${1:args})'
+
+  'swapbyhw	FinInst method':
+    'prefix': 'swapbyhw	FinInst method'
+    'body': 'swapbyhw(${1:args})'
+
+  'swapbyzero	FinInst method':
+    'prefix': 'swapbyzero	FinInst method'
+    'body': 'swapbyzero(${1:args})'
+
+  'swaptionbybdt	FinInst method':
+    'prefix': 'swaptionbybdt	FinInst method'
+    'body': 'swaptionbybdt(${1:args})'
+
+  'swaptionbybk	FinInst method':
+    'prefix': 'swaptionbybk	FinInst method'
+    'body': 'swaptionbybk(${1:args})'
+
+  'swaptionbyblk	FinInst method':
+    'prefix': 'swaptionbyblk	FinInst method'
+    'body': 'swaptionbyblk(${1:args})'
+
+  'swaptionbyhjm	FinInst method':
+    'prefix': 'swaptionbyhjm	FinInst method'
+    'body': 'swaptionbyhjm(${1:args})'
+
+  'swaptionbyhw	FinInst method':
+    'prefix': 'swaptionbyhw	FinInst method'
+    'body': 'swaptionbyhw(${1:args})'
+
+  'swaptionbylg2f	FinInst method':
+    'prefix': 'swaptionbylg2f	FinInst method'
+    'body': 'swaptionbylg2f(${1:args})'
+
+  'tfutbyprice	FinInst method':
+    'prefix': 'tfutbyprice	FinInst method'
+    'body': 'tfutbyprice(${1:args})'
+
+  'tfutbyyield	FinInst method':
+    'prefix': 'tfutbyyield	FinInst method'
+    'body': 'tfutbyyield(${1:args})'
+
+  'tfutimprepo	FinInst method':
+    'prefix': 'tfutimprepo	FinInst method'
+    'body': 'tfutimprepo(${1:args})'
+
+  'tfutpricebyrepo	FinInst method':
+    'prefix': 'tfutpricebyrepo	FinInst method'
+    'body': 'tfutpricebyrepo(${1:args})'
+
+  'tfutyieldbyrepo	FinInst method':
+    'prefix': 'tfutyieldbyrepo	FinInst method'
+    'body': 'tfutyieldbyrepo(${1:args})'
+
+  'time2date	FinInst method':
+    'prefix': 'time2date	FinInst method'
+    'body': 'time2date(${1:args})'
+
+  'toRateSpec	FinInst method':
+    'prefix': 'toRateSpec	FinInst method'
+    'body': 'toRateSpec(${1:args})'
+
+  'treepath	FinInst method':
+    'prefix': 'treepath	FinInst method'
+    'body': 'treepath(${1:args})'
+
+  'treeshape	FinInst method':
+    'prefix': 'treeshape	FinInst method'
+    'body': 'treeshape(${1:args})'
+
+  'treeviewer	FinInst method':
+    'prefix': 'treeviewer	FinInst method'
+    'body': 'treeviewer(${1:args})'
+
+  'trintreepath	FinInst method':
+    'prefix': 'trintreepath	FinInst method'
+    'body': 'trintreepath(${1:args})'
+
+  'trintreeshape	FinInst method':
+    'prefix': 'trintreeshape	FinInst method'
+    'body': 'trintreeshape(${1:args})'
+
+  'zeroprice	FinInst method':
+    'prefix': 'zeroprice	FinInst method'
+    'body': 'zeroprice(${1:args})'
+
+  'zeroyield	FinInst method':
+    'prefix': 'zeroyield	FinInst method'
+    'body': 'zeroyield(${1:args})'

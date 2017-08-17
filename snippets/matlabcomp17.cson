@@ -1,0 +1,203 @@
+# matlabcomp17 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'addric	DataFeed method':
+    'prefix': 'addric	DataFeed method'
+    'body': 'addric(${1:args})'
+
+  'aggregation	DataFeed method':
+    'prefix': 'aggregation	DataFeed method'
+    'body': 'aggregation(${1:args})'
+
+  'bdl	DataFeed method':
+    'prefix': 'bdl	DataFeed method'
+    'body': 'bdl(${1:args})'
+
+  'blp	DataFeed method':
+    'prefix': 'blp	DataFeed method'
+    'body': 'blp(${1:args})'
+
+  'blpsrv	DataFeed method':
+    'prefix': 'blpsrv	DataFeed method'
+    'body': 'blpsrv(${1:args})'
+
+  'bpipe	DataFeed method':
+    'prefix': 'bpipe	DataFeed method'
+    'body': 'bpipe(${1:args})'
+
+  'builduniverse	DataFeed method':
+    'prefix': 'builduniverse	DataFeed method'
+    'body': 'builduniverse(${1:args})'
+
+  'chain	DataFeed method':
+    'prefix': 'chain	DataFeed method'
+    'body': 'chain(${1:args})'
+
+  'contrib	DataFeed method':
+    'prefix': 'contrib	DataFeed method'
+    'body': 'contrib(${1:args})'
+
+  'datastream	DataFeed method':
+    'prefix': 'datastream	DataFeed method'
+    'body': 'datastream(${1:args})'
+
+  'deleteric	DataFeed method':
+    'prefix': 'deleteric	DataFeed method'
+    'body': 'deleteric(${1:args})'
+
+  'dftool	DataFeed method':
+    'prefix': 'dftool	DataFeed method'
+    'body': 'dftool(${1:args})'
+
+  'entitlements	DataFeed method':
+    'prefix': 'entitlements	DataFeed method'
+    'body': 'entitlements(${1:args})'
+
+  'eqs	DataFeed method':
+    'prefix': 'eqs	DataFeed method'
+    'body': 'eqs(${1:args})'
+
+  'esig	DataFeed method':
+    'prefix': 'esig	DataFeed method'
+    'body': 'esig(${1:args})'
+
+  'factset	DataFeed method':
+    'prefix': 'factset	DataFeed method'
+    'body': 'factset(${1:args})'
+
+  'fds	DataFeed method':
+    'prefix': 'fds	DataFeed method'
+    'body': 'fds(${1:args})'
+
+  'fieldinfo	DataFeed method':
+    'prefix': 'fieldinfo	DataFeed method'
+    'body': 'fieldinfo(${1:args})'
+
+  'fieldsearch	DataFeed method':
+    'prefix': 'fieldsearch	DataFeed method'
+    'body': 'fieldsearch(${1:args})'
+
+  'fred	DataFeed method':
+    'prefix': 'fred	DataFeed method'
+    'body': 'fred(${1:args})'
+
+  'getbulkdata	DataFeed method':
+    'prefix': 'getbulkdata	DataFeed method'
+    'body': 'getbulkdata(${1:args})'
+
+  'getfundamentaldata	DataFeed method':
+    'prefix': 'getfundamentaldata	DataFeed method'
+    'body': 'getfundamentaldata(${1:args})'
+
+  'haver	DataFeed method':
+    'prefix': 'haver	DataFeed method'
+    'body': 'haver(${1:args})'
+
+  'havertool	DataFeed method':
+    'prefix': 'havertool	DataFeed method'
+    'body': 'havertool(${1:args})'
+
+  'history	DataFeed method':
+    'prefix': 'history	DataFeed method'
+    'body': 'history(${1:args})'
+
+  'idc	DataFeed method':
+    'prefix': 'idc	DataFeed method'
+    'body': 'idc(${1:args})'
+
+  'iqf	DataFeed method':
+    'prefix': 'iqf	DataFeed method'
+    'body': 'iqf(${1:args})'
+
+  'kx	DataFeed method':
+    'prefix': 'kx	DataFeed method'
+    'body': 'kx(${1:args})'
+
+  'lookup	DataFeed method':
+    'prefix': 'lookup	DataFeed method'
+    'body': 'lookup(${1:args})'
+
+  'marketdepth	DataFeed method':
+    'prefix': 'marketdepth	DataFeed method'
+    'body': 'marketdepth(${1:args})'
+
+  'news	DataFeed method':
+    'prefix': 'news	DataFeed method'
+    'body': 'news(${1:args})'
+
+  'nextinfo	DataFeed method':
+    'prefix': 'nextinfo	DataFeed method'
+    'body': 'nextinfo(${1:args})'
+
+  'portfolio	DataFeed method':
+    'prefix': 'portfolio	DataFeed method'
+    'body': 'portfolio(${1:args})'
+
+  'ravenpack	DataFeed method':
+    'prefix': 'ravenpack	DataFeed method'
+    'body': 'ravenpack(${1:args})'
+
+  'rdth	DataFeed method':
+    'prefix': 'rdth	DataFeed method'
+    'body': 'rdth(${1:args})'
+
+  'rdthloader	DataFeed method':
+    'prefix': 'rdthloader	DataFeed method'
+    'body': 'rdthloader(${1:args})'
+
+  'realtime	DataFeed method':
+    'prefix': 'realtime	DataFeed method'
+    'body': 'realtime(${1:args})'
+
+  'reuters	DataFeed method':
+    'prefix': 'reuters	DataFeed method'
+    'body': 'reuters(${1:args})'
+
+  'rmdsconfig	DataFeed method':
+    'prefix': 'rmdsconfig	DataFeed method'
+    'body': 'rmdsconfig(${1:args})'
+
+  'rnseloader	DataFeed method':
+    'prefix': 'rnseloader	DataFeed method'
+    'body': 'rnseloader(${1:args})'
+
+  'rploader	DataFeed method':
+    'prefix': 'rploader	DataFeed method'
+    'body': 'rploader(${1:args})'
+
+  'status	DataFeed method':
+    'prefix': 'status	DataFeed method'
+    'body': 'status(${1:args})'
+
+  'submitftp	DataFeed method':
+    'prefix': 'submitftp	DataFeed method'
+    'body': 'submitftp(${1:args})'
+
+  'tahistory	DataFeed method':
+    'prefix': 'tahistory	DataFeed method'
+    'body': 'tahistory(${1:args})'
+
+  'tkfieldtoid	DataFeed method':
+    'prefix': 'tkfieldtoid	DataFeed method'
+    'body': 'tkfieldtoid(${1:args})'
+
+  'tkidtofield	DataFeed method':
+    'prefix': 'tkidtofield	DataFeed method'
+    'body': 'tkidtofield(${1:args})'
+
+  'tlkrs	DataFeed method':
+    'prefix': 'tlkrs	DataFeed method'
+    'body': 'tlkrs(${1:args})'
+
+  'treikon	DataFeed method':
+    'prefix': 'treikon	DataFeed method'
+    'body': 'treikon(${1:args})'
+
+  'trpdata	DataFeed method':
+    'prefix': 'trpdata	DataFeed method'
+    'body': 'trpdata(${1:args})'
+
+  'yahoo	DataFeed method':
+    'prefix': 'yahoo	DataFeed method'
+    'body': 'yahoo(${1:args})'

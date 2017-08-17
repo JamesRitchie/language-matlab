@@ -1,0 +1,1263 @@
+# matlabcomp28 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'EyeScope	Comm method':
+    'prefix': 'EyeScope	Comm method'
+    'body': 'EyeScope(${1:args})'
+
+  'algdeintrlv	Comm method':
+    'prefix': 'algdeintrlv	Comm method'
+    'body': 'algdeintrlv(${1:args})'
+
+  'algintrlv	Comm method':
+    'prefix': 'algintrlv	Comm method'
+    'body': 'algintrlv(${1:args})'
+
+  'alignsignals	Comm method':
+    'prefix': 'alignsignals	Comm method'
+    'body': 'alignsignals(${1:args})'
+
+  'amdemod	Comm method':
+    'prefix': 'amdemod	Comm method'
+    'body': 'amdemod(${1:args})'
+
+  'ammod	Comm method':
+    'prefix': 'ammod	Comm method'
+    'body': 'ammod(${1:args})'
+
+  'arithdeco	Comm method':
+    'prefix': 'arithdeco	Comm method'
+    'body': 'arithdeco(${1:args})'
+
+  'arithenco	Comm method':
+    'prefix': 'arithenco	Comm method'
+    'body': 'arithenco(${1:args})'
+
+  'awgn	Comm method':
+    'prefix': 'awgn	Comm method'
+    'body': 'awgn(${1:args})'
+
+  'bchdec	Comm method':
+    'prefix': 'bchdec	Comm method'
+    'body': 'bchdec(${1:args})'
+
+  'bchenc	Comm method':
+    'prefix': 'bchenc	Comm method'
+    'body': 'bchenc(${1:args})'
+
+  'bchgenpoly	Comm method':
+    'prefix': 'bchgenpoly	Comm method'
+    'body': 'bchgenpoly(${1:args})'
+
+  'bchnumerr	Comm method':
+    'prefix': 'bchnumerr	Comm method'
+    'body': 'bchnumerr(${1:args})'
+
+  'berawgn	Comm method':
+    'prefix': 'berawgn	Comm method'
+    'body': 'berawgn(${1:args})'
+
+  'bercoding	Comm method':
+    'prefix': 'bercoding	Comm method'
+    'body': 'bercoding(${1:args})'
+
+  'berconfint	Comm method':
+    'prefix': 'berconfint	Comm method'
+    'body': 'berconfint(${1:args})'
+
+  'berfading	Comm method':
+    'prefix': 'berfading	Comm method'
+    'body': 'berfading(${1:args})'
+
+  'berfit	Comm method':
+    'prefix': 'berfit	Comm method'
+    'body': 'berfit(${1:args})'
+
+  'bersync	Comm method':
+    'prefix': 'bersync	Comm method'
+    'body': 'bersync(${1:args})'
+
+  'bertool	Comm method':
+    'prefix': 'bertool	Comm method'
+    'body': 'bertool(${1:args})'
+
+  'bi2de	Comm method':
+    'prefix': 'bi2de	Comm method'
+    'body': 'bi2de(${1:args})'
+
+  'bin2gray	Comm method':
+    'prefix': 'bin2gray	Comm method'
+    'body': 'bin2gray(${1:args})'
+
+  'biterr	Comm method':
+    'prefix': 'biterr	Comm method'
+    'body': 'biterr(${1:args})'
+
+  'bsc	Comm method':
+    'prefix': 'bsc	Comm method'
+    'body': 'bsc(${1:args})'
+
+  'cdma2000ForwardReferenceChannels	Comm method':
+    'prefix': 'cdma2000ForwardReferenceChannels	Comm method'
+    'body': 'cdma2000ForwardReferenceChannels(${1:args})'
+
+  'cdma2000ForwardWaveformGenerator	Comm method':
+    'prefix': 'cdma2000ForwardWaveformGenerator	Comm method'
+    'body': 'cdma2000ForwardWaveformGenerator(${1:args})'
+
+  'cdma2000ReverseReferenceChannels	Comm method':
+    'prefix': 'cdma2000ReverseReferenceChannels	Comm method'
+    'body': 'cdma2000ReverseReferenceChannels(${1:args})'
+
+  'cdma2000ReverseWaveformGenerator	Comm method':
+    'prefix': 'cdma2000ReverseWaveformGenerator	Comm method'
+    'body': 'cdma2000ReverseWaveformGenerator(${1:args})'
+
+  'cma	Comm method':
+    'prefix': 'cma	Comm method'
+    'body': 'cma(${1:args})'
+
+  'comm.ACPR	Comm method':
+    'prefix': 'comm.ACPR	Comm method'
+    'body': 'comm.ACPR(${1:args})'
+
+  'comm.AGC	Comm method':
+    'prefix': 'comm.AGC	Comm method'
+    'body': 'comm.AGC(${1:args})'
+
+  'comm.APPDecoder	Comm method':
+    'prefix': 'comm.APPDecoder	Comm method'
+    'body': 'comm.APPDecoder(${1:args})'
+
+  'comm.AWGNChannel	Comm method':
+    'prefix': 'comm.AWGNChannel	Comm method'
+    'body': 'comm.AWGNChannel(${1:args})'
+
+  'comm.AlgebraicDeinterleaver	Comm method':
+    'prefix': 'comm.AlgebraicDeinterleaver	Comm method'
+    'body': 'comm.AlgebraicDeinterleaver(${1:args})'
+
+  'comm.AlgebraicInterleaver	Comm method':
+    'prefix': 'comm.AlgebraicInterleaver	Comm method'
+    'body': 'comm.AlgebraicInterleaver(${1:args})'
+
+  'comm.BCHDecoder	Comm method':
+    'prefix': 'comm.BCHDecoder	Comm method'
+    'body': 'comm.BCHDecoder(${1:args})'
+
+  'comm.BCHEncoder	Comm method':
+    'prefix': 'comm.BCHEncoder	Comm method'
+    'body': 'comm.BCHEncoder(${1:args})'
+
+  'comm.BPSKDemodulator	Comm method':
+    'prefix': 'comm.BPSKDemodulator	Comm method'
+    'body': 'comm.BPSKDemodulator(${1:args})'
+
+  'comm.BPSKModulator	Comm method':
+    'prefix': 'comm.BPSKModulator	Comm method'
+    'body': 'comm.BPSKModulator(${1:args})'
+
+  'comm.BarkerCode	Comm method':
+    'prefix': 'comm.BarkerCode	Comm method'
+    'body': 'comm.BarkerCode(${1:args})'
+
+  'comm.BinarySymmetricChannel	Comm method':
+    'prefix': 'comm.BinarySymmetricChannel	Comm method'
+    'body': 'comm.BinarySymmetricChannel(${1:args})'
+
+  'comm.BlockDeinterleaver	Comm method':
+    'prefix': 'comm.BlockDeinterleaver	Comm method'
+    'body': 'comm.BlockDeinterleaver(${1:args})'
+
+  'comm.BlockInterleaver	Comm method':
+    'prefix': 'comm.BlockInterleaver	Comm method'
+    'body': 'comm.BlockInterleaver(${1:args})'
+
+  'comm.CCDF	Comm method':
+    'prefix': 'comm.CCDF	Comm method'
+    'body': 'comm.CCDF(${1:args})'
+
+  'comm.CPFSKDemodulator	Comm method':
+    'prefix': 'comm.CPFSKDemodulator	Comm method'
+    'body': 'comm.CPFSKDemodulator(${1:args})'
+
+  'comm.CPFSKModulator	Comm method':
+    'prefix': 'comm.CPFSKModulator	Comm method'
+    'body': 'comm.CPFSKModulator(${1:args})'
+
+  'comm.CPMCarrierPhaseSynchronizer	Comm method':
+    'prefix': 'comm.CPMCarrierPhaseSynchronizer	Comm method'
+    'body': 'comm.CPMCarrierPhaseSynchronizer(${1:args})'
+
+  'comm.CPMDemodulator	Comm method':
+    'prefix': 'comm.CPMDemodulator	Comm method'
+    'body': 'comm.CPMDemodulator(${1:args})'
+
+  'comm.CPMModulator	Comm method':
+    'prefix': 'comm.CPMModulator	Comm method'
+    'body': 'comm.CPMModulator(${1:args})'
+
+  'comm.CRCDetector	Comm method':
+    'prefix': 'comm.CRCDetector	Comm method'
+    'body': 'comm.CRCDetector(${1:args})'
+
+  'comm.CRCGenerator	Comm method':
+    'prefix': 'comm.CRCGenerator	Comm method'
+    'body': 'comm.CRCGenerator(${1:args})'
+
+  'comm.CarrierSynchronizer	Comm method':
+    'prefix': 'comm.CarrierSynchronizer	Comm method'
+    'body': 'comm.CarrierSynchronizer(${1:args})'
+
+  'comm.CoarseFrequencyCompensator	Comm method':
+    'prefix': 'comm.CoarseFrequencyCompensator	Comm method'
+    'body': 'comm.CoarseFrequencyCompensator(${1:args})'
+
+  'comm.ConstellationDiagram	Comm method':
+    'prefix': 'comm.ConstellationDiagram	Comm method'
+    'body': 'comm.ConstellationDiagram(${1:args})'
+
+  'comm.ConvolutionalDeinterleaver	Comm method':
+    'prefix': 'comm.ConvolutionalDeinterleaver	Comm method'
+    'body': 'comm.ConvolutionalDeinterleaver(${1:args})'
+
+  'comm.ConvolutionalEncoder	Comm method':
+    'prefix': 'comm.ConvolutionalEncoder	Comm method'
+    'body': 'comm.ConvolutionalEncoder(${1:args})'
+
+  'comm.ConvolutionalInterleaver	Comm method':
+    'prefix': 'comm.ConvolutionalInterleaver	Comm method'
+    'body': 'comm.ConvolutionalInterleaver(${1:args})'
+
+  'comm.DBPSKDemodulator	Comm method':
+    'prefix': 'comm.DBPSKDemodulator	Comm method'
+    'body': 'comm.DBPSKDemodulator(${1:args})'
+
+  'comm.DBPSKModulator	Comm method':
+    'prefix': 'comm.DBPSKModulator	Comm method'
+    'body': 'comm.DBPSKModulator(${1:args})'
+
+  'comm.DPSKDemodulator	Comm method':
+    'prefix': 'comm.DPSKDemodulator	Comm method'
+    'body': 'comm.DPSKDemodulator(${1:args})'
+
+  'comm.DPSKModulator	Comm method':
+    'prefix': 'comm.DPSKModulator	Comm method'
+    'body': 'comm.DPSKModulator(${1:args})'
+
+  'comm.DQPSKDemodulator	Comm method':
+    'prefix': 'comm.DQPSKDemodulator	Comm method'
+    'body': 'comm.DQPSKDemodulator(${1:args})'
+
+  'comm.DQPSKModulator	Comm method':
+    'prefix': 'comm.DQPSKModulator	Comm method'
+    'body': 'comm.DQPSKModulator(${1:args})'
+
+  'comm.Descrambler	Comm method':
+    'prefix': 'comm.Descrambler	Comm method'
+    'body': 'comm.Descrambler(${1:args})'
+
+  'comm.DifferentialDecoder	Comm method':
+    'prefix': 'comm.DifferentialDecoder	Comm method'
+    'body': 'comm.DifferentialDecoder(${1:args})'
+
+  'comm.DifferentialEncoder	Comm method':
+    'prefix': 'comm.DifferentialEncoder	Comm method'
+    'body': 'comm.DifferentialEncoder(${1:args})'
+
+  'comm.DiscreteTimeVCO	Comm method':
+    'prefix': 'comm.DiscreteTimeVCO	Comm method'
+    'body': 'comm.DiscreteTimeVCO(${1:args})'
+
+  'comm.EVM	Comm method':
+    'prefix': 'comm.EVM	Comm method'
+    'body': 'comm.EVM(${1:args})'
+
+  'comm.ErrorRate	Comm method':
+    'prefix': 'comm.ErrorRate	Comm method'
+    'body': 'comm.ErrorRate(${1:args})'
+
+  'comm.FMBroadcastDemodulator	Comm method':
+    'prefix': 'comm.FMBroadcastDemodulator	Comm method'
+    'body': 'comm.FMBroadcastDemodulator(${1:args})'
+
+  'comm.FMBroadcastModulator	Comm method':
+    'prefix': 'comm.FMBroadcastModulator	Comm method'
+    'body': 'comm.FMBroadcastModulator(${1:args})'
+
+  'comm.FMDemodulator	Comm method':
+    'prefix': 'comm.FMDemodulator	Comm method'
+    'body': 'comm.FMDemodulator(${1:args})'
+
+  'comm.FMModulator	Comm method':
+    'prefix': 'comm.FMModulator	Comm method'
+    'body': 'comm.FMModulator(${1:args})'
+
+  'comm.FSKDemodulator	Comm method':
+    'prefix': 'comm.FSKDemodulator	Comm method'
+    'body': 'comm.FSKDemodulator(${1:args})'
+
+  'comm.FSKModulator	Comm method':
+    'prefix': 'comm.FSKModulator	Comm method'
+    'body': 'comm.FSKModulator(${1:args})'
+
+  'comm.FrameSynchronizer	Comm method':
+    'prefix': 'comm.FrameSynchronizer	Comm method'
+    'body': 'comm.FrameSynchronizer(${1:args})'
+
+  'comm.GMSKDemodulator	Comm method':
+    'prefix': 'comm.GMSKDemodulator	Comm method'
+    'body': 'comm.GMSKDemodulator(${1:args})'
+
+  'comm.GMSKModulator	Comm method':
+    'prefix': 'comm.GMSKModulator	Comm method'
+    'body': 'comm.GMSKModulator(${1:args})'
+
+  'comm.GMSKTimingSynchronizer	Comm method':
+    'prefix': 'comm.GMSKTimingSynchronizer	Comm method'
+    'body': 'comm.GMSKTimingSynchronizer(${1:args})'
+
+  'comm.GeneralQAMDemodulator	Comm method':
+    'prefix': 'comm.GeneralQAMDemodulator	Comm method'
+    'body': 'comm.GeneralQAMDemodulator(${1:args})'
+
+  'comm.GeneralQAMModulator	Comm method':
+    'prefix': 'comm.GeneralQAMModulator	Comm method'
+    'body': 'comm.GeneralQAMModulator(${1:args})'
+
+  'comm.GeneralQAMTCMDemodulator	Comm method':
+    'prefix': 'comm.GeneralQAMTCMDemodulator	Comm method'
+    'body': 'comm.GeneralQAMTCMDemodulator(${1:args})'
+
+  'comm.GeneralQAMTCMModulator	Comm method':
+    'prefix': 'comm.GeneralQAMTCMModulator	Comm method'
+    'body': 'comm.GeneralQAMTCMModulator(${1:args})'
+
+  'comm.GoldSequence	Comm method':
+    'prefix': 'comm.GoldSequence	Comm method'
+    'body': 'comm.GoldSequence(${1:args})'
+
+  'comm.HDLCRCDetector	Comm method':
+    'prefix': 'comm.HDLCRCDetector	Comm method'
+    'body': 'comm.HDLCRCDetector(${1:args})'
+
+  'comm.HDLCRCGenerator	Comm method':
+    'prefix': 'comm.HDLCRCGenerator	Comm method'
+    'body': 'comm.HDLCRCGenerator(${1:args})'
+
+  'comm.HDLRSDecoder	Comm method':
+    'prefix': 'comm.HDLRSDecoder	Comm method'
+    'body': 'comm.HDLRSDecoder(${1:args})'
+
+  'comm.HDLRSEncoder	Comm method':
+    'prefix': 'comm.HDLRSEncoder	Comm method'
+    'body': 'comm.HDLRSEncoder(${1:args})'
+
+  'comm.HadamardCode	Comm method':
+    'prefix': 'comm.HadamardCode	Comm method'
+    'body': 'comm.HadamardCode(${1:args})'
+
+  'comm.HelicalDeinterleaver	Comm method':
+    'prefix': 'comm.HelicalDeinterleaver	Comm method'
+    'body': 'comm.HelicalDeinterleaver(${1:args})'
+
+  'comm.HelicalInterleaver	Comm method':
+    'prefix': 'comm.HelicalInterleaver	Comm method'
+    'body': 'comm.HelicalInterleaver(${1:args})'
+
+  'comm.IQImbalanceCompensator	Comm method':
+    'prefix': 'comm.IQImbalanceCompensator	Comm method'
+    'body': 'comm.IQImbalanceCompensator(${1:args})'
+
+  'comm.IntegrateAndDumpFilter	Comm method':
+    'prefix': 'comm.IntegrateAndDumpFilter	Comm method'
+    'body': 'comm.IntegrateAndDumpFilter(${1:args})'
+
+  'comm.KasamiSequence	Comm method':
+    'prefix': 'comm.KasamiSequence	Comm method'
+    'body': 'comm.KasamiSequence(${1:args})'
+
+  'comm.LDPCDecoder	Comm method':
+    'prefix': 'comm.LDPCDecoder	Comm method'
+    'body': 'comm.LDPCDecoder(${1:args})'
+
+  'comm.LDPCEncoder	Comm method':
+    'prefix': 'comm.LDPCEncoder	Comm method'
+    'body': 'comm.LDPCEncoder(${1:args})'
+
+  'comm.LTEMIMOChannel	Comm method':
+    'prefix': 'comm.LTEMIMOChannel	Comm method'
+    'body': 'comm.LTEMIMOChannel(${1:args})'
+
+  'comm.MER	Comm method':
+    'prefix': 'comm.MER	Comm method'
+    'body': 'comm.MER(${1:args})'
+
+  'comm.MIMOChannel	Comm method':
+    'prefix': 'comm.MIMOChannel	Comm method'
+    'body': 'comm.MIMOChannel(${1:args})'
+
+  'comm.MLSEEqualizer	Comm method':
+    'prefix': 'comm.MLSEEqualizer	Comm method'
+    'body': 'comm.MLSEEqualizer(${1:args})'
+
+  'comm.MSKDemodulator	Comm method':
+    'prefix': 'comm.MSKDemodulator	Comm method'
+    'body': 'comm.MSKDemodulator(${1:args})'
+
+  'comm.MSKModulator	Comm method':
+    'prefix': 'comm.MSKModulator	Comm method'
+    'body': 'comm.MSKModulator(${1:args})'
+
+  'comm.MSKTimingSynchronizer	Comm method':
+    'prefix': 'comm.MSKTimingSynchronizer	Comm method'
+    'body': 'comm.MSKTimingSynchronizer(${1:args})'
+
+  'comm.MatrixDeinterleaver	Comm method':
+    'prefix': 'comm.MatrixDeinterleaver	Comm method'
+    'body': 'comm.MatrixDeinterleaver(${1:args})'
+
+  'comm.MatrixHelicalScanDeinterleaver	Comm method':
+    'prefix': 'comm.MatrixHelicalScanDeinterleaver	Comm method'
+    'body': 'comm.MatrixHelicalScanDeinterleaver(${1:args})'
+
+  'comm.MatrixHelicalScanInterleaver	Comm method':
+    'prefix': 'comm.MatrixHelicalScanInterleaver	Comm method'
+    'body': 'comm.MatrixHelicalScanInterleaver(${1:args})'
+
+  'comm.MatrixInterleaver	Comm method':
+    'prefix': 'comm.MatrixInterleaver	Comm method'
+    'body': 'comm.MatrixInterleaver(${1:args})'
+
+  'comm.MemorylessNonlinearity	Comm method':
+    'prefix': 'comm.MemorylessNonlinearity	Comm method'
+    'body': 'comm.MemorylessNonlinearity(${1:args})'
+
+  'comm.MultiplexedDeinterleaver	Comm method':
+    'prefix': 'comm.MultiplexedDeinterleaver	Comm method'
+    'body': 'comm.MultiplexedDeinterleaver(${1:args})'
+
+  'comm.MultiplexedInterleaver	Comm method':
+    'prefix': 'comm.MultiplexedInterleaver	Comm method'
+    'body': 'comm.MultiplexedInterleaver(${1:args})'
+
+  'comm.OFDMDemodulator	Comm method':
+    'prefix': 'comm.OFDMDemodulator	Comm method'
+    'body': 'comm.OFDMDemodulator(${1:args})'
+
+  'comm.OFDMModulator	Comm method':
+    'prefix': 'comm.OFDMModulator	Comm method'
+    'body': 'comm.OFDMModulator(${1:args})'
+
+  'comm.OQPSKDemodulator	Comm method':
+    'prefix': 'comm.OQPSKDemodulator	Comm method'
+    'body': 'comm.OQPSKDemodulator(${1:args})'
+
+  'comm.OQPSKModulator	Comm method':
+    'prefix': 'comm.OQPSKModulator	Comm method'
+    'body': 'comm.OQPSKModulator(${1:args})'
+
+  'comm.OSTBCCombiner	Comm method':
+    'prefix': 'comm.OSTBCCombiner	Comm method'
+    'body': 'comm.OSTBCCombiner(${1:args})'
+
+  'comm.OSTBCEncoder	Comm method':
+    'prefix': 'comm.OSTBCEncoder	Comm method'
+    'body': 'comm.OSTBCEncoder(${1:args})'
+
+  'comm.PAMDemodulator	Comm method':
+    'prefix': 'comm.PAMDemodulator	Comm method'
+    'body': 'comm.PAMDemodulator(${1:args})'
+
+  'comm.PAMModulator	Comm method':
+    'prefix': 'comm.PAMModulator	Comm method'
+    'body': 'comm.PAMModulator(${1:args})'
+
+  'comm.PNSequence	Comm method':
+    'prefix': 'comm.PNSequence	Comm method'
+    'body': 'comm.PNSequence(${1:args})'
+
+  'comm.PSKCoarseFrequencyEstimator	Comm method':
+    'prefix': 'comm.PSKCoarseFrequencyEstimator	Comm method'
+    'body': 'comm.PSKCoarseFrequencyEstimator(${1:args})'
+
+  'comm.PSKDemodulator	Comm method':
+    'prefix': 'comm.PSKDemodulator	Comm method'
+    'body': 'comm.PSKDemodulator(${1:args})'
+
+  'comm.PSKModulator	Comm method':
+    'prefix': 'comm.PSKModulator	Comm method'
+    'body': 'comm.PSKModulator(${1:args})'
+
+  'comm.PSKTCMDemodulator	Comm method':
+    'prefix': 'comm.PSKTCMDemodulator	Comm method'
+    'body': 'comm.PSKTCMDemodulator(${1:args})'
+
+  'comm.PSKTCMModulator	Comm method':
+    'prefix': 'comm.PSKTCMModulator	Comm method'
+    'body': 'comm.PSKTCMModulator(${1:args})'
+
+  'comm.PhaseFrequencyOffset	Comm method':
+    'prefix': 'comm.PhaseFrequencyOffset	Comm method'
+    'body': 'comm.PhaseFrequencyOffset(${1:args})'
+
+  'comm.PhaseNoise	Comm method':
+    'prefix': 'comm.PhaseNoise	Comm method'
+    'body': 'comm.PhaseNoise(${1:args})'
+
+  'comm.QAMCoarseFrequencyEstimator	Comm method':
+    'prefix': 'comm.QAMCoarseFrequencyEstimator	Comm method'
+    'body': 'comm.QAMCoarseFrequencyEstimator(${1:args})'
+
+  'comm.QPSKDemodulator	Comm method':
+    'prefix': 'comm.QPSKDemodulator	Comm method'
+    'body': 'comm.QPSKDemodulator(${1:args})'
+
+  'comm.QPSKModulator	Comm method':
+    'prefix': 'comm.QPSKModulator	Comm method'
+    'body': 'comm.QPSKModulator(${1:args})'
+
+  'comm.RSDecoder	Comm method':
+    'prefix': 'comm.RSDecoder	Comm method'
+    'body': 'comm.RSDecoder(${1:args})'
+
+  'comm.RSEncoder	Comm method':
+    'prefix': 'comm.RSEncoder	Comm method'
+    'body': 'comm.RSEncoder(${1:args})'
+
+  'comm.RaisedCosineReceiveFilter	Comm method':
+    'prefix': 'comm.RaisedCosineReceiveFilter	Comm method'
+    'body': 'comm.RaisedCosineReceiveFilter(${1:args})'
+
+  'comm.RaisedCosineTransmitFilter	Comm method':
+    'prefix': 'comm.RaisedCosineTransmitFilter	Comm method'
+    'body': 'comm.RaisedCosineTransmitFilter(${1:args})'
+
+  'comm.RayleighChannel	Comm method':
+    'prefix': 'comm.RayleighChannel	Comm method'
+    'body': 'comm.RayleighChannel(${1:args})'
+
+  'comm.RectangularQAMDemodulator	Comm method':
+    'prefix': 'comm.RectangularQAMDemodulator	Comm method'
+    'body': 'comm.RectangularQAMDemodulator(${1:args})'
+
+  'comm.RectangularQAMModulator	Comm method':
+    'prefix': 'comm.RectangularQAMModulator	Comm method'
+    'body': 'comm.RectangularQAMModulator(${1:args})'
+
+  'comm.RectangularQAMTCMDemodulator	Comm method':
+    'prefix': 'comm.RectangularQAMTCMDemodulator	Comm method'
+    'body': 'comm.RectangularQAMTCMDemodulator(${1:args})'
+
+  'comm.RectangularQAMTCMModulator	Comm method':
+    'prefix': 'comm.RectangularQAMTCMModulator	Comm method'
+    'body': 'comm.RectangularQAMTCMModulator(${1:args})'
+
+  'comm.RicianChannel	Comm method':
+    'prefix': 'comm.RicianChannel	Comm method'
+    'body': 'comm.RicianChannel(${1:args})'
+
+  'comm.Scrambler	Comm method':
+    'prefix': 'comm.Scrambler	Comm method'
+    'body': 'comm.Scrambler(${1:args})'
+
+  'comm.SphereDecoder	Comm method':
+    'prefix': 'comm.SphereDecoder	Comm method'
+    'body': 'comm.SphereDecoder(${1:args})'
+
+  'comm.SymbolSynchronizer	Comm method':
+    'prefix': 'comm.SymbolSynchronizer	Comm method'
+    'body': 'comm.SymbolSynchronizer(${1:args})'
+
+  'comm.ThermalNoise	Comm method':
+    'prefix': 'comm.ThermalNoise	Comm method'
+    'body': 'comm.ThermalNoise(${1:args})'
+
+  'comm.TurboDecoder	Comm method':
+    'prefix': 'comm.TurboDecoder	Comm method'
+    'body': 'comm.TurboDecoder(${1:args})'
+
+  'comm.TurboEncoder	Comm method':
+    'prefix': 'comm.TurboEncoder	Comm method'
+    'body': 'comm.TurboEncoder(${1:args})'
+
+  'comm.ViterbiDecoder	Comm method':
+    'prefix': 'comm.ViterbiDecoder	Comm method'
+    'body': 'comm.ViterbiDecoder(${1:args})'
+
+  'comm.WalshCode	Comm method':
+    'prefix': 'comm.WalshCode	Comm method'
+    'body': 'comm.WalshCode(${1:args})'
+
+  'comm.gpu.AWGNChannel	Comm method':
+    'prefix': 'comm.gpu.AWGNChannel	Comm method'
+    'body': 'comm.gpu.AWGNChannel(${1:args})'
+
+  'comm.gpu.BlockDeinterleaver	Comm method':
+    'prefix': 'comm.gpu.BlockDeinterleaver	Comm method'
+    'body': 'comm.gpu.BlockDeinterleaver(${1:args})'
+
+  'comm.gpu.BlockInterleaver	Comm method':
+    'prefix': 'comm.gpu.BlockInterleaver	Comm method'
+    'body': 'comm.gpu.BlockInterleaver(${1:args})'
+
+  'comm.gpu.ConvolutionalDeinterleaver	Comm method':
+    'prefix': 'comm.gpu.ConvolutionalDeinterleaver	Comm method'
+    'body': 'comm.gpu.ConvolutionalDeinterleaver(${1:args})'
+
+  'comm.gpu.ConvolutionalEncoder	Comm method':
+    'prefix': 'comm.gpu.ConvolutionalEncoder	Comm method'
+    'body': 'comm.gpu.ConvolutionalEncoder(${1:args})'
+
+  'comm.gpu.ConvolutionalInterleaver	Comm method':
+    'prefix': 'comm.gpu.ConvolutionalInterleaver	Comm method'
+    'body': 'comm.gpu.ConvolutionalInterleaver(${1:args})'
+
+  'comm.gpu.LDPCDecoder	Comm method':
+    'prefix': 'comm.gpu.LDPCDecoder	Comm method'
+    'body': 'comm.gpu.LDPCDecoder(${1:args})'
+
+  'comm.gpu.PSKDemodulator	Comm method':
+    'prefix': 'comm.gpu.PSKDemodulator	Comm method'
+    'body': 'comm.gpu.PSKDemodulator(${1:args})'
+
+  'comm.gpu.PSKModulator	Comm method':
+    'prefix': 'comm.gpu.PSKModulator	Comm method'
+    'body': 'comm.gpu.PSKModulator(${1:args})'
+
+  'comm.gpu.TurboDecoder	Comm method':
+    'prefix': 'comm.gpu.TurboDecoder	Comm method'
+    'body': 'comm.gpu.TurboDecoder(${1:args})'
+
+  'comm.gpu.ViterbiDecoder	Comm method':
+    'prefix': 'comm.gpu.ViterbiDecoder	Comm method'
+    'body': 'comm.gpu.ViterbiDecoder(${1:args})'
+
+  'commscope	Comm method':
+    'prefix': 'commscope	Comm method'
+    'body': 'commscope(${1:args})'
+
+  'commscope.ScatterPlot	Comm method':
+    'prefix': 'commscope.ScatterPlot	Comm method'
+    'body': 'commscope.ScatterPlot(${1:args})'
+
+  'commscope.eyediagram	Comm method':
+    'prefix': 'commscope.eyediagram	Comm method'
+    'body': 'commscope.eyediagram(${1:args})'
+
+  'commsrc.combinedjitter	Comm method':
+    'prefix': 'commsrc.combinedjitter	Comm method'
+    'body': 'commsrc.combinedjitter(${1:args})'
+
+  'commsrc.pattern	Comm method':
+    'prefix': 'commsrc.pattern	Comm method'
+    'body': 'commsrc.pattern(${1:args})'
+
+  'commsrc.pn	Comm method':
+    'prefix': 'commsrc.pn	Comm method'
+    'body': 'commsrc.pn(${1:args})'
+
+  'commtest.ErrorRate	Comm method':
+    'prefix': 'commtest.ErrorRate	Comm method'
+    'body': 'commtest.ErrorRate(${1:args})'
+
+  'compand	Comm method':
+    'prefix': 'compand	Comm method'
+    'body': 'compand(${1:args})'
+
+  'convdeintrlv	Comm method':
+    'prefix': 'convdeintrlv	Comm method'
+    'body': 'convdeintrlv(${1:args})'
+
+  'convenc	Comm method':
+    'prefix': 'convenc	Comm method'
+    'body': 'convenc(${1:args})'
+
+  'convintrlv	Comm method':
+    'prefix': 'convintrlv	Comm method'
+    'body': 'convintrlv(${1:args})'
+
+  'convmtx	Comm method':
+    'prefix': 'convmtx	Comm method'
+    'body': 'convmtx(${1:args})'
+
+  'cosets	Comm method':
+    'prefix': 'cosets	Comm method'
+    'body': 'cosets(${1:args})'
+
+  'cyclgen	Comm method':
+    'prefix': 'cyclgen	Comm method'
+    'body': 'cyclgen(${1:args})'
+
+  'cyclpoly	Comm method':
+    'prefix': 'cyclpoly	Comm method'
+    'body': 'cyclpoly(${1:args})'
+
+  'de2bi	Comm method':
+    'prefix': 'de2bi	Comm method'
+    'body': 'de2bi(${1:args})'
+
+  'decode	Comm method':
+    'prefix': 'decode	Comm method'
+    'body': 'decode(${1:args})'
+
+  'deintrlv	Comm method':
+    'prefix': 'deintrlv	Comm method'
+    'body': 'deintrlv(${1:args})'
+
+  'dfe	Comm method':
+    'prefix': 'dfe	Comm method'
+    'body': 'dfe(${1:args})'
+
+  'dftmtx	Comm method':
+    'prefix': 'dftmtx	Comm method'
+    'body': 'dftmtx(${1:args})'
+
+  'distspec	Comm method':
+    'prefix': 'distspec	Comm method'
+    'body': 'distspec(${1:args})'
+
+  'doppler	Comm method':
+    'prefix': 'doppler	Comm method'
+    'body': 'doppler(${1:args})'
+
+  'doppler.ajakes	Comm method':
+    'prefix': 'doppler.ajakes	Comm method'
+    'body': 'doppler.ajakes(${1:args})'
+
+  'doppler.bell	Comm method':
+    'prefix': 'doppler.bell	Comm method'
+    'body': 'doppler.bell(${1:args})'
+
+  'doppler.bigaussian	Comm method':
+    'prefix': 'doppler.bigaussian	Comm method'
+    'body': 'doppler.bigaussian(${1:args})'
+
+  'doppler.flat	Comm method':
+    'prefix': 'doppler.flat	Comm method'
+    'body': 'doppler.flat(${1:args})'
+
+  'doppler.gaussian	Comm method':
+    'prefix': 'doppler.gaussian	Comm method'
+    'body': 'doppler.gaussian(${1:args})'
+
+  'doppler.jakes	Comm method':
+    'prefix': 'doppler.jakes	Comm method'
+    'body': 'doppler.jakes(${1:args})'
+
+  'doppler.rjakes	Comm method':
+    'prefix': 'doppler.rjakes	Comm method'
+    'body': 'doppler.rjakes(${1:args})'
+
+  'doppler.rounded	Comm method':
+    'prefix': 'doppler.rounded	Comm method'
+    'body': 'doppler.rounded(${1:args})'
+
+  'dpcmdeco	Comm method':
+    'prefix': 'dpcmdeco	Comm method'
+    'body': 'dpcmdeco(${1:args})'
+
+  'dpcmenco	Comm method':
+    'prefix': 'dpcmenco	Comm method'
+    'body': 'dpcmenco(${1:args})'
+
+  'dpcmopt	Comm method':
+    'prefix': 'dpcmopt	Comm method'
+    'body': 'dpcmopt(${1:args})'
+
+  'dpskdemod	Comm method':
+    'prefix': 'dpskdemod	Comm method'
+    'body': 'dpskdemod(${1:args})'
+
+  'dpskmod	Comm method':
+    'prefix': 'dpskmod	Comm method'
+    'body': 'dpskmod(${1:args})'
+
+  'dsp.ArrayPlot	Comm method':
+    'prefix': 'dsp.ArrayPlot	Comm method'
+    'body': 'dsp.ArrayPlot(${1:args})'
+
+  'dsp.SpectrumAnalyzer	Comm method':
+    'prefix': 'dsp.SpectrumAnalyzer	Comm method'
+    'body': 'dsp.SpectrumAnalyzer(${1:args})'
+
+  'dsp.TimeScope	Comm method':
+    'prefix': 'dsp.TimeScope	Comm method'
+    'body': 'dsp.TimeScope(${1:args})'
+
+  'dvbs2ldpc	Comm method':
+    'prefix': 'dvbs2ldpc	Comm method'
+    'body': 'dvbs2ldpc(${1:args})'
+
+  'encode	Comm method':
+    'prefix': 'encode	Comm method'
+    'body': 'encode(${1:args})'
+
+  'equalize	Comm method':
+    'prefix': 'equalize	Comm method'
+    'body': 'equalize(${1:args})'
+
+  'evdoForwardReferenceChannels	Comm method':
+    'prefix': 'evdoForwardReferenceChannels	Comm method'
+    'body': 'evdoForwardReferenceChannels(${1:args})'
+
+  'evdoForwardWaveformGenerator	Comm method':
+    'prefix': 'evdoForwardWaveformGenerator	Comm method'
+    'body': 'evdoForwardWaveformGenerator(${1:args})'
+
+  'evdoReverseReferenceChannels	Comm method':
+    'prefix': 'evdoReverseReferenceChannels	Comm method'
+    'body': 'evdoReverseReferenceChannels(${1:args})'
+
+  'evdoReverseWaveformGenerator	Comm method':
+    'prefix': 'evdoReverseWaveformGenerator	Comm method'
+    'body': 'evdoReverseWaveformGenerator(${1:args})'
+
+  'eyediagram	Comm method':
+    'prefix': 'eyediagram	Comm method'
+    'body': 'eyediagram(${1:args})'
+
+  'filter	Comm method':
+    'prefix': 'filter	Comm method'
+    'body': 'filter(${1:args})'
+
+  'finddelay	Comm method':
+    'prefix': 'finddelay	Comm method'
+    'body': 'finddelay(${1:args})'
+
+  'fmdemod	Comm method':
+    'prefix': 'fmdemod	Comm method'
+    'body': 'fmdemod(${1:args})'
+
+  'fmmod	Comm method':
+    'prefix': 'fmmod	Comm method'
+    'body': 'fmmod(${1:args})'
+
+  'fskdemod	Comm method':
+    'prefix': 'fskdemod	Comm method'
+    'body': 'fskdemod(${1:args})'
+
+  'fskmod	Comm method':
+    'prefix': 'fskmod	Comm method'
+    'body': 'fskmod(${1:args})'
+
+  'gaussdesign	Comm method':
+    'prefix': 'gaussdesign	Comm method'
+    'body': 'gaussdesign(${1:args})'
+
+  'gen2par	Comm method':
+    'prefix': 'gen2par	Comm method'
+    'body': 'gen2par(${1:args})'
+
+  'genqamdemod	Comm method':
+    'prefix': 'genqamdemod	Comm method'
+    'body': 'genqamdemod(${1:args})'
+
+  'genqammod	Comm method':
+    'prefix': 'genqammod	Comm method'
+    'body': 'genqammod(${1:args})'
+
+  'gf	Comm method':
+    'prefix': 'gf	Comm method'
+    'body': 'gf(${1:args})'
+
+  'gfadd	Comm method':
+    'prefix': 'gfadd	Comm method'
+    'body': 'gfadd(${1:args})'
+
+  'gfconv	Comm method':
+    'prefix': 'gfconv	Comm method'
+    'body': 'gfconv(${1:args})'
+
+  'gfcosets	Comm method':
+    'prefix': 'gfcosets	Comm method'
+    'body': 'gfcosets(${1:args})'
+
+  'gfdeconv	Comm method':
+    'prefix': 'gfdeconv	Comm method'
+    'body': 'gfdeconv(${1:args})'
+
+  'gfdiv	Comm method':
+    'prefix': 'gfdiv	Comm method'
+    'body': 'gfdiv(${1:args})'
+
+  'gffilter	Comm method':
+    'prefix': 'gffilter	Comm method'
+    'body': 'gffilter(${1:args})'
+
+  'gflineq	Comm method':
+    'prefix': 'gflineq	Comm method'
+    'body': 'gflineq(${1:args})'
+
+  'gfminpol	Comm method':
+    'prefix': 'gfminpol	Comm method'
+    'body': 'gfminpol(${1:args})'
+
+  'gfmul	Comm method':
+    'prefix': 'gfmul	Comm method'
+    'body': 'gfmul(${1:args})'
+
+  'gfpretty	Comm method':
+    'prefix': 'gfpretty	Comm method'
+    'body': 'gfpretty(${1:args})'
+
+  'gfprimck	Comm method':
+    'prefix': 'gfprimck	Comm method'
+    'body': 'gfprimck(${1:args})'
+
+  'gfprimdf	Comm method':
+    'prefix': 'gfprimdf	Comm method'
+    'body': 'gfprimdf(${1:args})'
+
+  'gfprimfd	Comm method':
+    'prefix': 'gfprimfd	Comm method'
+    'body': 'gfprimfd(${1:args})'
+
+  'gfrank	Comm method':
+    'prefix': 'gfrank	Comm method'
+    'body': 'gfrank(${1:args})'
+
+  'gfrepcov	Comm method':
+    'prefix': 'gfrepcov	Comm method'
+    'body': 'gfrepcov(${1:args})'
+
+  'gfroots	Comm method':
+    'prefix': 'gfroots	Comm method'
+    'body': 'gfroots(${1:args})'
+
+  'gfsub	Comm method':
+    'prefix': 'gfsub	Comm method'
+    'body': 'gfsub(${1:args})'
+
+  'gftable	Comm method':
+    'prefix': 'gftable	Comm method'
+    'body': 'gftable(${1:args})'
+
+  'gftrunc	Comm method':
+    'prefix': 'gftrunc	Comm method'
+    'body': 'gftrunc(${1:args})'
+
+  'gftuple	Comm method':
+    'prefix': 'gftuple	Comm method'
+    'body': 'gftuple(${1:args})'
+
+  'gfweight	Comm method':
+    'prefix': 'gfweight	Comm method'
+    'body': 'gfweight(${1:args})'
+
+  'gray2bin	Comm method':
+    'prefix': 'gray2bin	Comm method'
+    'body': 'gray2bin(${1:args})'
+
+  'hammgen	Comm method':
+    'prefix': 'hammgen	Comm method'
+    'body': 'hammgen(${1:args})'
+
+  'heldeintrlv	Comm method':
+    'prefix': 'heldeintrlv	Comm method'
+    'body': 'heldeintrlv(${1:args})'
+
+  'helintrlv	Comm method':
+    'prefix': 'helintrlv	Comm method'
+    'body': 'helintrlv(${1:args})'
+
+  'helscandeintrlv	Comm method':
+    'prefix': 'helscandeintrlv	Comm method'
+    'body': 'helscandeintrlv(${1:args})'
+
+  'helscanintrlv	Comm method':
+    'prefix': 'helscanintrlv	Comm method'
+    'body': 'helscanintrlv(${1:args})'
+
+  'hex2poly	Comm method':
+    'prefix': 'hex2poly	Comm method'
+    'body': 'hex2poly(${1:args})'
+
+  'huffmandeco	Comm method':
+    'prefix': 'huffmandeco	Comm method'
+    'body': 'huffmandeco(${1:args})'
+
+  'huffmandict	Comm method':
+    'prefix': 'huffmandict	Comm method'
+    'body': 'huffmandict(${1:args})'
+
+  'huffmanenco	Comm method':
+    'prefix': 'huffmanenco	Comm method'
+    'body': 'huffmanenco(${1:args})'
+
+  'intdump	Comm method':
+    'prefix': 'intdump	Comm method'
+    'body': 'intdump(${1:args})'
+
+  'intrlv	Comm method':
+    'prefix': 'intrlv	Comm method'
+    'body': 'intrlv(${1:args})'
+
+  'iqcoef2imbal	Comm method':
+    'prefix': 'iqcoef2imbal	Comm method'
+    'body': 'iqcoef2imbal(${1:args})'
+
+  'iqimbal2coef	Comm method':
+    'prefix': 'iqimbal2coef	Comm method'
+    'body': 'iqimbal2coef(${1:args})'
+
+  'iscatastrophic	Comm method':
+    'prefix': 'iscatastrophic	Comm method'
+    'body': 'iscatastrophic(${1:args})'
+
+  'isprimitive	Comm method':
+    'prefix': 'isprimitive	Comm method'
+    'body': 'isprimitive(${1:args})'
+
+  'istrellis	Comm method':
+    'prefix': 'istrellis	Comm method'
+    'body': 'istrellis(${1:args})'
+
+  'legacychannelsim	Comm method':
+    'prefix': 'legacychannelsim	Comm method'
+    'body': 'legacychannelsim(${1:args})'
+
+  'lineareq	Comm method':
+    'prefix': 'lineareq	Comm method'
+    'body': 'lineareq(${1:args})'
+
+  'lloyds	Comm method':
+    'prefix': 'lloyds	Comm method'
+    'body': 'lloyds(${1:args})'
+
+  'lms	Comm method':
+    'prefix': 'lms	Comm method'
+    'body': 'lms(${1:args})'
+
+  'lteZadoffChuSeq	Comm method':
+    'prefix': 'lteZadoffChuSeq	Comm method'
+    'body': 'lteZadoffChuSeq(${1:args})'
+
+  'marcumq	Comm method':
+    'prefix': 'marcumq	Comm method'
+    'body': 'marcumq(${1:args})'
+
+  'mask2shift	Comm method':
+    'prefix': 'mask2shift	Comm method'
+    'body': 'mask2shift(${1:args})'
+
+  'matdeintrlv	Comm method':
+    'prefix': 'matdeintrlv	Comm method'
+    'body': 'matdeintrlv(${1:args})'
+
+  'matintrlv	Comm method':
+    'prefix': 'matintrlv	Comm method'
+    'body': 'matintrlv(${1:args})'
+
+  'minpol	Comm method':
+    'prefix': 'minpol	Comm method'
+    'body': 'minpol(${1:args})'
+
+  'mlseeq	Comm method':
+    'prefix': 'mlseeq	Comm method'
+    'body': 'mlseeq(${1:args})'
+
+  'modnorm	Comm method':
+    'prefix': 'modnorm	Comm method'
+    'body': 'modnorm(${1:args})'
+
+  'muxdeintrlv	Comm method':
+    'prefix': 'muxdeintrlv	Comm method'
+    'body': 'muxdeintrlv(${1:args})'
+
+  'muxintrlv	Comm method':
+    'prefix': 'muxintrlv	Comm method'
+    'body': 'muxintrlv(${1:args})'
+
+  'noisebw	Comm method':
+    'prefix': 'noisebw	Comm method'
+    'body': 'noisebw(${1:args})'
+
+  'normlms	Comm method':
+    'prefix': 'normlms	Comm method'
+    'body': 'normlms(${1:args})'
+
+  'oct2dec	Comm method':
+    'prefix': 'oct2dec	Comm method'
+    'body': 'oct2dec(${1:args})'
+
+  'oct2poly	Comm method':
+    'prefix': 'oct2poly	Comm method'
+    'body': 'oct2poly(${1:args})'
+
+  'oqpskdemod	Comm method':
+    'prefix': 'oqpskdemod	Comm method'
+    'body': 'oqpskdemod(${1:args})'
+
+  'oqpskmod	Comm method':
+    'prefix': 'oqpskmod	Comm method'
+    'body': 'oqpskmod(${1:args})'
+
+  'pamdemod	Comm method':
+    'prefix': 'pamdemod	Comm method'
+    'body': 'pamdemod(${1:args})'
+
+  'pammod	Comm method':
+    'prefix': 'pammod	Comm method'
+    'body': 'pammod(${1:args})'
+
+  'plot	Comm method':
+    'prefix': 'plot	Comm method'
+    'body': 'plot(${1:args})'
+
+  'plotPhaseNoiseFilter	Comm method':
+    'prefix': 'plotPhaseNoiseFilter	Comm method'
+    'body': 'plotPhaseNoiseFilter(${1:args})'
+
+  'pmdemod	Comm method':
+    'prefix': 'pmdemod	Comm method'
+    'body': 'pmdemod(${1:args})'
+
+  'pmmod	Comm method':
+    'prefix': 'pmmod	Comm method'
+    'body': 'pmmod(${1:args})'
+
+  'poly2trellis	Comm method':
+    'prefix': 'poly2trellis	Comm method'
+    'body': 'poly2trellis(${1:args})'
+
+  'primpoly	Comm method':
+    'prefix': 'primpoly	Comm method'
+    'body': 'primpoly(${1:args})'
+
+  'pskdemod	Comm method':
+    'prefix': 'pskdemod	Comm method'
+    'body': 'pskdemod(${1:args})'
+
+  'pskmod	Comm method':
+    'prefix': 'pskmod	Comm method'
+    'body': 'pskmod(${1:args})'
+
+  'qamdemod	Comm method':
+    'prefix': 'qamdemod	Comm method'
+    'body': 'qamdemod(${1:args})'
+
+  'qammod	Comm method':
+    'prefix': 'qammod	Comm method'
+    'body': 'qammod(${1:args})'
+
+  'qfunc	Comm method':
+    'prefix': 'qfunc	Comm method'
+    'body': 'qfunc(${1:args})'
+
+  'qfuncinv	Comm method':
+    'prefix': 'qfuncinv	Comm method'
+    'body': 'qfuncinv(${1:args})'
+
+  'quantiz	Comm method':
+    'prefix': 'quantiz	Comm method'
+    'body': 'quantiz(${1:args})'
+
+  'randdeintrlv	Comm method':
+    'prefix': 'randdeintrlv	Comm method'
+    'body': 'randdeintrlv(${1:args})'
+
+  'randerr	Comm method':
+    'prefix': 'randerr	Comm method'
+    'body': 'randerr(${1:args})'
+
+  'randintrlv	Comm method':
+    'prefix': 'randintrlv	Comm method'
+    'body': 'randintrlv(${1:args})'
+
+  'randsrc	Comm method':
+    'prefix': 'randsrc	Comm method'
+    'body': 'randsrc(${1:args})'
+
+  'rayleighchan	Comm method':
+    'prefix': 'rayleighchan	Comm method'
+    'body': 'rayleighchan(${1:args})'
+
+  'rcosdesign	Comm method':
+    'prefix': 'rcosdesign	Comm method'
+    'body': 'rcosdesign(${1:args})'
+
+  'rectpulse	Comm method':
+    'prefix': 'rectpulse	Comm method'
+    'body': 'rectpulse(${1:args})'
+
+  'reset	Comm method':
+    'prefix': 'reset	Comm method'
+    'body': 'reset(${1:args})'
+
+  'ricianchan	Comm method':
+    'prefix': 'ricianchan	Comm method'
+    'body': 'ricianchan(${1:args})'
+
+  'rls	Comm method':
+    'prefix': 'rls	Comm method'
+    'body': 'rls(${1:args})'
+
+  'rsdec	Comm method':
+    'prefix': 'rsdec	Comm method'
+    'body': 'rsdec(${1:args})'
+
+  'rsenc	Comm method':
+    'prefix': 'rsenc	Comm method'
+    'body': 'rsenc(${1:args})'
+
+  'rsgenpoly	Comm method':
+    'prefix': 'rsgenpoly	Comm method'
+    'body': 'rsgenpoly(${1:args})'
+
+  'rsgenpolycoeffs	Comm method':
+    'prefix': 'rsgenpolycoeffs	Comm method'
+    'body': 'rsgenpolycoeffs(${1:args})'
+
+  'scatterplot	Comm method':
+    'prefix': 'scatterplot	Comm method'
+    'body': 'scatterplot(${1:args})'
+
+  'semianalytic	Comm method':
+    'prefix': 'semianalytic	Comm method'
+    'body': 'semianalytic(${1:args})'
+
+  'shift2mask	Comm method':
+    'prefix': 'shift2mask	Comm method'
+    'body': 'shift2mask(${1:args})'
+
+  'signlms	Comm method':
+    'prefix': 'signlms	Comm method'
+    'body': 'signlms(${1:args})'
+
+  'ssbdemod	Comm method':
+    'prefix': 'ssbdemod	Comm method'
+    'body': 'ssbdemod(${1:args})'
+
+  'ssbmod	Comm method':
+    'prefix': 'ssbmod	Comm method'
+    'body': 'ssbmod(${1:args})'
+
+  'stdchan	Comm method':
+    'prefix': 'stdchan	Comm method'
+    'body': 'stdchan(${1:args})'
+
+  'symerr	Comm method':
+    'prefix': 'symerr	Comm method'
+    'body': 'symerr(${1:args})'
+
+  'syndtable	Comm method':
+    'prefix': 'syndtable	Comm method'
+    'body': 'syndtable(${1:args})'
+
+  'varlms	Comm method':
+    'prefix': 'varlms	Comm method'
+    'body': 'varlms(${1:args})'
+
+  'vec2mat	Comm method':
+    'prefix': 'vec2mat	Comm method'
+    'body': 'vec2mat(${1:args})'
+
+  'vitdec	Comm method':
+    'prefix': 'vitdec	Comm method'
+    'body': 'vitdec(${1:args})'
+
+  'wgn	Comm method':
+    'prefix': 'wgn	Comm method'
+    'body': 'wgn(${1:args})'

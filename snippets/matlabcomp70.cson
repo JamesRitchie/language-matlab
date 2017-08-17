@@ -1,0 +1,215 @@
+# matlabcomp70 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'A2LFileName	VNT prop':
+    'prefix': 'A2LFileName	VNT prop'
+    'body': 'A2LFileName'
+
+  'BusLoad	VNT prop':
+    'prefix': 'BusLoad	VNT prop'
+    'body': 'BusLoad'
+
+  'BusSpeed	VNT prop':
+    'prefix': 'BusSpeed	VNT prop'
+    'body': 'BusSpeed'
+
+  'BusStatus	VNT prop':
+    'prefix': 'BusStatus	VNT prop'
+    'body': 'BusStatus'
+
+  'DAQInfo	VNT prop':
+    'prefix': 'DAQInfo	VNT prop'
+    'body': 'DAQInfo'
+
+  'Data	VNT prop':
+    'prefix': 'Data	VNT prop'
+    'body': 'Data'
+
+  'Database	VNT prop':
+    'prefix': 'Database	VNT prop'
+    'body': 'Database'
+
+  'DestinationAddress	VNT prop':
+    'prefix': 'DestinationAddress	VNT prop'
+    'body': 'DestinationAddress'
+
+  'Device(NI)	VNT prop':
+    'prefix': 'Device(NI)	VNT prop'
+    'body': 'Device(NI)'
+
+  'DeviceChannelIndex	VNT prop':
+    'prefix': 'DeviceChannelIndex	VNT prop'
+    'body': 'DeviceChannelIndex'
+
+  'DeviceSerialNumber	VNT prop':
+    'prefix': 'DeviceSerialNumber	VNT prop'
+    'body': 'DeviceSerialNumber'
+
+  'DeviceVendor	VNT prop':
+    'prefix': 'DeviceVendor	VNT prop'
+    'body': 'DeviceVendor'
+
+  'Error	VNT prop':
+    'prefix': 'Error	VNT prop'
+    'body': 'Error'
+
+  'Events	VNT prop':
+    'prefix': 'Events	VNT prop'
+    'body': 'Events'
+
+  'Extended	VNT prop':
+    'prefix': 'Extended	VNT prop'
+    'body': 'Extended'
+
+  'FileName	VNT prop':
+    'prefix': 'FileName	VNT prop'
+    'body': 'FileName'
+
+  'FilePath	VNT prop':
+    'prefix': 'FilePath	VNT prop'
+    'body': 'FilePath'
+
+  'FilterBlockList	VNT prop':
+    'prefix': 'FilterBlockList	VNT prop'
+    'body': 'FilterBlockList'
+
+  'FilterPassList	VNT prop':
+    'prefix': 'FilterPassList	VNT prop'
+    'body': 'FilterPassList'
+
+  'InitializationAccess	VNT prop':
+    'prefix': 'InitializationAccess	VNT prop'
+    'body': 'InitializationAccess'
+
+  'Measurements	VNT prop':
+    'prefix': 'Measurements	VNT prop'
+    'body': 'Measurements'
+
+  'MessageReceivedFcn	VNT prop':
+    'prefix': 'MessageReceivedFcn	VNT prop'
+    'body': 'MessageReceivedFcn'
+
+  'Messages	VNT prop':
+    'prefix': 'Messages	VNT prop'
+    'body': 'Messages'
+
+  'MessagesAvailable	VNT prop':
+    'prefix': 'MessagesAvailable	VNT prop'
+    'body': 'MessagesAvailable'
+
+  'MessagesReceived	VNT prop':
+    'prefix': 'MessagesReceived	VNT prop'
+    'body': 'MessagesReceived'
+
+  'MessagesTransmitted	VNT prop':
+    'prefix': 'MessagesTransmitted	VNT prop'
+    'body': 'MessagesTransmitted'
+
+  'NumOfSamples	VNT prop':
+    'prefix': 'NumOfSamples	VNT prop'
+    'body': 'NumOfSamples'
+
+  'PDUFormatType	VNT prop':
+    'prefix': 'PDUFormatType	VNT prop'
+    'body': 'PDUFormatType'
+
+  'PGN	VNT prop':
+    'prefix': 'PGN	VNT prop'
+    'body': 'PGN'
+
+  'ParameterGroupsAvailable	VNT prop':
+    'prefix': 'ParameterGroupsAvailable	VNT prop'
+    'body': 'ParameterGroupsAvailable'
+
+  'ParameterGroupsReceived	VNT prop':
+    'prefix': 'ParameterGroupsReceived	VNT prop'
+    'body': 'ParameterGroupsReceived'
+
+  'ParameterGroupsTransmitted	VNT prop':
+    'prefix': 'ParameterGroupsTransmitted	VNT prop'
+    'body': 'ParameterGroupsTransmitted'
+
+  'Path	VNT prop':
+    'prefix': 'Path	VNT prop'
+    'body': 'Path'
+
+  'Priority	VNT prop':
+    'prefix': 'Priority	VNT prop'
+    'body': 'Priority'
+
+  'ProtocolLayerInfo	VNT prop':
+    'prefix': 'ProtocolLayerInfo	VNT prop'
+    'body': 'ProtocolLayerInfo'
+
+  'ReceiveErrorCount	VNT prop':
+    'prefix': 'ReceiveErrorCount	VNT prop'
+    'body': 'ReceiveErrorCount'
+
+  'Remote	VNT prop':
+    'prefix': 'Remote	VNT prop'
+    'body': 'Remote'
+
+  'Running	VNT prop':
+    'prefix': 'Running	VNT prop'
+    'body': 'Running'
+
+  'SJW	VNT prop':
+    'prefix': 'SJW	VNT prop'
+    'body': 'SJW'
+
+  'SeedKeyDLL	VNT prop':
+    'prefix': 'SeedKeyDLL	VNT prop'
+    'body': 'SeedKeyDLL'
+
+  'Signals	VNT prop':
+    'prefix': 'Signals	VNT prop'
+    'body': 'Signals'
+
+  'SilentMode	VNT prop':
+    'prefix': 'SilentMode	VNT prop'
+    'body': 'SilentMode'
+
+  'SlaveName	VNT prop':
+    'prefix': 'SlaveName	VNT prop'
+    'body': 'SlaveName'
+
+  'SourceAddress	VNT prop':
+    'prefix': 'SourceAddress	VNT prop'
+    'body': 'SourceAddress'
+
+  'TSEG1	VNT prop':
+    'prefix': 'TSEG1	VNT prop'
+    'body': 'TSEG1'
+
+  'TSEG2	VNT prop':
+    'prefix': 'TSEG2	VNT prop'
+    'body': 'TSEG2'
+
+  'Timestamp	VNT prop':
+    'prefix': 'Timestamp	VNT prop'
+    'body': 'Timestamp'
+
+  'TransceiverName	VNT prop':
+    'prefix': 'TransceiverName	VNT prop'
+    'body': 'TransceiverName'
+
+  'TransceiverState	VNT prop':
+    'prefix': 'TransceiverState	VNT prop'
+    'body': 'TransceiverState'
+
+  'TransmitErrorCount	VNT prop':
+    'prefix': 'TransmitErrorCount	VNT prop'
+    'body': 'TransmitErrorCount'
+
+  'TransportLayer	VNT prop':
+    'prefix': 'TransportLayer	VNT prop'
+    'body': 'TransportLayer'
+
+  'TransportLayerCANInfo	VNT prop':
+    'prefix': 'TransportLayerCANInfo	VNT prop'
+    'body': 'TransportLayerCANInfo'
+
+  'TransportLayerDevice	VNT prop':
+    'prefix': 'TransportLayerDevice	VNT prop'
+    'body': 'TransportLayerDevice'

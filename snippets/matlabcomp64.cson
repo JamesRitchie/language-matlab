@@ -1,0 +1,151 @@
+# matlabcomp64 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'stl2vrml	SL3D method':
+    'prefix': 'stl2vrml	SL3D method'
+    'body': 'stl2vrml(${1:args})'
+
+  'vr.canvas	SL3D method':
+    'prefix': 'vr.canvas	SL3D method'
+    'body': 'vr.canvas(${1:args})'
+
+  'vr.canvas.capture	SL3D method':
+    'prefix': 'vr.canvas.capture	SL3D method'
+    'body': 'vr.canvas.capture(${1:args})'
+
+  'vr.utils.stereo3d	SL3D method':
+    'prefix': 'vr.utils.stereo3d	SL3D method'
+    'body': 'vr.utils.stereo3d(${1:args})'
+
+  'vrcadcleanup	SL3D method':
+    'prefix': 'vrcadcleanup	SL3D method'
+    'body': 'vrcadcleanup(${1:args})'
+
+  'vrclear	SL3D method':
+    'prefix': 'vrclear	SL3D method'
+    'body': 'vrclear(${1:args})'
+
+  'vrclose	SL3D method':
+    'prefix': 'vrclose	SL3D method'
+    'body': 'vrclose(${1:args})'
+
+  'vrdir2ori	SL3D method':
+    'prefix': 'vrdir2ori	SL3D method'
+    'body': 'vrdir2ori(${1:args})'
+
+  'vrdrawnow	SL3D method':
+    'prefix': 'vrdrawnow	SL3D method'
+    'body': 'vrdrawnow(${1:args})'
+
+  'vredit	SL3D method':
+    'prefix': 'vredit	SL3D method'
+    'body': 'vredit(${1:args})'
+
+  'vrfigure	SL3D method':
+    'prefix': 'vrfigure	SL3D method'
+    'body': 'vrfigure(${1:args})'
+
+  'vrfigure.capture	SL3D method':
+    'prefix': 'vrfigure.capture	SL3D method'
+    'body': 'vrfigure.capture(${1:args})'
+
+  'vrfigure.close	SL3D method':
+    'prefix': 'vrfigure.close	SL3D method'
+    'body': 'vrfigure.close(${1:args})'
+
+  'vrfigure.get	SL3D method':
+    'prefix': 'vrfigure.get	SL3D method'
+    'body': 'vrfigure.get(${1:args})'
+
+  'vrfigure.isvalid	SL3D method':
+    'prefix': 'vrfigure.isvalid	SL3D method'
+    'body': 'vrfigure.isvalid(${1:args})'
+
+  'vrfigure.set	SL3D method':
+    'prefix': 'vrfigure.set	SL3D method'
+    'body': 'vrfigure.set(${1:args})'
+
+  'vrgcbf	SL3D method':
+    'prefix': 'vrgcbf	SL3D method'
+    'body': 'vrgcbf(${1:args})'
+
+  'vrgcf	SL3D method':
+    'prefix': 'vrgcf	SL3D method'
+    'body': 'vrgcf(${1:args})'
+
+  'vrgetpref	SL3D method':
+    'prefix': 'vrgetpref	SL3D method'
+    'body': 'vrgetpref(${1:args})'
+
+  'vrifs2patch	SL3D method':
+    'prefix': 'vrifs2patch	SL3D method'
+    'body': 'vrifs2patch(${1:args})'
+
+  'vrinstall	SL3D method':
+    'prefix': 'vrinstall	SL3D method'
+    'body': 'vrinstall(${1:args})'
+
+  'vrjoystick	SL3D method':
+    'prefix': 'vrjoystick	SL3D method'
+    'body': 'vrjoystick(${1:args})'
+
+  'vrlib	SL3D method':
+    'prefix': 'vrlib	SL3D method'
+    'body': 'vrlib(${1:args})'
+
+  'vrnode	SL3D method':
+    'prefix': 'vrnode	SL3D method'
+    'body': 'vrnode(${1:args})'
+
+  'vrori2dir	SL3D method':
+    'prefix': 'vrori2dir	SL3D method'
+    'body': 'vrori2dir(${1:args})'
+
+  'vrpatch2ifs	SL3D method':
+    'prefix': 'vrpatch2ifs	SL3D method'
+    'body': 'vrpatch2ifs(${1:args})'
+
+  'vrphysmod	SL3D method':
+    'prefix': 'vrphysmod	SL3D method'
+    'body': 'vrphysmod(${1:args})'
+
+  'vrplay	SL3D method':
+    'prefix': 'vrplay	SL3D method'
+    'body': 'vrplay(${1:args})'
+
+  'vrrotmat2vec	SL3D method':
+    'prefix': 'vrrotmat2vec	SL3D method'
+    'body': 'vrrotmat2vec(${1:args})'
+
+  'vrrotvec	SL3D method':
+    'prefix': 'vrrotvec	SL3D method'
+    'body': 'vrrotvec(${1:args})'
+
+  'vrrotvec2mat	SL3D method':
+    'prefix': 'vrrotvec2mat	SL3D method'
+    'body': 'vrrotvec2mat(${1:args})'
+
+  'vrsetpref	SL3D method':
+    'prefix': 'vrsetpref	SL3D method'
+    'body': 'vrsetpref(${1:args})'
+
+  'vrspacemouse	SL3D method':
+    'prefix': 'vrspacemouse	SL3D method'
+    'body': 'vrspacemouse(${1:args})'
+
+  'vrview	SL3D method':
+    'prefix': 'vrview	SL3D method'
+    'body': 'vrview(${1:args})'
+
+  'vrwho	SL3D method':
+    'prefix': 'vrwho	SL3D method'
+    'body': 'vrwho(${1:args})'
+
+  'vrwhos	SL3D method':
+    'prefix': 'vrwhos	SL3D method'
+    'body': 'vrwhos(${1:args})'
+
+  'vrworld	SL3D method':
+    'prefix': 'vrworld	SL3D method'
+    'body': 'vrworld(${1:args})'

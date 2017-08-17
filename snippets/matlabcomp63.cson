@@ -1,0 +1,587 @@
+# matlabcomp63 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'TrendInfo	Ident method':
+    'prefix': 'TrendInfo	Ident method'
+    'body': 'TrendInfo(${1:args})'
+
+  'addreg	Ident method':
+    'prefix': 'addreg	Ident method'
+    'body': 'addreg(${1:args})'
+
+  'advice	Ident method':
+    'prefix': 'advice	Ident method'
+    'body': 'advice(${1:args})'
+
+  'aic	Ident method':
+    'prefix': 'aic	Ident method'
+    'body': 'aic(${1:args})'
+
+  'ar	Ident method':
+    'prefix': 'ar	Ident method'
+    'body': 'ar(${1:args})'
+
+  'arOptions	Ident method':
+    'prefix': 'arOptions	Ident method'
+    'body': 'arOptions(${1:args})'
+
+  'armax	Ident method':
+    'prefix': 'armax	Ident method'
+    'body': 'armax(${1:args})'
+
+  'armaxOptions	Ident method':
+    'prefix': 'armaxOptions	Ident method'
+    'body': 'armaxOptions(${1:args})'
+
+  'arx	Ident method':
+    'prefix': 'arx	Ident method'
+    'body': 'arx(${1:args})'
+
+  'arxOptions	Ident method':
+    'prefix': 'arxOptions	Ident method'
+    'body': 'arxOptions(${1:args})'
+
+  'arxRegul	Ident method':
+    'prefix': 'arxRegul	Ident method'
+    'body': 'arxRegul(${1:args})'
+
+  'arxRegulOptions	Ident method':
+    'prefix': 'arxRegulOptions	Ident method'
+    'body': 'arxRegulOptions(${1:args})'
+
+  'arxstruc	Ident method':
+    'prefix': 'arxstruc	Ident method'
+    'body': 'arxstruc(${1:args})'
+
+  'bj	Ident method':
+    'prefix': 'bj	Ident method'
+    'body': 'bj(${1:args})'
+
+  'bjOptions	Ident method':
+    'prefix': 'bjOptions	Ident method'
+    'body': 'bjOptions(${1:args})'
+
+  'compareOptions	Ident method':
+    'prefix': 'compareOptions	Ident method'
+    'body': 'compareOptions(${1:args})'
+
+  'cra	Ident method':
+    'prefix': 'cra	Ident method'
+    'body': 'cra(${1:args})'
+
+  'customnet	Ident method':
+    'prefix': 'customnet	Ident method'
+    'body': 'customnet(${1:args})'
+
+  'customreg	Ident method':
+    'prefix': 'customreg	Ident method'
+    'body': 'customreg(${1:args})'
+
+  'data2state(idnlarx)	Ident method':
+    'prefix': 'data2state(idnlarx)	Ident method'
+    'body': 'data2state(idnlarx)(${1:args})'
+
+  'deadzone	Ident method':
+    'prefix': 'deadzone	Ident method'
+    'body': 'deadzone(${1:args})'
+
+  'delayest	Ident method':
+    'prefix': 'delayest	Ident method'
+    'body': 'delayest(${1:args})'
+
+  'etfe	Ident method':
+    'prefix': 'etfe	Ident method'
+    'body': 'etfe(${1:args})'
+
+  'findstates	Ident method':
+    'prefix': 'findstates	Ident method'
+    'body': 'findstates(${1:args})'
+
+  'findstatesOptions	Ident method':
+    'prefix': 'findstatesOptions	Ident method'
+    'body': 'findstatesOptions(${1:args})'
+
+  'forecastOptions	Ident method':
+    'prefix': 'forecastOptions	Ident method'
+    'body': 'forecastOptions(${1:args})'
+
+  'fpe	Ident method':
+    'prefix': 'fpe	Ident method'
+    'body': 'fpe(${1:args})'
+
+  'getDelayInfo	Ident method':
+    'prefix': 'getDelayInfo	Ident method'
+    'body': 'getDelayInfo(${1:args})'
+
+  'getTrend	Ident method':
+    'prefix': 'getTrend	Ident method'
+    'body': 'getTrend(${1:args})'
+
+  'getcov	Ident method':
+    'prefix': 'getcov	Ident method'
+    'body': 'getcov(${1:args})'
+
+  'getexp	Ident method':
+    'prefix': 'getexp	Ident method'
+    'body': 'getexp(${1:args})'
+
+  'getinit	Ident method':
+    'prefix': 'getinit	Ident method'
+    'body': 'getinit(${1:args})'
+
+  'getpar	Ident method':
+    'prefix': 'getpar	Ident method'
+    'body': 'getpar(${1:args})'
+
+  'getpvec	Ident method':
+    'prefix': 'getpvec	Ident method'
+    'body': 'getpvec(${1:args})'
+
+  'getreg	Ident method':
+    'prefix': 'getreg	Ident method'
+    'body': 'getreg(${1:args})'
+
+  'goodnessOfFit	Ident method':
+    'prefix': 'goodnessOfFit	Ident method'
+    'body': 'goodnessOfFit(${1:args})'
+
+  'greyest	Ident method':
+    'prefix': 'greyest	Ident method'
+    'body': 'greyest(${1:args})'
+
+  'greyestOptions	Ident method':
+    'prefix': 'greyestOptions	Ident method'
+    'body': 'greyestOptions(${1:args})'
+
+  'iddata	Ident method':
+    'prefix': 'iddata	Ident method'
+    'body': 'iddata(${1:args})'
+
+  'iddataPlotOptions	Ident method':
+    'prefix': 'iddataPlotOptions	Ident method'
+    'body': 'iddataPlotOptions(${1:args})'
+
+  'identpref	Ident method':
+    'prefix': 'identpref	Ident method'
+    'body': 'identpref(${1:args})'
+
+  'idfilt	Ident method':
+    'prefix': 'idfilt	Ident method'
+    'body': 'idfilt(${1:args})'
+
+  'idfrd	Ident method':
+    'prefix': 'idfrd	Ident method'
+    'body': 'idfrd(${1:args})'
+
+  'idgrey	Ident method':
+    'prefix': 'idgrey	Ident method'
+    'body': 'idgrey(${1:args})'
+
+  'idinput	Ident method':
+    'prefix': 'idinput	Ident method'
+    'body': 'idinput(${1:args})'
+
+  'idnlarx	Ident method':
+    'prefix': 'idnlarx	Ident method'
+    'body': 'idnlarx(${1:args})'
+
+  'idnlgrey	Ident method':
+    'prefix': 'idnlgrey	Ident method'
+    'body': 'idnlgrey(${1:args})'
+
+  'idnlhw	Ident method':
+    'prefix': 'idnlhw	Ident method'
+    'body': 'idnlhw(${1:args})'
+
+  'idpar	Ident method':
+    'prefix': 'idpar	Ident method'
+    'body': 'idpar(${1:args})'
+
+  'idpoly	Ident method':
+    'prefix': 'idpoly	Ident method'
+    'body': 'idpoly(${1:args})'
+
+  'idproc	Ident method':
+    'prefix': 'idproc	Ident method'
+    'body': 'idproc(${1:args})'
+
+  'idresamp	Ident method':
+    'prefix': 'idresamp	Ident method'
+    'body': 'idresamp(${1:args})'
+
+  'idss	Ident method':
+    'prefix': 'idss	Ident method'
+    'body': 'idss(${1:args})'
+
+  'idssdata	Ident method':
+    'prefix': 'idssdata	Ident method'
+    'body': 'idssdata(${1:args})'
+
+  'idtf	Ident method':
+    'prefix': 'idtf	Ident method'
+    'body': 'idtf(${1:args})'
+
+  'impulseest	Ident method':
+    'prefix': 'impulseest	Ident method'
+    'body': 'impulseest(${1:args})'
+
+  'impulseestOptions	Ident method':
+    'prefix': 'impulseestOptions	Ident method'
+    'body': 'impulseestOptions(${1:args})'
+
+  'isLocked	Ident method':
+    'prefix': 'isLocked	Ident method'
+    'body': 'isLocked(${1:args})'
+
+  'isnlarx	Ident method':
+    'prefix': 'isnlarx	Ident method'
+    'body': 'isnlarx(${1:args})'
+
+  'iv4	Ident method':
+    'prefix': 'iv4	Ident method'
+    'body': 'iv4(${1:args})'
+
+  'iv4Options	Ident method':
+    'prefix': 'iv4Options	Ident method'
+    'body': 'iv4Options(${1:args})'
+
+  'ivar	Ident method':
+    'prefix': 'ivar	Ident method'
+    'body': 'ivar(${1:args})'
+
+  'ivstruc	Ident method':
+    'prefix': 'ivstruc	Ident method'
+    'body': 'ivstruc(${1:args})'
+
+  'ivx	Ident method':
+    'prefix': 'ivx	Ident method'
+    'body': 'ivx(${1:args})'
+
+  'linapp	Ident method':
+    'prefix': 'linapp	Ident method'
+    'body': 'linapp(${1:args})'
+
+  'linear	Ident method':
+    'prefix': 'linear	Ident method'
+    'body': 'linear(${1:args})'
+
+  'merge	Ident method':
+    'prefix': 'merge	Ident method'
+    'body': 'merge(${1:args})'
+
+  'midprefs	Ident method':
+    'prefix': 'midprefs	Ident method'
+    'body': 'midprefs(${1:args})'
+
+  'misdata	Ident method':
+    'prefix': 'misdata	Ident method'
+    'body': 'misdata(${1:args})'
+
+  'n4sid	Ident method':
+    'prefix': 'n4sid	Ident method'
+    'body': 'n4sid(${1:args})'
+
+  'n4sidOptions	Ident method':
+    'prefix': 'n4sidOptions	Ident method'
+    'body': 'n4sidOptions(${1:args})'
+
+  'neuralnet	Ident method':
+    'prefix': 'neuralnet	Ident method'
+    'body': 'neuralnet(${1:args})'
+
+  'nkshift	Ident method':
+    'prefix': 'nkshift	Ident method'
+    'body': 'nkshift(${1:args})'
+
+  'nlarx	Ident method':
+    'prefix': 'nlarx	Ident method'
+    'body': 'nlarx(${1:args})'
+
+  'nlarxOptions	Ident method':
+    'prefix': 'nlarxOptions	Ident method'
+    'body': 'nlarxOptions(${1:args})'
+
+  'nlgreyest	Ident method':
+    'prefix': 'nlgreyest	Ident method'
+    'body': 'nlgreyest(${1:args})'
+
+  'nlgreyestOptions	Ident method':
+    'prefix': 'nlgreyestOptions	Ident method'
+    'body': 'nlgreyestOptions(${1:args})'
+
+  'nlhw	Ident method':
+    'prefix': 'nlhw	Ident method'
+    'body': 'nlhw(${1:args})'
+
+  'nlhwOptions	Ident method':
+    'prefix': 'nlhwOptions	Ident method'
+    'body': 'nlhwOptions(${1:args})'
+
+  'noise2meas	Ident method':
+    'prefix': 'noise2meas	Ident method'
+    'body': 'noise2meas(${1:args})'
+
+  'noisecnv	Ident method':
+    'prefix': 'noisecnv	Ident method'
+    'body': 'noisecnv(${1:args})'
+
+  'nparams	Ident method':
+    'prefix': 'nparams	Ident method'
+    'body': 'nparams(${1:args})'
+
+  'oe	Ident method':
+    'prefix': 'oe	Ident method'
+    'body': 'oe(${1:args})'
+
+  'oeOptions	Ident method':
+    'prefix': 'oeOptions	Ident method'
+    'body': 'oeOptions(${1:args})'
+
+  'pe	Ident method':
+    'prefix': 'pe	Ident method'
+    'body': 'pe(${1:args})'
+
+  'peOptions	Ident method':
+    'prefix': 'peOptions	Ident method'
+    'body': 'peOptions(${1:args})'
+
+  'pem	Ident method':
+    'prefix': 'pem	Ident method'
+    'body': 'pem(${1:args})'
+
+  'pexcit	Ident method':
+    'prefix': 'pexcit	Ident method'
+    'body': 'pexcit(${1:args})'
+
+  'poly1d	Ident method':
+    'prefix': 'poly1d	Ident method'
+    'body': 'poly1d(${1:args})'
+
+  'polydata	Ident method':
+    'prefix': 'polydata	Ident method'
+    'body': 'polydata(${1:args})'
+
+  'polyest	Ident method':
+    'prefix': 'polyest	Ident method'
+    'body': 'polyest(${1:args})'
+
+  'polyestOptions	Ident method':
+    'prefix': 'polyestOptions	Ident method'
+    'body': 'polyestOptions(${1:args})'
+
+  'polyreg	Ident method':
+    'prefix': 'polyreg	Ident method'
+    'body': 'polyreg(${1:args})'
+
+  'predictOptions	Ident method':
+    'prefix': 'predictOptions	Ident method'
+    'body': 'predictOptions(${1:args})'
+
+  'present	Ident method':
+    'prefix': 'present	Ident method'
+    'body': 'present(${1:args})'
+
+  'procest	Ident method':
+    'prefix': 'procest	Ident method'
+    'body': 'procest(${1:args})'
+
+  'procestOptions	Ident method':
+    'prefix': 'procestOptions	Ident method'
+    'body': 'procestOptions(${1:args})'
+
+  'pwlinear	Ident method':
+    'prefix': 'pwlinear	Ident method'
+    'body': 'pwlinear(${1:args})'
+
+  'rarmax	Ident method':
+    'prefix': 'rarmax	Ident method'
+    'body': 'rarmax(${1:args})'
+
+  'rarx	Ident method':
+    'prefix': 'rarx	Ident method'
+    'body': 'rarx(${1:args})'
+
+  'rbj	Ident method':
+    'prefix': 'rbj	Ident method'
+    'body': 'rbj(${1:args})'
+
+  'realdata	Ident method':
+    'prefix': 'realdata	Ident method'
+    'body': 'realdata(${1:args})'
+
+  'recursiveAR	Ident method':
+    'prefix': 'recursiveAR	Ident method'
+    'body': 'recursiveAR(${1:args})'
+
+  'recursiveARMA	Ident method':
+    'prefix': 'recursiveARMA	Ident method'
+    'body': 'recursiveARMA(${1:args})'
+
+  'recursiveARMAX	Ident method':
+    'prefix': 'recursiveARMAX	Ident method'
+    'body': 'recursiveARMAX(${1:args})'
+
+  'recursiveARX	Ident method':
+    'prefix': 'recursiveARX	Ident method'
+    'body': 'recursiveARX(${1:args})'
+
+  'recursiveBJ	Ident method':
+    'prefix': 'recursiveBJ	Ident method'
+    'body': 'recursiveBJ(${1:args})'
+
+  'recursiveLS	Ident method':
+    'prefix': 'recursiveLS	Ident method'
+    'body': 'recursiveLS(${1:args})'
+
+  'recursiveOE	Ident method':
+    'prefix': 'recursiveOE	Ident method'
+    'body': 'recursiveOE(${1:args})'
+
+  'resid	Ident method':
+    'prefix': 'resid	Ident method'
+    'body': 'resid(${1:args})'
+
+  'retrend	Ident method':
+    'prefix': 'retrend	Ident method'
+    'body': 'retrend(${1:args})'
+
+  'roe	Ident method':
+    'prefix': 'roe	Ident method'
+    'body': 'roe(${1:args})'
+
+  'rpem	Ident method':
+    'prefix': 'rpem	Ident method'
+    'body': 'rpem(${1:args})'
+
+  'rplr	Ident method':
+    'prefix': 'rplr	Ident method'
+    'body': 'rplr(${1:args})'
+
+  'rsample	Ident method':
+    'prefix': 'rsample	Ident method'
+    'body': 'rsample(${1:args})'
+
+  'saturation	Ident method':
+    'prefix': 'saturation	Ident method'
+    'body': 'saturation(${1:args})'
+
+  'segment	Ident method':
+    'prefix': 'segment	Ident method'
+    'body': 'segment(${1:args})'
+
+  'selstruc	Ident method':
+    'prefix': 'selstruc	Ident method'
+    'body': 'selstruc(${1:args})'
+
+  'setPolyFormat	Ident method':
+    'prefix': 'setPolyFormat	Ident method'
+    'body': 'setPolyFormat(${1:args})'
+
+  'setcov	Ident method':
+    'prefix': 'setcov	Ident method'
+    'body': 'setcov(${1:args})'
+
+  'setinit	Ident method':
+    'prefix': 'setinit	Ident method'
+    'body': 'setinit(${1:args})'
+
+  'setpar	Ident method':
+    'prefix': 'setpar	Ident method'
+    'body': 'setpar(${1:args})'
+
+  'setpvec	Ident method':
+    'prefix': 'setpvec	Ident method'
+    'body': 'setpvec(${1:args})'
+
+  'showConfidence	Ident method':
+    'prefix': 'showConfidence	Ident method'
+    'body': 'showConfidence(${1:args})'
+
+  'sigmoidnet	Ident method':
+    'prefix': 'sigmoidnet	Ident method'
+    'body': 'sigmoidnet(${1:args})'
+
+  'simOptions	Ident method':
+    'prefix': 'simOptions	Ident method'
+    'body': 'simOptions(${1:args})'
+
+  'simsd	Ident method':
+    'prefix': 'simsd	Ident method'
+    'body': 'simsd(${1:args})'
+
+  'simsdOptions	Ident method':
+    'prefix': 'simsdOptions	Ident method'
+    'body': 'simsdOptions(${1:args})'
+
+  'spa	Ident method':
+    'prefix': 'spa	Ident method'
+    'body': 'spa(${1:args})'
+
+  'spafdr	Ident method':
+    'prefix': 'spafdr	Ident method'
+    'body': 'spafdr(${1:args})'
+
+  'spectrum	Ident method':
+    'prefix': 'spectrum	Ident method'
+    'body': 'spectrum(${1:args})'
+
+  'spectrumoptions	Ident method':
+    'prefix': 'spectrumoptions	Ident method'
+    'body': 'spectrumoptions(${1:args})'
+
+  'spectrumplot	Ident method':
+    'prefix': 'spectrumplot	Ident method'
+    'body': 'spectrumplot(${1:args})'
+
+  'ssest	Ident method':
+    'prefix': 'ssest	Ident method'
+    'body': 'ssest(${1:args})'
+
+  'ssestOptions	Ident method':
+    'prefix': 'ssestOptions	Ident method'
+    'body': 'ssestOptions(${1:args})'
+
+  'ssform	Ident method':
+    'prefix': 'ssform	Ident method'
+    'body': 'ssform(${1:args})'
+
+  'ssregest	Ident method':
+    'prefix': 'ssregest	Ident method'
+    'body': 'ssregest(${1:args})'
+
+  'ssregestOptions	Ident method':
+    'prefix': 'ssregestOptions	Ident method'
+    'body': 'ssregestOptions(${1:args})'
+
+  'struc	Ident method':
+    'prefix': 'struc	Ident method'
+    'body': 'struc(${1:args})'
+
+  'systemIdentification	Ident method':
+    'prefix': 'systemIdentification	Ident method'
+    'body': 'systemIdentification(${1:args})'
+
+  'tfest	Ident method':
+    'prefix': 'tfest	Ident method'
+    'body': 'tfest(${1:args})'
+
+  'tfestOptions	Ident method':
+    'prefix': 'tfestOptions	Ident method'
+    'body': 'tfestOptions(${1:args})'
+
+  'translatecov	Ident method':
+    'prefix': 'translatecov	Ident method'
+    'body': 'translatecov(${1:args})'
+
+  'treepartition	Ident method':
+    'prefix': 'treepartition	Ident method'
+    'body': 'treepartition(${1:args})'
+
+  'unitgain	Ident method':
+    'prefix': 'unitgain	Ident method'
+    'body': 'unitgain(${1:args})'
+
+  'wavenet	Ident method':
+    'prefix': 'wavenet	Ident method'
+    'body': 'wavenet(${1:args})'

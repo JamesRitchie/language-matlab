@@ -1,0 +1,1195 @@
+# matlabcomp13 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'ImageAdapter	Images method':
+    'prefix': 'ImageAdapter	Images method'
+    'body': 'ImageAdapter(${1:args})'
+
+  'activecontour	Images method':
+    'prefix': 'activecontour	Images method'
+    'body': 'activecontour(${1:args})'
+
+  'adapthisteq	Images method':
+    'prefix': 'adapthisteq	Images method'
+    'body': 'adapthisteq(${1:args})'
+
+  'analyze75info	Images method':
+    'prefix': 'analyze75info	Images method'
+    'body': 'analyze75info(${1:args})'
+
+  'analyze75read	Images method':
+    'prefix': 'analyze75read	Images method'
+    'body': 'analyze75read(${1:args})'
+
+  'applycform	Images method':
+    'prefix': 'applycform	Images method'
+    'body': 'applycform(${1:args})'
+
+  'applylut	Images method':
+    'prefix': 'applylut	Images method'
+    'body': 'applylut(${1:args})'
+
+  'axes2pix	Images method':
+    'prefix': 'axes2pix	Images method'
+    'body': 'axes2pix(${1:args})'
+
+  'bestblk	Images method':
+    'prefix': 'bestblk	Images method'
+    'body': 'bestblk(${1:args})'
+
+  'blockproc	Images method':
+    'prefix': 'blockproc	Images method'
+    'body': 'blockproc(${1:args})'
+
+  'bwarea	Images method':
+    'prefix': 'bwarea	Images method'
+    'body': 'bwarea(${1:args})'
+
+  'bwareafilt	Images method':
+    'prefix': 'bwareafilt	Images method'
+    'body': 'bwareafilt(${1:args})'
+
+  'bwareaopen	Images method':
+    'prefix': 'bwareaopen	Images method'
+    'body': 'bwareaopen(${1:args})'
+
+  'bwboundaries	Images method':
+    'prefix': 'bwboundaries	Images method'
+    'body': 'bwboundaries(${1:args})'
+
+  'bwconvhull	Images method':
+    'prefix': 'bwconvhull	Images method'
+    'body': 'bwconvhull(${1:args})'
+
+  'bwdist	Images method':
+    'prefix': 'bwdist	Images method'
+    'body': 'bwdist(${1:args})'
+
+  'bwdistgeodesic	Images method':
+    'prefix': 'bwdistgeodesic	Images method'
+    'body': 'bwdistgeodesic(${1:args})'
+
+  'bweuler	Images method':
+    'prefix': 'bweuler	Images method'
+    'body': 'bweuler(${1:args})'
+
+  'bwhitmiss	Images method':
+    'prefix': 'bwhitmiss	Images method'
+    'body': 'bwhitmiss(${1:args})'
+
+  'bwlookup	Images method':
+    'prefix': 'bwlookup	Images method'
+    'body': 'bwlookup(${1:args})'
+
+  'bwpack	Images method':
+    'prefix': 'bwpack	Images method'
+    'body': 'bwpack(${1:args})'
+
+  'bwperim	Images method':
+    'prefix': 'bwperim	Images method'
+    'body': 'bwperim(${1:args})'
+
+  'bwpropfilt	Images method':
+    'prefix': 'bwpropfilt	Images method'
+    'body': 'bwpropfilt(${1:args})'
+
+  'bwselect	Images method':
+    'prefix': 'bwselect	Images method'
+    'body': 'bwselect(${1:args})'
+
+  'bwtraceboundary	Images method':
+    'prefix': 'bwtraceboundary	Images method'
+    'body': 'bwtraceboundary(${1:args})'
+
+  'bwulterode	Images method':
+    'prefix': 'bwulterode	Images method'
+    'body': 'bwulterode(${1:args})'
+
+  'bwunpack	Images method':
+    'prefix': 'bwunpack	Images method'
+    'body': 'bwunpack(${1:args})'
+
+  'checkerboard	Images method':
+    'prefix': 'checkerboard	Images method'
+    'body': 'checkerboard(${1:args})'
+
+  'col2im	Images method':
+    'prefix': 'col2im	Images method'
+    'body': 'col2im(${1:args})'
+
+  'colfilt	Images method':
+    'prefix': 'colfilt	Images method'
+    'body': 'colfilt(${1:args})'
+
+  'conndef	Images method':
+    'prefix': 'conndef	Images method'
+    'body': 'conndef(${1:args})'
+
+  'convmtx2	Images method':
+    'prefix': 'convmtx2	Images method'
+    'body': 'convmtx2(${1:args})'
+
+  'corner	Images method':
+    'prefix': 'corner	Images method'
+    'body': 'corner(${1:args})'
+
+  'cornermetric	Images method':
+    'prefix': 'cornermetric	Images method'
+    'body': 'cornermetric(${1:args})'
+
+  'corr2	Images method':
+    'prefix': 'corr2	Images method'
+    'body': 'corr2(${1:args})'
+
+  'cp2tform	Images method':
+    'prefix': 'cp2tform	Images method'
+    'body': 'cp2tform(${1:args})'
+
+  'cpcorr	Images method':
+    'prefix': 'cpcorr	Images method'
+    'body': 'cpcorr(${1:args})'
+
+  'cpselect	Images method':
+    'prefix': 'cpselect	Images method'
+    'body': 'cpselect(${1:args})'
+
+  'cpstruct2pairs	Images method':
+    'prefix': 'cpstruct2pairs	Images method'
+    'body': 'cpstruct2pairs(${1:args})'
+
+  'dct2	Images method':
+    'prefix': 'dct2	Images method'
+    'body': 'dct2(${1:args})'
+
+  'dctmtx	Images method':
+    'prefix': 'dctmtx	Images method'
+    'body': 'dctmtx(${1:args})'
+
+  'deconvblind	Images method':
+    'prefix': 'deconvblind	Images method'
+    'body': 'deconvblind(${1:args})'
+
+  'deconvlucy	Images method':
+    'prefix': 'deconvlucy	Images method'
+    'body': 'deconvlucy(${1:args})'
+
+  'deconvreg	Images method':
+    'prefix': 'deconvreg	Images method'
+    'body': 'deconvreg(${1:args})'
+
+  'deconvwnr	Images method':
+    'prefix': 'deconvwnr	Images method'
+    'body': 'deconvwnr(${1:args})'
+
+  'decorrstretch	Images method':
+    'prefix': 'decorrstretch	Images method'
+    'body': 'decorrstretch(${1:args})'
+
+  'demosaic	Images method':
+    'prefix': 'demosaic	Images method'
+    'body': 'demosaic(${1:args})'
+
+  'dicomanon	Images method':
+    'prefix': 'dicomanon	Images method'
+    'body': 'dicomanon(${1:args})'
+
+  'dicomdict	Images method':
+    'prefix': 'dicomdict	Images method'
+    'body': 'dicomdict(${1:args})'
+
+  'dicomdisp	Images method':
+    'prefix': 'dicomdisp	Images method'
+    'body': 'dicomdisp(${1:args})'
+
+  'dicominfo	Images method':
+    'prefix': 'dicominfo	Images method'
+    'body': 'dicominfo(${1:args})'
+
+  'dicomlookup	Images method':
+    'prefix': 'dicomlookup	Images method'
+    'body': 'dicomlookup(${1:args})'
+
+  'dicomread	Images method':
+    'prefix': 'dicomread	Images method'
+    'body': 'dicomread(${1:args})'
+
+  'dicomuid	Images method':
+    'prefix': 'dicomuid	Images method'
+    'body': 'dicomuid(${1:args})'
+
+  'dicomwrite	Images method':
+    'prefix': 'dicomwrite	Images method'
+    'body': 'dicomwrite(${1:args})'
+
+  'dpxinfo	Images method':
+    'prefix': 'dpxinfo	Images method'
+    'body': 'dpxinfo(${1:args})'
+
+  'dpxread	Images method':
+    'prefix': 'dpxread	Images method'
+    'body': 'dpxread(${1:args})'
+
+  'edge	Images method':
+    'prefix': 'edge	Images method'
+    'body': 'edge(${1:args})'
+
+  'edgetaper	Images method':
+    'prefix': 'edgetaper	Images method'
+    'body': 'edgetaper(${1:args})'
+
+  'entropy	Images method':
+    'prefix': 'entropy	Images method'
+    'body': 'entropy(${1:args})'
+
+  'entropyfilt	Images method':
+    'prefix': 'entropyfilt	Images method'
+    'body': 'entropyfilt(${1:args})'
+
+  'fan2para	Images method':
+    'prefix': 'fan2para	Images method'
+    'body': 'fan2para(${1:args})'
+
+  'fanbeam	Images method':
+    'prefix': 'fanbeam	Images method'
+    'body': 'fanbeam(${1:args})'
+
+  'findbounds	Images method':
+    'prefix': 'findbounds	Images method'
+    'body': 'findbounds(${1:args})'
+
+  'fitgeotrans	Images method':
+    'prefix': 'fitgeotrans	Images method'
+    'body': 'fitgeotrans(${1:args})'
+
+  'fliptform	Images method':
+    'prefix': 'fliptform	Images method'
+    'body': 'fliptform(${1:args})'
+
+  'freqz2	Images method':
+    'prefix': 'freqz2	Images method'
+    'body': 'freqz2(${1:args})'
+
+  'fsamp2	Images method':
+    'prefix': 'fsamp2	Images method'
+    'body': 'fsamp2(${1:args})'
+
+  'fspecial	Images method':
+    'prefix': 'fspecial	Images method'
+    'body': 'fspecial(${1:args})'
+
+  'ftrans2	Images method':
+    'prefix': 'ftrans2	Images method'
+    'body': 'ftrans2(${1:args})'
+
+  'fwind1	Images method':
+    'prefix': 'fwind1	Images method'
+    'body': 'fwind1(${1:args})'
+
+  'fwind2	Images method':
+    'prefix': 'fwind2	Images method'
+    'body': 'fwind2(${1:args})'
+
+  'gabor	Images method':
+    'prefix': 'gabor	Images method'
+    'body': 'gabor(${1:args})'
+
+  'getheight	Images method':
+    'prefix': 'getheight	Images method'
+    'body': 'getheight(${1:args})'
+
+  'getimage	Images method':
+    'prefix': 'getimage	Images method'
+    'body': 'getimage(${1:args})'
+
+  'getimagemodel	Images method':
+    'prefix': 'getimagemodel	Images method'
+    'body': 'getimagemodel(${1:args})'
+
+  'getline	Images method':
+    'prefix': 'getline	Images method'
+    'body': 'getline(${1:args})'
+
+  'getneighbors	Images method':
+    'prefix': 'getneighbors	Images method'
+    'body': 'getneighbors(${1:args})'
+
+  'getnhood	Images method':
+    'prefix': 'getnhood	Images method'
+    'body': 'getnhood(${1:args})'
+
+  'getpts	Images method':
+    'prefix': 'getpts	Images method'
+    'body': 'getpts(${1:args})'
+
+  'getrangefromclass	Images method':
+    'prefix': 'getrangefromclass	Images method'
+    'body': 'getrangefromclass(${1:args})'
+
+  'getrect	Images method':
+    'prefix': 'getrect	Images method'
+    'body': 'getrect(${1:args})'
+
+  'getsequence	Images method':
+    'prefix': 'getsequence	Images method'
+    'body': 'getsequence(${1:args})'
+
+  'gradientweight	Images method':
+    'prefix': 'gradientweight	Images method'
+    'body': 'gradientweight(${1:args})'
+
+  'gray2ind	Images method':
+    'prefix': 'gray2ind	Images method'
+    'body': 'gray2ind(${1:args})'
+
+  'graycomatrix	Images method':
+    'prefix': 'graycomatrix	Images method'
+    'body': 'graycomatrix(${1:args})'
+
+  'grayconnected	Images method':
+    'prefix': 'grayconnected	Images method'
+    'body': 'grayconnected(${1:args})'
+
+  'graycoprops	Images method':
+    'prefix': 'graycoprops	Images method'
+    'body': 'graycoprops(${1:args})'
+
+  'graydiffweight	Images method':
+    'prefix': 'graydiffweight	Images method'
+    'body': 'graydiffweight(${1:args})'
+
+  'graydist	Images method':
+    'prefix': 'graydist	Images method'
+    'body': 'graydist(${1:args})'
+
+  'grayslice	Images method':
+    'prefix': 'grayslice	Images method'
+    'body': 'grayslice(${1:args})'
+
+  'graythresh	Images method':
+    'prefix': 'graythresh	Images method'
+    'body': 'graythresh(${1:args})'
+
+  'hdrread	Images method':
+    'prefix': 'hdrread	Images method'
+    'body': 'hdrread(${1:args})'
+
+  'hdrwrite	Images method':
+    'prefix': 'hdrwrite	Images method'
+    'body': 'hdrwrite(${1:args})'
+
+  'histeq	Images method':
+    'prefix': 'histeq	Images method'
+    'body': 'histeq(${1:args})'
+
+  'hough	Images method':
+    'prefix': 'hough	Images method'
+    'body': 'hough(${1:args})'
+
+  'houghlines	Images method':
+    'prefix': 'houghlines	Images method'
+    'body': 'houghlines(${1:args})'
+
+  'houghpeaks	Images method':
+    'prefix': 'houghpeaks	Images method'
+    'body': 'houghpeaks(${1:args})'
+
+  'iccfind	Images method':
+    'prefix': 'iccfind	Images method'
+    'body': 'iccfind(${1:args})'
+
+  'iccread	Images method':
+    'prefix': 'iccread	Images method'
+    'body': 'iccread(${1:args})'
+
+  'iccroot	Images method':
+    'prefix': 'iccroot	Images method'
+    'body': 'iccroot(${1:args})'
+
+  'iccwrite	Images method':
+    'prefix': 'iccwrite	Images method'
+    'body': 'iccwrite(${1:args})'
+
+  'idct2	Images method':
+    'prefix': 'idct2	Images method'
+    'body': 'idct2(${1:args})'
+
+  'ifanbeam	Images method':
+    'prefix': 'ifanbeam	Images method'
+    'body': 'ifanbeam(${1:args})'
+
+  'im2bw	Images method':
+    'prefix': 'im2bw	Images method'
+    'body': 'im2bw(${1:args})'
+
+  'im2col	Images method':
+    'prefix': 'im2col	Images method'
+    'body': 'im2col(${1:args})'
+
+  'im2int16	Images method':
+    'prefix': 'im2int16	Images method'
+    'body': 'im2int16(${1:args})'
+
+  'im2java2d	Images method':
+    'prefix': 'im2java2d	Images method'
+    'body': 'im2java2d(${1:args})'
+
+  'im2single	Images method':
+    'prefix': 'im2single	Images method'
+    'body': 'im2single(${1:args})'
+
+  'im2uint16	Images method':
+    'prefix': 'im2uint16	Images method'
+    'body': 'im2uint16(${1:args})'
+
+  'im2uint8	Images method':
+    'prefix': 'im2uint8	Images method'
+    'body': 'im2uint8(${1:args})'
+
+  'imabsdiff	Images method':
+    'prefix': 'imabsdiff	Images method'
+    'body': 'imabsdiff(${1:args})'
+
+  'imadd	Images method':
+    'prefix': 'imadd	Images method'
+    'body': 'imadd(${1:args})'
+
+  'imadjust	Images method':
+    'prefix': 'imadjust	Images method'
+    'body': 'imadjust(${1:args})'
+
+  'imageinfo	Images method':
+    'prefix': 'imageinfo	Images method'
+    'body': 'imageinfo(${1:args})'
+
+  'imagemodel	Images method':
+    'prefix': 'imagemodel	Images method'
+    'body': 'imagemodel(${1:args})'
+
+  'images.geotrans.LocalWeightedMeanTransformation2D	Images method':
+    'prefix': 'images.geotrans.LocalWeightedMeanTransformation2D	Images method'
+    'body': 'images.geotrans.LocalWeightedMeanTransformation2D(${1:args})'
+
+  'images.geotrans.PiecewiseLinearTransformation2D	Images method':
+    'prefix': 'images.geotrans.PiecewiseLinearTransformation2D	Images method'
+    'body': 'images.geotrans.PiecewiseLinearTransformation2D(${1:args})'
+
+  'images.geotrans.PolynomialTransformation2D	Images method':
+    'prefix': 'images.geotrans.PolynomialTransformation2D	Images method'
+    'body': 'images.geotrans.PolynomialTransformation2D(${1:args})'
+
+  'imapplymatrix	Images method':
+    'prefix': 'imapplymatrix	Images method'
+    'body': 'imapplymatrix(${1:args})'
+
+  'imattributes	Images method':
+    'prefix': 'imattributes	Images method'
+    'body': 'imattributes(${1:args})'
+
+  'imboxfilt	Images method':
+    'prefix': 'imboxfilt	Images method'
+    'body': 'imboxfilt(${1:args})'
+
+  'imboxfilt3	Images method':
+    'prefix': 'imboxfilt3	Images method'
+    'body': 'imboxfilt3(${1:args})'
+
+  'imclearborder	Images method':
+    'prefix': 'imclearborder	Images method'
+    'body': 'imclearborder(${1:args})'
+
+  'imcolormaptool	Images method':
+    'prefix': 'imcolormaptool	Images method'
+    'body': 'imcolormaptool(${1:args})'
+
+  'imcomplement	Images method':
+    'prefix': 'imcomplement	Images method'
+    'body': 'imcomplement(${1:args})'
+
+  'imcontour	Images method':
+    'prefix': 'imcontour	Images method'
+    'body': 'imcontour(${1:args})'
+
+  'imcontrast	Images method':
+    'prefix': 'imcontrast	Images method'
+    'body': 'imcontrast(${1:args})'
+
+  'imcrop	Images method':
+    'prefix': 'imcrop	Images method'
+    'body': 'imcrop(${1:args})'
+
+  'imdisplayrange	Images method':
+    'prefix': 'imdisplayrange	Images method'
+    'body': 'imdisplayrange(${1:args})'
+
+  'imdistline	Images method':
+    'prefix': 'imdistline	Images method'
+    'body': 'imdistline(${1:args})'
+
+  'imdivide	Images method':
+    'prefix': 'imdivide	Images method'
+    'body': 'imdivide(${1:args})'
+
+  'imellipse	Images method':
+    'prefix': 'imellipse	Images method'
+    'body': 'imellipse(${1:args})'
+
+  'imextendedmax	Images method':
+    'prefix': 'imextendedmax	Images method'
+    'body': 'imextendedmax(${1:args})'
+
+  'imextendedmin	Images method':
+    'prefix': 'imextendedmin	Images method'
+    'body': 'imextendedmin(${1:args})'
+
+  'imfill	Images method':
+    'prefix': 'imfill	Images method'
+    'body': 'imfill(${1:args})'
+
+  'imfilter	Images method':
+    'prefix': 'imfilter	Images method'
+    'body': 'imfilter(${1:args})'
+
+  'imfindcircles	Images method':
+    'prefix': 'imfindcircles	Images method'
+    'body': 'imfindcircles(${1:args})'
+
+  'imfreehand	Images method':
+    'prefix': 'imfreehand	Images method'
+    'body': 'imfreehand(${1:args})'
+
+  'imfuse	Images method':
+    'prefix': 'imfuse	Images method'
+    'body': 'imfuse(${1:args})'
+
+  'imgaborfilt	Images method':
+    'prefix': 'imgaborfilt	Images method'
+    'body': 'imgaborfilt(${1:args})'
+
+  'imgaussfilt	Images method':
+    'prefix': 'imgaussfilt	Images method'
+    'body': 'imgaussfilt(${1:args})'
+
+  'imgaussfilt3	Images method':
+    'prefix': 'imgaussfilt3	Images method'
+    'body': 'imgaussfilt3(${1:args})'
+
+  'imgca	Images method':
+    'prefix': 'imgca	Images method'
+    'body': 'imgca(${1:args})'
+
+  'imgcf	Images method':
+    'prefix': 'imgcf	Images method'
+    'body': 'imgcf(${1:args})'
+
+  'imgetfile	Images method':
+    'prefix': 'imgetfile	Images method'
+    'body': 'imgetfile(${1:args})'
+
+  'imgradient	Images method':
+    'prefix': 'imgradient	Images method'
+    'body': 'imgradient(${1:args})'
+
+  'imgradientxy	Images method':
+    'prefix': 'imgradientxy	Images method'
+    'body': 'imgradientxy(${1:args})'
+
+  'imguidedfilter	Images method':
+    'prefix': 'imguidedfilter	Images method'
+    'body': 'imguidedfilter(${1:args})'
+
+  'imhandles	Images method':
+    'prefix': 'imhandles	Images method'
+    'body': 'imhandles(${1:args})'
+
+  'imhist	Images method':
+    'prefix': 'imhist	Images method'
+    'body': 'imhist(${1:args})'
+
+  'imhistmatch	Images method':
+    'prefix': 'imhistmatch	Images method'
+    'body': 'imhistmatch(${1:args})'
+
+  'imhmax	Images method':
+    'prefix': 'imhmax	Images method'
+    'body': 'imhmax(${1:args})'
+
+  'imhmin	Images method':
+    'prefix': 'imhmin	Images method'
+    'body': 'imhmin(${1:args})'
+
+  'imimposemin	Images method':
+    'prefix': 'imimposemin	Images method'
+    'body': 'imimposemin(${1:args})'
+
+  'imlincomb	Images method':
+    'prefix': 'imlincomb	Images method'
+    'body': 'imlincomb(${1:args})'
+
+  'imline	Images method':
+    'prefix': 'imline	Images method'
+    'body': 'imline(${1:args})'
+
+  'immagbox	Images method':
+    'prefix': 'immagbox	Images method'
+    'body': 'immagbox(${1:args})'
+
+  'immovie	Images method':
+    'prefix': 'immovie	Images method'
+    'body': 'immovie(${1:args})'
+
+  'immse	Images method':
+    'prefix': 'immse	Images method'
+    'body': 'immse(${1:args})'
+
+  'immultiply	Images method':
+    'prefix': 'immultiply	Images method'
+    'body': 'immultiply(${1:args})'
+
+  'imnoise	Images method':
+    'prefix': 'imnoise	Images method'
+    'body': 'imnoise(${1:args})'
+
+  'imoverview	Images method':
+    'prefix': 'imoverview	Images method'
+    'body': 'imoverview(${1:args})'
+
+  'imoverviewpanel	Images method':
+    'prefix': 'imoverviewpanel	Images method'
+    'body': 'imoverviewpanel(${1:args})'
+
+  'impixel	Images method':
+    'prefix': 'impixel	Images method'
+    'body': 'impixel(${1:args})'
+
+  'impixelinfo	Images method':
+    'prefix': 'impixelinfo	Images method'
+    'body': 'impixelinfo(${1:args})'
+
+  'impixelinfoval	Images method':
+    'prefix': 'impixelinfoval	Images method'
+    'body': 'impixelinfoval(${1:args})'
+
+  'impixelregion	Images method':
+    'prefix': 'impixelregion	Images method'
+    'body': 'impixelregion(${1:args})'
+
+  'impixelregionpanel	Images method':
+    'prefix': 'impixelregionpanel	Images method'
+    'body': 'impixelregionpanel(${1:args})'
+
+  'implay	Images method':
+    'prefix': 'implay	Images method'
+    'body': 'implay(${1:args})'
+
+  'impoint	Images method':
+    'prefix': 'impoint	Images method'
+    'body': 'impoint(${1:args})'
+
+  'impoly	Images method':
+    'prefix': 'impoly	Images method'
+    'body': 'impoly(${1:args})'
+
+  'improfile	Images method':
+    'prefix': 'improfile	Images method'
+    'body': 'improfile(${1:args})'
+
+  'impyramid	Images method':
+    'prefix': 'impyramid	Images method'
+    'body': 'impyramid(${1:args})'
+
+  'imquantize	Images method':
+    'prefix': 'imquantize	Images method'
+    'body': 'imquantize(${1:args})'
+
+  'imrect	Images method':
+    'prefix': 'imrect	Images method'
+    'body': 'imrect(${1:args})'
+
+  'imref2d	Images method':
+    'prefix': 'imref2d	Images method'
+    'body': 'imref2d(${1:args})'
+
+  'imref3d	Images method':
+    'prefix': 'imref3d	Images method'
+    'body': 'imref3d(${1:args})'
+
+  'imregconfig	Images method':
+    'prefix': 'imregconfig	Images method'
+    'body': 'imregconfig(${1:args})'
+
+  'imregcorr	Images method':
+    'prefix': 'imregcorr	Images method'
+    'body': 'imregcorr(${1:args})'
+
+  'imregdemons	Images method':
+    'prefix': 'imregdemons	Images method'
+    'body': 'imregdemons(${1:args})'
+
+  'imregionalmax	Images method':
+    'prefix': 'imregionalmax	Images method'
+    'body': 'imregionalmax(${1:args})'
+
+  'imregionalmin	Images method':
+    'prefix': 'imregionalmin	Images method'
+    'body': 'imregionalmin(${1:args})'
+
+  'imregister	Images method':
+    'prefix': 'imregister	Images method'
+    'body': 'imregister(${1:args})'
+
+  'imregtform	Images method':
+    'prefix': 'imregtform	Images method'
+    'body': 'imregtform(${1:args})'
+
+  'imresize	Images method':
+    'prefix': 'imresize	Images method'
+    'body': 'imresize(${1:args})'
+
+  'imroi	Images method':
+    'prefix': 'imroi	Images method'
+    'body': 'imroi(${1:args})'
+
+  'imrotate	Images method':
+    'prefix': 'imrotate	Images method'
+    'body': 'imrotate(${1:args})'
+
+  'imsave	Images method':
+    'prefix': 'imsave	Images method'
+    'body': 'imsave(${1:args})'
+
+  'imscrollpanel	Images method':
+    'prefix': 'imscrollpanel	Images method'
+    'body': 'imscrollpanel(${1:args})'
+
+  'imsegfmm	Images method':
+    'prefix': 'imsegfmm	Images method'
+    'body': 'imsegfmm(${1:args})'
+
+  'imseggeodesic	Images method':
+    'prefix': 'imseggeodesic	Images method'
+    'body': 'imseggeodesic(${1:args})'
+
+  'imsharpen	Images method':
+    'prefix': 'imsharpen	Images method'
+    'body': 'imsharpen(${1:args})'
+
+  'imshowpair	Images method':
+    'prefix': 'imshowpair	Images method'
+    'body': 'imshowpair(${1:args})'
+
+  'imsubtract	Images method':
+    'prefix': 'imsubtract	Images method'
+    'body': 'imsubtract(${1:args})'
+
+  'imtool	Images method':
+    'prefix': 'imtool	Images method'
+    'body': 'imtool(${1:args})'
+
+  'imtransform	Images method':
+    'prefix': 'imtransform	Images method'
+    'body': 'imtransform(${1:args})'
+
+  'imtranslate	Images method':
+    'prefix': 'imtranslate	Images method'
+    'body': 'imtranslate(${1:args})'
+
+  'ind2gray	Images method':
+    'prefix': 'ind2gray	Images method'
+    'body': 'ind2gray(${1:args})'
+
+  'integralBoxFilter	Images method':
+    'prefix': 'integralBoxFilter	Images method'
+    'body': 'integralBoxFilter(${1:args})'
+
+  'integralBoxFilter3	Images method':
+    'prefix': 'integralBoxFilter3	Images method'
+    'body': 'integralBoxFilter3(${1:args})'
+
+  'integralImage3	Images method':
+    'prefix': 'integralImage3	Images method'
+    'body': 'integralImage3(${1:args})'
+
+  'interfileinfo	Images method':
+    'prefix': 'interfileinfo	Images method'
+    'body': 'interfileinfo(${1:args})'
+
+  'interfileread	Images method':
+    'prefix': 'interfileread	Images method'
+    'body': 'interfileread(${1:args})'
+
+  'intlut	Images method':
+    'prefix': 'intlut	Images method'
+    'body': 'intlut(${1:args})'
+
+  'iptGetPointerBehavior	Images method':
+    'prefix': 'iptGetPointerBehavior	Images method'
+    'body': 'iptGetPointerBehavior(${1:args})'
+
+  'iptPointerManager	Images method':
+    'prefix': 'iptPointerManager	Images method'
+    'body': 'iptPointerManager(${1:args})'
+
+  'iptSetPointerBehavior	Images method':
+    'prefix': 'iptSetPointerBehavior	Images method'
+    'body': 'iptSetPointerBehavior(${1:args})'
+
+  'iptaddcallback	Images method':
+    'prefix': 'iptaddcallback	Images method'
+    'body': 'iptaddcallback(${1:args})'
+
+  'iptcheckconn	Images method':
+    'prefix': 'iptcheckconn	Images method'
+    'body': 'iptcheckconn(${1:args})'
+
+  'iptcheckhandle	Images method':
+    'prefix': 'iptcheckhandle	Images method'
+    'body': 'iptcheckhandle(${1:args})'
+
+  'iptcheckmap	Images method':
+    'prefix': 'iptcheckmap	Images method'
+    'body': 'iptcheckmap(${1:args})'
+
+  'iptgetapi	Images method':
+    'prefix': 'iptgetapi	Images method'
+    'body': 'iptgetapi(${1:args})'
+
+  'iptgetpref	Images method':
+    'prefix': 'iptgetpref	Images method'
+    'body': 'iptgetpref(${1:args})'
+
+  'ipticondir	Images method':
+    'prefix': 'ipticondir	Images method'
+    'body': 'ipticondir(${1:args})'
+
+  'iptprefs	Images method':
+    'prefix': 'iptprefs	Images method'
+    'body': 'iptprefs(${1:args})'
+
+  'iptremovecallback	Images method':
+    'prefix': 'iptremovecallback	Images method'
+    'body': 'iptremovecallback(${1:args})'
+
+  'iptsetpref	Images method':
+    'prefix': 'iptsetpref	Images method'
+    'body': 'iptsetpref(${1:args})'
+
+  'iptwindowalign	Images method':
+    'prefix': 'iptwindowalign	Images method'
+    'body': 'iptwindowalign(${1:args})'
+
+  'iradon	Images method':
+    'prefix': 'iradon	Images method'
+    'body': 'iradon(${1:args})'
+
+  'isflat	Images method':
+    'prefix': 'isflat	Images method'
+    'body': 'isflat(${1:args})'
+
+  'isicc	Images method':
+    'prefix': 'isicc	Images method'
+    'body': 'isicc(${1:args})'
+
+  'isrset	Images method':
+    'prefix': 'isrset	Images method'
+    'body': 'isrset(${1:args})'
+
+  'lab2double	Images method':
+    'prefix': 'lab2double	Images method'
+    'body': 'lab2double(${1:args})'
+
+  'lab2rgb	Images method':
+    'prefix': 'lab2rgb	Images method'
+    'body': 'lab2rgb(${1:args})'
+
+  'lab2uint16	Images method':
+    'prefix': 'lab2uint16	Images method'
+    'body': 'lab2uint16(${1:args})'
+
+  'lab2uint8	Images method':
+    'prefix': 'lab2uint8	Images method'
+    'body': 'lab2uint8(${1:args})'
+
+  'lab2xyz	Images method':
+    'prefix': 'lab2xyz	Images method'
+    'body': 'lab2xyz(${1:args})'
+
+  'label2rgb	Images method':
+    'prefix': 'label2rgb	Images method'
+    'body': 'label2rgb(${1:args})'
+
+  'labelmatrix	Images method':
+    'prefix': 'labelmatrix	Images method'
+    'body': 'labelmatrix(${1:args})'
+
+  'makeConstrainToRectFcn	Images method':
+    'prefix': 'makeConstrainToRectFcn	Images method'
+    'body': 'makeConstrainToRectFcn(${1:args})'
+
+  'makecform	Images method':
+    'prefix': 'makecform	Images method'
+    'body': 'makecform(${1:args})'
+
+  'makehdr	Images method':
+    'prefix': 'makehdr	Images method'
+    'body': 'makehdr(${1:args})'
+
+  'makelut	Images method':
+    'prefix': 'makelut	Images method'
+    'body': 'makelut(${1:args})'
+
+  'makeresampler	Images method':
+    'prefix': 'makeresampler	Images method'
+    'body': 'makeresampler(${1:args})'
+
+  'maketform	Images method':
+    'prefix': 'maketform	Images method'
+    'body': 'maketform(${1:args})'
+
+  'mat2gray	Images method':
+    'prefix': 'mat2gray	Images method'
+    'body': 'mat2gray(${1:args})'
+
+  'mean2	Images method':
+    'prefix': 'mean2	Images method'
+    'body': 'mean2(${1:args})'
+
+  'medfilt2	Images method':
+    'prefix': 'medfilt2	Images method'
+    'body': 'medfilt2(${1:args})'
+
+  'montage	Images method':
+    'prefix': 'montage	Images method'
+    'body': 'montage(${1:args})'
+
+  'multithresh	Images method':
+    'prefix': 'multithresh	Images method'
+    'body': 'multithresh(${1:args})'
+
+  'nitfinfo	Images method':
+    'prefix': 'nitfinfo	Images method'
+    'body': 'nitfinfo(${1:args})'
+
+  'nitfread	Images method':
+    'prefix': 'nitfread	Images method'
+    'body': 'nitfread(${1:args})'
+
+  'nlfilter	Images method':
+    'prefix': 'nlfilter	Images method'
+    'body': 'nlfilter(${1:args})'
+
+  'normxcorr2	Images method':
+    'prefix': 'normxcorr2	Images method'
+    'body': 'normxcorr2(${1:args})'
+
+  'ntsc2rgb	Images method':
+    'prefix': 'ntsc2rgb	Images method'
+    'body': 'ntsc2rgb(${1:args})'
+
+  'openrset	Images method':
+    'prefix': 'openrset	Images method'
+    'body': 'openrset(${1:args})'
+
+  'ordfilt2	Images method':
+    'prefix': 'ordfilt2	Images method'
+    'body': 'ordfilt2(${1:args})'
+
+  'otf2psf	Images method':
+    'prefix': 'otf2psf	Images method'
+    'body': 'otf2psf(${1:args})'
+
+  'padarray	Images method':
+    'prefix': 'padarray	Images method'
+    'body': 'padarray(${1:args})'
+
+  'para2fan	Images method':
+    'prefix': 'para2fan	Images method'
+    'body': 'para2fan(${1:args})'
+
+  'phantom	Images method':
+    'prefix': 'phantom	Images method'
+    'body': 'phantom(${1:args})'
+
+  'poly2mask	Images method':
+    'prefix': 'poly2mask	Images method'
+    'body': 'poly2mask(${1:args})'
+
+  'psf2otf	Images method':
+    'prefix': 'psf2otf	Images method'
+    'body': 'psf2otf(${1:args})'
+
+  'psnr	Images method':
+    'prefix': 'psnr	Images method'
+    'body': 'psnr(${1:args})'
+
+  'qtdecomp	Images method':
+    'prefix': 'qtdecomp	Images method'
+    'body': 'qtdecomp(${1:args})'
+
+  'qtgetblk	Images method':
+    'prefix': 'qtgetblk	Images method'
+    'body': 'qtgetblk(${1:args})'
+
+  'qtsetblk	Images method':
+    'prefix': 'qtsetblk	Images method'
+    'body': 'qtsetblk(${1:args})'
+
+  'radon	Images method':
+    'prefix': 'radon	Images method'
+    'body': 'radon(${1:args})'
+
+  'rangefilt	Images method':
+    'prefix': 'rangefilt	Images method'
+    'body': 'rangefilt(${1:args})'
+
+  'regionfill	Images method':
+    'prefix': 'regionfill	Images method'
+    'body': 'regionfill(${1:args})'
+
+  'regionprops	Images method':
+    'prefix': 'regionprops	Images method'
+    'body': 'regionprops(${1:args})'
+
+  'registration.metric.MattesMutualInformation	Images method':
+    'prefix': 'registration.metric.MattesMutualInformation	Images method'
+    'body': 'registration.metric.MattesMutualInformation(${1:args})'
+
+  'registration.metric.MeanSquares	Images method':
+    'prefix': 'registration.metric.MeanSquares	Images method'
+    'body': 'registration.metric.MeanSquares(${1:args})'
+
+  'registration.optimizer.OnePlusOneEvolutionary	Images method':
+    'prefix': 'registration.optimizer.OnePlusOneEvolutionary	Images method'
+    'body': 'registration.optimizer.OnePlusOneEvolutionary(${1:args})'
+
+  'registration.optimizer.RegularStepGradientDescent	Images method':
+    'prefix': 'registration.optimizer.RegularStepGradientDescent	Images method'
+    'body': 'registration.optimizer.RegularStepGradientDescent(${1:args})'
+
+  'rgb2lab	Images method':
+    'prefix': 'rgb2lab	Images method'
+    'body': 'rgb2lab(${1:args})'
+
+  'rgb2ntsc	Images method':
+    'prefix': 'rgb2ntsc	Images method'
+    'body': 'rgb2ntsc(${1:args})'
+
+  'rgb2xyz	Images method':
+    'prefix': 'rgb2xyz	Images method'
+    'body': 'rgb2xyz(${1:args})'
+
+  'rgb2ycbcr	Images method':
+    'prefix': 'rgb2ycbcr	Images method'
+    'body': 'rgb2ycbcr(${1:args})'
+
+  'roicolor	Images method':
+    'prefix': 'roicolor	Images method'
+    'body': 'roicolor(${1:args})'
+
+  'roifill	Images method':
+    'prefix': 'roifill	Images method'
+    'body': 'roifill(${1:args})'
+
+  'roifilt2	Images method':
+    'prefix': 'roifilt2	Images method'
+    'body': 'roifilt2(${1:args})'
+
+  'roipoly	Images method':
+    'prefix': 'roipoly	Images method'
+    'body': 'roipoly(${1:args})'
+
+  'rsetwrite	Images method':
+    'prefix': 'rsetwrite	Images method'
+    'body': 'rsetwrite(${1:args})'
+
+  'ssim	Images method':
+    'prefix': 'ssim	Images method'
+    'body': 'ssim(${1:args})'
+
+  'std2	Images method':
+    'prefix': 'std2	Images method'
+    'body': 'std2(${1:args})'
+
+  'stdfilt	Images method':
+    'prefix': 'stdfilt	Images method'
+    'body': 'stdfilt(${1:args})'
+
+  'strel	Images method':
+    'prefix': 'strel	Images method'
+    'body': 'strel(${1:args})'
+
+  'stretchlim	Images method':
+    'prefix': 'stretchlim	Images method'
+    'body': 'stretchlim(${1:args})'
+
+  'subimage	Images method':
+    'prefix': 'subimage	Images method'
+    'body': 'subimage(${1:args})'
+
+  'tformarray	Images method':
+    'prefix': 'tformarray	Images method'
+    'body': 'tformarray(${1:args})'
+
+  'tformfwd	Images method':
+    'prefix': 'tformfwd	Images method'
+    'body': 'tformfwd(${1:args})'
+
+  'tforminv	Images method':
+    'prefix': 'tforminv	Images method'
+    'body': 'tforminv(${1:args})'
+
+  'tonemap	Images method':
+    'prefix': 'tonemap	Images method'
+    'body': 'tonemap(${1:args})'
+
+  'translate	Images method':
+    'prefix': 'translate	Images method'
+    'body': 'translate(${1:args})'
+
+  'truesize	Images method':
+    'prefix': 'truesize	Images method'
+    'body': 'truesize(${1:args})'
+
+  'visboundaries	Images method':
+    'prefix': 'visboundaries	Images method'
+    'body': 'visboundaries(${1:args})'
+
+  'viscircles	Images method':
+    'prefix': 'viscircles	Images method'
+    'body': 'viscircles(${1:args})'
+
+  'warp	Images method':
+    'prefix': 'warp	Images method'
+    'body': 'warp(${1:args})'
+
+  'watershed	Images method':
+    'prefix': 'watershed	Images method'
+    'body': 'watershed(${1:args})'
+
+  'whitepoint	Images method':
+    'prefix': 'whitepoint	Images method'
+    'body': 'whitepoint(${1:args})'
+
+  'wiener2	Images method':
+    'prefix': 'wiener2	Images method'
+    'body': 'wiener2(${1:args})'
+
+  'xyz2double	Images method':
+    'prefix': 'xyz2double	Images method'
+    'body': 'xyz2double(${1:args})'
+
+  'xyz2lab	Images method':
+    'prefix': 'xyz2lab	Images method'
+    'body': 'xyz2lab(${1:args})'
+
+  'xyz2rgb	Images method':
+    'prefix': 'xyz2rgb	Images method'
+    'body': 'xyz2rgb(${1:args})'
+
+  'xyz2uint16	Images method':
+    'prefix': 'xyz2uint16	Images method'
+    'body': 'xyz2uint16(${1:args})'
+
+  'ycbcr2rgb	Images method':
+    'prefix': 'ycbcr2rgb	Images method'
+    'body': 'ycbcr2rgb(${1:args})'

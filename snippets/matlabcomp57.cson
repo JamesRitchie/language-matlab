@@ -1,0 +1,195 @@
+# matlabcomp57 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'Advisor.authoring.generateConfigurationParameterDataFile	Slvnv method':
+    'prefix': 'Advisor.authoring.generateConfigurationParameterDataFile	Slvnv method'
+    'body': 'Advisor.authoring.generateConfigurationParameterDataFile(${1:args})'
+
+  'ModelAdvisor.lookupCheckID	Slvnv method':
+    'prefix': 'ModelAdvisor.lookupCheckID	Slvnv method'
+    'body': 'ModelAdvisor.lookupCheckID(${1:args})'
+
+  'ModelAdvisor.run	Slvnv method':
+    'prefix': 'ModelAdvisor.run	Slvnv method'
+    'body': 'ModelAdvisor.run(${1:args})'
+
+  'ModelAdvisor.summaryReport	Slvnv method':
+    'prefix': 'ModelAdvisor.summaryReport	Slvnv method'
+    'body': 'ModelAdvisor.summaryReport(${1:args})'
+
+  'RptgenRMI.doorsAttribs	Slvnv method':
+    'prefix': 'RptgenRMI.doorsAttribs	Slvnv method'
+    'body': 'RptgenRMI.doorsAttribs(${1:args})'
+
+  'complexityinfo	Slvnv method':
+    'prefix': 'complexityinfo	Slvnv method'
+    'body': 'complexityinfo(${1:args})'
+
+  'conditioninfo	Slvnv method':
+    'prefix': 'conditioninfo	Slvnv method'
+    'body': 'conditioninfo(${1:args})'
+
+  'cvexit	Slvnv method':
+    'prefix': 'cvexit	Slvnv method'
+    'body': 'cvexit(${1:args})'
+
+  'cvhtml	Slvnv method':
+    'prefix': 'cvhtml	Slvnv method'
+    'body': 'cvhtml(${1:args})'
+
+  'cvload	Slvnv method':
+    'prefix': 'cvload	Slvnv method'
+    'body': 'cvload(${1:args})'
+
+  'cvmodelview	Slvnv method':
+    'prefix': 'cvmodelview	Slvnv method'
+    'body': 'cvmodelview(${1:args})'
+
+  'cvsave	Slvnv method':
+    'prefix': 'cvsave	Slvnv method'
+    'body': 'cvsave(${1:args})'
+
+  'cvsim	Slvnv method':
+    'prefix': 'cvsim	Slvnv method'
+    'body': 'cvsim(${1:args})'
+
+  'cvtest	Slvnv method':
+    'prefix': 'cvtest	Slvnv method'
+    'body': 'cvtest(${1:args})'
+
+  'decisioninfo	Slvnv method':
+    'prefix': 'decisioninfo	Slvnv method'
+    'body': 'decisioninfo(${1:args})'
+
+  'getCoverageInfo	Slvnv method':
+    'prefix': 'getCoverageInfo	Slvnv method'
+    'body': 'getCoverageInfo(${1:args})'
+
+  'mcdcinfo	Slvnv method':
+    'prefix': 'mcdcinfo	Slvnv method'
+    'body': 'mcdcinfo(${1:args})'
+
+  'overflowsaturationinfo	Slvnv method':
+    'prefix': 'overflowsaturationinfo	Slvnv method'
+    'body': 'overflowsaturationinfo(${1:args})'
+
+  'relationalboundaryinfo	Slvnv method':
+    'prefix': 'relationalboundaryinfo	Slvnv method'
+    'body': 'relationalboundaryinfo(${1:args})'
+
+  'rmi	Slvnv method':
+    'prefix': 'rmi	Slvnv method'
+    'body': 'rmi(${1:args})'
+
+  'rmi.doorssync	Slvnv method':
+    'prefix': 'rmi.doorssync	Slvnv method'
+    'body': 'rmi.doorssync(${1:args})'
+
+  'rmi.objinfo	Slvnv method':
+    'prefix': 'rmi.objinfo	Slvnv method'
+    'body': 'rmi.objinfo(${1:args})'
+
+  'rmidata.default	Slvnv method':
+    'prefix': 'rmidata.default	Slvnv method'
+    'body': 'rmidata.default(${1:args})'
+
+  'rmidata.export	Slvnv method':
+    'prefix': 'rmidata.export	Slvnv method'
+    'body': 'rmidata.export(${1:args})'
+
+  'rmidata.save	Slvnv method':
+    'prefix': 'rmidata.save	Slvnv method'
+    'body': 'rmidata.save(${1:args})'
+
+  'rmidocrename	Slvnv method':
+    'prefix': 'rmidocrename	Slvnv method'
+    'body': 'rmidocrename(${1:args})'
+
+  'rmimap.map	Slvnv method':
+    'prefix': 'rmimap.map	Slvnv method'
+    'body': 'rmimap.map(${1:args})'
+
+  'rmiobjnavigate	Slvnv method':
+    'prefix': 'rmiobjnavigate	Slvnv method'
+    'body': 'rmiobjnavigate(${1:args})'
+
+  'rmipref	Slvnv method':
+    'prefix': 'rmipref	Slvnv method'
+    'body': 'rmipref(${1:args})'
+
+  'rmiref.insertRefs	Slvnv method':
+    'prefix': 'rmiref.insertRefs	Slvnv method'
+    'body': 'rmiref.insertRefs(${1:args})'
+
+  'rmiref.removeRefs	Slvnv method':
+    'prefix': 'rmiref.removeRefs	Slvnv method'
+    'body': 'rmiref.removeRefs(${1:args})'
+
+  'rmitag	Slvnv method':
+    'prefix': 'rmitag	Slvnv method'
+    'body': 'rmitag(${1:args})'
+
+  'sigrangeinfo	Slvnv method':
+    'prefix': 'sigrangeinfo	Slvnv method'
+    'body': 'sigrangeinfo(${1:args})'
+
+  'sigsizeinfo	Slvnv method':
+    'prefix': 'sigsizeinfo	Slvnv method'
+    'body': 'sigsizeinfo(${1:args})'
+
+  'slcovmex	Slvnv method':
+    'prefix': 'slcovmex	Slvnv method'
+    'body': 'slcovmex(${1:args})'
+
+  'slvnvextract	Slvnv method':
+    'prefix': 'slvnvextract	Slvnv method'
+    'body': 'slvnvextract(${1:args})'
+
+  'slvnvharnessopts	Slvnv method':
+    'prefix': 'slvnvharnessopts	Slvnv method'
+    'body': 'slvnvharnessopts(${1:args})'
+
+  'slvnvlogsignals	Slvnv method':
+    'prefix': 'slvnvlogsignals	Slvnv method'
+    'body': 'slvnvlogsignals(${1:args})'
+
+  'slvnvmakeharness	Slvnv method':
+    'prefix': 'slvnvmakeharness	Slvnv method'
+    'body': 'slvnvmakeharness(${1:args})'
+
+  'slvnvmergedata	Slvnv method':
+    'prefix': 'slvnvmergedata	Slvnv method'
+    'body': 'slvnvmergedata(${1:args})'
+
+  'slvnvmergeharness	Slvnv method':
+    'prefix': 'slvnvmergeharness	Slvnv method'
+    'body': 'slvnvmergeharness(${1:args})'
+
+  'slvnvruncgvtest	Slvnv method':
+    'prefix': 'slvnvruncgvtest	Slvnv method'
+    'body': 'slvnvruncgvtest(${1:args})'
+
+  'slvnvruntest	Slvnv method':
+    'prefix': 'slvnvruntest	Slvnv method'
+    'body': 'slvnvruntest(${1:args})'
+
+  'slvnvruntestopts	Slvnv method':
+    'prefix': 'slvnvruntestopts	Slvnv method'
+    'body': 'slvnvruntestopts(${1:args})'
+
+  'slwebview_cov	Slvnv method':
+    'prefix': 'slwebview_cov	Slvnv method'
+    'body': 'slwebview_cov(${1:args})'
+
+  'slwebview_req	Slvnv method':
+    'prefix': 'slwebview_req	Slvnv method'
+    'body': 'slwebview_req(${1:args})'
+
+  'tableinfo	Slvnv method':
+    'prefix': 'tableinfo	Slvnv method'
+    'body': 'tableinfo(${1:args})'
+
+  'viewReport	Slvnv method':
+    'prefix': 'viewReport	Slvnv method'
+    'body': 'viewReport(${1:args})'

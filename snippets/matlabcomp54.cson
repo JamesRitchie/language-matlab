@@ -1,0 +1,255 @@
+# matlabcomp54 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'adaptmesh	PDE method':
+    'prefix': 'adaptmesh	PDE method'
+    'body': 'adaptmesh(${1:args})'
+
+  'applyBoundaryCondition	PDE method':
+    'prefix': 'applyBoundaryCondition	PDE method'
+    'body': 'applyBoundaryCondition(${1:args})'
+
+  'assema	PDE method':
+    'prefix': 'assema	PDE method'
+    'body': 'assema(${1:args})'
+
+  'assemb	PDE method':
+    'prefix': 'assemb	PDE method'
+    'body': 'assemb(${1:args})'
+
+  'assempde	PDE method':
+    'prefix': 'assempde	PDE method'
+    'body': 'assempde(${1:args})'
+
+  'createPDEResults	PDE method':
+    'prefix': 'createPDEResults	PDE method'
+    'body': 'createPDEResults(${1:args})'
+
+  'createpde	PDE method':
+    'prefix': 'createpde	PDE method'
+    'body': 'createpde(${1:args})'
+
+  'csgchk	PDE method':
+    'prefix': 'csgchk	PDE method'
+    'body': 'csgchk(${1:args})'
+
+  'csgdel	PDE method':
+    'prefix': 'csgdel	PDE method'
+    'body': 'csgdel(${1:args})'
+
+  'decsg	PDE method':
+    'prefix': 'decsg	PDE method'
+    'body': 'decsg(${1:args})'
+
+  'dst	PDE method':
+    'prefix': 'dst	PDE method'
+    'body': 'dst(${1:args})'
+
+  'evaluate	PDE method':
+    'prefix': 'evaluate	PDE method'
+    'body': 'evaluate(${1:args})'
+
+  'generateMesh	PDE method':
+    'prefix': 'generateMesh	PDE method'
+    'body': 'generateMesh(${1:args})'
+
+  'geometryFromEdges	PDE method':
+    'prefix': 'geometryFromEdges	PDE method'
+    'body': 'geometryFromEdges(${1:args})'
+
+  'geometryFromMesh	PDE method':
+    'prefix': 'geometryFromMesh	PDE method'
+    'body': 'geometryFromMesh(${1:args})'
+
+  'hyperbolic	PDE method':
+    'prefix': 'hyperbolic	PDE method'
+    'body': 'hyperbolic(${1:args})'
+
+  'idst	PDE method':
+    'prefix': 'idst	PDE method'
+    'body': 'idst(${1:args})'
+
+  'importGeometry	PDE method':
+    'prefix': 'importGeometry	PDE method'
+    'body': 'importGeometry(${1:args})'
+
+  'initmesh	PDE method':
+    'prefix': 'initmesh	PDE method'
+    'body': 'initmesh(${1:args})'
+
+  'interpolateSolution	PDE method':
+    'prefix': 'interpolateSolution	PDE method'
+    'body': 'interpolateSolution(${1:args})'
+
+  'jigglemesh	PDE method':
+    'prefix': 'jigglemesh	PDE method'
+    'body': 'jigglemesh(${1:args})'
+
+  'meshToPet	PDE method':
+    'prefix': 'meshToPet	PDE method'
+    'body': 'meshToPet(${1:args})'
+
+  'parabolic	PDE method':
+    'prefix': 'parabolic	PDE method'
+    'body': 'parabolic(${1:args})'
+
+  'pdeGeometryFromEdges	PDE method':
+    'prefix': 'pdeGeometryFromEdges	PDE method'
+    'body': 'pdeGeometryFromEdges(${1:args})'
+
+  'pdeadgsc	PDE method':
+    'prefix': 'pdeadgsc	PDE method'
+    'body': 'pdeadgsc(${1:args})'
+
+  'pdeadworst	PDE method':
+    'prefix': 'pdeadworst	PDE method'
+    'body': 'pdeadworst(${1:args})'
+
+  'pdearcl	PDE method':
+    'prefix': 'pdearcl	PDE method'
+    'body': 'pdearcl(${1:args})'
+
+  'pdecgrad	PDE method':
+    'prefix': 'pdecgrad	PDE method'
+    'body': 'pdecgrad(${1:args})'
+
+  'pdecirc	PDE method':
+    'prefix': 'pdecirc	PDE method'
+    'body': 'pdecirc(${1:args})'
+
+  'pdecont	PDE method':
+    'prefix': 'pdecont	PDE method'
+    'body': 'pdecont(${1:args})'
+
+  'pdeeig	PDE method':
+    'prefix': 'pdeeig	PDE method'
+    'body': 'pdeeig(${1:args})'
+
+  'pdeellip	PDE method':
+    'prefix': 'pdeellip	PDE method'
+    'body': 'pdeellip(${1:args})'
+
+  'pdeent	PDE method':
+    'prefix': 'pdeent	PDE method'
+    'body': 'pdeent(${1:args})'
+
+  'pdegplot	PDE method':
+    'prefix': 'pdegplot	PDE method'
+    'body': 'pdegplot(${1:args})'
+
+  'pdegrad	PDE method':
+    'prefix': 'pdegrad	PDE method'
+    'body': 'pdegrad(${1:args})'
+
+  'pdeintrp	PDE method':
+    'prefix': 'pdeintrp	PDE method'
+    'body': 'pdeintrp(${1:args})'
+
+  'pdejmps	PDE method':
+    'prefix': 'pdejmps	PDE method'
+    'body': 'pdejmps(${1:args})'
+
+  'pdemdlcv	PDE method':
+    'prefix': 'pdemdlcv	PDE method'
+    'body': 'pdemdlcv(${1:args})'
+
+  'pdemesh	PDE method':
+    'prefix': 'pdemesh	PDE method'
+    'body': 'pdemesh(${1:args})'
+
+  'pdenonlin	PDE method':
+    'prefix': 'pdenonlin	PDE method'
+    'body': 'pdenonlin(${1:args})'
+
+  'pdeplot	PDE method':
+    'prefix': 'pdeplot	PDE method'
+    'body': 'pdeplot(${1:args})'
+
+  'pdeplot3D	PDE method':
+    'prefix': 'pdeplot3D	PDE method'
+    'body': 'pdeplot3D(${1:args})'
+
+  'pdepoly	PDE method':
+    'prefix': 'pdepoly	PDE method'
+    'body': 'pdepoly(${1:args})'
+
+  'pdeprtni	PDE method':
+    'prefix': 'pdeprtni	PDE method'
+    'body': 'pdeprtni(${1:args})'
+
+  'pderect	PDE method':
+    'prefix': 'pderect	PDE method'
+    'body': 'pderect(${1:args})'
+
+  'pdesde	PDE method':
+    'prefix': 'pdesde	PDE method'
+    'body': 'pdesde(${1:args})'
+
+  'pdesdp	PDE method':
+    'prefix': 'pdesdp	PDE method'
+    'body': 'pdesdp(${1:args})'
+
+  'pdesdt	PDE method':
+    'prefix': 'pdesdt	PDE method'
+    'body': 'pdesdt(${1:args})'
+
+  'pdesmech	PDE method':
+    'prefix': 'pdesmech	PDE method'
+    'body': 'pdesmech(${1:args})'
+
+  'pdesurf	PDE method':
+    'prefix': 'pdesurf	PDE method'
+    'body': 'pdesurf(${1:args})'
+
+  'pdetool	PDE method':
+    'prefix': 'pdetool	PDE method'
+    'body': 'pdetool(${1:args})'
+
+  'pdetrg	PDE method':
+    'prefix': 'pdetrg	PDE method'
+    'body': 'pdetrg(${1:args})'
+
+  'pdetriq	PDE method':
+    'prefix': 'pdetriq	PDE method'
+    'body': 'pdetriq(${1:args})'
+
+  'poiasma	PDE method':
+    'prefix': 'poiasma	PDE method'
+    'body': 'poiasma(${1:args})'
+
+  'poicalc	PDE method':
+    'prefix': 'poicalc	PDE method'
+    'body': 'poicalc(${1:args})'
+
+  'poiindex	PDE method':
+    'prefix': 'poiindex	PDE method'
+    'body': 'poiindex(${1:args})'
+
+  'poimesh	PDE method':
+    'prefix': 'poimesh	PDE method'
+    'body': 'poimesh(${1:args})'
+
+  'poisolv	PDE method':
+    'prefix': 'poisolv	PDE method'
+    'body': 'poisolv(${1:args})'
+
+  'refinemesh	PDE method':
+    'prefix': 'refinemesh	PDE method'
+    'body': 'refinemesh(${1:args})'
+
+  'sptarn	PDE method':
+    'prefix': 'sptarn	PDE method'
+    'body': 'sptarn(${1:args})'
+
+  'tri2grid	PDE method':
+    'prefix': 'tri2grid	PDE method'
+    'body': 'tri2grid(${1:args})'
+
+  'wbound	PDE method':
+    'prefix': 'wbound	PDE method'
+    'body': 'wbound(${1:args})'
+
+  'wgeom	PDE method':
+    'prefix': 'wgeom	PDE method'
+    'body': 'wgeom(${1:args})'

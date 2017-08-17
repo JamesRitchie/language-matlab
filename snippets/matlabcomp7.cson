@@ -1,0 +1,115 @@
+# matlabcomp7 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'AbstractKineticLaw	SimBio class':
+    'prefix': 'AbstractKineticLaw	SimBio class'
+    'body': 'AbstractKineticLaw'
+
+  'Compartment	SimBio class':
+    'prefix': 'Compartment	SimBio class'
+    'body': 'Compartment'
+
+  'Configset	SimBio class':
+    'prefix': 'Configset	SimBio class'
+    'body': 'Configset'
+
+  'CovariateModel	SimBio class':
+    'prefix': 'CovariateModel	SimBio class'
+    'body': 'CovariateModel'
+
+  'EstimatedInfo	SimBio class':
+    'prefix': 'EstimatedInfo	SimBio class'
+    'body': 'EstimatedInfo'
+
+  'Event	SimBio class':
+    'prefix': 'Event	SimBio class'
+    'body': 'Event'
+
+  'GroupedData	SimBio class':
+    'prefix': 'GroupedData	SimBio class'
+    'body': 'GroupedData'
+
+  'KineticLaw	SimBio class':
+    'prefix': 'KineticLaw	SimBio class'
+    'body': 'KineticLaw'
+
+  'LeastSquaresResults	SimBio class':
+    'prefix': 'LeastSquaresResults	SimBio class'
+    'body': 'LeastSquaresResults'
+
+  'Model	SimBio class':
+    'prefix': 'Model	SimBio class'
+    'body': 'Model'
+
+  'NLINResults	SimBio class':
+    'prefix': 'NLINResults	SimBio class'
+    'body': 'NLINResults'
+
+  'NLMEResults	SimBio class':
+    'prefix': 'NLMEResults	SimBio class'
+    'body': 'NLMEResults'
+
+  'OptimResults	SimBio class':
+    'prefix': 'OptimResults	SimBio class'
+    'body': 'OptimResults'
+
+  'PKCompartment	SimBio class':
+    'prefix': 'PKCompartment	SimBio class'
+    'body': 'PKCompartment'
+
+  'PKModelDesign	SimBio class':
+    'prefix': 'PKModelDesign	SimBio class'
+    'body': 'PKModelDesign'
+
+  'PKModelMap	SimBio class':
+    'prefix': 'PKModelMap	SimBio class'
+    'body': 'PKModelMap'
+
+  'Parameter	SimBio class':
+    'prefix': 'Parameter	SimBio class'
+    'body': 'Parameter'
+
+  'Reaction	SimBio class':
+    'prefix': 'Reaction	SimBio class'
+    'body': 'Reaction'
+
+  'RepeatDose	SimBio class':
+    'prefix': 'RepeatDose	SimBio class'
+    'body': 'RepeatDose'
+
+  'Root	SimBio class':
+    'prefix': 'Root	SimBio class'
+    'body': 'Root'
+
+  'Rule	SimBio class':
+    'prefix': 'Rule	SimBio class'
+    'body': 'Rule'
+
+  'ScheduleDose	SimBio class':
+    'prefix': 'ScheduleDose	SimBio class'
+    'body': 'ScheduleDose'
+
+  'SimData	SimBio class':
+    'prefix': 'SimData	SimBio class'
+    'body': 'SimData'
+
+  'SimFunction	SimBio class':
+    'prefix': 'SimFunction	SimBio class'
+    'body': 'SimFunction'
+
+  'SimFunctionSensitivity	SimBio class':
+    'prefix': 'SimFunctionSensitivity	SimBio class'
+    'body': 'SimFunctionSensitivity'
+
+  'Species	SimBio class':
+    'prefix': 'Species	SimBio class'
+    'body': 'Species'
+
+  'Unit	SimBio class':
+    'prefix': 'Unit	SimBio class'
+    'body': 'Unit'
+
+  'UnitPrefix	SimBio class':
+    'prefix': 'UnitPrefix	SimBio class'
+    'body': 'UnitPrefix'

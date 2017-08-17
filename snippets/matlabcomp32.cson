@@ -1,0 +1,255 @@
+# matlabcomp32 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'DatabaseDatastore	Database method':
+    'prefix': 'DatabaseDatastore	Database method'
+    'body': 'DatabaseDatastore(${1:args})'
+
+  'attr	Database method':
+    'prefix': 'attr	Database method'
+    'body': 'attr(${1:args})'
+
+  'bestrowid	Database method':
+    'prefix': 'bestrowid	Database method'
+    'body': 'bestrowid(${1:args})'
+
+  'catalogs	Database method':
+    'prefix': 'catalogs	Database method'
+    'body': 'catalogs(${1:args})'
+
+  'clearwarnings	Database method':
+    'prefix': 'clearwarnings	Database method'
+    'body': 'clearwarnings(${1:args})'
+
+  'cols	Database method':
+    'prefix': 'cols	Database method'
+    'body': 'cols(${1:args})'
+
+  'columnnames	Database method':
+    'prefix': 'columnnames	Database method'
+    'body': 'columnnames(${1:args})'
+
+  'columnprivileges	Database method':
+    'prefix': 'columnprivileges	Database method'
+    'body': 'columnprivileges(${1:args})'
+
+  'columns	Database method':
+    'prefix': 'columns	Database method'
+    'body': 'columns(${1:args})'
+
+  'commit	Database method':
+    'prefix': 'commit	Database method'
+    'body': 'commit(${1:args})'
+
+  'confds	Database method':
+    'prefix': 'confds	Database method'
+    'body': 'confds(${1:args})'
+
+  'crossreference	Database method':
+    'prefix': 'crossreference	Database method'
+    'body': 'crossreference(${1:args})'
+
+  'cursor.fetch	Database method':
+    'prefix': 'cursor.fetch	Database method'
+    'body': 'cursor.fetch(${1:args})'
+
+  'database	Database method':
+    'prefix': 'database	Database method'
+    'body': 'database(${1:args})'
+
+  'database.catalogs	Database method':
+    'prefix': 'database.catalogs	Database method'
+    'body': 'database.catalogs(${1:args})'
+
+  'database.columns	Database method':
+    'prefix': 'database.columns	Database method'
+    'body': 'database.columns(${1:args})'
+
+  'database.fetch	Database method':
+    'prefix': 'database.fetch	Database method'
+    'body': 'database.fetch(${1:args})'
+
+  'database.schemas	Database method':
+    'prefix': 'database.schemas	Database method'
+    'body': 'database.schemas(${1:args})'
+
+  'database.tables	Database method':
+    'prefix': 'database.tables	Database method'
+    'body': 'database.tables(${1:args})'
+
+  'datainsert	Database method':
+    'prefix': 'datainsert	Database method'
+    'body': 'datainsert(${1:args})'
+
+  'dmd	Database method':
+    'prefix': 'dmd	Database method'
+    'body': 'dmd(${1:args})'
+
+  'driver	Database method':
+    'prefix': 'driver	Database method'
+    'body': 'driver(${1:args})'
+
+  'drivermanager	Database method':
+    'prefix': 'drivermanager	Database method'
+    'body': 'drivermanager(${1:args})'
+
+  'exec	Database method':
+    'prefix': 'exec	Database method'
+    'body': 'exec(${1:args})'
+
+  'exportedkeys	Database method':
+    'prefix': 'exportedkeys	Database method'
+    'body': 'exportedkeys(${1:args})'
+
+  'fastinsert	Database method':
+    'prefix': 'fastinsert	Database method'
+    'body': 'fastinsert(${1:args})'
+
+  'fetch	Database method':
+    'prefix': 'fetch	Database method'
+    'body': 'fetch(${1:args})'
+
+  'fetchmulti	Database method':
+    'prefix': 'fetchmulti	Database method'
+    'body': 'fetchmulti(${1:args})'
+
+  'getdatasources	Database method':
+    'prefix': 'getdatasources	Database method'
+    'body': 'getdatasources(${1:args})'
+
+  'importedkeys	Database method':
+    'prefix': 'importedkeys	Database method'
+    'body': 'importedkeys(${1:args})'
+
+  'indexinfo	Database method':
+    'prefix': 'indexinfo	Database method'
+    'body': 'indexinfo(${1:args})'
+
+  'insert	Database method':
+    'prefix': 'insert	Database method'
+    'body': 'insert(${1:args})'
+
+  'isconnection	Database method':
+    'prefix': 'isconnection	Database method'
+    'body': 'isconnection(${1:args})'
+
+  'isdriver	Database method':
+    'prefix': 'isdriver	Database method'
+    'body': 'isdriver(${1:args})'
+
+  'isjdbc	Database method':
+    'prefix': 'isjdbc	Database method'
+    'body': 'isjdbc(${1:args})'
+
+  'isnullcolumn	Database method':
+    'prefix': 'isnullcolumn	Database method'
+    'body': 'isnullcolumn(${1:args})'
+
+  'isopen	Database method':
+    'prefix': 'isopen	Database method'
+    'body': 'isopen(${1:args})'
+
+  'isreadonly	Database method':
+    'prefix': 'isreadonly	Database method'
+    'body': 'isreadonly(${1:args})'
+
+  'isurl	Database method':
+    'prefix': 'isurl	Database method'
+    'body': 'isurl(${1:args})'
+
+  'logintimeout	Database method':
+    'prefix': 'logintimeout	Database method'
+    'body': 'logintimeout(${1:args})'
+
+  'namecolumn	Database method':
+    'prefix': 'namecolumn	Database method'
+    'body': 'namecolumn(${1:args})'
+
+  'ping	Database method':
+    'prefix': 'ping	Database method'
+    'body': 'ping(${1:args})'
+
+  'primarykeys	Database method':
+    'prefix': 'primarykeys	Database method'
+    'body': 'primarykeys(${1:args})'
+
+  'procedurecolumns	Database method':
+    'prefix': 'procedurecolumns	Database method'
+    'body': 'procedurecolumns(${1:args})'
+
+  'procedures	Database method':
+    'prefix': 'procedures	Database method'
+    'body': 'procedures(${1:args})'
+
+  'querybuilder	Database method':
+    'prefix': 'querybuilder	Database method'
+    'body': 'querybuilder(${1:args})'
+
+  'querytimeout	Database method':
+    'prefix': 'querytimeout	Database method'
+    'body': 'querytimeout(${1:args})'
+
+  'register	Database method':
+    'prefix': 'register	Database method'
+    'body': 'register(${1:args})'
+
+  'resultset	Database method':
+    'prefix': 'resultset	Database method'
+    'body': 'resultset(${1:args})'
+
+  'rollback	Database method':
+    'prefix': 'rollback	Database method'
+    'body': 'rollback(${1:args})'
+
+  'rows	Database method':
+    'prefix': 'rows	Database method'
+    'body': 'rows(${1:args})'
+
+  'rsmd	Database method':
+    'prefix': 'rsmd	Database method'
+    'body': 'rsmd(${1:args})'
+
+  'runsqlscript	Database method':
+    'prefix': 'runsqlscript	Database method'
+    'body': 'runsqlscript(${1:args})'
+
+  'runstoredprocedure	Database method':
+    'prefix': 'runstoredprocedure	Database method'
+    'body': 'runstoredprocedure(${1:args})'
+
+  'schemas	Database method':
+    'prefix': 'schemas	Database method'
+    'body': 'schemas(${1:args})'
+
+  'setdbprefs	Database method':
+    'prefix': 'setdbprefs	Database method'
+    'body': 'setdbprefs(${1:args})'
+
+  'sql2native	Database method':
+    'prefix': 'sql2native	Database method'
+    'body': 'sql2native(${1:args})'
+
+  'supports	Database method':
+    'prefix': 'supports	Database method'
+    'body': 'supports(${1:args})'
+
+  'tableprivileges	Database method':
+    'prefix': 'tableprivileges	Database method'
+    'body': 'tableprivileges(${1:args})'
+
+  'tables	Database method':
+    'prefix': 'tables	Database method'
+    'body': 'tables(${1:args})'
+
+  'unregister	Database method':
+    'prefix': 'unregister	Database method'
+    'body': 'unregister(${1:args})'
+
+  'update	Database method':
+    'prefix': 'update	Database method'
+    'body': 'update(${1:args})'
+
+  'versioncolumns	Database method':
+    'prefix': 'versioncolumns	Database method'
+    'body': 'versioncolumns(${1:args})'

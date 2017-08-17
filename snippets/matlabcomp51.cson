@@ -1,0 +1,83 @@
+# matlabcomp51 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'MLAppendMatrix	ExLink method':
+    'prefix': 'MLAppendMatrix	ExLink method'
+    'body': 'MLAppendMatrix(${1:args})'
+
+  'MLAutoStart	ExLink method':
+    'prefix': 'MLAutoStart	ExLink method'
+    'body': 'MLAutoStart(${1:args})'
+
+  'MLClose	ExLink method':
+    'prefix': 'MLClose	ExLink method'
+    'body': 'MLClose(${1:args})'
+
+  'MLDeleteMatrix	ExLink method':
+    'prefix': 'MLDeleteMatrix	ExLink method'
+    'body': 'MLDeleteMatrix(${1:args})'
+
+  'MLEvalString	ExLink method':
+    'prefix': 'MLEvalString	ExLink method'
+    'body': 'MLEvalString(${1:args})'
+
+  'MLGetFigure	ExLink method':
+    'prefix': 'MLGetFigure	ExLink method'
+    'body': 'MLGetFigure(${1:args})'
+
+  'MLGetMatrix	ExLink method':
+    'prefix': 'MLGetMatrix	ExLink method'
+    'body': 'MLGetMatrix(${1:args})'
+
+  'MLGetVar	ExLink method':
+    'prefix': 'MLGetVar	ExLink method'
+    'body': 'MLGetVar(${1:args})'
+
+  'MLMissingDataAsNaN	ExLink method':
+    'prefix': 'MLMissingDataAsNaN	ExLink method'
+    'body': 'MLMissingDataAsNaN(${1:args})'
+
+  'MLOpen	ExLink method':
+    'prefix': 'MLOpen	ExLink method'
+    'body': 'MLOpen(${1:args})'
+
+  'MLPutMatrix	ExLink method':
+    'prefix': 'MLPutMatrix	ExLink method'
+    'body': 'MLPutMatrix(${1:args})'
+
+  'MLPutRanges	ExLink method':
+    'prefix': 'MLPutRanges	ExLink method'
+    'body': 'MLPutRanges(${1:args})'
+
+  'MLPutVar	ExLink method':
+    'prefix': 'MLPutVar	ExLink method'
+    'body': 'MLPutVar(${1:args})'
+
+  'MLShowMatlabErrors	ExLink method':
+    'prefix': 'MLShowMatlabErrors	ExLink method'
+    'body': 'MLShowMatlabErrors(${1:args})'
+
+  'MLStartDir	ExLink method':
+    'prefix': 'MLStartDir	ExLink method'
+    'body': 'MLStartDir(${1:args})'
+
+  'MLUseCellArray	ExLink method':
+    'prefix': 'MLUseCellArray	ExLink method'
+    'body': 'MLUseCellArray(${1:args})'
+
+  'MLUseFullDesktop	ExLink method':
+    'prefix': 'MLUseFullDesktop	ExLink method'
+    'body': 'MLUseFullDesktop(${1:args})'
+
+  'matlabfcn	ExLink method':
+    'prefix': 'matlabfcn	ExLink method'
+    'body': 'matlabfcn(${1:args})'
+
+  'matlabinit	ExLink method':
+    'prefix': 'matlabinit	ExLink method'
+    'body': 'matlabinit(${1:args})'
+
+  'matlabsub	ExLink method':
+    'prefix': 'matlabsub	ExLink method'
+    'body': 'matlabsub(${1:args})'

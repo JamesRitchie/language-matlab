@@ -1,0 +1,147 @@
+# matlabcomp67 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'addoutputspec	SLControl method':
+    'prefix': 'addoutputspec	SLControl method'
+    'body': 'addoutputspec(${1:args})'
+
+  'findop	SLControl method':
+    'prefix': 'findop	SLControl method'
+    'body': 'findop(${1:args})'
+
+  'findopOptions	SLControl method':
+    'prefix': 'findopOptions	SLControl method'
+    'body': 'findopOptions(${1:args})'
+
+  'frest.Chirp	SLControl method':
+    'prefix': 'frest.Chirp	SLControl method'
+    'body': 'frest.Chirp(${1:args})'
+
+  'frest.Random	SLControl method':
+    'prefix': 'frest.Random	SLControl method'
+    'body': 'frest.Random(${1:args})'
+
+  'frest.Sinestream	SLControl method':
+    'prefix': 'frest.Sinestream	SLControl method'
+    'body': 'frest.Sinestream(${1:args})'
+
+  'frest.createFixedTsSinestream	SLControl method':
+    'prefix': 'frest.createFixedTsSinestream	SLControl method'
+    'body': 'frest.createFixedTsSinestream(${1:args})'
+
+  'frest.createStep	SLControl method':
+    'prefix': 'frest.createStep	SLControl method'
+    'body': 'frest.createStep(${1:args})'
+
+  'frest.findDepend	SLControl method':
+    'prefix': 'frest.findDepend	SLControl method'
+    'body': 'frest.findDepend(${1:args})'
+
+  'frest.findSources	SLControl method':
+    'prefix': 'frest.findSources	SLControl method'
+    'body': 'frest.findSources(${1:args})'
+
+  'frest.simCompare	SLControl method':
+    'prefix': 'frest.simCompare	SLControl method'
+    'body': 'frest.simCompare(${1:args})'
+
+  'frest.simView	SLControl method':
+    'prefix': 'frest.simView	SLControl method'
+    'body': 'frest.simView(${1:args})'
+
+  'frestimate	SLControl method':
+    'prefix': 'frestimate	SLControl method'
+    'body': 'frestimate(${1:args})'
+
+  'frestimateOptions	SLControl method':
+    'prefix': 'frestimateOptions	SLControl method'
+    'body': 'frestimateOptions(${1:args})'
+
+  'generateTimeseries	SLControl method':
+    'prefix': 'generateTimeseries	SLControl method'
+    'body': 'generateTimeseries(${1:args})'
+
+  'getSimulationTime	SLControl method':
+    'prefix': 'getSimulationTime	SLControl method'
+    'body': 'getSimulationTime(${1:args})'
+
+  'getTunedValue	SLControl method':
+    'prefix': 'getTunedValue	SLControl method'
+    'body': 'getTunedValue(${1:args})'
+
+  'getinputstruct	SLControl method':
+    'prefix': 'getinputstruct	SLControl method'
+    'body': 'getinputstruct(${1:args})'
+
+  'getlinio	SLControl method':
+    'prefix': 'getlinio	SLControl method'
+    'body': 'getlinio(${1:args})'
+
+  'getlinplant	SLControl method':
+    'prefix': 'getlinplant	SLControl method'
+    'body': 'getlinplant(${1:args})'
+
+  'getstatestruct	SLControl method':
+    'prefix': 'getstatestruct	SLControl method'
+    'body': 'getstatestruct(${1:args})'
+
+  'getxu	SLControl method':
+    'prefix': 'getxu	SLControl method'
+    'body': 'getxu(${1:args})'
+
+  'initopspec	SLControl method':
+    'prefix': 'initopspec	SLControl method'
+    'body': 'initopspec(${1:args})'
+
+  'linearize	SLControl method':
+    'prefix': 'linearize	SLControl method'
+    'body': 'linearize(${1:args})'
+
+  'linearizeOptions	SLControl method':
+    'prefix': 'linearizeOptions	SLControl method'
+    'body': 'linearizeOptions(${1:args})'
+
+  'linio	SLControl method':
+    'prefix': 'linio	SLControl method'
+    'body': 'linio(${1:args})'
+
+  'linlft	SLControl method':
+    'prefix': 'linlft	SLControl method'
+    'body': 'linlft(${1:args})'
+
+  'linlftfold	SLControl method':
+    'prefix': 'linlftfold	SLControl method'
+    'body': 'linlftfold(${1:args})'
+
+  'linoptions	SLControl method':
+    'prefix': 'linoptions	SLControl method'
+    'body': 'linoptions(${1:args})'
+
+  'operpoint	SLControl method':
+    'prefix': 'operpoint	SLControl method'
+    'body': 'operpoint(${1:args})'
+
+  'operspec	SLControl method':
+    'prefix': 'operspec	SLControl method'
+    'body': 'operspec(${1:args})'
+
+  'setTunedValue	SLControl method':
+    'prefix': 'setTunedValue	SLControl method'
+    'body': 'setTunedValue(${1:args})'
+
+  'setlinio	SLControl method':
+    'prefix': 'setlinio	SLControl method'
+    'body': 'setlinio(${1:args})'
+
+  'setxu	SLControl method':
+    'prefix': 'setxu	SLControl method'
+    'body': 'setxu(${1:args})'
+
+  'slLinearizer	SLControl method':
+    'prefix': 'slLinearizer	SLControl method'
+    'body': 'slLinearizer(${1:args})'
+
+  'slTunable	SLControl method':
+    'prefix': 'slTunable	SLControl method'
+    'body': 'slTunable(${1:args})'

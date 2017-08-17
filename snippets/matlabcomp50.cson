@@ -1,0 +1,87 @@
+# matlabcomp50 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'pe_calculateThdPercent	SPS method':
+    'prefix': 'pe_calculateThdPercent	SPS method'
+    'body': 'pe_calculateThdPercent(${1:args})'
+
+  'pe_getHarmonics	SPS method':
+    'prefix': 'pe_getHarmonics	SPS method'
+    'body': 'pe_getHarmonics(${1:args})'
+
+  'pe_plotHarmonics	SPS method':
+    'prefix': 'pe_plotHarmonics	SPS method'
+    'body': 'pe_plotHarmonics(${1:args})'
+
+  'power_AsynchronousMachineParams	SPS method':
+    'prefix': 'power_AsynchronousMachineParams	SPS method'
+    'body': 'power_AsynchronousMachineParams(${1:args})'
+
+  'power_PMSynchronousMachineParams	SPS method':
+    'prefix': 'power_PMSynchronousMachineParams	SPS method'
+    'body': 'power_PMSynchronousMachineParams(${1:args})'
+
+  'power_analyze	SPS method':
+    'prefix': 'power_analyze	SPS method'
+    'body': 'power_analyze(${1:args})'
+
+  'power_cableparam	SPS method':
+    'prefix': 'power_cableparam	SPS method'
+    'body': 'power_cableparam(${1:args})'
+
+  'power_customize	SPS method':
+    'prefix': 'power_customize	SPS method'
+    'body': 'power_customize(${1:args})'
+
+  'power_fftscope	SPS method':
+    'prefix': 'power_fftscope	SPS method'
+    'body': 'power_fftscope(${1:args})'
+
+  'power_flicker	SPS method':
+    'prefix': 'power_flicker	SPS method'
+    'body': 'power_flicker(${1:args})'
+
+  'power_hysteresis	SPS method':
+    'prefix': 'power_hysteresis	SPS method'
+    'body': 'power_hysteresis(${1:args})'
+
+  'power_init	SPS method':
+    'prefix': 'power_init	SPS method'
+    'body': 'power_init(${1:args})'
+
+  'power_initstates	SPS method':
+    'prefix': 'power_initstates	SPS method'
+    'body': 'power_initstates(${1:args})'
+
+  'power_lineparam	SPS method':
+    'prefix': 'power_lineparam	SPS method'
+    'body': 'power_lineparam(${1:args})'
+
+  'power_loadflow	SPS method':
+    'prefix': 'power_loadflow	SPS method'
+    'body': 'power_loadflow(${1:args})'
+
+  'power_ltiview	SPS method':
+    'prefix': 'power_ltiview	SPS method'
+    'body': 'power_ltiview(${1:args})'
+
+  'power_new	SPS method':
+    'prefix': 'power_new	SPS method'
+    'body': 'power_new(${1:args})'
+
+  'power_report	SPS method':
+    'prefix': 'power_report	SPS method'
+    'body': 'power_report(${1:args})'
+
+  'power_statespace	SPS method':
+    'prefix': 'power_statespace	SPS method'
+    'body': 'power_statespace(${1:args})'
+
+  'power_steadystate	SPS method':
+    'prefix': 'power_steadystate	SPS method'
+    'body': 'power_steadystate(${1:args})'
+
+  'power_zmeter	SPS method':
+    'prefix': 'power_zmeter	SPS method'
+    'body': 'power_zmeter(${1:args})'

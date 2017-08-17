@@ -1,0 +1,1583 @@
+# matlabcomp30 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'adaptfilt	DSP method':
+    'prefix': 'adaptfilt	DSP method'
+    'body': 'adaptfilt(${1:args})'
+
+  'adaptfilt.adjlms	DSP method':
+    'prefix': 'adaptfilt.adjlms	DSP method'
+    'body': 'adaptfilt.adjlms(${1:args})'
+
+  'adaptfilt.ap	DSP method':
+    'prefix': 'adaptfilt.ap	DSP method'
+    'body': 'adaptfilt.ap(${1:args})'
+
+  'adaptfilt.apru	DSP method':
+    'prefix': 'adaptfilt.apru	DSP method'
+    'body': 'adaptfilt.apru(${1:args})'
+
+  'adaptfilt.bap	DSP method':
+    'prefix': 'adaptfilt.bap	DSP method'
+    'body': 'adaptfilt.bap(${1:args})'
+
+  'adaptfilt.blms	DSP method':
+    'prefix': 'adaptfilt.blms	DSP method'
+    'body': 'adaptfilt.blms(${1:args})'
+
+  'adaptfilt.blmsfft	DSP method':
+    'prefix': 'adaptfilt.blmsfft	DSP method'
+    'body': 'adaptfilt.blmsfft(${1:args})'
+
+  'adaptfilt.dlms	DSP method':
+    'prefix': 'adaptfilt.dlms	DSP method'
+    'body': 'adaptfilt.dlms(${1:args})'
+
+  'adaptfilt.fdaf	DSP method':
+    'prefix': 'adaptfilt.fdaf	DSP method'
+    'body': 'adaptfilt.fdaf(${1:args})'
+
+  'adaptfilt.filtxlms	DSP method':
+    'prefix': 'adaptfilt.filtxlms	DSP method'
+    'body': 'adaptfilt.filtxlms(${1:args})'
+
+  'adaptfilt.ftf	DSP method':
+    'prefix': 'adaptfilt.ftf	DSP method'
+    'body': 'adaptfilt.ftf(${1:args})'
+
+  'adaptfilt.gal	DSP method':
+    'prefix': 'adaptfilt.gal	DSP method'
+    'body': 'adaptfilt.gal(${1:args})'
+
+  'adaptfilt.hrls	DSP method':
+    'prefix': 'adaptfilt.hrls	DSP method'
+    'body': 'adaptfilt.hrls(${1:args})'
+
+  'adaptfilt.hswrls	DSP method':
+    'prefix': 'adaptfilt.hswrls	DSP method'
+    'body': 'adaptfilt.hswrls(${1:args})'
+
+  'adaptfilt.lms	DSP method':
+    'prefix': 'adaptfilt.lms	DSP method'
+    'body': 'adaptfilt.lms(${1:args})'
+
+  'adaptfilt.lsl	DSP method':
+    'prefix': 'adaptfilt.lsl	DSP method'
+    'body': 'adaptfilt.lsl(${1:args})'
+
+  'adaptfilt.nlms	DSP method':
+    'prefix': 'adaptfilt.nlms	DSP method'
+    'body': 'adaptfilt.nlms(${1:args})'
+
+  'adaptfilt.pbfdaf	DSP method':
+    'prefix': 'adaptfilt.pbfdaf	DSP method'
+    'body': 'adaptfilt.pbfdaf(${1:args})'
+
+  'adaptfilt.pbufdaf	DSP method':
+    'prefix': 'adaptfilt.pbufdaf	DSP method'
+    'body': 'adaptfilt.pbufdaf(${1:args})'
+
+  'adaptfilt.qrdlsl	DSP method':
+    'prefix': 'adaptfilt.qrdlsl	DSP method'
+    'body': 'adaptfilt.qrdlsl(${1:args})'
+
+  'adaptfilt.qrdrls	DSP method':
+    'prefix': 'adaptfilt.qrdrls	DSP method'
+    'body': 'adaptfilt.qrdrls(${1:args})'
+
+  'adaptfilt.rls	DSP method':
+    'prefix': 'adaptfilt.rls	DSP method'
+    'body': 'adaptfilt.rls(${1:args})'
+
+  'adaptfilt.sd	DSP method':
+    'prefix': 'adaptfilt.sd	DSP method'
+    'body': 'adaptfilt.sd(${1:args})'
+
+  'adaptfilt.se	DSP method':
+    'prefix': 'adaptfilt.se	DSP method'
+    'body': 'adaptfilt.se(${1:args})'
+
+  'adaptfilt.ss	DSP method':
+    'prefix': 'adaptfilt.ss	DSP method'
+    'body': 'adaptfilt.ss(${1:args})'
+
+  'adaptfilt.swftf	DSP method':
+    'prefix': 'adaptfilt.swftf	DSP method'
+    'body': 'adaptfilt.swftf(${1:args})'
+
+  'adaptfilt.swrls	DSP method':
+    'prefix': 'adaptfilt.swrls	DSP method'
+    'body': 'adaptfilt.swrls(${1:args})'
+
+  'adaptfilt.tdafdct	DSP method':
+    'prefix': 'adaptfilt.tdafdct	DSP method'
+    'body': 'adaptfilt.tdafdct(${1:args})'
+
+  'adaptfilt.tdafdft	DSP method':
+    'prefix': 'adaptfilt.tdafdft	DSP method'
+    'body': 'adaptfilt.tdafdft(${1:args})'
+
+  'adaptfilt.ufdaf	DSP method':
+    'prefix': 'adaptfilt.ufdaf	DSP method'
+    'body': 'adaptfilt.ufdaf(${1:args})'
+
+  'allpass2wdf	DSP method':
+    'prefix': 'allpass2wdf	DSP method'
+    'body': 'allpass2wdf(${1:args})'
+
+  'allpassbpc2bpc	DSP method':
+    'prefix': 'allpassbpc2bpc	DSP method'
+    'body': 'allpassbpc2bpc(${1:args})'
+
+  'allpasslp2bp	DSP method':
+    'prefix': 'allpasslp2bp	DSP method'
+    'body': 'allpasslp2bp(${1:args})'
+
+  'allpasslp2bpc	DSP method':
+    'prefix': 'allpasslp2bpc	DSP method'
+    'body': 'allpasslp2bpc(${1:args})'
+
+  'allpasslp2bs	DSP method':
+    'prefix': 'allpasslp2bs	DSP method'
+    'body': 'allpasslp2bs(${1:args})'
+
+  'allpasslp2bsc	DSP method':
+    'prefix': 'allpasslp2bsc	DSP method'
+    'body': 'allpasslp2bsc(${1:args})'
+
+  'allpasslp2hp	DSP method':
+    'prefix': 'allpasslp2hp	DSP method'
+    'body': 'allpasslp2hp(${1:args})'
+
+  'allpasslp2lp	DSP method':
+    'prefix': 'allpasslp2lp	DSP method'
+    'body': 'allpasslp2lp(${1:args})'
+
+  'allpasslp2mb	DSP method':
+    'prefix': 'allpasslp2mb	DSP method'
+    'body': 'allpasslp2mb(${1:args})'
+
+  'allpasslp2mbc	DSP method':
+    'prefix': 'allpasslp2mbc	DSP method'
+    'body': 'allpasslp2mbc(${1:args})'
+
+  'allpasslp2xc	DSP method':
+    'prefix': 'allpasslp2xc	DSP method'
+    'body': 'allpasslp2xc(${1:args})'
+
+  'allpasslp2xn	DSP method':
+    'prefix': 'allpasslp2xn	DSP method'
+    'body': 'allpasslp2xn(${1:args})'
+
+  'allpassrateup	DSP method':
+    'prefix': 'allpassrateup	DSP method'
+    'body': 'allpassrateup(${1:args})'
+
+  'allpassshift	DSP method':
+    'prefix': 'allpassshift	DSP method'
+    'body': 'allpassshift(${1:args})'
+
+  'allpassshiftc	DSP method':
+    'prefix': 'allpassshiftc	DSP method'
+    'body': 'allpassshiftc(${1:args})'
+
+  'autoscale	DSP method':
+    'prefix': 'autoscale	DSP method'
+    'body': 'autoscale(${1:args})'
+
+  'block	DSP method':
+    'prefix': 'block	DSP method'
+    'body': 'block(${1:args})'
+
+  'butter	DSP method':
+    'prefix': 'butter	DSP method'
+    'body': 'butter(${1:args})'
+
+  'ca2tf	DSP method':
+    'prefix': 'ca2tf	DSP method'
+    'body': 'ca2tf(${1:args})'
+
+  'cheby1	DSP method':
+    'prefix': 'cheby1	DSP method'
+    'body': 'cheby1(${1:args})'
+
+  'cheby2	DSP method':
+    'prefix': 'cheby2	DSP method'
+    'body': 'cheby2(${1:args})'
+
+  'cl2tf	DSP method':
+    'prefix': 'cl2tf	DSP method'
+    'body': 'cl2tf(${1:args})'
+
+  'codegen	DSP method':
+    'prefix': 'codegen	DSP method'
+    'body': 'codegen(${1:args})'
+
+  'coeffs	DSP method':
+    'prefix': 'coeffs	DSP method'
+    'body': 'coeffs(${1:args})'
+
+  'coeread	DSP method':
+    'prefix': 'coeread	DSP method'
+    'body': 'coeread(${1:args})'
+
+  'coewrite	DSP method':
+    'prefix': 'coewrite	DSP method'
+    'body': 'coewrite(${1:args})'
+
+  'constraincoeffwl	DSP method':
+    'prefix': 'constraincoeffwl	DSP method'
+    'body': 'constraincoeffwl(${1:args})'
+
+  'convert	DSP method':
+    'prefix': 'convert	DSP method'
+    'body': 'convert(${1:args})'
+
+  'cost	DSP method':
+    'prefix': 'cost	DSP method'
+    'body': 'cost(${1:args})'
+
+  'cumsec	DSP method':
+    'prefix': 'cumsec	DSP method'
+    'body': 'cumsec(${1:args})'
+
+  'denormalize	DSP method':
+    'prefix': 'denormalize	DSP method'
+    'body': 'denormalize(${1:args})'
+
+  'design	DSP method':
+    'prefix': 'design	DSP method'
+    'body': 'design(${1:args})'
+
+  'designmethods	DSP method':
+    'prefix': 'designmethods	DSP method'
+    'body': 'designmethods(${1:args})'
+
+  'designopts	DSP method':
+    'prefix': 'designopts	DSP method'
+    'body': 'designopts(${1:args})'
+
+  'dfilt	DSP method':
+    'prefix': 'dfilt	DSP method'
+    'body': 'dfilt(${1:args})'
+
+  'dfilt.allpass	DSP method':
+    'prefix': 'dfilt.allpass	DSP method'
+    'body': 'dfilt.allpass(${1:args})'
+
+  'dfilt.calattice	DSP method':
+    'prefix': 'dfilt.calattice	DSP method'
+    'body': 'dfilt.calattice(${1:args})'
+
+  'dfilt.calatticepc	DSP method':
+    'prefix': 'dfilt.calatticepc	DSP method'
+    'body': 'dfilt.calatticepc(${1:args})'
+
+  'dfilt.cascade	DSP method':
+    'prefix': 'dfilt.cascade	DSP method'
+    'body': 'dfilt.cascade(${1:args})'
+
+  'dfilt.cascadeallpass	DSP method':
+    'prefix': 'dfilt.cascadeallpass	DSP method'
+    'body': 'dfilt.cascadeallpass(${1:args})'
+
+  'dfilt.cascadewdfallpass	DSP method':
+    'prefix': 'dfilt.cascadewdfallpass	DSP method'
+    'body': 'dfilt.cascadewdfallpass(${1:args})'
+
+  'dfilt.delay	DSP method':
+    'prefix': 'dfilt.delay	DSP method'
+    'body': 'dfilt.delay(${1:args})'
+
+  'dfilt.df1	DSP method':
+    'prefix': 'dfilt.df1	DSP method'
+    'body': 'dfilt.df1(${1:args})'
+
+  'dfilt.df1sos	DSP method':
+    'prefix': 'dfilt.df1sos	DSP method'
+    'body': 'dfilt.df1sos(${1:args})'
+
+  'dfilt.df1t	DSP method':
+    'prefix': 'dfilt.df1t	DSP method'
+    'body': 'dfilt.df1t(${1:args})'
+
+  'dfilt.df1tsos	DSP method':
+    'prefix': 'dfilt.df1tsos	DSP method'
+    'body': 'dfilt.df1tsos(${1:args})'
+
+  'dfilt.df2	DSP method':
+    'prefix': 'dfilt.df2	DSP method'
+    'body': 'dfilt.df2(${1:args})'
+
+  'dfilt.df2sos	DSP method':
+    'prefix': 'dfilt.df2sos	DSP method'
+    'body': 'dfilt.df2sos(${1:args})'
+
+  'dfilt.df2t	DSP method':
+    'prefix': 'dfilt.df2t	DSP method'
+    'body': 'dfilt.df2t(${1:args})'
+
+  'dfilt.df2tsos	DSP method':
+    'prefix': 'dfilt.df2tsos	DSP method'
+    'body': 'dfilt.df2tsos(${1:args})'
+
+  'dfilt.dfasymfir	DSP method':
+    'prefix': 'dfilt.dfasymfir	DSP method'
+    'body': 'dfilt.dfasymfir(${1:args})'
+
+  'dfilt.dffir	DSP method':
+    'prefix': 'dfilt.dffir	DSP method'
+    'body': 'dfilt.dffir(${1:args})'
+
+  'dfilt.dffirt	DSP method':
+    'prefix': 'dfilt.dffirt	DSP method'
+    'body': 'dfilt.dffirt(${1:args})'
+
+  'dfilt.dfsymfir	DSP method':
+    'prefix': 'dfilt.dfsymfir	DSP method'
+    'body': 'dfilt.dfsymfir(${1:args})'
+
+  'dfilt.farrowfd	DSP method':
+    'prefix': 'dfilt.farrowfd	DSP method'
+    'body': 'dfilt.farrowfd(${1:args})'
+
+  'dfilt.farrowlinearfd	DSP method':
+    'prefix': 'dfilt.farrowlinearfd	DSP method'
+    'body': 'dfilt.farrowlinearfd(${1:args})'
+
+  'dfilt.fftfir	DSP method':
+    'prefix': 'dfilt.fftfir	DSP method'
+    'body': 'dfilt.fftfir(${1:args})'
+
+  'dfilt.latticeallpass	DSP method':
+    'prefix': 'dfilt.latticeallpass	DSP method'
+    'body': 'dfilt.latticeallpass(${1:args})'
+
+  'dfilt.latticear	DSP method':
+    'prefix': 'dfilt.latticear	DSP method'
+    'body': 'dfilt.latticear(${1:args})'
+
+  'dfilt.latticearma	DSP method':
+    'prefix': 'dfilt.latticearma	DSP method'
+    'body': 'dfilt.latticearma(${1:args})'
+
+  'dfilt.latticemamax	DSP method':
+    'prefix': 'dfilt.latticemamax	DSP method'
+    'body': 'dfilt.latticemamax(${1:args})'
+
+  'dfilt.latticemamin	DSP method':
+    'prefix': 'dfilt.latticemamin	DSP method'
+    'body': 'dfilt.latticemamin(${1:args})'
+
+  'dfilt.parallel	DSP method':
+    'prefix': 'dfilt.parallel	DSP method'
+    'body': 'dfilt.parallel(${1:args})'
+
+  'dfilt.scalar	DSP method':
+    'prefix': 'dfilt.scalar	DSP method'
+    'body': 'dfilt.scalar(${1:args})'
+
+  'dfilt.wdfallpass	DSP method':
+    'prefix': 'dfilt.wdfallpass	DSP method'
+    'body': 'dfilt.wdfallpass(${1:args})'
+
+  'dsp.AdaptiveLatticeFilter	DSP method':
+    'prefix': 'dsp.AdaptiveLatticeFilter	DSP method'
+    'body': 'dsp.AdaptiveLatticeFilter(${1:args})'
+
+  'dsp.AffineProjectionFilter	DSP method':
+    'prefix': 'dsp.AffineProjectionFilter	DSP method'
+    'body': 'dsp.AffineProjectionFilter(${1:args})'
+
+  'dsp.AllpassFilter	DSP method':
+    'prefix': 'dsp.AllpassFilter	DSP method'
+    'body': 'dsp.AllpassFilter(${1:args})'
+
+  'dsp.AllpoleFilter	DSP method':
+    'prefix': 'dsp.AllpoleFilter	DSP method'
+    'body': 'dsp.AllpoleFilter(${1:args})'
+
+  'dsp.AnalyticSignal	DSP method':
+    'prefix': 'dsp.AnalyticSignal	DSP method'
+    'body': 'dsp.AnalyticSignal(${1:args})'
+
+  'dsp.ArrayVectorAdder	DSP method':
+    'prefix': 'dsp.ArrayVectorAdder	DSP method'
+    'body': 'dsp.ArrayVectorAdder(${1:args})'
+
+  'dsp.ArrayVectorDivider	DSP method':
+    'prefix': 'dsp.ArrayVectorDivider	DSP method'
+    'body': 'dsp.ArrayVectorDivider(${1:args})'
+
+  'dsp.ArrayVectorMultiplier	DSP method':
+    'prefix': 'dsp.ArrayVectorMultiplier	DSP method'
+    'body': 'dsp.ArrayVectorMultiplier(${1:args})'
+
+  'dsp.ArrayVectorSubtractor	DSP method':
+    'prefix': 'dsp.ArrayVectorSubtractor	DSP method'
+    'body': 'dsp.ArrayVectorSubtractor(${1:args})'
+
+  'dsp.AudioFileReader	DSP method':
+    'prefix': 'dsp.AudioFileReader	DSP method'
+    'body': 'dsp.AudioFileReader(${1:args})'
+
+  'dsp.AudioFileWriter	DSP method':
+    'prefix': 'dsp.AudioFileWriter	DSP method'
+    'body': 'dsp.AudioFileWriter(${1:args})'
+
+  'dsp.AudioPlayer	DSP method':
+    'prefix': 'dsp.AudioPlayer	DSP method'
+    'body': 'dsp.AudioPlayer(${1:args})'
+
+  'dsp.AudioRecorder	DSP method':
+    'prefix': 'dsp.AudioRecorder	DSP method'
+    'body': 'dsp.AudioRecorder(${1:args})'
+
+  'dsp.Autocorrelator	DSP method':
+    'prefix': 'dsp.Autocorrelator	DSP method'
+    'body': 'dsp.Autocorrelator(${1:args})'
+
+  'dsp.BiquadFilter	DSP method':
+    'prefix': 'dsp.BiquadFilter	DSP method'
+    'body': 'dsp.BiquadFilter(${1:args})'
+
+  'dsp.BlockLMSFilter	DSP method':
+    'prefix': 'dsp.BlockLMSFilter	DSP method'
+    'body': 'dsp.BlockLMSFilter(${1:args})'
+
+  'dsp.Buffer	DSP method':
+    'prefix': 'dsp.Buffer	DSP method'
+    'body': 'dsp.Buffer(${1:args})'
+
+  'dsp.BurgAREstimator	DSP method':
+    'prefix': 'dsp.BurgAREstimator	DSP method'
+    'body': 'dsp.BurgAREstimator(${1:args})'
+
+  'dsp.BurgSpectrumEstimator	DSP method':
+    'prefix': 'dsp.BurgSpectrumEstimator	DSP method'
+    'body': 'dsp.BurgSpectrumEstimator(${1:args})'
+
+  'dsp.CICCompensationDecimator	DSP method':
+    'prefix': 'dsp.CICCompensationDecimator	DSP method'
+    'body': 'dsp.CICCompensationDecimator(${1:args})'
+
+  'dsp.CICCompensationInterpolator	DSP method':
+    'prefix': 'dsp.CICCompensationInterpolator	DSP method'
+    'body': 'dsp.CICCompensationInterpolator(${1:args})'
+
+  'dsp.CICDecimator	DSP method':
+    'prefix': 'dsp.CICDecimator	DSP method'
+    'body': 'dsp.CICDecimator(${1:args})'
+
+  'dsp.CICInterpolator	DSP method':
+    'prefix': 'dsp.CICInterpolator	DSP method'
+    'body': 'dsp.CICInterpolator(${1:args})'
+
+  'dsp.CepstralToLPC	DSP method':
+    'prefix': 'dsp.CepstralToLPC	DSP method'
+    'body': 'dsp.CepstralToLPC(${1:args})'
+
+  'dsp.Chirp	DSP method':
+    'prefix': 'dsp.Chirp	DSP method'
+    'body': 'dsp.Chirp(${1:args})'
+
+  'dsp.ColoredNoise	DSP method':
+    'prefix': 'dsp.ColoredNoise	DSP method'
+    'body': 'dsp.ColoredNoise(${1:args})'
+
+  'dsp.Convolver	DSP method':
+    'prefix': 'dsp.Convolver	DSP method'
+    'body': 'dsp.Convolver(${1:args})'
+
+  'dsp.Counter	DSP method':
+    'prefix': 'dsp.Counter	DSP method'
+    'body': 'dsp.Counter(${1:args})'
+
+  'dsp.CoupledAllpassFilter	DSP method':
+    'prefix': 'dsp.CoupledAllpassFilter	DSP method'
+    'body': 'dsp.CoupledAllpassFilter(${1:args})'
+
+  'dsp.CrossSpectrumEstimator	DSP method':
+    'prefix': 'dsp.CrossSpectrumEstimator	DSP method'
+    'body': 'dsp.CrossSpectrumEstimator(${1:args})'
+
+  'dsp.Crosscorrelator	DSP method':
+    'prefix': 'dsp.Crosscorrelator	DSP method'
+    'body': 'dsp.Crosscorrelator(${1:args})'
+
+  'dsp.CumulativeProduct	DSP method':
+    'prefix': 'dsp.CumulativeProduct	DSP method'
+    'body': 'dsp.CumulativeProduct(${1:args})'
+
+  'dsp.CumulativeSum	DSP method':
+    'prefix': 'dsp.CumulativeSum	DSP method'
+    'body': 'dsp.CumulativeSum(${1:args})'
+
+  'dsp.DCBlocker	DSP method':
+    'prefix': 'dsp.DCBlocker	DSP method'
+    'body': 'dsp.DCBlocker(${1:args})'
+
+  'dsp.DCT	DSP method':
+    'prefix': 'dsp.DCT	DSP method'
+    'body': 'dsp.DCT(${1:args})'
+
+  'dsp.Delay	DSP method':
+    'prefix': 'dsp.Delay	DSP method'
+    'body': 'dsp.Delay(${1:args})'
+
+  'dsp.DelayLine	DSP method':
+    'prefix': 'dsp.DelayLine	DSP method'
+    'body': 'dsp.DelayLine(${1:args})'
+
+  'dsp.DigitalDownConverter	DSP method':
+    'prefix': 'dsp.DigitalDownConverter	DSP method'
+    'body': 'dsp.DigitalDownConverter(${1:args})'
+
+  'dsp.DigitalFilter	DSP method':
+    'prefix': 'dsp.DigitalFilter	DSP method'
+    'body': 'dsp.DigitalFilter(${1:args})'
+
+  'dsp.DigitalUpConverter	DSP method':
+    'prefix': 'dsp.DigitalUpConverter	DSP method'
+    'body': 'dsp.DigitalUpConverter(${1:args})'
+
+  'dsp.DyadicAnalysisFilterBank	DSP method':
+    'prefix': 'dsp.DyadicAnalysisFilterBank	DSP method'
+    'body': 'dsp.DyadicAnalysisFilterBank(${1:args})'
+
+  'dsp.DyadicSynthesisFilterBank	DSP method':
+    'prefix': 'dsp.DyadicSynthesisFilterBank	DSP method'
+    'body': 'dsp.DyadicSynthesisFilterBank(${1:args})'
+
+  'dsp.FFT	DSP method':
+    'prefix': 'dsp.FFT	DSP method'
+    'body': 'dsp.FFT(${1:args})'
+
+  'dsp.FIRDecimator	DSP method':
+    'prefix': 'dsp.FIRDecimator	DSP method'
+    'body': 'dsp.FIRDecimator(${1:args})'
+
+  'dsp.FIRFilter	DSP method':
+    'prefix': 'dsp.FIRFilter	DSP method'
+    'body': 'dsp.FIRFilter(${1:args})'
+
+  'dsp.FIRHalfbandDecimator	DSP method':
+    'prefix': 'dsp.FIRHalfbandDecimator	DSP method'
+    'body': 'dsp.FIRHalfbandDecimator(${1:args})'
+
+  'dsp.FIRHalfbandInterpolator	DSP method':
+    'prefix': 'dsp.FIRHalfbandInterpolator	DSP method'
+    'body': 'dsp.FIRHalfbandInterpolator(${1:args})'
+
+  'dsp.FIRInterpolator	DSP method':
+    'prefix': 'dsp.FIRInterpolator	DSP method'
+    'body': 'dsp.FIRInterpolator(${1:args})'
+
+  'dsp.FIRRateConverter	DSP method':
+    'prefix': 'dsp.FIRRateConverter	DSP method'
+    'body': 'dsp.FIRRateConverter(${1:args})'
+
+  'dsp.FarrowRateConverter	DSP method':
+    'prefix': 'dsp.FarrowRateConverter	DSP method'
+    'body': 'dsp.FarrowRateConverter(${1:args})'
+
+  'dsp.FastTransversalFilter	DSP method':
+    'prefix': 'dsp.FastTransversalFilter	DSP method'
+    'body': 'dsp.FastTransversalFilter(${1:args})'
+
+  'dsp.FilterCascade	DSP method':
+    'prefix': 'dsp.FilterCascade	DSP method'
+    'body': 'dsp.FilterCascade(${1:args})'
+
+  'dsp.FilteredXLMSFilter	DSP method':
+    'prefix': 'dsp.FilteredXLMSFilter	DSP method'
+    'body': 'dsp.FilteredXLMSFilter(${1:args})'
+
+  'dsp.FrequencyDomainAdaptiveFilter	DSP method':
+    'prefix': 'dsp.FrequencyDomainAdaptiveFilter	DSP method'
+    'body': 'dsp.FrequencyDomainAdaptiveFilter(${1:args})'
+
+  'dsp.HDLComplexToMagnitudeAngle	DSP method':
+    'prefix': 'dsp.HDLComplexToMagnitudeAngle	DSP method'
+    'body': 'dsp.HDLComplexToMagnitudeAngle(${1:args})'
+
+  'dsp.HDLFFT	DSP method':
+    'prefix': 'dsp.HDLFFT	DSP method'
+    'body': 'dsp.HDLFFT(${1:args})'
+
+  'dsp.HDLFIRRateConverter	DSP method':
+    'prefix': 'dsp.HDLFIRRateConverter	DSP method'
+    'body': 'dsp.HDLFIRRateConverter(${1:args})'
+
+  'dsp.HDLIFFT	DSP method':
+    'prefix': 'dsp.HDLIFFT	DSP method'
+    'body': 'dsp.HDLIFFT(${1:args})'
+
+  'dsp.HDLNCO	DSP method':
+    'prefix': 'dsp.HDLNCO	DSP method'
+    'body': 'dsp.HDLNCO(${1:args})'
+
+  'dsp.HighpassFilter	DSP method':
+    'prefix': 'dsp.HighpassFilter	DSP method'
+    'body': 'dsp.HighpassFilter(${1:args})'
+
+  'dsp.Histogram	DSP method':
+    'prefix': 'dsp.Histogram	DSP method'
+    'body': 'dsp.Histogram(${1:args})'
+
+  'dsp.IDCT	DSP method':
+    'prefix': 'dsp.IDCT	DSP method'
+    'body': 'dsp.IDCT(${1:args})'
+
+  'dsp.IFFT	DSP method':
+    'prefix': 'dsp.IFFT	DSP method'
+    'body': 'dsp.IFFT(${1:args})'
+
+  'dsp.IIRFilter	DSP method':
+    'prefix': 'dsp.IIRFilter	DSP method'
+    'body': 'dsp.IIRFilter(${1:args})'
+
+  'dsp.IIRHalfbandDecimator	DSP method':
+    'prefix': 'dsp.IIRHalfbandDecimator	DSP method'
+    'body': 'dsp.IIRHalfbandDecimator(${1:args})'
+
+  'dsp.IIRHalfbandInterpolator	DSP method':
+    'prefix': 'dsp.IIRHalfbandInterpolator	DSP method'
+    'body': 'dsp.IIRHalfbandInterpolator(${1:args})'
+
+  'dsp.Interpolator	DSP method':
+    'prefix': 'dsp.Interpolator	DSP method'
+    'body': 'dsp.Interpolator(${1:args})'
+
+  'dsp.KalmanFilter	DSP method':
+    'prefix': 'dsp.KalmanFilter	DSP method'
+    'body': 'dsp.KalmanFilter(${1:args})'
+
+  'dsp.LDLFactor	DSP method':
+    'prefix': 'dsp.LDLFactor	DSP method'
+    'body': 'dsp.LDLFactor(${1:args})'
+
+  'dsp.LMSFilter	DSP method':
+    'prefix': 'dsp.LMSFilter	DSP method'
+    'body': 'dsp.LMSFilter(${1:args})'
+
+  'dsp.LPCToAutocorrelation	DSP method':
+    'prefix': 'dsp.LPCToAutocorrelation	DSP method'
+    'body': 'dsp.LPCToAutocorrelation(${1:args})'
+
+  'dsp.LPCToCepstral	DSP method':
+    'prefix': 'dsp.LPCToCepstral	DSP method'
+    'body': 'dsp.LPCToCepstral(${1:args})'
+
+  'dsp.LPCToLSF	DSP method':
+    'prefix': 'dsp.LPCToLSF	DSP method'
+    'body': 'dsp.LPCToLSF(${1:args})'
+
+  'dsp.LPCToLSP	DSP method':
+    'prefix': 'dsp.LPCToLSP	DSP method'
+    'body': 'dsp.LPCToLSP(${1:args})'
+
+  'dsp.LPCToRC	DSP method':
+    'prefix': 'dsp.LPCToRC	DSP method'
+    'body': 'dsp.LPCToRC(${1:args})'
+
+  'dsp.LSFToLPC	DSP method':
+    'prefix': 'dsp.LSFToLPC	DSP method'
+    'body': 'dsp.LSFToLPC(${1:args})'
+
+  'dsp.LSPToLPC	DSP method':
+    'prefix': 'dsp.LSPToLPC	DSP method'
+    'body': 'dsp.LSPToLPC(${1:args})'
+
+  'dsp.LUFactor	DSP method':
+    'prefix': 'dsp.LUFactor	DSP method'
+    'body': 'dsp.LUFactor(${1:args})'
+
+  'dsp.LevinsonSolver	DSP method':
+    'prefix': 'dsp.LevinsonSolver	DSP method'
+    'body': 'dsp.LevinsonSolver(${1:args})'
+
+  'dsp.LogicAnalyzer	DSP method':
+    'prefix': 'dsp.LogicAnalyzer	DSP method'
+    'body': 'dsp.LogicAnalyzer(${1:args})'
+
+  'dsp.LowerTriangularSolver	DSP method':
+    'prefix': 'dsp.LowerTriangularSolver	DSP method'
+    'body': 'dsp.LowerTriangularSolver(${1:args})'
+
+  'dsp.LowpassFilter	DSP method':
+    'prefix': 'dsp.LowpassFilter	DSP method'
+    'body': 'dsp.LowpassFilter(${1:args})'
+
+  'dsp.MatFileReader	DSP method':
+    'prefix': 'dsp.MatFileReader	DSP method'
+    'body': 'dsp.MatFileReader(${1:args})'
+
+  'dsp.MatFileWriter	DSP method':
+    'prefix': 'dsp.MatFileWriter	DSP method'
+    'body': 'dsp.MatFileWriter(${1:args})'
+
+  'dsp.Maximum	DSP method':
+    'prefix': 'dsp.Maximum	DSP method'
+    'body': 'dsp.Maximum(${1:args})'
+
+  'dsp.Mean	DSP method':
+    'prefix': 'dsp.Mean	DSP method'
+    'body': 'dsp.Mean(${1:args})'
+
+  'dsp.Median	DSP method':
+    'prefix': 'dsp.Median	DSP method'
+    'body': 'dsp.Median(${1:args})'
+
+  'dsp.Minimum	DSP method':
+    'prefix': 'dsp.Minimum	DSP method'
+    'body': 'dsp.Minimum(${1:args})'
+
+  'dsp.NCO	DSP method':
+    'prefix': 'dsp.NCO	DSP method'
+    'body': 'dsp.NCO(${1:args})'
+
+  'dsp.Normalizer	DSP method':
+    'prefix': 'dsp.Normalizer	DSP method'
+    'body': 'dsp.Normalizer(${1:args})'
+
+  'dsp.NotchPeakFilter	DSP method':
+    'prefix': 'dsp.NotchPeakFilter	DSP method'
+    'body': 'dsp.NotchPeakFilter(${1:args})'
+
+  'dsp.ParametricEQFilter	DSP method':
+    'prefix': 'dsp.ParametricEQFilter	DSP method'
+    'body': 'dsp.ParametricEQFilter(${1:args})'
+
+  'dsp.PeakFinder	DSP method':
+    'prefix': 'dsp.PeakFinder	DSP method'
+    'body': 'dsp.PeakFinder(${1:args})'
+
+  'dsp.PeakToPeak	DSP method':
+    'prefix': 'dsp.PeakToPeak	DSP method'
+    'body': 'dsp.PeakToPeak(${1:args})'
+
+  'dsp.PeakToRMS	DSP method':
+    'prefix': 'dsp.PeakToRMS	DSP method'
+    'body': 'dsp.PeakToRMS(${1:args})'
+
+  'dsp.PhaseExtractor	DSP method':
+    'prefix': 'dsp.PhaseExtractor	DSP method'
+    'body': 'dsp.PhaseExtractor(${1:args})'
+
+  'dsp.PhaseUnwrapper	DSP method':
+    'prefix': 'dsp.PhaseUnwrapper	DSP method'
+    'body': 'dsp.PhaseUnwrapper(${1:args})'
+
+  'dsp.PulseMetrics	DSP method':
+    'prefix': 'dsp.PulseMetrics	DSP method'
+    'body': 'dsp.PulseMetrics(${1:args})'
+
+  'dsp.RCToAutocorrelation	DSP method':
+    'prefix': 'dsp.RCToAutocorrelation	DSP method'
+    'body': 'dsp.RCToAutocorrelation(${1:args})'
+
+  'dsp.RCToLPC	DSP method':
+    'prefix': 'dsp.RCToLPC	DSP method'
+    'body': 'dsp.RCToLPC(${1:args})'
+
+  'dsp.RLSFilter	DSP method':
+    'prefix': 'dsp.RLSFilter	DSP method'
+    'body': 'dsp.RLSFilter(${1:args})'
+
+  'dsp.RMS	DSP method':
+    'prefix': 'dsp.RMS	DSP method'
+    'body': 'dsp.RMS(${1:args})'
+
+  'dsp.SampleRateConverter	DSP method':
+    'prefix': 'dsp.SampleRateConverter	DSP method'
+    'body': 'dsp.SampleRateConverter(${1:args})'
+
+  'dsp.ScalarQuantizerDecoder	DSP method':
+    'prefix': 'dsp.ScalarQuantizerDecoder	DSP method'
+    'body': 'dsp.ScalarQuantizerDecoder(${1:args})'
+
+  'dsp.ScalarQuantizerEncoder	DSP method':
+    'prefix': 'dsp.ScalarQuantizerEncoder	DSP method'
+    'body': 'dsp.ScalarQuantizerEncoder(${1:args})'
+
+  'dsp.SignalSink	DSP method':
+    'prefix': 'dsp.SignalSink	DSP method'
+    'body': 'dsp.SignalSink(${1:args})'
+
+  'dsp.SignalSource	DSP method':
+    'prefix': 'dsp.SignalSource	DSP method'
+    'body': 'dsp.SignalSource(${1:args})'
+
+  'dsp.SineWave	DSP method':
+    'prefix': 'dsp.SineWave	DSP method'
+    'body': 'dsp.SineWave(${1:args})'
+
+  'dsp.SpectrumEstimator	DSP method':
+    'prefix': 'dsp.SpectrumEstimator	DSP method'
+    'body': 'dsp.SpectrumEstimator(${1:args})'
+
+  'dsp.StandardDeviation	DSP method':
+    'prefix': 'dsp.StandardDeviation	DSP method'
+    'body': 'dsp.StandardDeviation(${1:args})'
+
+  'dsp.StateLevels	DSP method':
+    'prefix': 'dsp.StateLevels	DSP method'
+    'body': 'dsp.StateLevels(${1:args})'
+
+  'dsp.SubbandAnalysisFilter	DSP method':
+    'prefix': 'dsp.SubbandAnalysisFilter	DSP method'
+    'body': 'dsp.SubbandAnalysisFilter(${1:args})'
+
+  'dsp.SubbandSynthesisFilter	DSP method':
+    'prefix': 'dsp.SubbandSynthesisFilter	DSP method'
+    'body': 'dsp.SubbandSynthesisFilter(${1:args})'
+
+  'dsp.TransferFunctionEstimator	DSP method':
+    'prefix': 'dsp.TransferFunctionEstimator	DSP method'
+    'body': 'dsp.TransferFunctionEstimator(${1:args})'
+
+  'dsp.TransitionMetrics	DSP method':
+    'prefix': 'dsp.TransitionMetrics	DSP method'
+    'body': 'dsp.TransitionMetrics(${1:args})'
+
+  'dsp.UDPReceiver	DSP method':
+    'prefix': 'dsp.UDPReceiver	DSP method'
+    'body': 'dsp.UDPReceiver(${1:args})'
+
+  'dsp.UDPSender	DSP method':
+    'prefix': 'dsp.UDPSender	DSP method'
+    'body': 'dsp.UDPSender(${1:args})'
+
+  'dsp.UniformDecoder	DSP method':
+    'prefix': 'dsp.UniformDecoder	DSP method'
+    'body': 'dsp.UniformDecoder(${1:args})'
+
+  'dsp.UniformEncoder	DSP method':
+    'prefix': 'dsp.UniformEncoder	DSP method'
+    'body': 'dsp.UniformEncoder(${1:args})'
+
+  'dsp.UpperTriangularSolver	DSP method':
+    'prefix': 'dsp.UpperTriangularSolver	DSP method'
+    'body': 'dsp.UpperTriangularSolver(${1:args})'
+
+  'dsp.VariableBandwidthFIRFilter	DSP method':
+    'prefix': 'dsp.VariableBandwidthFIRFilter	DSP method'
+    'body': 'dsp.VariableBandwidthFIRFilter(${1:args})'
+
+  'dsp.VariableBandwidthIIRFilter	DSP method':
+    'prefix': 'dsp.VariableBandwidthIIRFilter	DSP method'
+    'body': 'dsp.VariableBandwidthIIRFilter(${1:args})'
+
+  'dsp.VariableFractionalDelay	DSP method':
+    'prefix': 'dsp.VariableFractionalDelay	DSP method'
+    'body': 'dsp.VariableFractionalDelay(${1:args})'
+
+  'dsp.VariableIntegerDelay	DSP method':
+    'prefix': 'dsp.VariableIntegerDelay	DSP method'
+    'body': 'dsp.VariableIntegerDelay(${1:args})'
+
+  'dsp.Variance	DSP method':
+    'prefix': 'dsp.Variance	DSP method'
+    'body': 'dsp.Variance(${1:args})'
+
+  'dsp.VectorQuantizerDecoder	DSP method':
+    'prefix': 'dsp.VectorQuantizerDecoder	DSP method'
+    'body': 'dsp.VectorQuantizerDecoder(${1:args})'
+
+  'dsp.VectorQuantizerEncoder	DSP method':
+    'prefix': 'dsp.VectorQuantizerEncoder	DSP method'
+    'body': 'dsp.VectorQuantizerEncoder(${1:args})'
+
+  'dsp.Window	DSP method':
+    'prefix': 'dsp.Window	DSP method'
+    'body': 'dsp.Window(${1:args})'
+
+  'dsp.ZeroCrossingDetector	DSP method':
+    'prefix': 'dsp.ZeroCrossingDetector	DSP method'
+    'body': 'dsp.ZeroCrossingDetector(${1:args})'
+
+  'dsp_links	DSP method':
+    'prefix': 'dsp_links	DSP method'
+    'body': 'dsp_links(${1:args})'
+
+  'dsplib	DSP method':
+    'prefix': 'dsplib	DSP method'
+    'body': 'dsplib(${1:args})'
+
+  'dspstartup	DSP method':
+    'prefix': 'dspstartup	DSP method'
+    'body': 'dspstartup(${1:args})'
+
+  'dspunfold	DSP method':
+    'prefix': 'dspunfold	DSP method'
+    'body': 'dspunfold(${1:args})'
+
+  'ellip	DSP method':
+    'prefix': 'ellip	DSP method'
+    'body': 'ellip(${1:args})'
+
+  'euclidfactors	DSP method':
+    'prefix': 'euclidfactors	DSP method'
+    'body': 'euclidfactors(${1:args})'
+
+  'fcfwrite	DSP method':
+    'prefix': 'fcfwrite	DSP method'
+    'body': 'fcfwrite(${1:args})'
+
+  'fdatool	DSP method':
+    'prefix': 'fdatool	DSP method'
+    'body': 'fdatool(${1:args})'
+
+  'fdesign	DSP method':
+    'prefix': 'fdesign	DSP method'
+    'body': 'fdesign(${1:args})'
+
+  'fdesign.arbgrpdelay	DSP method':
+    'prefix': 'fdesign.arbgrpdelay	DSP method'
+    'body': 'fdesign.arbgrpdelay(${1:args})'
+
+  'fdesign.arbmag	DSP method':
+    'prefix': 'fdesign.arbmag	DSP method'
+    'body': 'fdesign.arbmag(${1:args})'
+
+  'fdesign.arbmagnphase	DSP method':
+    'prefix': 'fdesign.arbmagnphase	DSP method'
+    'body': 'fdesign.arbmagnphase(${1:args})'
+
+  'fdesign.audioweighting	DSP method':
+    'prefix': 'fdesign.audioweighting	DSP method'
+    'body': 'fdesign.audioweighting(${1:args})'
+
+  'fdesign.bandpass	DSP method':
+    'prefix': 'fdesign.bandpass	DSP method'
+    'body': 'fdesign.bandpass(${1:args})'
+
+  'fdesign.bandstop	DSP method':
+    'prefix': 'fdesign.bandstop	DSP method'
+    'body': 'fdesign.bandstop(${1:args})'
+
+  'fdesign.ciccomp	DSP method':
+    'prefix': 'fdesign.ciccomp	DSP method'
+    'body': 'fdesign.ciccomp(${1:args})'
+
+  'fdesign.comb	DSP method':
+    'prefix': 'fdesign.comb	DSP method'
+    'body': 'fdesign.comb(${1:args})'
+
+  'fdesign.decimator	DSP method':
+    'prefix': 'fdesign.decimator	DSP method'
+    'body': 'fdesign.decimator(${1:args})'
+
+  'fdesign.differentiator	DSP method':
+    'prefix': 'fdesign.differentiator	DSP method'
+    'body': 'fdesign.differentiator(${1:args})'
+
+  'fdesign.fracdelay	DSP method':
+    'prefix': 'fdesign.fracdelay	DSP method'
+    'body': 'fdesign.fracdelay(${1:args})'
+
+  'fdesign.halfband	DSP method':
+    'prefix': 'fdesign.halfband	DSP method'
+    'body': 'fdesign.halfband(${1:args})'
+
+  'fdesign.highpass	DSP method':
+    'prefix': 'fdesign.highpass	DSP method'
+    'body': 'fdesign.highpass(${1:args})'
+
+  'fdesign.hilbert	DSP method':
+    'prefix': 'fdesign.hilbert	DSP method'
+    'body': 'fdesign.hilbert(${1:args})'
+
+  'fdesign.interpolator	DSP method':
+    'prefix': 'fdesign.interpolator	DSP method'
+    'body': 'fdesign.interpolator(${1:args})'
+
+  'fdesign.isinchp	DSP method':
+    'prefix': 'fdesign.isinchp	DSP method'
+    'body': 'fdesign.isinchp(${1:args})'
+
+  'fdesign.isinclp	DSP method':
+    'prefix': 'fdesign.isinclp	DSP method'
+    'body': 'fdesign.isinclp(${1:args})'
+
+  'fdesign.lowpass	DSP method':
+    'prefix': 'fdesign.lowpass	DSP method'
+    'body': 'fdesign.lowpass(${1:args})'
+
+  'fdesign.notch	DSP method':
+    'prefix': 'fdesign.notch	DSP method'
+    'body': 'fdesign.notch(${1:args})'
+
+  'fdesign.nyquist	DSP method':
+    'prefix': 'fdesign.nyquist	DSP method'
+    'body': 'fdesign.nyquist(${1:args})'
+
+  'fdesign.octave	DSP method':
+    'prefix': 'fdesign.octave	DSP method'
+    'body': 'fdesign.octave(${1:args})'
+
+  'fdesign.parameq	DSP method':
+    'prefix': 'fdesign.parameq	DSP method'
+    'body': 'fdesign.parameq(${1:args})'
+
+  'fdesign.peak	DSP method':
+    'prefix': 'fdesign.peak	DSP method'
+    'body': 'fdesign.peak(${1:args})'
+
+  'fdesign.polysrc	DSP method':
+    'prefix': 'fdesign.polysrc	DSP method'
+    'body': 'fdesign.polysrc(${1:args})'
+
+  'fdesign.pulseshaping	DSP method':
+    'prefix': 'fdesign.pulseshaping	DSP method'
+    'body': 'fdesign.pulseshaping(${1:args})'
+
+  'fdesign.rsrc	DSP method':
+    'prefix': 'fdesign.rsrc	DSP method'
+    'body': 'fdesign.rsrc(${1:args})'
+
+  'fftcoeffs	DSP method':
+    'prefix': 'fftcoeffs	DSP method'
+    'body': 'fftcoeffs(${1:args})'
+
+  'filterbuilder	DSP method':
+    'prefix': 'filterbuilder	DSP method'
+    'body': 'filterbuilder(${1:args})'
+
+  'filtstates.cic	DSP method':
+    'prefix': 'filtstates.cic	DSP method'
+    'body': 'filtstates.cic(${1:args})'
+
+  'fircband	DSP method':
+    'prefix': 'fircband	DSP method'
+    'body': 'fircband(${1:args})'
+
+  'firceqrip	DSP method':
+    'prefix': 'firceqrip	DSP method'
+    'body': 'firceqrip(${1:args})'
+
+  'fircls	DSP method':
+    'prefix': 'fircls	DSP method'
+    'body': 'fircls(${1:args})'
+
+  'fireqint	DSP method':
+    'prefix': 'fireqint	DSP method'
+    'body': 'fireqint(${1:args})'
+
+  'firgr	DSP method':
+    'prefix': 'firgr	DSP method'
+    'body': 'firgr(${1:args})'
+
+  'firhalfband	DSP method':
+    'prefix': 'firhalfband	DSP method'
+    'body': 'firhalfband(${1:args})'
+
+  'firlp2hp	DSP method':
+    'prefix': 'firlp2hp	DSP method'
+    'body': 'firlp2hp(${1:args})'
+
+  'firlp2lp	DSP method':
+    'prefix': 'firlp2lp	DSP method'
+    'body': 'firlp2lp(${1:args})'
+
+  'firlpnorm	DSP method':
+    'prefix': 'firlpnorm	DSP method'
+    'body': 'firlpnorm(${1:args})'
+
+  'firls	DSP method':
+    'prefix': 'firls	DSP method'
+    'body': 'firls(${1:args})'
+
+  'firminphase	DSP method':
+    'prefix': 'firminphase	DSP method'
+    'body': 'firminphase(${1:args})'
+
+  'firnyquist	DSP method':
+    'prefix': 'firnyquist	DSP method'
+    'body': 'firnyquist(${1:args})'
+
+  'firpr2chfb	DSP method':
+    'prefix': 'firpr2chfb	DSP method'
+    'body': 'firpr2chfb(${1:args})'
+
+  'firtype	DSP method':
+    'prefix': 'firtype	DSP method'
+    'body': 'firtype(${1:args})'
+
+  'freqrespest	DSP method':
+    'prefix': 'freqrespest	DSP method'
+    'body': 'freqrespest(${1:args})'
+
+  'freqrespopts	DSP method':
+    'prefix': 'freqrespopts	DSP method'
+    'body': 'freqrespopts(${1:args})'
+
+  'freqsamp	DSP method':
+    'prefix': 'freqsamp	DSP method'
+    'body': 'freqsamp(${1:args})'
+
+  'freqz	DSP method':
+    'prefix': 'freqz	DSP method'
+    'body': 'freqz(${1:args})'
+
+  'fvtool	DSP method':
+    'prefix': 'fvtool	DSP method'
+    'body': 'fvtool(${1:args})'
+
+  'gain	DSP method':
+    'prefix': 'gain	DSP method'
+    'body': 'gain(${1:args})'
+
+  'grpdelay	DSP method':
+    'prefix': 'grpdelay	DSP method'
+    'body': 'grpdelay(${1:args})'
+
+  'ifir	DSP method':
+    'prefix': 'ifir	DSP method'
+    'body': 'ifir(${1:args})'
+
+  'iirbpc2bpc	DSP method':
+    'prefix': 'iirbpc2bpc	DSP method'
+    'body': 'iirbpc2bpc(${1:args})'
+
+  'iircomb	DSP method':
+    'prefix': 'iircomb	DSP method'
+    'body': 'iircomb(${1:args})'
+
+  'iirftransf	DSP method':
+    'prefix': 'iirftransf	DSP method'
+    'body': 'iirftransf(${1:args})'
+
+  'iirgrpdelay	DSP method':
+    'prefix': 'iirgrpdelay	DSP method'
+    'body': 'iirgrpdelay(${1:args})'
+
+  'iirlinphase	DSP method':
+    'prefix': 'iirlinphase	DSP method'
+    'body': 'iirlinphase(${1:args})'
+
+  'iirlp2bp	DSP method':
+    'prefix': 'iirlp2bp	DSP method'
+    'body': 'iirlp2bp(${1:args})'
+
+  'iirlp2bpc	DSP method':
+    'prefix': 'iirlp2bpc	DSP method'
+    'body': 'iirlp2bpc(${1:args})'
+
+  'iirlp2bs	DSP method':
+    'prefix': 'iirlp2bs	DSP method'
+    'body': 'iirlp2bs(${1:args})'
+
+  'iirlp2bsc	DSP method':
+    'prefix': 'iirlp2bsc	DSP method'
+    'body': 'iirlp2bsc(${1:args})'
+
+  'iirlp2hp	DSP method':
+    'prefix': 'iirlp2hp	DSP method'
+    'body': 'iirlp2hp(${1:args})'
+
+  'iirlp2lp	DSP method':
+    'prefix': 'iirlp2lp	DSP method'
+    'body': 'iirlp2lp(${1:args})'
+
+  'iirlp2mb	DSP method':
+    'prefix': 'iirlp2mb	DSP method'
+    'body': 'iirlp2mb(${1:args})'
+
+  'iirlp2mbc	DSP method':
+    'prefix': 'iirlp2mbc	DSP method'
+    'body': 'iirlp2mbc(${1:args})'
+
+  'iirlp2xc	DSP method':
+    'prefix': 'iirlp2xc	DSP method'
+    'body': 'iirlp2xc(${1:args})'
+
+  'iirlp2xn	DSP method':
+    'prefix': 'iirlp2xn	DSP method'
+    'body': 'iirlp2xn(${1:args})'
+
+  'iirlpnorm	DSP method':
+    'prefix': 'iirlpnorm	DSP method'
+    'body': 'iirlpnorm(${1:args})'
+
+  'iirlpnormc	DSP method':
+    'prefix': 'iirlpnormc	DSP method'
+    'body': 'iirlpnormc(${1:args})'
+
+  'iirls	DSP method':
+    'prefix': 'iirls	DSP method'
+    'body': 'iirls(${1:args})'
+
+  'iirnotch	DSP method':
+    'prefix': 'iirnotch	DSP method'
+    'body': 'iirnotch(${1:args})'
+
+  'iirparameq	DSP method':
+    'prefix': 'iirparameq	DSP method'
+    'body': 'iirparameq(${1:args})'
+
+  'iirpeak	DSP method':
+    'prefix': 'iirpeak	DSP method'
+    'body': 'iirpeak(${1:args})'
+
+  'iirpowcomp	DSP method':
+    'prefix': 'iirpowcomp	DSP method'
+    'body': 'iirpowcomp(${1:args})'
+
+  'iirrateup	DSP method':
+    'prefix': 'iirrateup	DSP method'
+    'body': 'iirrateup(${1:args})'
+
+  'iirshift	DSP method':
+    'prefix': 'iirshift	DSP method'
+    'body': 'iirshift(${1:args})'
+
+  'iirshiftc	DSP method':
+    'prefix': 'iirshiftc	DSP method'
+    'body': 'iirshiftc(${1:args})'
+
+  'impz	DSP method':
+    'prefix': 'impz	DSP method'
+    'body': 'impz(${1:args})'
+
+  'int	DSP method':
+    'prefix': 'int	DSP method'
+    'body': 'int(${1:args})'
+
+  'isallpass	DSP method':
+    'prefix': 'isallpass	DSP method'
+    'body': 'isallpass(${1:args})'
+
+  'isfir	DSP method':
+    'prefix': 'isfir	DSP method'
+    'body': 'isfir(${1:args})'
+
+  'islinphase	DSP method':
+    'prefix': 'islinphase	DSP method'
+    'body': 'islinphase(${1:args})'
+
+  'ismaxphase	DSP method':
+    'prefix': 'ismaxphase	DSP method'
+    'body': 'ismaxphase(${1:args})'
+
+  'isminphase	DSP method':
+    'prefix': 'isminphase	DSP method'
+    'body': 'isminphase(${1:args})'
+
+  'issos	DSP method':
+    'prefix': 'issos	DSP method'
+    'body': 'issos(${1:args})'
+
+  'liblinks	DSP method':
+    'prefix': 'liblinks	DSP method'
+    'body': 'liblinks(${1:args})'
+
+  'limitcycle	DSP method':
+    'prefix': 'limitcycle	DSP method'
+    'body': 'limitcycle(${1:args})'
+
+  'maxflat	DSP method':
+    'prefix': 'maxflat	DSP method'
+    'body': 'maxflat(${1:args})'
+
+  'maximizestopband	DSP method':
+    'prefix': 'maximizestopband	DSP method'
+    'body': 'maximizestopband(${1:args})'
+
+  'maxstep	DSP method':
+    'prefix': 'maxstep	DSP method'
+    'body': 'maxstep(${1:args})'
+
+  'measure	DSP method':
+    'prefix': 'measure	DSP method'
+    'body': 'measure(${1:args})'
+
+  'mfilt	DSP method':
+    'prefix': 'mfilt	DSP method'
+    'body': 'mfilt(${1:args})'
+
+  'mfilt.cascade	DSP method':
+    'prefix': 'mfilt.cascade	DSP method'
+    'body': 'mfilt.cascade(${1:args})'
+
+  'mfilt.cicdecim	DSP method':
+    'prefix': 'mfilt.cicdecim	DSP method'
+    'body': 'mfilt.cicdecim(${1:args})'
+
+  'mfilt.cicinterp	DSP method':
+    'prefix': 'mfilt.cicinterp	DSP method'
+    'body': 'mfilt.cicinterp(${1:args})'
+
+  'mfilt.farrowsrc	DSP method':
+    'prefix': 'mfilt.farrowsrc	DSP method'
+    'body': 'mfilt.farrowsrc(${1:args})'
+
+  'mfilt.fftfirinterp	DSP method':
+    'prefix': 'mfilt.fftfirinterp	DSP method'
+    'body': 'mfilt.fftfirinterp(${1:args})'
+
+  'mfilt.firdecim	DSP method':
+    'prefix': 'mfilt.firdecim	DSP method'
+    'body': 'mfilt.firdecim(${1:args})'
+
+  'mfilt.firfracdecim	DSP method':
+    'prefix': 'mfilt.firfracdecim	DSP method'
+    'body': 'mfilt.firfracdecim(${1:args})'
+
+  'mfilt.firfracinterp	DSP method':
+    'prefix': 'mfilt.firfracinterp	DSP method'
+    'body': 'mfilt.firfracinterp(${1:args})'
+
+  'mfilt.firinterp	DSP method':
+    'prefix': 'mfilt.firinterp	DSP method'
+    'body': 'mfilt.firinterp(${1:args})'
+
+  'mfilt.firsrc	DSP method':
+    'prefix': 'mfilt.firsrc	DSP method'
+    'body': 'mfilt.firsrc(${1:args})'
+
+  'mfilt.firtdecim	DSP method':
+    'prefix': 'mfilt.firtdecim	DSP method'
+    'body': 'mfilt.firtdecim(${1:args})'
+
+  'mfilt.holdinterp	DSP method':
+    'prefix': 'mfilt.holdinterp	DSP method'
+    'body': 'mfilt.holdinterp(${1:args})'
+
+  'mfilt.iirdecim	DSP method':
+    'prefix': 'mfilt.iirdecim	DSP method'
+    'body': 'mfilt.iirdecim(${1:args})'
+
+  'mfilt.iirinterp	DSP method':
+    'prefix': 'mfilt.iirinterp	DSP method'
+    'body': 'mfilt.iirinterp(${1:args})'
+
+  'mfilt.iirwdfdecim	DSP method':
+    'prefix': 'mfilt.iirwdfdecim	DSP method'
+    'body': 'mfilt.iirwdfdecim(${1:args})'
+
+  'mfilt.iirwdfinterp	DSP method':
+    'prefix': 'mfilt.iirwdfinterp	DSP method'
+    'body': 'mfilt.iirwdfinterp(${1:args})'
+
+  'mfilt.linearinterp	DSP method':
+    'prefix': 'mfilt.linearinterp	DSP method'
+    'body': 'mfilt.linearinterp(${1:args})'
+
+  'midicallback	DSP method':
+    'prefix': 'midicallback	DSP method'
+    'body': 'midicallback(${1:args})'
+
+  'midicontrols	DSP method':
+    'prefix': 'midicontrols	DSP method'
+    'body': 'midicontrols(${1:args})'
+
+  'midiid	DSP method':
+    'prefix': 'midiid	DSP method'
+    'body': 'midiid(${1:args})'
+
+  'midiread	DSP method':
+    'prefix': 'midiread	DSP method'
+    'body': 'midiread(${1:args})'
+
+  'midisync	DSP method':
+    'prefix': 'midisync	DSP method'
+    'body': 'midisync(${1:args})'
+
+  'minimizecoeffwl	DSP method':
+    'prefix': 'minimizecoeffwl	DSP method'
+    'body': 'minimizecoeffwl(${1:args})'
+
+  'msepred	DSP method':
+    'prefix': 'msepred	DSP method'
+    'body': 'msepred(${1:args})'
+
+  'msesim	DSP method':
+    'prefix': 'msesim	DSP method'
+    'body': 'msesim(${1:args})'
+
+  'multistage	DSP method':
+    'prefix': 'multistage	DSP method'
+    'body': 'multistage(${1:args})'
+
+  'noisepsd	DSP method':
+    'prefix': 'noisepsd	DSP method'
+    'body': 'noisepsd(${1:args})'
+
+  'noisepsdopts	DSP method':
+    'prefix': 'noisepsdopts	DSP method'
+    'body': 'noisepsdopts(${1:args})'
+
+  'normalize	DSP method':
+    'prefix': 'normalize	DSP method'
+    'body': 'normalize(${1:args})'
+
+  'normalizefreq	DSP method':
+    'prefix': 'normalizefreq	DSP method'
+    'body': 'normalizefreq(${1:args})'
+
+  'nstates	DSP method':
+    'prefix': 'nstates	DSP method'
+    'body': 'nstates(${1:args})'
+
+  'phasedelay	DSP method':
+    'prefix': 'phasedelay	DSP method'
+    'body': 'phasedelay(${1:args})'
+
+  'phasez	DSP method':
+    'prefix': 'phasez	DSP method'
+    'body': 'phasez(${1:args})'
+
+  'polyphase	DSP method':
+    'prefix': 'polyphase	DSP method'
+    'body': 'polyphase(${1:args})'
+
+  'qreport	DSP method':
+    'prefix': 'qreport	DSP method'
+    'body': 'qreport(${1:args})'
+
+  'realizemdl	DSP method':
+    'prefix': 'realizemdl	DSP method'
+    'body': 'realizemdl(${1:args})'
+
+  'rebuffer_delay	DSP method':
+    'prefix': 'rebuffer_delay	DSP method'
+    'body': 'rebuffer_delay(${1:args})'
+
+  'reffilter	DSP method':
+    'prefix': 'reffilter	DSP method'
+    'body': 'reffilter(${1:args})'
+
+  'reorder	DSP method':
+    'prefix': 'reorder	DSP method'
+    'body': 'reorder(${1:args})'
+
+  'scale	DSP method':
+    'prefix': 'scale	DSP method'
+    'body': 'scale(${1:args})'
+
+  'scalecheck	DSP method':
+    'prefix': 'scalecheck	DSP method'
+    'body': 'scalecheck(${1:args})'
+
+  'scaleopts	DSP method':
+    'prefix': 'scaleopts	DSP method'
+    'body': 'scaleopts(${1:args})'
+
+  'set2int	DSP method':
+    'prefix': 'set2int	DSP method'
+    'body': 'set2int(${1:args})'
+
+  'setspecs	DSP method':
+    'prefix': 'setspecs	DSP method'
+    'body': 'setspecs(${1:args})'
+
+  'sos	DSP method':
+    'prefix': 'sos	DSP method'
+    'body': 'sos(${1:args})'
+
+  'spbscopes.SpectrumAnalyzerConfiguration	DSP method':
+    'prefix': 'spbscopes.SpectrumAnalyzerConfiguration	DSP method'
+    'body': 'spbscopes.SpectrumAnalyzerConfiguration(${1:args})'
+
+  'specifyall	DSP method':
+    'prefix': 'specifyall	DSP method'
+    'body': 'specifyall(${1:args})'
+
+  'stepz	DSP method':
+    'prefix': 'stepz	DSP method'
+    'body': 'stepz(${1:args})'
+
+  'sysobj	DSP method':
+    'prefix': 'sysobj	DSP method'
+    'body': 'sysobj(${1:args})'
+
+  'tf2ca	DSP method':
+    'prefix': 'tf2ca	DSP method'
+    'body': 'tf2ca(${1:args})'
+
+  'tf2cl	DSP method':
+    'prefix': 'tf2cl	DSP method'
+    'body': 'tf2cl(${1:args})'
+
+  'validstructures	DSP method':
+    'prefix': 'validstructures	DSP method'
+    'body': 'validstructures(${1:args})'
+
+  'wdf2allpass	DSP method':
+    'prefix': 'wdf2allpass	DSP method'
+    'body': 'wdf2allpass(${1:args})'
+
+  'window	DSP method':
+    'prefix': 'window	DSP method'
+    'body': 'window(${1:args})'
+
+  'zerophase	DSP method':
+    'prefix': 'zerophase	DSP method'
+    'body': 'zerophase(${1:args})'
+
+  'zpkbpc2bpc	DSP method':
+    'prefix': 'zpkbpc2bpc	DSP method'
+    'body': 'zpkbpc2bpc(${1:args})'
+
+  'zpkftransf	DSP method':
+    'prefix': 'zpkftransf	DSP method'
+    'body': 'zpkftransf(${1:args})'
+
+  'zpklp2bp	DSP method':
+    'prefix': 'zpklp2bp	DSP method'
+    'body': 'zpklp2bp(${1:args})'
+
+  'zpklp2bpc	DSP method':
+    'prefix': 'zpklp2bpc	DSP method'
+    'body': 'zpklp2bpc(${1:args})'
+
+  'zpklp2bs	DSP method':
+    'prefix': 'zpklp2bs	DSP method'
+    'body': 'zpklp2bs(${1:args})'
+
+  'zpklp2bsc	DSP method':
+    'prefix': 'zpklp2bsc	DSP method'
+    'body': 'zpklp2bsc(${1:args})'
+
+  'zpklp2hp	DSP method':
+    'prefix': 'zpklp2hp	DSP method'
+    'body': 'zpklp2hp(${1:args})'
+
+  'zpklp2lp	DSP method':
+    'prefix': 'zpklp2lp	DSP method'
+    'body': 'zpklp2lp(${1:args})'
+
+  'zpklp2mb	DSP method':
+    'prefix': 'zpklp2mb	DSP method'
+    'body': 'zpklp2mb(${1:args})'
+
+  'zpklp2mbc	DSP method':
+    'prefix': 'zpklp2mbc	DSP method'
+    'body': 'zpklp2mbc(${1:args})'
+
+  'zpklp2xc	DSP method':
+    'prefix': 'zpklp2xc	DSP method'
+    'body': 'zpklp2xc(${1:args})'
+
+  'zpklp2xn	DSP method':
+    'prefix': 'zpklp2xn	DSP method'
+    'body': 'zpklp2xn(${1:args})'
+
+  'zpkrateup	DSP method':
+    'prefix': 'zpkrateup	DSP method'
+    'body': 'zpkrateup(${1:args})'
+
+  'zpkshift	DSP method':
+    'prefix': 'zpkshift	DSP method'
+    'body': 'zpkshift(${1:args})'
+
+  'zpkshiftc	DSP method':
+    'prefix': 'zpkshiftc	DSP method'
+    'body': 'zpkshiftc(${1:args})'
+
+  'zplane	DSP method':
+    'prefix': 'zplane	DSP method'
+    'body': 'zplane(${1:args})'

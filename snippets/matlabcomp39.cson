@@ -1,0 +1,767 @@
+# matlabcomp39 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'BRISKPoints	Vision method':
+    'prefix': 'BRISKPoints	Vision method'
+    'body': 'BRISKPoints(${1:args})'
+
+  'MSERRegions	Vision method':
+    'prefix': 'MSERRegions	Vision method'
+    'body': 'MSERRegions(${1:args})'
+
+  'SURFPoints	Vision method':
+    'prefix': 'SURFPoints	Vision method'
+    'body': 'SURFPoints(${1:args})'
+
+  'affine2d	Vision method':
+    'prefix': 'affine2d	Vision method'
+    'body': 'affine2d(${1:args})'
+
+  'affine3d	Vision method':
+    'prefix': 'affine3d	Vision method'
+    'body': 'affine3d(${1:args})'
+
+  'alignColorToDepth	Vision method':
+    'prefix': 'alignColorToDepth	Vision method'
+    'body': 'alignColorToDepth(${1:args})'
+
+  'assignDetectionsToTracks	Vision method':
+    'prefix': 'assignDetectionsToTracks	Vision method'
+    'body': 'assignDetectionsToTracks(${1:args})'
+
+  'bagOfFeatures	Vision method':
+    'prefix': 'bagOfFeatures	Vision method'
+    'body': 'bagOfFeatures(${1:args})'
+
+  'bbox2points	Vision method':
+    'prefix': 'bbox2points	Vision method'
+    'body': 'bbox2points(${1:args})'
+
+  'bboxOverlapRatio	Vision method':
+    'prefix': 'bboxOverlapRatio	Vision method'
+    'body': 'bboxOverlapRatio(${1:args})'
+
+  'binaryFeatures	Vision method':
+    'prefix': 'binaryFeatures	Vision method'
+    'body': 'binaryFeatures(${1:args})'
+
+  'bwconncomp	Vision method':
+    'prefix': 'bwconncomp	Vision method'
+    'body': 'bwconncomp(${1:args})'
+
+  'bwlabel	Vision method':
+    'prefix': 'bwlabel	Vision method'
+    'body': 'bwlabel(${1:args})'
+
+  'bwlabeln	Vision method':
+    'prefix': 'bwlabeln	Vision method'
+    'body': 'bwlabeln(${1:args})'
+
+  'bwmorph	Vision method':
+    'prefix': 'bwmorph	Vision method'
+    'body': 'bwmorph(${1:args})'
+
+  'cameraCalibrationErrors	Vision method':
+    'prefix': 'cameraCalibrationErrors	Vision method'
+    'body': 'cameraCalibrationErrors(${1:args})'
+
+  'cameraMatrix	Vision method':
+    'prefix': 'cameraMatrix	Vision method'
+    'body': 'cameraMatrix(${1:args})'
+
+  'cameraParameters	Vision method':
+    'prefix': 'cameraParameters	Vision method'
+    'body': 'cameraParameters(${1:args})'
+
+  'cameraPose	Vision method':
+    'prefix': 'cameraPose	Vision method'
+    'body': 'cameraPose(${1:args})'
+
+  'configureKalmanFilter	Vision method':
+    'prefix': 'configureKalmanFilter	Vision method'
+    'body': 'configureKalmanFilter(${1:args})'
+
+  'cornerPoints	Vision method':
+    'prefix': 'cornerPoints	Vision method'
+    'body': 'cornerPoints(${1:args})'
+
+  'cylinderModel	Vision method':
+    'prefix': 'cylinderModel	Vision method'
+    'body': 'cylinderModel(${1:args})'
+
+  'depthToPointCloud	Vision method':
+    'prefix': 'depthToPointCloud	Vision method'
+    'body': 'depthToPointCloud(${1:args})'
+
+  'detectBRISKFeatures	Vision method':
+    'prefix': 'detectBRISKFeatures	Vision method'
+    'body': 'detectBRISKFeatures(${1:args})'
+
+  'detectCheckerboardPoints	Vision method':
+    'prefix': 'detectCheckerboardPoints	Vision method'
+    'body': 'detectCheckerboardPoints(${1:args})'
+
+  'detectFASTFeatures	Vision method':
+    'prefix': 'detectFASTFeatures	Vision method'
+    'body': 'detectFASTFeatures(${1:args})'
+
+  'detectHarrisFeatures	Vision method':
+    'prefix': 'detectHarrisFeatures	Vision method'
+    'body': 'detectHarrisFeatures(${1:args})'
+
+  'detectMSERFeatures	Vision method':
+    'prefix': 'detectMSERFeatures	Vision method'
+    'body': 'detectMSERFeatures(${1:args})'
+
+  'detectMinEigenFeatures	Vision method':
+    'prefix': 'detectMinEigenFeatures	Vision method'
+    'body': 'detectMinEigenFeatures(${1:args})'
+
+  'detectSURFFeatures	Vision method':
+    'prefix': 'detectSURFFeatures	Vision method'
+    'body': 'detectSURFFeatures(${1:args})'
+
+  'disparity	Vision method':
+    'prefix': 'disparity	Vision method'
+    'body': 'disparity(${1:args})'
+
+  'epipolarLine	Vision method':
+    'prefix': 'epipolarLine	Vision method'
+    'body': 'epipolarLine(${1:args})'
+
+  'estimateCameraParameters	Vision method':
+    'prefix': 'estimateCameraParameters	Vision method'
+    'body': 'estimateCameraParameters(${1:args})'
+
+  'estimateFundamentalMatrix	Vision method':
+    'prefix': 'estimateFundamentalMatrix	Vision method'
+    'body': 'estimateFundamentalMatrix(${1:args})'
+
+  'estimateGeometricTransform	Vision method':
+    'prefix': 'estimateGeometricTransform	Vision method'
+    'body': 'estimateGeometricTransform(${1:args})'
+
+  'estimateUncalibratedRectification	Vision method':
+    'prefix': 'estimateUncalibratedRectification	Vision method'
+    'body': 'estimateUncalibratedRectification(${1:args})'
+
+  'evaluateImageRetrieval	Vision method':
+    'prefix': 'evaluateImageRetrieval	Vision method'
+    'body': 'evaluateImageRetrieval(${1:args})'
+
+  'extractFeatures	Vision method':
+    'prefix': 'extractFeatures	Vision method'
+    'body': 'extractFeatures(${1:args})'
+
+  'extractHOGFeatures	Vision method':
+    'prefix': 'extractHOGFeatures	Vision method'
+    'body': 'extractHOGFeatures(${1:args})'
+
+  'extractLBPFeatures	Vision method':
+    'prefix': 'extractLBPFeatures	Vision method'
+    'body': 'extractLBPFeatures(${1:args})'
+
+  'extrinsics	Vision method':
+    'prefix': 'extrinsics	Vision method'
+    'body': 'extrinsics(${1:args})'
+
+  'extrinsicsEstimationErrors	Vision method':
+    'prefix': 'extrinsicsEstimationErrors	Vision method'
+    'body': 'extrinsicsEstimationErrors(${1:args})'
+
+  'findNearestNeighbors	Vision method':
+    'prefix': 'findNearestNeighbors	Vision method'
+    'body': 'findNearestNeighbors(${1:args})'
+
+  'findNeighborsInRadius	Vision method':
+    'prefix': 'findNeighborsInRadius	Vision method'
+    'body': 'findNeighborsInRadius(${1:args})'
+
+  'findPointsInROI	Vision method':
+    'prefix': 'findPointsInROI	Vision method'
+    'body': 'findPointsInROI(${1:args})'
+
+  'generateCheckerboardPoints	Vision method':
+    'prefix': 'generateCheckerboardPoints	Vision method'
+    'body': 'generateCheckerboardPoints(${1:args})'
+
+  'imageCategoryClassifier	Vision method':
+    'prefix': 'imageCategoryClassifier	Vision method'
+    'body': 'imageCategoryClassifier(${1:args})'
+
+  'imageSet	Vision method':
+    'prefix': 'imageSet	Vision method'
+    'body': 'imageSet(${1:args})'
+
+  'imbothat	Vision method':
+    'prefix': 'imbothat	Vision method'
+    'body': 'imbothat(${1:args})'
+
+  'imclose	Vision method':
+    'prefix': 'imclose	Vision method'
+    'body': 'imclose(${1:args})'
+
+  'imdilate	Vision method':
+    'prefix': 'imdilate	Vision method'
+    'body': 'imdilate(${1:args})'
+
+  'imerode	Vision method':
+    'prefix': 'imerode	Vision method'
+    'body': 'imerode(${1:args})'
+
+  'imopen	Vision method':
+    'prefix': 'imopen	Vision method'
+    'body': 'imopen(${1:args})'
+
+  'imreconstruct	Vision method':
+    'prefix': 'imreconstruct	Vision method'
+    'body': 'imreconstruct(${1:args})'
+
+  'imtophat	Vision method':
+    'prefix': 'imtophat	Vision method'
+    'body': 'imtophat(${1:args})'
+
+  'imwarp	Vision method':
+    'prefix': 'imwarp	Vision method'
+    'body': 'imwarp(${1:args})'
+
+  'indexImages	Vision method':
+    'prefix': 'indexImages	Vision method'
+    'body': 'indexImages(${1:args})'
+
+  'insertMarker	Vision method':
+    'prefix': 'insertMarker	Vision method'
+    'body': 'insertMarker(${1:args})'
+
+  'insertObjectAnnotation	Vision method':
+    'prefix': 'insertObjectAnnotation	Vision method'
+    'body': 'insertObjectAnnotation(${1:args})'
+
+  'insertShape	Vision method':
+    'prefix': 'insertShape	Vision method'
+    'body': 'insertShape(${1:args})'
+
+  'insertText	Vision method':
+    'prefix': 'insertText	Vision method'
+    'body': 'insertText(${1:args})'
+
+  'integralFilter	Vision method':
+    'prefix': 'integralFilter	Vision method'
+    'body': 'integralFilter(${1:args})'
+
+  'integralImage	Vision method':
+    'prefix': 'integralImage	Vision method'
+    'body': 'integralImage(${1:args})'
+
+  'integralKernel	Vision method':
+    'prefix': 'integralKernel	Vision method'
+    'body': 'integralKernel(${1:args})'
+
+  'intrinsicsEstimationErrors	Vision method':
+    'prefix': 'intrinsicsEstimationErrors	Vision method'
+    'body': 'intrinsicsEstimationErrors(${1:args})'
+
+  'invertedImageIndex	Vision method':
+    'prefix': 'invertedImageIndex	Vision method'
+    'body': 'invertedImageIndex(${1:args})'
+
+  'isEpipoleInImage	Vision method':
+    'prefix': 'isEpipoleInImage	Vision method'
+    'body': 'isEpipoleInImage(${1:args})'
+
+  'isfilterseparable	Vision method':
+    'prefix': 'isfilterseparable	Vision method'
+    'body': 'isfilterseparable(${1:args})'
+
+  'lineToBorderPoints	Vision method':
+    'prefix': 'lineToBorderPoints	Vision method'
+    'body': 'lineToBorderPoints(${1:args})'
+
+  'listTrueTypeFonts	Vision method':
+    'prefix': 'listTrueTypeFonts	Vision method'
+    'body': 'listTrueTypeFonts(${1:args})'
+
+  'matchFeatures	Vision method':
+    'prefix': 'matchFeatures	Vision method'
+    'body': 'matchFeatures(${1:args})'
+
+  'ocr	Vision method':
+    'prefix': 'ocr	Vision method'
+    'body': 'ocr(${1:args})'
+
+  'ocrText	Vision method':
+    'prefix': 'ocrText	Vision method'
+    'body': 'ocrText(${1:args})'
+
+  'ocvCheckFeaturePointsStruct	Vision method':
+    'prefix': 'ocvCheckFeaturePointsStruct	Vision method'
+    'body': 'ocvCheckFeaturePointsStruct(${1:args})'
+
+  'ocvCvBox2DToMxArray	Vision method':
+    'prefix': 'ocvCvBox2DToMxArray	Vision method'
+    'body': 'ocvCvBox2DToMxArray(${1:args})'
+
+  'ocvCvRectToMxArray	Vision method':
+    'prefix': 'ocvCvRectToMxArray	Vision method'
+    'body': 'ocvCvRectToMxArray(${1:args})'
+
+  'ocvKeyPointsToStruct	Vision method':
+    'prefix': 'ocvKeyPointsToStruct	Vision method'
+    'body': 'ocvKeyPointsToStruct(${1:args})'
+
+  'ocvMxArrayFromPoints2f	Vision method':
+    'prefix': 'ocvMxArrayFromPoints2f	Vision method'
+    'body': 'ocvMxArrayFromPoints2f(${1:args})'
+
+  'ocvMxArrayFromVector	Vision method':
+    'prefix': 'ocvMxArrayFromVector	Vision method'
+    'body': 'ocvMxArrayFromVector(${1:args})'
+
+  'ocvMxArrayToCvRect	Vision method':
+    'prefix': 'ocvMxArrayToCvRect	Vision method'
+    'body': 'ocvMxArrayToCvRect(${1:args})'
+
+  'ocvMxArrayToSize	Vision method':
+    'prefix': 'ocvMxArrayToSize	Vision method'
+    'body': 'ocvMxArrayToSize(${1:args})'
+
+  'ocvStructToKeyPoints	Vision method':
+    'prefix': 'ocvStructToKeyPoints	Vision method'
+    'body': 'ocvStructToKeyPoints(${1:args})'
+
+  'opticalFlow	Vision method':
+    'prefix': 'opticalFlow	Vision method'
+    'body': 'opticalFlow(${1:args})'
+
+  'opticalFlowFarneback	Vision method':
+    'prefix': 'opticalFlowFarneback	Vision method'
+    'body': 'opticalFlowFarneback(${1:args})'
+
+  'opticalFlowHS	Vision method':
+    'prefix': 'opticalFlowHS	Vision method'
+    'body': 'opticalFlowHS(${1:args})'
+
+  'opticalFlowLK	Vision method':
+    'prefix': 'opticalFlowLK	Vision method'
+    'body': 'opticalFlowLK(${1:args})'
+
+  'opticalFlowLKDoG	Vision method':
+    'prefix': 'opticalFlowLKDoG	Vision method'
+    'body': 'opticalFlowLKDoG(${1:args})'
+
+  'pcdenoise	Vision method':
+    'prefix': 'pcdenoise	Vision method'
+    'body': 'pcdenoise(${1:args})'
+
+  'pcdownsample	Vision method':
+    'prefix': 'pcdownsample	Vision method'
+    'body': 'pcdownsample(${1:args})'
+
+  'pcfitcylinder	Vision method':
+    'prefix': 'pcfitcylinder	Vision method'
+    'body': 'pcfitcylinder(${1:args})'
+
+  'pcfitplane	Vision method':
+    'prefix': 'pcfitplane	Vision method'
+    'body': 'pcfitplane(${1:args})'
+
+  'pcfitsphere	Vision method':
+    'prefix': 'pcfitsphere	Vision method'
+    'body': 'pcfitsphere(${1:args})'
+
+  'pcfromkinect	Vision method':
+    'prefix': 'pcfromkinect	Vision method'
+    'body': 'pcfromkinect(${1:args})'
+
+  'pcmerge	Vision method':
+    'prefix': 'pcmerge	Vision method'
+    'body': 'pcmerge(${1:args})'
+
+  'pcnormals	Vision method':
+    'prefix': 'pcnormals	Vision method'
+    'body': 'pcnormals(${1:args})'
+
+  'pcplayer	Vision method':
+    'prefix': 'pcplayer	Vision method'
+    'body': 'pcplayer(${1:args})'
+
+  'pcread	Vision method':
+    'prefix': 'pcread	Vision method'
+    'body': 'pcread(${1:args})'
+
+  'pcregrigid	Vision method':
+    'prefix': 'pcregrigid	Vision method'
+    'body': 'pcregrigid(${1:args})'
+
+  'pcshow	Vision method':
+    'prefix': 'pcshow	Vision method'
+    'body': 'pcshow(${1:args})'
+
+  'pcshowpair	Vision method':
+    'prefix': 'pcshowpair	Vision method'
+    'body': 'pcshowpair(${1:args})'
+
+  'pctransform	Vision method':
+    'prefix': 'pctransform	Vision method'
+    'body': 'pctransform(${1:args})'
+
+  'pcwrite	Vision method':
+    'prefix': 'pcwrite	Vision method'
+    'body': 'pcwrite(${1:args})'
+
+  'planeModel	Vision method':
+    'prefix': 'planeModel	Vision method'
+    'body': 'planeModel(${1:args})'
+
+  'plotCamera	Vision method':
+    'prefix': 'plotCamera	Vision method'
+    'body': 'plotCamera(${1:args})'
+
+  'pointCloud	Vision method':
+    'prefix': 'pointCloud	Vision method'
+    'body': 'pointCloud(${1:args})'
+
+  'projective2d	Vision method':
+    'prefix': 'projective2d	Vision method'
+    'body': 'projective2d(${1:args})'
+
+  'reconstructScene	Vision method':
+    'prefix': 'reconstructScene	Vision method'
+    'body': 'reconstructScene(${1:args})'
+
+  'rectifyStereoImages	Vision method':
+    'prefix': 'rectifyStereoImages	Vision method'
+    'body': 'rectifyStereoImages(${1:args})'
+
+  'removeInvalidPoints	Vision method':
+    'prefix': 'removeInvalidPoints	Vision method'
+    'body': 'removeInvalidPoints(${1:args})'
+
+  'retrieveImages	Vision method':
+    'prefix': 'retrieveImages	Vision method'
+    'body': 'retrieveImages(${1:args})'
+
+  'selectStrongestBbox	Vision method':
+    'prefix': 'selectStrongestBbox	Vision method'
+    'body': 'selectStrongestBbox(${1:args})'
+
+  'showExtrinsics	Vision method':
+    'prefix': 'showExtrinsics	Vision method'
+    'body': 'showExtrinsics(${1:args})'
+
+  'showMatchedFeatures	Vision method':
+    'prefix': 'showMatchedFeatures	Vision method'
+    'body': 'showMatchedFeatures(${1:args})'
+
+  'showReprojectionErrors	Vision method':
+    'prefix': 'showReprojectionErrors	Vision method'
+    'body': 'showReprojectionErrors(${1:args})'
+
+  'sphereModel	Vision method':
+    'prefix': 'sphereModel	Vision method'
+    'body': 'sphereModel(${1:args})'
+
+  'stereoAnaglyph	Vision method':
+    'prefix': 'stereoAnaglyph	Vision method'
+    'body': 'stereoAnaglyph(${1:args})'
+
+  'stereoCalibrationErrors	Vision method':
+    'prefix': 'stereoCalibrationErrors	Vision method'
+    'body': 'stereoCalibrationErrors(${1:args})'
+
+  'stereoParameters	Vision method':
+    'prefix': 'stereoParameters	Vision method'
+    'body': 'stereoParameters(${1:args})'
+
+  'trainCascadeObjectDetector	Vision method':
+    'prefix': 'trainCascadeObjectDetector	Vision method'
+    'body': 'trainCascadeObjectDetector(${1:args})'
+
+  'trainImageCategoryClassifier	Vision method':
+    'prefix': 'trainImageCategoryClassifier	Vision method'
+    'body': 'trainImageCategoryClassifier(${1:args})'
+
+  'triangulate	Vision method':
+    'prefix': 'triangulate	Vision method'
+    'body': 'triangulate(${1:args})'
+
+  'undistortImage	Vision method':
+    'prefix': 'undistortImage	Vision method'
+    'body': 'undistortImage(${1:args})'
+
+  'undistortPoints	Vision method':
+    'prefix': 'undistortPoints	Vision method'
+    'body': 'undistortPoints(${1:args})'
+
+  'vision.AlphaBlender	Vision method':
+    'prefix': 'vision.AlphaBlender	Vision method'
+    'body': 'vision.AlphaBlender(${1:args})'
+
+  'vision.Autocorrelator	Vision method':
+    'prefix': 'vision.Autocorrelator	Vision method'
+    'body': 'vision.Autocorrelator(${1:args})'
+
+  'vision.Autothresholder	Vision method':
+    'prefix': 'vision.Autothresholder	Vision method'
+    'body': 'vision.Autothresholder(${1:args})'
+
+  'vision.BinaryFileReader	Vision method':
+    'prefix': 'vision.BinaryFileReader	Vision method'
+    'body': 'vision.BinaryFileReader(${1:args})'
+
+  'vision.BinaryFileWriter	Vision method':
+    'prefix': 'vision.BinaryFileWriter	Vision method'
+    'body': 'vision.BinaryFileWriter(${1:args})'
+
+  'vision.BlobAnalysis	Vision method':
+    'prefix': 'vision.BlobAnalysis	Vision method'
+    'body': 'vision.BlobAnalysis(${1:args})'
+
+  'vision.BlockMatcher	Vision method':
+    'prefix': 'vision.BlockMatcher	Vision method'
+    'body': 'vision.BlockMatcher(${1:args})'
+
+  'vision.BoundaryTracer	Vision method':
+    'prefix': 'vision.BoundaryTracer	Vision method'
+    'body': 'vision.BoundaryTracer(${1:args})'
+
+  'vision.CascadeObjectDetector	Vision method':
+    'prefix': 'vision.CascadeObjectDetector	Vision method'
+    'body': 'vision.CascadeObjectDetector(${1:args})'
+
+  'vision.ChromaResampler	Vision method':
+    'prefix': 'vision.ChromaResampler	Vision method'
+    'body': 'vision.ChromaResampler(${1:args})'
+
+  'vision.ColorSpaceConverter	Vision method':
+    'prefix': 'vision.ColorSpaceConverter	Vision method'
+    'body': 'vision.ColorSpaceConverter(${1:args})'
+
+  'vision.ConnectedComponentLabeler	Vision method':
+    'prefix': 'vision.ConnectedComponentLabeler	Vision method'
+    'body': 'vision.ConnectedComponentLabeler(${1:args})'
+
+  'vision.ContrastAdjuster	Vision method':
+    'prefix': 'vision.ContrastAdjuster	Vision method'
+    'body': 'vision.ContrastAdjuster(${1:args})'
+
+  'vision.Convolver	Vision method':
+    'prefix': 'vision.Convolver	Vision method'
+    'body': 'vision.Convolver(${1:args})'
+
+  'vision.Crosscorrelator	Vision method':
+    'prefix': 'vision.Crosscorrelator	Vision method'
+    'body': 'vision.Crosscorrelator(${1:args})'
+
+  'vision.DCT	Vision method':
+    'prefix': 'vision.DCT	Vision method'
+    'body': 'vision.DCT(${1:args})'
+
+  'vision.Deinterlacer	Vision method':
+    'prefix': 'vision.Deinterlacer	Vision method'
+    'body': 'vision.Deinterlacer(${1:args})'
+
+  'vision.DemosaicInterpolator	Vision method':
+    'prefix': 'vision.DemosaicInterpolator	Vision method'
+    'body': 'vision.DemosaicInterpolator(${1:args})'
+
+  'vision.DeployableVideoPlayer	Vision method':
+    'prefix': 'vision.DeployableVideoPlayer	Vision method'
+    'body': 'vision.DeployableVideoPlayer(${1:args})'
+
+  'vision.EdgeDetector	Vision method':
+    'prefix': 'vision.EdgeDetector	Vision method'
+    'body': 'vision.EdgeDetector(${1:args})'
+
+  'vision.FFT	Vision method':
+    'prefix': 'vision.FFT	Vision method'
+    'body': 'vision.FFT(${1:args})'
+
+  'vision.ForegroundDetector	Vision method':
+    'prefix': 'vision.ForegroundDetector	Vision method'
+    'body': 'vision.ForegroundDetector(${1:args})'
+
+  'vision.GammaCorrector	Vision method':
+    'prefix': 'vision.GammaCorrector	Vision method'
+    'body': 'vision.GammaCorrector(${1:args})'
+
+  'vision.GeometricRotator	Vision method':
+    'prefix': 'vision.GeometricRotator	Vision method'
+    'body': 'vision.GeometricRotator(${1:args})'
+
+  'vision.GeometricScaler	Vision method':
+    'prefix': 'vision.GeometricScaler	Vision method'
+    'body': 'vision.GeometricScaler(${1:args})'
+
+  'vision.GeometricShearer	Vision method':
+    'prefix': 'vision.GeometricShearer	Vision method'
+    'body': 'vision.GeometricShearer(${1:args})'
+
+  'vision.GeometricTransformEstimator	Vision method':
+    'prefix': 'vision.GeometricTransformEstimator	Vision method'
+    'body': 'vision.GeometricTransformEstimator(${1:args})'
+
+  'vision.GeometricTransformer	Vision method':
+    'prefix': 'vision.GeometricTransformer	Vision method'
+    'body': 'vision.GeometricTransformer(${1:args})'
+
+  'vision.GeometricTranslator	Vision method':
+    'prefix': 'vision.GeometricTranslator	Vision method'
+    'body': 'vision.GeometricTranslator(${1:args})'
+
+  'vision.Histogram	Vision method':
+    'prefix': 'vision.Histogram	Vision method'
+    'body': 'vision.Histogram(${1:args})'
+
+  'vision.HistogramBasedTracker	Vision method':
+    'prefix': 'vision.HistogramBasedTracker	Vision method'
+    'body': 'vision.HistogramBasedTracker(${1:args})'
+
+  'vision.HistogramEqualizer	Vision method':
+    'prefix': 'vision.HistogramEqualizer	Vision method'
+    'body': 'vision.HistogramEqualizer(${1:args})'
+
+  'vision.HoughLines	Vision method':
+    'prefix': 'vision.HoughLines	Vision method'
+    'body': 'vision.HoughLines(${1:args})'
+
+  'vision.HoughTransform	Vision method':
+    'prefix': 'vision.HoughTransform	Vision method'
+    'body': 'vision.HoughTransform(${1:args})'
+
+  'vision.IDCT	Vision method':
+    'prefix': 'vision.IDCT	Vision method'
+    'body': 'vision.IDCT(${1:args})'
+
+  'vision.IFFT	Vision method':
+    'prefix': 'vision.IFFT	Vision method'
+    'body': 'vision.IFFT(${1:args})'
+
+  'vision.ImageComplementer	Vision method':
+    'prefix': 'vision.ImageComplementer	Vision method'
+    'body': 'vision.ImageComplementer(${1:args})'
+
+  'vision.ImageDataTypeConverter	Vision method':
+    'prefix': 'vision.ImageDataTypeConverter	Vision method'
+    'body': 'vision.ImageDataTypeConverter(${1:args})'
+
+  'vision.ImageFilter	Vision method':
+    'prefix': 'vision.ImageFilter	Vision method'
+    'body': 'vision.ImageFilter(${1:args})'
+
+  'vision.ImagePadder	Vision method':
+    'prefix': 'vision.ImagePadder	Vision method'
+    'body': 'vision.ImagePadder(${1:args})'
+
+  'vision.KalmanFilter	Vision method':
+    'prefix': 'vision.KalmanFilter	Vision method'
+    'body': 'vision.KalmanFilter(${1:args})'
+
+  'vision.LocalMaximaFinder	Vision method':
+    'prefix': 'vision.LocalMaximaFinder	Vision method'
+    'body': 'vision.LocalMaximaFinder(${1:args})'
+
+  'vision.MarkerInserter	Vision method':
+    'prefix': 'vision.MarkerInserter	Vision method'
+    'body': 'vision.MarkerInserter(${1:args})'
+
+  'vision.Maximum	Vision method':
+    'prefix': 'vision.Maximum	Vision method'
+    'body': 'vision.Maximum(${1:args})'
+
+  'vision.Mean	Vision method':
+    'prefix': 'vision.Mean	Vision method'
+    'body': 'vision.Mean(${1:args})'
+
+  'vision.Median	Vision method':
+    'prefix': 'vision.Median	Vision method'
+    'body': 'vision.Median(${1:args})'
+
+  'vision.MedianFilter	Vision method':
+    'prefix': 'vision.MedianFilter	Vision method'
+    'body': 'vision.MedianFilter(${1:args})'
+
+  'vision.Minimum	Vision method':
+    'prefix': 'vision.Minimum	Vision method'
+    'body': 'vision.Minimum(${1:args})'
+
+  'vision.MorphologicalBottomHat	Vision method':
+    'prefix': 'vision.MorphologicalBottomHat	Vision method'
+    'body': 'vision.MorphologicalBottomHat(${1:args})'
+
+  'vision.MorphologicalClose	Vision method':
+    'prefix': 'vision.MorphologicalClose	Vision method'
+    'body': 'vision.MorphologicalClose(${1:args})'
+
+  'vision.MorphologicalDilate	Vision method':
+    'prefix': 'vision.MorphologicalDilate	Vision method'
+    'body': 'vision.MorphologicalDilate(${1:args})'
+
+  'vision.MorphologicalErode	Vision method':
+    'prefix': 'vision.MorphologicalErode	Vision method'
+    'body': 'vision.MorphologicalErode(${1:args})'
+
+  'vision.MorphologicalOpen	Vision method':
+    'prefix': 'vision.MorphologicalOpen	Vision method'
+    'body': 'vision.MorphologicalOpen(${1:args})'
+
+  'vision.MorphologicalTopHat	Vision method':
+    'prefix': 'vision.MorphologicalTopHat	Vision method'
+    'body': 'vision.MorphologicalTopHat(${1:args})'
+
+  'vision.OpticalFlow	Vision method':
+    'prefix': 'vision.OpticalFlow	Vision method'
+    'body': 'vision.OpticalFlow(${1:args})'
+
+  'vision.PSNR	Vision method':
+    'prefix': 'vision.PSNR	Vision method'
+    'body': 'vision.PSNR(${1:args})'
+
+  'vision.PeopleDetector	Vision method':
+    'prefix': 'vision.PeopleDetector	Vision method'
+    'body': 'vision.PeopleDetector(${1:args})'
+
+  'vision.PointTracker	Vision method':
+    'prefix': 'vision.PointTracker	Vision method'
+    'body': 'vision.PointTracker(${1:args})'
+
+  'vision.Pyramid	Vision method':
+    'prefix': 'vision.Pyramid	Vision method'
+    'body': 'vision.Pyramid(${1:args})'
+
+  'vision.ShapeInserter	Vision method':
+    'prefix': 'vision.ShapeInserter	Vision method'
+    'body': 'vision.ShapeInserter(${1:args})'
+
+  'vision.StandardDeviation	Vision method':
+    'prefix': 'vision.StandardDeviation	Vision method'
+    'body': 'vision.StandardDeviation(${1:args})'
+
+  'vision.TemplateMatcher	Vision method':
+    'prefix': 'vision.TemplateMatcher	Vision method'
+    'body': 'vision.TemplateMatcher(${1:args})'
+
+  'vision.TextInserter	Vision method':
+    'prefix': 'vision.TextInserter	Vision method'
+    'body': 'vision.TextInserter(${1:args})'
+
+  'vision.Variance	Vision method':
+    'prefix': 'vision.Variance	Vision method'
+    'body': 'vision.Variance(${1:args})'
+
+  'vision.VideoFileReader	Vision method':
+    'prefix': 'vision.VideoFileReader	Vision method'
+    'body': 'vision.VideoFileReader(${1:args})'
+
+  'vision.VideoFileWriter	Vision method':
+    'prefix': 'vision.VideoFileWriter	Vision method'
+    'body': 'vision.VideoFileWriter(${1:args})'
+
+  'vision.VideoPlayer	Vision method':
+    'prefix': 'vision.VideoPlayer	Vision method'
+    'body': 'vision.VideoPlayer(${1:args})'
+
+  'visionSupportPackages	Vision method':
+    'prefix': 'visionSupportPackages	Vision method'
+    'body': 'visionSupportPackages(${1:args})'

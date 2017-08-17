@@ -1,0 +1,111 @@
+# matlabcomp1 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'biquad	antenna class':
+    'prefix': 'biquad	antenna class'
+    'body': 'biquad'
+
+  'bowtieRounded	antenna class':
+    'prefix': 'bowtieRounded	antenna class'
+    'body': 'bowtieRounded'
+
+  'bowtieTriangular	antenna class':
+    'prefix': 'bowtieTriangular	antenna class'
+    'body': 'bowtieTriangular'
+
+  'cavity	antenna class':
+    'prefix': 'cavity	antenna class'
+    'body': 'cavity'
+
+  'customAntennaMesh	antenna class':
+    'prefix': 'customAntennaMesh	antenna class'
+    'body': 'customAntennaMesh'
+
+  'dipole	antenna class':
+    'prefix': 'dipole	antenna class'
+    'body': 'dipole'
+
+  'dipoleFolded	antenna class':
+    'prefix': 'dipoleFolded	antenna class'
+    'body': 'dipoleFolded'
+
+  'dipoleMeander	antenna class':
+    'prefix': 'dipoleMeander	antenna class'
+    'body': 'dipoleMeander'
+
+  'dipoleVee	antenna class':
+    'prefix': 'dipoleVee	antenna class'
+    'body': 'dipoleVee'
+
+  'helix	antenna class':
+    'prefix': 'helix	antenna class'
+    'body': 'helix'
+
+  'infiniteArray	antenna class':
+    'prefix': 'infiniteArray	antenna class'
+    'body': 'infiniteArray'
+
+  'invertedF	antenna class':
+    'prefix': 'invertedF	antenna class'
+    'body': 'invertedF'
+
+  'invertedL	antenna class':
+    'prefix': 'invertedL	antenna class'
+    'body': 'invertedL'
+
+  'linearArray	antenna class':
+    'prefix': 'linearArray	antenna class'
+    'body': 'linearArray'
+
+  'loopCircular	antenna class':
+    'prefix': 'loopCircular	antenna class'
+    'body': 'loopCircular'
+
+  'loopRectangular	antenna class':
+    'prefix': 'loopRectangular	antenna class'
+    'body': 'loopRectangular'
+
+  'monopole	antenna class':
+    'prefix': 'monopole	antenna class'
+    'body': 'monopole'
+
+  'monopoleTopHat	antenna class':
+    'prefix': 'monopoleTopHat	antenna class'
+    'body': 'monopoleTopHat'
+
+  'patchMicrostrip	antenna class':
+    'prefix': 'patchMicrostrip	antenna class'
+    'body': 'patchMicrostrip'
+
+  'pifa	antenna class':
+    'prefix': 'pifa	antenna class'
+    'body': 'pifa'
+
+  'rectangularArray	antenna class':
+    'prefix': 'rectangularArray	antenna class'
+    'body': 'rectangularArray'
+
+  'reflector	antenna class':
+    'prefix': 'reflector	antenna class'
+    'body': 'reflector'
+
+  'slot	antenna class':
+    'prefix': 'slot	antenna class'
+    'body': 'slot'
+
+  'spiralArchimedean	antenna class':
+    'prefix': 'spiralArchimedean	antenna class'
+    'body': 'spiralArchimedean'
+
+  'spiralEquiangular	antenna class':
+    'prefix': 'spiralEquiangular	antenna class'
+    'body': 'spiralEquiangular'
+
+  'vivaldi	antenna class':
+    'prefix': 'vivaldi	antenna class'
+    'body': 'vivaldi'
+
+  'yagiUda	antenna class':
+    'prefix': 'yagiUda	antenna class'
+    'body': 'yagiUda'

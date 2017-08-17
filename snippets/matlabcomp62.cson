@@ -1,0 +1,179 @@
+# matlabcomp62 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'binblockread	Instrument method':
+    'prefix': 'binblockread	Instrument method'
+    'body': 'binblockread(${1:args})'
+
+  'binblockwrite	Instrument method':
+    'prefix': 'binblockwrite	Instrument method'
+    'body': 'binblockwrite(${1:args})'
+
+  'bluetooth	Instrument method':
+    'prefix': 'bluetooth	Instrument method'
+    'body': 'bluetooth(${1:args})'
+
+  'clrdevice	Instrument method':
+    'prefix': 'clrdevice	Instrument method'
+    'body': 'clrdevice(${1:args})'
+
+  'devicereset	Instrument method':
+    'prefix': 'devicereset	Instrument method'
+    'body': 'devicereset(${1:args})'
+
+  'disconnect	Instrument method':
+    'prefix': 'disconnect	Instrument method'
+    'body': 'disconnect(${1:args})'
+
+  'echotcpip	Instrument method':
+    'prefix': 'echotcpip	Instrument method'
+    'body': 'echotcpip(${1:args})'
+
+  'echoudp	Instrument method':
+    'prefix': 'echoudp	Instrument method'
+    'body': 'echoudp(${1:args})'
+
+  'fgen	Instrument method':
+    'prefix': 'fgen	Instrument method'
+    'body': 'fgen(${1:args})'
+
+  'flushinput	Instrument method':
+    'prefix': 'flushinput	Instrument method'
+    'body': 'flushinput(${1:args})'
+
+  'flushoutput	Instrument method':
+    'prefix': 'flushoutput	Instrument method'
+    'body': 'flushoutput(${1:args})'
+
+  'getWaveform	Instrument method':
+    'prefix': 'getWaveform	Instrument method'
+    'body': 'getWaveform(${1:args})'
+
+  'geterror	Instrument method':
+    'prefix': 'geterror	Instrument method'
+    'body': 'geterror(${1:args})'
+
+  'gpib	Instrument method':
+    'prefix': 'gpib	Instrument method'
+    'body': 'gpib(${1:args})'
+
+  'i2c	Instrument method':
+    'prefix': 'i2c	Instrument method'
+    'body': 'i2c(${1:args})'
+
+  'icdevice	Instrument method':
+    'prefix': 'icdevice	Instrument method'
+    'body': 'icdevice(${1:args})'
+
+  'instrhelp	Instrument method':
+    'prefix': 'instrhelp	Instrument method'
+    'body': 'instrhelp(${1:args})'
+
+  'instrhwinfo	Instrument method':
+    'prefix': 'instrhwinfo	Instrument method'
+    'body': 'instrhwinfo(${1:args})'
+
+  'instrid	Instrument method':
+    'prefix': 'instrid	Instrument method'
+    'body': 'instrid(${1:args})'
+
+  'instrnotify	Instrument method':
+    'prefix': 'instrnotify	Instrument method'
+    'body': 'instrnotify(${1:args})'
+
+  'instrreset	Instrument method':
+    'prefix': 'instrreset	Instrument method'
+    'body': 'instrreset(${1:args})'
+
+  'iviconfigurationstore	Instrument method':
+    'prefix': 'iviconfigurationstore	Instrument method'
+    'body': 'iviconfigurationstore(${1:args})'
+
+  'makemid	Instrument method':
+    'prefix': 'makemid	Instrument method'
+    'body': 'makemid(${1:args})'
+
+  'memmap	Instrument method':
+    'prefix': 'memmap	Instrument method'
+    'body': 'memmap(${1:args})'
+
+  'mempeek	Instrument method':
+    'prefix': 'mempeek	Instrument method'
+    'body': 'mempeek(${1:args})'
+
+  'mempoke	Instrument method':
+    'prefix': 'mempoke	Instrument method'
+    'body': 'mempoke(${1:args})'
+
+  'memread	Instrument method':
+    'prefix': 'memread	Instrument method'
+    'body': 'memread(${1:args})'
+
+  'memunmap	Instrument method':
+    'prefix': 'memunmap	Instrument method'
+    'body': 'memunmap(${1:args})'
+
+  'memwrite	Instrument method':
+    'prefix': 'memwrite	Instrument method'
+    'body': 'memwrite(${1:args})'
+
+  'midedit	Instrument method':
+    'prefix': 'midedit	Instrument method'
+    'body': 'midedit(${1:args})'
+
+  'midtest	Instrument method':
+    'prefix': 'midtest	Instrument method'
+    'body': 'midtest(${1:args})'
+
+  'oscilloscope	Instrument method':
+    'prefix': 'oscilloscope	Instrument method'
+    'body': 'oscilloscope(${1:args})'
+
+  'query	Instrument method':
+    'prefix': 'query	Instrument method'
+    'body': 'query(${1:args})'
+
+  'resolvehost	Instrument method':
+    'prefix': 'resolvehost	Instrument method'
+    'body': 'resolvehost(${1:args})'
+
+  'scanstr	Instrument method':
+    'prefix': 'scanstr	Instrument method'
+    'body': 'scanstr(${1:args})'
+
+  'selftest	Instrument method':
+    'prefix': 'selftest	Instrument method'
+    'body': 'selftest(${1:args})'
+
+  'spi	Instrument method':
+    'prefix': 'spi	Instrument method'
+    'body': 'spi(${1:args})'
+
+  'spoll	Instrument method':
+    'prefix': 'spoll	Instrument method'
+    'body': 'spoll(${1:args})'
+
+  'tcpip	Instrument method':
+    'prefix': 'tcpip	Instrument method'
+    'body': 'tcpip(${1:args})'
+
+  'tmtool	Instrument method':
+    'prefix': 'tmtool	Instrument method'
+    'body': 'tmtool(${1:args})'
+
+  'udp	Instrument method':
+    'prefix': 'udp	Instrument method'
+    'body': 'udp(${1:args})'
+
+  'visa	Instrument method':
+    'prefix': 'visa	Instrument method'
+    'body': 'visa(${1:args})'
+
+  'visa.spoll	Instrument method':
+    'prefix': 'visa.spoll	Instrument method'
+    'body': 'visa.spoll(${1:args})'
+
+  'writeAndRead	Instrument method':
+    'prefix': 'writeAndRead	Instrument method'
+    'body': 'writeAndRead(${1:args})'

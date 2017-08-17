@@ -1,0 +1,235 @@
+# matlabcomp38 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'getbounds	SLDo method':
+    'prefix': 'getbounds	SLDo method'
+    'body': 'getbounds(${1:args})'
+
+  'makedist	SLDo method':
+    'prefix': 'makedist	SLDo method'
+    'body': 'makedist(${1:args})'
+
+  'param.Continuous	SLDo method':
+    'prefix': 'param.Continuous	SLDo method'
+    'body': 'param.Continuous(${1:args})'
+
+  'param.Continuous.isreal	SLDo method':
+    'prefix': 'param.Continuous.isreal	SLDo method'
+    'body': 'param.Continuous.isreal(${1:args})'
+
+  'param.State	SLDo method':
+    'prefix': 'param.State	SLDo method'
+    'body': 'param.State(${1:args})'
+
+  'sdo.AnalyzeOptions	SLDo method':
+    'prefix': 'sdo.AnalyzeOptions	SLDo method'
+    'body': 'sdo.AnalyzeOptions(${1:args})'
+
+  'sdo.EvaluateOptions	SLDo method':
+    'prefix': 'sdo.EvaluateOptions	SLDo method'
+    'body': 'sdo.EvaluateOptions(${1:args})'
+
+  'sdo.Experiment.createSimulator	SLDo method':
+    'prefix': 'sdo.Experiment.createSimulator	SLDo method'
+    'body': 'sdo.Experiment.createSimulator(${1:args})'
+
+  'sdo.Experiment.getValuesToEstimate	SLDo method':
+    'prefix': 'sdo.Experiment.getValuesToEstimate	SLDo method'
+    'body': 'sdo.Experiment.getValuesToEstimate(${1:args})'
+
+  'sdo.Experiment.setEstimatedValues	SLDo method':
+    'prefix': 'sdo.Experiment.setEstimatedValues	SLDo method'
+    'body': 'sdo.Experiment.setEstimatedValues(${1:args})'
+
+  'sdo.OptimizeOptions	SLDo method':
+    'prefix': 'sdo.OptimizeOptions	SLDo method'
+    'body': 'sdo.OptimizeOptions(${1:args})'
+
+  'sdo.ParameterSpace	SLDo method':
+    'prefix': 'sdo.ParameterSpace	SLDo method'
+    'body': 'sdo.ParameterSpace(${1:args})'
+
+  'sdo.SampleOptions	SLDo method':
+    'prefix': 'sdo.SampleOptions	SLDo method'
+    'body': 'sdo.SampleOptions(${1:args})'
+
+  'sdo.SimulationTest	SLDo method':
+    'prefix': 'sdo.SimulationTest	SLDo method'
+    'body': 'sdo.SimulationTest(${1:args})'
+
+  'sdo.SimulationTest.FastRestart	SLDo method':
+    'prefix': 'sdo.SimulationTest.FastRestart	SLDo method'
+    'body': 'sdo.SimulationTest.FastRestart(${1:args})'
+
+  'sdo.SimulationTest.fastRestart	SLDo method':
+    'prefix': 'sdo.SimulationTest.fastRestart	SLDo method'
+    'body': 'sdo.SimulationTest.fastRestart(${1:args})'
+
+  'sdo.SimulationTest.find	SLDo method':
+    'prefix': 'sdo.SimulationTest.find	SLDo method'
+    'body': 'sdo.SimulationTest.find(${1:args})'
+
+  'sdo.SimulationTest.sim	SLDo method':
+    'prefix': 'sdo.SimulationTest.sim	SLDo method'
+    'body': 'sdo.SimulationTest.sim(${1:args})'
+
+  'sdo.SimulationTest.who	SLDo method':
+    'prefix': 'sdo.SimulationTest.who	SLDo method'
+    'body': 'sdo.SimulationTest.who(${1:args})'
+
+  'sdo.SystemLoggingInfo	SLDo method':
+    'prefix': 'sdo.SystemLoggingInfo	SLDo method'
+    'body': 'sdo.SystemLoggingInfo(${1:args})'
+
+  'sdo.analyze	SLDo method':
+    'prefix': 'sdo.analyze	SLDo method'
+    'body': 'sdo.analyze(${1:args})'
+
+  'sdo.evaluate	SLDo method':
+    'prefix': 'sdo.evaluate	SLDo method'
+    'body': 'sdo.evaluate(${1:args})'
+
+  'sdo.getModelDependencies	SLDo method':
+    'prefix': 'sdo.getModelDependencies	SLDo method'
+    'body': 'sdo.getModelDependencies(${1:args})'
+
+  'sdo.getParameterFromModel	SLDo method':
+    'prefix': 'sdo.getParameterFromModel	SLDo method'
+    'body': 'sdo.getParameterFromModel(${1:args})'
+
+  'sdo.getStateFromModel	SLDo method':
+    'prefix': 'sdo.getStateFromModel	SLDo method'
+    'body': 'sdo.getStateFromModel(${1:args})'
+
+  'sdo.getValueFromModel	SLDo method':
+    'prefix': 'sdo.getValueFromModel	SLDo method'
+    'body': 'sdo.getValueFromModel(${1:args})'
+
+  'sdo.optimize	SLDo method':
+    'prefix': 'sdo.optimize	SLDo method'
+    'body': 'sdo.optimize(${1:args})'
+
+  'sdo.requirements.BodeMagnitude	SLDo method':
+    'prefix': 'sdo.requirements.BodeMagnitude	SLDo method'
+    'body': 'sdo.requirements.BodeMagnitude(${1:args})'
+
+  'sdo.requirements.BodeMagnitude.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.BodeMagnitude.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.BodeMagnitude.evalRequirement(${1:args})'
+
+  'sdo.requirements.ClosedLoopPeakGain	SLDo method':
+    'prefix': 'sdo.requirements.ClosedLoopPeakGain	SLDo method'
+    'body': 'sdo.requirements.ClosedLoopPeakGain(${1:args})'
+
+  'sdo.requirements.ClosedLoopPeakGain.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.ClosedLoopPeakGain.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.ClosedLoopPeakGain.evalRequirement(${1:args})'
+
+  'sdo.requirements.GainPhaseMargin	SLDo method':
+    'prefix': 'sdo.requirements.GainPhaseMargin	SLDo method'
+    'body': 'sdo.requirements.GainPhaseMargin(${1:args})'
+
+  'sdo.requirements.GainPhaseMargin.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.GainPhaseMargin.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.GainPhaseMargin.evalRequirement(${1:args})'
+
+  'sdo.requirements.OpenLoopGainPhase	SLDo method':
+    'prefix': 'sdo.requirements.OpenLoopGainPhase	SLDo method'
+    'body': 'sdo.requirements.OpenLoopGainPhase(${1:args})'
+
+  'sdo.requirements.OpenLoopGainPhase.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.OpenLoopGainPhase.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.OpenLoopGainPhase.evalRequirement(${1:args})'
+
+  'sdo.requirements.PZDampingRatio	SLDo method':
+    'prefix': 'sdo.requirements.PZDampingRatio	SLDo method'
+    'body': 'sdo.requirements.PZDampingRatio(${1:args})'
+
+  'sdo.requirements.PZDampingRatio.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.PZDampingRatio.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.PZDampingRatio.evalRequirement(${1:args})'
+
+  'sdo.requirements.PZDampingRatio.getOvershoot	SLDo method':
+    'prefix': 'sdo.requirements.PZDampingRatio.getOvershoot	SLDo method'
+    'body': 'sdo.requirements.PZDampingRatio.getOvershoot(${1:args})'
+
+  'sdo.requirements.PZDampingRatio.setOvershoot	SLDo method':
+    'prefix': 'sdo.requirements.PZDampingRatio.setOvershoot	SLDo method'
+    'body': 'sdo.requirements.PZDampingRatio.setOvershoot(${1:args})'
+
+  'sdo.requirements.PZNaturalFrequency	SLDo method':
+    'prefix': 'sdo.requirements.PZNaturalFrequency	SLDo method'
+    'body': 'sdo.requirements.PZNaturalFrequency(${1:args})'
+
+  'sdo.requirements.PZNaturalFrequency.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.PZNaturalFrequency.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.PZNaturalFrequency.evalRequirement(${1:args})'
+
+  'sdo.requirements.PZSettlingTime	SLDo method':
+    'prefix': 'sdo.requirements.PZSettlingTime	SLDo method'
+    'body': 'sdo.requirements.PZSettlingTime(${1:args})'
+
+  'sdo.requirements.PZSettlingTime.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.PZSettlingTime.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.PZSettlingTime.evalRequirement(${1:args})'
+
+  'sdo.requirements.SignalBound	SLDo method':
+    'prefix': 'sdo.requirements.SignalBound	SLDo method'
+    'body': 'sdo.requirements.SignalBound(${1:args})'
+
+  'sdo.requirements.SignalBound.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.SignalBound.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.SignalBound.evalRequirement(${1:args})'
+
+  'sdo.requirements.SignalTracking	SLDo method':
+    'prefix': 'sdo.requirements.SignalTracking	SLDo method'
+    'body': 'sdo.requirements.SignalTracking(${1:args})'
+
+  'sdo.requirements.SignalTracking.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.SignalTracking.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.SignalTracking.evalRequirement(${1:args})'
+
+  'sdo.requirements.SingularValue	SLDo method':
+    'prefix': 'sdo.requirements.SingularValue	SLDo method'
+    'body': 'sdo.requirements.SingularValue(${1:args})'
+
+  'sdo.requirements.SingularValue.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.SingularValue.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.SingularValue.evalRequirement(${1:args})'
+
+  'sdo.requirements.StepResponseEnvelope	SLDo method':
+    'prefix': 'sdo.requirements.StepResponseEnvelope	SLDo method'
+    'body': 'sdo.requirements.StepResponseEnvelope(${1:args})'
+
+  'sdo.requirements.StepResponseEnvelope.evalRequirement	SLDo method':
+    'prefix': 'sdo.requirements.StepResponseEnvelope.evalRequirement	SLDo method'
+    'body': 'sdo.requirements.StepResponseEnvelope.evalRequirement(${1:args})'
+
+  'sdo.sample	SLDo method':
+    'prefix': 'sdo.sample	SLDo method'
+    'body': 'sdo.sample(${1:args})'
+
+  'sdo.scatterPlot	SLDo method':
+    'prefix': 'sdo.scatterPlot	SLDo method'
+    'body': 'sdo.scatterPlot(${1:args})'
+
+  'sdo.setCheckBlockEnabled	SLDo method':
+    'prefix': 'sdo.setCheckBlockEnabled	SLDo method'
+    'body': 'sdo.setCheckBlockEnabled(${1:args})'
+
+  'sdo.setValueInModel	SLDo method':
+    'prefix': 'sdo.setValueInModel	SLDo method'
+    'body': 'sdo.setValueInModel(${1:args})'
+
+  'sdotool	SLDo method':
+    'prefix': 'sdotool	SLDo method'
+    'body': 'sdotool(${1:args})'
+
+  'sdoupdate	SLDo method':
+    'prefix': 'sdoupdate	SLDo method'
+    'body': 'sdoupdate(${1:args})'
+
+  'spetool	SLDo method':
+    'prefix': 'spetool	SLDo method'
+    'body': 'spetool(${1:args})'

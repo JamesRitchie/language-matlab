@@ -1,0 +1,1215 @@
+# matlabcomp68 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  '.	Symbolic mupadfunctionlist':
+    'prefix': '.	Symbolic mupadfunctionlist'
+    'body': '.'
+
+  '..	Symbolic mupadfunctionlist':
+    'prefix': '..	Symbolic mupadfunctionlist'
+    'body': '..'
+
+  '...	Symbolic mupadfunctionlist':
+    'prefix': '...	Symbolic mupadfunctionlist'
+    'body': '...'
+
+  'C_	Symbolic mupadfunctionlist':
+    'prefix': 'C_	Symbolic mupadfunctionlist'
+    'body': 'C_'
+
+  'Chi	Symbolic mupadfunctionlist':
+    'prefix': 'Chi	Symbolic mupadfunctionlist'
+    'body': 'Chi'
+
+  'Ci	Symbolic mupadfunctionlist':
+    'prefix': 'Ci	Symbolic mupadfunctionlist'
+    'body': 'Ci'
+
+  'D	Symbolic mupadfunctionlist':
+    'prefix': 'D	Symbolic mupadfunctionlist'
+    'body': 'D'
+
+  'Ei	Symbolic mupadfunctionlist':
+    'prefix': 'Ei	Symbolic mupadfunctionlist'
+    'body': 'Ei'
+
+  'FAIL	Symbolic mupadfunctionlist':
+    'prefix': 'FAIL	Symbolic mupadfunctionlist'
+    'body': 'FAIL'
+
+  'FALSE	Symbolic mupadfunctionlist':
+    'prefix': 'FALSE	Symbolic mupadfunctionlist'
+    'body': 'FALSE'
+
+  'Graph	Symbolic mupadfunctionlist':
+    'prefix': 'Graph	Symbolic mupadfunctionlist'
+    'body': 'Graph'
+
+  'Im	Symbolic mupadfunctionlist':
+    'prefix': 'Im	Symbolic mupadfunctionlist'
+    'body': 'Im'
+
+  'LEVEL	Symbolic mupadfunctionlist':
+    'prefix': 'LEVEL	Symbolic mupadfunctionlist'
+    'body': 'LEVEL'
+
+  'Li	Symbolic mupadfunctionlist':
+    'prefix': 'Li	Symbolic mupadfunctionlist'
+    'body': 'Li'
+
+  'MAXDEPTH	Symbolic mupadfunctionlist':
+    'prefix': 'MAXDEPTH	Symbolic mupadfunctionlist'
+    'body': 'MAXDEPTH'
+
+  'MAXEFFORT	Symbolic mupadfunctionlist':
+    'prefix': 'MAXEFFORT	Symbolic mupadfunctionlist'
+    'body': 'MAXEFFORT'
+
+  'MAXLEVEL	Symbolic mupadfunctionlist':
+    'prefix': 'MAXLEVEL	Symbolic mupadfunctionlist'
+    'body': 'MAXLEVEL'
+
+  'NIL	Symbolic mupadfunctionlist':
+    'prefix': 'NIL	Symbolic mupadfunctionlist'
+    'body': 'NIL'
+
+  'N_	Symbolic mupadfunctionlist':
+    'prefix': 'N_	Symbolic mupadfunctionlist'
+    'body': 'N_'
+
+  'O	Symbolic mupadfunctionlist':
+    'prefix': 'O	Symbolic mupadfunctionlist'
+    'body': 'O'
+
+  'ORDER	Symbolic mupadfunctionlist':
+    'prefix': 'ORDER	Symbolic mupadfunctionlist'
+    'body': 'ORDER'
+
+  'Q_	Symbolic mupadfunctionlist':
+    'prefix': 'Q_	Symbolic mupadfunctionlist'
+    'body': 'Q_'
+
+  'R_	Symbolic mupadfunctionlist':
+    'prefix': 'R_	Symbolic mupadfunctionlist'
+    'body': 'R_'
+
+  'Re	Symbolic mupadfunctionlist':
+    'prefix': 'Re	Symbolic mupadfunctionlist'
+    'body': 'Re'
+
+  'RootOf	Symbolic mupadfunctionlist':
+    'prefix': 'RootOf	Symbolic mupadfunctionlist'
+    'body': 'RootOf'
+
+  'Shi	Symbolic mupadfunctionlist':
+    'prefix': 'Shi	Symbolic mupadfunctionlist'
+    'body': 'Shi'
+
+  'Si	Symbolic mupadfunctionlist':
+    'prefix': 'Si	Symbolic mupadfunctionlist'
+    'body': 'Si'
+
+  'Simplify	Symbolic mupadfunctionlist':
+    'prefix': 'Simplify	Symbolic mupadfunctionlist'
+    'body': 'Simplify'
+
+  'Ssi	Symbolic mupadfunctionlist':
+    'prefix': 'Ssi	Symbolic mupadfunctionlist'
+    'body': 'Ssi'
+
+  'TRUE	Symbolic mupadfunctionlist':
+    'prefix': 'TRUE	Symbolic mupadfunctionlist'
+    'body': 'TRUE'
+
+  'UNKNOWN	Symbolic mupadfunctionlist':
+    'prefix': 'UNKNOWN	Symbolic mupadfunctionlist'
+    'body': 'UNKNOWN'
+
+  'Z_	Symbolic mupadfunctionlist':
+    'prefix': 'Z_	Symbolic mupadfunctionlist'
+    'body': 'Z_'
+
+  '_index	Symbolic mupadfunctionlist':
+    'prefix': '_index	Symbolic mupadfunctionlist'
+    'body': '_index'
+
+  '_invert	Symbolic mupadfunctionlist':
+    'prefix': '_invert	Symbolic mupadfunctionlist'
+    'body': '_invert'
+
+  '_lazy_and	Symbolic mupadfunctionlist':
+    'prefix': '_lazy_and	Symbolic mupadfunctionlist'
+    'body': '_lazy_and'
+
+  '_lazy_or	Symbolic mupadfunctionlist':
+    'prefix': '_lazy_or	Symbolic mupadfunctionlist'
+    'body': '_lazy_or'
+
+  '_subtract	Symbolic mupadfunctionlist':
+    'prefix': '_subtract	Symbolic mupadfunctionlist'
+    'body': '_subtract'
+
+  'airyAi	Symbolic mupadfunctionlist':
+    'prefix': 'airyAi	Symbolic mupadfunctionlist'
+    'body': 'airyAi'
+
+  'airyBi	Symbolic mupadfunctionlist':
+    'prefix': 'airyBi	Symbolic mupadfunctionlist'
+    'body': 'airyBi'
+
+  'alias	Symbolic mupadfunctionlist':
+    'prefix': 'alias	Symbolic mupadfunctionlist'
+    'body': 'alias'
+
+  'anames	Symbolic mupadfunctionlist':
+    'prefix': 'anames	Symbolic mupadfunctionlist'
+    'body': 'anames'
+
+  'arccos	Symbolic mupadfunctionlist':
+    'prefix': 'arccos	Symbolic mupadfunctionlist'
+    'body': 'arccos'
+
+  'arccosh	Symbolic mupadfunctionlist':
+    'prefix': 'arccosh	Symbolic mupadfunctionlist'
+    'body': 'arccosh'
+
+  'arccot	Symbolic mupadfunctionlist':
+    'prefix': 'arccot	Symbolic mupadfunctionlist'
+    'body': 'arccot'
+
+  'arccoth	Symbolic mupadfunctionlist':
+    'prefix': 'arccoth	Symbolic mupadfunctionlist'
+    'body': 'arccoth'
+
+  'arccsc	Symbolic mupadfunctionlist':
+    'prefix': 'arccsc	Symbolic mupadfunctionlist'
+    'body': 'arccsc'
+
+  'arccsch	Symbolic mupadfunctionlist':
+    'prefix': 'arccsch	Symbolic mupadfunctionlist'
+    'body': 'arccsch'
+
+  'arcsec	Symbolic mupadfunctionlist':
+    'prefix': 'arcsec	Symbolic mupadfunctionlist'
+    'body': 'arcsec'
+
+  'arcsech	Symbolic mupadfunctionlist':
+    'prefix': 'arcsech	Symbolic mupadfunctionlist'
+    'body': 'arcsech'
+
+  'arcsin	Symbolic mupadfunctionlist':
+    'prefix': 'arcsin	Symbolic mupadfunctionlist'
+    'body': 'arcsin'
+
+  'arcsinh	Symbolic mupadfunctionlist':
+    'prefix': 'arcsinh	Symbolic mupadfunctionlist'
+    'body': 'arcsinh'
+
+  'arctan	Symbolic mupadfunctionlist':
+    'prefix': 'arctan	Symbolic mupadfunctionlist'
+    'body': 'arctan'
+
+  'arctanh	Symbolic mupadfunctionlist':
+    'prefix': 'arctanh	Symbolic mupadfunctionlist'
+    'body': 'arctanh'
+
+  'arg	Symbolic mupadfunctionlist':
+    'prefix': 'arg	Symbolic mupadfunctionlist'
+    'body': 'arg'
+
+  'args	Symbolic mupadfunctionlist':
+    'prefix': 'args	Symbolic mupadfunctionlist'
+    'body': 'args'
+
+  'array	Symbolic mupadfunctionlist':
+    'prefix': 'array	Symbolic mupadfunctionlist'
+    'body': 'array'
+
+  'assign	Symbolic mupadfunctionlist':
+    'prefix': 'assign	Symbolic mupadfunctionlist'
+    'body': 'assign'
+
+  'assignElements	Symbolic mupadfunctionlist':
+    'prefix': 'assignElements	Symbolic mupadfunctionlist'
+    'body': 'assignElements'
+
+  'assume	Symbolic mupadfunctionlist':
+    'prefix': 'assume	Symbolic mupadfunctionlist'
+    'body': 'assume'
+
+  'assumeAlso	Symbolic mupadfunctionlist':
+    'prefix': 'assumeAlso	Symbolic mupadfunctionlist'
+    'body': 'assumeAlso'
+
+  'assuming	Symbolic mupadfunctionlist':
+    'prefix': 'assuming	Symbolic mupadfunctionlist'
+    'body': 'assuming'
+
+  'assumingAlso	Symbolic mupadfunctionlist':
+    'prefix': 'assumingAlso	Symbolic mupadfunctionlist'
+    'body': 'assumingAlso'
+
+  'asympt	Symbolic mupadfunctionlist':
+    'prefix': 'asympt	Symbolic mupadfunctionlist'
+    'body': 'asympt'
+
+  'bernoulli	Symbolic mupadfunctionlist':
+    'prefix': 'bernoulli	Symbolic mupadfunctionlist'
+    'body': 'bernoulli'
+
+  'bernstein	Symbolic mupadfunctionlist':
+    'prefix': 'bernstein	Symbolic mupadfunctionlist'
+    'body': 'bernstein'
+
+  'bernsteinMatrix	Symbolic mupadfunctionlist':
+    'prefix': 'bernsteinMatrix	Symbolic mupadfunctionlist'
+    'body': 'bernsteinMatrix'
+
+  'besselI	Symbolic mupadfunctionlist':
+    'prefix': 'besselI	Symbolic mupadfunctionlist'
+    'body': 'besselI'
+
+  'besselJ	Symbolic mupadfunctionlist':
+    'prefix': 'besselJ	Symbolic mupadfunctionlist'
+    'body': 'besselJ'
+
+  'besselK	Symbolic mupadfunctionlist':
+    'prefix': 'besselK	Symbolic mupadfunctionlist'
+    'body': 'besselK'
+
+  'besselY	Symbolic mupadfunctionlist':
+    'prefix': 'besselY	Symbolic mupadfunctionlist'
+    'body': 'besselY'
+
+  'binomial	Symbolic mupadfunctionlist':
+    'prefix': 'binomial	Symbolic mupadfunctionlist'
+    'body': 'binomial'
+
+  'blockIdents	Symbolic mupadfunctionlist':
+    'prefix': 'blockIdents	Symbolic mupadfunctionlist'
+    'body': 'blockIdents'
+
+  'blockTransparent	Symbolic mupadfunctionlist':
+    'prefix': 'blockTransparent	Symbolic mupadfunctionlist'
+    'body': 'blockTransparent'
+
+  'bool	Symbolic mupadfunctionlist':
+    'prefix': 'bool	Symbolic mupadfunctionlist'
+    'body': 'bool'
+
+  'buildnumber	Symbolic mupadfunctionlist':
+    'prefix': 'buildnumber	Symbolic mupadfunctionlist'
+    'body': 'buildnumber'
+
+  'bytes	Symbolic mupadfunctionlist':
+    'prefix': 'bytes	Symbolic mupadfunctionlist'
+    'body': 'bytes'
+
+  'card	Symbolic mupadfunctionlist':
+    'prefix': 'card	Symbolic mupadfunctionlist'
+    'body': 'card'
+
+  'coeff	Symbolic mupadfunctionlist':
+    'prefix': 'coeff	Symbolic mupadfunctionlist'
+    'body': 'coeff'
+
+  'coerce	Symbolic mupadfunctionlist':
+    'prefix': 'coerce	Symbolic mupadfunctionlist'
+    'body': 'coerce'
+
+  'collect	Symbolic mupadfunctionlist':
+    'prefix': 'collect	Symbolic mupadfunctionlist'
+    'body': 'collect'
+
+  'combine	Symbolic mupadfunctionlist':
+    'prefix': 'combine	Symbolic mupadfunctionlist'
+    'body': 'combine'
+
+  'complexInfinity	Symbolic mupadfunctionlist':
+    'prefix': 'complexInfinity	Symbolic mupadfunctionlist'
+    'body': 'complexInfinity'
+
+  'conjugate	Symbolic mupadfunctionlist':
+    'prefix': 'conjugate	Symbolic mupadfunctionlist'
+    'body': 'conjugate'
+
+  'contains	Symbolic mupadfunctionlist':
+    'prefix': 'contains	Symbolic mupadfunctionlist'
+    'body': 'contains'
+
+  'content	Symbolic mupadfunctionlist':
+    'prefix': 'content	Symbolic mupadfunctionlist'
+    'body': 'content'
+
+  'context	Symbolic mupadfunctionlist':
+    'prefix': 'context	Symbolic mupadfunctionlist'
+    'body': 'context'
+
+  'contfrac	Symbolic mupadfunctionlist':
+    'prefix': 'contfrac	Symbolic mupadfunctionlist'
+    'body': 'contfrac'
+
+  'copyClosure	Symbolic mupadfunctionlist':
+    'prefix': 'copyClosure	Symbolic mupadfunctionlist'
+    'body': 'copyClosure'
+
+  'dawson	Symbolic mupadfunctionlist':
+    'prefix': 'dawson	Symbolic mupadfunctionlist'
+    'body': 'dawson'
+
+  'debug	Symbolic mupadfunctionlist':
+    'prefix': 'debug	Symbolic mupadfunctionlist'
+    'body': 'debug'
+
+  'dedekindEta	Symbolic mupadfunctionlist':
+    'prefix': 'dedekindEta	Symbolic mupadfunctionlist'
+    'body': 'dedekindEta'
+
+  'degreevec	Symbolic mupadfunctionlist':
+    'prefix': 'degreevec	Symbolic mupadfunctionlist'
+    'body': 'degreevec'
+
+  'denom	Symbolic mupadfunctionlist':
+    'prefix': 'denom	Symbolic mupadfunctionlist'
+    'body': 'denom'
+
+  'densematrix	Symbolic mupadfunctionlist':
+    'prefix': 'densematrix	Symbolic mupadfunctionlist'
+    'body': 'densematrix'
+
+  'dilog	Symbolic mupadfunctionlist':
+    'prefix': 'dilog	Symbolic mupadfunctionlist'
+    'body': 'dilog'
+
+  'dirac	Symbolic mupadfunctionlist':
+    'prefix': 'dirac	Symbolic mupadfunctionlist'
+    'body': 'dirac'
+
+  'discont	Symbolic mupadfunctionlist':
+    'prefix': 'discont	Symbolic mupadfunctionlist'
+    'body': 'discont'
+
+  'div	Symbolic mupadfunctionlist':
+    'prefix': 'div	Symbolic mupadfunctionlist'
+    'body': 'div'
+
+  'domtype	Symbolic mupadfunctionlist':
+    'prefix': 'domtype	Symbolic mupadfunctionlist'
+    'body': 'domtype'
+
+  'doprint	Symbolic mupadfunctionlist':
+    'prefix': 'doprint	Symbolic mupadfunctionlist'
+    'body': 'doprint'
+
+  'ellipticCE	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticCE	Symbolic mupadfunctionlist'
+    'body': 'ellipticCE'
+
+  'ellipticCK	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticCK	Symbolic mupadfunctionlist'
+    'body': 'ellipticCK'
+
+  'ellipticCPi	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticCPi	Symbolic mupadfunctionlist'
+    'body': 'ellipticCPi'
+
+  'ellipticE	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticE	Symbolic mupadfunctionlist'
+    'body': 'ellipticE'
+
+  'ellipticF	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticF	Symbolic mupadfunctionlist'
+    'body': 'ellipticF'
+
+  'ellipticK	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticK	Symbolic mupadfunctionlist'
+    'body': 'ellipticK'
+
+  'ellipticNome	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticNome	Symbolic mupadfunctionlist'
+    'body': 'ellipticNome'
+
+  'ellipticPi	Symbolic mupadfunctionlist':
+    'prefix': 'ellipticPi	Symbolic mupadfunctionlist'
+    'body': 'ellipticPi'
+
+  'erfi	Symbolic mupadfunctionlist':
+    'prefix': 'erfi	Symbolic mupadfunctionlist'
+    'body': 'erfi'
+
+  'euler	Symbolic mupadfunctionlist':
+    'prefix': 'euler	Symbolic mupadfunctionlist'
+    'body': 'euler'
+
+  'evalAt	Symbolic mupadfunctionlist':
+    'prefix': 'evalAt	Symbolic mupadfunctionlist'
+    'body': 'evalAt'
+
+  'evalassign	Symbolic mupadfunctionlist':
+    'prefix': 'evalassign	Symbolic mupadfunctionlist'
+    'body': 'evalassign'
+
+  'evalp	Symbolic mupadfunctionlist':
+    'prefix': 'evalp	Symbolic mupadfunctionlist'
+    'body': 'evalp'
+
+  'expand	Symbolic mupadfunctionlist':
+    'prefix': 'expand	Symbolic mupadfunctionlist'
+    'body': 'expand'
+
+  'expose	Symbolic mupadfunctionlist':
+    'prefix': 'expose	Symbolic mupadfunctionlist'
+    'body': 'expose'
+
+  'expr	Symbolic mupadfunctionlist':
+    'prefix': 'expr	Symbolic mupadfunctionlist'
+    'body': 'expr'
+
+  'expr2text	Symbolic mupadfunctionlist':
+    'prefix': 'expr2text	Symbolic mupadfunctionlist'
+    'body': 'expr2text'
+
+  'extnops	Symbolic mupadfunctionlist':
+    'prefix': 'extnops	Symbolic mupadfunctionlist'
+    'body': 'extnops'
+
+  'extop	Symbolic mupadfunctionlist':
+    'prefix': 'extop	Symbolic mupadfunctionlist'
+    'body': 'extop'
+
+  'extsubsop	Symbolic mupadfunctionlist':
+    'prefix': 'extsubsop	Symbolic mupadfunctionlist'
+    'body': 'extsubsop'
+
+  'fact	Symbolic mupadfunctionlist':
+    'prefix': 'fact	Symbolic mupadfunctionlist'
+    'body': 'fact'
+
+  'fact2	Symbolic mupadfunctionlist':
+    'prefix': 'fact2	Symbolic mupadfunctionlist'
+    'body': 'fact2'
+
+  'factorout	Symbolic mupadfunctionlist':
+    'prefix': 'factorout	Symbolic mupadfunctionlist'
+    'body': 'factorout'
+
+  'finput	Symbolic mupadfunctionlist':
+    'prefix': 'finput	Symbolic mupadfunctionlist'
+    'body': 'finput'
+
+  'fname	Symbolic mupadfunctionlist':
+    'prefix': 'fname	Symbolic mupadfunctionlist'
+    'body': 'fname'
+
+  'forceGarbageCollection	Symbolic mupadfunctionlist':
+    'prefix': 'forceGarbageCollection	Symbolic mupadfunctionlist'
+    'body': 'forceGarbageCollection'
+
+  'forget	Symbolic mupadfunctionlist':
+    'prefix': 'forget	Symbolic mupadfunctionlist'
+    'body': 'forget'
+
+  'fourier	Symbolic mupadfunctionlist':
+    'prefix': 'fourier	Symbolic mupadfunctionlist'
+    'body': 'fourier'
+
+  'fprint	Symbolic mupadfunctionlist':
+    'prefix': 'fprint	Symbolic mupadfunctionlist'
+    'body': 'fprint'
+
+  'frac	Symbolic mupadfunctionlist':
+    'prefix': 'frac	Symbolic mupadfunctionlist'
+    'body': 'frac'
+
+  'frandom	Symbolic mupadfunctionlist':
+    'prefix': 'frandom	Symbolic mupadfunctionlist'
+    'body': 'frandom'
+
+  'freeIndets	Symbolic mupadfunctionlist':
+    'prefix': 'freeIndets	Symbolic mupadfunctionlist'
+    'body': 'freeIndets'
+
+  'freeze	Symbolic mupadfunctionlist':
+    'prefix': 'freeze	Symbolic mupadfunctionlist'
+    'body': 'freeze'
+
+  'fresnelC	Symbolic mupadfunctionlist':
+    'prefix': 'fresnelC	Symbolic mupadfunctionlist'
+    'body': 'fresnelC'
+
+  'fresnelS	Symbolic mupadfunctionlist':
+    'prefix': 'fresnelS	Symbolic mupadfunctionlist'
+    'body': 'fresnelS'
+
+  'ftextinput	Symbolic mupadfunctionlist':
+    'prefix': 'ftextinput	Symbolic mupadfunctionlist'
+    'body': 'ftextinput'
+
+  'funcenv	Symbolic mupadfunctionlist':
+    'prefix': 'funcenv	Symbolic mupadfunctionlist'
+    'body': 'funcenv'
+
+  'gcdex	Symbolic mupadfunctionlist':
+    'prefix': 'gcdex	Symbolic mupadfunctionlist'
+    'body': 'gcdex'
+
+  'genident	Symbolic mupadfunctionlist':
+    'prefix': 'genident	Symbolic mupadfunctionlist'
+    'body': 'genident'
+
+  'genpoly	Symbolic mupadfunctionlist':
+    'prefix': 'genpoly	Symbolic mupadfunctionlist'
+    'body': 'genpoly'
+
+  'getlasterror	Symbolic mupadfunctionlist':
+    'prefix': 'getlasterror	Symbolic mupadfunctionlist'
+    'body': 'getlasterror'
+
+  'getprop	Symbolic mupadfunctionlist':
+    'prefix': 'getprop	Symbolic mupadfunctionlist'
+    'body': 'getprop'
+
+  'ground	Symbolic mupadfunctionlist':
+    'prefix': 'ground	Symbolic mupadfunctionlist'
+    'body': 'ground'
+
+  'harmonic	Symbolic mupadfunctionlist':
+    'prefix': 'harmonic	Symbolic mupadfunctionlist'
+    'body': 'harmonic'
+
+  'hastype	Symbolic mupadfunctionlist':
+    'prefix': 'hastype	Symbolic mupadfunctionlist'
+    'body': 'hastype'
+
+  'heaviside	Symbolic mupadfunctionlist':
+    'prefix': 'heaviside	Symbolic mupadfunctionlist'
+    'body': 'heaviside'
+
+  'hessian	Symbolic mupadfunctionlist':
+    'prefix': 'hessian	Symbolic mupadfunctionlist'
+    'body': 'hessian'
+
+  'hfarray	Symbolic mupadfunctionlist':
+    'prefix': 'hfarray	Symbolic mupadfunctionlist'
+    'body': 'hfarray'
+
+  'htranspose	Symbolic mupadfunctionlist':
+    'prefix': 'htranspose	Symbolic mupadfunctionlist'
+    'body': 'htranspose'
+
+  'hypergeom	Symbolic mupadfunctionlist':
+    'prefix': 'hypergeom	Symbolic mupadfunctionlist'
+    'body': 'hypergeom'
+
+  'icontent	Symbolic mupadfunctionlist':
+    'prefix': 'icontent	Symbolic mupadfunctionlist'
+    'body': 'icontent'
+
+  'id	Symbolic mupadfunctionlist':
+    'prefix': 'id	Symbolic mupadfunctionlist'
+    'body': 'id'
+
+  'ifactor	Symbolic mupadfunctionlist':
+    'prefix': 'ifactor	Symbolic mupadfunctionlist'
+    'body': 'ifactor'
+
+  'ifourier	Symbolic mupadfunctionlist':
+    'prefix': 'ifourier	Symbolic mupadfunctionlist'
+    'body': 'ifourier'
+
+  'igamma	Symbolic mupadfunctionlist':
+    'prefix': 'igamma	Symbolic mupadfunctionlist'
+    'body': 'igamma'
+
+  'igcd	Symbolic mupadfunctionlist':
+    'prefix': 'igcd	Symbolic mupadfunctionlist'
+    'body': 'igcd'
+
+  'igcdex	Symbolic mupadfunctionlist':
+    'prefix': 'igcdex	Symbolic mupadfunctionlist'
+    'body': 'igcdex'
+
+  'ilaplace	Symbolic mupadfunctionlist':
+    'prefix': 'ilaplace	Symbolic mupadfunctionlist'
+    'body': 'ilaplace'
+
+  'ilcm	Symbolic mupadfunctionlist':
+    'prefix': 'ilcm	Symbolic mupadfunctionlist'
+    'body': 'ilcm'
+
+  'in	Symbolic mupadfunctionlist':
+    'prefix': 'in	Symbolic mupadfunctionlist'
+    'body': 'in'
+
+  'indets	Symbolic mupadfunctionlist':
+    'prefix': 'indets	Symbolic mupadfunctionlist'
+    'body': 'indets'
+
+  'indexval	Symbolic mupadfunctionlist':
+    'prefix': 'indexval	Symbolic mupadfunctionlist'
+    'body': 'indexval'
+
+  'infinity	Symbolic mupadfunctionlist':
+    'prefix': 'infinity	Symbolic mupadfunctionlist'
+    'body': 'infinity'
+
+  'int2text	Symbolic mupadfunctionlist':
+    'prefix': 'int2text	Symbolic mupadfunctionlist'
+    'body': 'int2text'
+
+  'interval	Symbolic mupadfunctionlist':
+    'prefix': 'interval	Symbolic mupadfunctionlist'
+    'body': 'interval'
+
+  'inverf	Symbolic mupadfunctionlist':
+    'prefix': 'inverf	Symbolic mupadfunctionlist'
+    'body': 'inverf'
+
+  'inverfc	Symbolic mupadfunctionlist':
+    'prefix': 'inverfc	Symbolic mupadfunctionlist'
+    'body': 'inverfc'
+
+  'inverse	Symbolic mupadfunctionlist':
+    'prefix': 'inverse	Symbolic mupadfunctionlist'
+    'body': 'inverse'
+
+  'irreducible	Symbolic mupadfunctionlist':
+    'prefix': 'irreducible	Symbolic mupadfunctionlist'
+    'body': 'irreducible'
+
+  'is	Symbolic mupadfunctionlist':
+    'prefix': 'is	Symbolic mupadfunctionlist'
+    'body': 'is'
+
+  'isolate	Symbolic mupadfunctionlist':
+    'prefix': 'isolate	Symbolic mupadfunctionlist'
+    'body': 'isolate'
+
+  'isqrt	Symbolic mupadfunctionlist':
+    'prefix': 'isqrt	Symbolic mupadfunctionlist'
+    'body': 'isqrt'
+
+  'iszero	Symbolic mupadfunctionlist':
+    'prefix': 'iszero	Symbolic mupadfunctionlist'
+    'body': 'iszero'
+
+  'ithprime	Symbolic mupadfunctionlist':
+    'prefix': 'ithprime	Symbolic mupadfunctionlist'
+    'body': 'ithprime'
+
+  'iztrans	Symbolic mupadfunctionlist':
+    'prefix': 'iztrans	Symbolic mupadfunctionlist'
+    'body': 'iztrans'
+
+  'jacobiAM	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiAM	Symbolic mupadfunctionlist'
+    'body': 'jacobiAM'
+
+  'jacobiCD	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiCD	Symbolic mupadfunctionlist'
+    'body': 'jacobiCD'
+
+  'jacobiCN	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiCN	Symbolic mupadfunctionlist'
+    'body': 'jacobiCN'
+
+  'jacobiCS	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiCS	Symbolic mupadfunctionlist'
+    'body': 'jacobiCS'
+
+  'jacobiDC	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiDC	Symbolic mupadfunctionlist'
+    'body': 'jacobiDC'
+
+  'jacobiDN	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiDN	Symbolic mupadfunctionlist'
+    'body': 'jacobiDN'
+
+  'jacobiDS	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiDS	Symbolic mupadfunctionlist'
+    'body': 'jacobiDS'
+
+  'jacobiNC	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiNC	Symbolic mupadfunctionlist'
+    'body': 'jacobiNC'
+
+  'jacobiND	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiND	Symbolic mupadfunctionlist'
+    'body': 'jacobiND'
+
+  'jacobiNS	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiNS	Symbolic mupadfunctionlist'
+    'body': 'jacobiNS'
+
+  'jacobiSC	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiSC	Symbolic mupadfunctionlist'
+    'body': 'jacobiSC'
+
+  'jacobiSD	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiSD	Symbolic mupadfunctionlist'
+    'body': 'jacobiSD'
+
+  'jacobiSN	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiSN	Symbolic mupadfunctionlist'
+    'body': 'jacobiSN'
+
+  'jacobiZeta	Symbolic mupadfunctionlist':
+    'prefix': 'jacobiZeta	Symbolic mupadfunctionlist'
+    'body': 'jacobiZeta'
+
+  'jacobian	Symbolic mupadfunctionlist':
+    'prefix': 'jacobian	Symbolic mupadfunctionlist'
+    'body': 'jacobian'
+
+  'kroneckerDelta	Symbolic mupadfunctionlist':
+    'prefix': 'kroneckerDelta	Symbolic mupadfunctionlist'
+    'body': 'kroneckerDelta'
+
+  'kummerU	Symbolic mupadfunctionlist':
+    'prefix': 'kummerU	Symbolic mupadfunctionlist'
+    'body': 'kummerU'
+
+  'laguerreL	Symbolic mupadfunctionlist':
+    'prefix': 'laguerreL	Symbolic mupadfunctionlist'
+    'body': 'laguerreL'
+
+  'lambertW	Symbolic mupadfunctionlist':
+    'prefix': 'lambertW	Symbolic mupadfunctionlist'
+    'body': 'lambertW'
+
+  'laplace	Symbolic mupadfunctionlist':
+    'prefix': 'laplace	Symbolic mupadfunctionlist'
+    'body': 'laplace'
+
+  'lcoeff	Symbolic mupadfunctionlist':
+    'prefix': 'lcoeff	Symbolic mupadfunctionlist'
+    'body': 'lcoeff'
+
+  'ldegree	Symbolic mupadfunctionlist':
+    'prefix': 'ldegree	Symbolic mupadfunctionlist'
+    'body': 'ldegree'
+
+  'level	Symbolic mupadfunctionlist':
+    'prefix': 'level	Symbolic mupadfunctionlist'
+    'body': 'level'
+
+  'lhs	Symbolic mupadfunctionlist':
+    'prefix': 'lhs	Symbolic mupadfunctionlist'
+    'body': 'lhs'
+
+  'limit	Symbolic mupadfunctionlist':
+    'prefix': 'limit	Symbolic mupadfunctionlist'
+    'body': 'limit'
+
+  'lllint	Symbolic mupadfunctionlist':
+    'prefix': 'lllint	Symbolic mupadfunctionlist'
+    'body': 'lllint'
+
+  'lmonomial	Symbolic mupadfunctionlist':
+    'prefix': 'lmonomial	Symbolic mupadfunctionlist'
+    'body': 'lmonomial'
+
+  'ln	Symbolic mupadfunctionlist':
+    'prefix': 'ln	Symbolic mupadfunctionlist'
+    'body': 'ln'
+
+  'lngamma	Symbolic mupadfunctionlist':
+    'prefix': 'lngamma	Symbolic mupadfunctionlist'
+    'body': 'lngamma'
+
+  'lterm	Symbolic mupadfunctionlist':
+    'prefix': 'lterm	Symbolic mupadfunctionlist'
+    'body': 'lterm'
+
+  'map	Symbolic mupadfunctionlist':
+    'prefix': 'map	Symbolic mupadfunctionlist'
+    'body': 'map'
+
+  'mapcoeffs	Symbolic mupadfunctionlist':
+    'prefix': 'mapcoeffs	Symbolic mupadfunctionlist'
+    'body': 'mapcoeffs'
+
+  'maprat	Symbolic mupadfunctionlist':
+    'prefix': 'maprat	Symbolic mupadfunctionlist'
+    'body': 'maprat'
+
+  'match	Symbolic mupadfunctionlist':
+    'prefix': 'match	Symbolic mupadfunctionlist'
+    'body': 'match'
+
+  'matrix	Symbolic mupadfunctionlist':
+    'prefix': 'matrix	Symbolic mupadfunctionlist'
+    'body': 'matrix'
+
+  'meijerG	Symbolic mupadfunctionlist':
+    'prefix': 'meijerG	Symbolic mupadfunctionlist'
+    'body': 'meijerG'
+
+  'modp	Symbolic mupadfunctionlist':
+    'prefix': 'modp	Symbolic mupadfunctionlist'
+    'body': 'modp'
+
+  'mods	Symbolic mupadfunctionlist':
+    'prefix': 'mods	Symbolic mupadfunctionlist'
+    'body': 'mods'
+
+  'monomials	Symbolic mupadfunctionlist':
+    'prefix': 'monomials	Symbolic mupadfunctionlist'
+    'body': 'monomials'
+
+  'mtaylor	Symbolic mupadfunctionlist':
+    'prefix': 'mtaylor	Symbolic mupadfunctionlist'
+    'body': 'mtaylor'
+
+  'multcoeffs	Symbolic mupadfunctionlist':
+    'prefix': 'multcoeffs	Symbolic mupadfunctionlist'
+    'body': 'multcoeffs'
+
+  'new	Symbolic mupadfunctionlist':
+    'prefix': 'new	Symbolic mupadfunctionlist'
+    'body': 'new'
+
+  'newDomain	Symbolic mupadfunctionlist':
+    'prefix': 'newDomain	Symbolic mupadfunctionlist'
+    'body': 'newDomain'
+
+  'nextprime	Symbolic mupadfunctionlist':
+    'prefix': 'nextprime	Symbolic mupadfunctionlist'
+    'body': 'nextprime'
+
+  'nops	Symbolic mupadfunctionlist':
+    'prefix': 'nops	Symbolic mupadfunctionlist'
+    'body': 'nops'
+
+  'normal	Symbolic mupadfunctionlist':
+    'prefix': 'normal	Symbolic mupadfunctionlist'
+    'body': 'normal'
+
+  'nterms	Symbolic mupadfunctionlist':
+    'prefix': 'nterms	Symbolic mupadfunctionlist'
+    'body': 'nterms'
+
+  'nthcoeff	Symbolic mupadfunctionlist':
+    'prefix': 'nthcoeff	Symbolic mupadfunctionlist'
+    'body': 'nthcoeff'
+
+  'nthmonomial	Symbolic mupadfunctionlist':
+    'prefix': 'nthmonomial	Symbolic mupadfunctionlist'
+    'body': 'nthmonomial'
+
+  'nthterm	Symbolic mupadfunctionlist':
+    'prefix': 'nthterm	Symbolic mupadfunctionlist'
+    'body': 'nthterm'
+
+  'numer	Symbolic mupadfunctionlist':
+    'prefix': 'numer	Symbolic mupadfunctionlist'
+    'body': 'numer'
+
+  'ode	Symbolic mupadfunctionlist':
+    'prefix': 'ode	Symbolic mupadfunctionlist'
+    'body': 'ode'
+
+  'op	Symbolic mupadfunctionlist':
+    'prefix': 'op	Symbolic mupadfunctionlist'
+    'body': 'op'
+
+  'operator	Symbolic mupadfunctionlist':
+    'prefix': 'operator	Symbolic mupadfunctionlist'
+    'body': 'operator'
+
+  'partfrac	Symbolic mupadfunctionlist':
+    'prefix': 'partfrac	Symbolic mupadfunctionlist'
+    'body': 'partfrac'
+
+  'pathname	Symbolic mupadfunctionlist':
+    'prefix': 'pathname	Symbolic mupadfunctionlist'
+    'body': 'pathname'
+
+  'pdivide	Symbolic mupadfunctionlist':
+    'prefix': 'pdivide	Symbolic mupadfunctionlist'
+    'body': 'pdivide'
+
+  'piecewise	Symbolic mupadfunctionlist':
+    'prefix': 'piecewise	Symbolic mupadfunctionlist'
+    'body': 'piecewise'
+
+  'plotfunc2d	Symbolic mupadfunctionlist':
+    'prefix': 'plotfunc2d	Symbolic mupadfunctionlist'
+    'body': 'plotfunc2d'
+
+  'plotfunc3d	Symbolic mupadfunctionlist':
+    'prefix': 'plotfunc3d	Symbolic mupadfunctionlist'
+    'body': 'plotfunc3d'
+
+  'pochhammer	Symbolic mupadfunctionlist':
+    'prefix': 'pochhammer	Symbolic mupadfunctionlist'
+    'body': 'pochhammer'
+
+  'poles	Symbolic mupadfunctionlist':
+    'prefix': 'poles	Symbolic mupadfunctionlist'
+    'body': 'poles'
+
+  'poly2list	Symbolic mupadfunctionlist':
+    'prefix': 'poly2list	Symbolic mupadfunctionlist'
+    'body': 'poly2list'
+
+  'polylog	Symbolic mupadfunctionlist':
+    'prefix': 'polylog	Symbolic mupadfunctionlist'
+    'body': 'polylog'
+
+  'potential	Symbolic mupadfunctionlist':
+    'prefix': 'potential	Symbolic mupadfunctionlist'
+    'body': 'potential'
+
+  'powermod	Symbolic mupadfunctionlist':
+    'prefix': 'powermod	Symbolic mupadfunctionlist'
+    'body': 'powermod'
+
+  'prevprime	Symbolic mupadfunctionlist':
+    'prefix': 'prevprime	Symbolic mupadfunctionlist'
+    'body': 'prevprime'
+
+  'proc	Symbolic mupadfunctionlist':
+    'prefix': 'proc	Symbolic mupadfunctionlist'
+    'body': 'proc'
+
+  'product	Symbolic mupadfunctionlist':
+    'prefix': 'product	Symbolic mupadfunctionlist'
+    'body': 'product'
+
+  'protect	Symbolic mupadfunctionlist':
+    'prefix': 'protect	Symbolic mupadfunctionlist'
+    'body': 'protect'
+
+  'protocol	Symbolic mupadfunctionlist':
+    'prefix': 'protocol	Symbolic mupadfunctionlist'
+    'body': 'protocol'
+
+  'radsimp	Symbolic mupadfunctionlist':
+    'prefix': 'radsimp	Symbolic mupadfunctionlist'
+    'body': 'radsimp'
+
+  'rationalize	Symbolic mupadfunctionlist':
+    'prefix': 'rationalize	Symbolic mupadfunctionlist'
+    'body': 'rationalize'
+
+  'readbytes	Symbolic mupadfunctionlist':
+    'prefix': 'readbytes	Symbolic mupadfunctionlist'
+    'body': 'readbytes'
+
+  'rec	Symbolic mupadfunctionlist':
+    'prefix': 'rec	Symbolic mupadfunctionlist'
+    'body': 'rec'
+
+  'rectangularPulse	Symbolic mupadfunctionlist':
+    'prefix': 'rectangularPulse	Symbolic mupadfunctionlist'
+    'body': 'rectangularPulse'
+
+  'rectform	Symbolic mupadfunctionlist':
+    'prefix': 'rectform	Symbolic mupadfunctionlist'
+    'body': 'rectform'
+
+  'revert	Symbolic mupadfunctionlist':
+    'prefix': 'revert	Symbolic mupadfunctionlist'
+    'body': 'revert'
+
+  'rewrite	Symbolic mupadfunctionlist':
+    'prefix': 'rewrite	Symbolic mupadfunctionlist'
+    'body': 'rewrite'
+
+  'rhs	Symbolic mupadfunctionlist':
+    'prefix': 'rhs	Symbolic mupadfunctionlist'
+    'body': 'rhs'
+
+  'rtime	Symbolic mupadfunctionlist':
+    'prefix': 'rtime	Symbolic mupadfunctionlist'
+    'body': 'rtime'
+
+  'signIm	Symbolic mupadfunctionlist':
+    'prefix': 'signIm	Symbolic mupadfunctionlist'
+    'body': 'signIm'
+
+  'simplifyFraction	Symbolic mupadfunctionlist':
+    'prefix': 'simplifyFraction	Symbolic mupadfunctionlist'
+    'body': 'simplifyFraction'
+
+  'simplifyRadical	Symbolic mupadfunctionlist':
+    'prefix': 'simplifyRadical	Symbolic mupadfunctionlist'
+    'body': 'simplifyRadical'
+
+  'slotAssignCounter	Symbolic mupadfunctionlist':
+    'prefix': 'slotAssignCounter	Symbolic mupadfunctionlist'
+    'body': 'slotAssignCounter'
+
+  'solve	Symbolic mupadfunctionlist':
+    'prefix': 'solve	Symbolic mupadfunctionlist'
+    'body': 'solve'
+
+  'strprint	Symbolic mupadfunctionlist':
+    'prefix': 'strprint	Symbolic mupadfunctionlist'
+    'body': 'strprint'
+
+  'subs	Symbolic mupadfunctionlist':
+    'prefix': 'subs	Symbolic mupadfunctionlist'
+    'body': 'subs'
+
+  'subset	Symbolic mupadfunctionlist':
+    'prefix': 'subset	Symbolic mupadfunctionlist'
+    'body': 'subset'
+
+  'subsex	Symbolic mupadfunctionlist':
+    'prefix': 'subsex	Symbolic mupadfunctionlist'
+    'body': 'subsex'
+
+  'subsop	Symbolic mupadfunctionlist':
+    'prefix': 'subsop	Symbolic mupadfunctionlist'
+    'body': 'subsop'
+
+  'substring	Symbolic mupadfunctionlist':
+    'prefix': 'substring	Symbolic mupadfunctionlist'
+    'body': 'substring'
+
+  'surd	Symbolic mupadfunctionlist':
+    'prefix': 'surd	Symbolic mupadfunctionlist'
+    'body': 'surd'
+
+  'sysorder	Symbolic mupadfunctionlist':
+    'prefix': 'sysorder	Symbolic mupadfunctionlist'
+    'body': 'sysorder'
+
+  'taylor	Symbolic mupadfunctionlist':
+    'prefix': 'taylor	Symbolic mupadfunctionlist'
+    'body': 'taylor'
+
+  'tbl2text	Symbolic mupadfunctionlist':
+    'prefix': 'tbl2text	Symbolic mupadfunctionlist'
+    'body': 'tbl2text'
+
+  'tcoeff	Symbolic mupadfunctionlist':
+    'prefix': 'tcoeff	Symbolic mupadfunctionlist'
+    'body': 'tcoeff'
+
+  'testargs	Symbolic mupadfunctionlist':
+    'prefix': 'testargs	Symbolic mupadfunctionlist'
+    'body': 'testargs'
+
+  'testeq	Symbolic mupadfunctionlist':
+    'prefix': 'testeq	Symbolic mupadfunctionlist'
+    'body': 'testeq'
+
+  'testtype	Symbolic mupadfunctionlist':
+    'prefix': 'testtype	Symbolic mupadfunctionlist'
+    'body': 'testtype'
+
+  'text2expr	Symbolic mupadfunctionlist':
+    'prefix': 'text2expr	Symbolic mupadfunctionlist'
+    'body': 'text2expr'
+
+  'text2int	Symbolic mupadfunctionlist':
+    'prefix': 'text2int	Symbolic mupadfunctionlist'
+    'body': 'text2int'
+
+  'text2list	Symbolic mupadfunctionlist':
+    'prefix': 'text2list	Symbolic mupadfunctionlist'
+    'body': 'text2list'
+
+  'text2tbl	Symbolic mupadfunctionlist':
+    'prefix': 'text2tbl	Symbolic mupadfunctionlist'
+    'body': 'text2tbl'
+
+  'textinput	Symbolic mupadfunctionlist':
+    'prefix': 'textinput	Symbolic mupadfunctionlist'
+    'body': 'textinput'
+
+  'theta	Symbolic mupadfunctionlist':
+    'prefix': 'theta	Symbolic mupadfunctionlist'
+    'body': 'theta'
+
+  'traperror	Symbolic mupadfunctionlist':
+    'prefix': 'traperror	Symbolic mupadfunctionlist'
+    'body': 'traperror'
+
+  'triangularPulse	Symbolic mupadfunctionlist':
+    'prefix': 'triangularPulse	Symbolic mupadfunctionlist'
+    'body': 'triangularPulse'
+
+  'tripulse	Symbolic mupadfunctionlist':
+    'prefix': 'tripulse	Symbolic mupadfunctionlist'
+    'body': 'tripulse'
+
+  'trunc	Symbolic mupadfunctionlist':
+    'prefix': 'trunc	Symbolic mupadfunctionlist'
+    'body': 'trunc'
+
+  'unalias	Symbolic mupadfunctionlist':
+    'prefix': 'unalias	Symbolic mupadfunctionlist'
+    'body': 'unalias'
+
+  'unassume	Symbolic mupadfunctionlist':
+    'prefix': 'unassume	Symbolic mupadfunctionlist'
+    'body': 'unassume'
+
+  'unblock	Symbolic mupadfunctionlist':
+    'prefix': 'unblock	Symbolic mupadfunctionlist'
+    'body': 'unblock'
+
+  'undefined	Symbolic mupadfunctionlist':
+    'prefix': 'undefined	Symbolic mupadfunctionlist'
+    'body': 'undefined'
+
+  'unfreeze	Symbolic mupadfunctionlist':
+    'prefix': 'unfreeze	Symbolic mupadfunctionlist'
+    'body': 'unfreeze'
+
+  'unit	Symbolic mupadfunctionlist':
+    'prefix': 'unit	Symbolic mupadfunctionlist'
+    'body': 'unit'
+
+  'universe	Symbolic mupadfunctionlist':
+    'prefix': 'universe	Symbolic mupadfunctionlist'
+    'body': 'universe'
+
+  'unprotect	Symbolic mupadfunctionlist':
+    'prefix': 'unprotect	Symbolic mupadfunctionlist'
+    'body': 'unprotect'
+
+  'unuse	Symbolic mupadfunctionlist':
+    'prefix': 'unuse	Symbolic mupadfunctionlist'
+    'body': 'unuse'
+
+  'use	Symbolic mupadfunctionlist':
+    'prefix': 'use	Symbolic mupadfunctionlist'
+    'body': 'use'
+
+  'val	Symbolic mupadfunctionlist':
+    'prefix': 'val	Symbolic mupadfunctionlist'
+    'body': 'val'
+
+  'vectorPotential	Symbolic mupadfunctionlist':
+    'prefix': 'vectorPotential	Symbolic mupadfunctionlist'
+    'body': 'vectorPotential'
+
+  'whittakerM	Symbolic mupadfunctionlist':
+    'prefix': 'whittakerM	Symbolic mupadfunctionlist'
+    'body': 'whittakerM'
+
+  'whittakerW	Symbolic mupadfunctionlist':
+    'prefix': 'whittakerW	Symbolic mupadfunctionlist'
+    'body': 'whittakerW'
+
+  'wrightOmega	Symbolic mupadfunctionlist':
+    'prefix': 'wrightOmega	Symbolic mupadfunctionlist'
+    'body': 'wrightOmega'
+
+  'writebytes	Symbolic mupadfunctionlist':
+    'prefix': 'writebytes	Symbolic mupadfunctionlist'
+    'body': 'writebytes'
+
+  'zeta	Symbolic mupadfunctionlist':
+    'prefix': 'zeta	Symbolic mupadfunctionlist'
+    'body': 'zeta'
+
+  'ztrans	Symbolic mupadfunctionlist':
+    'prefix': 'ztrans	Symbolic mupadfunctionlist'
+    'body': 'ztrans'

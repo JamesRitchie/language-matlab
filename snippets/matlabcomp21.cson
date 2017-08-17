@@ -1,0 +1,55 @@
+# matlabcomp21 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'createOptimProblem	GADS method':
+    'prefix': 'createOptimProblem	GADS method'
+    'body': 'createOptimProblem(${1:args})'
+
+  'ga	GADS method':
+    'prefix': 'ga	GADS method'
+    'body': 'ga(${1:args})'
+
+  'gamultiobj	GADS method':
+    'prefix': 'gamultiobj	GADS method'
+    'body': 'gamultiobj(${1:args})'
+
+  'gaoptimget	GADS method':
+    'prefix': 'gaoptimget	GADS method'
+    'body': 'gaoptimget(${1:args})'
+
+  'gaoptimset	GADS method':
+    'prefix': 'gaoptimset	GADS method'
+    'body': 'gaoptimset(${1:args})'
+
+  'optimoptions	GADS method':
+    'prefix': 'optimoptions	GADS method'
+    'body': 'optimoptions(${1:args})'
+
+  'particleswarm	GADS method':
+    'prefix': 'particleswarm	GADS method'
+    'body': 'particleswarm(${1:args})'
+
+  'patternsearch	GADS method':
+    'prefix': 'patternsearch	GADS method'
+    'body': 'patternsearch(${1:args})'
+
+  'psoptimget	GADS method':
+    'prefix': 'psoptimget	GADS method'
+    'body': 'psoptimget(${1:args})'
+
+  'psoptimset	GADS method':
+    'prefix': 'psoptimset	GADS method'
+    'body': 'psoptimset(${1:args})'
+
+  'saoptimget	GADS method':
+    'prefix': 'saoptimget	GADS method'
+    'body': 'saoptimget(${1:args})'
+
+  'saoptimset	GADS method':
+    'prefix': 'saoptimset	GADS method'
+    'body': 'saoptimset(${1:args})'
+
+  'simulannealbnd	GADS method':
+    'prefix': 'simulannealbnd	GADS method'
+    'body': 'simulannealbnd(${1:args})'

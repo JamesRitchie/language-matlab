@@ -1,0 +1,15 @@
+# matlabcomp18 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'rtwho	RTWin method':
+    'prefix': 'rtwho	RTWin method'
+    'body': 'rtwho(${1:args})'
+
+  'sldrtconfigset	RTWin method':
+    'prefix': 'sldrtconfigset	RTWin method'
+    'body': 'sldrtconfigset(${1:args})'
+
+  'sldrtkernel	RTWin method':
+    'prefix': 'sldrtkernel	RTWin method'
+    'body': 'sldrtkernel(${1:args})'

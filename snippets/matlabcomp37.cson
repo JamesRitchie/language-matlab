@@ -1,0 +1,791 @@
+# matlabcomp37 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'ac2poly	Signal method':
+    'prefix': 'ac2poly	Signal method'
+    'body': 'ac2poly(${1:args})'
+
+  'ac2rc	Signal method':
+    'prefix': 'ac2rc	Signal method'
+    'body': 'ac2rc(${1:args})'
+
+  'arburg	Signal method':
+    'prefix': 'arburg	Signal method'
+    'body': 'arburg(${1:args})'
+
+  'arcov	Signal method':
+    'prefix': 'arcov	Signal method'
+    'body': 'arcov(${1:args})'
+
+  'armcov	Signal method':
+    'prefix': 'armcov	Signal method'
+    'body': 'armcov(${1:args})'
+
+  'aryule	Signal method':
+    'prefix': 'aryule	Signal method'
+    'body': 'aryule(${1:args})'
+
+  'bandpower	Signal method':
+    'prefix': 'bandpower	Signal method'
+    'body': 'bandpower(${1:args})'
+
+  'barthannwin	Signal method':
+    'prefix': 'barthannwin	Signal method'
+    'body': 'barthannwin(${1:args})'
+
+  'bartlett	Signal method':
+    'prefix': 'bartlett	Signal method'
+    'body': 'bartlett(${1:args})'
+
+  'besselap	Signal method':
+    'prefix': 'besselap	Signal method'
+    'body': 'besselap(${1:args})'
+
+  'besself	Signal method':
+    'prefix': 'besself	Signal method'
+    'body': 'besself(${1:args})'
+
+  'bilinear	Signal method':
+    'prefix': 'bilinear	Signal method'
+    'body': 'bilinear(${1:args})'
+
+  'bitrevorder	Signal method':
+    'prefix': 'bitrevorder	Signal method'
+    'body': 'bitrevorder(${1:args})'
+
+  'blackman	Signal method':
+    'prefix': 'blackman	Signal method'
+    'body': 'blackman(${1:args})'
+
+  'blackmanharris	Signal method':
+    'prefix': 'blackmanharris	Signal method'
+    'body': 'blackmanharris(${1:args})'
+
+  'bohmanwin	Signal method':
+    'prefix': 'bohmanwin	Signal method'
+    'body': 'bohmanwin(${1:args})'
+
+  'buttap	Signal method':
+    'prefix': 'buttap	Signal method'
+    'body': 'buttap(${1:args})'
+
+  'buttord	Signal method':
+    'prefix': 'buttord	Signal method'
+    'body': 'buttord(${1:args})'
+
+  'cceps	Signal method':
+    'prefix': 'cceps	Signal method'
+    'body': 'cceps(${1:args})'
+
+  'cconv	Signal method':
+    'prefix': 'cconv	Signal method'
+    'body': 'cconv(${1:args})'
+
+  'cell2sos	Signal method':
+    'prefix': 'cell2sos	Signal method'
+    'body': 'cell2sos(${1:args})'
+
+  'cfirpm	Signal method':
+    'prefix': 'cfirpm	Signal method'
+    'body': 'cfirpm(${1:args})'
+
+  'cheb1ap	Signal method':
+    'prefix': 'cheb1ap	Signal method'
+    'body': 'cheb1ap(${1:args})'
+
+  'cheb1ord	Signal method':
+    'prefix': 'cheb1ord	Signal method'
+    'body': 'cheb1ord(${1:args})'
+
+  'cheb2ap	Signal method':
+    'prefix': 'cheb2ap	Signal method'
+    'body': 'cheb2ap(${1:args})'
+
+  'cheb2ord	Signal method':
+    'prefix': 'cheb2ord	Signal method'
+    'body': 'cheb2ord(${1:args})'
+
+  'chebwin	Signal method':
+    'prefix': 'chebwin	Signal method'
+    'body': 'chebwin(${1:args})'
+
+  'chirp	Signal method':
+    'prefix': 'chirp	Signal method'
+    'body': 'chirp(${1:args})'
+
+  'corrmtx	Signal method':
+    'prefix': 'corrmtx	Signal method'
+    'body': 'corrmtx(${1:args})'
+
+  'cpsd	Signal method':
+    'prefix': 'cpsd	Signal method'
+    'body': 'cpsd(${1:args})'
+
+  'czt	Signal method':
+    'prefix': 'czt	Signal method'
+    'body': 'czt(${1:args})'
+
+  'db	Signal method':
+    'prefix': 'db	Signal method'
+    'body': 'db(${1:args})'
+
+  'db2pow	Signal method':
+    'prefix': 'db2pow	Signal method'
+    'body': 'db2pow(${1:args})'
+
+  'dct	Signal method':
+    'prefix': 'dct	Signal method'
+    'body': 'dct(${1:args})'
+
+  'decimate	Signal method':
+    'prefix': 'decimate	Signal method'
+    'body': 'decimate(${1:args})'
+
+  'demod	Signal method':
+    'prefix': 'demod	Signal method'
+    'body': 'demod(${1:args})'
+
+  'designfilt	Signal method':
+    'prefix': 'designfilt	Signal method'
+    'body': 'designfilt(${1:args})'
+
+  'digitalFilter	Signal method':
+    'prefix': 'digitalFilter	Signal method'
+    'body': 'digitalFilter(${1:args})'
+
+  'digitrevorder	Signal method':
+    'prefix': 'digitrevorder	Signal method'
+    'body': 'digitrevorder(${1:args})'
+
+  'diric	Signal method':
+    'prefix': 'diric	Signal method'
+    'body': 'diric(${1:args})'
+
+  'downsample	Signal method':
+    'prefix': 'downsample	Signal method'
+    'body': 'downsample(${1:args})'
+
+  'dpss	Signal method':
+    'prefix': 'dpss	Signal method'
+    'body': 'dpss(${1:args})'
+
+  'dpssclear	Signal method':
+    'prefix': 'dpssclear	Signal method'
+    'body': 'dpssclear(${1:args})'
+
+  'dpssdir	Signal method':
+    'prefix': 'dpssdir	Signal method'
+    'body': 'dpssdir(${1:args})'
+
+  'dpssload	Signal method':
+    'prefix': 'dpssload	Signal method'
+    'body': 'dpssload(${1:args})'
+
+  'dpsssave	Signal method':
+    'prefix': 'dpsssave	Signal method'
+    'body': 'dpsssave(${1:args})'
+
+  'dspfwiz	Signal method':
+    'prefix': 'dspfwiz	Signal method'
+    'body': 'dspfwiz(${1:args})'
+
+  'dutycycle	Signal method':
+    'prefix': 'dutycycle	Signal method'
+    'body': 'dutycycle(${1:args})'
+
+  'ellipap	Signal method':
+    'prefix': 'ellipap	Signal method'
+    'body': 'ellipap(${1:args})'
+
+  'ellipord	Signal method':
+    'prefix': 'ellipord	Signal method'
+    'body': 'ellipord(${1:args})'
+
+  'enbw	Signal method':
+    'prefix': 'enbw	Signal method'
+    'body': 'enbw(${1:args})'
+
+  'envelope	Signal method':
+    'prefix': 'envelope	Signal method'
+    'body': 'envelope(${1:args})'
+
+  'eqtflength	Signal method':
+    'prefix': 'eqtflength	Signal method'
+    'body': 'eqtflength(${1:args})'
+
+  'falltime	Signal method':
+    'prefix': 'falltime	Signal method'
+    'body': 'falltime(${1:args})'
+
+  'fftfilt	Signal method':
+    'prefix': 'fftfilt	Signal method'
+    'body': 'fftfilt(${1:args})'
+
+  'filt2block	Signal method':
+    'prefix': 'filt2block	Signal method'
+    'body': 'filt2block(${1:args})'
+
+  'filternorm	Signal method':
+    'prefix': 'filternorm	Signal method'
+    'body': 'filternorm(${1:args})'
+
+  'filtfilt	Signal method':
+    'prefix': 'filtfilt	Signal method'
+    'body': 'filtfilt(${1:args})'
+
+  'filtic	Signal method':
+    'prefix': 'filtic	Signal method'
+    'body': 'filtic(${1:args})'
+
+  'filtord	Signal method':
+    'prefix': 'filtord	Signal method'
+    'body': 'filtord(${1:args})'
+
+  'findpeaks	Signal method':
+    'prefix': 'findpeaks	Signal method'
+    'body': 'findpeaks(${1:args})'
+
+  'fir1	Signal method':
+    'prefix': 'fir1	Signal method'
+    'body': 'fir1(${1:args})'
+
+  'fir2	Signal method':
+    'prefix': 'fir2	Signal method'
+    'body': 'fir2(${1:args})'
+
+  'fircls1	Signal method':
+    'prefix': 'fircls1	Signal method'
+    'body': 'fircls1(${1:args})'
+
+  'firpm	Signal method':
+    'prefix': 'firpm	Signal method'
+    'body': 'firpm(${1:args})'
+
+  'firpmord	Signal method':
+    'prefix': 'firpmord	Signal method'
+    'body': 'firpmord(${1:args})'
+
+  'flattopwin	Signal method':
+    'prefix': 'flattopwin	Signal method'
+    'body': 'flattopwin(${1:args})'
+
+  'freqs	Signal method':
+    'prefix': 'freqs	Signal method'
+    'body': 'freqs(${1:args})'
+
+  'fwht	Signal method':
+    'prefix': 'fwht	Signal method'
+    'body': 'fwht(${1:args})'
+
+  'gauspuls	Signal method':
+    'prefix': 'gauspuls	Signal method'
+    'body': 'gauspuls(${1:args})'
+
+  'gausswin	Signal method':
+    'prefix': 'gausswin	Signal method'
+    'body': 'gausswin(${1:args})'
+
+  'gmonopuls	Signal method':
+    'prefix': 'gmonopuls	Signal method'
+    'body': 'gmonopuls(${1:args})'
+
+  'goertzel	Signal method':
+    'prefix': 'goertzel	Signal method'
+    'body': 'goertzel(${1:args})'
+
+  'hamming	Signal method':
+    'prefix': 'hamming	Signal method'
+    'body': 'hamming(${1:args})'
+
+  'hampel	Signal method':
+    'prefix': 'hampel	Signal method'
+    'body': 'hampel(${1:args})'
+
+  'hann	Signal method':
+    'prefix': 'hann	Signal method'
+    'body': 'hann(${1:args})'
+
+  'hilbert	Signal method':
+    'prefix': 'hilbert	Signal method'
+    'body': 'hilbert(${1:args})'
+
+  'icceps	Signal method':
+    'prefix': 'icceps	Signal method'
+    'body': 'icceps(${1:args})'
+
+  'idct	Signal method':
+    'prefix': 'idct	Signal method'
+    'body': 'idct(${1:args})'
+
+  'ifwht	Signal method':
+    'prefix': 'ifwht	Signal method'
+    'body': 'ifwht(${1:args})'
+
+  'impinvar	Signal method':
+    'prefix': 'impinvar	Signal method'
+    'body': 'impinvar(${1:args})'
+
+  'impzlength	Signal method':
+    'prefix': 'impzlength	Signal method'
+    'body': 'impzlength(${1:args})'
+
+  'intfilt	Signal method':
+    'prefix': 'intfilt	Signal method'
+    'body': 'intfilt(${1:args})'
+
+  'invfreqs	Signal method':
+    'prefix': 'invfreqs	Signal method'
+    'body': 'invfreqs(${1:args})'
+
+  'invfreqz	Signal method':
+    'prefix': 'invfreqz	Signal method'
+    'body': 'invfreqz(${1:args})'
+
+  'is2rc	Signal method':
+    'prefix': 'is2rc	Signal method'
+    'body': 'is2rc(${1:args})'
+
+  'kaiser	Signal method':
+    'prefix': 'kaiser	Signal method'
+    'body': 'kaiser(${1:args})'
+
+  'kaiserord	Signal method':
+    'prefix': 'kaiserord	Signal method'
+    'body': 'kaiserord(${1:args})'
+
+  'lar2rc	Signal method':
+    'prefix': 'lar2rc	Signal method'
+    'body': 'lar2rc(${1:args})'
+
+  'latc2tf	Signal method':
+    'prefix': 'latc2tf	Signal method'
+    'body': 'latc2tf(${1:args})'
+
+  'latcfilt	Signal method':
+    'prefix': 'latcfilt	Signal method'
+    'body': 'latcfilt(${1:args})'
+
+  'levinson	Signal method':
+    'prefix': 'levinson	Signal method'
+    'body': 'levinson(${1:args})'
+
+  'lp2bp	Signal method':
+    'prefix': 'lp2bp	Signal method'
+    'body': 'lp2bp(${1:args})'
+
+  'lp2bs	Signal method':
+    'prefix': 'lp2bs	Signal method'
+    'body': 'lp2bs(${1:args})'
+
+  'lp2hp	Signal method':
+    'prefix': 'lp2hp	Signal method'
+    'body': 'lp2hp(${1:args})'
+
+  'lp2lp	Signal method':
+    'prefix': 'lp2lp	Signal method'
+    'body': 'lp2lp(${1:args})'
+
+  'lpc	Signal method':
+    'prefix': 'lpc	Signal method'
+    'body': 'lpc(${1:args})'
+
+  'lsf2poly	Signal method':
+    'prefix': 'lsf2poly	Signal method'
+    'body': 'lsf2poly(${1:args})'
+
+  'meanfreq	Signal method':
+    'prefix': 'meanfreq	Signal method'
+    'body': 'meanfreq(${1:args})'
+
+  'medfilt1	Signal method':
+    'prefix': 'medfilt1	Signal method'
+    'body': 'medfilt1(${1:args})'
+
+  'medfreq	Signal method':
+    'prefix': 'medfreq	Signal method'
+    'body': 'medfreq(${1:args})'
+
+  'midcross	Signal method':
+    'prefix': 'midcross	Signal method'
+    'body': 'midcross(${1:args})'
+
+  'modulate	Signal method':
+    'prefix': 'modulate	Signal method'
+    'body': 'modulate(${1:args})'
+
+  'mscohere	Signal method':
+    'prefix': 'mscohere	Signal method'
+    'body': 'mscohere(${1:args})'
+
+  'nuttallwin	Signal method':
+    'prefix': 'nuttallwin	Signal method'
+    'body': 'nuttallwin(${1:args})'
+
+  'obw	Signal method':
+    'prefix': 'obw	Signal method'
+    'body': 'obw(${1:args})'
+
+  'overshoot	Signal method':
+    'prefix': 'overshoot	Signal method'
+    'body': 'overshoot(${1:args})'
+
+  'parzenwin	Signal method':
+    'prefix': 'parzenwin	Signal method'
+    'body': 'parzenwin(${1:args})'
+
+  'pburg	Signal method':
+    'prefix': 'pburg	Signal method'
+    'body': 'pburg(${1:args})'
+
+  'pcov	Signal method':
+    'prefix': 'pcov	Signal method'
+    'body': 'pcov(${1:args})'
+
+  'peak2peak	Signal method':
+    'prefix': 'peak2peak	Signal method'
+    'body': 'peak2peak(${1:args})'
+
+  'peak2rms	Signal method':
+    'prefix': 'peak2rms	Signal method'
+    'body': 'peak2rms(${1:args})'
+
+  'peig	Signal method':
+    'prefix': 'peig	Signal method'
+    'body': 'peig(${1:args})'
+
+  'periodogram	Signal method':
+    'prefix': 'periodogram	Signal method'
+    'body': 'periodogram(${1:args})'
+
+  'plomb	Signal method':
+    'prefix': 'plomb	Signal method'
+    'body': 'plomb(${1:args})'
+
+  'pmcov	Signal method':
+    'prefix': 'pmcov	Signal method'
+    'body': 'pmcov(${1:args})'
+
+  'pmtm	Signal method':
+    'prefix': 'pmtm	Signal method'
+    'body': 'pmtm(${1:args})'
+
+  'pmusic	Signal method':
+    'prefix': 'pmusic	Signal method'
+    'body': 'pmusic(${1:args})'
+
+  'poly2ac	Signal method':
+    'prefix': 'poly2ac	Signal method'
+    'body': 'poly2ac(${1:args})'
+
+  'poly2lsf	Signal method':
+    'prefix': 'poly2lsf	Signal method'
+    'body': 'poly2lsf(${1:args})'
+
+  'poly2rc	Signal method':
+    'prefix': 'poly2rc	Signal method'
+    'body': 'poly2rc(${1:args})'
+
+  'polyscale	Signal method':
+    'prefix': 'polyscale	Signal method'
+    'body': 'polyscale(${1:args})'
+
+  'polystab	Signal method':
+    'prefix': 'polystab	Signal method'
+    'body': 'polystab(${1:args})'
+
+  'pow2db	Signal method':
+    'prefix': 'pow2db	Signal method'
+    'body': 'pow2db(${1:args})'
+
+  'powerbw	Signal method':
+    'prefix': 'powerbw	Signal method'
+    'body': 'powerbw(${1:args})'
+
+  'prony	Signal method':
+    'prefix': 'prony	Signal method'
+    'body': 'prony(${1:args})'
+
+  'pulseperiod	Signal method':
+    'prefix': 'pulseperiod	Signal method'
+    'body': 'pulseperiod(${1:args})'
+
+  'pulsesep	Signal method':
+    'prefix': 'pulsesep	Signal method'
+    'body': 'pulsesep(${1:args})'
+
+  'pulsewidth	Signal method':
+    'prefix': 'pulsewidth	Signal method'
+    'body': 'pulsewidth(${1:args})'
+
+  'pulstran	Signal method':
+    'prefix': 'pulstran	Signal method'
+    'body': 'pulstran(${1:args})'
+
+  'pwelch	Signal method':
+    'prefix': 'pwelch	Signal method'
+    'body': 'pwelch(${1:args})'
+
+  'pyulear	Signal method':
+    'prefix': 'pyulear	Signal method'
+    'body': 'pyulear(${1:args})'
+
+  'rc2ac	Signal method':
+    'prefix': 'rc2ac	Signal method'
+    'body': 'rc2ac(${1:args})'
+
+  'rc2is	Signal method':
+    'prefix': 'rc2is	Signal method'
+    'body': 'rc2is(${1:args})'
+
+  'rc2lar	Signal method':
+    'prefix': 'rc2lar	Signal method'
+    'body': 'rc2lar(${1:args})'
+
+  'rc2poly	Signal method':
+    'prefix': 'rc2poly	Signal method'
+    'body': 'rc2poly(${1:args})'
+
+  'rceps	Signal method':
+    'prefix': 'rceps	Signal method'
+    'body': 'rceps(${1:args})'
+
+  'rectpuls	Signal method':
+    'prefix': 'rectpuls	Signal method'
+    'body': 'rectpuls(${1:args})'
+
+  'rectwin	Signal method':
+    'prefix': 'rectwin	Signal method'
+    'body': 'rectwin(${1:args})'
+
+  'residuez	Signal method':
+    'prefix': 'residuez	Signal method'
+    'body': 'residuez(${1:args})'
+
+  'risetime	Signal method':
+    'prefix': 'risetime	Signal method'
+    'body': 'risetime(${1:args})'
+
+  'rlevinson	Signal method':
+    'prefix': 'rlevinson	Signal method'
+    'body': 'rlevinson(${1:args})'
+
+  'rms	Signal method':
+    'prefix': 'rms	Signal method'
+    'body': 'rms(${1:args})'
+
+  'rooteig	Signal method':
+    'prefix': 'rooteig	Signal method'
+    'body': 'rooteig(${1:args})'
+
+  'rootmusic	Signal method':
+    'prefix': 'rootmusic	Signal method'
+    'body': 'rootmusic(${1:args})'
+
+  'rpmfreqmap	Signal method':
+    'prefix': 'rpmfreqmap	Signal method'
+    'body': 'rpmfreqmap(${1:args})'
+
+  'rpmordermap	Signal method':
+    'prefix': 'rpmordermap	Signal method'
+    'body': 'rpmordermap(${1:args})'
+
+  'rssq	Signal method':
+    'prefix': 'rssq	Signal method'
+    'body': 'rssq(${1:args})'
+
+  'sawtooth	Signal method':
+    'prefix': 'sawtooth	Signal method'
+    'body': 'sawtooth(${1:args})'
+
+  'schurrc	Signal method':
+    'prefix': 'schurrc	Signal method'
+    'body': 'schurrc(${1:args})'
+
+  'seqperiod	Signal method':
+    'prefix': 'seqperiod	Signal method'
+    'body': 'seqperiod(${1:args})'
+
+  'settlingtime	Signal method':
+    'prefix': 'settlingtime	Signal method'
+    'body': 'settlingtime(${1:args})'
+
+  'sfdr	Signal method':
+    'prefix': 'sfdr	Signal method'
+    'body': 'sfdr(${1:args})'
+
+  'sgolay	Signal method':
+    'prefix': 'sgolay	Signal method'
+    'body': 'sgolay(${1:args})'
+
+  'sgolayfilt	Signal method':
+    'prefix': 'sgolayfilt	Signal method'
+    'body': 'sgolayfilt(${1:args})'
+
+  'sinad	Signal method':
+    'prefix': 'sinad	Signal method'
+    'body': 'sinad(${1:args})'
+
+  'sinc	Signal method':
+    'prefix': 'sinc	Signal method'
+    'body': 'sinc(${1:args})'
+
+  'slewrate	Signal method':
+    'prefix': 'slewrate	Signal method'
+    'body': 'slewrate(${1:args})'
+
+  'snr	Signal method':
+    'prefix': 'snr	Signal method'
+    'body': 'snr(${1:args})'
+
+  'sos2cell	Signal method':
+    'prefix': 'sos2cell	Signal method'
+    'body': 'sos2cell(${1:args})'
+
+  'sos2ss	Signal method':
+    'prefix': 'sos2ss	Signal method'
+    'body': 'sos2ss(${1:args})'
+
+  'sos2tf	Signal method':
+    'prefix': 'sos2tf	Signal method'
+    'body': 'sos2tf(${1:args})'
+
+  'sos2zp	Signal method':
+    'prefix': 'sos2zp	Signal method'
+    'body': 'sos2zp(${1:args})'
+
+  'sosfilt	Signal method':
+    'prefix': 'sosfilt	Signal method'
+    'body': 'sosfilt(${1:args})'
+
+  'sptool	Signal method':
+    'prefix': 'sptool	Signal method'
+    'body': 'sptool(${1:args})'
+
+  'square	Signal method':
+    'prefix': 'square	Signal method'
+    'body': 'square(${1:args})'
+
+  'ss2sos	Signal method':
+    'prefix': 'ss2sos	Signal method'
+    'body': 'ss2sos(${1:args})'
+
+  'ss2zp	Signal method':
+    'prefix': 'ss2zp	Signal method'
+    'body': 'ss2zp(${1:args})'
+
+  'statelevels	Signal method':
+    'prefix': 'statelevels	Signal method'
+    'body': 'statelevels(${1:args})'
+
+  'stmcb	Signal method':
+    'prefix': 'stmcb	Signal method'
+    'body': 'stmcb(${1:args})'
+
+  'strips	Signal method':
+    'prefix': 'strips	Signal method'
+    'body': 'strips(${1:args})'
+
+  'taylorwin	Signal method':
+    'prefix': 'taylorwin	Signal method'
+    'body': 'taylorwin(${1:args})'
+
+  'tf2latc	Signal method':
+    'prefix': 'tf2latc	Signal method'
+    'body': 'tf2latc(${1:args})'
+
+  'tf2sos	Signal method':
+    'prefix': 'tf2sos	Signal method'
+    'body': 'tf2sos(${1:args})'
+
+  'tf2ss	Signal method':
+    'prefix': 'tf2ss	Signal method'
+    'body': 'tf2ss(${1:args})'
+
+  'tf2zp	Signal method':
+    'prefix': 'tf2zp	Signal method'
+    'body': 'tf2zp(${1:args})'
+
+  'tf2zpk	Signal method':
+    'prefix': 'tf2zpk	Signal method'
+    'body': 'tf2zpk(${1:args})'
+
+  'tfestimate	Signal method':
+    'prefix': 'tfestimate	Signal method'
+    'body': 'tfestimate(${1:args})'
+
+  'thd	Signal method':
+    'prefix': 'thd	Signal method'
+    'body': 'thd(${1:args})'
+
+  'toi	Signal method':
+    'prefix': 'toi	Signal method'
+    'body': 'toi(${1:args})'
+
+  'triang	Signal method':
+    'prefix': 'triang	Signal method'
+    'body': 'triang(${1:args})'
+
+  'tripuls	Signal method':
+    'prefix': 'tripuls	Signal method'
+    'body': 'tripuls(${1:args})'
+
+  'tukeywin	Signal method':
+    'prefix': 'tukeywin	Signal method'
+    'body': 'tukeywin(${1:args})'
+
+  'udecode	Signal method':
+    'prefix': 'udecode	Signal method'
+    'body': 'udecode(${1:args})'
+
+  'uencode	Signal method':
+    'prefix': 'uencode	Signal method'
+    'body': 'uencode(${1:args})'
+
+  'undershoot	Signal method':
+    'prefix': 'undershoot	Signal method'
+    'body': 'undershoot(${1:args})'
+
+  'upfirdn	Signal method':
+    'prefix': 'upfirdn	Signal method'
+    'body': 'upfirdn(${1:args})'
+
+  'vco	Signal method':
+    'prefix': 'vco	Signal method'
+    'body': 'vco(${1:args})'
+
+  'wintool	Signal method':
+    'prefix': 'wintool	Signal method'
+    'body': 'wintool(${1:args})'
+
+  'wvtool	Signal method':
+    'prefix': 'wvtool	Signal method'
+    'body': 'wvtool(${1:args})'
+
+  'xcorr	Signal method':
+    'prefix': 'xcorr	Signal method'
+    'body': 'xcorr(${1:args})'
+
+  'xcorr2	Signal method':
+    'prefix': 'xcorr2	Signal method'
+    'body': 'xcorr2(${1:args})'
+
+  'xcov	Signal method':
+    'prefix': 'xcov	Signal method'
+    'body': 'xcov(${1:args})'
+
+  'yulewalk	Signal method':
+    'prefix': 'yulewalk	Signal method'
+    'body': 'yulewalk(${1:args})'
+
+  'zp2sos	Signal method':
+    'prefix': 'zp2sos	Signal method'
+    'body': 'zp2sos(${1:args})'
+
+  'zp2ss	Signal method':
+    'prefix': 'zp2ss	Signal method'
+    'body': 'zp2ss(${1:args})'
+
+  'zp2tf	Signal method':
+    'prefix': 'zp2tf	Signal method'
+    'body': 'zp2tf(${1:args})'

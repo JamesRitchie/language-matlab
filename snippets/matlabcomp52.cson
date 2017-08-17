@@ -1,0 +1,43 @@
+# matlabcomp52 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'sdl_update	Physmod method':
+    'prefix': 'sdl_update	Physmod method'
+    'body': 'sdl_update(${1:args})'
+
+  'elec_getPowerLossSummary	Physmod method':
+    'prefix': 'elec_getPowerLossSummary	Physmod method'
+    'body': 'elec_getPowerLossSummary(${1:args})'
+
+  'smimport	Physmod method':
+    'prefix': 'smimport	Physmod method'
+    'body': 'smimport(${1:args})'
+
+  'smnew	Physmod method':
+    'prefix': 'smnew	Physmod method'
+    'body': 'smnew(${1:args})'
+
+  'sm_lib	Physmod method':
+    'prefix': 'sm_lib	Physmod method'
+    'body': 'sm_lib(${1:args})'
+
+  'mech_import	Physmod method':
+    'prefix': 'mech_import	Physmod method'
+    'body': 'mech_import(${1:args})'
+
+  'smlink_linkinv	Physmod method':
+    'prefix': 'smlink_linkinv	Physmod method'
+    'body': 'smlink_linkinv(${1:args})'
+
+  'smlink_unlinkinv	Physmod method':
+    'prefix': 'smlink_unlinkinv	Physmod method'
+    'body': 'smlink_unlinkinv(${1:args})'
+
+  'smlink_linksw	Physmod method':
+    'prefix': 'smlink_linksw	Physmod method'
+    'body': 'smlink_linksw(${1:args})'
+
+  'smlink_unlinksw	Physmod method':
+    'prefix': 'smlink_unlinksw	Physmod method'
+    'body': 'smlink_unlinksw(${1:args})'

@@ -1,0 +1,603 @@
+# matlabcomp24 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'NumericTypeScope	FixedPoint method':
+    'prefix': 'NumericTypeScope	FixedPoint method'
+    'body': 'NumericTypeScope(${1:args})'
+
+  'accumneg	FixedPoint method':
+    'prefix': 'accumneg	FixedPoint method'
+    'body': 'accumneg(${1:args})'
+
+  'accumpos	FixedPoint method':
+    'prefix': 'accumpos	FixedPoint method'
+    'body': 'accumpos(${1:args})'
+
+  'autofixexp	FixedPoint method':
+    'prefix': 'autofixexp	FixedPoint method'
+    'body': 'autofixexp(${1:args})'
+
+  'bin	FixedPoint method':
+    'prefix': 'bin	FixedPoint method'
+    'body': 'bin(${1:args})'
+
+  'bin2num	FixedPoint method':
+    'prefix': 'bin2num	FixedPoint method'
+    'body': 'bin2num(${1:args})'
+
+  'bitandreduce	FixedPoint method':
+    'prefix': 'bitandreduce	FixedPoint method'
+    'body': 'bitandreduce(${1:args})'
+
+  'bitconcat	FixedPoint method':
+    'prefix': 'bitconcat	FixedPoint method'
+    'body': 'bitconcat(${1:args})'
+
+  'bitorreduce	FixedPoint method':
+    'prefix': 'bitorreduce	FixedPoint method'
+    'body': 'bitorreduce(${1:args})'
+
+  'bitreplicate	FixedPoint method':
+    'prefix': 'bitreplicate	FixedPoint method'
+    'body': 'bitreplicate(${1:args})'
+
+  'bitrol	FixedPoint method':
+    'prefix': 'bitrol	FixedPoint method'
+    'body': 'bitrol(${1:args})'
+
+  'bitror	FixedPoint method':
+    'prefix': 'bitror	FixedPoint method'
+    'body': 'bitror(${1:args})'
+
+  'bitsliceget	FixedPoint method':
+    'prefix': 'bitsliceget	FixedPoint method'
+    'body': 'bitsliceget(${1:args})'
+
+  'bitsll	FixedPoint method':
+    'prefix': 'bitsll	FixedPoint method'
+    'body': 'bitsll(${1:args})'
+
+  'bitsra	FixedPoint method':
+    'prefix': 'bitsra	FixedPoint method'
+    'body': 'bitsra(${1:args})'
+
+  'bitsrl	FixedPoint method':
+    'prefix': 'bitsrl	FixedPoint method'
+    'body': 'bitsrl(${1:args})'
+
+  'bitxorreduce	FixedPoint method':
+    'prefix': 'bitxorreduce	FixedPoint method'
+    'body': 'bitxorreduce(${1:args})'
+
+  'buffer	FixedPoint method':
+    'prefix': 'buffer	FixedPoint method'
+    'body': 'buffer(${1:args})'
+
+  'buildInstrumentedMex	FixedPoint method':
+    'prefix': 'buildInstrumentedMex	FixedPoint method'
+    'body': 'buildInstrumentedMex(${1:args})'
+
+  'ceil	FixedPoint method':
+    'prefix': 'ceil	FixedPoint method'
+    'body': 'ceil(${1:args})'
+
+  'clearInstrumentationResults	FixedPoint method':
+    'prefix': 'clearInstrumentationResults	FixedPoint method'
+    'body': 'clearInstrumentationResults(${1:args})'
+
+  'coder.approximation	FixedPoint method':
+    'prefix': 'coder.approximation	FixedPoint method'
+    'body': 'coder.approximation(${1:args})'
+
+  'coder.config	FixedPoint method':
+    'prefix': 'coder.config	FixedPoint method'
+    'body': 'coder.config(${1:args})'
+
+  'coder.mexconfig	FixedPoint method':
+    'prefix': 'coder.mexconfig	FixedPoint method'
+    'body': 'coder.mexconfig(${1:args})'
+
+  'coder.newtype	FixedPoint method':
+    'prefix': 'coder.newtype	FixedPoint method'
+    'body': 'coder.newtype(${1:args})'
+
+  'coder.resize	FixedPoint method':
+    'prefix': 'coder.resize	FixedPoint method'
+    'body': 'coder.resize(${1:args})'
+
+  'convergent	FixedPoint method':
+    'prefix': 'convergent	FixedPoint method'
+    'body': 'convergent(${1:args})'
+
+  'convertToSingle	FixedPoint method':
+    'prefix': 'convertToSingle	FixedPoint method'
+    'body': 'convertToSingle(${1:args})'
+
+  'cordicabs	FixedPoint method':
+    'prefix': 'cordicabs	FixedPoint method'
+    'body': 'cordicabs(${1:args})'
+
+  'cordicangle	FixedPoint method':
+    'prefix': 'cordicangle	FixedPoint method'
+    'body': 'cordicangle(${1:args})'
+
+  'cordicatan2	FixedPoint method':
+    'prefix': 'cordicatan2	FixedPoint method'
+    'body': 'cordicatan2(${1:args})'
+
+  'cordiccart2pol	FixedPoint method':
+    'prefix': 'cordiccart2pol	FixedPoint method'
+    'body': 'cordiccart2pol(${1:args})'
+
+  'cordiccexp	FixedPoint method':
+    'prefix': 'cordiccexp	FixedPoint method'
+    'body': 'cordiccexp(${1:args})'
+
+  'cordiccos	FixedPoint method':
+    'prefix': 'cordiccos	FixedPoint method'
+    'body': 'cordiccos(${1:args})'
+
+  'cordicpol2cart	FixedPoint method':
+    'prefix': 'cordicpol2cart	FixedPoint method'
+    'body': 'cordicpol2cart(${1:args})'
+
+  'cordicrotate	FixedPoint method':
+    'prefix': 'cordicrotate	FixedPoint method'
+    'body': 'cordicrotate(${1:args})'
+
+  'cordicsin	FixedPoint method':
+    'prefix': 'cordicsin	FixedPoint method'
+    'body': 'cordicsin(${1:args})'
+
+  'cordicsincos	FixedPoint method':
+    'prefix': 'cordicsincos	FixedPoint method'
+    'body': 'cordicsincos(${1:args})'
+
+  'cordicsqrt	FixedPoint method':
+    'prefix': 'cordicsqrt	FixedPoint method'
+    'body': 'cordicsqrt(${1:args})'
+
+  'dec	FixedPoint method':
+    'prefix': 'dec	FixedPoint method'
+    'body': 'dec(${1:args})'
+
+  'denormalmax	FixedPoint method':
+    'prefix': 'denormalmax	FixedPoint method'
+    'body': 'denormalmax(${1:args})'
+
+  'denormalmin	FixedPoint method':
+    'prefix': 'denormalmin	FixedPoint method'
+    'body': 'denormalmin(${1:args})'
+
+  'divide	FixedPoint method':
+    'prefix': 'divide	FixedPoint method'
+    'body': 'divide(${1:args})'
+
+  'errmean	FixedPoint method':
+    'prefix': 'errmean	FixedPoint method'
+    'body': 'errmean(${1:args})'
+
+  'errpdf	FixedPoint method':
+    'prefix': 'errpdf	FixedPoint method'
+    'body': 'errpdf(${1:args})'
+
+  'errvar	FixedPoint method':
+    'prefix': 'errvar	FixedPoint method'
+    'body': 'errvar(${1:args})'
+
+  'exponentbias	FixedPoint method':
+    'prefix': 'exponentbias	FixedPoint method'
+    'body': 'exponentbias(${1:args})'
+
+  'exponentlength	FixedPoint method':
+    'prefix': 'exponentlength	FixedPoint method'
+    'body': 'exponentlength(${1:args})'
+
+  'exponentmax	FixedPoint method':
+    'prefix': 'exponentmax	FixedPoint method'
+    'body': 'exponentmax(${1:args})'
+
+  'exponentmin	FixedPoint method':
+    'prefix': 'exponentmin	FixedPoint method'
+    'body': 'exponentmin(${1:args})'
+
+  'fi	FixedPoint method':
+    'prefix': 'fi	FixedPoint method'
+    'body': 'fi(${1:args})'
+
+  'fiaccel	FixedPoint method':
+    'prefix': 'fiaccel	FixedPoint method'
+    'body': 'fiaccel(${1:args})'
+
+  'fimath	FixedPoint method':
+    'prefix': 'fimath	FixedPoint method'
+    'body': 'fimath(${1:args})'
+
+  'fipref	FixedPoint method':
+    'prefix': 'fipref	FixedPoint method'
+    'body': 'fipref(${1:args})'
+
+  'fixed.Quantizer	FixedPoint method':
+    'prefix': 'fixed.Quantizer	FixedPoint method'
+    'body': 'fixed.Quantizer(${1:args})'
+
+  'fixpt_instrument_purge	FixedPoint method':
+    'prefix': 'fixpt_instrument_purge	FixedPoint method'
+    'body': 'fixpt_instrument_purge(${1:args})'
+
+  'fractionlength	FixedPoint method':
+    'prefix': 'fractionlength	FixedPoint method'
+    'body': 'fractionlength(${1:args})'
+
+  'getlsb	FixedPoint method':
+    'prefix': 'getlsb	FixedPoint method'
+    'body': 'getlsb(${1:args})'
+
+  'getmsb	FixedPoint method':
+    'prefix': 'getmsb	FixedPoint method'
+    'body': 'getmsb(${1:args})'
+
+  'globalfimath	FixedPoint method':
+    'prefix': 'globalfimath	FixedPoint method'
+    'body': 'globalfimath(${1:args})'
+
+  'hex	FixedPoint method':
+    'prefix': 'hex	FixedPoint method'
+    'body': 'hex(${1:args})'
+
+  'innerprodintbits	FixedPoint method':
+    'prefix': 'innerprodintbits	FixedPoint method'
+    'body': 'innerprodintbits(${1:args})'
+
+  'isboolean	FixedPoint method':
+    'prefix': 'isboolean	FixedPoint method'
+    'body': 'isboolean(${1:args})'
+
+  'isdouble	FixedPoint method':
+    'prefix': 'isdouble	FixedPoint method'
+    'body': 'isdouble(${1:args})'
+
+  'isequivalent	FixedPoint method':
+    'prefix': 'isequivalent	FixedPoint method'
+    'body': 'isequivalent(${1:args})'
+
+  'isfi	FixedPoint method':
+    'prefix': 'isfi	FixedPoint method'
+    'body': 'isfi(${1:args})'
+
+  'isfimath	FixedPoint method':
+    'prefix': 'isfimath	FixedPoint method'
+    'body': 'isfimath(${1:args})'
+
+  'isfimathlocal	FixedPoint method':
+    'prefix': 'isfimathlocal	FixedPoint method'
+    'body': 'isfimathlocal(${1:args})'
+
+  'isfipref	FixedPoint method':
+    'prefix': 'isfipref	FixedPoint method'
+    'body': 'isfipref(${1:args})'
+
+  'isfixed	FixedPoint method':
+    'prefix': 'isfixed	FixedPoint method'
+    'body': 'isfixed(${1:args})'
+
+  'isnumerictype	FixedPoint method':
+    'prefix': 'isnumerictype	FixedPoint method'
+    'body': 'isnumerictype(${1:args})'
+
+  'ispropequal	FixedPoint method':
+    'prefix': 'ispropequal	FixedPoint method'
+    'body': 'ispropequal(${1:args})'
+
+  'isquantizer	FixedPoint method':
+    'prefix': 'isquantizer	FixedPoint method'
+    'body': 'isquantizer(${1:args})'
+
+  'isscaleddouble	FixedPoint method':
+    'prefix': 'isscaleddouble	FixedPoint method'
+    'body': 'isscaleddouble(${1:args})'
+
+  'isscaledtype	FixedPoint method':
+    'prefix': 'isscaledtype	FixedPoint method'
+    'body': 'isscaledtype(${1:args})'
+
+  'isscalingbinarypoint	FixedPoint method':
+    'prefix': 'isscalingbinarypoint	FixedPoint method'
+    'body': 'isscalingbinarypoint(${1:args})'
+
+  'isscalingslopebias	FixedPoint method':
+    'prefix': 'isscalingslopebias	FixedPoint method'
+    'body': 'isscalingslopebias(${1:args})'
+
+  'isscalingunspecified	FixedPoint method':
+    'prefix': 'isscalingunspecified	FixedPoint method'
+    'body': 'isscalingunspecified(${1:args})'
+
+  'issigned	FixedPoint method':
+    'prefix': 'issigned	FixedPoint method'
+    'body': 'issigned(${1:args})'
+
+  'issingle	FixedPoint method':
+    'prefix': 'issingle	FixedPoint method'
+    'body': 'issingle(${1:args})'
+
+  'isslopebiasscaled	FixedPoint method':
+    'prefix': 'isslopebiasscaled	FixedPoint method'
+    'body': 'isslopebiasscaled(${1:args})'
+
+  'logreport	FixedPoint method':
+    'prefix': 'logreport	FixedPoint method'
+    'body': 'logreport(${1:args})'
+
+  'lowerbound	FixedPoint method':
+    'prefix': 'lowerbound	FixedPoint method'
+    'body': 'lowerbound(${1:args})'
+
+  'lsb	FixedPoint method':
+    'prefix': 'lsb	FixedPoint method'
+    'body': 'lsb(${1:args})'
+
+  'maxlog	FixedPoint method':
+    'prefix': 'maxlog	FixedPoint method'
+    'body': 'maxlog(${1:args})'
+
+  'minlog	FixedPoint method':
+    'prefix': 'minlog	FixedPoint method'
+    'body': 'minlog(${1:args})'
+
+  'mpy	FixedPoint method':
+    'prefix': 'mpy	FixedPoint method'
+    'body': 'mpy(${1:args})'
+
+  'nearest	FixedPoint method':
+    'prefix': 'nearest	FixedPoint method'
+    'body': 'nearest(${1:args})'
+
+  'noperations	FixedPoint method':
+    'prefix': 'noperations	FixedPoint method'
+    'body': 'noperations(${1:args})'
+
+  'noverflows	FixedPoint method':
+    'prefix': 'noverflows	FixedPoint method'
+    'body': 'noverflows(${1:args})'
+
+  'nts	FixedPoint method':
+    'prefix': 'nts	FixedPoint method'
+    'body': 'nts(${1:args})'
+
+  'num2bin	FixedPoint method':
+    'prefix': 'num2bin	FixedPoint method'
+    'body': 'num2bin(${1:args})'
+
+  'num2int	FixedPoint method':
+    'prefix': 'num2int	FixedPoint method'
+    'body': 'num2int(${1:args})'
+
+  'numberofelements	FixedPoint method':
+    'prefix': 'numberofelements	FixedPoint method'
+    'body': 'numberofelements(${1:args})'
+
+  'numerictype	FixedPoint method':
+    'prefix': 'numerictype	FixedPoint method'
+    'body': 'numerictype(${1:args})'
+
+  'nunderflows	FixedPoint method':
+    'prefix': 'nunderflows	FixedPoint method'
+    'body': 'nunderflows(${1:args})'
+
+  'oct	FixedPoint method':
+    'prefix': 'oct	FixedPoint method'
+    'body': 'oct(${1:args})'
+
+  'quantize	FixedPoint method':
+    'prefix': 'quantize	FixedPoint method'
+    'body': 'quantize(${1:args})'
+
+  'randquant	FixedPoint method':
+    'prefix': 'randquant	FixedPoint method'
+    'body': 'randquant(${1:args})'
+
+  'range	FixedPoint method':
+    'prefix': 'range	FixedPoint method'
+    'body': 'range(${1:args})'
+
+  'reinterpretcast	FixedPoint method':
+    'prefix': 'reinterpretcast	FixedPoint method'
+    'body': 'reinterpretcast(${1:args})'
+
+  'removefimath	FixedPoint method':
+    'prefix': 'removefimath	FixedPoint method'
+    'body': 'removefimath(${1:args})'
+
+  'removeglobalfimathpref	FixedPoint method':
+    'prefix': 'removeglobalfimathpref	FixedPoint method'
+    'body': 'removeglobalfimathpref(${1:args})'
+
+  'rescale	FixedPoint method':
+    'prefix': 'rescale	FixedPoint method'
+    'body': 'rescale(${1:args})'
+
+  'resetglobalfimath	FixedPoint method':
+    'prefix': 'resetglobalfimath	FixedPoint method'
+    'body': 'resetglobalfimath(${1:args})'
+
+  'resetlog	FixedPoint method':
+    'prefix': 'resetlog	FixedPoint method'
+    'body': 'resetlog(${1:args})'
+
+  'sdec	FixedPoint method':
+    'prefix': 'sdec	FixedPoint method'
+    'body': 'sdec(${1:args})'
+
+  'setfimath	FixedPoint method':
+    'prefix': 'setfimath	FixedPoint method'
+    'body': 'setfimath(${1:args})'
+
+  'sfi	FixedPoint method':
+    'prefix': 'sfi	FixedPoint method'
+    'body': 'sfi(${1:args})'
+
+  'shiftdata	FixedPoint method':
+    'prefix': 'shiftdata	FixedPoint method'
+    'body': 'shiftdata(${1:args})'
+
+  'showInstrumentationResults	FixedPoint method':
+    'prefix': 'showInstrumentationResults	FixedPoint method'
+    'body': 'showInstrumentationResults(${1:args})'
+
+  'showfixptsimerrors	FixedPoint method':
+    'prefix': 'showfixptsimerrors	FixedPoint method'
+    'body': 'showfixptsimerrors(${1:args})'
+
+  'showfixptsimranges	FixedPoint method':
+    'prefix': 'showfixptsimranges	FixedPoint method'
+    'body': 'showfixptsimranges(${1:args})'
+
+  'ssFxpConvert	FixedPoint method':
+    'prefix': 'ssFxpConvert	FixedPoint method'
+    'body': 'ssFxpConvert(${1:args})'
+
+  'ssFxpConvertFromRealWorldValue	FixedPoint method':
+    'prefix': 'ssFxpConvertFromRealWorldValue	FixedPoint method'
+    'body': 'ssFxpConvertFromRealWorldValue(${1:args})'
+
+  'ssFxpConvertToRealWorldValue	FixedPoint method':
+    'prefix': 'ssFxpConvertToRealWorldValue	FixedPoint method'
+    'body': 'ssFxpConvertToRealWorldValue(${1:args})'
+
+  'ssFxpGetU32BitRegion	FixedPoint method':
+    'prefix': 'ssFxpGetU32BitRegion	FixedPoint method'
+    'body': 'ssFxpGetU32BitRegion(${1:args})'
+
+  'ssFxpGetU32BitRegionCompliant	FixedPoint method':
+    'prefix': 'ssFxpGetU32BitRegionCompliant	FixedPoint method'
+    'body': 'ssFxpGetU32BitRegionCompliant(${1:args})'
+
+  'ssFxpSetU32BitRegion	FixedPoint method':
+    'prefix': 'ssFxpSetU32BitRegion	FixedPoint method'
+    'body': 'ssFxpSetU32BitRegion(${1:args})'
+
+  'ssFxpSetU32BitRegionCompliant	FixedPoint method':
+    'prefix': 'ssFxpSetU32BitRegionCompliant	FixedPoint method'
+    'body': 'ssFxpSetU32BitRegionCompliant(${1:args})'
+
+  'ssGetDataTypeBias	FixedPoint method':
+    'prefix': 'ssGetDataTypeBias	FixedPoint method'
+    'body': 'ssGetDataTypeBias(${1:args})'
+
+  'ssGetDataTypeFixedExponent	FixedPoint method':
+    'prefix': 'ssGetDataTypeFixedExponent	FixedPoint method'
+    'body': 'ssGetDataTypeFixedExponent(${1:args})'
+
+  'ssGetDataTypeFracSlope	FixedPoint method':
+    'prefix': 'ssGetDataTypeFracSlope	FixedPoint method'
+    'body': 'ssGetDataTypeFracSlope(${1:args})'
+
+  'ssGetDataTypeFractionLength	FixedPoint method':
+    'prefix': 'ssGetDataTypeFractionLength	FixedPoint method'
+    'body': 'ssGetDataTypeFractionLength(${1:args})'
+
+  'ssGetDataTypeFxpContainWordLen	FixedPoint method':
+    'prefix': 'ssGetDataTypeFxpContainWordLen	FixedPoint method'
+    'body': 'ssGetDataTypeFxpContainWordLen(${1:args})'
+
+  'ssGetDataTypeFxpIsSigned	FixedPoint method':
+    'prefix': 'ssGetDataTypeFxpIsSigned	FixedPoint method'
+    'body': 'ssGetDataTypeFxpIsSigned(${1:args})'
+
+  'ssGetDataTypeFxpWordLength	FixedPoint method':
+    'prefix': 'ssGetDataTypeFxpWordLength	FixedPoint method'
+    'body': 'ssGetDataTypeFxpWordLength(${1:args})'
+
+  'ssGetDataTypeIsFixedPoint	FixedPoint method':
+    'prefix': 'ssGetDataTypeIsFixedPoint	FixedPoint method'
+    'body': 'ssGetDataTypeIsFixedPoint(${1:args})'
+
+  'ssGetDataTypeIsFloatingPoint	FixedPoint method':
+    'prefix': 'ssGetDataTypeIsFloatingPoint	FixedPoint method'
+    'body': 'ssGetDataTypeIsFloatingPoint(${1:args})'
+
+  'ssGetDataTypeIsFxpFltApiCompat	FixedPoint method':
+    'prefix': 'ssGetDataTypeIsFxpFltApiCompat	FixedPoint method'
+    'body': 'ssGetDataTypeIsFxpFltApiCompat(${1:args})'
+
+  'ssGetDataTypeIsScalingPow2	FixedPoint method':
+    'prefix': 'ssGetDataTypeIsScalingPow2	FixedPoint method'
+    'body': 'ssGetDataTypeIsScalingPow2(${1:args})'
+
+  'ssGetDataTypeIsScalingTrivial	FixedPoint method':
+    'prefix': 'ssGetDataTypeIsScalingTrivial	FixedPoint method'
+    'body': 'ssGetDataTypeIsScalingTrivial(${1:args})'
+
+  'ssGetDataTypeNumberOfChunks	FixedPoint method':
+    'prefix': 'ssGetDataTypeNumberOfChunks	FixedPoint method'
+    'body': 'ssGetDataTypeNumberOfChunks(${1:args})'
+
+  'ssGetDataTypeStorageContainCat	FixedPoint method':
+    'prefix': 'ssGetDataTypeStorageContainCat	FixedPoint method'
+    'body': 'ssGetDataTypeStorageContainCat(${1:args})'
+
+  'ssGetDataTypeStorageContainerSize	FixedPoint method':
+    'prefix': 'ssGetDataTypeStorageContainerSize	FixedPoint method'
+    'body': 'ssGetDataTypeStorageContainerSize(${1:args})'
+
+  'ssGetDataTypeTotalSlope	FixedPoint method':
+    'prefix': 'ssGetDataTypeTotalSlope	FixedPoint method'
+    'body': 'ssGetDataTypeTotalSlope(${1:args})'
+
+  'ssLogFixptInstrumentation	FixedPoint method':
+    'prefix': 'ssLogFixptInstrumentation	FixedPoint method'
+    'body': 'ssLogFixptInstrumentation(${1:args})'
+
+  'ssRegisterDataTypeFxpBinaryPoint	FixedPoint method':
+    'prefix': 'ssRegisterDataTypeFxpBinaryPoint	FixedPoint method'
+    'body': 'ssRegisterDataTypeFxpBinaryPoint(${1:args})'
+
+  'ssRegisterDataTypeFxpFSlopeFixExpBias	FixedPoint method':
+    'prefix': 'ssRegisterDataTypeFxpFSlopeFixExpBias	FixedPoint method'
+    'body': 'ssRegisterDataTypeFxpFSlopeFixExpBias(${1:args})'
+
+  'ssRegisterDataTypeFxpScaledDouble	FixedPoint method':
+    'prefix': 'ssRegisterDataTypeFxpScaledDouble	FixedPoint method'
+    'body': 'ssRegisterDataTypeFxpScaledDouble(${1:args})'
+
+  'ssRegisterDataTypeFxpSlopeBias	FixedPoint method':
+    'prefix': 'ssRegisterDataTypeFxpSlopeBias	FixedPoint method'
+    'body': 'ssRegisterDataTypeFxpSlopeBias(${1:args})'
+
+  'storedInteger	FixedPoint method':
+    'prefix': 'storedInteger	FixedPoint method'
+    'body': 'storedInteger(${1:args})'
+
+  'storedIntegerToDouble	FixedPoint method':
+    'prefix': 'storedIntegerToDouble	FixedPoint method'
+    'body': 'storedIntegerToDouble(${1:args})'
+
+  'stripscaling	FixedPoint method':
+    'prefix': 'stripscaling	FixedPoint method'
+    'body': 'stripscaling(${1:args})'
+
+  'sub	FixedPoint method':
+    'prefix': 'sub	FixedPoint method'
+    'body': 'sub(${1:args})'
+
+  'ufi	FixedPoint method':
+    'prefix': 'ufi	FixedPoint method'
+    'body': 'ufi(${1:args})'
+
+  'unitquantize	FixedPoint method':
+    'prefix': 'unitquantize	FixedPoint method'
+    'body': 'unitquantize(${1:args})'
+
+  'unshiftdata	FixedPoint method':
+    'prefix': 'unshiftdata	FixedPoint method'
+    'body': 'unshiftdata(${1:args})'
+
+  'upperbound	FixedPoint method':
+    'prefix': 'upperbound	FixedPoint method'
+    'body': 'upperbound(${1:args})'
+
+  'wordlength	FixedPoint method':
+    'prefix': 'wordlength	FixedPoint method'
+    'body': 'wordlength(${1:args})'

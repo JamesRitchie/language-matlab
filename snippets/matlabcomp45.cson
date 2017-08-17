@@ -1,0 +1,99 @@
+# matlabcomp45 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'pm_adddimension	Simscape method':
+    'prefix': 'pm_adddimension	Simscape method'
+    'body': 'pm_adddimension(${1:args})'
+
+  'pm_addunit	Simscape method':
+    'prefix': 'pm_addunit	Simscape method'
+    'body': 'pm_addunit(${1:args})'
+
+  'pm_getdimensions	Simscape method':
+    'prefix': 'pm_getdimensions	Simscape method'
+    'body': 'pm_getdimensions(${1:args})'
+
+  'pm_getunits	Simscape method':
+    'prefix': 'pm_getunits	Simscape method'
+    'body': 'pm_getunits(${1:args})'
+
+  'simscape.dependency.file	Simscape method':
+    'prefix': 'simscape.dependency.file	Simscape method'
+    'body': 'simscape.dependency.file(${1:args})'
+
+  'simscape.dependency.lib	Simscape method':
+    'prefix': 'simscape.dependency.lib	Simscape method'
+    'body': 'simscape.dependency.lib(${1:args})'
+
+  'simscape.dependency.model	Simscape method':
+    'prefix': 'simscape.dependency.model	Simscape method'
+    'body': 'simscape.dependency.model(${1:args})'
+
+  'simscape.logging.Node	Simscape method':
+    'prefix': 'simscape.logging.Node	Simscape method'
+    'body': 'simscape.logging.Node(${1:args})'
+
+  'simscape.logging.Series	Simscape method':
+    'prefix': 'simscape.logging.Series	Simscape method'
+    'body': 'simscape.logging.Series(${1:args})'
+
+  'simscape.logging.plot	Simscape method':
+    'prefix': 'simscape.logging.plot	Simscape method'
+    'body': 'simscape.logging.plot(${1:args})'
+
+  'simscape.logging.plotxy	Simscape method':
+    'prefix': 'simscape.logging.plotxy	Simscape method'
+    'body': 'simscape.logging.plotxy(${1:args})'
+
+  'simscape.logging.sli.findNode	Simscape method':
+    'prefix': 'simscape.logging.sli.findNode	Simscape method'
+    'body': 'simscape.logging.sli.findNode(${1:args})'
+
+  'simscape.logging.sli.findPath	Simscape method':
+    'prefix': 'simscape.logging.sli.findPath	Simscape method'
+    'body': 'simscape.logging.sli.findPath(${1:args})'
+
+  'sl_postprocess	Simscape method':
+    'prefix': 'sl_postprocess	Simscape method'
+    'body': 'sl_postprocess(${1:args})'
+
+  'ssc_build	Simscape method':
+    'prefix': 'ssc_build	Simscape method'
+    'body': 'ssc_build(${1:args})'
+
+  'ssc_clean	Simscape method':
+    'prefix': 'ssc_clean	Simscape method'
+    'body': 'ssc_clean(${1:args})'
+
+  'ssc_mirror	Simscape method':
+    'prefix': 'ssc_mirror	Simscape method'
+    'body': 'ssc_mirror(${1:args})'
+
+  'ssc_new	Simscape method':
+    'prefix': 'ssc_new	Simscape method'
+    'body': 'ssc_new(${1:args})'
+
+  'ssc_protect	Simscape method':
+    'prefix': 'ssc_protect	Simscape method'
+    'body': 'ssc_protect(${1:args})'
+
+  'ssc_reserved	Simscape method':
+    'prefix': 'ssc_reserved	Simscape method'
+    'body': 'ssc_reserved(${1:args})'
+
+  'ssc_update	Simscape method':
+    'prefix': 'ssc_update	Simscape method'
+    'body': 'ssc_update(${1:args})'
+
+  'sscexplore	Simscape method':
+    'prefix': 'sscexplore	Simscape method'
+    'body': 'sscexplore(${1:args})'
+
+  'sscprintzcs	Simscape method':
+    'prefix': 'sscprintzcs	Simscape method'
+    'body': 'sscprintzcs(${1:args})'
+
+  'twoPhaseFluidTable	Simscape method':
+    'prefix': 'twoPhaseFluidTable	Simscape method'
+    'body': 'twoPhaseFluidTable(${1:args})'

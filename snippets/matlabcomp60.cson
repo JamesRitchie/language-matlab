@@ -1,0 +1,143 @@
+# matlabcomp60 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'cloffset	MPC method':
+    'prefix': 'cloffset	MPC method'
+    'body': 'cloffset(${1:args})'
+
+  'compare	MPC method':
+    'prefix': 'compare	MPC method'
+    'body': 'compare(${1:args})'
+
+  'generateExplicitMPC	MPC method':
+    'prefix': 'generateExplicitMPC	MPC method'
+    'body': 'generateExplicitMPC(${1:args})'
+
+  'generateExplicitOptions	MPC method':
+    'prefix': 'generateExplicitOptions	MPC method'
+    'body': 'generateExplicitOptions(${1:args})'
+
+  'generateExplicitRange	MPC method':
+    'prefix': 'generateExplicitRange	MPC method'
+    'body': 'generateExplicitRange(${1:args})'
+
+  'generatePlotParameters	MPC method':
+    'prefix': 'generatePlotParameters	MPC method'
+    'body': 'generatePlotParameters(${1:args})'
+
+  'getEstimator	MPC method':
+    'prefix': 'getEstimator	MPC method'
+    'body': 'getEstimator(${1:args})'
+
+  'getconstraint	MPC method':
+    'prefix': 'getconstraint	MPC method'
+    'body': 'getconstraint(${1:args})'
+
+  'getindist	MPC method':
+    'prefix': 'getindist	MPC method'
+    'body': 'getindist(${1:args})'
+
+  'getname	MPC method':
+    'prefix': 'getname	MPC method'
+    'body': 'getname(${1:args})'
+
+  'getoutdist	MPC method':
+    'prefix': 'getoutdist	MPC method'
+    'body': 'getoutdist(${1:args})'
+
+  'gpc2mpc	MPC method':
+    'prefix': 'gpc2mpc	MPC method'
+    'body': 'gpc2mpc(${1:args})'
+
+  'mpc	MPC method':
+    'prefix': 'mpc	MPC method'
+    'body': 'mpc(${1:args})'
+
+  'mpcmove	MPC method':
+    'prefix': 'mpcmove	MPC method'
+    'body': 'mpcmove(${1:args})'
+
+  'mpcmoveAdaptive	MPC method':
+    'prefix': 'mpcmoveAdaptive	MPC method'
+    'body': 'mpcmoveAdaptive(${1:args})'
+
+  'mpcmoveExplicit	MPC method':
+    'prefix': 'mpcmoveExplicit	MPC method'
+    'body': 'mpcmoveExplicit(${1:args})'
+
+  'mpcmoveMultiple	MPC method':
+    'prefix': 'mpcmoveMultiple	MPC method'
+    'body': 'mpcmoveMultiple(${1:args})'
+
+  'mpcmoveopt	MPC method':
+    'prefix': 'mpcmoveopt	MPC method'
+    'body': 'mpcmoveopt(${1:args})'
+
+  'mpcprops	MPC method':
+    'prefix': 'mpcprops	MPC method'
+    'body': 'mpcprops(${1:args})'
+
+  'mpcqpsolver	MPC method':
+    'prefix': 'mpcqpsolver	MPC method'
+    'body': 'mpcqpsolver(${1:args})'
+
+  'mpcqpsolverOptions	MPC method':
+    'prefix': 'mpcqpsolverOptions	MPC method'
+    'body': 'mpcqpsolverOptions(${1:args})'
+
+  'mpcsimopt	MPC method':
+    'prefix': 'mpcsimopt	MPC method'
+    'body': 'mpcsimopt(${1:args})'
+
+  'mpcstate	MPC method':
+    'prefix': 'mpcstate	MPC method'
+    'body': 'mpcstate(${1:args})'
+
+  'mpcverbosity	MPC method':
+    'prefix': 'mpcverbosity	MPC method'
+    'body': 'mpcverbosity(${1:args})'
+
+  'plotSection	MPC method':
+    'prefix': 'plotSection	MPC method'
+    'body': 'plotSection(${1:args})'
+
+  'review	MPC method':
+    'prefix': 'review	MPC method'
+    'body': 'review(${1:args})'
+
+  'sensitivity	MPC method':
+    'prefix': 'sensitivity	MPC method'
+    'body': 'sensitivity(${1:args})'
+
+  'setEstimator	MPC method':
+    'prefix': 'setEstimator	MPC method'
+    'body': 'setEstimator(${1:args})'
+
+  'setconstraint	MPC method':
+    'prefix': 'setconstraint	MPC method'
+    'body': 'setconstraint(${1:args})'
+
+  'setindist	MPC method':
+    'prefix': 'setindist	MPC method'
+    'body': 'setindist(${1:args})'
+
+  'setmpcsignals	MPC method':
+    'prefix': 'setmpcsignals	MPC method'
+    'body': 'setmpcsignals(${1:args})'
+
+  'setname	MPC method':
+    'prefix': 'setname	MPC method'
+    'body': 'setname(${1:args})'
+
+  'setoutdist	MPC method':
+    'prefix': 'setoutdist	MPC method'
+    'body': 'setoutdist(${1:args})'
+
+  'setterminal	MPC method':
+    'prefix': 'setterminal	MPC method'
+    'body': 'setterminal(${1:args})'
+
+  'simplify	MPC method':
+    'prefix': 'simplify	MPC method'
+    'body': 'simplify(${1:args})'

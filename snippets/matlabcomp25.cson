@@ -1,0 +1,207 @@
+# matlabcomp25 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'continueFcn	Simevents method':
+    'prefix': 'continueFcn	Simevents method'
+    'body': 'continueFcn(${1:args})'
+
+  'entityAdvance	Simevents method':
+    'prefix': 'entityAdvance	Simevents method'
+    'body': 'entityAdvance(${1:args})'
+
+  'entityCombine	Simevents method':
+    'prefix': 'entityCombine	Simevents method'
+    'body': 'entityCombine(${1:args})'
+
+  'entityDestroy	Simevents method':
+    'prefix': 'entityDestroy	Simevents method'
+    'body': 'entityDestroy(${1:args})'
+
+  'entityGenerate	Simevents method':
+    'prefix': 'entityGenerate	Simevents method'
+    'body': 'entityGenerate(${1:args})'
+
+  'entityQueue	Simevents method':
+    'prefix': 'entityQueue	Simevents method'
+    'body': 'entityQueue(${1:args})'
+
+  'entityReplicate	Simevents method':
+    'prefix': 'entityReplicate	Simevents method'
+    'body': 'entityReplicate(${1:args})'
+
+  'entitySplit	Simevents method':
+    'prefix': 'entitySplit	Simevents method'
+    'body': 'entitySplit(${1:args})'
+
+  'eventCancel	Simevents method':
+    'prefix': 'eventCancel	Simevents method'
+    'body': 'eventCancel(${1:args})'
+
+  'eventExecute	Simevents method':
+    'prefix': 'eventExecute	Simevents method'
+    'body': 'eventExecute(${1:args})'
+
+  'eventSchedule	Simevents method':
+    'prefix': 'eventSchedule	Simevents method'
+    'body': 'eventSchedule(${1:args})'
+
+  'getBlocksToObserve	Simevents method':
+    'prefix': 'getBlocksToObserve	Simevents method'
+    'body': 'getBlocksToObserve(${1:args})'
+
+  'getPace	Simevents method':
+    'prefix': 'getPace	Simevents method'
+    'body': 'getPace(${1:args})'
+
+  'initialize	Simevents method':
+    'prefix': 'initialize	Simevents method'
+    'body': 'initialize(${1:args})'
+
+  'pauseFcn	Simevents method':
+    'prefix': 'pauseFcn	Simevents method'
+    'body': 'pauseFcn(${1:args})'
+
+  'se_getdbopts	Simevents method':
+    'prefix': 'se_getdbopts	Simevents method'
+    'body': 'se_getdbopts(${1:args})'
+
+  'se_getseeds	Simevents method':
+    'prefix': 'se_getseeds	Simevents method'
+    'body': 'se_getseeds(${1:args})'
+
+  'se_randomizeseeds	Simevents method':
+    'prefix': 'se_randomizeseeds	Simevents method'
+    'body': 'se_randomizeseeds(${1:args})'
+
+  'se_setseeds	Simevents method':
+    'prefix': 'se_setseeds	Simevents method'
+    'body': 'se_setseeds(${1:args})'
+
+  'sedb.animate	Simevents method':
+    'prefix': 'sedb.animate	Simevents method'
+    'body': 'sedb.animate(${1:args})'
+
+  'sedb.bdelete	Simevents method':
+    'prefix': 'sedb.bdelete	Simevents method'
+    'body': 'sedb.bdelete(${1:args})'
+
+  'sedb.blkbreak	Simevents method':
+    'prefix': 'sedb.blkbreak	Simevents method'
+    'body': 'sedb.blkbreak(${1:args})'
+
+  'sedb.blkinfo	Simevents method':
+    'prefix': 'sedb.blkinfo	Simevents method'
+    'body': 'sedb.blkinfo(${1:args})'
+
+  'sedb.blklist	Simevents method':
+    'prefix': 'sedb.blklist	Simevents method'
+    'body': 'sedb.blklist(${1:args})'
+
+  'sedb.breakpoints	Simevents method':
+    'prefix': 'sedb.breakpoints	Simevents method'
+    'body': 'sedb.breakpoints(${1:args})'
+
+  'sedb.cont	Simevents method':
+    'prefix': 'sedb.cont	Simevents method'
+    'body': 'sedb.cont(${1:args})'
+
+  'sedb.currentop	Simevents method':
+    'prefix': 'sedb.currentop	Simevents method'
+    'body': 'sedb.currentop(${1:args})'
+
+  'sedb.detail	Simevents method':
+    'prefix': 'sedb.detail	Simevents method'
+    'body': 'sedb.detail(${1:args})'
+
+  'sedb.disable	Simevents method':
+    'prefix': 'sedb.disable	Simevents method'
+    'body': 'sedb.disable(${1:args})'
+
+  'sedb.enable	Simevents method':
+    'prefix': 'sedb.enable	Simevents method'
+    'body': 'sedb.enable(${1:args})'
+
+  'sedb.enbreak	Simevents method':
+    'prefix': 'sedb.enbreak	Simevents method'
+    'body': 'sedb.enbreak(${1:args})'
+
+  'sedb.eninfo	Simevents method':
+    'prefix': 'sedb.eninfo	Simevents method'
+    'body': 'sedb.eninfo(${1:args})'
+
+  'sedb.evbreak	Simevents method':
+    'prefix': 'sedb.evbreak	Simevents method'
+    'body': 'sedb.evbreak(${1:args})'
+
+  'sedb.evcal	Simevents method':
+    'prefix': 'sedb.evcal	Simevents method'
+    'body': 'sedb.evcal(${1:args})'
+
+  'sedb.evinfo	Simevents method':
+    'prefix': 'sedb.evinfo	Simevents method'
+    'body': 'sedb.evinfo(${1:args})'
+
+  'sedb.gceb	Simevents method':
+    'prefix': 'sedb.gceb	Simevents method'
+    'body': 'sedb.gceb(${1:args})'
+
+  'sedb.gcebid	Simevents method':
+    'prefix': 'sedb.gcebid	Simevents method'
+    'body': 'sedb.gcebid(${1:args})'
+
+  'sedb.gcen	Simevents method':
+    'prefix': 'sedb.gcen	Simevents method'
+    'body': 'sedb.gcen(${1:args})'
+
+  'sedb.gcev	Simevents method':
+    'prefix': 'sedb.gcev	Simevents method'
+    'body': 'sedb.gcev(${1:args})'
+
+  'sedb.quit	Simevents method':
+    'prefix': 'sedb.quit	Simevents method'
+    'body': 'sedb.quit(${1:args})'
+
+  'sedb.runtoend	Simevents method':
+    'prefix': 'sedb.runtoend	Simevents method'
+    'body': 'sedb.runtoend(${1:args})'
+
+  'sedb.simtime	Simevents method':
+    'prefix': 'sedb.simtime	Simevents method'
+    'body': 'sedb.simtime(${1:args})'
+
+  'sedb.step	Simevents method':
+    'prefix': 'sedb.step	Simevents method'
+    'body': 'sedb.step(${1:args})'
+
+  'sedb.tbreak	Simevents method':
+    'prefix': 'sedb.tbreak	Simevents method'
+    'body': 'sedb.tbreak(${1:args})'
+
+  'sedebug	Simevents method':
+    'prefix': 'sedebug	Simevents method'
+    'body': 'sedebug(${1:args})'
+
+  'simevents	Simevents method':
+    'prefix': 'simevents	Simevents method'
+    'body': 'simevents(${1:args})'
+
+  'simevents.CustomObserverInterface	Simevents method':
+    'prefix': 'simevents.CustomObserverInterface	Simevents method'
+    'body': 'simevents.CustomObserverInterface(${1:args})'
+
+  'simevents.connectObserver	Simevents method':
+    'prefix': 'simevents.connectObserver	Simevents method'
+    'body': 'simevents.connectObserver(${1:args})'
+
+  'simevents.disconnectObserver	Simevents method':
+    'prefix': 'simevents.disconnectObserver	Simevents method'
+    'body': 'simevents.disconnectObserver(${1:args})'
+
+  'simeventslib	Simevents method':
+    'prefix': 'simeventslib	Simevents method'
+    'body': 'simeventslib(${1:args})'
+
+  'terminate	Simevents method':
+    'prefix': 'terminate	Simevents method'
+    'body': 'terminate(${1:args})'

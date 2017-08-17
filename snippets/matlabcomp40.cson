@@ -1,0 +1,47 @@
+# matlabcomp40 snippets for Atom converted from Sublime Completions
+# Converter created by Renato "Hii" Garcia
+# Repo: https://github.com/Renato-Garcia/sublime-completions-to-atom-snippets
+'.source.matlab, source.m':
+  'sfclipboard	StateFlow method':
+    'prefix': 'sfclipboard	StateFlow method'
+    'body': 'sfclipboard(${1:args})'
+
+  'sfclose	StateFlow method':
+    'prefix': 'sfclose	StateFlow method'
+    'body': 'sfclose(${1:args})'
+
+  'sfgco	StateFlow method':
+    'prefix': 'sfgco	StateFlow method'
+    'body': 'sfgco(${1:args})'
+
+  'sfhelp	StateFlow method':
+    'prefix': 'sfhelp	StateFlow method'
+    'body': 'sfhelp(${1:args})'
+
+  'sflib	StateFlow method':
+    'prefix': 'sflib	StateFlow method'
+    'body': 'sflib(${1:args})'
+
+  'sfnew	StateFlow method':
+    'prefix': 'sfnew	StateFlow method'
+    'body': 'sfnew(${1:args})'
+
+  'sfopen	StateFlow method':
+    'prefix': 'sfopen	StateFlow method'
+    'body': 'sfopen(${1:args})'
+
+  'sfprint	StateFlow method':
+    'prefix': 'sfprint	StateFlow method'
+    'body': 'sfprint(${1:args})'
+
+  'sfroot	StateFlow method':
+    'prefix': 'sfroot	StateFlow method'
+    'body': 'sfroot(${1:args})'
+
+  'sfsave	StateFlow method':
+    'prefix': 'sfsave	StateFlow method'
+    'body': 'sfsave(${1:args})'
+
+  'stateflow	StateFlow method':
+    'prefix': 'stateflow	StateFlow method'
+    'body': 'stateflow(${1:args})'
