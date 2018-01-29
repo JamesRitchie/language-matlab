@@ -2,6 +2,8 @@ fileTypes: [
   "m"
 ]
 name: "MATLAB"
+scopeName: "source.matlab"
+injectionSelector: "source.embedded.matlab"
 patterns: [
   {
     include: "#classdef"
@@ -1034,4 +1036,3 @@ repository:
     comment: "No variables or function names can start with a number or an underscore."
     match: "\\b(_\\w|\\d+[_a-df-zA-DF-Z])\\w*\\b"
     name: "invalid.illegal.invalid-variable-name.matlab"
-scopeName: "source.matlab"
