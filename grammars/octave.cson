@@ -2,6 +2,8 @@ fileTypes: [
   "m"
 ]
 name: "Octave"
+scopeName: "source.octave"
+injectionSelector: "source.embedded.octave"
 patterns: [
   {
     begin: '''
@@ -390,4 +392,3 @@ repository:
     comment: "No variables or function names can start with a number or an underscore."
     match: "\\b(_\\w|\\d+[_a-df-zA-DF-Z])\\w*\\b"
     name: "invalid.illegal.invalid-variable-name.octave"
-scopeName: "source.octave"
