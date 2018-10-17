@@ -239,7 +239,7 @@ repository:
             name: "meta.case.matlab"
           }
           {
-            beginCaptures:
+            captures:
               "0":
                 name: "meta.otherwise-expression.matlab"
               "2":
